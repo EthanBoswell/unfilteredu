@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "On-campus housing at UNC Chapel Hill is extremely scarce and competitive, with students frequently being pushed off campus due to demand. Freshmen are guaranteed housing but missing the priority deadline significantly limits options. Off-campus rent has surged dramatically, with the Chapel Hill area now priced well above what it was a decade ago.",
+    "key_quotes": [
+      "Do you go here? I've literally had friends forced off campus because of how tight on-campus housing is rn",
+      "Housing is tight on campus. Do not decline. Bad idea.",
+      "Just looked up this complex (now called Crosstown at Chapel Hill) and its minimum $1100 for a 1 bedroom 1 bath. And that's the 'special offer'"
+    ]
+  },
+  "social_life": {
+    "summary": "Greek life exists but is financially demanding and implicitly geared toward wealthier students, with dues, outfits, trips, and formals adding up beyond just rush fees. Non-Greek social life revolves around clubs and campus events, and students suggest joining interest-based clubs over Greek life for a more authentic experience. The broader Chapel Hill area offers bars, open mics, and local hangouts on Franklin Street.",
+    "key_quotes": [
+      "Greek life is (intentionally) meant to be for rich kids.",
+      "Don't forget the extra inevitable expenses, not just rushing fees. It's the head-to-toe outfits, the rush bag, mixers, semi-formals, makeup, keeping up with the rich kids, weekend trips, dues",
+      "Just join a club you are interested in and you will get a lot more out of your college experience."
+    ]
+  },
+  "dining": {
+    "summary": "On-campus meal plans are considered wasteful and overpriced, with students frequently ending semesters with large numbers of unused swipes. The off-campus meal plan is only available to off-campus students due to a state law, leaving on-campus students with limited flexible options. Students recommend paying per visit or exploring alternatives like the Agora at Granville for more affordable meals.",
+    "key_quotes": [
+      "I had Block 120 last semester and ended the semester with around 90 swipes left.",
+      "Was told by CDS that off campus plans are only for off campus. Reasoning cited was some state law.",
+      "Look into the Agora at Granville. It's under the Dining FAQ on Granville's Website. Much more affordable and better food."
+    ]
+  },
+  "mental_health": {
+    "summary": "Mental health struggles are openly acknowledged by students, with some noting the difficulty of balancing treatment and hospitalizations with academic demands. The academic pressure, including weed-out STEM courses and grade anxiety, visibly weighs on students. There is some student government advocacy for mental health resources, but students feel the support systems are still inadequate.",
+    "key_quotes": [
+      "The emphasis on mental health means a lot as a student suffering and having to juggle treatment, missing classes due to hospitalization, and more.",
+      "I was extremely depressed and feeling suicidal for a good majority of the semester.",
+      "Thanks for fall break, 2 whole days off school, and many of us have... no real mental health break"
+    ]
+  },
+  "financial_aid": {
+    "summary": "UNC Chapel Hill has strong need-based aid through the Carolina Covenant for low-income students, but merit scholarships are extremely rare outside of the prestigious Morehead-Cain and Robertson programs. Out-of-state students can face sticker prices around $30K/year with little relief, and some students are blindsided by the actual cost. The FAFSA-based aid system can leave students whose parents don't contribute still paying significant amounts.",
+    "key_quotes": [
+      "Not really. There are almost no scholarships at UNC. I am in honors and don't get any money.",
+      "My parents are not paying for my college whatsoever, so how did I not qualify for any need-based scholarships? I just don't know where I'm gonna get 120 thousand dollars from",
+      "I get slightly different aid but I usually get around 3-4 thousand back a semester... Congratulations on the scholarship!"
+    ]
+  },
+  "academics": {
+    "summary": "UNC Chapel Hill is academically rigorous, especially in STEM, with weed-out biology and chemistry courses causing real grade attrition among pre-med students. Standout professors like Mark Peifer in biology are highly praised, and research opportunities are available even for freshmen who proactively reach out to professors. CS and other competitive majors require a separate application process, which surprises some incoming students.",
+    "key_quotes": [
+      "Mark Peifer is the best + my favorite biology professor at UNC. He doesn't waste your time with reading paragraphs upon paragraphs of text.",
+      "I'm a sophomore at UNC Chapel Hill with a major in biology. However in these past two years all I have been getting are C's in the weed out biology and chemistry classes.",
+      "It's never too early; there are many instances where freshman get research opportunities lined up for the fall because they looked into numerous labs and emailed PIs."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "UNC Chapel Hill has a strong school spirit and proud identity, with students and alumni deeply attached to the Tar Heel brand and campus culture. Applicant volume has surged to 84K+, intensifying competition especially for out-of-state students, and the campus is grappling with growing pains around housing and resources. Students who thrive tend to be proactive about research, clubs, and navigating bureaucratic systems independently.",
+    "key_quotes": [
+      "Until 2006, in order to graduate from UNC-Chapel Hill, students had to prove they knew how to swim.",
+      "84K applicants this year... is chapel hill going to become in the mid to low single digit acceptance rate for out of state students.",
+      "I transferred from a more prestigious school to a less prestigious one... Smaller classes, professors were more concerned with teaching than with research"
+    ]
+  },
+  "red_flags": {
+    "summary": "UNC went fully online just one week into the Fall 2020 semester after allowing students to move in, drawing widespread criticism for poor planning and prioritizing tuition revenue over student safety. Housing scarcity is a genuine crisis, with students being pushed off campus and late applicants facing very limited options. Out-of-state students face near-Ivy tuition costs with very little merit aid available.",
+    "key_quotes": [
+      "UNC-Chapel Hill fall semester going online amid COVID-19 outbreaks, one week into classes",
+      "They're already planning to expand admissions over the course of several years... But as it stands right now, they literally don't have the room to add more students.",
+      "me when i drop 70k a year for a state school"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "APPL101 and APPL110 are gen-ed courses that teach practical programming, modeling, and prototyping skills that students across all majors find genuinely valuable for careers. The Carolina Covenant provides substantial financial support including refunds for low-income students, and the program offers networking and professional development beyond just aid. Emailing professors early about research, even before the semester starts, is a legitimate and often successful strategy at UNC.",
+    "key_quotes": [
+      "Consider adding APPL101 or APPL110 to your degree. Both are Gen-ed courses, with lots of valuable skills that you will appreciate in your next career steps.",
+      "I had a similar financial aid/scholarship situation and I received a refund every semester between 5 and 6 thousand.",
+      "It's never too early; there are many instances where freshman get research opportunities lined up for the fall because they looked into numerous labs and emailed PIs."
+    ]
+  }
+}

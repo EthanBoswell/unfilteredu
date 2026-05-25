@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node / Next.js (root-level, if any)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Data — keep data/ in git except large raw scrapes if desired
+# data/unc_raw.json   # uncomment to exclude raw scrape data
