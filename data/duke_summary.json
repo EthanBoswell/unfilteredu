@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Most students live on campus, and the surrounding Durham neighborhoods are generally considered safe enough to live near campus. Students from expensive coastal cities like SF/LA are sometimes warned not to overestimate safety concerns about Durham, as the area is reasonably livable. Graduate students are advised to explore downtown Durham or areas like Trinity Park and southern Walltown.",
+    "key_quotes": [
+      "Durham is not that unsafe 🙄",
+      "There's absolutely no reason to live outside of Durham if you will be at Duke",
+      "I'd stay on the southern side of Walltown and would add Trinity Park to my search"
+    ]
+  },
+  "social_life": {
+    "summary": "Transfer students report significant difficulty breaking into social groups, requiring real personal effort to find community. The Focus program (a first-year academic community) is highly desired, and students who don't get placed into their preferred cluster express frustration. Social integration is not automatic and requires active participation in clubs or community groups.",
+    "key_quotes": [
+      "I won't lie it was very hard for me. You really need to put in effort yourself to find people.",
+      "I spent so much time writing my 4 essays and ended up getting Constellations which is like my 4th choice",
+      "I met one transfer student through a church group who was a great guy and got connected super easily"
+    ]
+  },
+  "dining": {
+    "summary": "There is very little discussion of dining in these posts, suggesting it is not a major talking point among students. No specific complaints or praise about campus food were mentioned.",
+    "key_quotes": [
+      "No specific dining quotes available from this dataset",
+      "No specific dining quotes available from this dataset",
+      "No specific dining quotes available from this dataset"
+    ]
+  },
+  "mental_health": {
+    "summary": "Mental health is not directly discussed in these posts, but the pressure around academic choices, career paths, and uncertainty about ROI on the Duke degree suggest an underlying culture of high expectations and anxiety. Students seem stressed about career outcomes and making the right major decisions.",
+    "key_quotes": [
+      "I'm a graduating high school senior...currently am unsure what path I should take",
+      "I genuinely feel like I could've just went to a state school",
+      "No specific mental health quotes available from this dataset"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Duke offers need-based aid but merit scholarships for medical school are limited and competitive. The university faced significant alumni backlash for revoking a promised lifetime alumni email address, with students citing it as evidence Duke prioritizes cost-cutting over commitments. The broken promise has caused at least some alumni to withhold donations.",
+    "key_quotes": [
+      "It isn't an issue. It's Duke being cheap, they just won't admit it",
+      "Career services made a big deal about using our Duke.edu emails for job applications so I'm on more than 20 portals with that address",
+      "I will not be donating to Duke while this decision stands"
+    ]
+  },
+  "academics": {
+    "summary": "Duke does not offer undergraduate nursing despite being known for its medical programs, which surprises some incoming students. Freshman year is intentionally kept declaration-free to encourage exploration. The Focus program is a competitive and highly valued first-year academic experience, and not getting your preferred cluster is a real and common disappointment.",
+    "key_quotes": [
+      "Duke doesn't have nursing for undergraduates. That won't be available to you.",
+      "There is a reason you're not allowed to declare freshman year. Try for a diverse schedule and you can feel out if it's right for you.",
+      "I heard historically it's uncommon to not get any focus you applied to. I'm curious to how competitive it is this year."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Duke is regarded as a highly prestigious institution with strong networking opportunities, but students note that prestige alone does not guarantee career success — effort and connections matter. The university is recognized globally as elite, appearing on the UK government's list of top American universities for visa purposes. There is some tension between Duke's elite reputation and the real-world outcomes students actually experience.",
+    "key_quotes": [
+      "Like any school, Duke is what you make it. You're not going to automatically have a higher chance of hire just because you're a Duke grad.",
+      "The anecdotal difference between my friends who studied CS at my state school and friends who studied CS at Duke is night and day.",
+      "You have an opportunity of a lifetime at Duke with the people who attend there."
+    ]
+  },
+  "red_flags": {
+    "summary": "Duke revoked a 'lifetime' alumni email promise with minimal notice and defensive weasel-word explanations, angering alumni and raising trust concerns about institutional commitments. CS graduates are reportedly struggling to find jobs in the current market, even from a prestigious school. The Focus program placement process feels opaque and disappointing to many incoming students who put significant effort into applications.",
+    "key_quotes": [
+      "Delaying a broken promise is still a broken promise. The university does not value its commitments.",
+      "I'm seeing Duke grads going years unemployed or underemployed. Isn't being a Duke student supposed to give you a bit of a leg up?",
+      "I spent so much time writing my 4 essays and ended up getting Constellations which is like my 4th choice"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "Duke's MD/PhD program covers full tuition plus a living stipend, making it an exceptional deal for those interested in research medicine. Box, the cloud storage platform, was created by a Duke student and the university maintains a loyalty to it. Emailing professors directly before enrollment to request syllabi is accepted and encouraged, giving proactive students a real advantage in course planning.",
+    "key_quotes": [
+      "If you go the MD/PhD route, they cover all tuition, fees, plus pay you a modest stipend for living expenses.",
+      "Box was created by a Duke student, and there is some loyalty to it.",
+      "I've emailed professors for syllabi multiple times. Just ask politely."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "housing": {
+    "summary": "Notre Dame's dorm system is a core part of campus identity, with weekly masses available in dorms but zero pressure to attend. The residential experience seems tightly integrated with student life. Limited specific complaints about housing quality appeared in posts.",
+    "key_quotes": [
+      "Dorms have weekly masses, but there is no pressure to go and I have never felt pressured into anything spiritual.",
+      "I have never experienced any religious issues here. I think you would be surprised how many anti-theists go to Notre Dame."
+    ]
+  },
+  "social_life": {
+    "summary": "Football is absolutely central to campus culture — students get a season pass for around $250 and games are a massive social event. The campus has a tight-knit feel with strong dorm-based community. The school's Catholic identity shapes the social environment but non-Catholics and atheists report feeling comfortable.",
+    "key_quotes": [
+      "College football is the most important facet of any university.",
+      "I am a hardcore anti-theist atheist who actively trashes religion at any chance I get and I go to Notre Dame. I have never experienced any religious issues here.",
+      "How do you know if someone went to ND? They will slip it in the conversation 5 times in the first 15 minutes of meeting them."
+    ]
+  },
+  "dining": {
+    "summary": "There is almost no substantive discussion of dining halls in these posts. Campus jobs at dining locations like Duncan and LaFun are mentioned as available through the Student Activities Office job board. No strong positive or negative sentiments about food quality surfaced.",
+    "key_quotes": [
+      "If you want to work at any of the desks in LaFun or Duncan, those are under SAO.",
+      "They post them on the job board once a year but I also believe they have an open form you can submit your name to."
+    ]
+  },
+  "mental_health": {
+    "summary": "The University Counseling Center offers free therapy to all students, which is a genuine positive. One student reported receiving free mental healthcare after a serious episode on campus. However, one dismissive comment ('We ranked #1 in student happiness, calm down') in response to a mental health question suggests a cultural tendency to downplay struggles.",
+    "key_quotes": [
+      "Therapy is freely offered through the University Counseling Center. I've never used it personally, but my friends who did never shared any complaints.",
+      "I had a mental health episode on campus freshman year. I received free mental healthcare and therapy the rest of my time at ND.",
+      "We ranked #1 in student happiness. Calm down."
+    ]
+  },
+  "financial_aid": {
+    "summary": "Notre Dame recently became need-blind for both domestic AND international students, which is a major development. However, many middle-class families still find themselves in an 'aid gap' — too wealthy for aid but unable to comfortably afford tuition. Some students report ND being surprisingly affordable compared to other elite privates, with one student paying only $4,000/year.",
+    "key_quotes": [
+      "Notre Dame is now NEED-BLIND for all students — effective immediately for both domestic and international students.",
+      "Notre Dame was my most affordable private school — it wasn't comparable to my state schools, but compared to other private schools I was accepted to, it was cheaper.",
+      "My EFC is around $50k, far from what my family can really afford. I've been trying hard to find alternatives."
+    ]
+  },
+  "academics": {
+    "summary": "The ACMS (Applied and Computational Math and Statistics) major has a documented mismatch between its marketing and real-world job outcomes — students report sitting in an awkward gap between CS and statistics that employers don't value clearly. Notre Dame is consistently cited as strong for finance, business, and pre-law. The dual-degree aerospace engineering program is mentioned as a distinctive option.",
+    "key_quotes": [
+      "I'm a junior ACMS major and I feel like I was misinformed when I chose the major. Companies think it's not domain specific enough like CS and engineering, but it's also not 'general' enough.",
+      "The Notre Dame page on undergrad ACMS leads off with the claim that ACMS is one of '5 College Majors on the Rise' — it does not say the article is from 2009.",
+      "If you wanna work in Finance, go to Cornell, Notre Dame..."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Notre Dame has a uniquely passionate, identity-driven culture that students either love deeply or feel is overhyped. The Catholic mission is present but not coercive, and students across the religious spectrum report feeling comfortable. It's consistently ranked T20 and described as having strong community, school spirit, and a beautiful campus.",
+    "key_quotes": [
+      "Religion is only used to enhance the overall mission of Notre Dame to make you a better person. You can only gain from religion at Notre Dame, it never detracts from your experience.",
+      "Notre Dame sounds so mysterious and has so much aura.",
+      "I was really bummed — Notre Dame was my top choice school... it really is my dream school."
+    ]
+  },
+  "red_flags": {
+    "summary": "Notre Dame's history with sexual assault handling on campus was highlighted in the documentary 'The Hunting Ground,' which specifically named ND as an institution that downplayed assault claims. The ACMS major appears to be poorly positioned in the job market despite university marketing. The middle-class financial aid gap is a real and recurring complaint.",
+    "key_quotes": [
+      "The Hunting Ground is basically about colleges' responses on sexual assault on campus — it focuses on institutions such as Notre Dame and their shrugging off of sexual assault claims.",
+      "I thought I was going into a high demand area, 'data science' and all. I haven't had luck getting an internship while CS and math majors had more than one to choose from.",
+      "I'm in the awkward middle class boat — colleges think you don't need aid but you really do. Therefore, I'm not going."
+    ]
+  },
+  "hidden_gems": {
+    "summary": "International students with full financial aid can access meaningful move-in support including up to $1,000 reimbursement for international flights and a $200 Target gift card through the Office of Student Enrichment. Club sports like soccer have a serious but manageable commitment level. Notre Dame's need-blind policy for international students is brand new and not yet widely known.",
+    "key_quotes": [
+      "As a fellow international student with a similar aid package, OSE move-in funding included a $200 Target gift card and a $1,000 reimbursement for international flights.",
+      "You can find pickup games pretty much anytime on campus in the North fields — there are always more than enough fields to go around.",
+      "Notre Dame is now need-blind for international students — effective immediately. I really encourage everyone, especially international students, to apply."
+    ]
+  }
+}

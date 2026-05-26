@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Dorm information is limited in these posts, but SMU does have residential commons with standard amenities. Students suggest bringing a mattress topper and note that communal showers have curtains. Campus remains open during summer with housing available for internship students.",
+    "key_quotes": [
+      "Mattresses are fine, but as with any other dorm, having a mattress topper is good",
+      "Communals have shower curtains",
+      "SMU requires at least half the credits to be taken there to graduate"
+    ]
+  },
+  "social_life": {
+    "summary": "SMU has a strong Greek life and wealth-focused culture that dominates the social scene, which is a dealbreaker for some students. The school is described as conservative with a heavy emphasis on money and prestige. Wealthy California students are increasingly choosing SMU for its weather and social life.",
+    "key_quotes": [
+      "SMU is a small, conservative, greek oriented university that I have come to realize is not for me at all. I hate the focus on wealth and greek life",
+      "We are Baylor times TCU to the third power. I have more money than you could dream of",
+      "Coming in as a junior is quite an unpleasant experience, even for an extravert, on the basis of finding your group outside of greek life"
+    ]
+  },
+  "dining": {
+    "summary": "There is virtually no discussion of dining options in these posts. Students asking about summer housing received links to official resources but no firsthand dining feedback was offered.",
+    "key_quotes": [
+      "Here's a link to view the dorm options, as well as virtual tours of the rooms",
+      "Libraries remain open during summer, but with cut back hours",
+      "Financial services remain open throughout the summer"
+    ]
+  },
+  "mental_health": {
+    "summary": "Several students report significant unhappiness at SMU, with the culture of wealth and Greek life being a primary driver of dissatisfaction. At least two students transferred or seriously considered leaving due to poor fit. One graduating senior explicitly warned others that 'it really does not get better here.'",
+    "key_quotes": [
+      "As a graduating senior, my advice to you is to leave while you can. It really does not get better here, the people don't change",
+      "I spent my freshman year at SMU and while there were a handful of things I liked, it's not a good fit for me and I was unhappy there most of the time",
+      "I need to keep up my GPA and scholarship so my parents can afford it"
+    ]
+  },
+  "financial_aid": {
+    "summary": "SMU offers substantial merit scholarships, with some students reporting $80k-$100k packages and even full Presidential Scholarships. However, without significant aid the full sticker price is considered very expensive. The school is notably one of the few offering full-ride transfer scholarships, though highly competitive.",
+    "key_quotes": [
+      "Accepted with $80k scholarship",
+      "accepted w 100k direct admit into cox and hilltop scholars program",
+      "I got an email from my mom saying SMU was releasing decisions. I kinda thought 'so what?' and continued moping around... I got the highest merit scholarship"
+    ]
+  },
+  "academics": {
+    "summary": "Cox School of Business is widely regarded as SMU's strongest program, with a strong Dallas-area alumni network and recruiting pipeline. The CS department draws criticism for relying heavily on part-time and visiting professors. Political science is described as genuinely challenging with notable professors.",
+    "key_quotes": [
+      "90% of your undergrad classes will be taught by part-time professor or visitor professor",
+      "The Cox school of business is pretty highly acclaimed with thousands of internships, full-time employment opportunities and networking in the DFW area",
+      "None of the professors I've had for upper-level political science classes gives easy A's, you have to work for it"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "SMU is consistently described as a wealthy, conservative, Greek-dominated school in a beautiful Highland Park setting. It punches above its weight for business in the Texas market but has a homogenous culture that strongly favors students who fit the affluent preppy mold. Students who don't fit that mold often leave.",
+    "key_quotes": [
+      "The area surrounding SMU is beautiful and just Highland Park which is just full of nice houses and mansions",
+      "USC = SMU (as California vs Texas counterparts)",
+      "My dad has more net worth than Baylor"
+    ]
+  },
+  "red_flags": {
+    "summary": "Multiple current and former students independently flagged the wealth-obsessed, Greek-centric culture as toxic for students who don't fit in. The CS department is considered weak with heavy adjunct reliance. Meadows School of the Arts was called out for using AI-generated content in official ads, signaling a disconnect between stated values and institutional behavior.",
+    "key_quotes": [
+      "It really does not get better here, the people don't change, and you only waste more time the longer you stay",
+      "I find it absolutely overpriced and weak. It is absolutely a waste of money with the quality you have to pay",
+      "Why would an art school with a great visual arts department elect to use AI slop as their Instagram ad? For a degree in arts leadership no less"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "SMU's location in Dallas gives business students exceptional access to one of the strongest job markets in the country, with a deeply loyal local alumni network. The school offers personalized acceptance letters that reference specific applicant details, suggesting genuine attention to students. Transfer students who get into Cox with strong stats can access a legitimately competitive business program.",
+    "key_quotes": [
+      "SMU if you want to live and work in Dallas Texas. Local alums make a huge difference",
+      "In my acceptance letter they mentioned key information that I gave them — specific extracurriculars. It made me feel like they actually read my application",
+      "Get your degree from the state school, work in industry for 5+ years, then apply to their MBA program down the line — or SMU is the better choice for ROI if price is equal to A&M"
+    ]
+  }
+}

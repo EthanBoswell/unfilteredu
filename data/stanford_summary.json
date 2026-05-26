@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Limited direct housing discussion in these posts. Stanford's residential experience includes dorms, and the campus itself is described as beautiful with lots of trees and Spanish architecture. The quarter system means students don't get a traditional 'dead week' before finals.",
+    "key_quotes": [
+      "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week",
+      "Campus is really beautiful, lots of trees and grass and Spanish architecture.",
+      "I'm doing a graduate program here now... sitting in my room in the stanford dorms"
+    ]
+  },
+  "social_life": {
+    "summary": "Stanford has a reputation for appearing relaxed on the surface while students work intensely underneath — the classic 'duck phenomenon.' Fountain hopping is mentioned as a genuine student tradition. The campus attracts tourists on weekends which some find surprising.",
+    "key_quotes": [
+      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon (for Stanford)",
+      "Can confirm as a high school student nearby, fountain hopping is the best. Especially on XC runs.",
+      "When we were there once on a weekend, we saw a ton of tourists on campus on a weekend. Like having picnics everywhere."
+    ]
+  },
+  "dining": {
+    "summary": "Stanford dining gets genuinely positive reviews from those familiar with it, described as delicious with strong variety including vegan options. However, off-campus dining in Palo Alto is expensive, and the surrounding area skews wealthy with upscale restaurants.",
+    "key_quotes": [
+      "the Stanford dining options are delicious. They've got waffles, soft-serve ice cream, pasta and all kinds of vegan shit that actually taste good.",
+      "Outside dining is expensive as heck",
+      "there's a fricking Nobu in downtown Palo Alto"
+    ]
+  },
+  "mental_health": {
+    "summary": "The pressure-cooker culture of feeder high schools near Stanford (Palo Alto, Gunn, Monta Vista) is well documented and concerning, suggesting students arrive already stressed. The duck phenomenon at Stanford itself — looking calm while grinding hard — implies mental health struggles may be hidden rather than addressed. The quarter system with no dead week adds academic pressure.",
+    "key_quotes": [
+      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
+      "we have a quarter system so we don't have dead week",
+      "Palo Alto: Silicon Valley big daddy model... These schools be thicccc with that steam"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Very little direct discussion of Stanford financial aid in these posts. Stanford's cost is implicitly treated as prohibitive, with the school serving as a reach applied to primarily by high-achieving students. No specific aid packages or policies are discussed.",
+    "key_quotes": [
+      "I would give my left arm to go to Stanford.",
+      "Stanford... have fun w the wildfires!",
+      "Both schools cost around the same for me, so that is not a factor"
+    ]
+  },
+  "academics": {
+    "summary": "Stanford is consistently viewed as stronger than Yale for STEM, particularly the 'T' and 'E' components, and is considered a top-three school globally for deeptech alongside MIT and Berkeley. The quarter system is a notable structural feature that affects academic pacing. CS and engineering are seen as flagship strengths, with strong connections to Silicon Valley.",
+    "key_quotes": [
+      "Stanford is genuinely much stronger than Yale for the 'T' and 'E' parts of STEM",
+      "The three heavyweights in that arena are Stanford, MIT, and Berkeley.",
+      "There is a great deal of deeptech coming out of Stanford. Wouldn't have that as a potential con to Stanford at all."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Stanford is perceived as beautiful, sunny, and technically elite but with a somewhat isolated suburban setting in Palo Alto. The weather and campus aesthetics are consistently praised. It sits in a wealthy, tech-dominated bubble that some find exciting and others find limiting compared to a true urban environment.",
+    "key_quotes": [
+      "the weather here from fall-spring is a consistent 65-75... it barely rains",
+      "Campus is really beautiful, lots of trees and grass and Spanish architecture.",
+      "How is Palo Alto a con? Sure it's not San Francisco but it's a pretty cool city and perfectly situated for tech internships."
+    ]
+  },
+  "red_flags": {
+    "summary": "An admissions officer was literally arrested for attempted murder while on LSD, highlighting how random and human-error-prone the admissions process is. The duck phenomenon suggests a culture of hiding stress rather than addressing it. The quarter system eliminates dead week, meaning students get less recovery time before finals than at semester schools.",
+    "key_quotes": [
+      "An assistant director of admissions at Stanford University is facing charges of attempted murder and domestic violence in what is believed to be a drug-fueled attack",
+      "it's so random and based on chance and luck... Your fate is determined by how the AO felt at that particular moment",
+      "additional bad thing about stanford - we have a quarter system so we don't have dead week"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "Fountain hopping is a beloved unofficial student tradition not advertised on any tour. The campus is openly accessible to the public including tourists, making it a genuinely open environment unlike many elite schools. Proximity to San Francisco (about an hour by Caltrain) and Silicon Valley internship access are practical advantages students emphasize over prestige alone.",
+    "key_quotes": [
+      "fountain hopping is the best. Especially on XC runs.",
+      "you're next to a (albeit very expensive) downtown area and an hour caltrain ride to San Francisco",
+      "perfectly situated for tech internships"
+    ]
+  }
+}

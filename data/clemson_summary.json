@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Off-campus housing in the Clemson area appears to be a concern, with students being urged to carefully vet landlords before signing leases. Sublease options exist around $625-800/month. The data is sparse on on-campus housing specifics, but RCM (Resident Community Mentor) training is a known pathway for students seeking on-campus roles.",
+    "key_quotes": [
+      "We may have room at our son's place... Place is 625 a month at Woodlands.",
+      "Me and my current roommate are going abroad next spring and need a lease for this fall... not interested in any leases more than 800 a month.",
+      "As everyone heads home for summer... if you lived off-campus this year, especially if you [had issues], leave some honest feedback that could help other students."
+    ]
+  },
+  "social_life": {
+    "summary": "Clemson has a strong, passionate community identity and school spirit, with students frequently describing it as a place that feels like home. The social scene is heavily tied to sports culture and Greek life. However, at least one student bluntly flagged that Clemson's diversity 'is absolutely trash,' which is a notable concern for students from more diverse backgrounds.",
+    "key_quotes": [
+      "Clemson is truly an amazing place and I hope everyone gets to experience having a home like this in their lifetime.",
+      "Clemson's diversity is absolutely trash.",
+      "me being a gay man in clemson on grindr trying to figure out who bc im nosy — i would definitely let her know. there are many closeted guys on there."
+    ]
+  },
+  "dining": {
+    "summary": "There is essentially no discussion of dining halls or campus food in these posts. This is a notable gap — prospective students should seek out Clemson-specific subreddit threads or visit in person to evaluate dining quality and meal plan costs.",
+    "key_quotes": [
+      "No dining-related quotes available in this dataset.",
+      "No dining-related quotes available in this dataset.",
+      "No dining-related quotes available in this dataset."
+    ]
+  },
+  "mental_health": {
+    "summary": "Mental health is not directly addressed in Clemson-specific posts, though the general stress of college life surfaces. One Clemson commenter noted 'it somehow made another stressful semester feel worth it in the end,' suggesting academic pressure is real but manageable for many. Students considering pre-med tracks should be aware the workload is demanding.",
+    "key_quotes": [
+      "This year was a mix of late nights, random memories, stressful moments, great people, and a lot of lessons learned.",
+      "As someone who is done with Clemson (recently) all I have to say is: Good luck.",
+      "Go to whichever school will leave you in the least amount of debt — here is what no one tells you: getting a degree only helps you get in the door."
+    ]
+  },
+  "financial_aid": {
+    "summary": "Clemson offers competitive merit scholarships, with the Clemson National Scholars Program being particularly prestigious and reportedly highly effective for pre-med students. In-state tuition makes Clemson a strong value proposition, and multiple posts show students choosing it over more expensive out-of-state options. Out-of-state costs are described as 'next level' expensive, so OOS students need to aggressively pursue merit aid.",
+    "key_quotes": [
+      "If it's the Clemson National Scholars Program, I would take that every single time, and twice on Sundays — every pre-med Clemson National Scholar got into medical school.",
+      "Clemson. Come on. Why is this even a question? Cost is the decisive factor.",
+      "those OOS costs are next level — check scholarshipowl for extra merit scholarship options."
+    ]
+  },
+  "academics": {
+    "summary": "Clemson is consistently praised for engineering, with students and advisors noting it competes well with schools like NC State and Penn State. Pre-med students with full-ride scholarships like the National Scholars Program reportedly have excellent med school outcomes. However, Clemson does not have a neuroscience major, which surprised at least one prospective student, so major availability should be verified early.",
+    "key_quotes": [
+      "Clemson does not have [neuroscience as a major] — I want to major in neuroscience, but Clemson does not have that.",
+      "As an engineering manager, I've hired from both schools [Clemson and NC State]. Equally good schools.",
+      "From what I've heard, Clemson's [engineering program] is better [than USC's]."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Clemson has an intensely loyal alumni and student base who describe the school as a true 'home.' The culture is strongly tied to athletics and Southern traditions. It's seen as a solid, reputable school — not flashy or elite — but one that delivers real outcomes, especially for in-state students who take advantage of merit scholarships and honors programs.",
+    "key_quotes": [
+      "Clemson is truly an amazing place and I hope everyone gets to experience having a home like this in their lifetime.",
+      "I applied to Clemson because my AP Gov teacher went there and always talked about how much she loved it.",
+      "Ohio State, Clemson, GWU, U South Carolina, Rutgers, VCU — but dear god, I've never been happier."
+    ]
+  },
+  "red_flags": {
+    "summary": "The most direct red flag raised by a current or prospective student is Clemson's lack of racial and ethnic diversity, described bluntly as 'absolutely trash.' There are also concerns about Clemson being more selective and expensive for out-of-state students than many assume, with at least one high-achieving student being deferred then denied. The bridge program (being admitted to a satellite campus rather than main campus) is a real possibility students should research.",
+    "key_quotes": [
+      "Clemson's diversity is absolutely trash.",
+      "I got bridged for Clemson, meaning I'm paying Clemson campus prices for community college classes.",
+      "Clemson (Applied Summer 2025) - Deferred then Denied."
+    ]
+  },
+  "hidden_gems": {
+    "summary": "The Clemson National Scholars Program is a standout hidden gem — it offers a full ride with extras and reportedly has a near-perfect medical school acceptance rate for its participants. Clemson's honors college is accessible to strong SC students and offers meaningful perks. For music students, one commenter noted USC has stronger music programs than Clemson, which is useful comparative intel rarely shared on tours.",
+    "key_quotes": [
+      "If it's the Clemson National Scholars Program, I would take that every single time — as of a few years back, every pre-med Clemson National Scholar got into medical school.",
+      "I got into a great chunk of schools plus the Clemson Honors College!",
+      "In general, USC's music programs are at a much higher level than Clemson's — if music is important to you, then USC is the clear choice."
+    ]
+  }
+}

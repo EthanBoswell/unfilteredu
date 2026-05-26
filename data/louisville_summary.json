@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Housing at UofL has documented mold problems and a reported crisis in residential availability. Parking for commuter students is a serious issue, with some students missing class due to lack of spaces. Off-campus options like UPointe and Derby Row exist, with Derby Row's parking garage occasionally having lighting issues.",
+    "key_quotes": [
+      "there are plenty of mold problems",
+      "commuter students' grades suffer because there's no where for them to park to even get to class",
+      "occasionally the lights in the garage would shut off at night and it was horrifying"
+    ]
+  },
+  "social_life": {
+    "summary": "Commuter students report significant difficulty making friends, which is a recurring theme. The bar scene includes spots like Granny, the Tavern, and Zanzabar, and student organizations like BSU exist for community. The r/uofl subreddit is noted as being very low-traffic, with most campus social activity happening on Snapchat, YikYak, and Facebook groups.",
+    "key_quotes": [
+      "being a commuter student makes it very difficult to make friends, especially since I am not from KY",
+      "Granny (Granville), the tav (tavern) and zbar (Zanzabar)",
+      "nobody is on this subreddit"
+    ]
+  },
+  "dining": {
+    "summary": "There is almost no discussion of campus dining in the posts, suggesting it is not a standout feature. Cardinal Cash can be used at some off-campus locations including a nearby Speedway gas station. Students working in food service nearby (like Panera) mention it as a way to get through undergrad financially.",
+    "key_quotes": [
+      "It looks like it! [Cardinal Cash works at off-campus locations]",
+      "Panera was what got me through undergrad, but anywhere on the strips around campus",
+      "every Thursday, I go to the Commuters and Transfer Student event where they give away free donuts"
+    ]
+  },
+  "mental_health": {
+    "summary": "There is little direct mention of mental health resources, though the advising podcast discussion hints at burnout and academic stress being real concerns. The collapse of the honors department and lack of support systems are cited as grievances. Students failing classes for the first time and managing procrastination are flagged as underserved topics.",
+    "key_quotes": [
+      "You've got straight A's your entire life, and now you just failed a class. Now what?",
+      "the collapse of their honors department and the lack of support",
+      "Honestly, I'd want episodes that are practical like how to choose the right courses, avoid burnout, manage procrastination"
+    ]
+  },
+  "financial_aid": {
+    "summary": "UofL is frequently cited as a very cost-effective option, especially for in-state students, and often comes with strong merit scholarships like the Grawemeyer Scholars ($28k/year). Taking a gap year can forfeit freshman scholarships, which caught at least one student off guard. Aid refunds disburse quickly after the first class starts.",
+    "key_quotes": [
+      "If you do not apply to university DIRECTLY after high school, you forfeit any potential scholarships that require you to be a 'first time freshman'",
+      "a $28000/yr scholarship that would essentially make a full ride scholarship",
+      "so far Madison and Louisville are the most cost effective"
+    ]
+  },
+  "academics": {
+    "summary": "UofL is considered a solid regional university with credible programs in engineering (Speed School), political science, biology, and social work, though it is not highly ranked nationally. The Speed School of Engineering is described as hard with no semester breaks and a group-project-heavy culture where one person often ends up doing all the work. Advisors and faculty get mixed reviews, with some being very helpful and others falling short.",
+    "key_quotes": [
+      "It's hard, you don't get semester breaks and you don't get time off",
+      "I got an A but that was from me doing all the work for my group if that tells you anything",
+      "How to get help when your advisor is not very helpful"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "UofL is seen as a practical, affordable choice for in-state students rather than a destination school, with a decent academic reputation but significant administrative frustrations. The campus has a commuter-heavy culture that can make community feel fragmented. Students who thrive tend to be proactive about finding clubs, events, and off-campus social life.",
+    "key_quotes": [
+      "UofL is a great school academically at least and the libraries are awesome",
+      "yes, we have highly accredited programs, but the lack of concern for students is appalling",
+      "I could write an entire essay on my grievances with the university"
+    ]
+  },
+  "red_flags": {
+    "summary": "The university president reportedly gave himself a $750,000 Christmas bonus while students faced parking and housing crises, signaling a disconnect between administration and students. Staff layoffs (RIFs) appear to be coming, with long-term employees being targeted. The administration is widely described as unresponsive to student concerns.",
+    "key_quotes": [
+      "'president' gerry bradley gave himself a $750,000 christmas bonus, all while commuter students' grades suffer because there's no where for them to park",
+      "the school does not listen to concerns",
+      "UofL RIF's are coming — it was only a matter of time"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "UofL has strong pre-med clinical pathways through Norton Healthcare and other local health systems that students may not know about. The library system is praised, and there are piano practice rooms available to non-music majors at the School of Music. The EngageUofL platform lists campus events including free food for commuters on Thursdays.",
+    "key_quotes": [
+      "Check out Norton's opportunities! They have some cool stuff",
+      "You should be able to use any of the practice rooms at the school of music",
+      "every Thursday, I go to the Commuters and Transfer Student event where they give away free donuts"
+    ]
+  }
+}

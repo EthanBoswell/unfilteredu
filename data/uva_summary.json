@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Off-grounds housing near JPA (Jefferson Park Avenue) is the dominant option for upperclassmen, with rents around $1,000-$1,150/month including parking. Copeley apartments exist but are seen as isolated from campus life. First-year housing is mostly same-gender by floor or suite, with mixed-gender opt-in available.",
+    "key_quotes": [
+      "I'll be staying at The Standard in a 4 bedroom for $1085/month, but parking is an additional cost",
+      "Which Copeley? There were three phases. One was torn down recently and is getting replaced by a parking garage",
+      "Most people live in same gender suites or same gender floors"
+    ]
+  },
+  "social_life": {
+    "summary": "UVA has a strong Greek life presence and is perceived as a party school, but also carries a notably preppy reputation that turns some people off. The school is consistently mentioned as a top-tier social experience alongside strong academics. Some students worry about being isolated if they don't plug into the dominant social scene early.",
+    "key_quotes": [
+      "UVA!! Ranked top 20 in academics, top in most beautiful campuses, and top in party schools. Perfect school.",
+      "UVA was so preppy when I visited. I absolutely loved UNC though.",
+      "I wanted to join a frat as it looks like a lot of fun but I feel like I might not even rush anyway cuz im a bit scared"
+    ]
+  },
+  "dining": {
+    "summary": "There is virtually no discussion of dining hall quality in these posts, which likely means it is neither a standout positive nor a major complaint driving Reddit conversation. Off-grounds students manage their own food near JPA with access to nearby groceries.",
+    "key_quotes": [
+      "is there any grocery store and job opportunities in the area?",
+      "Rent is 1k per month, we are all friendly and like to do our own things here as well, the place has a living room, big kitchen + dining area",
+      "Textbooks are class dependent. Some courses require physical, some have digital, and some don't use textbooks at all"
+    ]
+  },
+  "mental_health": {
+    "summary": "Academic suspension due to substance abuse appears to be a real and documented issue at UVA, with an internal appeals committee that takes it seriously. The pressure-cooker admissions culture that feeds into UVA creates students who arrive already stressed. No specific on-campus mental health resources are praised or criticized in these posts.",
+    "key_quotes": [
+      "In order to get to this point, a student has to have had multiple semesters of struggles... Is it acceptable to just say you will no longer party and drink too much?",
+      "Easy to say, harder to do if you continue in the same social and living environment",
+      "I've felt myself spiraling further and further into my depression and an elitist mindset"
+    ]
+  },
+  "financial_aid": {
+    "summary": "UVA meets 100% of demonstrated need for in-state students and offers substantial aid packages, making it a strong financial value for Virginia residents. However, sibling enrollment no longer boosts aid under current federal methodology, and out-of-state students face a steep cost around $59,906 in tuition and fees. The Access Scholarship program exists for low-income students but recipients fear losing it.",
+    "key_quotes": [
+      "If I go to UVA, I would be getting the instate tuition and fees and they will meet 100% of my demonstrated need",
+      "Has anyone had their Access Scholarship dropped for academic reasons or significantly reduced? I wouldn't be able to afford UVA without it",
+      "Year 1, received about 30k with a sibling in another university, year 2,3,4 nada"
+    ]
+  },
+  "academics": {
+    "summary": "ECON 3010 is the known weed-out course for economics majors, involving heavy algebra and calculus. The E-School (engineering) is rigorous with strict prerequisite chains, and internal transfers into engineering are competitive. The Echols Scholars program is a recognized honors track that appears on strong applicants' acceptances.",
+    "key_quotes": [
+      "ECON 3010 will use some parts of Calc 1... That's the weed out class, it's as hard as it gets",
+      "I transferred out of UVA because the econ program wasn't as quantitative as I wanted it to be",
+      "UVA is highly regarded and considered one of the finest institutions in the US... work on tearing down this notion that UVA isn't prestigious"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "UVA is broadly respected as a top public university with a beautiful campus, strong academics, and active social scene, but it carries a distinct preppy, upper-class culture that is a genuine fit issue for some students. It is consistently recommended over Virginia Tech for prestige and versatility, but VT is preferred for engineering depth. Students who thrive here tend to be socially confident and comfortable in a traditionally collegiate environment.",
+    "key_quotes": [
+      "UVA, to me, just seems like a place that's riding on rank",
+      "Anyone who got accepted to UVA would choose it over VT. You're only considering it because of a girl.",
+      "UVA came across as a bit too preppy to me, and that may be a bit of a turn off"
+    ]
+  },
+  "red_flags": {
+    "summary": "A sexual assault case involving a fraternity drew significant criticism of UVA's administration for prioritizing institutional reputation over student safety. The university's response was described as impersonal and legally defensive rather than genuinely supportive. This is a real and documented concern, not just perception.",
+    "key_quotes": [
+      "I feel like the University really isn't doing much other than covering its own ass when it comes to this",
+      "Universities are more willing to protect their reputation than their students",
+      "Every couple of sentences has something in it to make sure they are following the law so they don't get in trouble"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "The Echols Scholars program is a notable honors track that top admitted students receive, offering additional academic flexibility. The autonomous racing engineering club is described as active and competitive, covering robotics, cars, and engineering in a unique way. UVA's in-state tuition combined with 100% need-met aid makes it an exceptional financial value that rivals much more expensive private schools.",
+    "key_quotes": [
+      "Cavalier autonomous racing still very active. They have recruiting events every semester",
+      "UVA EA - accepted + Echols scholar program",
+      "UVA is one of the best educations you can get inside the US... Don't walk away from a very good thing"
+    ]
+  }
+}

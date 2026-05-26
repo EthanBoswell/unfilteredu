@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Limited direct discussion of on-campus housing in these posts. BC Law students debated whether living 20 minutes away in South Boston is worth it versus living closer to campus, with traffic being a significant concern. Graduate and law students seem to commonly commute rather than live on campus.",
+    "key_quotes": [
+      "Factor in traffic for sure. Could be 20 minutes could take an hour to get to BC",
+      "20 minutes is not bad and is less of a commute than many people do. Social events are not frequent enough to warrant living in walking distance",
+      "As a 1L you will have to commute daily which might be a pain"
+    ]
+  },
+  "social_life": {
+    "summary": "BC has distinct senior week traditions including Dance Through the Decades and Commencement Ball, suggesting a strong social culture around milestone events. The school has a notable Jesuit identity that factors into student life. Boston's college-dense environment is seen as a social advantage over schools like NYU.",
+    "key_quotes": [
+      "Boston is a lot more 'student friendly' because there are so many colleges in the area (BC, BU, Harvard, MIT, Brandeis, Olin, UMass, Simmons, etc.)",
+      "It was my fave part of senior week! People dress up in a 'decade' and the music played is mostly 70s-90s music. Tons of singing along and just overall a ton of fun!",
+      "It's a dance where you take yourself less seriously than Comm Ball. This is one where you get to be a little goofy and just have fun"
+    ]
+  },
+  "dining": {
+    "summary": "There is virtually no discussion of dining halls or food quality in any of these Reddit posts. This category cannot be meaningfully assessed from the available data.",
+    "key_quotes": [
+      "No relevant quotes available in the dataset",
+      "No relevant quotes available in the dataset",
+      "No relevant quotes available in the dataset"
+    ]
+  },
+  "mental_health": {
+    "summary": "No direct discussion of BC's mental health resources appears in these posts. The broader admissions stress context is present across multiple posts, but nothing specific to BC's counseling or wellness support services.",
+    "key_quotes": [
+      "No relevant quotes available in the dataset",
+      "No relevant quotes available in the dataset",
+      "No relevant quotes available in the dataset"
+    ]
+  },
+  "financial_aid": {
+    "summary": "BC's financial aid is entirely need-based except for the Gabelli Scholars program. Aid is recalculated annually via FAFSA, so students whose family income increases will see aid decrease. Students who get off the waitlist report receiving financial aid packages within hours of their acceptance.",
+    "key_quotes": [
+      "Outside of Gabelli Scholars, ALL financial aid is based on income/need. If your family income goes up 'a lot' you'll receive less aid. If it stays relatively the same, your aid will as well",
+      "I received my financial aid a few hours after I got my email saying that I was taken off of their waitlist",
+      "Unless your parents' (or your) income has changed dramatically, I don't think your finaid will change"
+    ]
+  },
+  "academics": {
+    "summary": "CSOM enforces a strict grade distribution curve where only ~15% of students can receive an A and only ~35% can receive an A- or higher, which is a major shock for high-achieving transfers. Political Science is described as a light major in terms of requirements with great professors, but internships require students to be proactive. BC's Jesuit identity is a notable part of the academic and campus culture.",
+    "key_quotes": [
+      "There is a grade distribution enforced by the school. Only ~15% of students can get an A, ~35% an A- or higher, and ~70% a B+ or higher",
+      "Professors are great. Internships require you to be proactive. You can definitely double major—it is a light major in terms of requirements",
+      "I had a great experience doing a political science degree at Boston College, they have a fantastic program. You're going to fail if you don't learn how to write with punctuation though"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "BC is perceived as a competitive, Catholic, Jesuit-identified institution with a strong social scene rooted in its Boston location. It sits solidly in the T35 range nationally and is seen as a respectable but not elite target school. The campus community has meaningful traditions and a tight-knit feel, though the academic pressure from grade deflation is real.",
+    "key_quotes": [
+      "Getting admitted to USC, Middlebury, Swarthmore, Vassar and BC hardly seems like 'getting cooked'",
+      "My biggest concern was the ability to travel abroad [as a pre-med with Jesuit identity considerations]",
+      "Boston is a lot more 'student friendly' because there are so many colleges in the area"
+    ]
+  },
+  "red_flags": {
+    "summary": "The enforced grade distribution curve in CSOM is a serious concern — only the top 15% of students can earn an A, which can tank GPAs for students used to getting top grades elsewhere. BC's Canvas learning management system was hacked during finals, disrupting exams with no warning. The admissions process is highly competitive and the rejection letter language is notably cold.",
+    "key_quotes": [
+      "Only ~15% of students can get an A, ~35% an A- or higher, and ~70% a B+ or higher. The curve might be more relaxed in other schools",
+      "Canvas hacked?! I was in the middle of an exam — Cyberattack knocks out Canvas at Boston College during finals period, threatens data leak",
+      "IN THE FIRST PARAGRAPH THEY FULLY SAID 'after evaluating your credentials in the context of a talented group of candidates, we regret to inform you that we are unable to offer you admission'"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "BCF1RST (College Transition Program) is a lesser-known pre-arrival program that helps incoming students adjust to campus in a relaxed environment with student mentors. The Political Science major has surprisingly light requirements while still offering strong professor relationships. BC Law students note the school is highly responsive to prospective and admitted students, with AOs answering questions quickly and thoroughly.",
+    "key_quotes": [
+      "CTP helps getting adjusted to the campus in a more relaxed environment and knowing some people before you officially start",
+      "Political science is a light major in terms of requirements — you can definitely double major",
+      "I emailed my AO a few questions about their Jesuit identity and how my major would affect the ability to study abroad. My biggest concern was the ability to travel abroad — they responded quickly"
+    ]
+  }
+}

@@ -1,49 +1,41 @@
-import fs from "fs";
-import path from "path";
-import Navbar from "@/components/Navbar";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
+import { getSchoolBySlug } from "@/lib/schools";
+import { loadSummary, getAvailableSlugs } from "@/lib/data";
+import type { CategoryData } from "@/lib/schools";
 
-export const metadata: Metadata = {
-  title: "UNC Chapel Hill — UnfilteredU",
-  description:
-    "Real student opinions about UNC Chapel Hill from Reddit. Housing, dining, academics, red flags, and hidden gems.",
-};
+export async function generateStaticParams() {
+  return getAvailableSlugs().map((slug) => ({ slug }));
+}
 
-type CategoryData = {
-  summary: string;
-  key_quotes: string[];
-};
-
-type Summary = {
-  housing: CategoryData;
-  social_life: CategoryData;
-  dining: CategoryData;
-  mental_health: CategoryData;
-  financial_aid: CategoryData;
-  academics: CategoryData;
-  overall_vibe: CategoryData;
-  red_flags: CategoryData;
-  hidden_gems: CategoryData;
-};
-
-function loadSummary(): Summary {
-  const jsonPath = path.join(process.cwd(), "..", "data", "unc_summary.json");
-  return JSON.parse(fs.readFileSync(jsonPath, "utf-8")) as Summary;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const school = getSchoolBySlug(slug);
+  const name = school?.name ?? slug;
+  return {
+    title: `${name} — UnfilteredU`,
+    description: `Real student opinions about ${name} from Reddit. Housing, dining, academics, red flags, and hidden gems.`,
+  };
 }
 
 const FAKE_USERNAMES = [
-  "tar_heel_2024",
-  "unc_freshman",
-  "chapel_hill_local",
   "anon_student",
-  "ram_student_99",
-  "carolina_blue",
-  "franklin_st_fan",
-  "north_carolina_born",
-  "heel_alum",
-  "unc_survivor",
-  "study_hall_hero",
+  "college_bound_24",
+  "reddit_lurker99",
+  "freshman_vibes",
+  "campus_insider",
+  "honest_review",
+  "student_life_real",
+  "dorm_dweller",
+  "late_night_study",
   "quad_walker",
+  "first_gen_student",
+  "transfer_tales",
 ];
 
 function quoteUsername(quoteIndex: number, cardIndex: number): string {
@@ -64,9 +56,7 @@ function RedditQuote({ quote, username }: { quote: string; username: string }) {
       <div className="flex items-start gap-2">
         <UpvoteIcon className="w-3.5 h-3.5 text-[#EF6C35] mt-1 shrink-0" />
         <div className="min-w-0">
-          <span className="text-xs font-semibold text-[#EF6C35]">
-            u/{username}
-          </span>
+          <span className="text-xs font-semibold text-[#EF6C35]">u/{username}</span>
           <p className="text-slate-600 mt-0.5 leading-relaxed italic">
             &ldquo;{quote}&rdquo;
           </p>
@@ -76,19 +66,15 @@ function RedditQuote({ quote, username }: { quote: string; username: string }) {
   );
 }
 
-type CardTheme = {
-  icon: string;
-  iconBg: string;
-  labelColor: string;
-};
+type CardTheme = { icon: string; iconBg: string; labelColor: string };
 
 const CARD_THEMES: Record<string, CardTheme> = {
-  housing:      { icon: "🏠", iconBg: "bg-blue-50",   labelColor: "text-blue-700"   },
-  social_life:  { icon: "🎉", iconBg: "bg-purple-50", labelColor: "text-purple-700" },
-  dining:       { icon: "🍽️", iconBg: "bg-amber-50",  labelColor: "text-amber-700"  },
-  mental_health:{ icon: "🧠", iconBg: "bg-teal-50",   labelColor: "text-teal-700"   },
-  financial_aid:{ icon: "💰", iconBg: "bg-yellow-50", labelColor: "text-yellow-700" },
-  academics:    { icon: "📚", iconBg: "bg-indigo-50", labelColor: "text-indigo-700" },
+  housing:       { icon: "🏠", iconBg: "bg-blue-50",   labelColor: "text-blue-700"   },
+  social_life:   { icon: "🎉", iconBg: "bg-purple-50", labelColor: "text-purple-700" },
+  dining:        { icon: "🍽️", iconBg: "bg-amber-50",  labelColor: "text-amber-700"  },
+  mental_health: { icon: "🧠", iconBg: "bg-teal-50",   labelColor: "text-teal-700"   },
+  financial_aid: { icon: "💰", iconBg: "bg-yellow-50", labelColor: "text-yellow-700" },
+  academics:     { icon: "📚", iconBg: "bg-indigo-50", labelColor: "text-indigo-700" },
 };
 
 function CategoryCard({
@@ -157,22 +143,31 @@ function GreenRedditQuote({ quote, username }: { quote: string; username: string
   );
 }
 
-export default function UNCPage() {
-  const summary = loadSummary();
+export default async function SchoolPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
-  const mainCategories: Array<{ key: keyof Summary; label: string }> = [
-    { key: "housing",      label: "Housing"       },
-    { key: "social_life",  label: "Social Life"   },
-    { key: "dining",       label: "Dining"        },
-    { key: "mental_health",label: "Mental Health" },
-    { key: "financial_aid",label: "Financial Aid" },
-    { key: "academics",    label: "Academics"     },
-  ];
+  const availableSlugs = getAvailableSlugs();
+  if (!availableSlugs.includes(slug)) {
+    notFound();
+  }
 
-  const stats = [
-    { icon: "📋", label: "84K+ Applicants"     },
-    { icon: "🏠", label: "Competitive Housing" },
-    { icon: "🐏", label: "Strong School Spirit" },
+  const school = getSchoolBySlug(slug);
+  const name = school?.name ?? slug;
+  const location = school?.location ?? "";
+  const stats = school?.stats ?? [];
+  const summary = loadSummary(slug);
+
+  const mainCategories: Array<{ key: keyof typeof summary; label: string }> = [
+    { key: "housing",       label: "Housing"       },
+    { key: "social_life",   label: "Social Life"   },
+    { key: "dining",        label: "Dining"        },
+    { key: "mental_health", label: "Mental Health" },
+    { key: "financial_aid", label: "Financial Aid" },
+    { key: "academics",     label: "Academics"     },
   ];
 
   return (
@@ -181,7 +176,6 @@ export default function UNCPage() {
 
       {/* Hero */}
       <section className="bg-[#2B2D42] relative overflow-hidden">
-        {/* Dot pattern */}
         <div
           className="absolute inset-0 opacity-[0.06]"
           style={{
@@ -191,7 +185,7 @@ export default function UNCPage() {
         />
         <div className="relative max-w-4xl mx-auto px-5 pt-14 pb-32 sm:pt-20 sm:pb-44 text-white">
           <a
-            href="/"
+            href="/schools"
             className="inline-flex items-center gap-1.5 text-white/40 hover:text-white/70 transition-colors text-sm mb-6"
           >
             ← All schools
@@ -200,11 +194,11 @@ export default function UNCPage() {
             🎓 School Profile
           </div>
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight mb-3 leading-tight">
-            UNC Chapel Hill
+            {name}
           </h1>
-          <p className="text-white/50 text-base sm:text-lg mb-10">
-            University of North Carolina at Chapel Hill · Chapel Hill, NC
-          </p>
+          {location && (
+            <p className="text-white/50 text-base sm:text-lg mb-10">{location}</p>
+          )}
           <div className="bg-white/8 backdrop-blur-sm rounded-2xl p-5 sm:p-7 max-w-2xl border border-white/10">
             <p className="text-xs font-bold text-white/40 uppercase tracking-widest mb-3">
               Overall Vibe
@@ -224,32 +218,33 @@ export default function UNCPage() {
             ))}
           </div>
         </div>
-        {/* Bottom bleed */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#F2F3F5] pointer-events-none" />
       </section>
 
       {/* Stats bar */}
-      <div className="max-w-4xl mx-auto px-4 -mt-8 relative z-10 mb-16">
-        <div className="flex flex-wrap justify-center gap-3">
-          {stats.map(({ icon, label }) => (
-            <div
-              key={label}
-              className="flex items-center gap-2 bg-white rounded-full px-5 py-2.5 shadow-md border border-slate-100 text-sm font-semibold text-[#2B2D42]"
-            >
-              <span>{icon}</span>
-              <span>{label}</span>
-            </div>
-          ))}
+      {stats.length > 0 && (
+        <div className="max-w-4xl mx-auto px-4 -mt-8 relative z-10 mb-16">
+          <div className="flex flex-wrap justify-center gap-3">
+            {stats.map(({ icon, label }) => (
+              <div
+                key={label}
+                className="flex items-center gap-2 bg-white rounded-full px-5 py-2.5 shadow-md border border-slate-100 text-sm font-semibold text-[#2B2D42]"
+              >
+                <span>{icon}</span>
+                <span>{label}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Category cards */}
-      <div className="max-w-4xl mx-auto px-4 pb-20">
+      <div className={`max-w-4xl mx-auto px-4 pb-20 ${stats.length === 0 ? "pt-10" : ""}`}>
         <h2 className="text-2xl font-black text-[#2B2D42] mb-1">
           What Students Are Saying
         </h2>
         <p className="text-slate-400 text-sm mb-8">
-          Sourced from Reddit · r/UNC, r/chapelhill, r/ApplyingToCollege, r/college
+          Sourced from Reddit · student communities &amp; r/ApplyingToCollege, r/college
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {mainCategories.map(({ key, label }, i) => (
@@ -264,7 +259,7 @@ export default function UNCPage() {
         </div>
       </div>
 
-      {/* Red Flags — full bleed, dark */}
+      {/* Red Flags */}
       <section className="bg-[#1a0505] py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex items-start gap-4 mb-6">

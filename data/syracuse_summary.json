@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Students are required to live in dorms for the first two years, after which most move to nearby off-campus apartments and walk to campus. Shaw Hall is the Architecture LLC dorm and has pod bathrooms and heated sidewalks, but is considered the worst dorm socially. Ernie Davis is a commonly mentioned dorm and the housing system offers both traditional north campus dorms and south campus options.",
+    "key_quotes": [
+      "You're required to for the first two years. But you can for all four. A lot of ppl move off campus after the first two into apts nearby and walk to campus.",
+      "Don't do Shaw its considered the worst dorm socially unless ur vibe is more of the less social ppl they still get lit tho just a little weirder",
+      "i also loved shaw! one of the few dorms with pod bathrooms which is such a blessing and dining hall in the building + heated sidewalks for the walk to campus on a snowy day"
+    ]
+  },
+  "social_life": {
+    "summary": "Greek life is a significant part of campus social life, with some sororities having their own chefs and reducing the meal plan requirement to one year. The school has strong sports culture with basketball and lacrosse being prominent. Syracuse is described as having incredible school spirit.",
+    "key_quotes": [
+      "incredible school spirit, great academics",
+      "I only had the meal plan the first 2 years (1 if you live on South or join Greek life, some sororities have their own chef)",
+      "Tell them you are a sports fan and you will buy season tickets. Tell them you're excited SU mens lacrosse is in final 4."
+    ]
+  },
+  "dining": {
+    "summary": "Campus food is standard cafeteria quality — not terrible but not exciting. BBB and Graham dining halls are considered worth the walk for better quality, while the closest dining hall to your dorm may not be the best. DoorDash is tempting but students warn it gets expensive fast.",
+    "key_quotes": [
+      "If you aren't super busy then BBB and Graham are worth the walk.",
+      "It's gonna be cafeteria food. Basically what you've been eating the past 14 years of your life in school. Just with more choices.",
+      "Doordash gets expensive, dont rely on that."
+    ]
+  },
+  "mental_health": {
+    "summary": "There is limited direct discussion of mental health resources at Syracuse in these posts. The transition to college life, food adjustment struggles, and academic stress are common themes across posts. Students seem to navigate challenges largely on their own or through peer advice rather than institutional support.",
+    "key_quotes": [
+      "My son just finished his first year at SU. He figured out what foods he liked.",
+      "I've noticed this as well. I have been really stressed about getting all my assignments submitted on time.",
+      "i'm a freshman at syracuse and absolutely love it! i don't know much specifically about your program but at in honors if you are curious about that and am pretty involved on campus"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Syracuse financial aid is somewhat negotiable — multiple students report successfully getting additional aid by meeting with regional representatives or explaining their circumstances. However, students warn that financial aid is not infinite and results vary. Tuition is high enough that some students have turned down admission or spots on the waitlist specifically due to cost.",
+    "key_quotes": [
+      "I got an extra 5k just by meeting with my the lady in charge of my region",
+      "I got an additional 8k after telling them about my circumstances. Have you tried that?",
+      "I just turned down my spot due to tuition. I hope you get in!"
+    ]
+  },
+  "academics": {
+    "summary": "Syracuse is particularly well-regarded for journalism, architecture, and communications programs, with direct admission to the journalism school being a notable draw. The architecture program is intense with students sleeping in studio during crunch periods. Internship prospects for CompE and CS students are realistic but freshmen should not expect to land big-company internships immediately.",
+    "key_quotes": [
+      "Getting an internship in CE/CS as a freshman is extremely uncommon especially at a big company. Most employers don't think you have enough class experience.",
+      "Syracuse University (Direct admit to Journalism)",
+      "joining an LLC lets you immediately connect with other people in your major and a faculty member which may be helpful later on down the road when looking for internships and letters of recommendation"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Syracuse is consistently described as a high-energy school with strong school spirit, a beautiful campus, and a very active Greek and sports scene. It is frequently cited as a solid safety or target school with genuine strengths in specific programs. The weather and upstate New York location are implicit factors students account for.",
+    "key_quotes": [
+      "incredible school spirit, great academics, and some gorgeous facilities",
+      "Syracuse University (most gorgeous facilities)",
+      "I'd go with Syracuse tbh...good prestige"
+    ]
+  },
+  "red_flags": {
+    "summary": "A commenter noted that 30 years ago Syracuse attracted a similar caliber of student as Boston University but has since taken a 'different direction,' implying a perceived decline in academic prestige. Roommate issues including guests staying for months in dorms suggest RA enforcement may be weak. The school's high sticker price causes some accepted students to turn down admission entirely.",
+    "key_quotes": [
+      "Funny enough, I was speaking with a Syracuse grad today. That's one university that has taken a different direction than BU. 30 years ago, they attracted similar caliber of students.",
+      "How do I tell my roommate that I don't want to share the room with his brothers and cousins? They've been here for months!",
+      "I just turned down my spot due to tuition."
+    ]
+  },
+  "hidden_gems": {
+    "summary": "The Architecture LLC in Shaw Hall offers heated sidewalks to campus and a built-in cohort of peers and faculty connections, despite its social reputation. Financial aid can be increased simply by reaching out and explaining your situation. Sports analytics is one of only a handful of dedicated undergraduate programs in the country offered at Syracuse.",
+    "key_quotes": [
+      "i also loved shaw! one of the few dorms with pod bathrooms which is such a blessing and dining hall in the building + heated sidewalks for the walk to campus on a snowy day",
+      "I got an additional 8k after telling them about my circumstances. Have you tried that?",
+      "I am finding that only Syracuse University, the University of Charleston, WV, and California Baptist University are the only schools that offer a sports analytics major."
+    ]
+  }
+}

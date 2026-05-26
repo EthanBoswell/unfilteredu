@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Housing near Berkeley is expensive and difficult to secure, with off-campus options running $1,300-$1,600/month even for sublets. Some private apartment complexes have serious safety and management issues, including broken security doors, pest infestations, and unresponsive landlords. The university faced a legal battle over enrollment caps partly tied to housing capacity concerns.",
+    "key_quotes": [
+      "Management let our front door go broken for an entire fall semester. The result: break-ins, stolen laptops, and homeless individuals stripping down in common areas",
+      "Rats are multiplying and evolving into enrolling at Berkeley and starting their own business clubs",
+      "Looking for a single apartment walkable distance from campus, no roommate... price less than 1700"
+    ]
+  },
+  "social_life": {
+    "summary": "Berkeley has an active social scene with parties, bars, and clubs, but commuter students and transfers often feel isolated and struggle to integrate. The demographics are diverse and many students find comfort in that, but the intense academic culture can make it hard to maintain a social life. Students seem to genuinely enjoy the city environment and proximity to San Francisco.",
+    "key_quotes": [
+      "I went to UC Berkeley since my best friends go there and I realized how comfortable it felt being there. Big factor was I guess the students' demographics",
+      "Just finished my first semester at UC Berkeley as a Spring Transfer and came back home with no job, no internship, no extracurriculars... feeling pretty lonely right now",
+      "perfect location near Silicon Valley, San Francisco, and nature; good parties (Kappa Kappa Gamma… those who know)"
+    ]
+  },
+  "dining": {
+    "summary": "Dining hall food at Berkeley has a poor reputation among students, described bluntly as 'trash.' The Golden Bear Cafe is called out as a notable exception with decent food options. Students seem to rely heavily on off-campus food options in the surrounding area.",
+    "key_quotes": [
+      "Berkeley has some p trash dining hall food but Golden Bear Cafe has some good sandwiches",
+      "I came into cal as an engineering major... the rigor here wasn't something that i was used to",
+      "Golden Bear Cafe has some good sandwiches"
+    ]
+  },
+  "mental_health": {
+    "summary": "The academic pressure at Berkeley is intense and can significantly impact mental health, especially for first-year and transfer students adjusting to the rigor. Students describe anxiety, loneliness, and feeling overwhelmed, particularly around grades and post-semester transitions. The competitive culture around grades and CS can make struggling students feel isolated or judged.",
+    "key_quotes": [
+      "How do I navigate this doom of anxiety that has hit me all of a sudden?",
+      "idk how to feel about my grades... i came into cal as an engineering major from a very undereducated state so the rigor here wasn't something i was used to",
+      "I've heard so much about the terrible culture... I always wondered why reddit made it seem like hell on earth"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Berkeley as a public university can be a cost-effective option compared to private schools, but out-of-state and international students face significantly higher costs. Some students have turned down admission due to financial concerns without fully investigating aid packages, which advisors note is a mistake. Housing costs in the Berkeley area add substantial financial burden beyond tuition.",
+    "key_quotes": [
+      "I was accepted to UC Berkeley and UC Irvine... with the financial costs that my parents stated, that was enough to dissuade me",
+      "What was the financial aid package? For most people the bigger name schools often cost less out of pocket because they give so much more aid",
+      "i'll most likely need to borrow from berkeley's student services since i can't afford a laptop on my own right now"
+    ]
+  },
+  "academics": {
+    "summary": "Berkeley is academically brutal, particularly for engineering and CS students, with grade deflation being a real and acknowledged phenomenon. Professors and course staff are sometimes unresponsive, and grading disputes can go unresolved for weeks even at finals. Transfer students and those from less rigorous high schools are often blindsided by the intensity, with some first-year engineering GPAs landing around 2.7-3.1.",
+    "key_quotes": [
+      "Seems like they changed the course drastically this sem and refused to acknowledge they fucked up/change the bins",
+      "why would you take 5 stem tech lower-divs ur first semester? You know you could've taken math 53, 54, 7a, 7b at a community college right?",
+      "grade deflation sounds rough. That combined with housing crisis, safety issues, and bad dining halls doesn't sound great"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Berkeley inspires intense loyalty in those who thrive there, with students describing it as 'beautiful, incredible, inspiring' — but it's clearly not for everyone. The school has a well-earned reputation as one of the world's best public universities, particularly for CS and STEM, though students joke self-deprecatingly about it being 'just a state school.' The campus culture is driven, diverse, and politically active, but can feel overwhelming and impersonal.",
+    "key_quotes": [
+      "I LOVE IT here!! Cal is a beautiful, incredible, inspiring place - I have learned and grown so much here. It's not always easy",
+      "Someone just told me that they did great even though they only went to a state school. That state school is UC Berkeley. For computer science. As in, the #1 ranked school for computer science in the world",
+      "I came into cal as an engineering major... the rigor here wasn't something that i was used to"
+    ]
+  },
+  "red_flags": {
+    "summary": "Serious red flags include unresponsive professors who fail students and then go on summer break without explanation, course staff ghosting students about final grades for weeks, and management at some off-campus housing being run by negligent undergrads. The city of Berkeley has real safety and homelessness issues that directly affect students, and elitism toward transfer students and non-CS majors is openly acknowledged.",
+    "key_quotes": [
+      "He failed me... I emailed asking for a grade breakdown and he said he's out for summer so can't be of any help",
+      "one of the most common things that I notice is how elitist some of my peers can be towards non-CS majors as well as transfer students. It really does dishearten me whenever someone says that I 'took the easy way out'",
+      "Non-residents with door codes squat in the living room and basement regularly. Packages and mail are stolen constantly"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "Berkeley's transfer pathway from California community colleges is a genuinely accessible and well-respected route into a world-class university. The school's proximity to Silicon Valley and SF creates real, organic opportunities for internships and tech careers that students stumble into organically. Students who secure Regents scholarships get a particularly strong experience, and the research opportunities even at the undergraduate level are exceptional.",
+    "key_quotes": [
+      "I chose Cal mostly because of Regents and came terrified- I'd heard so much about the terrible culture... I LOVE IT here",
+      "Lowkey summer classes + skydeck internship is probably the method",
+      "The secret that nobody wants to talk about: The UCs know that 99% of 'I did research and published this paper' students are full of shit — Berkeley is more interested in people that have passion and a clear story to tell"
+    ]
+  }
+}
