@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Howard guarantees on-campus housing for freshmen after paying a deposit, but the process is chaotic and disorganized. Students report the housing portal frequently glitches, rooms disappear when refreshing, and ResLife is nearly impossible to reach by phone or email. Off-campus options like Carver/Slowe Apartments are old and expensive despite renovations.",
+    "key_quotes": [
+      "yes, Howard is not a punctual school at all except for when they need their money",
+      "I want to choose CHN for my dorm however I am waiting for confirmation from a roommate. When I log back in after a period of time, the housing options refresh and give me new options",
+      "They're old dorms that got remodeled after Howard sold the lease. Very close to the dental school, but you're basically paying apartment rent."
+    ]
+  },
+  "social_life": {
+    "summary": "Howard has a vibrant and culturally rich social scene that students consistently describe as transformative and community-driven. The HBCU experience at Howard is frequently cited as life-changing, with strong traditions, a proud campus culture, and an energetic atmosphere. Students who don't party still find plenty of engagement through clubs, organizations, and DC itself.",
+    "key_quotes": [
+      "i am about to start my junior year at howard university. it has changed my life.",
+      "rising junior here, any housing you get freshman year will be fine since you've already chosen especially lol, things to look forward to are definitely exploring dc and welcome week! I love howard",
+      "The parties were amazing, the atmosphere, sometimes the food was good but not all the time. There was never a dull moment."
+    ]
+  },
+  "dining": {
+    "summary": "There is almost no specific discussion of Howard's dining halls in these posts, which itself may be telling. One passing comment from a general HBCU discussion mentions food was inconsistent. Students seem more focused on DC's surrounding food scene than on-campus dining.",
+    "key_quotes": [
+      "sometimes the food was good but not all the time",
+      "Westwood is also surrounded by restaurants and I am a foodie",
+      "The closer you live to dental school the better. Don't lose hours of sleep and study time commuting"
+    ]
+  },
+  "mental_health": {
+    "summary": "Mental health support at Howard is not directly discussed in these posts, though one student mentions being forced to leave a private HBCU due to a mental health situation that was handled poorly by administration. The general administrative chaos at Howard — unreachable offices, delayed responses, bureaucratic runarounds — creates significant stress for students navigating basic needs.",
+    "key_quotes": [
+      "I was told to leave the campus due to a mental health situation that put me in danger",
+      "the run around is frustrating but it'll happen again this is just practice",
+      "I've tried emailing my counselor and calling and I haven't got much help at all or responses"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Howard's financial aid office is widely reported as slow, unresponsive, and disorganized — students routinely wait weeks without award letters while housing and registration deadlines pass. Merit aid is limited, with the highest non-presidential scholarship covering roughly $24k/year against ~$60k tuition. The university also practices award displacement, reducing institutional aid when students receive outside scholarships.",
+    "key_quotes": [
+      "howard is known for not giving much aid. besides presidential i believe the highest they give for merit based is $24k/yr with tuition at roughly $60k/yr",
+      "Howard says that they have the right and will reduce your total fin aid if it exceeds the cost of attendance",
+      "I've tried emailing my counselor and calling and I haven't got much help at all or responses. I want to see my total money I will receive to see if I can even go this year"
+    ]
+  },
+  "academics": {
+    "summary": "Howard's academic reputation is strong, particularly in pre-med, law, political science, international affairs, and STEM — and professors are generally well-regarded by students. Howard is consistently on target recruiting lists for top companies seeking diverse talent, and is described as holistic in admissions. However, PhD funding is poorly structured and graduate students are advised not to enroll without secured funding.",
+    "key_quotes": [
+      "A good friend who went to Howard often complained about the administration. She liked her profs though. She was a bio major.",
+      "Howard was always on the target list. Seems like it's a go-to school for recruiting smart, talented and diverse students.",
+      "You shouldn't be doing a PhD if the school isn't paying you for it and providing tuition."
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Howard carries enormous cultural prestige and is called 'The Mecca' by students who feel a deep sense of pride and belonging there. The DC location is a massive asset for internships, networking, and city life. The trade-off is a notoriously dysfunctional administration that students learn to navigate with persistence.",
+    "key_quotes": [
+      "The mecca",
+      "I love howard the community, the professors, the location in dc is amazing",
+      "it's a great school, and its great that you have a full ride. I'd imagine that most people would consider Howard to be one of the most prestigious HBCUs"
+    ]
+  },
+  "red_flags": {
+    "summary": "Howard's administration is the most consistent and serious complaint across all posts — offices are unreachable, deadlines shift without notice, portals malfunction, and responses to emails are rare. Financial aid award letters arrive dangerously late relative to housing and registration deadlines. International students face compounded difficulties navigating immunization holds and bureaucratic processes with little support.",
+    "key_quotes": [
+      "i currently go to howard. and yes our administration can be absolutely abysmal at times",
+      "I've been unable to reach ResLife by email or phone... it's been well over a week",
+      "Before, it was July 1 on admission portal about the deadline for immunization, now I got an email saying deadline... as May 8, 15, 18, 29"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "Howard's DC location gives students unmatched access to congressional internships, federal agencies, think tanks, and policy organizations that few universities can match. The BS/MD dual degree program is one of only a handful that accepts international students. Howard also has niche but well-regarded programs in film, fashion design, and international affairs that fly under the radar compared to its better-known pre-professional tracks.",
+    "key_quotes": [
+      "Howard IMO — I have friends at Howard working for Luar, Laquan Smith, and etc!",
+      "I would say Howard has an extraordinary international affairs program and you aren't losing much by going there over GW or AU",
+      "If you are interested in STEM, I suggest applying to FOSSI and inSTEM as they are substantial scholarship programs. Also if you are interested in a STEM PhD, you can apply to Karsh, which is a full ride"
+    ]
+  }
+}

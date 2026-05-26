@@ -203,6 +203,16 @@ export const SCHOOLS: SchoolMeta[] = [
       { icon: "🌲", label: "Beautiful Campus" },
     ],
   },
+  {
+    slug: "howard",
+    name: "Howard University",
+    location: "Washington, DC",
+    stats: [
+      { icon: "📋", label: "30K+ Applicants" },
+      { icon: "🏛️", label: "Top HBCU" },
+      { icon: "🏙️", label: "DC Location" },
+    ],
+  },
 ];
 
 export function getSchoolBySlug(slug: string): SchoolMeta | undefined {
