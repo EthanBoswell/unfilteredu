@@ -2,24 +2,18 @@ import json
 import os
 import re
 import time
-from urllib.parse import quote_plus
 
 import anthropic
-import requests
 from dotenv import load_dotenv
 
-load_dotenv()
+from scrape_reddit_direct import scrape_school_direct
 
-APIFY_TOKEN = os.getenv("APIFY_TOKEN")
-if not APIFY_TOKEN:
-    raise ValueError("APIFY_TOKEN not found in .env")
+load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 if not ANTHROPIC_API_KEY:
     raise ValueError("ANTHROPIC_API_KEY not found in .env")
 
-ACTOR_ID = "trudax~reddit-scraper-lite"
-BASE_URL = "https://api.apify.com/v2"
 MODEL = "claude-sonnet-4-6"
 
 SCHOOLS = [
@@ -69,161 +63,6 @@ Return ONLY a valid JSON object (no markdown, no explanation) with this exact st
 }
 Each category must have a "summary" (2-3 sentences) and "key_quotes" (2-3 short direct quotes from the data)."""
 
-
-# ── Apify helpers ──────────────────────────────────────────────────────────────
-
-def build_start_urls(school: dict) -> list[dict]:
-    urls = []
-    for sub in school["subreddits"]:
-        sub_name = sub[2:] if sub.startswith("r/") else sub
-        urls.append({"url": f"https://www.reddit.com/r/{sub_name}/"})
-    cross_subs = ["ApplyingToCollege", "college"]
-    for keyword in school["keywords"]:
-        encoded = quote_plus(keyword)
-        for cross_sub in cross_subs:
-            urls.append({
-                "url": f"https://www.reddit.com/r/{cross_sub}/search?q={encoded}&sort=top&restrict_sr=1"
-            })
-    return urls
-
-
-def get_own_subreddit_names(school: dict) -> set[str]:
-    result = set()
-    for sub in school["subreddits"]:
-        name = sub[2:] if sub.startswith("r/") else sub
-        result.add(name.lower())
-    return result
-
-
-def build_relevance_pattern(school: dict) -> re.Pattern:
-    pattern = "|".join(re.escape(k) for k in school["keywords"])
-    return re.compile(pattern, re.IGNORECASE)
-
-
-def run_actor(start_urls: list[dict]) -> dict:
-    actor_input = {
-        "startUrls": start_urls,
-        "sort": "top",
-        "maxItems": 1000,
-        "maxPostCount": 100,
-        "maxComments": 10,
-        "proxy": {"useApifyProxy": True},
-    }
-    resp = requests.post(
-        f"{BASE_URL}/acts/{ACTOR_ID}/runs",
-        params={"token": APIFY_TOKEN},
-        json=actor_input,
-    )
-    resp.raise_for_status()
-    run = resp.json()["data"]
-    print(f"  Apify run started: {run['id']}")
-    return run
-
-
-def wait_for_run(run_id: str) -> dict:
-    url = f"{BASE_URL}/actor-runs/{run_id}"
-    while True:
-        resp = requests.get(url, params={"token": APIFY_TOKEN})
-        resp.raise_for_status()
-        run = resp.json()["data"]
-        status = run["status"]
-        print(f"  status: {status}")
-        if status in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
-            return run
-        time.sleep(10)
-
-
-def fetch_dataset(dataset_id: str) -> list:
-    resp = requests.get(
-        f"{BASE_URL}/datasets/{dataset_id}/items",
-        params={"token": APIFY_TOKEN, "format": "json", "clean": "true", "limit": 2000},
-    )
-    resp.raise_for_status()
-    return resp.json()
-
-
-def build_posts(items: list) -> list:
-    posts = {}
-    comments = []
-    for item in items:
-        dtype = item.get("dataType", "")
-        if dtype == "post":
-            post_id = item.get("id", "")
-            if post_id in posts:
-                continue
-            posts[post_id] = {
-                "id": post_id,
-                "subreddit": item.get("communityName", ""),
-                "title": item.get("title", ""),
-                "body": item.get("body", ""),
-                "url": item.get("url", ""),
-                "upvotes": item.get("upVotes", 0),
-                "date": item.get("createdAt", ""),
-                "author": item.get("username", ""),
-                "top_comments": [],
-            }
-        elif dtype == "comment":
-            comments.append(item)
-    for c in comments:
-        parent_id = c.get("postId") or c.get("parentId", "")
-        if parent_id in posts:
-            posts[parent_id]["top_comments"].append({
-                "text": c.get("body", ""),
-                "upvotes": c.get("upVotes", 0),
-                "author": c.get("username", ""),
-                "date": c.get("createdAt", ""),
-            })
-    for post in posts.values():
-        post["top_comments"].sort(key=lambda c: c["upvotes"], reverse=True)
-        post["top_comments"] = post["top_comments"][:10]
-    return list(posts.values())
-
-
-def is_relevant(post: dict, own_subs: set[str], pattern: re.Pattern) -> bool:
-    raw = (post.get("subreddit") or "").lower()
-    sub_name = raw[2:] if raw.startswith("r/") else raw
-    if sub_name in own_subs:
-        return True
-    text = f"{post.get('title', '')} {post.get('body', '')}"
-    return bool(pattern.search(text))
-
-
-# ── Scrape ─────────────────────────────────────────────────────────────────────
-
-def scrape_school(school: dict, data_dir: str) -> str:
-    slug = school["slug"]
-    out_path = os.path.join(data_dir, f"{slug}_raw.json")
-
-    if os.path.exists(out_path):
-        print(f"  [SKIP scrape] {slug}_raw.json already exists")
-        return out_path
-
-    start_urls = build_start_urls(school)
-    own_subs = get_own_subreddit_names(school)
-    pattern = build_relevance_pattern(school)
-
-    print(f"  Scraping {len(start_urls)} URLs...")
-    run = run_actor(start_urls)
-    print("  Waiting for Apify run...")
-    run = wait_for_run(run["id"])
-
-    if run["status"] != "SUCCEEDED":
-        raise RuntimeError(f"Actor run failed with status: {run['status']}")
-
-    items = fetch_dataset(run["defaultDatasetId"])
-    all_posts = build_posts(items)
-    relevant = [p for p in all_posts if is_relevant(p, own_subs, pattern)]
-
-    print(f"  {len(all_posts)} posts collected, {len(relevant)} kept after relevance filter")
-
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(relevant, f, indent=2, ensure_ascii=False)
-
-    print(f"  Saved → {out_path}")
-    return out_path
-
-
-# ── Summarize ──────────────────────────────────────────────────────────────────
 
 def format_posts(posts: list) -> str:
     lines = []
@@ -305,8 +144,6 @@ def summarize_school(school: dict, raw_path: str, data_dir: str) -> str:
     return out_path
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
-
 def main():
     data_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
     os.makedirs(data_dir, exist_ok=True)
@@ -320,7 +157,7 @@ def main():
         print("=" * 60)
 
         try:
-            raw_path = scrape_school(school, data_dir)
+            raw_path = scrape_school_direct(school, data_dir)
         except Exception as e:
             print(f"  ERROR scraping: {e}")
             failed.append((school["slug"], "scrape", str(e)))
