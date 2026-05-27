@@ -1,35 +1,46 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-type SchoolOption = { slug: string; name: string };
+type SchoolOption = { slug: string; name: string; location: string };
 
 export default function SearchBar({ schools }: { schools: SchoolOption[] }) {
   const [query, setQuery] = useState("");
-  const [notFound, setNotFound] = useState(false);
+  const [open, setOpen] = useState(false);
   const router = useRouter();
+  const wrapperRef = useRef<HTMLDivElement>(null);
+
+  const q = query.trim().toLowerCase();
+  const filtered = q
+    ? schools.filter(
+        (s) =>
+          s.name.toLowerCase().includes(q) ||
+          s.slug.toLowerCase().includes(q)
+      )
+    : [];
+
+  useEffect(() => {
+    function onMouseDown(e: MouseEvent) {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", onMouseDown);
+    return () => document.removeEventListener("mousedown", onMouseDown);
+  }, []);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const q = query.trim().toLowerCase();
     if (!q) return;
-
-    const match = schools.find(
-      (s) =>
-        s.name.toLowerCase().includes(q) ||
-        s.slug.toLowerCase().includes(q)
-    );
-
-    if (match) {
-      router.push(`/schools/${match.slug}`);
-    } else {
-      setNotFound(true);
+    if (filtered.length > 0) {
+      router.push(`/schools/${filtered[0].slug}`);
+      setOpen(false);
     }
   }
 
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="max-w-xl mx-auto relative" ref={wrapperRef}>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col sm:flex-row sm:rounded-full overflow-hidden shadow-lg border border-slate-200 bg-white rounded-2xl"
@@ -45,8 +56,10 @@ export default function SearchBar({ schools }: { schools: SchoolOption[] }) {
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
-            setNotFound(false);
+            setOpen(true);
           }}
+          onFocus={() => { if (query.trim()) setOpen(true); }}
+          onKeyDown={(e) => { if (e.key === "Escape") setOpen(false); }}
           placeholder="Search a university..."
           className="flex-1 px-4 py-4 text-base text-slate-700 placeholder-slate-400 bg-transparent outline-none"
         />
@@ -58,19 +71,39 @@ export default function SearchBar({ schools }: { schools: SchoolOption[] }) {
         </button>
       </form>
 
-      {notFound && (
-        <p className="text-sm text-slate-500 mt-3 text-center">
-          We haven&rsquo;t added{" "}
-          <span className="font-semibold text-[#2B2D42]">&ldquo;{query}&rdquo;</span>{" "}
-          yet — drop your email below and we&rsquo;ll notify you when it&rsquo;s live.
-        </p>
+      {open && q && (
+        <div className="absolute left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden z-50">
+          {filtered.length > 0 ? (
+            filtered.map((school) => (
+              <button
+                key={school.slug}
+                type="button"
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  router.push(`/schools/${school.slug}`);
+                  setOpen(false);
+                }}
+                className="w-full text-left px-5 py-3.5 hover:bg-[#EF6C35]/10 transition-colors group border-b border-slate-100 last:border-0"
+              >
+                <p className="text-sm font-semibold text-[#2B2D42] group-hover:text-[#EF6C35] transition-colors">
+                  {school.name}
+                </p>
+                {school.location && (
+                  <p className="text-xs text-slate-400">{school.location}</p>
+                )}
+              </button>
+            ))
+          ) : (
+            <div className="px-5 py-4 text-sm text-slate-500 text-center">
+              No schools found yet — drop your email below to get notified.
+            </div>
+          )}
+        </div>
       )}
 
-      {!notFound && (
-        <p className="text-xs text-slate-400 mt-3 text-center">
-          {schools.length} schools available now
-        </p>
-      )}
+      <p className="text-xs text-slate-400 mt-3 text-center">
+        {schools.length} schools available now
+      </p>
     </div>
   );
 }

@@ -46,7 +46,7 @@ export default function HomePage() {
     })
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  const searchOptions = schools.map(({ slug, name }) => ({ slug, name }));
+  const searchOptions = schools.map(({ slug, name, location }) => ({ slug, name, location }));
 
   return (
     <div className="min-h-screen">
