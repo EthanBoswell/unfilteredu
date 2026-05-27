@@ -32,9 +32,9 @@ export default function SearchBar({ schools }: { schools: SchoolOption[] }) {
     <div className="max-w-xl mx-auto">
       <form
         onSubmit={handleSubmit}
-        className="flex rounded-full overflow-hidden shadow-lg border border-slate-200 bg-white"
+        className="flex flex-col sm:flex-row sm:rounded-full overflow-hidden shadow-lg border border-slate-200 bg-white rounded-2xl"
       >
-        <div className="flex items-center pl-5 text-slate-400 shrink-0">
+        <div className="flex items-center pl-5 pt-1 sm:pt-0 text-slate-400 shrink-0">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
             <circle cx="11" cy="11" r="8" />
             <path d="M21 21l-4.35-4.35" strokeLinecap="round" />
@@ -52,7 +52,7 @@ export default function SearchBar({ schools }: { schools: SchoolOption[] }) {
         />
         <button
           type="submit"
-          className="bg-[#EF6C35] hover:bg-[#d45f2a] transition-colors text-white font-bold px-6 py-4 text-sm shrink-0"
+          className="bg-[#EF6C35] hover:bg-[#d45f2a] transition-colors text-white font-bold px-6 py-4 text-sm w-full sm:w-auto"
         >
           Find My School
         </button>
