@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import SearchBar from "@/components/SearchBar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { getAvailableSlugs, loadSummary } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "UnfilteredU",
+};
 
 const STATS = [
   { value: "10,000+", label: "Reddit posts analyzed" },
