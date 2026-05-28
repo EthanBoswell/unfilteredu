@@ -35,18 +35,6 @@ SCHOOLS = [
     {"name": "Southern Methodist University", "slug": "smu", "subreddits": ["r/SMU"], "keywords": ["SMU", "Southern Methodist University", "Mustangs", "Dallas TX"]},
     {"name": "Stanford", "slug": "stanford", "subreddits": ["r/Stanford"], "keywords": ["Stanford University", "Cardinal", "Palo Alto", "Stanford CA"]},
     {"name": "Howard University", "slug": "howard", "subreddits": ["r/HowardUniversity", "r/HBCU"], "keywords": ["Howard University", "Bison", "Washington DC", "HBCU", "Howard HBCU"]},
-    {"name": "Prairie View A&M", "slug": "pvamu", "subreddits": ["r/PVAMU", "r/PrairieView"], "keywords": ["Prairie View A&M", "PVAMU", "Panther City", "Prairie View Texas", "HBCU Texas"]},
-    {"name": "Grambling State", "slug": "grambling", "subreddits": ["r/GramblingState"], "keywords": ["Grambling State", "Grambling", "Tigers", "Louisiana HBCU"]},
-    {"name": "Southern University", "slug": "southern", "subreddits": ["r/SouthernUniversity"], "keywords": ["Southern University", "Jaguars", "Baton Rouge HBCU"]},
-    {"name": "Jackson State", "slug": "jacksonstate", "subreddits": ["r/JacksonState"], "keywords": ["Jackson State", "JSU", "Tigers", "Mississippi HBCU"]},
-    {"name": "Alcorn State", "slug": "alcornstate", "subreddits": ["r/AlcornState"], "keywords": ["Alcorn State", "Braves", "Mississippi HBCU", "Lorman"]},
-    {"name": "Mississippi Valley State", "slug": "mvsu", "subreddits": ["r/MVSU"], "keywords": ["Mississippi Valley State", "MVSU", "Delta Devils", "Itta Bena"]},
-    {"name": "Alabama A&M", "slug": "aamu", "subreddits": ["r/AlabamaAM"], "keywords": ["Alabama A&M", "AAMU", "Bulldogs", "Normal Alabama HBCU"]},
-    {"name": "Alabama State", "slug": "alabamastate", "subreddits": ["r/AlabamaState"], "keywords": ["Alabama State", "ASU", "Hornets", "Montgomery HBCU"]},
-    {"name": "Bethune-Cookman", "slug": "bethunecookman", "subreddits": ["r/BethuneCookman"], "keywords": ["Bethune-Cookman", "BCU", "Wildcats", "Daytona Beach HBCU"]},
-    {"name": "Florida A&M", "slug": "famu", "subreddits": ["r/FAMU", "r/FloridaAM"], "keywords": ["Florida A&M", "FAMU", "Rattlers", "Tallahassee HBCU"]},
-    {"name": "Texas Southern", "slug": "texassouthern", "subreddits": ["r/TexasSouthern"], "keywords": ["Texas Southern", "TSU", "Tigers", "Houston HBCU"]},
-    {"name": "Arkansas Pine Bluff", "slug": "uapb", "subreddits": ["r/UAPB"], "keywords": ["Arkansas Pine Bluff", "UAPB", "Golden Lions", "Arkansas HBCU"]},
 ]
 
 CATEGORIES = [
