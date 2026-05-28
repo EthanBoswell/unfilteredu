@@ -213,6 +213,76 @@ export const SCHOOLS: SchoolMeta[] = [
       { icon: "🏙️", label: "DC Location" },
     ],
   },
+  {
+    slug: "alabama",
+    name: "University of Alabama",
+    location: "Tuscaloosa, AL",
+    stats: [
+      { icon: "📋", label: "53K+ Applicants" },
+      { icon: "🏈", label: "SEC Football" },
+      { icon: "🎓", label: "Honors College" },
+    ],
+  },
+  {
+    slug: "auburn",
+    name: "Auburn University",
+    location: "Auburn, AL",
+    stats: [
+      { icon: "📋", label: "28K+ Applicants" },
+      { icon: "🦅", label: "War Eagle Spirit" },
+      { icon: "🌳", label: "Beautiful Campus" },
+    ],
+  },
+  {
+    slug: "florida",
+    name: "University of Florida",
+    location: "Gainesville, FL",
+    stats: [
+      { icon: "📋", label: "75K+ Applicants" },
+      { icon: "🐊", label: "SEC Athletics" },
+      { icon: "🔬", label: "Top Research University" },
+    ],
+  },
+  {
+    slug: "uga",
+    name: "University of Georgia",
+    location: "Athens, GA",
+    stats: [
+      { icon: "📋", label: "40K+ Applicants" },
+      { icon: "🏆", label: "SEC Champions" },
+      { icon: "🌳", label: "Classic Campus" },
+    ],
+  },
+  {
+    slug: "tennessee",
+    name: "University of Tennessee",
+    location: "Knoxville, TN",
+    stats: [
+      { icon: "📋", label: "34K+ Applicants" },
+      { icon: "🟠", label: "Vol Nation" },
+      { icon: "🏈", label: "SEC Athletics" },
+    ],
+  },
+  {
+    slug: "kentucky",
+    name: "University of Kentucky",
+    location: "Lexington, KY",
+    stats: [
+      { icon: "📋", label: "23K+ Applicants" },
+      { icon: "🏀", label: "Blue Bloods Basketball" },
+      { icon: "🐴", label: "Horse Country" },
+    ],
+  },
+  {
+    slug: "southcarolina",
+    name: "University of South Carolina",
+    location: "Columbia, SC",
+    stats: [
+      { icon: "📋", label: "40K+ Applicants" },
+      { icon: "🐓", label: "Gamecock Pride" },
+      { icon: "🏈", label: "SEC Athletics" },
+    ],
+  },
 ];
 
 export function getSchoolBySlug(slug: string): SchoolMeta | undefined {

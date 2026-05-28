@@ -1,0 +1,74 @@
+{
+  "housing": {
+    "summary": "Housing at Alabama is reportedly tight, and students are advised to lock in housing early after acceptance. The nearest major airport is about an hour away from Tuscaloosa, making travel logistics challenging for out-of-state students. Students from distant locations like NYC specifically called out travel costs and accessibility as a real practical burden.",
+    "key_quotes": [
+      "housing at both Auburn and Univ of Alabama is tight and one of the benefits of him getting his application in early is the benefit of being able to lock in housing",
+      "Tuscaloosa is not an easy place to get to - flights are expensive, the nearest airport is an hour away, and by car, it's 17 hours",
+      "I hear from a lot of the Ole Miss moms that you need to apply for housing in early fall to get your preferred dorm for NEXT FALL. This seems so weird and stressful"
+    ]
+  },
+  "social_life": {
+    "summary": "Greek life dominates the social scene at Alabama, and students who are not in fraternities or sororities report struggling significantly to fit in socially. The school has a strong party culture tied to football, and students from urban backgrounds often feel trapped or isolated in Tuscaloosa. One student who transferred described the school as 'really run by the Greek life' and found it hard to make real friends outside that system.",
+    "key_quotes": [
+      "this school is really run by the Greek life. I'm a guy and I am not in a fraternity, which makes it hard to fit in socially",
+      "okay i went to alabama and it was really hard to have real friends everyone just parties and doesn't care abt school",
+      "I come from a suburb of a big metro area, and I miss living near a city. I used to do a lot in the city and now I feel a little trapped"
+    ]
+  },
+  "dining": {
+    "summary": "There is virtually no mention of dining hall quality or food options across all 134 posts, suggesting it is not a standout feature in either direction. No students volunteered strong opinions about campus dining. This absence of data means prospective students should research this independently.",
+    "key_quotes": [
+      "I am Jewish and keep Kosher, so problem number 1 is there is not a large Kosher selection at any of these schools",
+      "No specific dining hall feedback was provided in the available posts",
+      "Campus food quality and dining options were not discussed in student Reddit conversations"
+    ]
+  },
+  "mental_health": {
+    "summary": "Mental health support is not directly discussed in the posts, but students do mention struggling with academic pressure, ADHD, social isolation, and the culture shock of adjusting to Alabama. One student withdrew from a semester due to ADHD struggles, and another described feeling trapped and unhappy. These personal accounts suggest the adjustment can be difficult, especially for out-of-state students.",
+    "key_quotes": [
+      "I just withdrew from this semester at the university of Alabama. I'm majoring in computer science, but I performed horribly due to my (newly diagnosed) ADHD",
+      "I'm not loving it... I feel a little trapped",
+      "I noticed an extreme shift in culture"
+    ]
+  },
+  "financial_aid": {
+    "summary": "Alabama's merit scholarship program is one of the most frequently discussed topics and is widely regarded as one of the most generous in the country, particularly for National Merit Finalists who can receive full rides plus stipends for up to 5 years. The scholarship structure is transparent and based on published GPA and SAT thresholds, making it easy to predict awards. Multiple students turned down Ivies and top-20 schools specifically for Alabama's full ride package.",
+    "key_quotes": [
+      "the University of Alabama provides full ride + dorm + stipend for up to 5 years of college for NMF",
+      "Bama is almost universally considered the best full-ride option",
+      "Found another one! $200k for free is hard to turn down, isn't it? Those T20s can off themselves for all I care"
+    ]
+  },
+  "academics": {
+    "summary": "Alabama's academic reputation is mixed: it is seen as accessible to nearly anyone but simultaneously attracts high-achieving National Merit Scholars through its scholarship program, creating a wide spread of academic ability among students. The honors college, Randall Research Scholars Program, and programs like Blount Scholars are highlighted as genuinely prestigious opportunities. However, research funding is a known weakness, with Alabama ranked 179th nationally in NSF R&D spending.",
+    "key_quotes": [
+      "Alabama has a huge spread of academic capability. They're known as a school that accepts anyone with a pulse, but they also give GIGANTIC merit scholarships to attract top students",
+      "The biggest way they aren't on par with T100ish state schools? Research funding. If you look at the NSF's R&D measure they are 179th in the country",
+      "Bama is honestly so underrated... their programs like Blount Scholars, Randall Research Scholars, and UFE are more prestigious than people realize"
+    ]
+  },
+  "overall_vibe": {
+    "summary": "Alabama is described as a classic big Southern football school with a beautiful campus, strong school spirit, and a culture heavily centered on Greek life and athletics. Out-of-state students, particularly those from urban Northeast or West Coast backgrounds, often experience culture shock and struggle to integrate socially without joining Greek life. Students who thrive tend to be those who embrace the football culture, join Greek life, or plug into the honors college community.",
+    "key_quotes": [
+      "Bama is a college college, everything you see about American schools like fraternities and a huge college football game atmosphere, you'll find there",
+      "It's just the reputation of it being a southern party school with Greek Life and sports; while that is a true reputation, people don't realize that Bama is much more than that",
+      "The campus is amazing, the people are so nice and proud to be students there"
+    ]
+  },
+  "red_flags": {
+    "summary": "Several concerning issues emerge: sexual assault statistics were noted as 30% higher than peer institutions, the SGA president was arrested, and Greek life's dominance can make non-members feel socially excluded. One student specifically raised concerns about the LGBTQ+ environment, noting intense social backlash in Alabama broadly. The admissions office was also criticized for ignoring detailed inquiry emails and simply responding with website links.",
+    "key_quotes": [
+      "The University of Alabama, to its discredit, has had 30 percent more sexual assaults occurring on campus than peer institutions",
+      "I've experienced an intense amount of social backlash for it [being gay]... I've never felt home in the South",
+      "they didn't actually respond to my inquiry and simply sent me a list of links to their website"
+    ]
+  },
+  "hidden_gems": {
+    "summary": "The honors college ecosystem at Alabama is a genuine hidden gem, offering elite-level programs including Randall Research Scholars, Blount Scholars, and accelerated master's programs that rival those at far more selective universities. Alabama is also the number one school for enrolling National Merit Scholars, meaning the honors cohort is filled with high-achieving peers. Additionally, industry connections like Lockheed Martin recruiting events have yielded 85 job and internship offers in a single visit.",
+    "key_quotes": [
+      "Alabama is the number one school for enrolling National Merit Scholars in the 2022 entering class with 323 National Merit Scholars",
+      "Alabama students did quite well at a Lockheed Martin recruiting event... yielded 85 job/internship offers for UA students",
+      "their programs like Blount Scholars, Randall Research Scholars, and UFE are more prestigious than people realize"
+    ]
+  }
+}
