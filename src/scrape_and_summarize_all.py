@@ -35,6 +35,22 @@ SCHOOLS = [
     {"name": "Southern Methodist University", "slug": "smu", "subreddits": ["r/SMU"], "keywords": ["SMU", "Southern Methodist University", "Mustangs", "Dallas TX"]},
     {"name": "Stanford", "slug": "stanford", "subreddits": ["r/Stanford"], "keywords": ["Stanford University", "Cardinal", "Palo Alto", "Stanford CA"]},
     {"name": "Howard University", "slug": "howard", "subreddits": ["r/HowardUniversity", "r/HBCU"], "keywords": ["Howard University", "Bison", "Washington DC", "HBCU", "Howard HBCU"]},
+    {"name": "University of Alabama", "slug": "alabama", "subreddits": ["r/uAlabama"], "keywords": ["University of Alabama", "Alabama Crimson Tide", "Tuscaloosa", "UA campus"]},
+    {"name": "Auburn University", "slug": "auburn", "subreddits": ["r/auburn"], "keywords": ["Auburn University", "War Eagle", "Auburn Alabama", "Auburn campus"]},
+    {"name": "University of Florida", "slug": "florida", "subreddits": ["r/ufl", "r/gainesville"], "keywords": ["University of Florida", "UF", "Gators", "Gainesville"]},
+    {"name": "University of Georgia", "slug": "uga", "subreddits": ["r/UGA"], "keywords": ["University of Georgia", "UGA", "Bulldogs", "Athens Georgia"]},
+    {"name": "University of Tennessee", "slug": "tennessee", "subreddits": ["r/UTK"], "keywords": ["University of Tennessee", "UTK", "Volunteers", "Knoxville"]},
+    {"name": "University of Kentucky", "slug": "kentucky", "subreddits": ["r/uky"], "keywords": ["University of Kentucky", "UK", "Wildcats", "Lexington Kentucky"]},
+    {"name": "University of South Carolina", "slug": "southcarolina", "subreddits": ["r/uofsc"], "keywords": ["University of South Carolina", "USC", "Gamecocks", "Columbia SC"]},
+    {"name": "Louisiana State University", "slug": "lsu", "subreddits": ["r/LSU"], "keywords": ["LSU", "Louisiana State", "Tigers", "Baton Rouge"]},
+    {"name": "Ole Miss", "slug": "olemiss", "subreddits": ["r/OleMiss"], "keywords": ["Ole Miss", "University of Mississippi", "Rebels", "Oxford Mississippi"]},
+    {"name": "Mississippi State", "slug": "msstate", "subreddits": ["r/msstate"], "keywords": ["Mississippi State", "Bulldogs", "Starkville", "MSU Mississippi"]},
+    {"name": "University of Arkansas", "slug": "arkansas", "subreddits": ["r/uofarkansas"], "keywords": ["University of Arkansas", "Razorbacks", "Fayetteville Arkansas"]},
+    {"name": "Texas A&M", "slug": "tamu", "subreddits": ["r/aggies"], "keywords": ["Texas A&M", "Aggies", "College Station", "TAMU"]},
+    {"name": "University of Texas", "slug": "texas", "subreddits": ["r/UTAustin"], "keywords": ["University of Texas", "UT Austin", "Longhorns", "Austin Texas"]},
+    {"name": "Vanderbilt University", "slug": "vanderbilt", "subreddits": ["r/vanderbilt"], "keywords": ["Vanderbilt", "Commodores", "Nashville Tennessee"]},
+    {"name": "Missouri University", "slug": "missouri", "subreddits": ["r/mizzou"], "keywords": ["University of Missouri", "Mizzou", "Tigers", "Columbia Missouri"]},
+    {"name": "Oklahoma University", "slug": "oklahoma", "subreddits": ["r/uoklahoma"], "keywords": ["University of Oklahoma", "Sooners", "Norman Oklahoma"]},
 ]
 
 CATEGORIES = [
