@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import EmailSignup from "@/components/EmailSignup";
 import SearchBar from "@/components/SearchBar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { getAvailableSlugs, loadSummary } from "@/lib/data";
@@ -177,17 +178,7 @@ export default function HomePage() {
             We&rsquo;re adding new schools weekly. Drop your email and
             we&rsquo;ll notify you when your school is live.
           </p>
-          <div className="flex rounded-full overflow-hidden shadow border border-slate-200 max-w-sm mx-auto">
-            <input
-              type="email"
-              placeholder="your@email.com"
-              className="flex-1 px-5 py-3.5 text-sm text-slate-700 placeholder-slate-400 bg-white outline-none"
-              readOnly
-            />
-            <button className="bg-[#EF6C35] hover:bg-[#d45f2a] transition-colors text-white font-bold px-5 py-3.5 text-sm shrink-0">
-              Subscribe →
-            </button>
-          </div>
+          <EmailSignup />
         </div>
       </section>
 
