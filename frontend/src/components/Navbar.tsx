@@ -10,20 +10,12 @@ export default function Navbar() {
             UnfilteredU
           </span>
         </a>
-        <div className="flex items-center gap-4">
-          <a
-            href="/about"
-            className="text-sm font-semibold text-white/80 hover:text-white transition-colors"
-          >
-            About
-          </a>
-          <a
-            href="/"
-            className="text-sm font-semibold text-white bg-[#EF6C35] rounded-full px-4 py-1.5 hover:bg-[#d45f2a] transition-colors"
-          >
-            Search Schools
-          </a>
-        </div>
+        <a
+          href="/about"
+          className="text-base font-semibold text-white hover:text-white/80 transition-colors"
+        >
+          About
+        </a>
       </div>
     </nav>
   );
