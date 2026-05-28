@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
@@ -32,13 +33,16 @@ export default function AboutPage() {
       <section className="bg-[#F2F3F5] py-16 px-4">
         <div className="max-w-[700px] mx-auto bg-white rounded-2xl border border-slate-200 shadow-sm p-10 sm:p-14">
 
-          {/* Photo placeholder */}
-          <div className="flex flex-col items-center mb-10">
-            <div className="w-[150px] h-[150px] rounded-full bg-slate-100 border-2 border-slate-200 flex items-center justify-center mb-3">
-              <span className="text-slate-400 text-sm font-medium text-center leading-snug px-4">
-                Photo<br />coming soon
-              </span>
-            </div>
+          {/* Headshot */}
+          <div className="flex justify-center mb-10">
+            <Image
+              src="/ethan.jpeg"
+              alt="Ethan Boswell"
+              width={150}
+              height={150}
+              className="rounded-full object-cover border-2 border-slate-200"
+              style={{ width: 150, height: 150 }}
+            />
           </div>
 
           <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-5 text-base">
