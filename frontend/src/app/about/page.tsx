@@ -14,24 +14,34 @@ const MISSION_STATS = [
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#F8FAFC]">
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#2B2D42] pt-20 pb-24 px-4 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-tight text-white mb-4">
+      <section className="bg-[#131b2e] relative overflow-hidden pt-16 pb-20 px-6 text-center">
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          style={{
+            backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
+            backgroundSize: "28px 28px",
+          }}
+        />
+        <div className="relative max-w-3xl mx-auto">
+          <h1
+            className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight text-white mb-4 font-[family-name:var(--font-hanken)]"
+            style={{ letterSpacing: "-0.02em" }}
+          >
             About UnfilteredU
           </h1>
           <div className="flex justify-center">
-            <span className="block w-16 h-1 rounded-full bg-[#EF6C35]" />
+            <span className="block w-12 h-1 rounded-full bg-[#EF6C35]" />
           </div>
         </div>
       </section>
 
       {/* Main content */}
-      <section className="bg-[#F2F3F5] py-16 px-4">
-        <div className="max-w-[700px] mx-auto bg-white rounded-2xl border border-slate-200 shadow-sm p-10 sm:p-14">
+      <section className="bg-[#F8FAFC] py-16 px-6">
+        <div className="max-w-[700px] mx-auto bg-white rounded-2xl border border-[#e2e8f0] shadow-sm p-10 sm:p-14">
 
           {/* Headshot */}
           <div className="flex justify-center mb-10">
@@ -40,13 +50,15 @@ export default function AboutPage() {
               alt="Ethan Boswell"
               width={150}
               height={150}
-              className="rounded-full object-cover border-2 border-slate-200"
+              className="rounded-full object-cover border-2 border-[#e2e8f0]"
               style={{ width: 150, height: 150 }}
             />
           </div>
 
-          <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-5 text-base">
-            <p className="font-bold text-[#2B2D42] text-lg">
+          <div className="space-y-5 text-[#45464d] leading-relaxed text-base">
+            <p
+              className="font-bold text-[#131b2e] text-lg font-[family-name:var(--font-hanken)]"
+            >
               Built by a student who learned the hard way.
             </p>
             <p>
@@ -61,22 +73,27 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="mt-10 pt-8 border-t border-slate-100">
-            <p className="text-[#2B2D42] font-semibold text-sm">
+          <div className="mt-10 pt-8 border-t border-[#e2e8f0]">
+            <p className="text-[#131b2e] font-semibold text-sm font-[family-name:var(--font-hanken)]">
               — Ethan Boswell, Founder. JMU Student Athlete.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Mission stats bar */}
-      <section className="bg-[#2B2D42] py-10">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/10 rounded-2xl overflow-hidden">
+      {/* Mission stats */}
+      <section className="bg-[#131b2e] py-10 border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
             {MISSION_STATS.map(({ value, label }) => (
-              <div key={value} className="bg-[#2B2D42] px-8 py-7 text-center">
-                <p className="text-2xl font-black text-[#EF6C35] mb-1">{value}</p>
-                <p className="text-sm text-white/60 uppercase tracking-wider font-medium">
+              <div key={value} className="px-8 py-7 text-center">
+                <p
+                  className="text-xl font-extrabold text-[#EF6C35] mb-1 font-[family-name:var(--font-hanken)]"
+                  style={{ letterSpacing: "-0.01em" }}
+                >
+                  {value}
+                </p>
+                <p className="text-xs text-white/40 uppercase tracking-[0.1em] font-semibold">
                   {label}
                 </p>
               </div>
@@ -86,18 +103,20 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#2B2D42] py-10 px-4 border-t border-white/10">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <footer className="bg-[#131b2e] py-10 px-6 border-t border-white/5">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 bg-[#EF6C35] rounded-md flex items-center justify-center text-white text-xs font-black">
+            <div className="w-6 h-6 bg-[#EF6C35] rounded-md flex items-center justify-center text-white text-xs font-black font-[family-name:var(--font-hanken)]">
               U
             </div>
-            <span className="font-bold text-white text-sm">UnfilteredU</span>
+            <span className="font-bold text-white text-sm font-[family-name:var(--font-hanken)]">
+              UnfilteredU
+            </span>
           </div>
-          <p className="text-white/40 text-sm text-center">
+          <p className="text-white/35 text-sm text-center">
             Real opinions. Real students. No filter.
           </p>
-          <p className="text-white/25 text-xs">Not affiliated with any university.</p>
+          <p className="text-white/20 text-xs">Not affiliated with any university.</p>
         </div>
       </footer>
     </div>

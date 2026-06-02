@@ -1,1 +1,45 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-public), "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-hanken), "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy: #131b2e;
+  --color-orange: #EF6C35;
+  --color-surface: #F8FAFC;
+  --color-surface-card: #ffffff;
+  --color-on-surface: #191c1e;
+  --color-muted: #45464d;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #c6c6cd;
+}
+
+/* Ticker animation — duplicate content for seamless loop */
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-track {
+  display: inline-flex;
+  gap: 3rem;
+  align-items: center;
+  white-space: nowrap;
+  animation: ticker 40s linear infinite;
+  width: max-content;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

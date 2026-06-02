@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Hanken_Grotesk, Public_Sans } from "next/font/google";
 import "./globals.css";
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
+const hankenGrotesk = Hanken_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+  variable: "--font-hanken",
+});
+
+const publicSans = Public_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-public",
+});
 
 export const metadata: Metadata = {
   title: "UnfilteredU — Real College Reviews from Reddit",
@@ -16,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geist.variable} h-full`}>
-      <body className="min-h-full bg-[#F2F3F5] font-[var(--font-geist)] antialiased">
+    <html lang="en" className={`${hankenGrotesk.variable} ${publicSans.variable} h-full`}>
+      <body className="min-h-full bg-[#F8FAFC] font-[family-name:var(--font-public)] antialiased">
         {children}
       </body>
     </html>

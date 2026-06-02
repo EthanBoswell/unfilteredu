@@ -52,12 +52,12 @@ function UpvoteIcon({ className }: { className?: string }) {
 
 function RedditQuote({ quote, username }: { quote: string; username: string }) {
   return (
-    <div className="bg-[#F2F3F5] rounded-lg border border-slate-200 p-3 text-sm">
+    <div className="bg-[#F8FAFC] rounded-xl border border-[#e2e8f0] p-3 text-sm">
       <div className="flex items-start gap-2">
         <UpvoteIcon className="w-3.5 h-3.5 text-[#EF6C35] mt-1 shrink-0" />
         <div className="min-w-0">
           <span className="text-xs font-semibold text-[#EF6C35]">u/{username}</span>
-          <p className="text-slate-600 mt-0.5 leading-relaxed italic">
+          <p className="text-[#45464d] mt-0.5 leading-relaxed italic">
             &ldquo;{quote}&rdquo;
           </p>
         </div>
@@ -90,14 +90,16 @@ function CategoryCard({
 }) {
   const theme = CARD_THEMES[themeKey];
   return (
-    <div className="bg-white rounded-2xl border border-slate-200 p-5 flex flex-col gap-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-default">
+    <div className="bg-white rounded-2xl border border-[#e2e8f0] p-5 flex flex-col gap-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-default">
       <div className="flex items-center gap-2.5">
         <div className={`w-9 h-9 rounded-xl ${theme.iconBg} flex items-center justify-center text-lg shrink-0`}>
           {theme.icon}
         </div>
-        <span className={`text-sm font-bold ${theme.labelColor}`}>{title}</span>
+        <span className={`text-sm font-bold ${theme.labelColor} font-[family-name:var(--font-hanken)]`}>
+          {title}
+        </span>
       </div>
-      <p className="text-slate-500 text-sm leading-relaxed">{data.summary}</p>
+      <p className="text-[#45464d] text-sm leading-relaxed">{data.summary}</p>
       <div className="flex flex-col gap-2">
         {data.key_quotes.map((quote, i) => (
           <RedditQuote
@@ -171,19 +173,19 @@ export default async function SchoolPage({
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#F8FAFC]">
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#2B2D42] relative overflow-hidden">
+      <section className="bg-[#131b2e] relative overflow-hidden">
         <div
-          className="absolute inset-0 opacity-[0.06]"
+          className="absolute inset-0 opacity-[0.04]"
           style={{
             backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
+            backgroundSize: "28px 28px",
           }}
         />
-        <div className="relative max-w-4xl mx-auto px-5 pt-14 pb-32 sm:pt-20 sm:pb-44 text-white">
+        <div className="relative max-w-4xl mx-auto px-6 pt-14 pb-32 sm:pt-20 sm:pb-44 text-white">
           <a
             href="/schools"
             className="inline-flex items-center gap-1.5 text-white/40 hover:text-white/70 transition-colors text-sm mb-6"
@@ -193,14 +195,17 @@ export default async function SchoolPage({
           <div className="inline-flex items-center gap-2 bg-[#EF6C35]/20 border border-[#EF6C35]/30 rounded-full px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-[#EF6C35] mb-5 ml-2">
             🎓 School Profile
           </div>
-          <h1 className="text-4xl sm:text-6xl font-black tracking-tight mb-3 leading-tight">
+          <h1
+            className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-3 leading-tight font-[family-name:var(--font-hanken)]"
+            style={{ letterSpacing: "-0.02em" }}
+          >
             {name}
           </h1>
           {location && (
             <p className="text-white/50 text-base sm:text-lg mb-10">{location}</p>
           )}
-          <div className="bg-white/8 backdrop-blur-sm rounded-2xl p-5 sm:p-7 max-w-2xl border border-white/10">
-            <p className="text-xs font-bold text-white/40 uppercase tracking-widest mb-3">
+          <div className="bg-white/[0.07] backdrop-blur-sm rounded-2xl p-5 sm:p-7 max-w-2xl border border-white/10">
+            <p className="text-[10px] font-bold text-white/40 uppercase tracking-[0.12em] mb-3">
               Overall Vibe
             </p>
             <p className="text-white text-base sm:text-lg leading-relaxed">
@@ -211,24 +216,24 @@ export default async function SchoolPage({
             {summary.overall_vibe.key_quotes.map((q, i) => (
               <div
                 key={i}
-                className="bg-white/8 rounded-xl px-4 py-2 text-sm text-white/70 border border-white/10 max-w-xs"
+                className="bg-white/[0.07] rounded-xl px-4 py-2 text-sm text-white/70 border border-white/10 max-w-xs"
               >
                 &ldquo;{q}&rdquo;
               </div>
             ))}
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#F2F3F5] pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#F8FAFC] pointer-events-none" />
       </section>
 
-      {/* Stats bar */}
+      {/* Stats chips */}
       {stats.length > 0 && (
-        <div className="max-w-4xl mx-auto px-4 -mt-8 relative z-10 mb-16">
+        <div className="max-w-4xl mx-auto px-6 -mt-8 relative z-10 mb-16">
           <div className="flex flex-wrap justify-center gap-3">
             {stats.map(({ icon, label }) => (
               <div
                 key={label}
-                className="flex items-center gap-2 bg-white rounded-full px-5 py-2.5 shadow-md border border-slate-100 text-sm font-semibold text-[#2B2D42]"
+                className="flex items-center gap-2 bg-white rounded-full px-5 py-2.5 shadow-md border border-[#e2e8f0] text-sm font-semibold text-[#131b2e] font-[family-name:var(--font-hanken)]"
               >
                 <span>{icon}</span>
                 <span>{label}</span>
@@ -239,11 +244,14 @@ export default async function SchoolPage({
       )}
 
       {/* Category cards */}
-      <div className={`max-w-4xl mx-auto px-4 pb-20 ${stats.length === 0 ? "pt-10" : ""}`}>
-        <h2 className="text-2xl font-black text-[#2B2D42] mb-1">
+      <div className={`max-w-4xl mx-auto px-6 pb-20 ${stats.length === 0 ? "pt-10" : ""}`}>
+        <h2
+          className="text-2xl font-bold text-[#131b2e] mb-1 font-[family-name:var(--font-hanken)]"
+          style={{ letterSpacing: "-0.01em" }}
+        >
           What Students Are Saying
         </h2>
-        <p className="text-slate-400 text-sm mb-8">
+        <p className="text-[#45464d]/60 text-sm mb-8">
           Sourced from Reddit · student communities &amp; r/ApplyingToCollege, r/college
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -261,13 +269,18 @@ export default async function SchoolPage({
 
       {/* Red Flags */}
       <section className="bg-[#1a0505] py-16 sm:py-20">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-6">
           <div className="flex items-start gap-4 mb-6">
             <div className="w-12 h-12 rounded-2xl bg-[#D62839]/20 border border-[#D62839]/30 flex items-center justify-center text-2xl shrink-0 mt-0.5">
               🚩
             </div>
             <div>
-              <h2 className="text-2xl font-black text-white">Red Flags</h2>
+              <h2
+                className="text-2xl font-bold text-white font-[family-name:var(--font-hanken)]"
+                style={{ letterSpacing: "-0.01em" }}
+              >
+                Red Flags
+              </h2>
               <p className="text-[#D62839]/70 text-sm mt-0.5">
                 Things to know before you commit
               </p>
@@ -289,20 +302,24 @@ export default async function SchoolPage({
       </section>
 
       {/* Hidden Gems */}
-      <div className="max-w-4xl mx-auto px-4 py-16 space-y-16">
-        <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+      <div className="max-w-4xl mx-auto px-6 py-16 space-y-16">
+        <section className="bg-white rounded-2xl border border-[#e2e8f0] p-6 sm:p-8 shadow-sm">
           <div className="flex items-start gap-4 mb-4">
             <div className="w-12 h-12 rounded-2xl bg-[#3BB273]/15 border border-[#3BB273]/30 flex items-center justify-center text-2xl shrink-0 mt-0.5">
               💎
             </div>
             <div>
-              <h2 className="text-xl font-black text-[#2B2D42]">Hidden Gems</h2>
+              <h2
+                className="text-xl font-bold text-[#131b2e] font-[family-name:var(--font-hanken)]"
+              >
+                Hidden Gems
+              </h2>
               <p className="text-[#3BB273] text-sm mt-0.5">
                 Insider tips from current students
               </p>
             </div>
           </div>
-          <p className="text-slate-500 leading-relaxed mb-5 text-sm">
+          <p className="text-[#45464d] leading-relaxed mb-5 text-sm">
             {summary.hidden_gems.summary}
           </p>
           <div className="flex flex-col gap-3">
@@ -316,18 +333,18 @@ export default async function SchoolPage({
           </div>
         </section>
 
-        <footer className="border-t border-slate-200 pt-10 pb-4 text-center">
-          <div className="inline-flex items-start gap-3 bg-white rounded-2xl border border-slate-200 px-5 py-4 max-w-xl text-sm text-slate-500 text-left shadow-sm">
+        <footer className="border-t border-[#e2e8f0] pt-10 pb-4 text-center">
+          <div className="inline-flex items-start gap-3 bg-white rounded-2xl border border-[#e2e8f0] px-5 py-4 max-w-xl text-sm text-[#45464d] text-left shadow-sm">
             <span className="text-base shrink-0 mt-0.5">ℹ️</span>
             <p>
-              <span className="font-semibold text-slate-600">Disclaimer: </span>
+              <span className="font-semibold text-[#131b2e]">Disclaimer: </span>
               Based on real student opinions from Reddit — not official school
               content. Views reflect individual student experiences and may not
               represent the full picture. Always visit campus and do your own
               research.
             </p>
           </div>
-          <p className="mt-6 text-xs font-bold text-slate-400 tracking-widest uppercase">
+          <p className="mt-6 text-xs font-bold text-[#45464d]/40 tracking-[0.15em] uppercase font-[family-name:var(--font-hanken)]">
             UnfilteredU
           </p>
         </footer>
