@@ -20,5 +20,5 @@ node_modules/
 # macOS
 .DS_Store
 
-# Data — keep data/ in git except large raw scrapes if desired
-# data/unc_raw.json   # uncomment to exclude raw scrape data
+# Data — all JSON files in data/ are committed so Codespaces share results
+!data/*.json

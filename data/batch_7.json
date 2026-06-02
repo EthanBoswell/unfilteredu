@@ -1,0 +1,52 @@
+[
+  {
+    "name": "University of Texas",
+    "slug": "texas",
+    "subreddits": [
+      "r/UTAustin"
+    ],
+    "keywords": [
+      "University of Texas",
+      "UT Austin",
+      "Longhorns",
+      "Austin Texas"
+    ]
+  },
+  {
+    "name": "Vanderbilt University",
+    "slug": "vanderbilt",
+    "subreddits": [
+      "r/vanderbilt"
+    ],
+    "keywords": [
+      "Vanderbilt",
+      "Commodores",
+      "Nashville Tennessee"
+    ]
+  },
+  {
+    "name": "Missouri University",
+    "slug": "missouri",
+    "subreddits": [
+      "r/mizzou"
+    ],
+    "keywords": [
+      "University of Missouri",
+      "Mizzou",
+      "Tigers",
+      "Columbia Missouri"
+    ]
+  },
+  {
+    "name": "Oklahoma University",
+    "slug": "oklahoma",
+    "subreddits": [
+      "r/uoklahoma"
+    ],
+    "keywords": [
+      "University of Oklahoma",
+      "Sooners",
+      "Norman Oklahoma"
+    ]
+  }
+]

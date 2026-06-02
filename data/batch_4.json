@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Southern Methodist University",
+    "slug": "smu",
+    "subreddits": [
+      "r/SMU"
+    ],
+    "keywords": [
+      "SMU",
+      "Southern Methodist University",
+      "Mustangs",
+      "Dallas TX"
+    ]
+  },
+  {
+    "name": "Stanford",
+    "slug": "stanford",
+    "subreddits": [
+      "r/Stanford"
+    ],
+    "keywords": [
+      "Stanford University",
+      "Cardinal",
+      "Palo Alto",
+      "Stanford CA"
+    ]
+  },
+  {
+    "name": "Howard University",
+    "slug": "howard",
+    "subreddits": [
+      "r/HowardUniversity",
+      "r/HBCU"
+    ],
+    "keywords": [
+      "Howard University",
+      "Bison",
+      "Washington DC",
+      "HBCU",
+      "Howard HBCU"
+    ]
+  },
+  {
+    "name": "University of Alabama",
+    "slug": "alabama",
+    "subreddits": [
+      "r/uAlabama"
+    ],
+    "keywords": [
+      "University of Alabama",
+      "Alabama Crimson Tide",
+      "Tuscaloosa",
+      "UA campus"
+    ]
+  },
+  {
+    "name": "Auburn University",
+    "slug": "auburn",
+    "subreddits": [
+      "r/auburn"
+    ],
+    "keywords": [
+      "Auburn University",
+      "War Eagle",
+      "Auburn Alabama",
+      "Auburn campus"
+    ]
+  }
+]

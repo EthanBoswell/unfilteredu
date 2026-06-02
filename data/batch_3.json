@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Syracuse",
+    "slug": "syracuse",
+    "subreddits": [
+      "r/Syracuse",
+      "r/SyracuseU"
+    ],
+    "keywords": [
+      "Syracuse University",
+      "Orange",
+      "Syracuse NY"
+    ]
+  },
+  {
+    "name": "Pitt",
+    "slug": "pitt",
+    "subreddits": [
+      "r/Pitt"
+    ],
+    "keywords": [
+      "University of Pittsburgh",
+      "Pitt",
+      "Panthers",
+      "Pittsburgh"
+    ]
+  },
+  {
+    "name": "Louisville",
+    "slug": "louisville",
+    "subreddits": [
+      "r/uofl"
+    ],
+    "keywords": [
+      "University of Louisville",
+      "UofL",
+      "Cardinals",
+      "Louisville KY"
+    ]
+  },
+  {
+    "name": "Notre Dame",
+    "slug": "notredame",
+    "subreddits": [
+      "r/notredame"
+    ],
+    "keywords": [
+      "Notre Dame",
+      "Fighting Irish",
+      "South Bend"
+    ]
+  },
+  {
+    "name": "UC Berkeley",
+    "slug": "ucberkeley",
+    "subreddits": [
+      "r/berkeley",
+      "r/UCBerkeley"
+    ],
+    "keywords": [
+      "UC Berkeley",
+      "University of California Berkeley",
+      "Cal Bears",
+      "Berkeley CA"
+    ]
+  }
+]
