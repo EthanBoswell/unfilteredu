@@ -1,47 +1,46 @@
-const TICKER_QUOTES = [
-  '"UNC: Gorgeous campus, chaotic housing lottery — start praying early"',
-  '"Duke: The libraries never close and neither do your stress levels"',
-  '"Georgia Tech: If you survive freshman year, you can survive anything"',
-  '"Stanford: Silicon Valley in your backyard, imposter syndrome in your chest"',
-  '"UC Berkeley: Best professors, worst bureaucracy, unbeatable energy"',
-  '"UVA: Honor code is real — also the social hierarchy"',
-  '"FSU: Best weather in the ACC, parking is a fever dream"',
-  '"Notre Dame: Football Saturdays are transcendent, winter is not"',
+const SCHOOL_NAMES = [
+  "DUKE UNIVERSITY", "UNC CHAPEL HILL", "GEORGIA TECH", "STANFORD UNIVERSITY",
+  "UC BERKELEY", "NOTRE DAME", "VIRGINIA TECH", "FLORIDA STATE",
+  "CLEMSON UNIVERSITY", "UNIVERSITY OF MIAMI", "WAKE FOREST", "BOSTON COLLEGE",
+  "SYRACUSE UNIVERSITY", "UNIVERSITY OF PITTSBURGH", "UNIVERSITY OF LOUISVILLE",
+  "SMU", "HOWARD UNIVERSITY", "UNIVERSITY OF ALABAMA", "AUBURN UNIVERSITY",
+  "UNIVERSITY OF FLORIDA", "UGA", "UNIVERSITY OF TENNESSEE",
+  "UNIVERSITY OF KENTUCKY", "SOUTH CAROLINA", "UVA", "NC STATE",
 ];
 
 export default function Navbar() {
-  const repeated = [...TICKER_QUOTES, ...TICKER_QUOTES];
+  const repeated = [...SCHOOL_NAMES, ...SCHOOL_NAMES];
 
   return (
     <div className="sticky top-0 z-50">
-      {/* Scrolling ticker */}
-      <div className="bg-[#0a0f1a] text-white py-2 overflow-hidden border-b border-white/10">
+      {/* Bloomberg-style ticker */}
+      <div className="bg-[#0a0806] overflow-hidden border-b border-white/5 py-1.5">
         <div className="ticker-track">
-          {repeated.map((quote, i) => (
-            <span key={i} className="flex items-center gap-6">
-              <span className="text-[11px] font-bold uppercase tracking-widest text-white/75">
-                {quote}
+          {repeated.map((name, i) => (
+            <span key={i} className="flex items-center">
+              <span className="font-mono text-[10px] font-bold tracking-[0.18em] text-[#c9a052] px-4">
+                {name}
               </span>
-              <span className="text-[#EF6C35] text-xs select-none">•</span>
+              <span className="text-[#c9a052]/30 text-[8px] select-none">·</span>
             </span>
           ))}
         </div>
       </div>
 
       {/* Main nav */}
-      <nav className="bg-[#131b2e] shadow-sm">
+      <nav className="bg-[#1c1917] border-b border-white/5">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5">
-            <div className="w-7 h-7 bg-[#EF6C35] rounded-lg flex items-center justify-center text-white text-xs font-black font-[family-name:var(--font-hanken)]">
+            <div className="w-7 h-7 bg-[#c9a052] rounded flex items-center justify-center text-[#1c1917] text-xs font-black font-[family-name:var(--font-display)]">
               U
             </div>
-            <span className="font-bold text-white tracking-tight text-base font-[family-name:var(--font-hanken)]">
+            <span className="font-bold text-white tracking-tight text-base font-[family-name:var(--font-display)]">
               UnfilteredU
             </span>
           </a>
           <a
             href="/about"
-            className="text-sm font-semibold text-white/70 hover:text-white transition-colors tracking-wide"
+            className="text-sm font-medium text-white/55 hover:text-white/90 transition-colors tracking-wide"
           >
             About
           </a>

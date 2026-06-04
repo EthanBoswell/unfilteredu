@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
-import { Hanken_Grotesk, Public_Sans } from "next/font/google";
+import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const hankenGrotesk = Hanken_Grotesk({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
-  variable: "--font-hanken",
+  weight: ["400", "700", "800"],
+  style: ["normal", "italic"],
+  variable: "--font-playfair",
 });
 
-const publicSans = Public_Sans({
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-public",
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-dm",
 });
 
 export const metadata: Metadata = {
@@ -26,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${hankenGrotesk.variable} ${publicSans.variable} h-full`}>
-      <body className="min-h-full bg-[#F8FAFC] font-[family-name:var(--font-public)] antialiased">
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable} h-full`}>
+      <body className="min-h-full bg-[#f5f1eb] font-[family-name:var(--font-dm)] antialiased text-[#1c1917]">
         {children}
       </body>
     </html>

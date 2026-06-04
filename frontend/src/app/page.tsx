@@ -9,28 +9,19 @@ export const metadata: Metadata = {
   title: "UnfilteredU",
 };
 
-const STATS = [
-  { value: "10,000+", label: "Reddit posts analyzed" },
-  { value: "AI-powered", label: "summaries" },
-  { value: "100%", label: "student sourced" },
-];
-
 const HOW_IT_WORKS = [
   {
     step: "01",
-    icon: "🔍",
     title: "We scrape Reddit",
     desc: "We pull thousands of real posts and comments from Reddit communities for every school — the unfiltered stuff admissions offices will never tell you.",
   },
   {
     step: "02",
-    icon: "🤖",
     title: "AI finds the patterns",
     desc: "Our AI reads every post to surface what students actually think about housing, dining, academics, mental health, and more.",
   },
   {
     step: "03",
-    icon: "✅",
     title: "You get the truth",
     desc: "Get honest, specific summaries with real quotes — organized by topic, ready to read in under 5 minutes.",
   },
@@ -55,141 +46,140 @@ export default function HomePage() {
   const searchOptions = schools.map(({ slug, name, location }) => ({ slug, name, location }));
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC]">
+    <div className="min-h-screen bg-[#f5f1eb]">
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#131b2e] relative overflow-hidden pt-20 pb-28 px-6">
-        {/* Subtle dot grid overlay */}
-        <div
-          className="absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
-            backgroundSize: "28px 28px",
-          }}
-        />
-        <div className="relative max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.12em] text-[#EF6C35] mb-6">
-            <span className="w-5 h-px bg-[#EF6C35]" />
-            Unfiltered college reviews
-            <span className="w-5 h-px bg-[#EF6C35]" />
+      <section className="bg-[#f5f1eb] pt-20 pb-0 px-6">
+        <div className="max-w-4xl mx-auto">
+          {/* Eyebrow */}
+          <div className="flex items-center gap-3 mb-8">
+            <span className="h-px w-8 bg-[#c9a052]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+              Real College Reviews
+            </span>
           </div>
-          <h1
-            className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-[1.1] text-white mb-5 font-[family-name:var(--font-hanken)]"
-            style={{ letterSpacing: "-0.02em" }}
-          >
-            Real talk about college.{" "}
-            <span className="text-[#EF6C35]">From real students.</span>
-          </h1>
-          <p className="text-lg text-white/55 max-w-xl mx-auto leading-relaxed mb-10">
-            We read thousands of Reddit posts so you don&rsquo;t have to. No
-            marketing. No tours. Just the truth.
-          </p>
-          <SearchBar schools={searchOptions} />
-        </div>
-      </section>
 
-      {/* Stats bar */}
-      <section className="bg-[#0f1623] border-b border-white/5">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
-            {STATS.map(({ value, label }) => (
-              <div key={value} className="px-8 py-7 text-center">
+          {/* Headline */}
+          <h1
+            className="font-[family-name:var(--font-display)] font-bold leading-[1.05] text-[#1c1917] mb-6"
+            style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)", letterSpacing: "-0.02em" }}
+          >
+            Real talk about college.
+            <br />
+            <em className="text-[#be4b26]">No filter.</em>
+          </h1>
+
+          <p className="text-lg text-[#78716c] font-light max-w-xl leading-relaxed mb-10">
+            We read thousands of Reddit posts so you don&rsquo;t have to.
+            No marketing. No tours. Just the truth.
+          </p>
+
+          <SearchBar schools={searchOptions} />
+
+          {/* Stats — promoted into hero */}
+          <div className="mt-16 pt-10 border-t border-[#d6d1c8] grid grid-cols-3 gap-0 divide-x divide-[#d6d1c8]">
+            {[
+              { value: "10K+", label: "Reddit posts analyzed" },
+              { value: String(schools.length), label: "Schools reviewed" },
+              { value: "100%", label: "Free forever" },
+            ].map(({ value, label }) => (
+              <div key={label} className="px-8 first:pl-0 last:pr-0 pb-10">
                 <p
-                  className="text-3xl font-extrabold text-[#EF6C35] mb-1 font-[family-name:var(--font-hanken)]"
-                  style={{ letterSpacing: "-0.02em" }}
+                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] leading-none mb-1"
+                  style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.03em" }}
                 >
                   {value}
                 </p>
-                <p className="text-xs text-white/40 uppercase tracking-[0.1em] font-semibold">
-                  {label}
-                </p>
+                <p className="text-xs text-[#78716c] font-light tracking-wide">{label}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="bg-white py-20 px-6 border-b border-[#e2e8f0]">
+      {/* How it works — ghosted numbers */}
+      <section className="bg-[#ede9e1] py-20 px-6 border-t border-[#d6d1c8]">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-[#EF6C35] mb-3">
-              The process
-            </p>
-            <h2
-              className="text-3xl sm:text-4xl font-bold text-[#131b2e] font-[family-name:var(--font-hanken)]"
-              style={{ letterSpacing: "-0.01em" }}
-            >
-              How it works
-            </h2>
+          <div className="flex items-center gap-3 mb-12">
+            <span className="h-px w-8 bg-[#c9a052]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+              The Process
+            </span>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 relative">
-            <div className="hidden sm:block absolute top-8 left-[calc(16.67%+1rem)] right-[calc(16.67%+1rem)] h-px bg-[#e2e8f0] z-0" />
-            {HOW_IT_WORKS.map(({ step, icon, title, desc }) => (
-              <div key={step} className="relative z-10 flex flex-col items-center text-center">
-                <div className="w-16 h-16 rounded-2xl bg-[#F8FAFC] border border-[#e2e8f0] flex items-center justify-center text-2xl mb-5 shadow-sm">
-                  {icon}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+            {HOW_IT_WORKS.map(({ step, title, desc }) => (
+              <div key={step}>
+                {/* Ghosted number — the dominant visual */}
+                <div
+                  className="font-[family-name:var(--font-display)] font-bold leading-none text-[#d6d1c8] select-none mb-4"
+                  style={{ fontSize: "clamp(4rem, 10vw, 7rem)", letterSpacing: "-0.04em" }}
+                  aria-hidden
+                >
+                  {step}
                 </div>
-                <span className="text-[10px] font-black text-[#EF6C35] tracking-[0.15em] mb-1">
-                  STEP {step}
-                </span>
                 <h3
-                  className="text-base font-bold text-[#131b2e] mb-2 font-[family-name:var(--font-hanken)]"
+                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-lg mb-2"
                 >
                   {title}
                 </h3>
-                <p className="text-sm text-[#45464d] leading-relaxed">{desc}</p>
+                <p className="text-sm text-[#78716c] leading-relaxed font-light">{desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Schools grid */}
-      <section className="bg-[#F8FAFC] py-20 px-6">
+      {/* Schools — newspaper grid */}
+      <section className="bg-[#f5f1eb] py-20 px-6 border-t border-[#d6d1c8]">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-[#EF6C35] mb-3">
-              Browse schools
-            </p>
+          <div className="flex items-center justify-between mb-10">
+            <div className="flex items-center gap-3">
+              <span className="h-px w-8 bg-[#c9a052]" />
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+                Browse Schools
+              </span>
+            </div>
             <h2
-              className="text-3xl sm:text-4xl font-bold text-[#131b2e] font-[family-name:var(--font-hanken)]"
+              className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-xl"
               style={{ letterSpacing: "-0.01em" }}
             >
-              {schools.length} schools available now
+              {schools.length} available now
             </h2>
           </div>
 
-          {/* Bento grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {/* 1px border grid — no shadows */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-[#d6d1c8]">
             {schools.map(({ slug, name, location, vibe }) => (
               <a
                 key={slug}
                 href={`/schools/${slug}`}
-                className="group bg-white rounded-2xl border border-[#e2e8f0] p-6 flex flex-col shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 cursor-pointer"
+                className="group block border-b border-r border-[#d6d1c8] p-6 bg-[#f5f1eb] hover:bg-[#ede9e1] transition-colors duration-150"
               >
-                <div className="mb-auto">
-                  {/* Live badge */}
-                  <div className="inline-flex items-center gap-1.5 bg-[#EF6C35]/10 rounded-full px-2.5 py-0.5 mb-4">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#EF6C35]" />
-                    <span className="text-[11px] font-bold tracking-wide text-[#EF6C35]">Live</span>
-                  </div>
-                  <h3
-                    className="font-bold text-[#131b2e] text-base mb-0.5 font-[family-name:var(--font-hanken)] group-hover:text-[#EF6C35] transition-colors"
-                  >
-                    {name}
-                  </h3>
-                  {location && (
-                    <p className="text-xs text-[#45464d]/60 mb-3">{location}</p>
-                  )}
-                  <p className="text-sm text-[#45464d] leading-relaxed line-clamp-3">
-                    {vibe}
-                  </p>
-                </div>
-                <div className="mt-5 flex items-center gap-1.5 text-sm font-bold text-[#EF6C35] group-hover:gap-2.5 transition-all">
-                  View Profile
-                  <span className="text-base leading-none">→</span>
+                {/* Live badge */}
+                <span className="inline-block font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#c9a052] mb-3">
+                  ● Live
+                </span>
+
+                {/* School name with gold underline reveal */}
+                <h3
+                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-base leading-snug w-fit border-b border-transparent group-hover:border-[#c9a052] transition-colors duration-200 mb-1"
+                >
+                  {name}
+                </h3>
+
+                {location && (
+                  <p className="text-xs text-[#78716c] font-light mb-3">{location}</p>
+                )}
+
+                <p className="text-sm text-[#78716c] leading-relaxed line-clamp-3 font-light">
+                  {vibe}
+                </p>
+
+                <div className="mt-4 pt-4 border-t border-[#d6d1c8]">
+                  <span className="text-xs font-semibold text-[#c9a052] tracking-wide">
+                    Read Reviews →
+                  </span>
                 </div>
               </a>
             ))}
@@ -198,18 +188,22 @@ export default function HomePage() {
       </section>
 
       {/* Email CTA */}
-      <section className="bg-white py-20 px-6 border-t border-[#e2e8f0]">
+      <section className="bg-[#1c1917] py-20 px-6">
         <div className="max-w-xl mx-auto text-center">
-          <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-[#EF6C35] mb-4">
-            Stay in the loop
-          </p>
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <span className="h-px w-8 bg-[#c9a052]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+              Stay In The Loop
+            </span>
+            <span className="h-px w-8 bg-[#c9a052]" />
+          </div>
           <h2
-            className="text-2xl sm:text-3xl font-bold text-[#131b2e] mb-2 font-[family-name:var(--font-hanken)]"
-            style={{ letterSpacing: "-0.01em" }}
+            className="font-[family-name:var(--font-display)] font-bold text-white text-3xl sm:text-4xl mb-3"
+            style={{ letterSpacing: "-0.02em" }}
           >
             Your school not listed?
           </h2>
-          <p className="text-[#45464d] mb-8 leading-relaxed">
+          <p className="text-[#78716c] mb-8 font-light leading-relaxed">
             We&rsquo;re adding new schools weekly. Drop your email and
             we&rsquo;ll notify you when your school is live.
           </p>
@@ -218,20 +212,20 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#131b2e] py-10 px-6 border-t border-white/5">
+      <footer className="bg-[#0f0d0a] py-10 px-6 border-t border-white/5">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 bg-[#EF6C35] rounded-md flex items-center justify-center text-white text-xs font-black font-[family-name:var(--font-hanken)]">
+            <div className="w-6 h-6 bg-[#c9a052] rounded flex items-center justify-center text-[#1c1917] text-xs font-black font-[family-name:var(--font-display)]">
               U
             </div>
-            <span className="font-bold text-white text-sm font-[family-name:var(--font-hanken)]">
+            <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">
               UnfilteredU
             </span>
           </div>
-          <p className="text-white/35 text-sm text-center">
+          <p className="text-white/30 text-sm text-center font-light">
             Real opinions. Real students. No filter.
           </p>
-          <p className="text-white/20 text-xs">Not affiliated with any university.</p>
+          <p className="text-white/15 text-xs font-light">Not affiliated with any university.</p>
         </div>
       </footer>
     </div>

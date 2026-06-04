@@ -15,11 +15,7 @@ export default function EmailSignup() {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({ email }),
       });
-      if (res.ok) {
-        setStatus("success");
-      } else {
-        setStatus("error");
-      }
+      setStatus(res.ok ? "success" : "error");
     } catch {
       setStatus("error");
     }
@@ -27,8 +23,8 @@ export default function EmailSignup() {
 
   if (status === "success") {
     return (
-      <p className="text-sm font-semibold" style={{ color: "#3BB273" }}>
-        You&rsquo;re on the list — we&rsquo;ll notify you when your school goes live. 🎉
+      <p className="text-sm font-semibold text-[#c9a052] text-center">
+        You&rsquo;re on the list — we&rsquo;ll notify you when your school goes live.
       </p>
     );
   }
@@ -36,27 +32,27 @@ export default function EmailSignup() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className="flex rounded-full overflow-hidden shadow border border-slate-200 max-w-sm mx-auto">
+        <div className="flex overflow-hidden border border-white/10 max-w-sm mx-auto" style={{ borderRadius: "6px" }}>
           <input
             type="email"
             required
             placeholder="your@email.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-1 px-5 py-3.5 text-sm text-slate-700 placeholder-slate-400 bg-white outline-none"
+            className="flex-1 px-5 py-3.5 text-sm text-white placeholder-white/25 bg-white/5 outline-none font-light"
           />
           <button
             type="submit"
             disabled={status === "loading"}
-            className="bg-[#EF6C35] hover:bg-[#d45f2a] transition-colors text-white font-bold px-5 py-3.5 text-sm shrink-0 disabled:opacity-60"
+            className="bg-[#c9a052] hover:bg-[#b5883a] transition-colors text-[#1c1917] font-semibold px-5 py-3.5 text-sm shrink-0 disabled:opacity-50"
           >
-            {status === "loading" ? "..." : "Subscribe →"}
+            {status === "loading" ? "..." : "Notify Me"}
           </button>
         </div>
       </form>
       {status === "error" && (
-        <p className="mt-3 text-sm font-medium" style={{ color: "#D62839" }}>
-          Something went wrong, please try again.
+        <p className="mt-3 text-xs text-[#be4b26] text-center font-light">
+          Something went wrong — please try again.
         </p>
       )}
     </>

@@ -28,80 +28,82 @@ export default function SchoolsPage() {
   const comingSoon = SCHOOLS.filter((s) => !availableSlugs.includes(s.slug));
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#f5f1eb]">
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#2B2D42] relative overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-[0.06]"
-          style={{
-            backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
-          }}
-        />
-        <div className="relative max-w-4xl mx-auto px-5 pt-14 pb-20 sm:pt-20 sm:pb-28 text-white">
-          <a
-            href="/"
-            className="inline-flex items-center gap-1.5 text-white/40 hover:text-white/70 transition-colors text-sm mb-6"
-          >
+      <section className="bg-[#1c1917] relative overflow-hidden pt-16 pb-20 px-6">
+        <div className="max-w-4xl mx-auto text-white">
+          <a href="/" className="inline-flex items-center gap-1.5 text-white/30 hover:text-white/60 transition-colors text-sm mb-8 font-light">
             ← Home
           </a>
-          <h1 className="text-4xl sm:text-5xl font-black tracking-tight mb-3">
-            Browse Schools
+          <div className="flex items-center gap-3 mb-6">
+            <span className="h-px w-8 bg-[#c9a052]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+              Browse Schools
+            </span>
+          </div>
+          <h1
+            className="font-[family-name:var(--font-display)] font-bold text-white leading-tight"
+            style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em" }}
+          >
+            {schools.length} schools reviewed.
           </h1>
-          <p className="text-white/50 text-base sm:text-lg">
-            {schools.length} schools with real student reviews · sourced from Reddit
+          <p className="text-white/40 text-base font-light mt-3">
+            Sourced from Reddit · student communities &amp; r/ApplyingToCollege
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-[#F2F3F5] pointer-events-none" />
       </section>
 
       {/* School grid */}
-      <div className="max-w-5xl mx-auto px-4 pt-12 pb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="max-w-6xl mx-auto px-6 pt-14 pb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-[#d6d1c8]">
           {schools.map(({ slug, name, location, vibe }) => (
-            <div
+            <a
               key={slug}
-              className="bg-white rounded-2xl border border-slate-200 p-5 flex flex-col shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+              href={`/schools/${slug}`}
+              className="group block border-b border-r border-[#d6d1c8] p-6 bg-[#f5f1eb] hover:bg-[#ede9e1] transition-colors duration-150"
             >
-              <div className="mb-auto">
-                <div className="inline-flex items-center gap-1.5 bg-[#EF6C35]/10 rounded-full px-2.5 py-0.5 mb-3">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#EF6C35]" />
-                  <span className="text-xs font-semibold text-[#EF6C35]">Live</span>
-                </div>
-                <h2 className="font-bold text-[#2B2D42] text-base mb-0.5">{name}</h2>
-                {location && (
-                  <p className="text-xs text-slate-400 mb-3">{location}</p>
-                )}
-                <p className="text-sm text-slate-500 leading-relaxed line-clamp-3">
-                  {vibe}
-                </p>
-              </div>
-              <a
-                href={`/schools/${slug}`}
-                className="mt-5 w-full text-center text-sm font-bold text-white bg-[#EF6C35] hover:bg-[#d45f2a] transition-colors rounded-full py-2.5"
+              <span className="inline-block font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#c9a052] mb-3">
+                ● Live
+              </span>
+              <h2
+                className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-base leading-snug w-fit border-b border-transparent group-hover:border-[#c9a052] transition-colors duration-200 mb-1"
               >
-                View Profile →
-              </a>
-            </div>
+                {name}
+              </h2>
+              {location && (
+                <p className="text-xs text-[#78716c] font-light mb-3">{location}</p>
+              )}
+              <p className="text-sm text-[#78716c] leading-relaxed line-clamp-3 font-light">
+                {vibe}
+              </p>
+              <div className="mt-4 pt-4 border-t border-[#d6d1c8]">
+                <span className="text-xs font-semibold text-[#c9a052] tracking-wide">
+                  Read Reviews →
+                </span>
+              </div>
+            </a>
           ))}
         </div>
 
         {comingSoon.length > 0 && (
           <div className="mt-16">
-            <h2 className="text-lg font-black text-[#2B2D42] mb-6">
-              Coming Soon
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="h-px w-8 bg-[#d6d1c8]" />
+              <h2 className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#78716c]">
+                Coming Soon
+              </h2>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 border-t border-l border-[#d6d1c8]">
               {comingSoon.map(({ slug, name, location }) => (
                 <div
                   key={slug}
-                  className="bg-white rounded-xl border border-slate-200 p-4 opacity-60"
+                  className="border-b border-r border-[#d6d1c8] p-4 opacity-50"
                 >
-                  <p className="font-semibold text-[#2B2D42] text-sm">{name}</p>
+                  <p className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-sm">{name}</p>
                   {location && (
-                    <p className="text-xs text-slate-400 mt-0.5">{location}</p>
+                    <p className="text-xs text-[#78716c] font-light mt-0.5">{location}</p>
                   )}
                 </div>
               ))}
@@ -110,18 +112,16 @@ export default function SchoolsPage() {
         )}
       </div>
 
-      <footer className="bg-[#2B2D42] py-10 px-4">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <footer className="bg-[#0f0d0a] py-10 px-6 border-t border-white/5">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 bg-[#EF6C35] rounded-md flex items-center justify-center text-white text-xs font-black">
+            <div className="w-6 h-6 bg-[#c9a052] rounded flex items-center justify-center text-[#1c1917] text-xs font-black font-[family-name:var(--font-display)]">
               U
             </div>
-            <span className="font-bold text-white text-sm">UnfilteredU</span>
+            <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">UnfilteredU</span>
           </div>
-          <p className="text-white/40 text-sm text-center">
-            Real opinions. Real students. No filter.
-          </p>
-          <p className="text-white/25 text-xs">Not affiliated with any university.</p>
+          <p className="text-white/30 text-sm font-light">Real opinions. Real students. No filter.</p>
+          <p className="text-white/15 text-xs font-light">Not affiliated with any university.</p>
         </div>
       </footer>
     </div>
