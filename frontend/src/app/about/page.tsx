@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import { getAvailableSlugs } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About — UnfilteredU",
 };
 
-const MISSION_STATS = [
-  { value: "19+", label: "Schools and growing" },
-  { value: "100%", label: "Student sourced, no paid content" },
-  { value: "Free", label: "No paywalls, ever" },
-];
-
 export default function AboutPage() {
+  const schoolCount = getAvailableSlugs().length;
+
+  const MISSION_STATS = [
+    { value: `${schoolCount}`, label: "Schools and growing" },
+    { value: "100%", label: "Student sourced, no paid content" },
+    { value: "Free", label: "No paywalls, ever" },
+  ];
+
   return (
     <div className="min-h-screen bg-[#f5f1eb]">
       <Navbar />
