@@ -139,8 +139,8 @@ export default async function SchoolPage({
   const { roomColor, wallColor, accentColor } = getRoomPalette(school);
 
   const posters = buildPosters(summary, school.colors.primary);
-  const stickyNotes = splitInsights(summary.housing.summary, 5).map((s) => truncate(s, 110));
-  const whiteboardItems = splitInsights(summary.academics.summary, 4).map((s) => truncate(s, 90));
+  const stickyNotes = splitInsights(summary.housing.summary, 5);
+  const whiteboardItems = splitInsights(summary.academics.summary, 4);
   const redditQuotes = gatherQuotes(summary);
   const vibeTagline = truncate(splitInsights(summary.overall_vibe.summary, 1)[0] ?? "", 80);
 
@@ -287,7 +287,7 @@ export default async function SchoolPage({
                   fontSize: "10px",
                   lineHeight: 1.4,
                   color: "#1a1a1a",
-                  maxWidth: "140px",
+                  maxWidth: "170px",
                   boxShadow: "2px 3px 6px rgba(0,0,0,0.4)",
                   fontFamily: "Georgia, serif",
                   transform: `rotate(${((i % 3) - 1) * 2}deg)`,
