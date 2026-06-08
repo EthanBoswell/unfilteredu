@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs } from "@/lib/data";
 import type { CategoryData } from "@/lib/schools";
+import { schoolColors } from "@/data/schoolColors";
 
 export async function generateStaticParams() {
   return getAvailableSlugs().map((slug) => ({ slug }));
@@ -37,30 +38,32 @@ function fakeUpvotes(seed: number, text: string): number {
   return 300 + ((seed * 211 + text.length * 37) % 1300);
 }
 
-type CardTheme = { icon: string; accent: string };
-
-const CARD_THEMES: Record<string, CardTheme> = {
-  housing:       { icon: "🏠", accent: "#60a5fa" },
-  social_life:   { icon: "🎉", accent: "#c084fc" },
-  dining:        { icon: "🍽️", accent: "#fbbf24" },
-  mental_health: { icon: "🧠", accent: "#2dd4bf" },
-  financial_aid: { icon: "💰", accent: "#facc15" },
-  academics:     { icon: "📚", accent: "#818cf8" },
+const CARD_ICONS: Record<string, string> = {
+  housing:       "🏠",
+  social_life:   "🎉",
+  dining:        "🍽️",
+  mental_health: "🧠",
+  financial_aid: "💰",
+  academics:     "📚",
 };
 
-function QuoteRow({ quote, seed }: { quote: string; seed: number }) {
+function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
   return (
     <div
       className="p-3 rounded"
-      style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)" }}
+      style={{
+        backgroundColor: "rgba(255,255,255,0.06)",
+        border: "1px solid rgba(255,255,255,0.07)",
+        borderLeft: `3px solid ${accentColor}`,
+      }}
     >
       <div className="flex items-start gap-2">
-        <span style={{ color: "#FF4500", fontSize: "10px", marginTop: "2px", flexShrink: 0 }}>▲</span>
+        <span style={{ color: accentColor, fontSize: "10px", marginTop: "2px", flexShrink: 0 }}>▲</span>
         <div>
           <span className="text-[10px] font-bold" style={{ color: "rgba(255,255,255,0.3)" }}>
             u/{quoteUsername(seed)}
           </span>
-          <p className="text-[11px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "Georgia, serif" }}>
+          <p className="text-[11px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.7)", fontFamily: "Georgia, serif" }}>
             &ldquo;{quote}&rdquo;
           </p>
         </div>
@@ -69,47 +72,48 @@ function QuoteRow({ quote, seed }: { quote: string; seed: number }) {
   );
 }
 
-function CategoryCard({ themeKey, label, data, cardIndex }: {
+function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
   themeKey: string;
   label: string;
   data: CategoryData;
   cardIndex: number;
+  primaryColor: string;
 }) {
-  const theme = CARD_THEMES[themeKey];
   return (
     <div
       className="flex flex-col gap-4 p-5 rounded-xl"
-      style={{ backgroundColor: "#13091f", border: "1px solid rgba(255,255,255,0.07)" }}
+      style={{
+        backgroundColor: "rgba(255,255,255,0.04)",
+        border: "1px solid rgba(255,255,255,0.08)",
+      }}
     >
       <div className="flex items-center gap-3">
         <div
           className="w-8 h-8 flex items-center justify-center text-base rounded-lg shrink-0"
           style={{ backgroundColor: "rgba(255,255,255,0.05)" }}
         >
-          {theme.icon}
+          {CARD_ICONS[themeKey]}
         </div>
         <span
           className="text-xs font-bold tracking-widest uppercase"
-          style={{ color: theme.accent }}
+          style={{ color: primaryColor }}
         >
           {label}
         </span>
       </div>
-      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)", fontFamily: "Georgia, serif" }}>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
         {data.summary}
       </p>
       <div className="flex flex-col gap-2">
         {data.key_quotes.map((quote, i) => (
-          <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} />
+          <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} accentColor={primaryColor} />
         ))}
       </div>
     </div>
   );
 }
 
-function gatherBottomQuotes(
-  categories: CategoryData[],
-): Array<{ text: string; upvotes: number }> {
+function gatherBottomQuotes(categories: CategoryData[]): Array<{ text: string; upvotes: number }> {
   return categories
     .map((cat, i) => {
       const text = cat.key_quotes[0];
@@ -134,6 +138,9 @@ export default async function SchoolPage({
 
   const summary = loadSummary(slug);
 
+  const colors = schoolColors[slug] ?? school.colors;
+  const primary = colors.primary;
+
   const mainCategories: Array<{ key: keyof typeof summary; label: string }> = [
     { key: "housing",       label: "Housing"       },
     { key: "social_life",   label: "Social Life"   },
@@ -153,57 +160,68 @@ export default async function SchoolPage({
     <div className="min-h-screen bg-[#0a0612] text-[#f0ebe8] font-mono">
       <Navbar />
 
-      {/* Header */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-6">
-        <a
-          href="/schools"
-          className="inline-flex items-center gap-1.5 text-xs tracking-widest uppercase opacity-30 hover:opacity-60 transition-opacity mb-8"
-        >
-          ← All schools
-        </a>
-        <div className="flex flex-col sm:flex-row sm:items-end gap-4">
-          <div>
-            <p className="text-xs tracking-widest uppercase opacity-40 mb-2">{school.location}</p>
-            <h1
-              className="text-3xl sm:text-4xl font-bold leading-tight"
-              style={{ fontFamily: "Georgia, serif", letterSpacing: "-0.02em" }}
-            >
-              {school.name}
-            </h1>
-          </div>
-          <div className="sm:ml-auto sm:text-right shrink-0">
-            <div className="text-xs opacity-40 mb-1">sourced from</div>
-            <div className="text-orange-400 text-sm font-bold">r/{school.slug} · r/ApplyingToCollege</div>
-            <div className="text-xs opacity-30">10,000+ posts analyzed</div>
-          </div>
-        </div>
-
-        {/* Overall vibe */}
-        <div
-          className="mt-6 p-5 rounded-xl"
-          style={{ backgroundColor: "#13091f", border: "1px solid rgba(255,255,255,0.07)" }}
-        >
-          <p className="text-xs tracking-widest uppercase opacity-40 mb-3">Overall vibe</p>
-          <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.75)", fontFamily: "Georgia, serif" }}>
-            {summary.overall_vibe.summary}
-          </p>
-        </div>
-
-        {/* Stats chips */}
-        {school.stats.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-5">
-            {school.stats.map(({ icon, label }) => (
-              <div
-                key={label}
-                className="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold"
-                style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}
+      {/* Header with school-color gradient */}
+      <div
+        style={{
+          background: `linear-gradient(135deg, ${primary}22 0%, #0a0612 60%)`,
+        }}
+      >
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-8">
+          <a
+            href="/schools"
+            className="inline-flex items-center gap-1.5 text-xs tracking-widest uppercase opacity-30 hover:opacity-60 transition-opacity mb-8"
+          >
+            ← All schools
+          </a>
+          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+            <div>
+              <p className="text-xs tracking-widest uppercase opacity-40 mb-2">{school.location}</p>
+              <h1
+                className="text-3xl sm:text-4xl font-bold leading-tight"
+                style={{ fontFamily: "Georgia, serif", letterSpacing: "-0.02em" }}
               >
-                <span>{icon}</span>
-                <span style={{ color: "rgba(255,255,255,0.7)" }}>{label}</span>
+                {school.name}
+              </h1>
+            </div>
+            <div className="sm:ml-auto sm:text-right shrink-0">
+              <div className="text-xs opacity-40 mb-1">sourced from</div>
+              <div className="text-sm font-bold" style={{ color: primary === "#ffffff" ? "#ccc" : primary }}>
+                r/{school.slug} · r/ApplyingToCollege
               </div>
-            ))}
+              <div className="text-xs opacity-30">10,000+ posts analyzed</div>
+            </div>
           </div>
-        )}
+
+          {/* Overall vibe */}
+          <div
+            className="mt-6 p-5 rounded-xl"
+            style={{
+              backgroundColor: "rgba(255,255,255,0.04)",
+              border: "1px solid rgba(255,255,255,0.08)",
+            }}
+          >
+            <p className="text-xs tracking-widest uppercase opacity-40 mb-3">Overall vibe</p>
+            <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+              {summary.overall_vibe.summary}
+            </p>
+          </div>
+
+          {/* Stats chips */}
+          {school.stats.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-5">
+              {school.stats.map(({ icon, label }) => (
+                <div
+                  key={label}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold"
+                  style={{ backgroundColor: primary, color: "#ffffff" }}
+                >
+                  <span>{icon}</span>
+                  <span>{label}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Main category cards */}
@@ -217,6 +235,7 @@ export default async function SchoolPage({
               label={label}
               data={summary[key]}
               cardIndex={i}
+              primaryColor={primary}
             />
           ))}
         </div>
@@ -229,7 +248,7 @@ export default async function SchoolPage({
             <span className="h-px w-6" style={{ backgroundColor: "rgba(214,40,57,0.5)" }} />
             <p className="text-xs tracking-widest uppercase" style={{ color: "rgba(214,40,57,0.7)" }}>Red Flags</p>
           </div>
-          <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.5)", fontFamily: "Georgia, serif" }}>
+          <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
             {summary.red_flags.summary}
           </p>
           <div className="flex flex-col gap-2">
@@ -249,7 +268,7 @@ export default async function SchoolPage({
                     <span className="text-[10px] font-bold" style={{ color: "rgba(214,40,57,0.5)" }}>
                       u/{quoteUsername(i * 11 + 99)}
                     </span>
-                    <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "Georgia, serif" }}>
+                    <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
                       &ldquo;{quote}&rdquo;
                     </p>
                   </div>
@@ -266,7 +285,7 @@ export default async function SchoolPage({
           <span className="h-px w-6" style={{ backgroundColor: "rgba(59,178,115,0.5)" }} />
           <p className="text-xs tracking-widest uppercase" style={{ color: "rgba(59,178,115,0.8)" }}>Hidden Gems</p>
         </div>
-        <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.5)", fontFamily: "Georgia, serif" }}>
+        <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
           {summary.hidden_gems.summary}
         </p>
         <div className="flex flex-col gap-2">
@@ -286,7 +305,7 @@ export default async function SchoolPage({
                   <span className="text-[10px] font-bold" style={{ color: "rgba(59,178,115,0.6)" }}>
                     u/{quoteUsername(i * 9 + 88)}
                   </span>
-                  <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "Georgia, serif" }}>
+                  <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
                     &ldquo;{quote}&rdquo;
                   </p>
                 </div>
@@ -307,14 +326,18 @@ export default async function SchoolPage({
             {bottomQuotes.map((quote, i) => (
               <div
                 key={i}
-                className="p-4 rounded-lg transition-colors bg-[#160d24] hover:bg-[#1f102e]"
-                style={{ border: "1px solid rgba(255,255,255,0.07)", borderLeft: "3px solid #FF4500" }}
+                className="p-4 rounded-lg transition-colors hover:bg-white/[0.06]"
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.04)",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  borderLeft: `3px solid ${primary}`,
+                }}
               >
-                <p className="text-sm leading-relaxed italic" style={{ color: "rgba(255,255,255,0.75)", fontFamily: "Georgia, serif" }}>
+                <p className="text-sm leading-relaxed italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
                   &ldquo;{quote.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-2 mt-2">
-                  <span style={{ color: "#FF4500", fontSize: "11px" }}>▲</span>
+                  <span style={{ color: primary, fontSize: "11px" }}>▲</span>
                   <span className="text-[11px] opacity-40">{quote.upvotes.toLocaleString()}</span>
                   <span className="text-[11px] opacity-25 ml-1">u/{quoteUsername(i * 7 + quote.text.length)}</span>
                 </div>
@@ -328,7 +351,10 @@ export default async function SchoolPage({
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 flex flex-col items-center gap-4 text-center">
         <div
           className="inline-flex items-start gap-3 p-4 rounded-lg text-left max-w-xl"
-          style={{ backgroundColor: "#13091f", border: "1px solid rgba(255,255,255,0.06)" }}
+          style={{
+            backgroundColor: "rgba(255,255,255,0.04)",
+            border: "1px solid rgba(255,255,255,0.08)",
+          }}
         >
           <span className="text-sm shrink-0 mt-0.5">ℹ️</span>
           <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.35)" }}>
