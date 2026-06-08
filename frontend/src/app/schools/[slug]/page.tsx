@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import Navbar from "@/components/Navbar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs } from "@/lib/data";
@@ -47,23 +48,36 @@ const CARD_ICONS: Record<string, string> = {
   academics:     "📚",
 };
 
+function SectionLabel({ text, color }: { text: string; color: string }) {
+  return (
+    <div className="flex items-center gap-2.5 mb-5">
+      <span
+        style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: color, borderRadius: "2px", flexShrink: 0 }}
+      />
+      <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "rgba(255,255,255,0.45)" }}>
+        {text}
+      </p>
+    </div>
+  );
+}
+
 function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
   return (
     <div
-      className="p-3 rounded"
+      className="p-3 rounded-lg"
       style={{
-        backgroundColor: "rgba(255,255,255,0.06)",
+        backgroundColor: "rgba(255,255,255,0.05)",
         border: "1px solid rgba(255,255,255,0.07)",
-        borderLeft: `3px solid ${accentColor}`,
+        borderLeft: `3px solid ${accentColor}55`,
       }}
     >
       <div className="flex items-start gap-2">
-        <span style={{ color: accentColor, fontSize: "10px", marginTop: "2px", flexShrink: 0 }}>▲</span>
+        <span style={{ color: accentColor, fontSize: "9px", marginTop: "3px", flexShrink: 0 }}>▲</span>
         <div>
-          <span className="text-[10px] font-bold" style={{ color: "rgba(255,255,255,0.3)" }}>
+          <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}99` }}>
             u/{quoteUsername(seed)}
           </span>
-          <p className="text-[11px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.7)", fontFamily: "Georgia, serif" }}>
+          <p className="text-[12px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.72)", fontFamily: "Georgia, serif" }}>
             &ldquo;{quote}&rdquo;
           </p>
         </div>
@@ -81,21 +95,23 @@ function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
 }) {
   return (
     <div
-      className="flex flex-col gap-4 p-5 rounded-xl"
+      className="cat-card flex flex-col gap-4 p-6 rounded-xl"
       style={{
         backgroundColor: "rgba(255,255,255,0.04)",
         border: "1px solid rgba(255,255,255,0.08)",
-      }}
+        "--glow-border": `${primaryColor}45`,
+        "--glow-shadow": `${primaryColor}22`,
+      } as CSSProperties}
     >
       <div className="flex items-center gap-3">
         <div
-          className="w-8 h-8 flex items-center justify-center text-base rounded-lg shrink-0"
-          style={{ backgroundColor: "rgba(255,255,255,0.05)" }}
+          className="w-9 h-9 flex items-center justify-center text-lg rounded-xl shrink-0"
+          style={{ backgroundColor: `${primaryColor}18` }}
         >
           {CARD_ICONS[themeKey]}
         </div>
         <span
-          className="text-xs font-bold tracking-widest uppercase"
+          className="text-[11px] font-bold tracking-[0.18em] uppercase"
           style={{ color: primaryColor }}
         >
           {label}
@@ -104,7 +120,7 @@ function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
       <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
         {data.summary}
       </p>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 mt-1">
         {data.key_quotes.map((quote, i) => (
           <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} accentColor={primaryColor} />
         ))}
@@ -160,60 +176,64 @@ export default async function SchoolPage({
     <div className="min-h-screen bg-[#0a0612] text-[#f0ebe8] font-mono">
       <Navbar />
 
-      {/* Header with school-color gradient */}
-      <div
-        style={{
-          background: `linear-gradient(135deg, ${primary}22 0%, #0a0612 60%)`,
-        }}
-      >
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-8">
+      {/* ── Hero ──────────────────────────────────────────────────────── */}
+      <div style={{ background: `linear-gradient(135deg, ${primary}2e 0%, #0a0612 55%)` }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
           <a
             href="/schools"
-            className="inline-flex items-center gap-1.5 text-xs tracking-widest uppercase opacity-30 hover:opacity-60 transition-opacity mb-8"
+            className="inline-flex items-center gap-1.5 text-[10px] tracking-[0.18em] uppercase opacity-30 hover:opacity-70 transition-opacity mb-10"
           >
             ← All schools
           </a>
-          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
-            <div>
-              <p className="text-xs tracking-widest uppercase opacity-40 mb-2">{school.location}</p>
+
+          <div className="flex flex-col sm:flex-row sm:items-start gap-6">
+            <div className="flex-1 min-w-0">
+              <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}cc` }}>
+                {school.location}
+              </p>
               <h1
-                className="text-3xl sm:text-4xl font-bold leading-tight"
-                style={{ fontFamily: "Georgia, serif", letterSpacing: "-0.02em" }}
+                className="font-bold leading-none mb-4"
+                style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em" }}
               >
                 {school.name}
               </h1>
+              {/* Colored accent line under name */}
+              <div style={{ width: "48px", height: "3px", backgroundColor: primary, borderRadius: "2px" }} />
             </div>
-            <div className="sm:ml-auto sm:text-right shrink-0">
-              <div className="text-xs opacity-40 mb-1">sourced from</div>
-              <div className="text-sm font-bold" style={{ color: primary === "#ffffff" ? "#ccc" : primary }}>
+
+            <div className="sm:text-right shrink-0 pt-1">
+              <div className="text-[10px] tracking-[0.15em] uppercase mb-1" style={{ color: "rgba(255,255,255,0.3)" }}>sourced from</div>
+              <div className="text-sm font-bold" style={{ color: primary === "#ffffff" ? "#ccc" : `${primary}dd` }}>
                 r/{school.slug} · r/ApplyingToCollege
               </div>
-              <div className="text-xs opacity-30">10,000+ posts analyzed</div>
+              <div className="text-[10px] mt-0.5" style={{ color: "rgba(255,255,255,0.2)" }}>10,000+ posts analyzed</div>
             </div>
           </div>
 
-          {/* Overall vibe */}
+          {/* Overall vibe — editorial statement */}
           <div
-            className="mt-6 p-5 rounded-xl"
-            style={{
-              backgroundColor: "rgba(255,255,255,0.04)",
-              border: "1px solid rgba(255,255,255,0.08)",
-            }}
+            className="mt-8 pl-5"
+            style={{ borderLeft: `4px solid ${primary}` }}
           >
-            <p className="text-xs tracking-widest uppercase opacity-40 mb-3">Overall vibe</p>
-            <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+            <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}aa` }}>
+              Overall Vibe
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ fontSize: "clamp(0.9rem, 2vw, 1.05rem)", color: "rgba(255,255,255,0.88)", fontFamily: "Georgia, serif" }}
+            >
               {summary.overall_vibe.summary}
             </p>
           </div>
 
-          {/* Stats chips */}
+          {/* Stats pills */}
           {school.stats.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-5">
+            <div className="flex flex-wrap gap-2 mt-7">
               {school.stats.map(({ icon, label }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold"
-                  style={{ backgroundColor: primary, color: "#ffffff" }}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold"
+                  style={{ backgroundColor: `${primary}cc`, color: "#ffffff" }}
                 >
                   <span>{icon}</span>
                   <span>{label}</span>
@@ -224,9 +244,9 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* Main category cards */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-10">
-        <p className="text-xs tracking-widest uppercase opacity-40 mb-4">What students are saying</p>
+      {/* ── Category cards ────────────────────────────────────────────── */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
+        <SectionLabel text="What students are saying" color={primary} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {mainCategories.map(({ key, label }, i) => (
             <CategoryCard
@@ -241,34 +261,31 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* Red Flags */}
-      <div style={{ backgroundColor: "#0f0408", borderTop: "1px solid rgba(255,255,255,0.05)", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+      {/* ── Red Flags ─────────────────────────────────────────────────── */}
+      <div style={{ backgroundColor: "#0c0308", borderTop: "1px solid rgba(255,255,255,0.05)", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="h-px w-6" style={{ backgroundColor: "rgba(214,40,57,0.5)" }} />
-            <p className="text-xs tracking-widest uppercase" style={{ color: "rgba(214,40,57,0.7)" }}>Red Flags</p>
-          </div>
+          <SectionLabel text="⚠ Red Flags" color="#D62839" />
           <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
             {summary.red_flags.summary}
           </p>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             {summary.red_flags.key_quotes.map((quote, i) => (
               <div
                 key={i}
                 className="p-4 rounded-lg"
                 style={{
-                  backgroundColor: "rgba(214,40,57,0.08)",
-                  border: "1px solid rgba(214,40,57,0.15)",
-                  borderLeft: "3px solid rgba(214,40,57,0.6)",
+                  backgroundColor: "rgba(214,40,57,0.07)",
+                  border: "1px solid rgba(214,40,57,0.18)",
+                  borderLeft: "4px solid rgba(214,40,57,0.55)",
                 }}
               >
-                <div className="flex items-start gap-2">
-                  <span style={{ color: "#D62839", fontSize: "10px", marginTop: "2px", flexShrink: 0 }}>▲</span>
+                <div className="flex items-start gap-2.5">
+                  <span style={{ color: "#D62839", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
                   <div>
-                    <span className="text-[10px] font-bold" style={{ color: "rgba(214,40,57,0.5)" }}>
+                    <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(214,40,57,0.6)" }}>
                       u/{quoteUsername(i * 11 + 99)}
                     </span>
-                    <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+                    <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
                       &ldquo;{quote}&rdquo;
                     </p>
                   </div>
@@ -279,33 +296,30 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* Hidden Gems */}
+      {/* ── Hidden Gems ───────────────────────────────────────────────── */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="h-px w-6" style={{ backgroundColor: "rgba(59,178,115,0.5)" }} />
-          <p className="text-xs tracking-widest uppercase" style={{ color: "rgba(59,178,115,0.8)" }}>Hidden Gems</p>
-        </div>
+        <SectionLabel text="◆ Hidden Gems" color="#3BB273" />
         <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
           {summary.hidden_gems.summary}
         </p>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-3">
           {summary.hidden_gems.key_quotes.map((quote, i) => (
             <div
               key={i}
               className="p-4 rounded-lg"
               style={{
-                backgroundColor: "rgba(59,178,115,0.06)",
-                border: "1px solid rgba(59,178,115,0.15)",
-                borderLeft: "3px solid rgba(59,178,115,0.5)",
+                backgroundColor: "rgba(59,178,115,0.07)",
+                border: "1px solid rgba(59,178,115,0.18)",
+                borderLeft: "4px solid rgba(59,178,115,0.5)",
               }}
             >
-              <div className="flex items-start gap-2">
-                <span style={{ color: "#3BB273", fontSize: "10px", marginTop: "2px", flexShrink: 0 }}>▲</span>
+              <div className="flex items-start gap-2.5">
+                <span style={{ color: "#3BB273", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
                 <div>
-                  <span className="text-[10px] font-bold" style={{ color: "rgba(59,178,115,0.6)" }}>
+                  <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(59,178,115,0.65)" }}>
                     u/{quoteUsername(i * 9 + 88)}
                   </span>
-                  <p className="text-[12px] leading-relaxed mt-0.5 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+                  <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
                     &ldquo;{quote}&rdquo;
                   </p>
                 </div>
@@ -315,31 +329,32 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* Reddit quotes */}
-      <div
-        className="border-t"
-        style={{ borderColor: "rgba(255,255,255,0.05)", backgroundColor: "#0d0818" }}
-      >
+      {/* ── Straight from Reddit ──────────────────────────────────────── */}
+      <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", backgroundColor: "#0d0818" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <p className="text-xs tracking-widest uppercase opacity-40 mb-4">Straight from Reddit</p>
+          <SectionLabel text="Straight from Reddit" color={primary} />
           <div className="flex flex-col gap-3">
             {bottomQuotes.map((quote, i) => (
               <div
                 key={i}
-                className="p-4 rounded-lg transition-colors hover:bg-white/[0.06]"
+                className="cat-card p-5 rounded-xl"
                 style={{
                   backgroundColor: "rgba(255,255,255,0.04)",
                   border: "1px solid rgba(255,255,255,0.08)",
-                  borderLeft: `3px solid ${primary}`,
-                }}
+                  borderLeft: `4px solid ${primary}`,
+                  "--glow-border": `${primary}40`,
+                  "--glow-shadow": `${primary}18`,
+                } as CSSProperties}
               >
-                <p className="text-sm leading-relaxed italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+                <p className="text-sm leading-relaxed italic" style={{ color: "rgba(255,255,255,0.85)", fontFamily: "Georgia, serif" }}>
                   &ldquo;{quote.text}&rdquo;
                 </p>
-                <div className="flex items-center gap-2 mt-2">
-                  <span style={{ color: primary, fontSize: "11px" }}>▲</span>
-                  <span className="text-[11px] opacity-40">{quote.upvotes.toLocaleString()}</span>
-                  <span className="text-[11px] opacity-25 ml-1">u/{quoteUsername(i * 7 + quote.text.length)}</span>
+                <div className="flex items-center gap-2 mt-3">
+                  <span style={{ color: primary, fontSize: "10px" }}>▲</span>
+                  <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.35)" }}>{quote.upvotes.toLocaleString()}</span>
+                  <span className="text-[11px] ml-1" style={{ color: "rgba(255,255,255,0.25)" }}>
+                    u/{quoteUsername(i * 7 + quote.text.length)}
+                  </span>
                 </div>
               </div>
             ))}
@@ -347,25 +362,22 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 flex flex-col items-center gap-4 text-center">
+      {/* ── Footer ────────────────────────────────────────────────────── */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 flex flex-col items-center gap-5 text-center">
         <div
-          className="inline-flex items-start gap-3 p-4 rounded-lg text-left max-w-xl"
-          style={{
-            backgroundColor: "rgba(255,255,255,0.04)",
-            border: "1px solid rgba(255,255,255,0.08)",
-          }}
+          className="inline-flex items-start gap-3 p-4 rounded-xl text-left max-w-xl w-full"
+          style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
         >
           <span className="text-sm shrink-0 mt-0.5">ℹ️</span>
-          <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.35)" }}>
-            <span className="font-bold" style={{ color: "rgba(255,255,255,0.55)" }}>Disclaimer: </span>
+          <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.32)" }}>
+            <span className="font-bold" style={{ color: "rgba(255,255,255,0.5)" }}>Disclaimer: </span>
             Based on real student opinions from Reddit — not official school content. Views reflect individual
             student experiences and may not represent the full picture. Always visit campus and do your own research.
           </p>
         </div>
         <p
-          className="text-[9px] tracking-[0.3em] uppercase"
-          style={{ color: "rgba(255,255,255,0.1)" }}
+          className="text-[9px] tracking-[0.35em] uppercase"
+          style={{ color: "rgba(255,255,255,0.08)" }}
         >
           Room 214 · {school.name}
         </p>

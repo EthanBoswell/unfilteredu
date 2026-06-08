@@ -12,3 +12,13 @@
   --color-muted: #78716c;
   --color-border: #d6d1c8;
 }
+
+/* Category card hover glow — driven by --glow-border / --glow-shadow set inline per card */
+.cat-card {
+  transition: box-shadow 0.25s ease;
+}
+.cat-card:hover {
+  box-shadow:
+    0 0 0 1px var(--glow-border, rgba(255,255,255,0.18)),
+    0 8px 40px -8px var(--glow-shadow, transparent);
+}
