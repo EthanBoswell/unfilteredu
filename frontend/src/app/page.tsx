@@ -46,31 +46,31 @@ export default function HomePage() {
   const searchOptions = schools.map(({ slug, name, location }) => ({ slug, name, location }));
 
   return (
-    <div className="min-h-screen bg-[#f5f1eb]">
+    <div className="min-h-screen bg-[#EFEFED]">
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#f5f1eb] pt-20 pb-0 px-6">
+      <section className="bg-[#EFEFED] pt-20 pb-0 px-6">
         <div className="max-w-4xl mx-auto">
           {/* Eyebrow */}
           <div className="flex items-center gap-3 mb-8">
-            <span className="h-px w-8 bg-[#c9a052]" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+            <span className="h-px w-8 bg-[#EF6C35]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#EF6C35]">
               Real College Reviews
             </span>
           </div>
 
           {/* Headline */}
           <h1
-            className="font-[family-name:var(--font-display)] font-bold leading-[1.05] text-[#1c1917] mb-6"
+            className="font-[family-name:var(--font-display)] font-bold leading-[1.05] text-[#111111] mb-6"
             style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)", letterSpacing: "-0.02em" }}
           >
             Real talk about college.
             <br />
-            <em className="text-[#be4b26]">No filter.</em>
+            <em className="text-[#EF6C35]">No filter.</em>
           </h1>
 
-          <p className="text-lg text-[#78716c] font-light max-w-xl leading-relaxed mb-10">
+          <p className="text-lg text-[#777777] font-light max-w-xl leading-relaxed mb-10">
             We read thousands of Reddit posts so you don&rsquo;t have to.
             No marketing. No tours. Just the truth.
           </p>
@@ -78,7 +78,7 @@ export default function HomePage() {
           <SearchBar schools={searchOptions} />
 
           {/* Stats — promoted into hero */}
-          <div className="mt-16 pt-10 border-t border-[#d6d1c8] grid grid-cols-3 gap-0 divide-x divide-[#d6d1c8]">
+          <div className="mt-16 pt-10 border-t border-black/10 grid grid-cols-3 gap-0 divide-x divide-black/10">
             {[
               { value: "10K+", label: "Reddit posts analyzed" },
               { value: String(schools.length), label: "Schools reviewed" },
@@ -86,12 +86,12 @@ export default function HomePage() {
             ].map(({ value, label }) => (
               <div key={label} className="px-8 first:pl-0 last:pr-0 pb-10">
                 <p
-                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] leading-none mb-1"
+                  className="font-[family-name:var(--font-display)] font-bold text-[#111111] leading-none mb-1"
                   style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.03em" }}
                 >
                   {value}
                 </p>
-                <p className="text-xs text-[#78716c] font-light tracking-wide">{label}</p>
+                <p className="text-xs text-[#777777] font-light tracking-wide">{label}</p>
               </div>
             ))}
           </div>
@@ -99,11 +99,11 @@ export default function HomePage() {
       </section>
 
       {/* How it works — ghosted numbers */}
-      <section className="bg-[#ede9e1] py-20 px-6 border-t border-[#d6d1c8]">
+      <section className="bg-[#E8E8E6] py-20 px-6 border-t border-black/10">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-12">
-            <span className="h-px w-8 bg-[#c9a052]" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+            <span className="h-px w-8 bg-[#EF6C35]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#EF6C35]">
               The Process
             </span>
           </div>
@@ -112,18 +112,18 @@ export default function HomePage() {
               <div key={step}>
                 {/* Ghosted number — the dominant visual */}
                 <div
-                  className="font-[family-name:var(--font-display)] font-bold leading-none text-[#d6d1c8] select-none mb-4"
+                  className="font-[family-name:var(--font-display)] font-bold leading-none text-[#CCCCCC] select-none mb-4"
                   style={{ fontSize: "clamp(4rem, 10vw, 7rem)", letterSpacing: "-0.04em" }}
                   aria-hidden
                 >
                   {step}
                 </div>
                 <h3
-                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-lg mb-2"
+                  className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-lg mb-2"
                 >
                   {title}
                 </h3>
-                <p className="text-sm text-[#78716c] leading-relaxed font-light">{desc}</p>
+                <p className="text-sm text-[#777777] leading-relaxed font-light">{desc}</p>
               </div>
             ))}
           </div>
@@ -131,17 +131,17 @@ export default function HomePage() {
       </section>
 
       {/* Schools — newspaper grid */}
-      <section className="bg-[#f5f1eb] py-20 px-6 border-t border-[#d6d1c8]">
+      <section className="bg-[#EFEFED] py-20 px-6 border-t border-black/10">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-10">
             <div className="flex items-center gap-3">
-              <span className="h-px w-8 bg-[#c9a052]" />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+              <span className="h-px w-8 bg-[#EF6C35]" />
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#EF6C35]">
                 Browse Schools
               </span>
             </div>
             <h2
-              className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-xl"
+              className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-xl"
               style={{ letterSpacing: "-0.01em" }}
             >
               {schools.length} available now
@@ -149,35 +149,35 @@ export default function HomePage() {
           </div>
 
           {/* 1px border grid — no shadows */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-[#d6d1c8]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-black/10">
             {schools.map(({ slug, name, location, vibe }) => (
               <a
                 key={slug}
                 href={`/schools/${slug}`}
-                className="group block border-b border-r border-[#d6d1c8] p-6 bg-[#f5f1eb] hover:bg-[#ede9e1] transition-colors duration-150"
+                className="group block border-b border-r border-black/10 p-6 bg-white hover:bg-[#F7F7F5] transition-colors duration-150"
               >
                 {/* Live badge */}
-                <span className="inline-block font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#c9a052] mb-3">
+                <span className="inline-block font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#EF6C35] mb-3">
                   ● Live
                 </span>
 
                 {/* School name with gold underline reveal */}
                 <h3
-                  className="font-[family-name:var(--font-display)] font-bold text-[#1c1917] text-base leading-snug w-fit border-b border-transparent group-hover:border-[#c9a052] transition-colors duration-200 mb-1"
+                  className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-base leading-snug w-fit border-b border-transparent group-hover:border-[#EF6C35] transition-colors duration-200 mb-1"
                 >
                   {name}
                 </h3>
 
                 {location && (
-                  <p className="text-xs text-[#78716c] font-light mb-3">{location}</p>
+                  <p className="text-xs text-[#777777] font-light mb-3">{location}</p>
                 )}
 
-                <p className="text-sm text-[#78716c] leading-relaxed line-clamp-3 font-light">
+                <p className="text-sm text-[#777777] leading-relaxed line-clamp-3 font-light">
                   {vibe}
                 </p>
 
-                <div className="mt-4 pt-4 border-t border-[#d6d1c8]">
-                  <span className="text-xs font-semibold text-[#c9a052] tracking-wide">
+                <div className="mt-4 pt-4 border-t border-black/10">
+                  <span className="text-xs font-semibold text-[#EF6C35] tracking-wide">
                     Read Reviews →
                   </span>
                 </div>
@@ -188,14 +188,14 @@ export default function HomePage() {
       </section>
 
       {/* Email CTA */}
-      <section className="bg-[#1c1917] py-20 px-6">
+      <section className="bg-[#2B2D42] py-20 px-6">
         <div className="max-w-xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-8">
-            <span className="h-px w-8 bg-[#c9a052]" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#c9a052]">
+            <span className="h-px w-8 bg-[#EF6C35]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#EF6C35]">
               Stay In The Loop
             </span>
-            <span className="h-px w-8 bg-[#c9a052]" />
+            <span className="h-px w-8 bg-[#EF6C35]" />
           </div>
           <h2
             className="font-[family-name:var(--font-display)] font-bold text-white text-3xl sm:text-4xl mb-3"
@@ -203,7 +203,7 @@ export default function HomePage() {
           >
             Your school not listed?
           </h2>
-          <p className="text-[#78716c] mb-8 font-light leading-relaxed">
+          <p className="text-[#777777] mb-8 font-light leading-relaxed">
             We&rsquo;re adding new schools weekly. Drop your email and
             we&rsquo;ll notify you when your school is live.
           </p>
@@ -212,10 +212,10 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0f0d0a] py-10 px-6 border-t border-white/5">
+      <footer className="bg-[#2B2D42] py-10 px-6 border-t border-white/5">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 bg-[#c9a052] rounded flex items-center justify-center text-[#1c1917] text-xs font-black font-[family-name:var(--font-display)]">
+            <div className="w-6 h-6 bg-[#EF6C35] rounded flex items-center justify-center text-[#111111] text-xs font-black font-[family-name:var(--font-display)]">
               U
             </div>
             <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">

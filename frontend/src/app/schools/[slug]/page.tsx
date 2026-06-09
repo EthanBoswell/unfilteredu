@@ -51,10 +51,8 @@ const CARD_ICONS: Record<string, string> = {
 function SectionLabel({ text, color }: { text: string; color: string }) {
   return (
     <div className="flex items-center gap-2.5 mb-5">
-      <span
-        style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: color, borderRadius: "2px", flexShrink: 0 }}
-      />
-      <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "rgba(255,255,255,0.45)" }}>
+      <span style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: color, borderRadius: "2px", flexShrink: 0 }} />
+      <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "#777777" }}>
         {text}
       </p>
     </div>
@@ -66,18 +64,18 @@ function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; a
     <div
       className="p-3 rounded-lg"
       style={{
-        backgroundColor: "rgba(255,255,255,0.05)",
-        border: "1px solid rgba(255,255,255,0.07)",
-        borderLeft: `3px solid ${accentColor}55`,
+        backgroundColor: "#F7F7F7",
+        border: "1px solid rgba(0,0,0,0.06)",
+        borderLeft: `3px solid ${accentColor}`,
       }}
     >
       <div className="flex items-start gap-2">
         <span style={{ color: accentColor, fontSize: "9px", marginTop: "3px", flexShrink: 0 }}>▲</span>
         <div>
-          <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}99` }}>
+          <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}cc` }}>
             u/{quoteUsername(seed)}
           </span>
-          <p className="text-[12px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.72)", fontFamily: "Georgia, serif" }}>
+          <p className="text-[12px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
             &ldquo;{quote}&rdquo;
           </p>
         </div>
@@ -95,12 +93,11 @@ function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
 }) {
   return (
     <div
-      className="cat-card flex flex-col gap-4 p-6 rounded-xl"
+      className="cat-card flex flex-col gap-4 p-6 rounded-xl bg-white"
       style={{
-        backgroundColor: "rgba(255,255,255,0.04)",
-        border: "1px solid rgba(255,255,255,0.08)",
-        "--glow-border": `${primaryColor}45`,
-        "--glow-shadow": `${primaryColor}22`,
+        border: "1px solid rgba(0,0,0,0.08)",
+        "--glow-border": `${primaryColor}40`,
+        "--glow-shadow": `${primaryColor}18`,
       } as CSSProperties}
     >
       <div className="flex items-center gap-3">
@@ -117,7 +114,7 @@ function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
           {label}
         </span>
       </div>
-      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+      <p className="text-sm leading-relaxed" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
         {data.summary}
       </p>
       <div className="flex flex-col gap-2 mt-1">
@@ -153,7 +150,6 @@ export default async function SchoolPage({
   if (!school) notFound();
 
   const summary = loadSummary(slug);
-
   const colors = schoolColors[slug] ?? school.colors;
   const primary = colors.primary;
 
@@ -173,15 +169,16 @@ export default async function SchoolPage({
   ]);
 
   return (
-    <div className="min-h-screen bg-[#0a0612] text-[#f0ebe8] font-mono">
+    <div className="min-h-screen bg-[#EFEFED] font-mono">
       <Navbar />
 
       {/* ── Hero ──────────────────────────────────────────────────────── */}
-      <div style={{ background: `linear-gradient(135deg, ${primary}2e 0%, #0a0612 55%)` }}>
+      <div style={{ background: `linear-gradient(135deg, ${primary}18 0%, #EFEFED 60%)` }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
           <a
             href="/schools"
-            className="inline-flex items-center gap-1.5 text-[10px] tracking-[0.18em] uppercase opacity-30 hover:opacity-70 transition-opacity mb-10"
+            className="inline-flex items-center gap-1.5 text-[10px] tracking-[0.18em] uppercase mb-10 transition-opacity"
+            style={{ color: "#777777" }}
           >
             ← All schools
           </a>
@@ -193,34 +190,29 @@ export default async function SchoolPage({
               </p>
               <h1
                 className="font-bold leading-none mb-4"
-                style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em" }}
+                style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em", color: "#111111" }}
               >
                 {school.name}
               </h1>
-              {/* Colored accent line under name */}
               <div style={{ width: "48px", height: "3px", backgroundColor: primary, borderRadius: "2px" }} />
             </div>
-
             <div className="sm:text-right shrink-0 pt-1">
-              <div className="text-[10px] tracking-[0.15em] uppercase mb-1" style={{ color: "rgba(255,255,255,0.3)" }}>sourced from</div>
-              <div className="text-sm font-bold" style={{ color: primary === "#ffffff" ? "#ccc" : `${primary}dd` }}>
+              <div className="text-[10px] tracking-[0.15em] uppercase mb-1" style={{ color: "#aaaaaa" }}>sourced from</div>
+              <div className="text-sm font-bold" style={{ color: primary }}>
                 r/{school.slug} · r/ApplyingToCollege
               </div>
-              <div className="text-[10px] mt-0.5" style={{ color: "rgba(255,255,255,0.2)" }}>10,000+ posts analyzed</div>
+              <div className="text-[10px] mt-0.5" style={{ color: "#aaaaaa" }}>10,000+ posts analyzed</div>
             </div>
           </div>
 
           {/* Overall vibe — editorial statement */}
-          <div
-            className="mt-8 pl-5"
-            style={{ borderLeft: `4px solid ${primary}` }}
-          >
-            <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}aa` }}>
+          <div className="mt-8 pl-5" style={{ borderLeft: `4px solid ${primary}` }}>
+            <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: primary }}>
               Overall Vibe
             </p>
             <p
               className="leading-relaxed"
-              style={{ fontSize: "clamp(0.9rem, 2vw, 1.05rem)", color: "rgba(255,255,255,0.88)", fontFamily: "Georgia, serif" }}
+              style={{ fontSize: "clamp(0.9rem, 2vw, 1.05rem)", color: "#333333", fontFamily: "Georgia, serif" }}
             >
               {summary.overall_vibe.summary}
             </p>
@@ -232,8 +224,8 @@ export default async function SchoolPage({
               {school.stats.map(({ icon, label }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold"
-                  style={{ backgroundColor: `${primary}cc`, color: "#ffffff" }}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold text-white"
+                  style={{ backgroundColor: primary }}
                 >
                   <span>{icon}</span>
                   <span>{label}</span>
@@ -262,30 +254,26 @@ export default async function SchoolPage({
       </div>
 
       {/* ── Red Flags ─────────────────────────────────────────────────── */}
-      <div style={{ backgroundColor: "#0c0308", borderTop: "1px solid rgba(255,255,255,0.05)", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+      <div style={{ backgroundColor: "rgba(214,40,57,0.04)", borderTop: "1px solid rgba(214,40,57,0.12)", borderBottom: "1px solid rgba(214,40,57,0.12)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
           <SectionLabel text="⚠ Red Flags" color="#D62839" />
-          <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+          <p className="text-sm leading-relaxed mb-5" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
             {summary.red_flags.summary}
           </p>
           <div className="flex flex-col gap-3">
             {summary.red_flags.key_quotes.map((quote, i) => (
               <div
                 key={i}
-                className="p-4 rounded-lg"
-                style={{
-                  backgroundColor: "rgba(214,40,57,0.07)",
-                  border: "1px solid rgba(214,40,57,0.18)",
-                  borderLeft: "4px solid rgba(214,40,57,0.55)",
-                }}
+                className="p-4 rounded-lg bg-white"
+                style={{ border: "1px solid rgba(214,40,57,0.12)", borderLeft: "4px solid rgba(214,40,57,0.7)" }}
               >
                 <div className="flex items-start gap-2.5">
                   <span style={{ color: "#D62839", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
                   <div>
-                    <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(214,40,57,0.6)" }}>
+                    <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(214,40,57,0.7)" }}>
                       u/{quoteUsername(i * 11 + 99)}
                     </span>
-                    <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+                    <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
                       &ldquo;{quote}&rdquo;
                     </p>
                   </div>
@@ -299,27 +287,23 @@ export default async function SchoolPage({
       {/* ── Hidden Gems ───────────────────────────────────────────────── */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
         <SectionLabel text="◆ Hidden Gems" color="#3BB273" />
-        <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+        <p className="text-sm leading-relaxed mb-5" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
           {summary.hidden_gems.summary}
         </p>
         <div className="flex flex-col gap-3">
           {summary.hidden_gems.key_quotes.map((quote, i) => (
             <div
               key={i}
-              className="p-4 rounded-lg"
-              style={{
-                backgroundColor: "rgba(59,178,115,0.07)",
-                border: "1px solid rgba(59,178,115,0.18)",
-                borderLeft: "4px solid rgba(59,178,115,0.5)",
-              }}
+              className="p-4 rounded-lg bg-white"
+              style={{ border: "1px solid rgba(59,178,115,0.15)", borderLeft: "4px solid rgba(59,178,115,0.7)" }}
             >
               <div className="flex items-start gap-2.5">
                 <span style={{ color: "#3BB273", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
                 <div>
-                  <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(59,178,115,0.65)" }}>
+                  <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(59,178,115,0.8)" }}>
                     u/{quoteUsername(i * 9 + 88)}
                   </span>
-                  <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "rgba(255,255,255,0.82)", fontFamily: "Georgia, serif" }}>
+                  <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
                     &ldquo;{quote}&rdquo;
                   </p>
                 </div>
@@ -330,29 +314,28 @@ export default async function SchoolPage({
       </div>
 
       {/* ── Straight from Reddit ──────────────────────────────────────── */}
-      <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", backgroundColor: "#0d0818" }}>
+      <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)", backgroundColor: "#E8E8E6" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
           <SectionLabel text="Straight from Reddit" color={primary} />
           <div className="flex flex-col gap-3">
             {bottomQuotes.map((quote, i) => (
               <div
                 key={i}
-                className="cat-card p-5 rounded-xl"
+                className="cat-card p-5 rounded-xl bg-white"
                 style={{
-                  backgroundColor: "rgba(255,255,255,0.04)",
-                  border: "1px solid rgba(255,255,255,0.08)",
+                  border: "1px solid rgba(0,0,0,0.08)",
                   borderLeft: `4px solid ${primary}`,
-                  "--glow-border": `${primary}40`,
-                  "--glow-shadow": `${primary}18`,
+                  "--glow-border": `${primary}35`,
+                  "--glow-shadow": `${primary}12`,
                 } as CSSProperties}
               >
-                <p className="text-sm leading-relaxed italic" style={{ color: "rgba(255,255,255,0.85)", fontFamily: "Georgia, serif" }}>
+                <p className="text-sm leading-relaxed italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
                   &ldquo;{quote.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-2 mt-3">
                   <span style={{ color: primary, fontSize: "10px" }}>▲</span>
-                  <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.35)" }}>{quote.upvotes.toLocaleString()}</span>
-                  <span className="text-[11px] ml-1" style={{ color: "rgba(255,255,255,0.25)" }}>
+                  <span className="text-[11px]" style={{ color: "#999999" }}>{quote.upvotes.toLocaleString()}</span>
+                  <span className="text-[11px] ml-1" style={{ color: "#bbbbbb" }}>
                     u/{quoteUsername(i * 7 + quote.text.length)}
                   </span>
                 </div>
@@ -365,22 +348,34 @@ export default async function SchoolPage({
       {/* ── Footer ────────────────────────────────────────────────────── */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 flex flex-col items-center gap-5 text-center">
         <div
-          className="inline-flex items-start gap-3 p-4 rounded-xl text-left max-w-xl w-full"
-          style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
+          className="inline-flex items-start gap-3 p-4 rounded-xl text-left max-w-xl w-full bg-white"
+          style={{ border: "1px solid rgba(0,0,0,0.08)" }}
         >
           <span className="text-sm shrink-0 mt-0.5">ℹ️</span>
-          <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.32)" }}>
-            <span className="font-bold" style={{ color: "rgba(255,255,255,0.5)" }}>Disclaimer: </span>
+          <p className="text-xs leading-relaxed" style={{ color: "#888888" }}>
+            <span className="font-bold" style={{ color: "#555555" }}>Disclaimer: </span>
             Based on real student opinions from Reddit — not official school content. Views reflect individual
             student experiences and may not represent the full picture. Always visit campus and do your own research.
           </p>
         </div>
-        <p
-          className="text-[9px] tracking-[0.35em] uppercase"
-          style={{ color: "rgba(255,255,255,0.08)" }}
-        >
-          Room 214 · {school.name}
-        </p>
+
+        {/* Footer dark bar */}
+        <div className="w-full -mx-4 sm:-mx-6">
+          <footer className="bg-[#2B2D42] py-8 px-6">
+            <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <div className="w-5 h-5 bg-[#EF6C35] rounded flex items-center justify-center text-white text-[10px] font-black font-[family-name:var(--font-display)]">
+                  U
+                </div>
+                <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">UnfilteredU</span>
+              </div>
+              <p className="text-[9px] tracking-[0.35em] uppercase" style={{ color: "rgba(255,255,255,0.2)" }}>
+                Room 214 · {school.name}
+              </p>
+              <p className="text-white/25 text-xs font-light">Not affiliated with any university.</p>
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
   );

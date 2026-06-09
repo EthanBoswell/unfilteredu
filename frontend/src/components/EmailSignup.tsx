@@ -23,7 +23,7 @@ export default function EmailSignup() {
 
   if (status === "success") {
     return (
-      <p className="text-sm font-semibold text-[#c9a052] text-center">
+      <p className="text-sm font-semibold text-[#EF6C35] text-center">
         You&rsquo;re on the list — we&rsquo;ll notify you when your school goes live.
       </p>
     );
@@ -44,14 +44,14 @@ export default function EmailSignup() {
           <button
             type="submit"
             disabled={status === "loading"}
-            className="bg-[#c9a052] hover:bg-[#b5883a] transition-colors text-[#1c1917] font-semibold px-5 py-3.5 text-sm shrink-0 disabled:opacity-50"
+            className="bg-[#EF6C35] hover:bg-[#d4551c] transition-colors text-[#111111] font-semibold px-5 py-3.5 text-sm shrink-0 disabled:opacity-50"
           >
             {status === "loading" ? "..." : "Notify Me"}
           </button>
         </div>
       </form>
       {status === "error" && (
-        <p className="mt-3 text-xs text-[#be4b26] text-center font-light">
+        <p className="mt-3 text-xs text-[#EF6C35] text-center font-light">
           Something went wrong — please try again.
         </p>
       )}
