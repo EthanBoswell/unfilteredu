@@ -1,20 +1,26 @@
 export default function Navbar() {
   return (
     <div className="sticky top-0 z-50">
-      {/* Main nav */}
-      <nav className="bg-[#2B2D42] border-b border-white/5">
+      <nav className="border-b border-white/5" style={{ background: "#1A1612" }}>
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5">
-            <div className="w-7 h-7 bg-[#EF6C35] rounded flex items-center justify-center text-[#111111] text-xs font-black font-[family-name:var(--font-display)]">
+            <div
+              className="w-7 h-7 rounded flex items-center justify-center text-[10px] font-black font-[family-name:var(--font-display)]"
+              style={{ background: "#2C3E2D", color: "#E8E0D4" }}
+            >
               U
             </div>
-            <span className="font-bold text-white tracking-tight text-base font-[family-name:var(--font-display)]">
+            <span
+              className="font-bold tracking-tight text-base font-[family-name:var(--font-display)]"
+              style={{ color: "#E8E0D4" }}
+            >
               UnfilteredU
             </span>
           </a>
           <a
             href="/about"
-            className="text-sm font-medium text-white/55 hover:text-white/90 transition-colors tracking-wide"
+            className="text-sm font-medium tracking-wide transition-opacity opacity-[0.55] hover:opacity-100"
+            style={{ color: "#E8E0D4" }}
           >
             About
           </a>
