@@ -367,7 +367,7 @@ export default async function SchoolPage({
                 </span>
               </div>
               <p className="font-mono text-[9px] tracking-[0.35em] uppercase" style={{ color: "#C4B89A" }}>
-                Room 214 · {school.name}
+                Room 305 · {school.name}
               </p>
               <p className="text-xs font-light" style={{ color: "#C4B89A" }}>
                 Not affiliated with any university.
