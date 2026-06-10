@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
-import EmailSignup from "@/components/EmailSignup";
 import SearchBar from "@/components/SearchBar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { getAvailableSlugs, loadSummary } from "@/lib/data";
@@ -291,33 +290,6 @@ export default function HomePage() {
               </a>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── Email CTA ── */}
-      <section className="py-20 px-6" style={{ background: "#1A1612" }}>
-        <div className="max-w-xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-3 mb-8">
-            <span className="h-px w-8" style={{ background: "#4A7C59" }} />
-            <span
-              className="text-[10px] font-bold uppercase tracking-[0.2em]"
-              style={{ color: "#4A7C59" }}
-            >
-              Stay In The Loop
-            </span>
-            <span className="h-px w-8" style={{ background: "#4A7C59" }} />
-          </div>
-          <h2
-            className="font-[family-name:var(--font-display)] font-bold text-3xl sm:text-4xl mb-3"
-            style={{ letterSpacing: "-0.02em", color: "#E8E0D4" }}
-          >
-            Your school not listed?
-          </h2>
-          <p className="font-light leading-relaxed mb-8" style={{ color: "rgba(232,224,212,0.45)" }}>
-            We&rsquo;re adding new schools weekly. Drop your email and
-            we&rsquo;ll notify you when your school is live.
-          </p>
-          <EmailSignup />
         </div>
       </section>
 
