@@ -164,7 +164,7 @@ export default function HomePage() {
       <section className="border-b border-black/15" style={{ background: "#E8E0D4" }}>
         <div className="max-w-4xl mx-auto grid grid-cols-2 divide-x divide-black/15">
           {[
-            { value: "10K+", label: "Reddit posts analyzed" },
+            { value: "10K+", label: "Student posts analyzed" },
             { value: String(schools.length), label: "Schools reviewed" },
           ].map(({ value, label }) => (
             <div key={label} className="px-8 py-12 text-center">
