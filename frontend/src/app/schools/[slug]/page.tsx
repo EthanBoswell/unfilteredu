@@ -175,14 +175,6 @@ export default async function SchoolPage({
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <div style={{ background: `linear-gradient(135deg, ${primary}18 0%, #EFEFED 60%)` }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
-          <a
-            href="/schools"
-            className="inline-flex items-center gap-1.5 text-[10px] tracking-[0.18em] uppercase mb-10 transition-opacity"
-            style={{ color: "#777777" }}
-          >
-            ← All schools
-          </a>
-
           <div className="flex flex-col sm:flex-row sm:items-start gap-6">
             <div className="flex-1 min-w-0">
               <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}cc` }}>
