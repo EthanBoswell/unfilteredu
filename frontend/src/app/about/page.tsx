@@ -13,7 +13,6 @@ export default function AboutPage() {
   const MISSION_STATS = [
     { value: `${schoolCount}`, label: "Schools and growing" },
     { value: "100%", label: "Student sourced, no paid content" },
-    { value: "Free", label: "No paywalls, ever" },
   ];
 
   return (
@@ -21,11 +20,17 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#2B2D42] pt-16 pb-20 px-6">
+      <section
+        className="pt-16 pb-20 px-6"
+        style={{ background: "linear-gradient(180deg, #1A1612 0%, #2C3E2D 100%)" }}
+      >
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-3 mb-6">
-            <span className="h-px w-8 bg-[#EF6C35]" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#EF6C35]">
+            <span className="h-px w-8" style={{ background: "#4A7C59" }} />
+            <span
+              className="text-[10px] font-bold uppercase tracking-[0.2em]"
+              style={{ color: "#4A7C59" }}
+            >
               Our Story
             </span>
           </div>
@@ -35,7 +40,7 @@ export default function AboutPage() {
           >
             About UnfilteredU
           </h1>
-          <div className="mt-5 h-px w-12 bg-[#EF6C35]" />
+          <div className="mt-5 h-px w-12" style={{ background: "#4A7C59" }} />
         </div>
       </section>
 
@@ -55,7 +60,7 @@ export default function AboutPage() {
             />
           </div>
 
-          <div className="space-y-5 text-[#777777] leading-relaxed text-base font-light">
+          <div className="space-y-5 text-[#444444] leading-relaxed text-base font-light">
             <p className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-xl leading-snug">
               Built by a student who learned the hard way.
             </p>
@@ -80,9 +85,9 @@ export default function AboutPage() {
       </section>
 
       {/* Mission stats */}
-      <section className="bg-[#E8E8E6] py-16 px-6 border-t border-black/10">
+      <section className="py-16 px-6 border-t border-black/10" style={{ background: "#E8E0D4" }}>
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-black/10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-black/10">
             {MISSION_STATS.map(({ value, label }) => (
               <div key={value} className="px-8 first:pl-0 last:pr-0 py-8 sm:py-0">
                 <p
@@ -91,7 +96,7 @@ export default function AboutPage() {
                 >
                   {value}
                 </p>
-                <p className="text-xs text-[#777777] font-light tracking-wide">{label}</p>
+                <p className="text-xs text-[#444444] font-light tracking-wide">{label}</p>
               </div>
             ))}
           </div>
@@ -99,16 +104,25 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#2B2D42] py-10 px-6 border-t border-white/5">
+      <footer className="py-10 px-6 border-t" style={{ background: "#1A1612", borderColor: "rgba(255,255,255,0.05)" }}>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 bg-[#EF6C35] rounded flex items-center justify-center text-[#111111] text-xs font-black font-[family-name:var(--font-display)]">
+            <div
+              className="w-6 h-6 rounded flex items-center justify-center text-xs font-black font-[family-name:var(--font-display)]"
+              style={{ background: "#2C3E2D", color: "#E8E0D4" }}
+            >
               U
             </div>
-            <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">UnfilteredU</span>
+            <span className="font-bold text-sm font-[family-name:var(--font-display)]" style={{ color: "#E8E0D4" }}>
+              UnfilteredU
+            </span>
           </div>
-          <p className="text-white/30 text-sm font-light">Real opinions. Real students. No filter.</p>
-          <p className="text-white/15 text-xs font-light">Not affiliated with any university.</p>
+          <p className="text-sm text-center font-light" style={{ color: "rgba(232,224,212,0.3)" }}>
+            Real opinions. Real students. No filter.
+          </p>
+          <p className="text-xs font-light" style={{ color: "rgba(232,224,212,0.15)" }}>
+            Not affiliated with any university.
+          </p>
         </div>
       </footer>
     </div>
