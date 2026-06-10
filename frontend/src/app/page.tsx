@@ -160,11 +160,10 @@ export default function HomePage() {
 
       {/* ── Stats bar ── */}
       <section className="border-b border-black/15" style={{ background: "#E8E0D4" }}>
-        <div className="max-w-4xl mx-auto grid grid-cols-3 divide-x divide-black/15">
+        <div className="max-w-4xl mx-auto grid grid-cols-2 divide-x divide-black/15">
           {[
             { value: "10K+", label: "Reddit posts analyzed" },
             { value: String(schools.length), label: "Schools reviewed" },
-            { value: "100%", label: "Free forever" },
           ].map(({ value, label }) => (
             <div key={label} className="px-8 py-12 text-center">
               <p
