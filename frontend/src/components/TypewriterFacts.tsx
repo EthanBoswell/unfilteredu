@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const TYPE_SPEED = 35;
 const ERASE_SPEED = 20;
-const PAUSE_DURATION = 3000;
+const PAUSE_DURATION = 5000;
 
 export default function TypewriterFacts({ facts }: { facts: string[] }) {
   const [factIndex, setFactIndex] = useState(0);
