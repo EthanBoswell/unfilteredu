@@ -19,6 +19,7 @@ export const schoolColors: Record<string, { primary: string; secondary: string }
   arkansas:     { primary: "#9D2235", secondary: "#000000" },
   kentucky:     { primary: "#0033A0", secondary: "#ffffff" },
   southcarolina: { primary: "#73000A", secondary: "#000000" },
+  usc:          { primary: "#990000", secondary: "#FFCC00" },
   missouri:     { primary: "#F1B82D", secondary: "#000000" },
   oklahoma:     { primary: "#841617", secondary: "#FDF9D8" },
   smu:          { primary: "#354CA1", secondary: "#C8102E" },

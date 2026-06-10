@@ -364,6 +364,18 @@ export const SCHOOLS: SchoolMeta[] = [
       { icon: "🏈", label: "SEC Athletics" },
     ],
   },
+  {
+    slug: "usc",
+    name: "University of Southern California",
+    location: "Los Angeles, CA",
+    colors: { primary: "#990000", secondary: "#FFCC00" },
+    radioStation: "KXSC",
+    stats: [
+      { icon: "📋", label: "80K+ Applicants" },
+      { icon: "🎬", label: "Hollywood Access" },
+      { icon: "🐎", label: "Trojan Family" },
+    ],
+  },
 ];
 
 export function getSchoolBySlug(slug: string): SchoolMeta | undefined {
