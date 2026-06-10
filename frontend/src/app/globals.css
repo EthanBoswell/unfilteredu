@@ -13,6 +13,15 @@
   --color-border: #d6d1c8;
 }
 
+/* Blinking cursor for typewriter animation */
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.typewriter-cursor {
+  animation: blink-cursor 1s step-end infinite;
+}
+
 /* Category card hover glow — driven by --glow-border / --glow-shadow set inline per card */
 .cat-card {
   transition: box-shadow 0.25s ease;

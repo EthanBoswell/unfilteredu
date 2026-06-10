@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import SearchBar from "@/components/SearchBar";
+import TypewriterFacts from "@/components/TypewriterFacts";
 import { getSchoolBySlug } from "@/lib/schools";
 import { getAvailableSlugs, loadSummary } from "@/lib/data";
+import { getHomepageFacts } from "@/lib/facts";
 
 export const metadata: Metadata = {
   title: "UnfilteredU",
@@ -28,6 +30,7 @@ const HOW_IT_WORKS = [
 
 export default function HomePage() {
   const availableSlugs = getAvailableSlugs();
+  const facts = getHomepageFacts();
 
   const schools = availableSlugs
     .map((slug) => {
@@ -227,69 +230,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Schools grid ── */}
-      <section className="py-20 px-6" style={{ background: "#E8E0D4" }}>
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-between mb-10">
-            <div className="flex items-center gap-3">
-              <span className="h-px w-8" style={{ background: "#4A7C59" }} />
-              <span
-                className="text-[10px] font-bold uppercase tracking-[0.2em]"
-                style={{ color: "#4A7C59" }}
-              >
-                Browse Schools
-              </span>
-            </div>
-            <h2
-              className="font-[family-name:var(--font-display)] font-bold text-xl"
-              style={{ letterSpacing: "-0.01em", color: "#1A1612" }}
-            >
-              {schools.length} available now
-            </h2>
-          </div>
+      {/* ── What they don't tell you — typewriter ── */}
+      <section className="py-24 px-6" style={{ background: "#1A1612" }}>
+        <div className="max-w-4xl mx-auto flex flex-col items-center">
+          <p
+            className="font-mono font-semibold mb-10 text-center"
+            style={{ fontSize: "10px", letterSpacing: "0.25em", color: "#4A7C59" }}
+          >
+            — WHAT THEY DON&rsquo;T TELL YOU —
+          </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-black/10">
-            {schools.map(({ slug, name, location, vibe }) => (
-              <a
-                key={slug}
-                href={`/schools/${slug}`}
-                className="group block border-b border-r border-black/10 p-6 bg-white hover:bg-[#F5F0EA] transition-colors duration-150"
-              >
-                <span
-                  className="inline-block font-mono text-[9px] font-bold uppercase tracking-[0.18em] mb-3"
-                  style={{ color: "#4A7C59" }}
-                >
-                  ● Live
-                </span>
+          <TypewriterFacts facts={facts} />
 
-                <h3
-                  className="font-[family-name:var(--font-display)] font-bold text-base leading-snug w-fit border-b border-transparent group-hover:border-[#2C3E2D] transition-colors duration-200 mb-1"
-                  style={{ color: "#1A1612" }}
-                >
-                  {name}
-                </h3>
-
-                {location && (
-                  <p className="text-xs font-light mb-3" style={{ color: "#777777" }}>
-                    {location}
-                  </p>
-                )}
-
-                <p className="text-sm leading-relaxed line-clamp-3 font-light" style={{ color: "#5C5446" }}>
-                  {vibe}
-                </p>
-
-                <div className="mt-4 pt-4 border-t border-black/10">
-                  <span
-                    className="text-xs font-semibold tracking-wide"
-                    style={{ color: "#2C3E2D" }}
-                  >
-                    Read Reviews →
-                  </span>
-                </div>
-              </a>
-            ))}
-          </div>
+          <p
+            className="font-mono font-light mt-10 text-center"
+            style={{ fontSize: "10px", letterSpacing: "0.18em", color: "#4A7C59" }}
+          >
+            Based on real student posts. Updated regularly.
+          </p>
         </div>
       </section>
 
