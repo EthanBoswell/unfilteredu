@@ -51,33 +51,35 @@ export default function SearchBar({
     <div className="w-full max-w-xl relative" ref={wrapperRef}>
       <form
         onSubmit={handleSubmit}
-        className="flex overflow-hidden border bg-white"
+        className="flex flex-col sm:flex-row overflow-hidden border bg-white"
         style={{
           borderRadius: "6px",
           borderColor: isHero ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.1)",
         }}
       >
-        <div className="flex items-center pl-4 shrink-0" style={{ color: "#BBBBBB" }}>
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-            <circle cx="11" cy="11" r="8" />
-            <path d="M21 21l-4.35-4.35" strokeLinecap="round" />
-          </svg>
+        <div className="flex items-center flex-1 min-w-0">
+          <div className="flex items-center pl-4 shrink-0" style={{ color: "#BBBBBB" }}>
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" strokeLinecap="round" />
+            </svg>
+          </div>
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setOpen(true);
+            }}
+            onFocus={() => { if (query.trim()) setOpen(true); }}
+            onKeyDown={(e) => { if (e.key === "Escape") setOpen(false); }}
+            placeholder="Search a university..."
+            className="flex-1 min-w-0 px-4 py-4 text-sm text-[#111111] placeholder-[#AAAAAA] bg-transparent outline-none font-light"
+          />
         </div>
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setOpen(true);
-          }}
-          onFocus={() => { if (query.trim()) setOpen(true); }}
-          onKeyDown={(e) => { if (e.key === "Escape") setOpen(false); }}
-          placeholder="Search a university..."
-          className="flex-1 px-4 py-4 text-sm text-[#111111] placeholder-[#AAAAAA] bg-transparent outline-none font-light"
-        />
         <button
           type="submit"
-          className="font-semibold px-6 py-4 text-sm shrink-0 tracking-wide transition-colors"
+          className="font-semibold px-6 py-4 text-sm shrink-0 tracking-wide transition-colors w-full sm:w-auto"
           style={
             isHero
               ? { background: "#2C3E2D", color: "#E8E0D4" }

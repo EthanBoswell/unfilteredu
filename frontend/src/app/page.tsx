@@ -135,7 +135,7 @@ export default function HomePage() {
             className="font-light leading-relaxed mb-10 max-w-md"
             style={{ fontSize: "1.05rem", color: "rgba(232,224,212,0.55)" }}
           >
-            We read thousands of Reddit posts so you don&rsquo;t have to.
+            We read thousands of student reviews so you don&rsquo;t have to.
             No marketing. No tours. Just the truth.
           </p>
 
