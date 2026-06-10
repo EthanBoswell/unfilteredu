@@ -12,18 +12,18 @@ export const metadata: Metadata = {
 const HOW_IT_WORKS = [
   {
     step: "01",
-    title: "We scrape Reddit",
-    desc: "We pull thousands of real posts and comments from Reddit communities for every school — the unfiltered stuff admissions offices will never tell you.",
+    title: "We go where students actually talk",
+    desc: "We pull thousands of real posts and comments from Reddit, YouTube, X, and other platforms where students speak freely about their college experience.",
   },
   {
     step: "02",
-    title: "AI finds the patterns",
+    title: "AI cuts through the noise",
     desc: "Our AI reads every post to surface what students actually think about housing, dining, academics, mental health, and more.",
   },
   {
     step: "03",
-    title: "You get the truth",
-    desc: "Get honest, specific summaries with real quotes — organized by topic, ready to read in under 5 minutes.",
+    title: "You get the truth in minutes",
+    desc: "Honest, specific summaries with real quotes — organized by topic, ready to read in under 5 minutes. No marketing. No tours.",
   },
 ];
 
