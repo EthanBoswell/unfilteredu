@@ -361,18 +361,25 @@ export default async function SchoolPage({
 
         {/* Footer dark bar */}
         <div className="w-full -mx-4 sm:-mx-6">
-          <footer className="bg-[#2B2D42] py-8 px-6">
+          <footer className="py-8 px-6" style={{ background: "#1A1612" }}>
             <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="flex items-center gap-2">
-                <div className="w-5 h-5 bg-[#EF6C35] rounded flex items-center justify-center text-white text-[10px] font-black font-[family-name:var(--font-display)]">
+                <div
+                  className="w-5 h-5 rounded flex items-center justify-center text-[10px] font-black font-[family-name:var(--font-display)]"
+                  style={{ background: "#2C3E2D", color: "#E8E0D4" }}
+                >
                   U
                 </div>
-                <span className="font-bold text-white text-sm font-[family-name:var(--font-display)]">UnfilteredU</span>
+                <span className="font-bold text-sm font-[family-name:var(--font-display)]" style={{ color: "#E8E0D4" }}>
+                  UnfilteredU
+                </span>
               </div>
-              <p className="text-[9px] tracking-[0.35em] uppercase" style={{ color: "rgba(255,255,255,0.2)" }}>
+              <p className="font-mono text-[9px] tracking-[0.35em] uppercase" style={{ color: "#C4B89A" }}>
                 Room 214 · {school.name}
               </p>
-              <p className="text-white/25 text-xs font-light">Not affiliated with any university.</p>
+              <p className="text-xs font-light" style={{ color: "#C4B89A" }}>
+                Not affiliated with any university.
+              </p>
             </div>
           </footer>
         </div>
