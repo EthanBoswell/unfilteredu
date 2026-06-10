@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Limited direct housing discussion in these posts. Stanford's residential experience includes dorms, and the campus itself is described as beautiful with lots of trees and Spanish architecture. The quarter system means students don't get a traditional 'dead week' before finals.",
+    "summary": "There is almost no direct discussion of Stanford housing in these posts. The limited mentions are indirect, with one person noting they live a block from campus. No student complaints or praise about dorms or residential life appear in this dataset.",
     "key_quotes": [
-      "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week",
-      "Campus is really beautiful, lots of trees and grass and Spanish architecture.",
-      "I'm doing a graduate program here now... sitting in my room in the stanford dorms"
-    ]
+      "My dad works at Stanford and I live like a block away from campus",
+      "it won't be in sunny Palo Alto or experiencing the residential colleges at Yale or Rice",
+      "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week"
+    ],
+    "score": 6
   },
   "social_life": {
-    "summary": "Stanford has a reputation for appearing relaxed on the surface while students work intensely underneath — the classic 'duck phenomenon.' Fountain hopping is mentioned as a genuine student tradition. The campus attracts tourists on weekends which some find surprising.",
+    "summary": "Stanford is described as having a 'relaxed vibe' on the surface, but students warn this is deceptive — people are working very hard underneath. The 'duck phenomenon' is explicitly mentioned. Fountain hopping is cited as a genuine fun campus activity by locals.",
     "key_quotes": [
       "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon (for Stanford)",
-      "Can confirm as a high school student nearby, fountain hopping is the best. Especially on XC runs.",
-      "When we were there once on a weekend, we saw a ton of tourists on campus on a weekend. Like having picnics everywhere."
-    ]
+      "Can confirm as a high school student nearby, fountain hopping is the best. Especially on XC runs",
+      "Social life & having fun are important to me!"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "Stanford dining gets genuinely positive reviews from those familiar with it, described as delicious with strong variety including vegan options. However, off-campus dining in Palo Alto is expensive, and the surrounding area skews wealthy with upscale restaurants.",
+    "summary": "Stanford dining gets genuinely positive reviews from someone with direct local knowledge. The food is described as delicious and varied, including waffles, soft-serve, pasta, and good vegan options. Off-campus dining in Palo Alto is noted as expensive, with a Nobu in downtown.",
     "key_quotes": [
-      "the Stanford dining options are delicious. They've got waffles, soft-serve ice cream, pasta and all kinds of vegan shit that actually taste good.",
+      "the Stanford dining options are delicious. They've got waffles, soft-serve ice cream, pasta and all kinds of vegan shit that actually taste good",
       "Outside dining is expensive as heck",
-      "there's a fricking Nobu in downtown Palo Alto"
-    ]
+      "If you are rich, then there are some nice ass restaurants to go to, there's a fricking Nobu in downtown Palo Alto"
+    ],
+    "score": 8
   },
   "mental_health": {
-    "summary": "The pressure-cooker culture of feeder high schools near Stanford (Palo Alto, Gunn, Monta Vista) is well documented and concerning, suggesting students arrive already stressed. The duck phenomenon at Stanford itself — looking calm while grinding hard — implies mental health struggles may be hidden rather than addressed. The quarter system with no dead week adds academic pressure.",
+    "summary": "The 'duck phenomenon' — appearing calm while frantically working underneath — is the most concrete mental health signal in these posts. The intense pressure-cooker environment of nearby feeder high schools (Palo Alto, Gunn) suggests the student culture Stanford draws from is already highly stressed. No direct student mental health support resources are mentioned.",
     "key_quotes": [
-      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
-      "we have a quarter system so we don't have dead week",
-      "Palo Alto: Silicon Valley big daddy model... These schools be thicccc with that steam"
-    ]
+      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon (for Stanford)",
+      "Palo Alto ----- Silicon Valley big daddy model / Gunn ----- The other Big Daddy model",
+      "This admissions cycle was a very difficult, emotionally draining process for me"
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "Very little direct discussion of Stanford financial aid in these posts. Stanford's cost is implicitly treated as prohibitive, with the school serving as a reach applied to primarily by high-achieving students. No specific aid packages or policies are discussed.",
+    "summary": "Financial aid at Stanford is barely discussed in this dataset. Stanford is treated as a prestige target school, not a financial aid leader, unlike Harvard/Princeton/Yale which are explicitly praised for full rides in one post. No specific Stanford aid packages are mentioned.",
     "key_quotes": [
-      "I would give my left arm to go to Stanford.",
-      "Stanford... have fun w the wildfires!",
-      "Both schools cost around the same for me, so that is not a factor"
-    ]
+      "Harvard University [ full ride ] / Princeton University [ full ride ] / Yale University [ full ride ]",
+      "Both schools cost around the same for me, so that is not a factor",
+      "I would give my left arm to go to Stanford"
+    ],
+    "score": 6
   },
   "academics": {
-    "summary": "Stanford is consistently viewed as stronger than Yale for STEM, particularly the 'T' and 'E' components, and is considered a top-three school globally for deeptech alongside MIT and Berkeley. The quarter system is a notable structural feature that affects academic pacing. CS and engineering are seen as flagship strengths, with strong connections to Silicon Valley.",
+    "summary": "Stanford is consistently praised as one of the strongest schools for STEM, especially CS, engineering, and entrepreneurship. It is seen as genuinely superior to Yale for the 'T' and 'E' in STEM. The quarter system is mentioned as a notable con — no dead week and a faster pace.",
     "key_quotes": [
       "Stanford is genuinely much stronger than Yale for the 'T' and 'E' parts of STEM",
-      "The three heavyweights in that arena are Stanford, MIT, and Berkeley.",
-      "There is a great deal of deeptech coming out of Stanford. Wouldn't have that as a potential con to Stanford at all."
-    ]
+      "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week",
+      "There is a great deal of deeptech coming out of Stanford. The three heavyweights in that arena are Stanford, MIT, and Berkeley"
+    ],
+    "score": 9
   },
-  "overall_vibe": {
-    "summary": "Stanford is perceived as beautiful, sunny, and technically elite but with a somewhat isolated suburban setting in Palo Alto. The weather and campus aesthetics are consistently praised. It sits in a wealthy, tech-dominated bubble that some find exciting and others find limiting compared to a true urban environment.",
-    "key_quotes": [
-      "the weather here from fall-spring is a consistent 65-75... it barely rains",
-      "Campus is really beautiful, lots of trees and grass and Spanish architecture.",
-      "How is Palo Alto a con? Sure it's not San Francisco but it's a pretty cool city and perfectly situated for tech internships."
-    ]
-  },
-  "red_flags": {
-    "summary": "An admissions officer was literally arrested for attempted murder while on LSD, highlighting how random and human-error-prone the admissions process is. The duck phenomenon suggests a culture of hiding stress rather than addressing it. The quarter system eliminates dead week, meaning students get less recovery time before finals than at semester schools.",
+  "administration": {
+    "summary": "The most striking administration-related post is the arrest of a Stanford admissions officer for attempted murder while on LSD, which students used to darkly joke that admissions is random and luck-based. No direct commentary on bureaucracy or student services administration appears.",
     "key_quotes": [
       "An assistant director of admissions at Stanford University is facing charges of attempted murder and domestic violence in what is believed to be a drug-fueled attack",
-      "it's so random and based on chance and luck... Your fate is determined by how the AO felt at that particular moment",
+      "and that's why elite college admissions sucks... it's so random and based on chance and luck",
+      "Your fate is determined by how the AO felt at that particular moment"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "Campus is consistently described as beautiful — Spanish architecture, lots of trees and grass, and excellent weather (65-75°F most of the year). Palo Alto is noted as expensive but well-situated, about an hour from San Francisco by Caltrain. Some students list 'Palo Alto' itself as a con, suggesting it can feel isolated or suburban.",
+    "key_quotes": [
+      "Campus is really beautiful, lots of trees and grass and Spanish architecture",
+      "the weather here from fall-spring is a consistent 65-75 except for the summers where it's like 90-100",
+      "Palo Alto is a con... tbh it's really not far from sf or sj"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "summary": "Stanford's career outcomes, especially in tech and entrepreneurship, are treated as essentially unquestioned. It is repeatedly cited alongside MIT as a top destination for deeptech, Silicon Valley, and startups. The alumni network and proximity to Silicon Valley are seen as massive structural advantages.",
+    "key_quotes": [
+      "Stanford, MIT, and Berkeley — the three heavyweights in that arena [deeptech]",
+      "next to a (albeit very expensive) downtown area and an hour caltrain ride to San Francisco... perfectly situated for tech internships",
+      "UIUC >>> UPenn for a career in silicon valley"
+    ],
+    "score": 9
+  },
+  "value_for_money": {
+    "summary": "Stanford's cost is not heavily discussed but is implicitly understood to be very high. No specific financial aid generosity is highlighted the way Harvard, Princeton, and Yale's full rides are in these posts. The general consensus treats Stanford as worth it for STEM/tech careers but the financial picture is murky.",
+    "key_quotes": [
+      "Both schools cost around the same for me, so that is not a factor",
+      "Outside dining is expensive as heck",
+      "If you are rich, then there are some nice ass restaurants to go to"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "summary": "Stanford has an almost mythological status in these posts — it is treated as the ultimate tech/STEM school, with a beautiful campus and great weather, but also a place where appearances of chill mask intense underlying competition. Students joke about it constantly, affectionately nicknaming it 'St. Anford' and 'UC Palo Alto.' Getting in feels like a life-changing miracle to most applicants.",
+    "key_quotes": [
+      "TLDR; time to put stanford 25 in my instagram bio!! fuck all the other schools that rejected me",
+      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
+      "Stanford University = STFU / UC Palo Alto / St. Anford"
+    ],
+    "score": 8
+  },
+  "red_flags": {
+    "summary": "The most concrete red flag is the arrest of an admissions officer for attempted murder while on LSD, which highlighted how arbitrary and personality-driven admissions decisions can be. The duck syndrome culture — intense hidden stress beneath a calm exterior — is a genuine concern. The quarter system's lack of dead week adds academic pressure.",
+    "key_quotes": [
+      "An assistant director of admissions at Stanford University is facing charges of attempted murder and domestic violence in what is believed to be a drug-fueled attack",
+      "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
       "additional bad thing about stanford - we have a quarter system so we don't have dead week"
-    ]
+    ],
+    "score": 5
   },
   "hidden_gems": {
-    "summary": "Fountain hopping is a beloved unofficial student tradition not advertised on any tour. The campus is openly accessible to the public including tourists, making it a genuinely open environment unlike many elite schools. Proximity to San Francisco (about an hour by Caltrain) and Silicon Valley internship access are practical advantages students emphasize over prestige alone.",
+    "summary": "Fountain hopping on campus is a genuine local secret activity praised by nearby high schoolers. The dining hall's quality — especially vegan options — is surprisingly good according to someone with real local knowledge. Stanford's position for deeptech and hardware startups (not just software) is underappreciated compared to its general CS reputation.",
     "key_quotes": [
-      "fountain hopping is the best. Especially on XC runs.",
-      "you're next to a (albeit very expensive) downtown area and an hour caltrain ride to San Francisco",
-      "perfectly situated for tech internships"
-    ]
+      "fountain hopping is the best. Especially on XC runs",
+      "all kinds of vegan shit that actually taste good",
+      "There is a great deal of deeptech coming out of Stanford... wouldn't have that as a potential con to Stanford at all"
+    ],
+    "score": 7
   }
 }

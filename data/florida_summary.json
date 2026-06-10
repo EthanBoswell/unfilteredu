@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Off-campus apartments near UF have serious quality control issues, with properties like Midtown Apartments drawing intense complaints about bait-and-switch tactics during tours, maintenance failures, and noise from nearby bars. On-campus housing is functional but basic, with some dorms having historical baggage like COVID isolation use. Students warn heavily to research specific complexes before signing.",
+    "summary": "On-campus housing gets mixed reviews, with some dorms like Riker Hall having a historical reputation for COVID lockdowns. Off-campus apartments near campus have serious complaints, particularly Midtown Apartments, which students warn others to avoid due to deceptive leasing practices, maintenance failures, and noise from nearby clubs. The general housing situation is complicated by UF admitting record numbers of students without proportionally expanding infrastructure.",
     "key_quotes": [
-      "When we signed our lease, we asked to tour the exact layout we'd be living in... That tour was the first of many lies. What we walked into on move-in day was nothing like what we were shown.",
-      "You forgot to mention that, because the walls/windows are paper thin, you can hear club music until 3-4am every night",
-      "The way they're getting worse — We had a problem with squatters when I lived at Midtown Apts"
-    ]
+      "When we signed our lease, we asked to tour the exact layout we'd be living in... What we walked into on move-in day was nothing like what we were shown.",
+      "You can hear club music until 3-4am every night.",
+      "This was the dorm they locked students in for two weeks if they tested positive for covid 19 in 2020-2021."
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "UF has a strong, genuine social scene anchored by SEC sports culture, with football games described as 'something special.' Greek life dominates the party scene but is not required to have a good social experience. However, some students — especially introverts or those whose friends went elsewhere — report intense loneliness and difficulty making friends.",
+    "summary": "UF has a vibrant social scene rated highly by students, with Greek life dominating but not being the only avenue for socializing. Football games and SEC sports culture are a major draw and described as 'something special.' However, some students, particularly those who are introverted or from out of state, report significant difficulty making friends and feelings of isolation.",
     "key_quotes": [
       "Social Life: 8.5/10. Pretty great as far as universities go. It really is what you make of it. You don't need to be in greek life to party/make friends, although greek life does dominate the social scene.",
-      "I can't stop crying every day. I miss my parents and my friends, because they all went to other schools. I keep trying and trying but I haven't made any friends at UF.",
-      "If you like sports, you'll LOVE UF. I'm not a huge football guy myself, but man the games are something special."
-    ]
+      "If you like sports, you'll LOVE UF. I'm not a huge football guy myself, but man the games are something special.",
+      "I can't stop crying every day. I miss my parents and my friends, because they all went to other schools. I keep trying and trying but I haven't made any friends at UF."
+    ],
+    "score": 7
   },
   "dining": {
-    "summary": "There is very little discussion of on-campus dining quality in these posts, suggesting it does not stand out positively or negatively enough to dominate conversation. Off-campus Gainesville has a solid food scene with specific local favorites recommended by students. One student post specifically listed the best restaurants in town, suggesting students largely eat off-campus.",
+    "summary": "There is minimal direct discussion of dining hall quality in the posts. One student post mentions food spots on campus needing intercom systems for calling out orders, suggesting some operational issues. The Gainesville food scene off-campus gets a detailed positive review with specific recommendations across many cuisines.",
     "key_quotes": [
-      "Sandwiches – The Paper Bag; Korean Donuts – Mochiry; Ramen – Kinya Ramen (best ramen)",
       "Food spots should be given intercom systems for calling out orders.",
-      "Fix. The. RTS. This shit is ridiculous. Kids are having to pay for $20 one way Ubers to/from campus"
-    ]
+      "Best Food and Locations in Gainesville 2025: Kinya Ramen (best ramen), Dragonfly for sushi, Bitedown BBQ LLC.",
+      "Sandwiches: The Paper Bag, Hogans."
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health support at UF is a genuine concern, with students posting about suicidal ideation and navigating the Shands ER system for psychiatric crises. There is a supportive peer community on the subreddit, but the academic and social pressures are real. The campus wellness infrastructure exists but students seem to navigate it with difficulty.",
+    "summary": "Mental health support at UF appears inadequate relative to student need. Multiple posts describe students in crisis, including suicidal ideation, with one post detailing a visit to Shands ER as the primary mental health resource. The academic pressure, isolation, and broader political climate at UF under Florida's conservative governance are contributing stressors for many students.",
     "key_quotes": [
-      "I'm considering going to Shands tonight and telling the ER I'm suicidal. What should I expect? I don't want to be involuntarily admitted to a ward or have to miss assignments or drop classes.",
-      "I went to bed around 2am that night after calming down a little bit. At 4am, I woke up to my roommate knocking on my door. She told me the cops were there... someone had reported the original post out of concern.",
-      "Don't be afraid to take a semester or two off if you need it. It's a marathon, not a sprint. 20 years from now it won't matter if you took a couple of semesters off."
-    ]
+      "I'm considering going to Shands tonight and telling the ER I'm suicidal. What should I expect? I don't want to be involuntarily admitted to a ward or have to miss assignments.",
+      "I cry every single day. I cried for an hour before I wrote this.",
+      "Glad to hear. Don't be afraid to take a semester or two off if you need it. It's a marathon, not a sprint."
+    ],
+    "score": 4
   },
   "financial_aid": {
-    "summary": "For in-state Florida students, UF can be extraordinarily affordable — even free — through Bright Futures and other scholarships, making it a genuinely compelling financial choice even against elite private schools. Out-of-state students face much higher costs and less aid. The Benacquisto full-ride scholarship for National Merit Finalists was recently eliminated by the Florida legislature, which is a major loss.",
+    "summary": "For in-state Florida students, UF can be an exceptional value, especially with Bright Futures scholarships covering full tuition and merit scholarships like Benacquisto (now ended for new students) or Machen/Gator Nation scholarships providing stipends. However, the Benacquisto full-ride for National Merit Finalists was eliminated by the Florida legislature for classes after 2025, which is a significant loss. Out-of-state students receive far less aid.",
     "key_quotes": [
-      "The Benacquisto Scholarship (full ride for national merit finalists at Florida schools) was just ended... juniors, if you were counting on attending a Florida school like me... we have to keep looking for other full-ride NMF schools.",
-      "I just uploaded my college decision video, committed to UF (Go Gators!) — UF would cost me 23k/year. Vandy would be little to nothing a year.",
-      "UF would be the best financial decision for me (20k per year)... my family is fortunate enough to afford it, but is it really worth it?"
-    ]
+      "The Benacquisto Scholarship (full ride for national merit finalists at Florida schools) was just ended. A bill was passed that eliminates the scholarship for classes after the Class of 2025.",
+      "I have 100% Bright Futures, 4-Year Florida Prepaid, gift aid/grants as well as money back.",
+      "I got into UF as an OOS applicant... UF would cost me 23k/year."
+    ],
+    "score": 6
   },
   "academics": {
-    "summary": "UF's academics are genuinely strong, especially for STEM, research opportunities, and pre-med tracks, but the experience varies wildly by major and course format. Engineering is described as rigorous and respected. A serious ongoing concern is the use of AI-generated lecture content in some online and graduate courses, with professors and students both calling it out as a degradation of education quality. Research access as an undergraduate is surprisingly easy.",
+    "summary": "Academically, UF is genuinely strong, particularly in STEM, engineering, and research, and students note it's comically easy to get involved in research even as a freshman. However, concerns have emerged about AI-generated course materials in online graduate programs, and some students feel large class sizes limit personal relationships with professors. Engineering is described as rigorous with a 'graduation is the accomplishment' mentality.",
     "key_quotes": [
       "RESEARCH. It is comically easy to get involved in research even as a freshman here.",
-      "A professor has made his entire course using AI. The lectures are generated from AI and given by an AI voice. All he did was...",
-      "Engineering is the most rigorous and difficult college at UF. If you graduate with a 2.5 GPA you are a Gator engineer and you will get a good job. You graduated summa cum laude."
-    ]
+      "A professor has made his entire course using AI. The lectures are generated from AI and given by an AI voice.",
+      "Engineering is the most rigorous and difficult college at UF. If you graduate with a 2.5 GPA you are a Gator engineer and you will get a good job."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "UF's administration is a major source of student and faculty frustration. The university has been deeply influenced by Florida's conservative political leadership under DeSantis, leading to DEI office eliminations, a controversial presidential selection process, an institutional neutrality policy restricting free speech, mandatory return-to-office for staff, and repeated cuts to student services like the RTS bus system. Students describe leadership as prioritizing politics over student welfare.",
+    "key_quotes": [
+      "Yep, UF is a big money-sucking vacuum that does not care about you, your well-being or the quality of your education.",
+      "UF deactivated them only because the national chapter asked, and not under their own anti hate policies.",
+      "Forbidding discussion of 'social issues' by this definition seems like it guts the curriculum of legitimate classes and entire degree programs."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "summary": "UF's campus is beautiful with iconic landmarks like Century Tower, Lake Alice (with real alligators), and the bat houses, and students genuinely love exploring it. Gainesville as a city is consistently described as small and somewhat limiting, particularly for out-of-state students used to urban environments. Wildlife encounters—gators, deer, owls—are a uniquely UF experience that most students find charming.",
+    "key_quotes": [
+      "I love that our mascot is an apex predator that can also be found all over our campus.",
+      "Not as much to do in Gainesville.",
+      "Century Tower is one of my favorite buildings on campus and I've enjoyed walking past it almost every day."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "UF graduates generally fare well in the job market, particularly for STEM fields, and the university boasts notable alumni including Olympians, CEOs, and Nobel laureates. Students note strong on-campus recruitment and connections, especially for Florida-based industries. The school's Top 10 public university ranking is seen as boosting career prospects, though some skeptics question whether the ranking translates to meaningful advantages outside Florida.",
+    "key_quotes": [
+      "Couple billionaire alums, CEOs, astronauts, Olympians, Nobel prize winners for sciences. Great connections.",
+      "UF gets better on-campus recruitment, so is that the only positive side that comes with being ranked highly?",
+      "I graduated summa cum laude in civil engineering... I will get a good job."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "For in-state students, especially those with Bright Futures, UF is widely considered one of the best values in American higher education—students frequently describe paying nothing or even receiving money back. Out-of-state students at roughly $23k/year find it competitive but less exceptional. The value proposition is somewhat undermined by recent cuts to services like the RTS bus system while tuition and fees remain high.",
+    "key_quotes": [
+      "UF would be the best financial decision for me (20k per year).",
+      "I have 100% Bright Futures, 4-Year Florida Prepaid... as well as money back.",
+      "Admit a record number of students... slash RTS funding... The priorities here are insane."
+    ],
+    "score": 8
   },
   "overall_vibe": {
-    "summary": "UF has a strong, proud identity as a top public university with real school spirit, beloved campus wildlife (cats, gators, deer), and a community that genuinely rallies around the school. However, there is significant tension between this pride and frustration with administration decisions around funding cuts, political interference from Tallahassee, and a sense that the university prioritizes money and rankings over student welfare.",
+    "summary": "UF has a strong, proud identity as a major SEC school with intense sports culture, a beautiful campus, and genuine academic ambition. The 'Gator Nation' identity is real and embraced. However, the current political environment in Florida has created significant tension on campus, with faculty demoralized, student services cut, and free expression restricted—creating a split between the school's traditional fun collegiate atmosphere and a growing sense of institutional dysfunction.",
     "key_quotes": [
       "After 6 years here it baffles me to say that the quality of life for myself as a student has consistently dropped each year.",
-      "UF genuinely doesn't gaf about students... cut rts funding while maintaining ben sasse's 960k salary.",
-      "I love how our mascot is an apex predator that can also be found all over our campus."
-    ]
+      "My honest review of UF as a super senior: Social Life 8.5/10, Academics 7/10.",
+      "What a garbage time to be a student or educator in Florida."
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "The RTS bus system defunding is the single most complained-about practical issue — students are missing exams, arriving late to class, and paying for Ubers because buses are overcrowded or simply don't show up. Simultaneously, UF admitted a record number of students while cutting transit and parking. Political interference from DeSantis-era Florida government has led to DEI dismantlement, self-censorship policies, gender-affirming care removal, and a chaotic presidential search that damaged faculty morale.",
+    "summary": "The most serious red flags at UF involve the systematic defunding of student services (especially the RTS bus system causing students to miss exams), a politically captured administration implementing speech restrictions and eliminating DEI resources, AI-generated coursework in graduate programs, the end of the Benacquisto full-ride scholarship, and the elimination of gender-affirming care at the student health center. LGBTQ+ students face a particularly hostile state policy environment.",
     "key_quotes": [
-      "Admitting a record number of students, send all employees back to fully in-person, offer only one lot and garage for off-campus students, slash RTS funding... it's become a nightmare.",
-      "UF Interim President Donald Landry announced that going forward UF will protect free speech by restricting it... No teaching, events, representations, instructional activities, communications, or guidance may mention [social issues].",
-      "UF shuts down Office of Sustainability... UF to no longer provide gender affirming care... UF banning non-Florida residents from transfer admission."
-    ]
+      "UF shcc to no longer provide gender affirming care.",
+      "Just spent my afternoon running from stop to stop to catch ANY bus headed southwest... Got to the stop 9:50 sharp for a 10:40 exam and still ended up 15 minutes late.",
+      "'In conducting their university business, UF instructional unit and leadership teams may not make statements or proclamations regarding social issues...' RIP anyone in poli sci, religion studies, sociology."
+    ],
+    "score": 8
   },
   "hidden_gems": {
-    "summary": "UF has a surprisingly tight-knit campus community built around beloved figures — a famous campus cat named Tenders, a security guard named Jason at Marston Library everyone adores, and regular wildlife walks around Lake Alice at night with gators and owls. The campus itself is beautiful, student-organized events like Swampcon exist, and there is genuine grassroots activism that has successfully pushed back on administrative cuts before.",
+    "summary": "Lake Alice is a genuinely magical campus feature where students regularly spot alligators, owls, deer, and other Florida wildlife on nighttime walks—a completely unique college experience. The campus cats (especially 'Tenders') have a beloved community following. The Swampcon student-run comic convention and the tight-knit community around campus wildlife and nature spots represent a quirky, wholesome side of UF that outsiders rarely know about.",
     "key_quotes": [
-      "Please say hi to Jason when you walk into Marston — guys the security guard Jason is genuinely the sweetest man ever. I'm motivated to go study at Marston after 8:00 pm cause I know he's gonna be there.",
-      "At the beginning of 2024, by working with the Amalgamated Transit Union, UF-YDSA was able to force UF to retract $8 million in cuts to RTS.",
-      "I walk along museum Rd near the bathhouse area. Alligators and deer have been pretty active in recent nights... walking around there at night is so fun."
-    ]
+      "If you see someone walking around Lake Alice with a bright flashlight, it's probably me. I usually go a couple nights a week. If you're lucky, you can find owls at night.",
+      "Tenders is back on campus. Go pay your salutations, make your offerings, and receive your blessings.",
+      "Swampcon is a student led comic con held every year in the Reitz Union."
+    ],
+    "score": 9
   }
 }

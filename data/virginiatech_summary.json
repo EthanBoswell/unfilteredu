@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Off-campus housing in Blacksburg runs roughly $600-$970/month per person, with options ranging from apartments near downtown to complexes with shuttle service. The university over-enrolled at one point and even offered incentives for students to delay enrollment to ease housing strain. On-campus and off-campus options both exist but students seem to navigate the market largely on their own.",
+    "summary": "Off-campus housing in Blacksburg is available and relatively affordable, with students finding options ranging from ~$650-$970/month. On-campus housing demand was significant enough that VT once paid incoming freshmen to delay enrollment to manage strain. Students seem to manage housing independently through lease takeovers and roommate searches on Reddit.",
     "key_quotes": [
-      "Rent is $969/month... fireplace units normally cost more, so this is actually a discounted rate",
-      "Rent is $750/month... bus stop is literally right in front of the apartment... about 18 mins to VT campus",
-      "Virginia Tech announced a plan to mitigate the foreseen strain on their university and local Blacksburg economy by the nearly 7,000 students that will arrive this fall"
-    ]
+      "Rent is $750/month, utilities average around $100/month, bus stop is literally right in front of the apartment",
+      "Female lease takeover at Alight Blacksburg – $969/month, fully furnished, in-unit washer/dryer, shuttle to campus",
+      "Virginia Tech announced a plan to mitigate foreseen strain on their university by the nearly 7,000 students that will arrive this fall"
+    ],
+    "score": 6
   },
   "social_life": {
-    "summary": "Blacksburg is a small college town and students should go in knowing it's not a city, but most students find it works well once they settle in. Football and school spirit are a big part of campus identity. The social scene is active enough that students who initially worried about the small-town feel end up pleasantly surprised.",
+    "summary": "Virginia Tech has a strong reputation for school spirit, football culture, and a lively social scene, particularly in Blacksburg. Students consistently mention the campus vibe and community as major draws. Greek life exists but is not the only social option, and the tight-knit college town atmosphere is frequently praised.",
     "key_quotes": [
-      "Don't worry about there not being much in Blacksburg. My perception of Blacksburg being tiny and in the middle of nowhere almost deterred me from going",
-      "No matter where you are, the university is your home/nucleus. Blacksburg is a very nice town... the students are very outdoorsy",
-      "I do not care about college life at all (parties, football and such) which I know Vtech is more known for"
-    ]
+      "I love the drillfield and the feel of the school and the town around it (Blacksburg)",
+      "Lots of school spirit, beautiful campus, the community",
+      "I don't care about college life at all (parties, football and such) which I know Vtech is more known for"
+    ],
+    "score": 8
   },
   "dining": {
-    "summary": "There is very limited direct discussion of dining in these posts. One post does note Virginia Tech has 'better food' than James Madison University as a selling point, suggesting dining is a relative positive. The Milk Parlor is mentioned as a beloved local campus spot with nostalgic history going back decades.",
+    "summary": "There is minimal direct discussion of dining in these posts, but the mention of 'better food' as a VT pro in one comparison suggests it is at least competitive. The Milk Parlor is referenced nostalgically as a campus landmark with long history, suggesting food culture on campus has identity. Not enough data for a strong assessment.",
     "key_quotes": [
-      "Tech pros... better food",
-      "It was Pedro's in the 80's... fond memories of Thursday nights $2 jumbo margaritas",
-      "There was a restaurant there called Sycamore Deli for a while, back in the 90s maybe"
-    ]
+      "Tech pros: better food",
+      "What was in the milk parlor's spot in the 80's?",
+      "There was a restaurant there called Sycamore Deli for a while, back in the 90s"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Several students describe struggling academically and emotionally at VT, with one student failing the same class twice and another seeking an academic relief program after personal crises. The academic pressure, especially for engineering students, is real. However, students mention advisors and the Student Success Center as available resources.",
+    "summary": "There are real signs of student struggle at VT, including academic failure, personal crises, and one student dealing with discrimination and relationship strain while on academic probation. The university appears to have support structures like advisors and the Student Success Center, but students sometimes feel lost. The academic relief program exists as a last resort but carries significant consequences.",
     "key_quotes": [
-      "I feel so dumb. I don't know what to even do from here, I want to drop out but I love Tech. I just suck at school mainly test taking",
-      "My girlfriend and I are both transgender women and I go to school at Virginia Tech... she started facing discrimination at work... it was hard enough to convince her to move with me",
+      "I feel so dumb. I don't know what to even do from here, I want to drop out but I love tech",
+      "My girlfriend and I are both transgender women and I go to school at Virginia Tech... she started facing discrimination at work",
       "Talk to your advisor to work out a plan you can manage before you end up on academic probation"
-    ]
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "VT offers very little merit-based aid and focuses primarily on need-based aid, which catches some students off guard. International students in particular face significant uncertainty about aid availability. Financial aid packages for returning students typically aren't released until June, causing planning stress.",
+    "summary": "VT is noted as doing very little merit-based aid, with most financial assistance being need-based. International students face particular challenges getting aid. Students report financial packages can change significantly year-to-year, and the school does not appear to be generous with scholarships compared to peers.",
     "key_quotes": [
       "VT hardly does any merit based aid, most of the aid they give is need based",
-      "I heard sometime in June at least that is what happened last year",
-      "Coming from a lower-income background, I have applied for scholarships through the appropriate VT portal... I am incredibly concerned about the financial aspect"
-    ]
+      "I applied for scholarships through the appropriate VT portal but haven't heard back yet",
+      "I mail the fin aid office and ask if you qualified for any. Did you get a better fin aid package from anywhere else? If yes, tell them that and they might consider it"
+    ],
+    "score": 4
   },
   "academics": {
-    "summary": "VT is genuinely strong in engineering, consistently ranked in the top 15-30 nationally, and particularly well-regarded for power electronics, aerospace, and CS. Engineering is directly admitted as a freshman for most majors, which is a notable advantage over schools like Purdue where you have to apply in. The academic environment is described as collaborative rather than cutthroat, which students specifically seek out.",
+    "summary": "Virginia Tech is consistently recognized as a strong engineering school, ranked around #13 nationally for engineering and in the top 30s for CS. Students note that certain specializations like power electronics are top-tier nationally. The academic environment is described as rigorous, with some students struggling with courseload, but the overall academic reputation is solid and respected by employers.",
     "key_quotes": [
-      "For power electronics and PMIC design, VT is one of the top programs nationwide and a 'target school' for lots of employers",
-      "At Virginia tech you are automatically entered into the electrical engineering major as a first year... I think its like 90% of first years make it for mechanical",
-      "I am a smart kid but I do not enjoy the competitive/cutthroat environment... I want to see my peers as allies/friends... I ended up choosing VT"
-    ]
+      "VT has a substantially higher ranked engineering program (#13 vs #89) and does a lot more engineering research",
+      "For power electronics and PMIC design, VT is one of the top programs nationwide and a target school for lots of employers",
+      "Virginia Tech is known for engineering"
+    ],
+    "score": 8
   },
-  "overall_vibe": {
-    "summary": "VT has a strong and genuine sense of school spirit and community that students repeatedly cite as a major draw. The engineering-focused identity is real but not exclusionary. Most students who visit in the right conditions fall in love with the campus and Blacksburg atmosphere, though the rural location is a genuine consideration.",
-    "key_quotes": [
-      "I've been OBSESSED with Virginia Tech since I was a freshman... I got into my dream school plus the honors college??? this is the only college I can see myself happy at",
-      "IT'S OVER. I got into Virginia Tech and I'm going to Virginia Tech. HOKIES!! Ugh feels amazing",
-      "I visited on a warm Friday night and... the vibe felt better at Tech"
-    ]
-  },
-  "red_flags": {
-    "summary": "The Board of Visitors is attempting to remove term limits for the Rector, allowing indefinite leadership tenure, which went largely under the radar. The rural location creates real challenges for pre-health students needing clinical hours and for students whose partners struggle to find employment. Engineering students who transfer in as juniors face real hurdles joining competitive design clubs and teams.",
+  "administration": {
+    "summary": "There are notable governance concerns, including a controversial BOV vote to remove term limits for the Rector, effectively allowing indefinite leadership tenure. One student's post about the academic relief program suggests bureaucratic structures exist but can be difficult to navigate. The university's handling of over-enrollment by paying students to delay attendance drew mixed reactions.",
     "key_quotes": [
       "There will be a vote to update bylaws to remove term limits for the Rector and Vice Rector - effectively allowing John Rocovich to serve forever",
-      "I am unsure of how accessible the Blacksburg location is in terms of getting clinical hours nearby school",
-      "Coming into Blacksburg, the best job she could find was at a restaurant... she started facing discrimination at work"
-    ]
+      "My advisor recommended the academic relief program where all info about the semester gets wiped per a six month hiatus",
+      "Virginia Tech announced a plan to pay them not to attend (at least not right away)"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "summary": "Blacksburg is a small college town that students either love or find limiting. The campus itself — particularly the Drillfield — is consistently praised as beautiful and distinctive. The remoteness is a real trade-off: great for focus and campus life, but limited in terms of access to urban amenities, clinical hours for pre-health students, and career proximity.",
+    "key_quotes": [
+      "I love the drillfield and the feel of the school and the town around it (Blacksburg)",
+      "Not much in Blacksburg — more expensive",
+      "I am concerned about feeling bored or isolated living in Blacksburg for 4 years... the students are very outdoorsy"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "VT engineering graduates are well-regarded by major employers, and the school has strong recruiting for engineering and CS roles. Students report Fortune 500 companies recognizing the degree positively even outside Virginia. The career fair ecosystem and student organizations like VTHacks and CS Careers Club are cited as strong resources for landing internships.",
+    "key_quotes": [
+      "VT Engineering is well known at all major employers in those fields — defense, aerospace, engineering",
+      "I work at a Fortune 500 in Florida and when I got interviewed they seemed impressed",
+      "Go to the career fairs and other opportunities, and you'll do great. Peraton and CoStar recruit heavily from VT"
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "summary": "For in-state students, VT is frequently cited as an excellent value given its strong engineering reputation. Out-of-state costs (~$94k total) are competitive but not cheap. The lack of merit aid means students who don't qualify for need-based aid may pay full price, making financial planning critical especially for OOS students.",
+    "key_quotes": [
+      "Virginia Tech (In state): 26k/yr vs Purdue (with 10k/yr scholarship): 32k/yr",
+      "VT is most certainly worth it for in-state engineering",
+      "The rule of thumb is to not take on any more debt than your realistic first year salary will be upon graduation"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "summary": "Virginia Tech has a passionate, loyal student body with strong school spirit and a beautiful campus that students fall in love with. It's known as a serious engineering school that also has a great social atmosphere. The Blacksburg location creates a tight-knit, campus-centered community that students describe as welcoming and spirited rather than cutthroat.",
+    "key_quotes": [
+      "I've been OBSESSED with Virginia Tech since I was a freshman... this is the only college I can see myself happy at",
+      "ITS OVER. I got into Virginia tech and I'm going to Virginia Tech. HOKIES!!",
+      "Don't worry about there not being much in Blacksburg — my perception of it being tiny almost deterred me from going"
+    ],
+    "score": 8
+  },
+  "red_flags": {
+    "summary": "The BOV governance controversy around removing term limits is a notable institutional red flag. Financial aid is stingy, especially for merit aid, which can catch students off guard. Students with personal challenges or poor study habits can fall through cracks academically, and the rural location creates real barriers for pre-health students needing clinical hours and for students who need urban career proximity.",
+    "key_quotes": [
+      "Vote to update bylaws to remove term limits for the Rector and Vice Rector - effectively allowing John Rocovich to serve forever",
+      "VT hardly does any merit based aid",
+      "I am concerned about how accessible the Blacksburg location is in terms of getting clinical hours nearby school"
+    ],
+    "score": 5
   },
   "hidden_gems": {
-    "summary": "VT's engineering career fairs and clubs like VTHacks, CS Careers Club, and BITS provide strong real-world connection to employers, and the school is a target school for defense and tech contractors. The design team ecosystem (Formula SAE, Baja, Solar Car, Lunabotics, etc.) is expansive and hands-on. The Stamps Scholarship and honors college offer elite-level individualized opportunities that can rival Ivy League experiences for motivated students.",
+    "summary": "VT's specialized engineering programs — especially power electronics and certain defense/aerospace tracks — are genuinely top-tier and function as target schools for major employers. The Stamps Scholarship and Honors College offer serious prestige and resources for high-achieving students. Student design teams like Formula SAE, Baja, and solar car offer hands-on engineering experience that rivals any school in the country.",
     "key_quotes": [
-      "Go to the career fairs... participate in VTHacks, CS Careers Club, BITS to get projects on your resume and interact with employers. Peraton and CoStar Group recruit heavily from VT",
-      "VT Engineering is well known at all major employers... I work at a Fortune 500 in Florida and when I got interviewed they seemed impressed",
-      "Being a Stamps Scholar will get me a lot of individualized attention... $7,000 to put towards study abroad/research/whatever"
-    ]
+      "For power electronics and PMIC design, VT is one of the top programs nationwide and a target school for lots of employers",
+      "I have been accepted to Virginia Tech as a Stamps Scholar, which covers the full cost of attendance plus $7,000 for study abroad/research",
+      "Formula SAE, Baja car, solar car, Lunabotics, CRO, and DART are all teams of interest — not hard to get involved if you're serious"
+    ],
+    "score": 8
   }
 }

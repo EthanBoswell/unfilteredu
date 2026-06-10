@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "On-campus housing is only guaranteed for freshman year, and off-campus housing in the Coral Gables/Miami area is described as ridiculously expensive. Students looking for affordable options face a tough market, and some transfer students actively seek roommates in off-campus apartment complexes like The Standard. The university does offer some student housing portals but technical issues with login access have been reported.",
+    "summary": "Housing is guaranteed for freshmen but not after the first year, which is a significant concern given that off-campus housing in the Miami/Coral Gables area is extremely expensive. Students looking to live off-campus face a challenging and costly rental market. Dorm rules are standard, with restrictions on appliances like rice cookers.",
     "key_quotes": [
-      "if money is a big issue I say don't just bc housing isn't guaranteed after the first year, and off campus housing is ridiculously expensive",
-      "Looking for female roommates as I'm a female myself... feel free to dm me if you're a transfer in the arts",
-      "I tried logging in to my housing portal and it says i signed in successfully but don't have access to this resource"
-    ]
+      "housing isn't guaranteed after the first year, and off campus housing is ridiculously expensive",
+      "Anything within a 15-20min drive from campus is either way too expensive or just a crappy apartment",
+      "That's a big no-no! [regarding rice cookers in dorms]"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "Greek life is active and a significant part of UM's social scene, though the rush process can be cliquey and international students worry about connections needed for top sororities. Business fraternities are described as more accessible than social frats, though some warn that certain social frats cater heavily to wealthy students with expensive activities like ski trips. The campus has a strong Latin cultural influence given its Miami location, though English dominates on campus.",
+    "summary": "Greek life is active on campus and international students are generally welcomed into fraternities. However, some business fraternities cater heavily to wealthy students, with expensive trips that may exclude lower-income students. The sorority process involves mutual selection and can be intimidating for international students unfamiliar with the culture.",
     "key_quotes": [
-      "Those are only for insanely-rich kids. If you are normal, you won't fit in... they invest time and money into trying... a few grand for the annual ski trip over spring break",
-      "Business frats (the pre professional ones) are pretty open actually. I have many lower income friends that are in AKPSi and DSP",
-      "I've heard horror stories of sororities like SDT dirty rushing. Since im international I really dont know anyone who would be able to connect me"
-    ]
+      "I have pretty average stats and didn't apply for any aid [in context of rushing frats]",
+      "Those are only for insanely-rich kids. If you are normal, you won't fit in [regarding business frats]",
+      "You are overthinking this. Don't listen to gossip, tv shows...Just go and have fun"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "There is virtually no discussion of dining options in the available posts, suggesting it is not a major talking point for students. Rice cookers are explicitly not allowed in dorms. No specific dining hall reviews or complaints were surfaced in these posts.",
+    "summary": "There is virtually no discussion of dining halls or campus food in the available posts. The lack of any mention — positive or negative — makes it impossible to assess dining quality. Students seem more focused on the surrounding Miami restaurant scene than on-campus options.",
     "key_quotes": [
-      "Are you allowed to have a rice cooker in the dorm as an incoming freshman?",
-      "That's a big no-no!",
-      "Definitely no"
-    ]
+      "if your family has the money, then it's a good city to live in, but both NY and Miami are very expensive",
+      "U of Miami isn't in Miami proper — it's in Coral Gables, south of the main city",
+      "the campus is beautiful, huge, and designed for [campus life]"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health struggles appear real and present for UM students, with at least one student describing a full mental health crisis that caused them to stop attending classes and hide it from their parents for months. The academic rigor combined with Miami's expensive lifestyle and hurricane disruptions creates compounding stress. No specific mention of strong university mental health resources appears in the posts.",
+    "summary": "Mental health struggles appear in several posts from UM students, particularly around academic pressure and financial stress. One student mentioned lying to their parents about attending college after a mental health crisis worsened by a hurricane. There is no specific mention of UM's mental health services being helpful or unhelpful.",
     "key_quotes": [
-      "My Fall 2020 semester was really hard for me, having gone through a hurricane and that really messed up our house and just having a really rough time mentally",
-      "I have been lying to my parents about me attending college for the past eight months",
-      "I'm scared that I will feel outcast due to my financial status and that the people here will be snotty and classist"
-    ]
+      "My mental health took a sharp decline as I was in a major that I feel absolutely no passion in whatsoever",
+      "I had an incredibly rough time this semester, I had to deal with 2 Hurricanes, The election, and an entirely unrelated mental health crisis",
+      "I'm scared that I will feel outcast due to my financial status"
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "UM is consistently flagged as expensive and not particularly generous with financial aid, especially for international students whose average package is around $25k — far from a full ride. Financial aid appeals are possible but slow, taking months and requiring strong documentation. Multiple students and commenters warn that the cost may not be worth it compared to cheaper Florida public schools like USF or UF.",
+    "summary": "UM is widely described as expensive and not generous with financial aid, especially for international students. Financial aid appeals are possible but take months and require strong documentation. The school does offer merit scholarships, but a full ride is rare and the average package for internationals is roughly $25k — far from covering full cost.",
     "key_quotes": [
-      "UM is definitely not the best aid school for internationals. The last time I checked, their avg package was around 25k (which is far from a full ride)",
-      "I appealed. It took months. It did get approved but I had strong documentation supporting financial change in income. I uploaded W2s.",
-      "Personally find UM overpriced and over hyped. FIU has pretty good scholarships and the quality of professors would be similar to UM"
-    ]
+      "UM is notoriously known for expensive tuition",
+      "their avg package was around 25k (which is far from a full ride). They have an Honor's scholarship but the cut-off is really high",
+      "I appealed. It took months. It did get approved but I had strong documentation supporting financial change in income"
+    ],
+    "score": 4
   },
   "academics": {
-    "summary": "Academic advising gets mixed reviews, with one student bluntly warning that '90% of the advisors are not helpful.' The cognate general education system confuses incoming students, and navigating degree requirements can be stressful without good guidance. Pre-med students receive specific warnings that classes are less forgiving for GPA maintenance compared to USF, and some recommend USF over UM for pre-med due to Moffitt Cancer Center research opportunities.",
+    "summary": "Academic advising gets mixed reviews, with one student warning that '90% of the advisors are not helpful.' The cognate system (UM's version of gen eds) confuses many incoming students. Pre-med students debate whether UM's smaller size offers better research opportunities or whether grades are harder to maintain compared to larger state schools.",
     "key_quotes": [
       "90% of the advisors are not helpful",
-      "Classes are also less forgiving for maintaining GPA... 100% USF. It's not worth the extra money. Moffitt and USF research is very strong",
-      "It seems insanely difficult to learn those topics in 6 weeks [re: core accounting program]"
-    ]
+      "USF is better for pre med. Classes are also less forgiving for maintaining GPA",
+      "My son chose UM over USF for pre med because it's smaller and presented more personal opportunities"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "summary": "Administrative processes like transfer applications and waitlist communication are described as slow and opaque, with rolling decisions extending to July. Financial aid processing is lengthy. Students report being confused about basic systems like housing portals and login credentials, suggesting bureaucratic inefficiency.",
+    "key_quotes": [
+      "its rolling until july [for transfer decisions]",
+      "I just got in recently as a transfer and wanted to appeal for more aid. I've read that if done by email it usually gets rejected",
+      "I called them and they said that my password was expired and that I needed to reset it"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "summary": "The campus in Coral Gables is consistently praised as beautiful, well-designed, and distinct from a city campus. Being near but not in Miami proper is seen as both a pro (safe, contained campus feel) and a con (need a car for much of Miami). The Metrorail connection to Brickell is a practical commuting option students recommend.",
+    "key_quotes": [
+      "U of Miami isn't in 'Miami' proper — it's in Coral Gables, south of the main city. the campus is beautiful, huge, and designed for [students]",
+      "the metro can literally take you from Brickell to campus in 15 minutes",
+      "I'm tired of living in Miami, too materialistic and shallow down here"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "Career outcomes get limited direct discussion, but UM's name recognition is viewed as decent for certain fields. One alum ended up in finance and another in med school. For music and entertainment, NYC (NYU) is seen as a stronger launchpad than Miami. The career center gets mentioned generally but no specific UM praise stands out.",
+    "key_quotes": [
+      "My two sons...One eventually went to med school and one is now a Financial [professional]",
+      "On a career stand point, go to NYU. Being in NYC will be a major advantage trying to break into the music industry",
+      "USC's network is one of the best! Not to mention, the name does carry a lot of weight"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "summary": "UM is frequently flagged as overpriced relative to comparable Florida schools. Multiple posts suggest FIU or USF offer similar educational quality at a fraction of the cost, especially for pre-med. The consensus is that UM is only worth it if you receive significant merit aid or can comfortably afford the full sticker price.",
+    "key_quotes": [
+      "Personally find UM overpriced and over hyped. FIU has pretty good scholarships and the quality of professors would be similar to UM",
+      "Miami, or any school for that matter, is not worth $200k",
+      "Ur going to med school so go to usf and save up for it"
+    ],
+    "score": 4
   },
   "overall_vibe": {
-    "summary": "UM has a reputation as a party school for wealthy students in a glamorous location, often mocked as 'the Harvard of the South' with a materialistic and shallow Miami culture. Students who thrive there tend to be wealthy, socially driven, or deeply bought into the Miami lifestyle. The campus itself in Coral Gables is widely praised as beautiful, and the school does have genuine academic programs, but the cost-to-value ratio is frequently questioned.",
+    "summary": "UM has a reputation as a party school for wealthy students, with a 'Sun, fun, and money' vibe that can feel exclusionary to lower-income students. The campus is genuinely beautiful and students seem proud of it, but the 'Harvard of the South' joke captures how the school's self-perception sometimes exceeds its academic reputation. Students who thrive here tend to be comfortable in an expensive, image-conscious environment.",
     "key_quotes": [
-      "My friend said they're going the Harvard of the south... They're going to the University of Miami",
-      "I'm tired of living in Miami, too materialistic and shallow down here",
-      "U of Miami has quite a campus -- it's a real campus, not a city campus. The campus is beautiful, huge, and designed for a hot climate"
-    ]
+      "My friend said they're going the Harvard of the south — They're going to the University of Miami",
+      "I'm scared that I will feel outcast due to my financial status and that the people here will be snotty and classist",
+      "too materialistic and shallow down here [Miami generally]"
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "Off-campus housing costs after freshman year are a serious financial burden that catches students off guard. The social environment around Greek life and business fraternities can be exclusionary toward lower-income students, with expensive required activities. The transfer and waitlist processes are slow and opaque, with rolling admissions through July and limited communication leaving applicants in limbo for months.",
+    "summary": "The biggest red flags are cost and financial sustainability: off-campus housing is extremely expensive, financial aid is limited especially for internationals, and the overall Miami lifestyle is costly. There are also concerns about grade deflation hurting pre-med GPAs, and the school's prestige is sometimes seen as inflated relative to its academic rigor and peer institutions.",
     "key_quotes": [
       "housing isn't guaranteed after the first year, and off campus housing is ridiculously expensive and general lifestyle here is just super expensive",
-      "They deserve to know before they invest time and money into trying in case they aren't the filthy-stinking rich type of student who can just spend a few grand for the annual ski trip",
-      "I wanna email the school but don't wanna seem needy or demanding if I ask why I haven't received anything from them [after applying in February]"
-    ]
+      "Classes are also less forgiving for maintaining GPA [compared to state schools]",
+      "UM is notoriously known for expensive tuition...their avg package was around 25k (which is far from a full ride)"
+    ],
+    "score": 7
   },
   "hidden_gems": {
-    "summary": "UM students can access Biltmore Golf Course at Coral Gables resident rates, a genuinely valuable perk in an area dominated by expensive private clubs. The library loans out camera equipment, which is a useful but little-known resource. The Metrorail connects campus to Brickell in about 15 minutes, making the broader Miami area surprisingly accessible without a car despite the campus feeling self-contained.",
+    "summary": "UM students get Coral Gables resident rates at the Biltmore Golf Course, a genuine perk in an otherwise expensive city. The library loans out camera equipment, which is a valuable and underutilized resource for creative students. The Metrorail connection makes commuting to Brickell and downtown Miami surprisingly accessible and affordable.",
     "key_quotes": [
       "Biltmore golf course. You get coral gables resident rates as a UM student",
       "just recently found out some of the crazy things my school provides such as loaning camera equipment through the library",
-      "the metro can literally take you from Brickell to campus in 15 minutes"
-    ]
+      "the metro can literally take you from Brickell to campus in 15 minutes…it is really reliable"
+    ],
+    "score": 7
   }
 }

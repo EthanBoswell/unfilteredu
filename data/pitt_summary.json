@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Pitt has multiple dorm options including Ruskin and the newer Wellington building. Students living off-campus tend to cluster in nearby neighborhoods like Shadyside, Bloomfield, and Greenfield, which are all reasonably accessible by bus or bike. Parking is a serious problem on and around campus, and most students are advised against bringing cars.",
+    "summary": "Limited direct discussion of dorms, but Ruskin Hall is mentioned as a known option with variable room configurations. Students living off-campus cluster in neighborhoods like Shadyside, Bloomfield, and Greenfield, with Greenfield noted as more isolated. The urban campus means housing is spread throughout the city rather than concentrated in a traditional residential quad.",
     "key_quotes": [
-      "No take the bus, walk or get a bike. Parking on campus is nearly impossible for classes",
-      "If you bring a car you don't use it to go to class or get around campus you'd be using it for things like grocery shopping or other longer distance trips",
-      "You definitely won't need it; in some cases it's just going to get dinged up depending on where you live and park"
-    ]
+      "Mine looked different from the other reply. Second floor room directly above the buildings main entrance.",
+      "Greenfield itself is kind of situated around a bitch of a hill (affectionate), so depending on where the place is, you may have a short but steep trek",
+      "it doesn't get recommended as often as places like Shadyside, or Bloomfield, or Garfield, or Friendship because it doesn't have the same density or as bustling a neighborhood"
+    ],
+    "score": 6
   },
   "social_life": {
-    "summary": "Pitt sits in an urban environment in Oakland, which gives students access to a real city rather than a typical college town bubble. Some students feel the city setting makes it harder to feel a contained campus community, and students from nearby high schools find it difficult to start fresh. The neighborhood sidewalk congestion and commuter culture can make campus feel less cohesive.",
+    "summary": "Pittsburgh's city environment provides a solid social scene, with Shadyside and surrounding neighborhoods offering restaurant and bar options. Students mention the sidewalk crowding problem in Oakland as a daily frustration. The urban campus means social life extends into the city rather than being contained on campus.",
     "key_quotes": [
-      "I hate the cold weather, a good amount of people from my high school go here, so it's hard to really start fresh",
-      "Pittsburgh has a huge problem with this. It's not difficult to be a decent human being and allow others space",
-      "Oakland is a suburb of Pittsburgh but it still is very urban"
-    ]
+      "Serving is great. I do it and make enough cash for my bills working only the weekends, but I also work Downtown. I don't know how it would be in Oakland, but I'd look for restaurants in Shadyside",
+      "I tend to have a sort of 'alternative' personality, and I feel like I would fit in well in Portland. I like Pitt, but the atmosphere doesn't seem to meld well with my personality.",
+      "trying to get into chevron with a foot of snow on one side and a throng of people hogging the sidewalk on the other was genuinely painful"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "There is very little direct discussion of campus dining in these posts. Students working near campus mention jobs at places like the Milkshake Factory, and serving jobs in nearby Shadyside are noted as better-paying options. The lack of dining discussion may suggest students eat off-campus frequently given the urban setting.",
+    "summary": "Almost no discussion of campus dining in these posts, which itself may be telling. One student mentions working at the Milkshake Factory nearby and making very little money, suggesting the surrounding food options are plentiful but not necessarily lucrative for workers. Students seem to rely heavily on Oakland and surrounding neighborhood restaurants.",
     "key_quotes": [
       "I worked at the milkshake factory and made like no money lol, work somewhere where you make decent cash like serving in shadyside",
       "I worked front desk at a hotel and I made great cash and got a meal during each shift",
-      "Serving is great. I do it and make enough cash for my bills working only the weekends, but I also work Downtown"
-    ]
+      "There is Giant Eagle (not the best, but nearby)"
+    ],
+    "score": 5
   },
   "mental_health": {
-    "summary": "A few students mention struggling with motivation, depression, and feeling out of place at Pitt. One student explicitly mentioned suicidal thoughts while dealing with college stress, and another described burnout and loss of motivation mid-degree. The pressure of pre-med and STEM coursework is a recurring stressor.",
+    "summary": "Mental health resources are rarely mentioned directly, suggesting they may not be prominently on students' radar. One transfer student expressed depression and suicidal thoughts while managing financial stress at Pitt. A student feeling intellectually unchallenged and unhappy at Pitt raised multiple concerns that weren't addressed by the institution.",
     "key_quotes": [
-      "I've been really overwhelmed and honestly depressed. I've been struggling mentally, and yeah, I've had suicidal thoughts",
-      "I just don't have the motivation I used to",
-      "I'm slightly depressive and my parents are paying out of pocket for my university. I'm at risk of losing my scholarship"
-    ]
+      "I've been really overwhelmed and honestly depressed. I've been struggling mentally, and yeah, I've had suicidal thoughts.",
+      "I'm slightly depressive and my parents are paying out of pocket for my university. I'm at risk of losing my scholarship",
+      "I hate the cold weather...I'm not really as happy as I should be here. I want to transfer"
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "Pitt offers merit scholarships and need-based aid, but out-of-state students and lower-income students frequently find the net cost still burdensome. Several students report receiving substantial aid packages but still facing a gap of $16,000 or more per year. Need-based aid renewability is a concern, with reports of students losing aid after the second year due to changes in family financial situation.",
+    "summary": "Financial aid at Pitt is a major concern and recurring theme. Students report aid packages that still leave significant gaps, and need-based aid renewability is uncertain — multiple students report others losing aid after the second year when family financial situations changed. Out-of-state students face steep costs around $50k total COA, and even in-state students face ~$30k/year.",
     "key_quotes": [
-      "Pitt gave me $30k in aid that I've already accepted, so I have that in the bag. However, I still have to pay $16k for the whole school year",
-      "A lot of people lost it after 2nd year because of their parents' financial situation changing",
-      "I got a 40k scholarship to Pitt (10k a year) and my parents were so excited"
-    ]
+      "A lot of people lost it after 2nd year because of their parents' income changing",
+      "my EFC is zero and they are only covering 16k in total and that leaves another 16k a year for me to figure out how to pay",
+      "Pitt gave me $30k in aid that I've already accepted, so I have that in the bag. However, I still have to pay $16k for the whole school year"
+    ],
+    "score": 4
   },
   "academics": {
-    "summary": "Pitt is consistently described as a strong public university, particularly for pre-med, health sciences, nursing, emergency medicine, and engineering. The STEM coursework is considered genuinely rigorous, especially Calculus, Organic Chemistry, and upper-level sciences. Some students find lower-level gen-ed courses unchallenging but note a significant jump in difficulty at the 300-400 level.",
+    "summary": "STEM programs, particularly pre-med, emergency medicine, and engineering, receive positive mentions. Calculus has a notable failure rate and the ALEKS placement exam is taken seriously. The pre-med track is described as difficult but well-supported, with good clinical and research opportunities through UPMC. Some students feel under-challenged in early gen-ed coursework.",
     "key_quotes": [
-      "The number of people that fail Calc 1 is....a whole thing",
-      "Calc at Pitt is no joke and starting from precalc is not a big deal",
-      "You haven't given your school a fair shot. Your light/easy courseload was chosen by you. To dismiss what UPitt has to offer in your first semester is foolish"
-    ]
+      "The number of people that fail Calc 1 is....a whole thing.",
+      "Jackie is great for Orgo, it's a hard class but you'll be set up really well for it.",
+      "I'm getting straight-A's and I feel as though I am not intellectually challenged here... My professor graded a paper that I submitted and told me she'd never seen work like it from a freshman"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "Administrative experiences are mixed. Advising is mentioned as helpful for transfer students navigating class registration. However, financial aid communication is a pain point, with students needing to email repeatedly to clarify aid renewability. Rolling admissions is praised as a strength of the administrative process.",
+    "key_quotes": [
+      "Talk to your advisor. Your advisor can usually help you get into classes for your first semester when you initially transfer.",
+      "I emailed pitt asking them if the aid is for all 4 years. They replied telling me it's for the first year.",
+      "I applied to Pitt around the 15th of November, but only got my acceptance a couple days ago (mid-March)"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "summary": "Pittsburgh is consistently praised as an underrated, livable city with distinct neighborhoods. The campus is urban and spread out, which some love for city access but others find disorienting. Free bus passes for students are a significant perk repeatedly mentioned, and biking is feasible in certain areas. Parking is described as nearly impossible.",
+    "key_quotes": [
+      "Pittsburgh is a great small city, and Pitt is a great school",
+      "Parking on campus is nearly impossible for classes",
+      "Your bus pass should be enough to get to know the areas outside of Oakland and a bike+your feet is more than enough for getting around campus"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "summary": "UPMC connections give pre-med and health science students a significant advantage, with clinical experience and hospital access built into programs. Engineering and CS students report decent co-op rates (77% mentioned). However, Pitt is acknowledged as a non-target for investment banking, and finance students are warned IB recruitment is difficult from Pitt.",
+    "key_quotes": [
+      "good GPAs and plenty of internships/co-ops are readily available if you are responsible",
+      "I'm a freshman at the University of Pittsburgh...what are the chances that I could get an IB internship even though Pitt isn't a target school?",
+      "The whole city of Pittsburgh is geared a little bit towards medicine in a big way"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "For in-state students with scholarships, Pitt can offer strong value given its research university resources and UPMC connections. Out-of-state students face a tougher calculation at ~$50k COA with uncertain aid renewability. Multiple students and advisors recommend Pitt only when costs are manageable, and several warn against taking on heavy debt for it.",
+    "key_quotes": [
+      "I got a full ride to University of Pittsburgh... Yay",
+      "Neither school is worth that kind of debt, especially for pre-med",
+      "Pennsylvania sucks. You either spend $30,000 per year as a resident to attend Pittsburgh... or you spend a reasonable amount (~$15,000) and attend one of the awful PASSHE schools"
+    ],
+    "score": 6
   },
   "overall_vibe": {
-    "summary": "Pitt is widely seen as an underrated, high-value public university with a strong reputation especially in health and STEM fields, bolstered by its connection to UPMC. The city of Pittsburgh is generally viewed positively as a livable, affordable college city. Rolling admissions makes it a popular stress-relief safety school, but students who attend often find it genuinely solid academically.",
+    "summary": "Pitt has a loyal fan base who appreciate its urban setting, research opportunities, and UPMC ties. It's seen as an underrated public research university — strong but not flashy. The vibe skews practical and pre-professional rather than a traditional college-town party school, which suits some students and disappoints others.",
     "key_quotes": [
-      "Carnegie Mellon's little sibling, seems to be ignored by all the 'big kids.' Little do they know, Pitt is secretly a genius, probably planning world dominance. A Top 20 public",
-      "Pittsburgh is a great small city, and Pitt is a great school",
-      "The whole city of Pittsburgh is geared a little bit towards medicine in a big way"
-    ]
+      "Carnegie Mellon's little sibling, seems to be ignored by all the 'big kids.' Little do they know, Pitt is secretly a genius, probably planning world dominance.",
+      "It's pitt not yale lol, pitt is just a better state school. Relax",
+      "I like Pitt, but the atmosphere doesn't seem to meld well with my personality. Also, the snow..."
+    ],
+    "score": 7
   },
   "red_flags": {
-    "summary": "Out-of-state students face sticker shock with costs around $50k total attendance, and financial aid gaps can be significant even after generous packages. The campus sprawls through an urban area without a tight campus boundary, which can feel disjointed. Some students feel academically unchallenged at the intro level and regret not transferring sooner.",
+    "summary": "The biggest red flag is financial aid unpredictability — students report losing need-based aid after year one when parental income fluctuates, with limited warning. Class availability for transfer students and late-committing students is a real concern, with popular STEM courses filling up fast. The sidewalk/pedestrian congestion in Oakland is a minor but daily irritant that signals overcrowding in the area.",
     "key_quotes": [
-      "I'm getting straight-A's and I feel as though I am not intellectually challenged here",
-      "Also good job transferring from Pitt. I wish I would have",
-      "Pennsylvania sucks. You either spend $30,000 per year as a resident to attend Pittsburgh... or you spend a reasonable amount and attend one of the awful PASSHE schools"
-    ]
+      "A lot of people lost it after 2nd year because of their parents' income changing",
+      "I'm not gonna lie, these classes are pretty much completely full right now. You might be able to get off the waitlist for some classes. I unfortunately haven't moved.",
+      "my EFC is zero and they are only covering 16k in total and that leaves another 16k a year for me to figure out"
+    ],
+    "score": 5
   },
   "hidden_gems": {
-    "summary": "Pitt's rolling admissions is a genuine strategic advantage for applicants, providing early peace of mind during a stressful application season. The Emergency Medicine BS program is described as uniquely strong with real clinical placements. UPMC's presence gives students in health fields extraordinary access to one of the country's top hospital systems.",
+    "summary": "The free Port Authority bus pass for students is a genuine quality-of-life perk rarely advertised prominently. The Emergency Medicine BS program is described as uniquely strong with real clinical placements. Rolling admissions provides a low-stress early acceptance safety net that students on this sub repeatedly credit with reducing anxiety during the rest of their application cycle.",
     "key_quotes": [
-      "The best decision I made during the college admission cycle was applying to a school that does rolling admissions... I applied to the University Of Pittsburgh and was able to get accepted in November",
-      "The program is great. They have good relationships with local EMS agencies and hospitals",
-      "My mom works at UPMC as a nurse — the hospital associated with Pitt — so I could get a discount on tuition"
-    ]
+      "They have good relationships with local EMS agencies and hospitals. One semester you will do city hospital and suburban EMS, then the next you will do suburban hospital and city EMS.",
+      "The best decision I made during the college admission cycle was applying to a school that does rolling admissions... I knew that I would get to go to a decent college at the end of the day.",
+      "You literally bike through Schenley park and you can get from Greenfield to Oakland in ten minutes or less"
+    ],
+    "score": 8
   }
 }

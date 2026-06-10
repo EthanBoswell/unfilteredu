@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Housing costs are a major concern, with out-of-state students reporting nearly $60,000 per year in total costs. Predatory towing companies around campus housing are a persistent problem, with students reporting illegal towing and corrupt practices that have allegedly been tolerated by the university for decades. Landlords also frequently try to illegally withhold security deposits from students.",
+    "summary": "Housing costs are a major concern, with out-of-state students facing nearly $60,000 per year total, making Auburn financially inaccessible for many. Predatory towing companies around campus housing are a well-documented, longstanding problem spanning decades. Landlords routinely attempt to withhold security deposits illegally, though students who push back often get their money returned.",
     "key_quotes": [
-      "my daughter got in last spring and we're out of state and just could not afford it. We didn't qualify for any aid and we saved up a lot of college money, but not almost $60,000 per year",
+      "my daughter got in last spring and we're out of state and just could not afford it... almost $60,000 per year",
       "The city of auburn/the university have allowed an unethical towing monopoly around the campus with unethical towing practices for at least 35 years",
-      "yes and please dont let them tell you they have to replace the blinds and carpet and are charging you for it bc that shit is on them NOT on you"
-    ]
+      "In my experience if you push back at all in person they will give you the entire deposit back"
+    ],
+    "score": 4
   },
   "social_life": {
-    "summary": "Auburn has a strong football culture and Greek life presence, with a notable preppy Southern aesthetic dominating the social scene. The bar scene has serious safety concerns, with Sky Bar in particular linked to multiple drugging and assault allegations spanning decades. Some students, especially those from far away or outside the Southern cultural norm, report struggling to make friends.",
+    "summary": "Auburn has a vibrant social scene centered around football, Greek life, and downtown bars, with students describing it as one of the best experiences of their lives. However, some students — especially out-of-state and international students — report struggling to make friends, suggesting social integration can be difficult. Sky Bar has serious, well-documented safety concerns including multiple allegations of drink-spiking and assault spanning decades.",
     "key_quotes": [
-      "Stay away from Sky Bar",
-      "The way college students dress in the south is wild. They're all cosplaying as members of an elite country club",
-      "I'm from 14 hours away and I just feel like I have no friends here and maybe I wasn't meant for the sec. I'm really sad and just want to go home"
-    ]
+      "You should expect to have the time of your life. I reflect back on my time at AU as one of the best decisions I ever made",
+      "I'm from 14 hours away and I just feel like I have no friends here and maybe I wasn't meant for the sec",
+      "Stay away from Sky Bar"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "There is very little direct discussion of campus dining in these posts. Downtown Auburn has some beloved local spots mentioned by alumni, though rising costs and chain restaurant closures suggest the off-campus food scene has changed significantly over the years.",
+    "summary": "There is very little direct discussion of on-campus dining in these posts. The local food scene gets some positive mentions, with specific spots like Toomer's Drug Store lemonade, Amsterdam Cafe, and Brunswick stew referenced fondly by alumni. The closure of Five Guys downtown was noted, with students hoping for more affordable options.",
     "key_quotes": [
-      "Grab a lemonade from Toomer's drug store, pizza at the Amsterdam Cafe, Brunswick stew at the best little restaurant",
+      "Grab a lemonade from Toomer's drug store, pizza at the Amsterdam Cafe, Brunswick stew at the best BBQ in the world",
       "2 hot dogs, fries and a drink = $30 there. What fucking college student eats like that",
-      "It's really changed a lot. Everything that made it wonderful from the late 2000s-2015ish is mostly gone"
-    ]
+      "Please god can we get a cheap bar in that space... a student can dream"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health struggles surface in posts about social isolation, academic pressure, and the emotional weight of being far from home. One student openly expressed feeling sad and considering transferring due to loneliness. The broader community also grappled with a traumatic on-campus murder of a professor, which shook the university.",
+    "summary": "Mental health struggles are present but not extensively discussed in terms of university support resources. One student openly posted about feeling isolated and wanting to transfer, while another shared a post about surviving serious trauma. The general advice from current students is that college is 'what you make of it,' suggesting support may require self-advocacy.",
     "key_quotes": [
-      "Has anyone else ever felt like they just want to transfer or something? I'm from 14 hours away and I just feel like I have no friends here",
+      "Has anyone else ever felt like they just want to transfer or something? I'm really sad and just want to go home. Does it get better?",
       "For ten years, I've carried that trauma silently, battling high-functioning depression, denial, and moments of suicidal idealization",
-      "I had to pay almost as much as I earned the entire summer so that I could....w [graduate]"
-    ]
+      "college is really what you make of it. Auburn has truly incredible opportunities but you have to seek them out"
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "Auburn offers merit scholarships including full tuition for ACT scores of 34 and a National Merit stipend of $4,000-$8,000 over four years, but these are considered modest compared to peer schools. Out-of-state costs are prohibitively high for many students, and international students have very limited pathways to in-state tuition. One student lost their promised athletic scholarship due to NIL/House lawsuit roster cuts.",
+    "summary": "Auburn offers competitive merit scholarships including full tuition for ACT 34+ and a True Blue Scholarship, making it excellent value for high-achieving in-state students. Out-of-state costs are prohibitive at roughly $50-60K per year, and financial aid for out-of-state students is limited. A notable controversy emerged where a student on athletic scholarship had their aid eliminated due to NIL/House lawsuit fallout, then was charged $14K for a self-secured internship's credit hours.",
     "key_quotes": [
       "Auburn University gives full tuition with an ACT score of 34",
-      "National Merit Finalists receive a stipend for four years at $4,000 to $8,000 ($1,000 to $2,000 per year)",
-      "I came here as a swimmer on scholarship. I was promised four years of athletic aid when I committed. Then the NIL/House lawsuit fallout happened, the roster got cut, and my scholarship disappeared"
-    ]
+      "we're out of state and just could not afford it. We didn't qualify for any aid... almost $60,000 per year",
+      "the aid I was promised is gone... the school is telling me I have to register it as a 9-credit internship... $14k"
+    ],
+    "score": 5
   },
   "academics": {
-    "summary": "Engineering programs are well-regarded but housed in buildings with reported mold issues (Parker Hall famously had black mold). Faculty quality is described as hit-or-miss by current students. The university is actively complying with Alabama's anti-DEI law, requiring faculty to review and revise courses, with some programs at accreditation risk as a result.",
+    "summary": "Academics are described as solid for engineering, architecture, and pre-vet programs, though the experience is highly professor-dependent with reports of hit-or-miss instruction. Parker Hall (math building) was notorious for black mold before its demolition, hinting at resource issues. The university is now mandating anti-DEI course reviews, with faculty being required to audit and modify curriculum to comply with Alabama law, which many students and faculty find deeply troubling.",
     "key_quotes": [
-      "It's beautiful but I struggle making friends at Auburn and professors have been hit or miss",
+      "professors have been hit or miss",
       "I hope they are wearing respirators to tear it down. The defining characteristics of Parker has to be black mold",
       "Auburn University requires faculty to review courses to comply with anti-DEI law"
-    ]
+    ],
+    "score": 6
+  },
+  "administration": {
+    "summary": "Auburn's administration receives consistent criticism for poor decision-making, including controversial coaching hires, capitulating to anti-DEI legislation, and being accused of suppressing campus protests. The university's compliance with Alabama's anti-DEI law — including forcing faculty to audit courses — has angered many students and faculty. Campus security reportedly attempted to shut down a peaceful protest while allowing controversial political speakers like Richard Spencer in the past.",
+    "key_quotes": [
+      "Auburn's administration is caving to fascists. Shameful",
+      "AU campus security tried to stop the protest, APD let it happen",
+      "when I was [a student], Auburn hired many of its econ professors from the Mises Institute and my classes were basically rants on how evil the Federal Reserve is"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "Auburn's campus is widely praised as one of the most beautiful in the country, and the town has a charming, tight-knit community feel. However, longtime students and alumni note that development has significantly changed the character of the town, with authentic spots replaced by high-rise 'luxury' housing and chain stores. The surrounding area offers outdoor options like Chewacla State Park and Tuskegee National Forest.",
+    "key_quotes": [
+      "One of the most beautiful campuses I've visited",
+      "Everything that made it wonderful from the late 2000s-2015ish is mostly gone. Lots of high-rise, shoddily built 'luxury' housing stands where staples used to be",
+      "Just walking around campus, so beautiful. I also enjoyed going out to Chewacla state park"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "Career outcomes are rarely discussed directly in these posts, though engineering, aerospace, and veterinary programs are mentioned positively in the context of career preparation. Alumni seem generally satisfied with their Auburn education in retrospect. One international student referenced strong connections and career opportunities, but data on job placement rates or salary outcomes is absent from the community discussion.",
+    "key_quotes": [
+      "committed to Auburn University for the Class of 2026 with a dual major in Aerospace Engineering and Musical Theater",
+      "Employers won't care if you went to UNA or Auburn or UA",
+      "I reflect back on my time at AU as one of the best decisions I ever made"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "summary": "For in-state students or those with strong merit scholarships, Auburn can be exceptional value. Out-of-state students without substantial aid face nearly $60K/year, which many posts suggest is simply not worth it compared to schools offering better scholarships. The internship credit hour controversy ($14K charged for a self-secured internship) and lost athletic scholarships signal that financial agreements with the university may not be reliable.",
+    "key_quotes": [
+      "if you're getting a full ride, it's hard to beat, financially speaking",
+      "out of state tuition (est. 50k) is WAY too much for me",
+      "I had to pay almost as much as I earned the entire summer so that I could graduate"
+    ],
+    "score": 5
   },
   "overall_vibe": {
-    "summary": "Auburn has a genuinely warm and welcoming community culture, with visiting fans and newcomers frequently noting how friendly locals are. It is a deeply sports-centric, conservative Southern university where football is a near-religious experience. Long-time students and alumni feel the campus has changed negatively in recent years with overdevelopment and loss of local character.",
+    "summary": "Auburn has a strong, passionate community with deep school pride, legendary football culture, and a welcoming atmosphere toward visitors and fans. The student body leans conservative in a deeply conservative state, and the campus culture reflects that — though some students report leaving Auburn with more progressive views than they arrived with. The experience is genuinely beloved by many alumni, but current students note the town and university have changed significantly in recent years, often for the worse.",
     "key_quotes": [
-      "By far and away, people in Auburn were the most friendly and welcoming people we have EVER encountered while traveling to an away game",
-      "i got here in 2021 and am still here for my second degree, and let me tell you, it has changed SO much in just that amount of time (not in a good way)",
-      "I reflect back on my time at AU as one of the best decisions I ever made"
-    ]
+      "Auburn normally has the reputation of being good to visiting fans. Glad that is the experience that you got",
+      "I was a conservative when I entered Auburn and left a liberal",
+      "i got here in 2021 and let me tell you, it has changed SO much in just that amount of time (not in a good way)"
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "Sky Bar has a decades-long, well-documented reputation for drugging patrons, with multiple first-hand accounts of roofying and sexual assault. The university administration is politically conservative and has faced criticism for hosting white nationalist speakers, complying with anti-DEI mandates, and reportedly attempting to suppress student protests. A professor was murdered in a local park, highlighting safety concerns beyond campus.",
+    "summary": "Sky Bar has multiple credible, multi-decade allegations of drugging and sexual assault, with multiple victims coming forward publicly. Antisemitic graffiti has appeared on campus with a Jewish alumnus reporting personal experiences of antisemitism during their time there. The university's alignment with anti-DEI legislation, reported suppression of student protests, and being cited alongside Liberty University as a Pentagon 'non-woke' partner raises serious concerns about campus climate for marginalized students.",
     "key_quotes": [
-      "In 2015, while living in Auburn, I was drugged, kidnapped, and raped after being at Sky Bar",
-      "Y'all remember when the university gave Richard Spencer a whole auditorium in Foy for his fashy white nationalist speech in 2017?",
-      "Auburn's administration is caving to fascists. Shameful"
-    ]
+      "In 2015, while living in Auburn, I was drugged, kidnapped, and raped after being at Sky Bar... I've carried that trauma silently for ten years",
+      "Auburn is the only place in my life I have had the unfortunate personal experience [of antisemitism]",
+      "Being on that list alongside Liberty University and Hillsdale College says a lot"
+    ],
+    "score": 8
   },
   "hidden_gems": {
-    "summary": "The Auburn University Marching Band (AUMB) is a beloved and formative experience that gives students community and identity from day one. The Path to the Plains program at Southern Union offers a structured transfer pathway for students who don't initially qualify for admission. Chewacla State Park nearby offers outdoor recreation that students and locals treasure.",
+    "summary": "The Auburn University Marching Band (AUMB) is described by members and observers as a transformative experience that builds deep friendships and community. The Formula SAE club and other hands-on engineering organizations give students real-world technical experience. Toomer's Corner rolling tradition and the broader Auburn game-day experience are considered genuinely unique and memorable cultural touchstones that even rival fans rave about.",
     "key_quotes": [
       "One of the best experiences of my life. Congrats to her! It's gonna be awesome [about AUMB]",
-      "Look into Southern Union and their Path to the Plains program — a concurrent enrollment program designed for students who plan to transfer to Auburn University",
-      "I also enjoyed going out to Chewacla state park"
-    ]
+      "I plan to do Mechanical Engineering and hopefully join the Formula SAE club",
+      "By far and away, people in Auburn were the most friendly and welcoming people we have EVER encountered while traveling to an away game"
+    ],
+    "score": 8
   }
 }

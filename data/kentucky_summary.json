@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Limited direct comments about UK housing exist in these posts, but the university is mentioned as a practical safety school for Kentucky residents. One out-of-state student noted the campus is beautiful but struggled socially. Parking is a specific frustration mentioned by at least one student who considered transferring over it.",
+    "summary": "Limited direct commentary on UK dorms exists in these posts, but American dorm culture (shared rooms) is noted as unusual compared to UK/international standards. One student transferred from Purdue to UK and mentioned general campus impressions. The shared room culture at US schools like UK is a recurring point of criticism from international perspectives.",
     "key_quotes": [
-      "I decided to go to the University of Kentucky, and here is my reason for wanting to leave: Parking... I have bought a $300 parking pass, and still paid over 150 in parking violation fees",
-      "great place, beautiful campus, but I do not like the atmosphere created by the students and faculty",
-      "The only friend I came here with has pretty much ditched me for his fraternity"
-    ]
+      "beautiful campus, but I do not like the atmosphere created by the students and faculty",
+      "I decided to go to the University of Kentucky, and here is my reason for wanting to leave: Parking",
+      "Being in Greek life is pretty much the only way to get into parties as a guy"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "Greek life dominates the social scene at UK, and multiple students warn that it's nearly required for men who want to attend parties. The school skews conservative and students who don't fit that mold report feeling out of place. The social environment is a recurring reason students consider transferring.",
+    "summary": "Greek life dominates the social scene at UK, which alienates students who aren't interested in fraternities or sororities. Multiple students mention feeling socially isolated if not involved in Greek life, particularly male students who note it's nearly the only way to access parties. The school has a conservative social culture that may not suit everyone.",
     "key_quotes": [
       "Down here, being in Greek life is pretty much the only way to get into parties as a guy",
       "I knew that the majority of the student body doesn't conform to my personality--it's a more conservative school with a VERY large greek population",
-      "I don't fit in here whatsoever. The only friend I came here with has pretty much ditched me for his fraternity"
-    ]
+      "The only friend I came here with has pretty much ditched me for his fraternity"
+    ],
+    "score": 4
   },
   "dining": {
-    "summary": "There is essentially no discussion of dining options at UK across these 316 posts. No students mentioned campus food quality, dining hall options, or meal plan value. This is a notable gap in available student feedback.",
+    "summary": "There is virtually no specific mention of dining halls or food quality at UK in these posts. This absence itself may suggest dining is not a standout feature, positive or negative. Students focused more on social dynamics and academics.",
     "key_quotes": [
-      "No relevant quotes found in the dataset regarding UK dining",
-      "No relevant quotes found in the dataset regarding UK dining",
-      "No relevant quotes found in the dataset regarding UK dining"
-    ]
+      "beautiful campus",
+      "great student life, extracurriculares, party environment I like",
+      "decent engineering program for a state school"
+    ],
+    "score": 5
   },
   "mental_health": {
-    "summary": "A student described struggling with unacknowledged depression that derailed their academics at UK, causing their GPA to drop significantly. Another freshman described feeling like they don't belong and being miserable. Mental health challenges appear to be a real but underserved issue on campus based on student accounts.",
+    "summary": "Several students describe struggling emotionally at UK, with one noting depression led to academic decline and another feeling like they don't belong. The transition to college rigor caught some students off guard, particularly those who coasted in high school. Mental health support is not mentioned as a campus resource.",
     "key_quotes": [
-      "my last semester at The University of Kentucky was driven off course by some long-run, unacknowledged depression that took over. I quit going to class... my GPA dropped from a 3.4 to a 2.3",
-      "I am incredibly unhappy here. I'm just miserable and my emotional state has taken a very sharp decline",
-      "I chose the school as a safety backup, and because I didn't really have any better options. So I have just felt like I don't belong here"
-    ]
+      "I quit going to class which I am aware is my fault. So, my GPA dropped from a 3.4 to a 2.3",
+      "I'm currently a Freshman at the University of Kentucky. I come from a small high school where I barely had to try to get good grades",
+      "I am currently a freshman Physics major at the University of Kentucky. I have been considering transferring for a while"
+    ],
+    "score": 4
   },
   "financial_aid": {
-    "summary": "UK offers competitive merit scholarships that are frequently cited as a reason to attend, including full out-of-state tuition waivers for strong stats. The Singletary scholarship requires a 33 ACT or 4.0 UW GPA for test-optional consideration. For in-state students, UK is generally considered affordable, and one student noted only $6k remaining cost after aid.",
+    "summary": "UK is frequently mentioned as a strong value school with competitive merit scholarships, particularly for high-achieving out-of-state students. The Singletary scholarship is specifically referenced as a major financial incentive requiring a 33 ACT and 4.0 UW GPA. Students note UK offers full out-of-state tuition waivers for strong stats, making it a legitimate financial safety.",
     "key_quotes": [
       "3.5 GPA / 31 ACT or 1420 SAT: Full out of state tuition",
       "Just got my ACT score back and I only got a 32. I was hoping to apply for the University of Kentucky Otis A. Singletary scholarship but you need a 33",
-      "His remaining cost for UK was only $6k. Completely doable, just not free like UofL"
-    ]
+      "Considering as I'll likely have a full ride and they have a decent engineering program for a state school"
+    ],
+    "score": 7
   },
   "academics": {
-    "summary": "UK is consistently described as a solid state school safety, not a rigorous academic environment, and students who came from competitive high schools report being underchallenged initially before getting a rude awakening. The STEM program exists but students question its quality compared to peers like Purdue. One student described coming from a small high school expecting an easy ride and being surprised by the difficulty.",
+    "summary": "UK is generally viewed as a solid state school with decent programs, particularly for pre-med and engineering, though not exceptional. Students who came expecting an easy ride after high school were surprised by the difficulty. The STEM program is noted but considered average compared to more competitive schools.",
     "key_quotes": [
-      "I come from a small high school where I barely had to try to get good grades... I get to UK expecting an easy ride",
-      "I'm in a STEM program at the University of Kentucky (although it seems like the program is struggling)",
-      "Considering as I'll likely have a full ride and they have a decent engineering program for a state school. And it's only undergrad so it's not too much of a big deal"
-    ]
+      "I get to UK expecting an easy ride. [then struggled]",
+      "decent engineering program for a state school",
+      "they have a decent engineering program for a state school. And it's only undergrad so it's not too much of a big deal"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "summary": "UK's administration draws criticism for its parking enforcement, with one student calling out the university for making mistakes and refusing to fix them. The infamous mass-email acceptance glitch sent to thousands of non-applicants also raised questions about administrative competence. Financial aid and parking offices appear to be sources of frustration.",
+    "key_quotes": [
+      "I have: Bought a $300 parking pass, and still paid over 150 in parking violation fees, most of which have been mistakes, but they refused to actually fix the mistake they made",
+      "In one case they lied about having my car impounded",
+      "it says on Common App that there was a problem submitting my payment... when I submitted my application, it gave me a payment receipt"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "The campus is consistently described as beautiful, and Lexington, Kentucky offers a college-town environment. However, its location in a conservative state is noted as a potential concern for LGBTQ+ students. Students from more urban areas or outside the South may find the cultural environment an adjustment.",
+    "key_quotes": [
+      "beautiful campus, but I do not like the atmosphere created by the students and faculty",
+      "one of them is the University of Kentucky. If anyone has experience with this college and can give it a thumbs-up/thumbs-down that would be super helpful [re: LGBTQ+ concerns]",
+      "I, being a resident of South Central Kentucky, live very far away from Boston"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "summary": "UK is mentioned positively for pre-med pipelines, including a partnership with Centre College for medical school. For most majors, it's considered a regional school with solid but not nationally recognized outcomes. Students interested in highly competitive careers (finance, tech, consulting) don't cite UK as a strong launching pad.",
+    "key_quotes": [
+      "georgetown is obviously significantly more expensive but it has significant better opportunities in DC and a higher med school acceptance rate",
+      "they have a program with the University of Kentucky [re: medical school pipeline from Centre College]",
+      "decent engineering program for a state school"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "summary": "For in-state students and scholarship recipients, UK represents genuinely excellent value. The merit scholarship system is one of the most generous among public universities, offering full out-of-state tuition for strong stats. Out-of-state students without scholarships face a less compelling value proposition.",
+    "key_quotes": [
+      "Considering as I'll likely have a full ride and they have a decent engineering program for a state school",
+      "His remaining cost for UK was only $6k. Completely doable, just not free like UofL",
+      "Not T20 or even T100 (US News has them at 147)... With that said, they have some very competitive scholarships. 3.5 GPA / 31 ACT or 1420 SAT: Full out of state tuition"
+    ],
+    "score": 7
   },
   "overall_vibe": {
-    "summary": "UK is perceived broadly as a large, party-focused SEC school that is best suited for Kentucky residents who value affordability and familiarity. It's frequently listed as a safety school, and students who arrive expecting a transformative academic experience often feel disappointed. The school has a strong sports culture and is genuinely beloved by students who fit its mold.",
+    "summary": "UK has a strong SEC sports culture and lively Greek scene that works well for students who fit that mold, but students who are more liberal, introverted, or uninterested in Greek life often feel out of place. The school attracts many in-state students who stay close to friends, which can make it harder for outsiders to break into social circles. It's a school with genuine strengths for the right student but a poor fit for others.",
     "key_quotes": [
-      "My realistic first choice is university of Kentucky, my dream first choice is Yale",
-      "ya boi just got into kentucky but just bombed a calc final whos with me going to lexington",
-      "University of Kentucky: my in-state school. Much cheaper and affordable... Also has great student life, extracurriculars, party environment I like"
-    ]
+      "it's a more conservative school with a VERY large greek population",
+      "great student life, extracurriculares, party environment I like. I have good amount of connections as well",
+      "I don't fit in here whatsoever"
+    ],
+    "score": 5
   },
   "red_flags": {
-    "summary": "UK's administration has drawn mockery for accidentally sending acceptance emails to thousands of students who never applied, and the parking office is specifically called out for dishonesty and refusing to correct its own mistakes. Greek life gatekeeping of social events and a conservative campus culture are consistent concerns for students who don't fit that profile.",
+    "summary": "Several red flags emerge: Greek life gatekeeps the social scene especially for men, the administration has shown poor accountability with parking enforcement, and the mass accidental acceptance email incident raised questions about institutional competence. LGBTQ+ students have expressed specific concerns about the school's environment given its location in Kentucky.",
     "key_quotes": [
-      "they lied about having my car impounded. It really shows the colors of the school when they make mistakes but refuse to actually do anything about said mistakes",
-      "UKentucky spam emails keep calling me Kathryn (my name is not Kathryn or any other spelling). I do not trust them",
-      "being in Greek life is pretty much the only way to get into parties as a guy... I don't fit in here whatsoever"
-    ]
+      "being in Greek life is pretty much the only way to get into parties as a guy",
+      "they made mistakes but refuse to actually do anything about said mistakes. Really shows the colors of the school",
+      "one of them is the University of Kentucky [re: LGBTQ+ discrimination concerns]"
+    ],
+    "score": 6
   },
   "hidden_gems": {
-    "summary": "UK's Honors College is specifically cited as a strong option and a legitimate backup plan even for high-achieving students rejected from top schools. The merit scholarship system is genuinely generous and can make UK nearly free for strong Kentucky applicants. UK also ranks surprisingly high in NCAA basketball prestige, which matters culturally on campus.",
+    "summary": "UK's merit scholarship program is a genuine hidden gem — the Singletary and other scholarships can make UK essentially free for strong out-of-state students who would pay full price elsewhere. The pre-med pipeline and health sciences programs are stronger than the school's overall ranking suggests. UK's basketball culture also creates a uniquely spirited campus community that's hard to replicate.",
     "key_quotes": [
+      "3.5 GPA / 31 ACT or 1420 SAT: Full out of state tuition",
       "UK Honors College (very pleased, great backup plan)",
-      "Not T20 or even T100... With that said, they have some very competitive scholarships: 3.5 GPA / 31 ACT or 1420 SAT: Full out of state tuition",
-      "Kentucky ranked #3 in Top Universities Ranked by NCAA Division 1 Men's Basketball Tournament Results"
-    ]
+      "Kentucky [ranked 3rd all-time in NCAA Men's Basketball Tournament results]"
+    ],
+    "score": 7
   }
 }

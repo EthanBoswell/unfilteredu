@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "USC housing is reportedly competitive and can fill up fast, with students worried about securing beds. One student mentioned USC 'ran out of beds last year,' suggesting demand exceeds supply. Out-of-state transfers have noted being excluded from dorms as a significant drawback.",
+    "summary": "Housing at USC is competitive and fills up quickly. Students mention that USC ran out of beds in recent years, suggesting high demand and limited availability for incoming students. Limited direct discussion of housing quality in these posts.",
     "key_quotes": [
-      "USC housing is pretty competitive; they ran out of beds last year and me and my friends are trying to get ahead on that.",
-      "Transfers weren't allowed to dorm, and it's overall [a problem].",
-      "Tips for scheduling classes? Going to Orientation at USC this week."
-    ]
+      "USC housing is pretty competitive; they ran out of beds last year",
+      "USC housing application and got to the page to submit the $55 application fee",
+      "me and my friends are trying to get ahead on that"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "USC has a reputation as a party school with a wealthy, socially active student body, sometimes mockingly called 'University of Spoiled Children.' Students who struggle socially report feeling isolated, and at least one student transferred out after making very few friends. The football culture and Greek life appear dominant in the social scene.",
+    "summary": "USC has a strong reputation for social life, football culture, and school spirit, though it carries a persistent 'University of Spoiled Children' stereotype about wealthy, privileged students dominating the social scene. The school is seen as a place where connections, wealth, and status matter significantly. Some students report struggling to make friends, particularly as transfers or introverted students.",
     "key_quotes": [
-      "Intended Major(s): Double major in partying and going to football games.",
-      "I met very few 'friends' and overall I was just extremely unhappy. As a result, I submitted multiple transfer applications.",
-      "It's called University of Spoiled Children for a reason. A lot of people get in with connections."
-    ]
+      "Intended Major(s): Double major in partying and going to football games",
+      "It's called University of Spoiled Children for a reason. A lot of people get in with connections",
+      "I met very few 'friends' and overall I was just extremely unhappy"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "There is virtually no student discussion about USC dining in these posts, suggesting it is neither a standout positive nor a major complaint driving online conversation. No specific dining hall experiences, food quality comments, or meal plan issues were mentioned across the 247 posts.",
+    "summary": "There is virtually no discussion of dining halls or food quality at USC in these posts. No meaningful data to assess this category from the Reddit posts provided.",
     "key_quotes": [
-      "No meaningful dining-specific quotes were found in the dataset.",
-      "No meaningful dining-specific quotes were found in the dataset.",
-      "No meaningful dining-specific quotes were found in the dataset."
-    ]
+      "no specific dining mentions found in data",
+      "USC cost of attendance hits $91k which would include food costs",
+      "students mention affordability concerns broadly"
+    ],
+    "score": 5
   },
   "mental_health": {
-    "summary": "Multiple students describe serious mental health struggles at USC, including depression, isolation, and complete academic disengagement. At least one student described getting 'super depressed the first few months' and isolating entirely from peers. The pressure of the school's high costs and competitive environment appears to compound mental health challenges.",
+    "summary": "There are concerning mentions of depression and isolation among USC students, particularly transfers and freshmen who struggle to integrate socially. One student described getting 'super depressed the first few months' and completely isolating themselves. The pressure of the cost and prestige expectations appears to create significant stress.",
     "key_quotes": [
-      "I got super depressed the first few months here and completely isolated myself and gave up on making friends.",
-      "I cried, this is all so overwhelming... I've been so low and hopeless lately.",
-      "Ole boi gonna have to bury his aspirations of being at USC cuz I suck ass."
-    ]
+      "I got super depressed the first few months here and completely isolated myself and gave up on making friends",
+      "I cried, this is all so overwhelming... I've been so low and hopeless lately",
+      "Once I finally got to USC, it was virtually a nightmare from day one"
+    ],
+    "score": 4
   },
   "financial_aid": {
-    "summary": "USC's financial aid is a major, recurring pain point. The sticker price has exceeded $90,000/year, and many students report receiving little to no aid from the middle class. However, USC did announce free tuition for families earning under $80,000, which generated significant positive attention. Students frequently describe the financial aid office as inflexible.",
+    "summary": "Financial aid at USC is a major pain point. The school costs $90,000-$91,000 per year for full-pay students, and many students report receiving inadequate aid packages. However, USC did announce free tuition for families earning under $80,000, which was widely praised. Middle-class families appear to be especially squeezed, getting neither meaningful aid nor being able to afford full price.",
     "key_quotes": [
-      "The financial aid office is literally about to be flooded with how many shit offers they've given to middle class families.",
-      "USC only gave me 17,000 in loans, so I would have to pay almost 60,000 tuition, which is hella expensive.",
-      "They are eliminating using home equity in calculations too [as part of the new $80k free tuition announcement]."
-    ]
+      "USC is 91k/year and Northwestern is 88k/year. How the actual fuck is a middle class white kid supposed to afford this shit",
+      "The financial aid office is literally about to be flooded with how many shit offers they've given to middle class families",
+      "USC just announced free tuition for families making under $80,000 after committing $30 million to their aid fund"
+    ],
+    "score": 4
   },
   "academics": {
-    "summary": "USC is generally respected academically, particularly for film, business (Marshall), communications (Annenberg), engineering, and computer science. However, some students question whether the academic quality justifies the extreme cost compared to UC schools. A student pursuing data science contemplated transferring to a UC for better career outcomes despite already being at USC.",
+    "summary": "USC is consistently ranked in the top 25-30 nationally and has strong programs in CS, film, communications (Annenberg), and neuroscience. Students and applicants treat it as a legitimate elite university, not just a rich-kid school, though some debate whether the prestige justifies the price tag. The USC Viterbi School and film program (SCA) receive particular recognition.",
     "key_quotes": [
-      "For my new career aspirations in data science, I will most likely have to get a masters degree... I am now contemplating going back to community college for a year in order to transfer to a UC school.",
-      "USC Annenberg [communications] is rather well known at my school and I was wondering if that would add value to a comm degree post grad.",
-      "USC is a highly ranked school [for CS] — Better CS program by a huge amount if we're going off of rank [vs UC Davis]."
-    ]
+      "Better CS program by a huge amount if we're going off of rank",
+      "USC's neuro program is ranked top in the country",
+      "Alumni network/internships/all those career-related benefits USC is known for"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "USC's administration has a deeply troubled reputation. The school has faced massive scandals including the Operation Varsity Blues admissions bribery case, an $852 million-$1.1 billion lawsuit over a gynecologist who sexually assaulted over 700 women, and general perceptions of administrative incompetence including accidentally sending rejection letters to admitted students. Students widely perceive the administration as prioritizing money over students.",
+    "key_quotes": [
+      "USC recently paid an 852 million dollar lawsuit to 710 women because of a gynecologist that was a serial offender",
+      "They went crazy AND stupid lmao — First the scandals, now this?",
+      "I know from my personal experience at USC, they completely forget you exist after you graduate"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "summary": "USC's location in Los Angeles is seen as a major draw, offering proximity to the entertainment industry, tech companies, and internship opportunities. The campus itself is described positively in tier lists. However, some students and parents note that the surrounding neighborhood has safety concerns, with at least one commenter saying 'it's a dangerous place.'",
+    "key_quotes": [
+      "considering the location of the school (L.A.) — many students are able to get internships at tech companies (space especially)",
+      "my uncle studied there and said it's a dangerous place",
+      "USC is covering 44k in grants meaning I only have to cover an extra 6k and living expenses"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "USC's career outcomes are frequently cited as a major selling point, particularly its alumni network in entertainment, tech, and business. Students specifically mention the strength of USC's connections to Hollywood, Silicon Valley, and various industries as justifying the cost for some. The Trojan Network is seen as genuinely powerful.",
+    "key_quotes": [
+      "Alumni network/internships/all those career-related benefits USC is known for",
+      "many students are able to get internships at tech companies considering the location of the school",
+      "I kept my grades up, interned at big tech and venture capital firms, and just got into MIT"
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "summary": "At $90,000+ per year, USC represents extremely poor value for money for most middle-class families. Students without significant aid or scholarships frequently conclude they cannot attend despite being accepted. The free tuition policy for under $80k families helps lower-income students, but the vast middle is left paying near-full price for a school that, while good, is not universally agreed to be worth that cost.",
+    "key_quotes": [
+      "usc increased their cost of attendance to 91k. so even if i get in, i can't go basically",
+      "USC only gave me 17,000 in loans, so I would have to pay almost 60,000 tuition, which is hella expensive",
+      "$91K is NOT WORTH IT. That is a f*ck ton of money"
+    ],
+    "score": 3
   },
   "overall_vibe": {
-    "summary": "USC projects an image of wealth, prestige, and Southern California glamour, but the reality for many students is financial stress, social difficulty, and a campus culture heavily shaped by wealthy students. The school has strong brand recognition and alumni networks, but the gap between the glossy reputation and the actual experience is a recurring theme in student posts.",
+    "summary": "USC occupies a fascinating and contradictory space: it is a genuinely prestigious, well-connected university in a great city with real academic programs, but it is haunted by massive institutional scandals, a wealthy-student culture, and eye-watering costs. Students who thrive tend to be wealthy, socially outgoing, or on significant aid. Those who struggle often cite isolation, cost stress, and disillusionment after working hard to get in.",
     "key_quotes": [
-      "I go to a T25 = ur def at USC/NYU.",
-      "I worked extremely hard my entire life to get into schools with low acceptance rates... Once I finally got to USC, it was virtually a nightmare from day one.",
-      "USC is coming out today, but if you don't get in, that is okay! They are really shady."
-    ]
+      "USC was my dream school and I loved my 4 years there",
+      "Once I finally got to USC, it was virtually a nightmare from day one",
+      "it truly only takes one — after 9 rejections I GOT INTO USC, MY CURRENT TOP CHOICE EVER"
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "USC has been involved in several major scandals: the Operation Varsity Blues admissions bribery case, an $852 million–$1.1 billion lawsuit involving a gynecologist who sexually assaulted over 700 students, and a Dr. Dre $70 million donation coinciding with his daughter's admission. These issues have permanently damaged trust in the institution for many prospective students.",
+    "summary": "USC has some of the most serious institutional red flags of any major American university discussed in these posts. The gynecologist sexual assault scandal affecting 700+ women and resulting in a nearly $1 billion settlement is extraordinary in scale. The Varsity Blues admissions bribery scandal directly implicated USC. These are not minor controversies but fundamental failures of institutional duty of care that prospective students and parents should research carefully.",
     "key_quotes": [
-      "USC recently paid an 852 million dollar lawsuit to 710 women because of a gynecologist that was a serial offender. SEVEN HUNDRED AND TEN.",
-      "I already didn't really like it considering its well-to-do student populace and its crappy financial aid... Varsity Blues and the whole scandal surrounding it really ruined USC for me permanently.",
-      "Maybe if USC wasn't paying billions of dollars in lawsuits and scandals and AirPods they could actually give us financial aid."
-    ]
+      "USC recently paid an 852 million dollar lawsuit to 710 women because of a gynecologist that was a serial offender. SEVEN HUNDRED AND TEN",
+      "Varsity Blues and the whole scandal surrounding it really ruined USC for me permanently",
+      "USC's administration obviously mishandled this situation — I am a USC alum and one of the survivors of the assaults"
+    ],
+    "score": 9
   },
   "hidden_gems": {
-    "summary": "USC offers personalized Kindles to scholarship recipients, signaling strong investment in yield for top admitted students. The school's location in LA provides unmatched access to entertainment, tech, and aerospace industry internships, especially through programs like the rocket propulsion lab. USC also announced genuinely generous financial aid reform, eliminating home equity from calculations and offering free tuition under $80k income.",
+    "summary": "USC's merit scholarship program is a genuine hidden gem — finalists receive personalized Kindles and significant funding, and the program is reportedly very nurturing. The free tuition policy for families under $80k makes USC genuinely accessible for lower-income high achievers. USC's location also enables unique research opportunities like the rocket propulsion lab, and its alumni network in entertainment and tech is considered one of the strongest in the country.",
     "key_quotes": [
-      "USC (scholarship) — a personalized Kindle!? That yield rate is going up.",
-      "USC's rocket propulsion lab (where they build and launch rockets), and many students are able to get internships at tech companies (space especially) considering the location of the school (L.A.).",
-      "They are eliminating using home equity in calculations too [as part of the $80k free tuition program]."
-    ]
+      "USC (scholarship) — a personalized Kindle? That yield rate is going up",
+      "USC is giving me free tuition — for eligible students under $80k income",
+      "USC's Rocket Propulsion Lab where they build and launch rockets, and many students get internships at space companies"
+    ],
+    "score": 7
   }
 }

@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "Off-campus housing in Athens is described as expensive and exploitative, with management companies prioritizing profit over residents. Commuter students face serious challenges, with some living 45 minutes away and spending 1.5 hours getting to class via bus. Parking is a persistent nightmare, with lots filling within a day of registration opening.",
+    "summary": "Housing at UGA seems adequate but unremarkable. Commuter students face serious challenges with parking and long bus commutes of 1.5+ hours. Off-campus apartment complexes have drawn specific complaints about exploitative management practices.",
     "key_quotes": [
-      "The rent reaches exorbitant prices and the 'renovations' are just so that they can raise the price. All this property cares about is money",
-      "I live 45 mins off campus (not an option to move) and can never get parking better than E23 so with the bus it takes 1.5 hours to get from home to class",
-      "God this was so annoying when I lived in an apartment close to campus. Sometimes you would get home and there are no spots left"
-    ]
+      "My commute went from 15 mins to 45, likely because of all the road construction",
+      "live 45 mins off campus (not an option to move) and can never get parking better than E23 so with the bus it takes 1.5 hours",
+      "Do not live at the lodge of Athens on north Avenue...management of this property is especially inefficient"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "UGA has a massive, vibrant social scene heavily centered around football, Greek life, and bar culture, but introverted or non-traditional students can feel deeply out of place. Making friends takes real effort, and many students feel isolated early on, especially commuters and older students. The school is described as having a very specific 'type' - the 'striped polo white dude' stereotype came up organically.",
+    "summary": "UGA has a strong social scene heavily centered around football and Greek life, but introverted students report feeling out of place. Many freshmen experience loneliness and isolation initially, though the consensus is that community exists if you seek it out. The typical UGA student is described as very social and outgoing, which can feel alienating for those who aren't.",
     "key_quotes": [
       "I'm introverted as heck and not as social, which is like the complete opposite of a typical UGA student",
-      "Went to the club fair today, insane that there are so many students at UGA but I still have no friends. Made me feel kinda stupid and lonely. Also I'm a 4th year",
-      "All I could see was the red clay, urban sprawl, and crowds of white dudes in the striped polos. Some students I talked to kind of gave me the overwhelming impression of 'meh'"
-    ]
+      "went to the club fair today, insane that there are so many students at UGA but I still have no friends",
+      "I'm a 4th year, so probably not gonna get better"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "Dining on campus gets generally positive mentions, with one student noting 'the food is good,' but there is very little detailed discussion of dining halls specifically. The bigger student concern is the cost of living and managing food budgets off campus, with students actively seeking free food on campus to save money.",
+    "summary": "Dining gets minimal direct discussion, with one positive mention of food quality from a student considering transferring away. The loss of campus froyo spots is mourned, and there's nostalgia for an old on-campus creamery, suggesting the current dining landscape has contracted over time.",
     "key_quotes": [
-      "I have a tolerable dorm, the food is good, the education is nice",
-      "I try finding free food on campus every week",
+      "the food is good",
+      "There used to be a great place on Baxter called YoDawgs. Rip",
       "There used to be an on campus creamery. Man, I used to be all in that place"
-    ]
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health struggles are real and openly discussed, with students posting about feeling like they don't belong, imposter syndrome, and depression. The university offers some support resources but the culture of mandatory attendance and inflexible grading policies actively forces sick and struggling students into class, which students resent. Positive peer-support culture exists informally, like encouraging notes left in study spaces.",
+    "summary": "Mental health support is a real concern, with students posting about struggling to adjust and feeling they don't belong. Positive community gestures like supportive notes in the MLC are noted and appreciated. The university wellness resources seem present but students rely heavily on peer support and informal campus culture to get through tough times.",
     "key_quotes": [
-      "I promise promise promise that there is a clear 50/50 split between people who feel like they found friends right away and people who are feeling isolated and alone",
-      "I spent 2.5 weeks being sick and then I had like a 5 day break and now I'm sick again... I'm so tired and behind with class work",
-      "As someone who has struggled a lot - things like this are sometimes the things that genuinely bring light to my whole week"
-    ]
+      "as someone who has struggled a lot- and does still struggle sometimes- things like this are sometimes the things that genuinely bring light to my whole week",
+      "I'm not happy here and I don't know what to do",
+      "I promise promise promise that there is a clear 50/50 split between people who feel like they found friends right away and people who are feeling isolated and lone"
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "In-state students with HOPE or Zell Miller scholarships describe UGA as extremely affordable, essentially paying only room and board. Out-of-state students face a very different reality, with costs around $60,000/year that some students are willing to go into serious debt for. The financial calculus is a dominant theme in transfer and decision posts.",
+    "summary": "In-state tuition combined with the HOPE/Zell Miller scholarship makes UGA genuinely affordable for Georgia residents, and this is consistently cited as a major advantage. Out-of-state students face sticker shock at around $60k per year. Financial aid for out-of-state students appears limited, making UGA a poor financial choice unless you're in-state.",
     "key_quotes": [
-      "I have the HOPE scholarship. This makes UGA very cheap (just R&B for four years, or $4,800 in total)",
-      "It's going to cost me about 60k a year and I'm paying for my own college",
-      "UGA (full tuition, $18k cost of attendance with tuition covered)"
-    ]
+      "it's going to cost me about 60k a year and I'm paying for my own college",
+      "In-state so basically free college",
+      "My Hope/Zell Miller scholarship covers the entire tuition for both colleges"
+    ],
+    "score": 7
   },
   "academics": {
-    "summary": "The Chemistry department has a well-known and deeply resented reputation for weed-out culture, with organic chemistry test averages of 49% being reported without departmental accountability. Class registration is brutally competitive, with courses filling within a day. The Terry College of Business and certain specialized programs are frequently cited as genuine strengths that attract students away from other options.",
+    "summary": "Academics are described as rigorous, with the Chemistry department in particular notorious for brutally difficult courses with failing averages. Professors refusing student accommodations is a documented issue. Class registration is fiercely competitive with many popular classes filling within a day of opening.",
     "key_quotes": [
-      "A 49% test average isn't a student problem, it's a teacher problem, and their refusal to take accountability undermines their integrity",
-      "EVERY CLASS IS FULL. How is every single class I want full bro, it's been one day",
-      "I graduated years ago, but it was the same when I was there. I don't think the department is genuinely interested in teaching science students chemistry"
-    ]
+      "Cannot believe ochem 2 test average is a 49% and the department won't do anything about it",
+      "What's the point of going through the lowkey humiliating process of getting accommodations if professors can just say no",
+      "EVERY CLASS IS FULL...the only classes left are at 8am in the morning"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "summary": "The administration draws significant criticism for removing sexual orientation from the non-discrimination policy, following a University System of Georgia mandate. Communication about the change was described as deliberately vague and evasive. UGA also joined an anti-woke accreditation body, signaling a conservative institutional direction that concerns LGBTQ+ students and allies.",
+    "key_quotes": [
+      "UGA dropped sexual orientation from non-discrimination policy",
+      "This email does not reference why people are upset or what was removed. This is extremely shady",
+      "University System of Georgia joins FL and TX to form new anti-woke accreditation body"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "The Athens campus is widely regarded as beautiful with iconic landmarks like the Arch, and students express genuine affection for the town. However, traffic and parking are serious ongoing problems, with construction and staff return-to-office mandates making commutes significantly worse. Athens lacks some amenities students want, like froyo shops, but has a vibrant downtown bar scene.",
+    "key_quotes": [
+      "I spent too long on this painting- Just sharing...Lovely. I walk through that arch every day",
+      "Athens is 5 years late to increasing their housing capacity and 10 years late to improving their transportation",
+      "All I could see was the red clay, urban sprawl, and crowds of white dudes in the striped polos"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "Terry College of Business is frequently cited as a strong program with good recruiting pipelines, including for Big 4 accounting. UGA is considered a target school for accounting and finance in the Southeast. CS and engineering students debate whether UGA's name carries enough weight compared to Georgia Tech for top tech jobs.",
+    "key_quotes": [
+      "Terry College of Business is an amazing business school",
+      "Would I have a huge advantage if I got my degree from Georgia Tech vs UGA? UGA will be cheaper for me due to scholarships",
+      "UGA said I could potentially transfer to ga tech through the First Gen Pathway Program pretty easily"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "For in-state Georgia residents, UGA is consistently described as an exceptional value, especially with HOPE scholarship coverage. Out-of-state students question whether $60k per year is justified when comparable or better options exist elsewhere. The rec center is specifically called out as underwhelming relative to the fees charged.",
+    "key_quotes": [
+      "In-state so basically free college",
+      "it's going to cost me about 60k a year and I'm paying for my own college. I really don't want to be talked out of this",
+      "Ramsey Center is not nearly what it should be for the size of UGA and cost to be a student here"
+    ],
+    "score": 7
   },
   "overall_vibe": {
-    "summary": "UGA is an enormous, spirited school where football is essentially a religion and school pride is intense and genuine. Students who find their community describe it as their 'favorite place on Earth,' but the size can feel alienating, especially for commuters, introverts, or non-traditional students. Athens as a college town is beloved, but traffic, parking, and housing costs are growing pains that genuinely affect quality of life.",
+    "summary": "UGA has a strong, football-obsessed identity with passionate school spirit and a lively social scene that suits extroverted, sports-loving students. The campus is beautiful and Athens has genuine charm, but the school's increasingly conservative institutional direction and Greek life dominance can make it feel unwelcoming to students who don't fit the mold. There's a real community here for those who find their niche.",
     "key_quotes": [
       "Find community and this place turns into your favorite place on Earth",
-      "Athens is 5 years late to increasing their housing capacity and 10 years late to improving their public transportation",
-      "I transferred in with a 3.5 GPA for a less popular major. That's my entire transcript. I'm sharing classes with people who were valedictorians like it's no big deal"
-    ]
+      "crowds of white dudes in the striped polos. Some students I talked to kind of gave me the overwhelming impression of meh",
+      "I am introverted as heck and not as social, which is like the complete opposite of a typical UGA student"
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "UGA dropped sexual orientation from its non-discrimination policy, a USG-directed change that drew significant student outrage and has real implications for LGBTQ+ students. Two separate math professors were exposed as predators of minors, with one fleeing the country after being tipped off before police could act. The university joined an 'anti-woke' accreditation body, signaling a political direction that concerns many students.",
+    "summary": "Two math professors were exposed as pedophiles - one caught sexting a 14-year-old boy, another caught trying to meet a 15-year-old, and the latter fled the country before police could arrest him after influencers tipped him off publicly rather than going to police first. The university dropped sexual orientation protections from its non-discrimination policy. There have been multiple swatting/shooter hoax incidents on campus.",
     "key_quotes": [
-      "UGA dropped sexual orientation from non-discrimination policy - extremely disappointing",
-      "Pedo Calc professor... he fled the country. This is why you go to the police before you clout chase",
-      "University System of Georgia joins FL and TX to form new 'anti-woke' accreditation body"
-    ]
+      "UGA Math Professor Antonio Alfieri Exposed as Pedophile After Getting Caught Sexting a 14-Year-Old Boy",
+      "Pedo Calc professor...he fled the country...this is why you go to the police before you clout chase",
+      "UGA dropped sexual orientation from non-discrimination policy"
+    ],
+    "score": 8
   },
   "hidden_gems": {
-    "summary": "A beloved student known as 'Bus Nerd' regularly posts etiquette guides, shows up in person to help students navigate the bus system, and has become a genuine community institution. Student-built tools like a Rate My Professors Chrome extension and a UGA bus tracking app have hundreds of active users and fill real gaps in university services. The informal culture of students leaving encouraging notes in study spaces and looking out for each other reflects a genuine warmth beneath the large-school anonymity.",
+    "summary": "A student-built bus tracking app called Destination Shuttle has become a beloved community resource, and a dedicated 'Bus Nerd' volunteer regularly posts etiquette guides and answers questions in person. The MLC tutoring center has a warm, supportive culture with students leaving encouraging notes for each other. Spike, the basketball mascot, is a hidden campus delight that long-time students still talk about years after graduating.",
     "key_quotes": [
-      "I'll be right on a comfy seat outside the Tate Game room until about 3pm if anyone has any questions! I'll be wearing my neon green vest",
-      "This extension deserves so much more visibility than it has right now - Rate My Professors for UGA Chrome extension",
-      "To the people who leave little messages like this around - thank you. You really do bring sunshine into the world of strangers"
-    ]
+      "I created a new app to track UGA buses...This shit bussin",
+      "I love him with all my heart he can wiggle his ears and nose and he's perfect",
+      "I teach in the MLC, and i will say: i also really love and appreciate all the supportive notes y'all leave for one another"
+    ],
+    "score": 8
   }
 }

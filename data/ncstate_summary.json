@@ -1,73 +1,119 @@
 {
   "housing": {
-    "summary": "NC State does not require students to live on campus, and off-campus housing options close to campus are readily available. Limited specific feedback was provided about dorm quality, though one student mentioned living in an apartment 5 minutes away as a freshman. The lack of detailed dorm reviews suggests housing isn't a major talking point either positively or negatively.",
+    "summary": "Limited direct housing feedback exists in these posts, but one student experienced serious administrative issues with enrollment cancellation that affected their ability to move into the dorms. The dorms reportedly open the same day staff return, creating a gap when problems arise. Overall housing sentiment is largely absent from this data set.",
     "key_quotes": [
-      "They don't have to stay on campus. I had an apartment 5 minutes away.",
-      "They have complexes solely for students.",
-      "My sister's going to be starting at NC State soon and wanted to know what the dorms are like — are they decently clean/pest free?"
-    ]
+      "I move in on January 2 and the university doesn't open until the 2 either",
+      "Our student services are really good. The fact that dorms open the 2nd and staff doesn't report back until then is a problem and is incredibly frustrating",
+      "I was told my status is currently not enrolled because of some reporting error"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "NC State is seen as having a solid college experience with strong athletics and campus life, though some feel Penn State edges it out in that department. The school has a large student body which provides variety in social options. Students comparing NC State to smaller schools note the appeal of the 'big college experience.'",
+    "summary": "Students and locals speak positively about the campus atmosphere and nearby downtown Raleigh, suggesting an active social scene beyond campus. The Wolfpack identity seems to foster strong community pride among students. However, there is very little detailed social life content in these posts.",
     "key_quotes": [
-      "With regards to student life and city life and athletics and stuff like that, which do y'all think I should choose?",
-      "I would say in all the areas you listed except possibly city life, PSU would edge NC State.",
-      "If you like sportsball and sororities, then you'll be happier on a big campus."
-    ]
+      "I live just down the street from NC State and a ton of my friends are going there. It's a great school and downtown Raleigh is great too!",
+      "I just visited again and it was awesome so I can't wait for the fall!",
+      "I believe it's in the student union. Really nice campus, the student union looks amazing"
+    ],
+    "score": 7
   },
   "dining": {
-    "summary": "There is virtually no substantive student feedback about NC State's dining in these posts. One passing question about cafeteria food quality was raised but never answered. This is a notable gap in available student opinion data.",
+    "summary": "There is essentially no dining-related content in these posts. No students mentioned campus food quality, dining halls, or meal plans in any meaningful way. No conclusions can be drawn from this data set.",
     "key_quotes": [
-      "Is the food at the caf any good?",
-      "They have complexes solely for students [near campus]."
-    ]
+      "No dining-specific quotes available in this dataset",
+      "No dining-specific quotes available in this dataset",
+      "No dining-specific quotes available in this dataset"
+    ],
+    "score": 7
   },
   "mental_health": {
-    "summary": "Several posts hint at significant student stress and hardship, including homelessness, family instability, and academic pressure. One student noted managing a 3.91 average while effectively homeless, suggesting a resilient but potentially unsupported student population. Student services were described as generally good but limited by bureaucratic constraints.",
+    "summary": "One student shared a genuinely distressing situation involving being kicked out by their father, having enrollment cancelled, and lacking funds for tuition, suggesting the university's support systems were slow to respond during a crisis. A library photo was described as capturing the stress and financial anxiety students feel. Mental health pressures around academic gatekeeping also surfaced.",
     "key_quotes": [
-      "After months of struggling to make it out of this semester alive (much less with honors) thanks to my dad kicking me out of the house...",
-      "Our student services are really good. The fact that dorms open the 2nd and staff doesn't report back until then is a problem and is incredibly frustrating.",
-      "Through all of the emotional stress I managed to get a 94, 84, and 83 in my classes and I'm not happy."
-    ]
+      "After months of struggling to make it out of this semester alive (much less with honors) thanks to my dad kicking me out of the house",
+      "I don't have 3 grand. Even my financial aid is gone until I get it reinstated",
+      "Looks like Hunt. Pretty accurate if you go there and aren't getting a full ride"
+    ],
+    "score": 4
   },
   "financial_aid": {
-    "summary": "Financial aid issues appear to be a recurring pain point, with students reporting enrollment cancellations tied to financial holds and difficulty navigating the system. Out-of-state tuition is described as triple the in-state rate, making residency classification critically important. Students are advised to stay in-state to avoid massive debt, especially for pre-med tracks.",
+    "summary": "Financial aid processes appear fragile and bureaucratically problematic — one student had their financial aid disappear alongside an enrollment cancellation, with no easy path to reinstatement. NC State is frequently cited as a strong in-state value, especially for engineering, but out-of-pocket costs like room and board remain significant even with scholarships. Administrative errors in the aid system can leave students in extremely vulnerable positions.",
     "key_quotes": [
-      "The out-of-state tuition is triple the amount in-state.",
-      "I don't have 3 grand. Even my financial aid is gone until I get it reinstated.",
-      "Med school is expensive, so you may want your undergrad to be as inexpensive as possible."
-    ]
+      "Even my financial aid is gone until I get it reinstated",
+      "If it were a full ride, I would definitely take it no questions asked. But I do still have to pay for room and board which is quite pricey",
+      "That full ride will allow a great deal of freedom to your life after college"
+    ],
+    "score": 4
   },
   "academics": {
-    "summary": "NC State has a strong reputation particularly in engineering, computer science, and veterinary/agricultural sciences, with its vet program ranked 3rd in the world. However, competitive majors like CS, genetics, and molecular biology require a formal change-of-degree (CODA) application process, and students with GPAs below 3.0 frequently get denied from their desired major. Advisors are reported as inconsistent and sometimes unreliable, forcing students to be proactive about their own academic planning.",
+    "summary": "NC State uses a competitive Change of Degree (CODA) process for impacted majors like Genetics, MCB, and Computer Science, meaning students can be denied their intended major after freshman year based on GPA. A 2.91 GPA was insufficient for admission to Genetics and MCB. The university is particularly well-regarded for engineering and statistics programs.",
     "key_quotes": [
-      "I am a rising sophomore at NC State and was denied from the Genetics major and the Molecular and Cellular Biology major. My overall GPA is 2.91.",
-      "Computer science department here during coding classes likes to hand out academic integrity violations for no reason.",
-      "Their veterinary program is ranked 3rd best in the world and I'm really wanting to take advantage of only living an hour or so away from such a good program."
-    ]
+      "I am a rising sophomore at NC State and was denied from the Genetics major and the Molecular and Cellular Biology major. My overall GPA is 2.91",
+      "I would call the departments and ask specifically for what GPAs were accepted to CODA (change of degree application)",
+      "It has an amazing program for my major (Statistics) and I just visited again and it was awesome"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "summary": "Administrative processes at NC State appear to be a recurring pain point. Multiple students experienced enrollment cancellations, reporting errors, and financial aid disruptions with little immediate support. The CODA system for changing majors adds another layer of bureaucratic gatekeeping that catches students off guard after freshman year.",
+    "key_quotes": [
+      "My admissions have been put into question for the millionth time",
+      "My enrollment was cancelled (again..)",
+      "The fact that dorms open the 2nd and staff doesn't report back until then is a problem and is incredibly frustrating"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "The campus is consistently described as nice, with a standout student union. Its location adjacent to downtown Raleigh is repeatedly cited as a major asset. NC State is seen as well-situated in a growing, vibrant city with plenty to do off campus.",
+    "key_quotes": [
+      "I live just down the street from NC State and downtown Raleigh is great too!",
+      "Really nice campus, the student union looks amazing",
+      "NC State was always referred to as the engineering school"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "summary": "NC State, particularly its engineering program, is seen as a strong launchpad for careers, with one commenter noting its ranking is solid for the broad engineering discipline. Students choosing NC State over higher-ranked but more expensive schools suggest confidence in its career ROI. No specific employer recruitment or alumni network data appears in these posts.",
+    "key_quotes": [
+      "70s is a fine ranking for the broad discipline of engineering. Every school peer to NC State's size has an engineering school",
+      "When you go to Stevens and are making way more than you would have at NCSU, are you really gonna regret that you went to a lower ranked school?",
+      "A lot of rankings are based on research money and graduate programs"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "As an in-state option, NC State is frequently recommended as excellent value, especially for engineering and technical majors. Multiple students chose it over more expensive peer schools when finances were a factor. However, even with scholarships, room and board costs remain substantial and financial aid administrative issues can create unexpected costs.",
+    "key_quotes": [
+      "My in-state option is North Carolina State University, which is a great option for my major (engineering)",
+      "I'm not willing to go into debt for an undergraduate degree",
+      "Pretty accurate if you go there and aren't getting a full ride"
+    ],
+    "score": 7
   },
   "overall_vibe": {
-    "summary": "NC State is widely seen as an underrated, solid public university with particular strengths in STEM fields that punches above its national ranking. Students who ended up there after rejection from dream schools frequently report being happy with their choice. It sits in a perceived academic hierarchy below UNC Chapel Hill and Duke, but students defend it strongly as a place where hard work pays off.",
+    "summary": "NC State has a strong, proud school identity centered around the Wolfpack brand and a welcoming campus culture. Students who commit seem genuinely excited, and the Raleigh location adds to the appeal. However, beneath the enthusiasm lie real structural issues with administration, academic gatekeeping via CODA, and financial aid fragility.",
     "key_quotes": [
-      "I am currently finishing my freshman year at North Carolina State University... I ended up finding one of the best CS programs I could have asked for.",
-      "I got into NC State literally an hour after being rejected from UNC Chapel Hill. I thought my life was over but thank you NCSU for giving me hope.",
-      "NC State gets overshadowed in nearly everything by UNC/Duke except engineering and agricultural sciences."
-    ]
+      "I just committed to NC State guys!! So excited and even though it wasn't my first choice it has an amazing program",
+      "It's a great school and downtown Raleigh is great too!",
+      "I'd rather attend State and major in what I want than go to an ivy and major in bio"
+    ],
+    "score": 7
   },
   "red_flags": {
-    "summary": "Bureaucratic and administrative issues are a recurring theme, including enrollment cancellations, financial aid processing errors, and unresponsive advisors. The CODA process for competitive majors means students can spend an entire year working toward a major only to be denied entry as a sophomore. An admissions portal error even generated a fake ACT score for one applicant, raising questions about data accuracy.",
+    "summary": "The CODA process is a significant hidden risk — students can spend an entire year preparing for a major only to be denied entry with no clear fallback plan. Administrative enrollment cancellations appear to happen repeatedly and at the worst possible times, leaving vulnerable students without housing or financial aid. These systemic issues are not prominently disclosed during recruitment.",
     "key_quotes": [
-      "My advisor wouldn't respond to my emails asking for advice... So now I will have to retake this class because she literally didn't respond.",
-      "I got access to my NC State portal and under the test scores section, it has my correct SAT score and an ACT score of 14. I've never even taken the ACT.",
-      "I spent the whole first year thinking I would be a genetics major... and was denied from the Genetics major and the Molecular and Cellular Biology major."
-    ]
+      "I was denied from the Genetics major and the Molecular and Cellular Biology major. My overall GPA is 2.91",
+      "My enrollment was cancelled (again..) — I don't have 3 grand. Even my financial aid is gone",
+      "My admissions have been put into question for the millionth time"
+    ],
+    "score": 7
   },
   "hidden_gems": {
-    "summary": "NC State's veterinary program is world-class and geographically accessible for North Carolina residents — a massive hidden value. The university's game design concentration within computer science is a distinctive and relatively rare program offering. NC State also defers a large number of EA engineering and CS applicants who later get accepted RD, meaning early deferral is not a death sentence.",
+    "summary": "NC State's Statistics and Engineering programs are quietly strong and well-regarded relative to their cost. Downtown Raleigh being walkable or easily accessible from campus is a lifestyle advantage that rivals more expensive urban schools. The school also appears to have a genuinely strong student community identity that makes it feel more like a destination than a fallback.",
     "key_quotes": [
-      "Their veterinary program is ranked 3rd best in the world and I'm really wanting to take advantage of only living an hour or so away.",
-      "NC State has a great program for Computer Science - Game Development.",
-      "NCSU defers a huge number of EA applicants, especially engineering and CS, that they later accept through RD."
-    ]
+      "It has an amazing program for my major (Statistics) and I just visited again and it was awesome",
+      "Downtown Raleigh is great too!",
+      "I'd rather attend State and major in what I want than go to an ivy and major in bio"
+    ],
+    "score": 7
   }
 }

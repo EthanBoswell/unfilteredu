@@ -1,74 +1,118 @@
 {
   "housing": {
-    "summary": "FSU dorms have some maintenance issues, with reports of perpetually wet tiles and bathroom problems. Students transferring from branch campuses or subleasing face housing uncertainty. Off-campus housing near collegetown is popular but finding affordable, fully furnished options under $1000/month is described as difficult.",
+    "summary": "Housing options at FSU range from on-campus dorms to off-campus student apartments, with students navigating roommate matching and subletting. Dorm experiences vary, with some reporting maintenance issues like wet tiles and bathroom problems in older buildings like Landis Hall. The new build across the street from campus is mentioned as a popular option for business students.",
     "key_quotes": [
-      "our FREAKING tiles were ALWAYS WET near my roommate's [side]",
-      "I'm now weighing whether i'm right for on-campus housing or if off-campus/student apartments with roommate matching are a better option",
-      "Everything I've seen so far is very expensive"
-    ]
+      "Lived in Landis 4th floor last year. Had a wonderful roommate... HOWEVER, our FREAKING tiles were ALWAYS WET near my roommate's [side]",
+      "a lot are going to the new build across the street",
+      "I don't know Tallahassee super well yet, and I've never seen the dorms"
+    ],
+    "score": 5
   },
   "social_life": {
-    "summary": "FSU has a vibrant social scene with active bar culture, bar crawls, and sports-centered social life. Greek life exists but has a troubled history following a pledge death that led to a university-wide ban. Students describe it as genuinely fun with strong football culture.",
+    "summary": "FSU has a vibrant social scene with bar crawls, Greek life, and strong football culture, though Greek life has faced serious scrutiny following a pledge death. The party reputation is real and well-known, with students referencing St. Patrick's Day events and bar crawls actively. Social connection can be a challenge for transfer or isolated students.",
     "key_quotes": [
-      "Currently go to FSU, its fucking awesome so i'm not surprised",
-      "FSU President bans Greek life on campus following death of Pi Kappa Phi pledge Andrew Coffey",
-      "There's gonna be a bar crawl on Feb 21st from LineLeap/Fireball"
-    ]
+      "Girl looking for friends on st pattys day - I'm on campus but a lot of my friends are going out of town",
+      "There's gonna be a bar crawl on Feb 21st from LineLeap/Fireball",
+      "Currently go to FSU, its fucking awesome so I'm not surprised [by rising applications]"
+    ],
+    "score": 7
   },
   "dining": {
-    "summary": "There is virtually no discussion of FSU dining in these posts, suggesting it is neither a standout positive nor a major complaint for students. Financial aid packages like Bright Futures and grants appear sufficient to cover the nicest dorms, implying dining costs are manageable within typical aid packages.",
+    "summary": "There is virtually no direct mention of dining halls or campus food quality in these posts. The lack of student commentary on dining makes it difficult to assess, suggesting it's neither a standout positive nor a major complaint driving conversation.",
     "key_quotes": [
-      "You could probably even afford the nicest dorms FSU offers",
-      "a bottle of vodka tbh [as the top gift suggestion for an FSU student]",
-      "Sounds like you're good based on the grants alone"
-    ]
+      "Something like a cafeteria gift card/gas money/alcohol [as a gift for FSU student]",
+      "a bottle of vodka tbh [suggested as a gift for FSU student]"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health struggles are acknowledged in the FSU community, with at least one student documenting multiple medical withdrawals due to panic disorder before eventually graduating and being accepted. The campus experience can be isolating for students who lack a social network, as one student posted looking for friends on St. Patrick's Day because her friends had left town.",
+    "summary": "Mental health challenges surface in a few posts, including one student who took nearly a decade to complete their AA due to Panic Disorder. The data suggests FSU is navigable for students with mental health histories, but there's no mention of strong campus mental health infrastructure or support systems.",
     "key_quotes": [
       "it took me almost a decade to reach this point because I withdrew three times due to sudden documented mental health related hardships (Panic Disorder)",
-      "I'm on campus but a lot of my friends are going out of town, looking for someone to hang with",
+      "I have since fully recovered and graduated this past semester with a 3.0 GPA",
       "Nevermind, I was accepted! [after disclosing mental health history in application]"
-    ]
+    ],
+    "score": 5
   },
   "financial_aid": {
-    "summary": "Florida residents with Bright Futures and prepaid college plans can attend FSU at very low or zero cost, making it an exceptional value for in-state students. Out-of-state students face a much steeper financial picture, with limited merit aid available even for strong stats like a 35 ACT. The combination of Bright Futures plus grants can cover tuition and even nicer dorms.",
+    "summary": "Florida residents with Bright Futures scholarships and prepaid plans can attend FSU at very low or near-zero cost, making it an exceptional value for in-state students. Out-of-state students receive much less aid, and the financial picture changes dramatically for non-Florida residents. Scholarships like a reported $60,000 award are mentioned, creating real excitement among recipients.",
     "key_quotes": [
+      "I got into Florida State in the honors program w a $60000 scholarship!!",
       "I have the highest Bright Futures tier and 11k in grants for both semesters",
-      "For context, I am a FL resident, and qualify for 100% bright futures. Going to FSU would be significantly cheaper",
-      "I got into Florida State in the honors program w a $60000 scholarship!!"
-    ]
+      "For context, I am a FL resident, and qualify for 100% bright futures. Going to FSU would be significantly cheaper [than Wellesley]"
+    ],
+    "score": 8
   },
   "academics": {
-    "summary": "FSU is rising in rankings and increasingly competitive for admission, with the political science program benefiting significantly from its location in the state capitol. The geology and environmental science departments receive specific praise from students. However, some students worry about being underprepared relative to peers, and the school's academic reputation is still sometimes dismissed unfairly compared to UF.",
+    "summary": "FSU is generally regarded as a solid academic institution on the rise, with particular strengths noted in political science, environmental/geology sciences, and criminology. Being in the state capitol gives political science and pre-law students unique access to internships and government experience. Some students note that the school can feel like a safety or fallback, but those who attend often come away impressed.",
     "key_quotes": [
-      "Being in Tallahassee is also amazing and there are a ton of opportunities for internships in government",
-      "FSU is on the rise. Their ranking has increased quite a bit in the past few years",
-      "We have a fantastic department [geology]. A lot of your electives will be geology classes and I couldn't recommend it enough"
-    ]
+      "FSU is in the capitol as you know, and has pretty great funding for their program",
+      "I did one in geology at FSU. I loved it! We have a fantastic department",
+      "FSU'd assert FSU is on the rise. Their ranking has increased quite a bit in the past few years"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "Administration gets mixed signals: the FSU president took decisive action banning Greek life after a pledge death, showing some accountability. However, there are frustrations with bureaucratic issues like wrong graduation gowns being sent twice by the vendor, and transfer/admissions processes generating confusion. The university's responsiveness to student concerns appears inconsistent.",
+    "key_quotes": [
+      "FSU President bans Greek life on campus following death of Pi Kappa Phi pledge Andrew Coffey",
+      "Herff Jones has now sent me the wrong gown twice (they sent USF both times)",
+      "I emailed the transfer student services this question, but I figured I'd ask here if someone has any insight"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "summary": "FSU's campus is widely praised for its beautiful brick architecture and aesthetic appeal, described as genuinely lovely. Tallahassee is noted as a college town environment, though it's roughly two hours from beaches - a common misconception for prospective students expecting Florida coastline access. Being in the state capitol is a significant practical advantage for certain majors.",
+    "key_quotes": [
+      "a beautiful campus... Bricks can be gorgeous when done right. I'm a huge fan of the red/green contrast",
+      "The beach isn't close by!!! I'm fairly familiar with the area and yeah the pretty beaches are not close",
+      "in the state capitol so plenty of opportunities for political internships"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "FSU's location in Tallahassee provides tangible career advantages for students in political science, law, and government, with real internship opportunities with state representatives. The university's rising rankings suggest improving graduate outcomes. However, there's little data in these posts about specific career placement rates or employer recruiting beyond government/politics.",
+    "key_quotes": [
+      "I got an internship with state rep in Tallahassee and that's what's been affecting my decision",
+      "Academic reputation rlly is not that big of a deal when deciding between FSU and UF, especially regarding polisci",
+      "FSU will give you a better education and prepare/set you up for medical a lot more than FIU will"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "For Florida residents with Bright Futures, FSU is one of the best values in American higher education - potentially near-free with strong academic quality. Out-of-state students face a much harder financial calculation with limited merit aid relative to cost. The combination of rising rankings and in-state affordability makes it a standout deal for Florida residents specifically.",
+    "key_quotes": [
+      "That scholarship is amazing, imagine being debt-free when you graduate",
+      "Me: $1700 EFC. Most likely going to FSU (in-state)",
+      "Going to FSU would be significantly cheaper [than a $3000/year aid package from Wellesley]"
+    ],
+    "score": 8
   },
   "overall_vibe": {
-    "summary": "FSU is broadly described as a genuinely fun school with strong school spirit, beautiful brick architecture, and a campus students fall in love with on visits. It punches above its weight for value, especially for Florida residents, and students who arrive skeptical often end up happy. The school's party reputation is real but doesn't overshadow the academic and extracurricular opportunities.",
+    "summary": "FSU has a strong identity as a fun, spirited school with real academic substance that's often underestimated by outsiders. Students who end up there frequently become enthusiastic advocates. The school carries a party/football reputation that can attract the wrong students but also creates a genuinely energetic campus culture that many students love.",
     "key_quotes": [
-      "Currently go to FSU, its fucking awesome so i'm not surprised",
-      "I toured FSU the summer of '17 and highly enjoyed it. I much preferred it to any in-state school in TN",
-      "Although I mostly wrote FSU off as 'another safety,' I'm [now excited to go]"
-    ]
+      "Currently go to FSU, its fucking awesome so I'm not surprised",
+      "Although I mostly wrote FSU off as 'another safety,' I'm [now excited]",
+      "just go to Florida State and join the carnival [said mockingly, but captures the school's fun reputation]"
+    ],
+    "score": 7
   },
   "red_flags": {
-    "summary": "FSU appeared in a major documentary about universities mishandling sexual assault cases, which is a serious concern raised in these posts. The Greek life system had a pledge death that resulted in a full university ban, highlighting dangerous hazing culture. Herff Jones, the vendor handling graduation regalia, is disorganized enough to send wrong gowns twice to the same student.",
+    "summary": "The most serious red flag is the hazing death of Pi Kappa Phi pledge Andrew Coffey, which led to a full Greek life ban. FSU also appeared in 'The Hunting Ground' documentary for its handling of sexual assault cases on campus. These two issues around student safety and institutional response to assault are significant concerns that prospective students - especially women - should research carefully before enrolling.",
     "key_quotes": [
-      "The Hunting Ground... focuses on institutions such as UNC Chapel Hill, Harvard, Notre Dame, FSU, and more and, for lack of a better term, their shrugging off of sexual assault claims",
       "FSU President bans Greek life on campus following death of Pi Kappa Phi pledge Andrew Coffey",
-      "Herff Jones has now sent me the wrong gown twice (they sent USF both times)"
-    ]
+      "The Hunting Ground is basically about college's and official's responses on sexual assault on college campuses. It focuses on institutions such as... FSU",
+      "All fraternities and sororities should just pull out and ditch the school [in response to Greek life ban]"
+    ],
+    "score": 8
   },
   "hidden_gems": {
-    "summary": "FSU's location in Tallahassee as the state capitol is a genuinely underrated advantage for political science, public policy, and pre-law students, offering internship access that most universities cannot match. The TCC-to-FSU pipeline is a well-known and accepted pathway for students who don't get in directly. National Merit Scholars and honors program students can stack scholarships for a nearly free elite education.",
+    "summary": "FSU's location in the state capitol is a genuinely underrated advantage that creates unique internship pipelines for political science, pre-law, criminology, and government students that peer schools simply can't match. The geology and environmental science departments are praised by students as unexpectedly strong. The combination of Bright Futures funding, a TCC transfer pathway, and honors program scholarships creates multiple routes to an excellent, nearly debt-free education.",
     "key_quotes": [
-      "FSU is in the capitol as you know, and has pretty great funding for their program. Outside of DC itself it's one of the best locations for poli sci",
-      "I got an internship with state rep in Tallahassee and that's what's been affecting my decision",
-      "I heard it's best to have 60 credits when transferring [from TCC to FSU]"
-    ]
+      "Being in Tallahassee is also amazing and there are a lot of opportunities for internships there",
+      "I did one in geology at FSU. I loved it! We have a fantastic department",
+      "Transferring from TCC [Tallahassee Community College] is a well-known pathway into FSU"
+    ],
+    "score": 8
   }
 }

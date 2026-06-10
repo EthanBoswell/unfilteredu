@@ -17,6 +17,7 @@ if not ANTHROPIC_API_KEY:
 MODEL = "claude-sonnet-4-6"
 
 SCHOOLS = [
+    {"name": "University of North Carolina at Chapel Hill", "slug": "unc", "subreddits": ["r/UNC", "r/chapelhill"], "keywords": ["University of North Carolina", "UNC Chapel Hill", "Tar Heels", "Chapel Hill NC"]},
     {"name": "Duke University", "slug": "duke", "subreddits": ["r/duke", "r/DukeUniversity"], "keywords": ["Duke University", "Duke Blue Devils", "Durham NC"]},
     {"name": "NC State", "slug": "ncstate", "subreddits": ["r/NCState"], "keywords": ["NC State", "North Carolina State", "Wolfpack", "Raleigh NC"]},
     {"name": "Georgia Tech", "slug": "georgiatech", "subreddits": ["r/gatech"], "keywords": ["Georgia Tech", "GT", "Yellow Jackets", "Atlanta"]},
@@ -56,7 +57,8 @@ SCHOOLS = [
 
 CATEGORIES = [
     "housing", "social_life", "dining", "mental_health",
-    "financial_aid", "academics", "overall_vibe", "red_flags", "hidden_gems",
+    "financial_aid", "academics", "administration", "location_and_campus",
+    "career_outcomes", "value_for_money", "overall_vibe", "red_flags", "hidden_gems",
 ]
 
 SYSTEM_PROMPT = (
@@ -68,17 +70,27 @@ SYSTEM_PROMPT = (
 OUTPUT_SCHEMA = """\
 Return ONLY a valid JSON object (no markdown, no explanation) with this exact structure:
 {
-  "housing": {"summary": "2-3 sentence summary", "key_quotes": ["quote1", "quote2", "quote3"]},
-  "social_life": {"summary": "...", "key_quotes": [...]},
-  "dining": {"summary": "...", "key_quotes": [...]},
-  "mental_health": {"summary": "...", "key_quotes": [...]},
-  "financial_aid": {"summary": "...", "key_quotes": [...]},
-  "academics": {"summary": "...", "key_quotes": [...]},
-  "overall_vibe": {"summary": "...", "key_quotes": [...]},
-  "red_flags": {"summary": "...", "key_quotes": [...]},
-  "hidden_gems": {"summary": "...", "key_quotes": [...]}
+  "housing": {"summary": "2-3 sentence summary", "key_quotes": ["quote1", "quote2", "quote3"], "score": 7},
+  "social_life": {"summary": "...", "key_quotes": [...], "score": 7},
+  "dining": {"summary": "...", "key_quotes": [...], "score": 7},
+  "mental_health": {"summary": "...", "key_quotes": [...], "score": 7},
+  "financial_aid": {"summary": "...", "key_quotes": [...], "score": 7},
+  "academics": {"summary": "...", "key_quotes": [...], "score": 7},
+  "administration": {"summary": "...", "key_quotes": [...], "score": 7},
+  "location_and_campus": {"summary": "...", "key_quotes": [...], "score": 7},
+  "career_outcomes": {"summary": "...", "key_quotes": [...], "score": 7},
+  "value_for_money": {"summary": "...", "key_quotes": [...], "score": 7},
+  "overall_vibe": {"summary": "...", "key_quotes": [...], "score": 7},
+  "red_flags": {"summary": "...", "key_quotes": [...], "score": 3},
+  "hidden_gems": {"summary": "...", "key_quotes": [...], "score": 7}
 }
-Each category must have a "summary" (2-3 sentences) and "key_quotes" (2-3 short direct quotes from the data)."""
+Each category must have a "summary" (2-3 sentences), "key_quotes" (2-3 short direct quotes from the data), \
+and a "score" from 1-10:
+- 1-3 = poor, consistent complaints
+- 4-5 = mixed, notable issues
+- 6-7 = good, mostly positive
+- 8-10 = excellent, strong praise
+For "red_flags", the score scale is reversed: 10 = very serious concerns, 1 = minimal concerns."""
 
 
 def format_posts(posts: list) -> str:

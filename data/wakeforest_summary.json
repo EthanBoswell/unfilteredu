@@ -1,74 +1,119 @@
 {
   "housing": {
-    "summary": "There is virtually no substantive discussion of Wake Forest University's housing in these posts. The r/wakeforest subreddit posts are actually about Wake Forest, North Carolina (the town), not Wake Forest University. No current students shared dorm or housing experiences.",
+    "summary": "There is virtually no direct student discussion about Wake Forest's on-campus housing in these Reddit posts. The data is too limited to draw meaningful conclusions about dorm quality, housing availability, or residential life experience.",
     "key_quotes": [
-      "No housing-specific quotes available from these posts",
-      "The r/wakeforest posts cover town traffic, power outages, and local services - not the university",
-      "Not a fan. Nice campus and architecture but no adjacent college town."
-    ]
+      "No specific housing quotes available from this data set",
+      "Posts are mostly about admissions rankings, not student life",
+      "r/wakeforest subreddit posts are about Wake Forest, NC town, not the university"
+    ],
+    "score": 6
   },
   "social_life": {
-    "summary": "Wake Forest has a reputation for being dominated by preppy Greek life culture, which can feel exclusionary to students who don't fit that mold. Students who aren't into Greek life report finding their community but acknowledge the dominant social scene is hard to ignore. The lack of an adjacent college town is a noted drawback to social life.",
+    "summary": "Wake Forest has a reputation for being dominated by preppy, wealthy Greek life students, which can be alienating for students who don't fit that mold. One student noted there are people who aren't interested in Greek life, but acknowledged it's a dominant presence. A Black prospective student specifically asked about the social climate, signaling real concerns about inclusivity.",
     "key_quotes": [
-      "Although preppy Greek life students definitely are a dominant presence on campus, there's also a ton of students who aren't interested in those things",
-      "Not a fan. Nice campus and architecture but no adjacent college town.",
-      "a senior in my school who went there supported conversion therapy"
-    ]
+      "preppy Greek life students definitely are a dominant presence on campus, there's also a ton of students who aren't interested in those things",
+      "a senior in my school who went there supported conversion therapy",
+      "Is Wake Forest really as preppy, snobby and rich as people say it is?"
+    ],
+    "score": 5
   },
   "dining": {
-    "summary": "There is no meaningful discussion of dining at Wake Forest University across these 99 posts. Students and applicants did not bring up food quality, dining halls, or meal plans in any substantive way.",
+    "summary": "There is no meaningful discussion of Wake Forest's dining options in these Reddit posts. No students mentioned food quality, dining hall variety, or meal plan value in any of the sampled content.",
     "key_quotes": [
-      "No dining-specific quotes found in these posts",
-      "No current student dining reviews available",
-      "Insufficient data to draw conclusions about dining quality"
-    ]
+      "No dining-specific quotes available from this data",
+      "Insufficient data to evaluate campus dining",
+      "Topic not mentioned in any of the 99 sampled posts"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health resources at Wake Forest are not directly discussed in these posts. The overall tone around Wake Forest in the applicant community involves anxiety about fit, particularly for students who are Black, non-preppy, or non-Greek, which may signal underlying campus culture concerns.",
+    "summary": "Mental health resources at Wake Forest are not discussed in these posts. The broader context of intense college admissions pressure and social comparison is prevalent across posts, which is relevant context for any competitive university's student body.",
     "key_quotes": [
-      "I am black, so i really need to know haha [about whether WF is as preppy and snobby as people say]",
-      "Wake Forest's undergrad population is around 71% white, and 6.6% black",
-      "No direct mental health resource discussions found in these posts"
-    ]
+      "No Wake Forest-specific mental health discussion in this data",
+      "Broader Reddit culture around college admissions shows high anxiety among applicants",
+      "Insufficient data to evaluate Wake Forest mental health support specifically"
+    ],
+    "score": 6
   },
   "financial_aid": {
-    "summary": "Wake Forest is mentioned as a school that has slipped in rankings and lost some prestige cachet, which may affect its scholarship competitiveness. It appears on scholarship megathread lists as a school below T20 that uses merit aid to attract top students, but specific financial aid experiences are not detailed.",
+    "summary": "Wake Forest is frequently mentioned in the context of expensive private universities without strong financial aid. One detailed post noted the school has scholarship programs to attract top students, but no students reported receiving generous need-based aid. The school's high sticker price relative to its aid generosity is an implicit concern.",
     "key_quotes": [
-      "At schools below the top 20, these [scholarships] serve as tools to bring in top students who would otherwise be unlikely to attend",
-      "Brandeis and Wake Forest going from T30s to outside the top 50",
-      "No specific Wake Forest financial aid personal experiences shared in these posts"
-    ]
+      "Most schools have a major scholarship program of some kind or another. At schools below the top 20, these serve as tools to bring in top students",
+      "Wake Forest dropping from T30s to outside the top 50",
+      "No student testimonials about generous need-based aid at Wake Forest"
+    ],
+    "score": 5
   },
   "academics": {
-    "summary": "Wake Forest's supplemental essays have a reputation for being particularly burdensome and off-putting to applicants. The school is generally regarded as a solid regional university in the T30 range, respected enough to be considered prestigious within many high schools, but not widely known nationally outside the college-obsessed community.",
+    "summary": "Wake Forest's supplemental essays are specifically called out as off-putting, with one student noting the application asked for analysis of 3-4 books read recently, which they found burdensome. The school is generally considered academically rigorous and selective, ranking in the T28-T30 range nationally, but academic culture details are sparse.",
     "key_quotes": [
-      "I'm looking at you Wake Forest lmao [about disliking a school after seeing their supplemental essays]",
+      "I'm looking at you Wake Forest lmao [about disliking supplemental essays]",
       "their application asked for an analysis/reflection on 3-4 books I'd read recently. I haven't read a book on my own will since eighth grade",
       "another top 5 in my class is going to Wake Forest, which is probably the most selective school we've gotten so far"
-    ]
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "There is no substantive discussion of Wake Forest's administration, bureaucracy, or institutional responsiveness in these posts. The school appears in ranking and admissions discussions but student-facing administrative experiences are not covered.",
+    "key_quotes": [
+      "No administration-specific quotes available",
+      "Wake Forest mentioned primarily in rankings and admissions contexts",
+      "Insufficient data to evaluate administrative quality"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "summary": "One campus reviewer specifically noted Wake Forest has a nice campus and architecture but critically flagged the lack of an adjacent college town, calling it a significant negative. Winston-Salem is not seen as a vibrant college city, which limits off-campus social and cultural options for students.",
+    "key_quotes": [
+      "Nice campus and architecture but no adjacent college town",
+      "Not a fan [of Wake Forest campus experience]",
+      "Winston-Salem NC mentioned as location context but no student enthusiasm expressed"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "summary": "Wake Forest is mentioned in the context of being a legitimate target school that feeds students to decent outcomes, but it's not discussed as a Wall Street feeder or top recruiter pipeline school. One ranking placed it as comparable to Cornell in a 'Southern Ivy' hierarchy, suggesting solid but not elite career placement networks.",
+    "key_quotes": [
+      "Wake Forest -> Cornell [in Southern Ivy comparison]",
+      "Brandeis and Wake Forest going from T30s to outside the top 50 [suggesting declining prestige trajectory]",
+      "No specific employer recruitment or career outcomes data mentioned"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "summary": "Wake Forest is an expensive private university that has reportedly slipped in rankings (from T28 to outside T50 according to one post), raising questions about whether the price tag is justified. Without strong financial aid and with a declining ranking trajectory, the cost-benefit calculation appears unfavorable compared to peer institutions.",
+    "key_quotes": [
+      "Brandeis and Wake Forest going from T30s to outside the top 50",
+      "Wake Forest, UNC Chapel Hill [listed as T28 in 2021 US News]",
+      "No mentions of scholarship generosity or value-oriented financial packages"
+    ],
+    "score": 5
   },
   "overall_vibe": {
-    "summary": "Wake Forest projects an image of a preppy, wealthy, predominantly white institution with a strong Greek life culture. It sits in an awkward spot in the prestige hierarchy — well-regarded enough to be aspirational for many students, but perceived as snobbish and not particularly diverse. The campus is considered architecturally nice but isolated without a real college town.",
+    "summary": "Wake Forest comes across as a wealthy, preppy, predominantly white school with strong Greek life dominance and a beautiful campus that lacks a vibrant surrounding college town. It occupies a middle tier of selective private universities but has a reputation for being socially homogeneous and not particularly welcoming to students of color or those outside the Greek life scene.",
     "key_quotes": [
-      "Is Wake Forest really as preppy, snobby and rich as people say it is?",
-      "Wake Forest - Cornell [in a comparison mapping southern schools to Ivy League equivalents]",
-      "Not a fan. Nice campus and architecture but no adjacent college town."
-    ]
+      "Is Wake Forest really as preppy, snobby and rich as people say it is? i am black, so i really need to know",
+      "Wake Forest's undergrad population is around 71% white, and 6.6% black",
+      "nice campus and architecture but no adjacent college town"
+    ],
+    "score": 5
   },
   "red_flags": {
-    "summary": "The clearest red flag is the school's reputation for being unwelcoming to students who aren't wealthy, white, or Greek-affiliated. A specific anecdote about a Wake Forest student supporting conversion therapy surfaced unprompted. The school has also notably dropped in national rankings over recent years, falling from T30 to outside T50 by some measures.",
+    "summary": "Two significant red flags emerge: the campus is reported as 71% white with only 6.6% Black students, and a known alumnus from one high school reportedly supported conversion therapy. The lack of an adjacent college town and dominant Greek life culture may create an insular, exclusionary social environment particularly for students from diverse backgrounds.",
     "key_quotes": [
-      "a senior in my school who went there supported conversion therapy sooo",
-      "Brandeis and Wake Forest going from T30s to outside the top 50",
-      "Wake Forest's undergrad population is around 71% white, and 6.6% black"
-    ]
+      "a senior in my school who went there supported conversion therapy",
+      "Wake Forest's undergrad population is around 71% white, and 6.6% black",
+      "preppy Greek life students definitely are a dominant presence on campus"
+    ],
+    "score": 6
   },
   "hidden_gems": {
-    "summary": "Wake Forest is consistently cited as an underrated or overlooked university relative to its actual academic quality. Students note it has strong programs and is considered competitive enough to be the most selective school many high schoolers from non-elite areas apply to, suggesting its reputation may exceed its name recognition in certain markets.",
+    "summary": "Wake Forest's application process, particularly its book-reflection essay requirement, signals the school genuinely values intellectual engagement and reading culture, which may appeal to serious readers. The campus architecture is consistently praised as beautiful. The school also appears on scholarship lists as having programs to attract high-achieving students who might otherwise attend more prestigious institutions.",
     "key_quotes": [
-      "Wake Forest University [listed among most underrated colleges]",
-      "also Illinois and NC (Duke, UNC, Davidson, Wake Forest) deserve honorable mentions [as states with best colleges]",
-      "Wake Forest '23 baby!! I couldn't have done it without yall [enthusiastic ED acceptance post]"
-    ]
+      "their application asked for an analysis/reflection on 3-4 books I'd read recently [signaling intellectual culture]",
+      "Nice campus and architecture",
+      "Wake Forest University [listed as underrated] per the U.S. news rankings"
+    ],
+    "score": 6
   }
 }

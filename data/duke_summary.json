@@ -1,74 +1,116 @@
 {
   "housing": {
-    "summary": "Most students live on campus, and the surrounding Durham neighborhoods are generally considered safe enough to live near campus. Students from expensive coastal cities like SF/LA are sometimes warned not to overestimate safety concerns about Durham, as the area is reasonably livable. Graduate students are advised to explore downtown Durham or areas like Trinity Park and southern Walltown.",
+    "summary": "Limited direct discussion of on-campus housing, but graduate and international students face real challenges finding off-campus housing without US credit history or a co-signer. Some nearby options like Poplar Manor near West Campus get positive reviews for maintenance responsiveness. Durham broadly is recommended over surrounding suburbs like Cary or Morrisville.",
     "key_quotes": [
-      "Durham is not that unsafe 🙄",
-      "There's absolutely no reason to live outside of Durham if you will be at Duke",
-      "I'd stay on the southern side of Walltown and would add Trinity Park to my search"
-    ]
+      "I've been here 4 years and it has all been great. Any issues were fixed within 24 hours",
+      "I am moving out of Poplar Manor (close to West Campus) at the end of June, so there will be a unit available",
+      "There's absolutely no reason to live outside of Durham if you will be at Duke"
+    ],
+    "score": 6
   },
   "social_life": {
-    "summary": "Transfer students report significant difficulty breaking into social groups, requiring real personal effort to find community. The Focus program (a first-year academic community) is highly desired, and students who don't get placed into their preferred cluster express frustration. Social integration is not automatic and requires active participation in clubs or community groups.",
+    "summary": "Orientation programs like pArts and PCitizen are praised for building lasting friend groups, with many students staying close with their orientation cohort throughout college. Transfers specifically report it being very hard to find social groups and need to put in significant personal effort. The campus social scene seems structured around early bonding experiences.",
     "key_quotes": [
-      "I won't lie it was very hard for me. You really need to put in effort yourself to find people.",
-      "I spent so much time writing my 4 essays and ended up getting Constellations which is like my 4th choice",
-      "I met one transfer student through a church group who was a great guy and got connected super easily"
-    ]
+      "my current friend group is almost all pArts kids; anecdotally i've noticed a lot of the pArts kids stay together even after orientation",
+      "I won't lie it was very hard for me [as a transfer]. You really need to put in effort yourself to find people",
+      "I loved PCitizen!! super fun DC trip with lots of cool activities, still great friends with the people from there even after graduating"
+    ],
+    "score": 6
   },
   "dining": {
-    "summary": "There is very little discussion of dining in these posts, suggesting it is not a major talking point among students. No specific complaints or praise about campus food were mentioned.",
+    "summary": "There is virtually no discussion of dining halls or food quality in these posts. No meaningful data exists in this dataset to evaluate dining at Duke.",
     "key_quotes": [
-      "No specific dining quotes available from this dataset",
-      "No specific dining quotes available from this dataset",
-      "No specific dining quotes available from this dataset"
-    ]
+      "No relevant quotes available from these posts"
+    ],
+    "score": 6
   },
   "mental_health": {
-    "summary": "Mental health is not directly discussed in these posts, but the pressure around academic choices, career paths, and uncertainty about ROI on the Duke degree suggest an underlying culture of high expectations and anxiety. Students seem stressed about career outcomes and making the right major decisions.",
+    "summary": "No direct discussion of mental health resources or student wellbeing infrastructure appears in these posts. The academic pressure is implied by one senior reflecting that the hardest part of Duke was getting in, suggesting the workload may be more manageable than expected, but this is anecdotal.",
     "key_quotes": [
-      "I'm a graduating high school senior...currently am unsure what path I should take",
-      "I genuinely feel like I could've just went to a state school",
-      "No specific mental health quotes available from this dataset"
-    ]
+      "the hardest part of this school was the application process",
+      "I didn't take the hardest course load possible, nor did I perform the greatest (3.84 GPA)"
+    ],
+    "score": 6
   },
   "financial_aid": {
-    "summary": "Duke offers need-based aid but merit scholarships for medical school are limited and competitive. The university faced significant alumni backlash for revoking a promised lifetime alumni email address, with students citing it as evidence Duke prioritizes cost-cutting over commitments. The broken promise has caused at least some alumni to withhold donations.",
+    "summary": "Mixed signals on financial aid - some say it is comparable to peer schools while others warn it is worse than other elite privates, particularly for pre-med students. Duke Med has limited non-need-based scholarships, though MD/PhD students get full tuition plus a stipend. One prospective student explicitly noted 'their fin aid sucks compared to other privates.'",
     "key_quotes": [
-      "It isn't an issue. It's Duke being cheap, they just won't admit it",
-      "Career services made a big deal about using our Duke.edu emails for job applications so I'm on more than 20 portals with that address",
-      "I will not be donating to Duke while this decision stands"
-    ]
+      "damn i would apply for premed, but their fin aid sucks compared to the other privates",
+      "I've had friends with ample support from the finaid office who did not get the same from other peer private schools",
+      "If you go the MD/PhD route, they cover all tuition, fees, plus pay you a modest stipend"
+    ],
+    "score": 5
   },
   "academics": {
-    "summary": "Duke does not offer undergraduate nursing despite being known for its medical programs, which surprises some incoming students. Freshman year is intentionally kept declaration-free to encourage exploration. The Focus program is a competitive and highly valued first-year academic experience, and not getting your preferred cluster is a real and common disappointment.",
+    "summary": "Duke is known for grade inflation, with a 3.84 GPA described as 'just outside Latin Honors,' which surprised many commenters. The Focus program is highly sought after for freshmen, but many students are placed in the less-desired Constellations program despite writing all required essays. Duke notably does not offer undergraduate nursing despite its reputation in that area.",
     "key_quotes": [
-      "Duke doesn't have nursing for undergraduates. That won't be available to you.",
-      "There is a reason you're not allowed to declare freshman year. Try for a diverse schedule and you can feel out if it's right for you.",
-      "I heard historically it's uncommon to not get any focus you applied to. I'm curious to how competitive it is this year."
-    ]
+      "How the fuck is a 3.84 gpa not Latin honors lmao? Does duke have mad inflation that I'm not aware of",
+      "Duke definitely grade inflates and has been trending upward for years",
+      "Duke doesn't have nursing for undergraduates. That won't be available to you"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "summary": "The administration has faced serious backlash for revoking a promised lifetime alumni email, with many alumni calling it a broken promise and vowing not to donate. The response was seen as evasive and insulting, with critics saying Duke 'doubled down with weasel words.' Career services had explicitly encouraged graduates to use Duke emails for job applications, making the sudden revocation particularly disruptive.",
+    "key_quotes": [
+      "I'm a recent grad and career services made a big deal about using our Duke.edu emails for job applications so I'm on more than 20 portals with that address",
+      "It isn't an issue. It's Duke being cheap, they just won't admit it",
+      "I will not be donating to Duke while this decision stands and I feel obligated to tell prospective students that the university does not value its commitments"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "summary": "Durham is generally well-regarded by students and described as unfairly stigmatized for safety concerns, particularly by those coming from expensive coastal cities. The campus itself is beautiful enough to be featured in professional 360-degree tour videos. Students from the Bay Area and California are specifically advised not to fear Durham and to live downtown rather than fleeing to suburbs like Cary.",
+    "key_quotes": [
+      "Durham is not that unsafe",
+      "there is zero reason to live in cary or morrisville. i'm also from california (from the bay and lived in la for a decade) and i moved here two years ago",
+      "If you're a graduate student with SF money, I'd recommend downtown Durham until you know the area well enough"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "summary": "Duke graduates are recognized by the UK government's High Potential visa program as among the most elite American university alumni, signaling strong global career recognition. An Economics and CS senior reflected positively on career preparation, though they noted their GPA of 3.84 was not enough for Latin Honors due to grade inflation. Students interested in quant trading and finance appear drawn to Duke's programs.",
+    "key_quotes": [
+      "Duke University is listed among the most elite American universities by the UK government for its high potential immigrant program",
+      "I am a current senior at Duke University majoring in Economics and Computer Science graduating next May",
+      "If you are super antsy [about career prep], look into some of the clubs"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "summary": "Value is complicated - the brand carries significant prestige and global recognition, but financial aid is perceived by some as weaker than peer institutions, especially for pre-med students. Grade inflation means a high GPA is easier to achieve but may carry less signal to employers. The alumni email revocation also signals the university is willing to cut promised benefits, raising questions about long-term institutional loyalty.",
+    "key_quotes": [
+      "damn i would apply for premed, but their fin aid sucks compared to the other privates",
+      "I feel obligated to tell prospective students that the university does not value its commitments",
+      "Duke definitely grade inflates and has been trending upward for years"
+    ],
+    "score": 5
   },
   "overall_vibe": {
-    "summary": "Duke is regarded as a highly prestigious institution with strong networking opportunities, but students note that prestige alone does not guarantee career success — effort and connections matter. The university is recognized globally as elite, appearing on the UK government's list of top American universities for visa purposes. There is some tension between Duke's elite reputation and the real-world outcomes students actually experience.",
+    "summary": "Duke attracts driven, ambitious students interested in economics, CS, finance, and pre-professional paths, with a campus culture shaped heavily by orientation bonding experiences. The social scene rewards students who engage early, but transfers and those who miss out on programs like Focus can feel left out. The administration's handling of the alumni email issue has left a sour taste among some alumni and current students.",
     "key_quotes": [
-      "Like any school, Duke is what you make it. You're not going to automatically have a higher chance of hire just because you're a Duke grad.",
-      "The anecdotal difference between my friends who studied CS at my state school and friends who studied CS at Duke is night and day.",
-      "You have an opportunity of a lifetime at Duke with the people who attend there."
-    ]
+      "On the whole, Duke is a strikingly liberal campus",
+      "the hardest part of this school was the application process",
+      "Everyone ends up in one of their top 5 choices and orientation week is entirely what you make of it"
+    ],
+    "score": 6
   },
   "red_flags": {
-    "summary": "Duke revoked a 'lifetime' alumni email promise with minimal notice and defensive weasel-word explanations, angering alumni and raising trust concerns about institutional commitments. CS graduates are reportedly struggling to find jobs in the current market, even from a prestigious school. The Focus program placement process feels opaque and disappointing to many incoming students who put significant effort into applications.",
+    "summary": "The most concrete red flag is the administration revoking a promised lifetime alumni email with minimal notice and evasive justifications, actively alienating alumni and raising trust issues. Grade inflation is significant enough that a 3.84 GPA doesn't qualify for Latin Honors. Transfer students face genuine social isolation without strong institutional support systems.",
     "key_quotes": [
-      "Delaying a broken promise is still a broken promise. The university does not value its commitments.",
-      "I'm seeing Duke grads going years unemployed or underemployed. Isn't being a Duke student supposed to give you a bit of a leg up?",
-      "I spent so much time writing my 4 essays and ended up getting Constellations which is like my 4th choice"
-    ]
+      "Delaying a broken promise is still a broken promise. I will not be donating to Duke while this decision stands",
+      "The doubling down with weasel words is honestly insulting",
+      "I won't lie it was very hard for me [as a transfer]. You really need to put in effort yourself to find people"
+    ],
+    "score": 6
   },
   "hidden_gems": {
-    "summary": "Duke's MD/PhD program covers full tuition plus a living stipend, making it an exceptional deal for those interested in research medicine. Box, the cloud storage platform, was created by a Duke student and the university maintains a loyalty to it. Emailing professors directly before enrollment to request syllabi is accepted and encouraged, giving proactive students a real advantage in course planning.",
+    "summary": "Duke's experiential orientation programs like pArts, PCitizen, and Project Wild are a genuine hidden strength, with students forming lasting friend groups that persist well beyond freshman year. The Focus program offers a rich intellectual community for those who get in. Duke's Box file storage has a quirky origin story - it was created by a Duke student - reflecting the university's quiet entrepreneurial culture.",
     "key_quotes": [
-      "If you go the MD/PhD route, they cover all tuition, fees, plus pay you a modest stipend for living expenses.",
-      "Box was created by a Duke student, and there is some loyalty to it.",
-      "I've emailed professors for syllabi multiple times. Just ask politely."
-    ]
+      "my current friend group is almost all pArts kids; anecdotally i've noticed a lot of the pArts kids stay together even after orientation",
+      "I loved PCitizen!! super fun DC trip with lots of cool activities, still great friends with the people from there even after graduating",
+      "Box is not great, but it was created by a Duke student, and there is some loyalty to it"
+    ],
+    "score": 8
   }
 }
