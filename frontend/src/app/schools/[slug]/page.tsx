@@ -4,7 +4,7 @@ import type { CSSProperties } from "react";
 import Navbar from "@/components/Navbar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs } from "@/lib/data";
-import type { CategoryData } from "@/lib/schools";
+import type { CategoryData, Summary } from "@/lib/schools";
 import { schoolColors } from "@/data/schoolColors";
 
 export async function generateStaticParams() {
@@ -39,14 +39,35 @@ function fakeUpvotes(seed: number, text: string): number {
   return 300 + ((seed * 211 + text.length * 37) % 1300);
 }
 
-const CARD_ICONS: Record<string, string> = {
-  housing:       "🏠",
-  social_life:   "🎉",
-  dining:        "🍽️",
-  mental_health: "🧠",
-  financial_aid: "💰",
-  academics:     "📚",
-};
+const GRID_CATEGORIES: Array<{ key: keyof Summary; label: string; icon: string }> = [
+  { key: "housing",             label: "Housing",             icon: "🏠" },
+  { key: "social_life",         label: "Social Life",         icon: "🎉" },
+  { key: "dining",               label: "Dining",              icon: "🍽️" },
+  { key: "mental_health",       label: "Mental Health",       icon: "🧠" },
+  { key: "financial_aid",       label: "Financial Aid",       icon: "💰" },
+  { key: "academics",           label: "Academics",           icon: "📚" },
+  { key: "administration",      label: "Administration",      icon: "🏛️" },
+  { key: "location_and_campus", label: "Location & Campus",   icon: "📍" },
+  { key: "career_outcomes",     label: "Career Outcomes",     icon: "💼" },
+  { key: "value_for_money",     label: "Value for Money",     icon: "💵" },
+];
+
+function scoreColor(score: number): string {
+  if (score <= 3) return "#D62839";
+  if (score <= 6) return "#E8A33D";
+  return "#3BB273";
+}
+
+function ScoreBar({ score, trackColor = "rgba(0,0,0,0.08)" }: { score: number; trackColor?: string }) {
+  return (
+    <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: trackColor }}>
+      <div
+        className="h-full rounded-full"
+        style={{ width: `${Math.max(0, Math.min(10, score)) * 10}%`, background: scoreColor(score) }}
+      />
+    </div>
+  );
+}
 
 function SectionLabel({ text, color }: { text: string; color: string }) {
   return (
@@ -59,13 +80,13 @@ function SectionLabel({ text, color }: { text: string; color: string }) {
   );
 }
 
-function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
+function QuoteRow({ quote, seed, accentColor, dark = false }: { quote: string; seed: number; accentColor: string; dark?: boolean }) {
   return (
     <div
       className="p-3 rounded-lg"
       style={{
-        backgroundColor: "#F7F7F7",
-        border: "1px solid rgba(0,0,0,0.06)",
+        backgroundColor: dark ? "rgba(255,255,255,0.05)" : "#F7F7F7",
+        border: dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(0,0,0,0.06)",
         borderLeft: `3px solid ${accentColor}`,
       }}
     >
@@ -75,7 +96,10 @@ function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; a
           <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}cc` }}>
             u/{quoteUsername(seed)}
           </span>
-          <p className="text-[12px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
+          <p
+            className="text-[12px] leading-relaxed mt-1 italic"
+            style={{ color: dark ? "rgba(255,255,255,0.85)" : "#333333", fontFamily: "Georgia, serif" }}
+          >
             &ldquo;{quote}&rdquo;
           </p>
         </div>
@@ -84,8 +108,82 @@ function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; a
   );
 }
 
-function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
-  themeKey: string;
+function ScoreOverviewBar({ summary }: { summary: Summary }) {
+  return (
+    <div style={{ background: "#1A1612" }}>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+        <p className="text-[10px] tracking-[0.2em] uppercase mb-5" style={{ color: "#C4B89A" }}>
+          Score Overview
+        </p>
+        <div className="flex gap-4 overflow-x-auto pb-1">
+          {GRID_CATEGORIES.map(({ key, label }) => {
+            const score = summary[key].score;
+            return (
+              <div key={key} className="flex flex-col items-center gap-2 shrink-0" style={{ width: "82px" }}>
+                <span
+                  className="text-[8px] font-bold tracking-wide uppercase text-center leading-tight h-6 flex items-center"
+                  style={{ color: "#C4B89A" }}
+                >
+                  {label}
+                </span>
+                <ScoreBar score={score} trackColor="rgba(255,255,255,0.08)" />
+                <span className="text-base font-black" style={{ color: scoreColor(score), fontFamily: "Georgia, serif" }}>
+                  {score}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SpotlightCard({
+  icon, label, data, primaryColor, kind,
+}: {
+  icon: string;
+  label: string;
+  data: CategoryData;
+  primaryColor: string;
+  kind: "warning" | "highlight";
+}) {
+  const accent = kind === "warning" ? "#D62839" : "#3BB273";
+  const tag = kind === "warning" ? "Heads up" : "Standout";
+
+  return (
+    <div
+      className="flex flex-col gap-3 p-5 rounded-xl bg-white"
+      style={{ border: "1px solid rgba(0,0,0,0.08)", borderLeft: `4px solid ${accent}` }}
+    >
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <div
+            className="w-8 h-8 flex items-center justify-center text-base rounded-lg shrink-0"
+            style={{ backgroundColor: `${primaryColor}18` }}
+          >
+            {icon}
+          </div>
+          <span className="text-[10px] font-bold tracking-[0.15em] uppercase" style={{ color: "#444444" }}>
+            {label}
+          </span>
+        </div>
+        <span className="text-2xl font-black" style={{ color: accent, fontFamily: "Georgia, serif" }}>
+          {data.score}
+        </span>
+      </div>
+      <span className="text-[9px] font-bold tracking-[0.25em] uppercase" style={{ color: accent }}>
+        {tag}
+      </span>
+      <p className="text-[13px] leading-relaxed line-clamp-4" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
+        {data.summary}
+      </p>
+    </div>
+  );
+}
+
+function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
+  icon: string;
   label: string;
   data: CategoryData;
   cardIndex: number;
@@ -100,20 +198,26 @@ function CategoryCard({ themeKey, label, data, cardIndex, primaryColor }: {
         "--glow-shadow": `${primaryColor}18`,
       } as CSSProperties}
     >
-      <div className="flex items-center gap-3">
-        <div
-          className="w-9 h-9 flex items-center justify-center text-lg rounded-xl shrink-0"
-          style={{ backgroundColor: `${primaryColor}18` }}
-        >
-          {CARD_ICONS[themeKey]}
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <div
+            className="w-9 h-9 flex items-center justify-center text-lg rounded-xl shrink-0"
+            style={{ backgroundColor: `${primaryColor}18` }}
+          >
+            {icon}
+          </div>
+          <span
+            className="text-[11px] font-bold tracking-[0.18em] uppercase"
+            style={{ color: primaryColor }}
+          >
+            {label}
+          </span>
         </div>
-        <span
-          className="text-[11px] font-bold tracking-[0.18em] uppercase"
-          style={{ color: primaryColor }}
-        >
-          {label}
+        <span className="text-sm font-black shrink-0" style={{ color: scoreColor(data.score), fontFamily: "Georgia, serif" }}>
+          {data.score}/10
         </span>
       </div>
+      <ScoreBar score={data.score} />
       <p className="text-sm leading-relaxed" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
         {data.summary}
       </p>
@@ -153,14 +257,9 @@ export default async function SchoolPage({
   const colors = schoolColors[slug] ?? school.colors;
   const primary = colors.primary;
 
-  const mainCategories: Array<{ key: keyof typeof summary; label: string }> = [
-    { key: "housing",       label: "Housing"       },
-    { key: "social_life",   label: "Social Life"   },
-    { key: "dining",        label: "Dining"        },
-    { key: "mental_health", label: "Mental Health" },
-    { key: "financial_aid", label: "Financial Aid" },
-    { key: "academics",     label: "Academics"     },
-  ];
+  const sortedByScore = [...GRID_CATEGORIES].sort((a, b) => summary[a.key].score - summary[b.key].score);
+  const lowestThree = sortedByScore.slice(0, 3);
+  const highestOne = sortedByScore[sortedByScore.length - 1];
 
   const bottomQuotes = gatherBottomQuotes([
     summary.overall_vibe,
@@ -228,14 +327,35 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* ── Category cards ────────────────────────────────────────────── */}
+      {/* ── Score Overview ───────────────────────────────────────────── */}
+      <ScoreOverviewBar summary={summary} />
+
+      {/* ── Spotlight ─────────────────────────────────────────────────── */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
+        <SectionLabel text="Before You Commit" color={primary} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {lowestThree.map(({ key, label, icon }) => (
+            <SpotlightCard key={key} icon={icon} label={label} data={summary[key]} primaryColor={primary} kind="warning" />
+          ))}
+          <SpotlightCard
+            key={highestOne.key}
+            icon={highestOne.icon}
+            label={highestOne.label}
+            data={summary[highestOne.key]}
+            primaryColor={primary}
+            kind="highlight"
+          />
+        </div>
+      </div>
+
+      {/* ── Category cards ────────────────────────────────────────────── */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-10">
         <SectionLabel text="What students are saying" color={primary} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {mainCategories.map(({ key, label }, i) => (
+          {GRID_CATEGORIES.map(({ key, label, icon }, i) => (
             <CategoryCard
               key={key}
-              themeKey={key}
+              icon={icon}
               label={label}
               data={summary[key]}
               cardIndex={i}
@@ -246,62 +366,58 @@ export default async function SchoolPage({
       </div>
 
       {/* ── Red Flags ─────────────────────────────────────────────────── */}
-      <div style={{ backgroundColor: "rgba(214,40,57,0.04)", borderTop: "1px solid rgba(214,40,57,0.12)", borderBottom: "1px solid rgba(214,40,57,0.12)" }}>
+      <div style={{ background: "#2D0A0A" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <SectionLabel text="⚠ Red Flags" color="#D62839" />
-          <p className="text-sm leading-relaxed mb-5" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
+          <div className="flex items-center gap-3 mb-5">
+            <span className="text-2xl">⚠️</span>
+            <span className="text-[11px] font-bold tracking-[0.25em] uppercase" style={{ color: "#FF6B6B" }}>
+              Red Flags
+            </span>
+          </div>
+          <p className="text-sm leading-relaxed mb-6" style={{ color: "#F2C9C9", fontFamily: "Georgia, serif" }}>
             {summary.red_flags.summary}
           </p>
+          <div className="mb-6">
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-[9px] font-bold tracking-[0.2em] uppercase" style={{ color: "#FF6B6B" }}>
+                Severity
+              </span>
+              <span className="text-sm font-black" style={{ color: "#FF6B6B", fontFamily: "Georgia, serif" }}>
+                {summary.red_flags.score}/10
+              </span>
+            </div>
+            <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: "rgba(255,255,255,0.1)" }}>
+              <div
+                className="h-full rounded-full"
+                style={{ width: `${Math.max(0, Math.min(10, summary.red_flags.score)) * 10}%`, background: "#FF6B6B" }}
+              />
+            </div>
+          </div>
           <div className="flex flex-col gap-3">
             {summary.red_flags.key_quotes.map((quote, i) => (
-              <div
-                key={i}
-                className="p-4 rounded-lg bg-white"
-                style={{ border: "1px solid rgba(214,40,57,0.12)", borderLeft: "4px solid rgba(214,40,57,0.7)" }}
-              >
-                <div className="flex items-start gap-2.5">
-                  <span style={{ color: "#D62839", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
-                  <div>
-                    <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(214,40,57,0.7)" }}>
-                      u/{quoteUsername(i * 11 + 99)}
-                    </span>
-                    <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
-                      &ldquo;{quote}&rdquo;
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <QuoteRow key={i} quote={quote} seed={i * 11 + 99} accentColor="#FF6B6B" dark />
             ))}
           </div>
         </div>
       </div>
 
       {/* ── Hidden Gems ───────────────────────────────────────────────── */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <SectionLabel text="◆ Hidden Gems" color="#3BB273" />
-        <p className="text-sm leading-relaxed mb-5" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
-          {summary.hidden_gems.summary}
-        </p>
-        <div className="flex flex-col gap-3">
-          {summary.hidden_gems.key_quotes.map((quote, i) => (
-            <div
-              key={i}
-              className="p-4 rounded-lg bg-white"
-              style={{ border: "1px solid rgba(59,178,115,0.15)", borderLeft: "4px solid rgba(59,178,115,0.7)" }}
-            >
-              <div className="flex items-start gap-2.5">
-                <span style={{ color: "#3BB273", fontSize: "9px", marginTop: "4px", flexShrink: 0 }}>▲</span>
-                <div>
-                  <span className="text-[10px] font-bold tracking-wide" style={{ color: "rgba(59,178,115,0.8)" }}>
-                    u/{quoteUsername(i * 9 + 88)}
-                  </span>
-                  <p className="text-[13px] leading-relaxed mt-1 italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
-                    &ldquo;{quote}&rdquo;
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
+      <div style={{ background: "#0A2D0F" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+          <div className="flex items-center gap-3 mb-5">
+            <span className="text-2xl" style={{ color: "#6FE08C" }}>◆</span>
+            <span className="text-[11px] font-bold tracking-[0.25em] uppercase" style={{ color: "#6FE08C" }}>
+              Hidden Gems
+            </span>
+          </div>
+          <p className="text-sm leading-relaxed mb-6" style={{ color: "#CDEFD6", fontFamily: "Georgia, serif" }}>
+            {summary.hidden_gems.summary}
+          </p>
+          <div className="flex flex-col gap-3">
+            {summary.hidden_gems.key_quotes.map((quote, i) => (
+              <QuoteRow key={i} quote={quote} seed={i * 9 + 88} accentColor="#6FE08C" dark />
+            ))}
+          </div>
         </div>
       </div>
 

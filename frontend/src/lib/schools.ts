@@ -1,6 +1,7 @@
 export type CategoryData = {
   summary: string;
   key_quotes: string[];
+  score: number;
 };
 
 export type Summary = {
@@ -10,6 +11,10 @@ export type Summary = {
   mental_health: CategoryData;
   financial_aid: CategoryData;
   academics: CategoryData;
+  administration: CategoryData;
+  location_and_campus: CategoryData;
+  career_outcomes: CategoryData;
+  value_for_money: CategoryData;
   overall_vibe: CategoryData;
   red_flags: CategoryData;
   hidden_gems: CategoryData;
