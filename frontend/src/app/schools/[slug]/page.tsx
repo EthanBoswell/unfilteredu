@@ -1,11 +1,18 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import type { CSSProperties } from "react";
 import Navbar from "@/components/Navbar";
 import { getSchoolBySlug } from "@/lib/schools";
-import { loadSummary, getAvailableSlugs } from "@/lib/data";
-import type { CategoryData, Summary } from "@/lib/schools";
+import { loadSummary, getAvailableSlugs, getSummaryLastUpdated } from "@/lib/data";
 import { schoolColors } from "@/data/schoolColors";
+import {
+  GRID_CATEGORIES,
+  SectionLabel,
+  ScoreOverviewBar,
+  CategoryCard,
+  VibeCheckGrid,
+  ProsConsSection,
+  RedditAndSidebar,
+} from "./components";
 
 export async function generateStaticParams() {
   return getAvailableSlugs().map((slug) => ({ slug }));
@@ -25,264 +32,6 @@ export async function generateMetadata({
   };
 }
 
-const FAKE_USERNAMES = [
-  "anon_student", "college_bound_24", "reddit_lurker99", "freshman_vibes",
-  "campus_insider", "honest_review", "student_life_real", "dorm_dweller",
-  "late_night_study", "quad_walker", "first_gen_student", "transfer_tales",
-];
-
-function quoteUsername(seed: number): string {
-  return FAKE_USERNAMES[seed % FAKE_USERNAMES.length];
-}
-
-function fakeUpvotes(seed: number, text: string): number {
-  return 300 + ((seed * 211 + text.length * 37) % 1300);
-}
-
-const GRID_CATEGORIES: Array<{ key: keyof Summary; label: string; icon: string }> = [
-  { key: "housing",             label: "Housing",             icon: "🏠" },
-  { key: "social_life",         label: "Social Life",         icon: "🎉" },
-  { key: "dining",               label: "Dining",              icon: "🍽️" },
-  { key: "mental_health",       label: "Mental Health",       icon: "🧠" },
-  { key: "financial_aid",       label: "Financial Aid",       icon: "💰" },
-  { key: "academics",           label: "Academics",           icon: "📚" },
-  { key: "administration",      label: "Administration",      icon: "🏛️" },
-  { key: "location_and_campus", label: "Location & Campus",   icon: "📍" },
-  { key: "career_outcomes",     label: "Career Outcomes",     icon: "💼" },
-  { key: "value_for_money",     label: "Value for Money",     icon: "💵" },
-];
-
-function scoreColor(score: number): string {
-  if (score <= 3) return "#D62839";
-  if (score <= 6) return "#E8A33D";
-  return "#3BB273";
-}
-
-function ScoreBar({ score, trackColor = "rgba(0,0,0,0.08)" }: { score: number; trackColor?: string }) {
-  return (
-    <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: trackColor }}>
-      <div
-        className="h-full rounded-full"
-        style={{ width: `${Math.max(0, Math.min(10, score)) * 10}%`, background: scoreColor(score) }}
-      />
-    </div>
-  );
-}
-
-function SectionLabel({ text, color }: { text: string; color: string }) {
-  return (
-    <div className="flex items-center gap-2.5 mb-5">
-      <span style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: color, borderRadius: "2px", flexShrink: 0 }} />
-      <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "#777777" }}>
-        {text}
-      </p>
-    </div>
-  );
-}
-
-function QuoteRow({ quote, seed, accentColor, dark = false }: { quote: string; seed: number; accentColor: string; dark?: boolean }) {
-  return (
-    <div
-      className="p-3 rounded-lg"
-      style={{
-        backgroundColor: dark ? "rgba(255,255,255,0.05)" : "#F7F7F7",
-        border: dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(0,0,0,0.06)",
-        borderLeft: `3px solid ${accentColor}`,
-      }}
-    >
-      <div className="flex items-start gap-2">
-        <span style={{ color: accentColor, fontSize: "9px", marginTop: "3px", flexShrink: 0 }}>▲</span>
-        <div>
-          <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}cc` }}>
-            u/{quoteUsername(seed)}
-          </span>
-          <p
-            className="text-[12px] leading-relaxed mt-1 italic"
-            style={{ color: dark ? "rgba(255,255,255,0.85)" : "#333333", fontFamily: "Georgia, serif" }}
-          >
-            &ldquo;{quote}&rdquo;
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function BulletList({
-  points, dotColor, textColor = "#444444", textClassName = "text-sm leading-relaxed",
-}: {
-  points: string[];
-  dotColor: string;
-  textColor?: string;
-  textClassName?: string;
-}) {
-  return (
-    <ul className="flex flex-col gap-2">
-      {points.map((point, i) => (
-        <li key={i} className={`flex items-start gap-2.5 ${textClassName}`} style={{ color: textColor, fontFamily: "Georgia, serif" }}>
-          <span className="shrink-0 mt-[9px] rounded-full" style={{ width: "6px", height: "6px", background: dotColor }} />
-          <span>{point}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-function KeywordBulletList({
-  points, dotColor, textColor,
-}: {
-  points: string[];
-  dotColor: string;
-  textColor: string;
-}) {
-  return (
-    <ul className="flex flex-col gap-2">
-      {points.map((point, i) => {
-        const colonIndex = point.indexOf(":");
-        const keyword = colonIndex !== -1 ? point.slice(0, colonIndex) : null;
-        const rest = colonIndex !== -1 ? point.slice(colonIndex + 1) : point;
-        return (
-          <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed" style={{ color: textColor, fontFamily: "Georgia, serif" }}>
-            <span className="shrink-0 mt-[9px] rounded-full" style={{ width: "6px", height: "6px", background: dotColor }} />
-            <span>
-              {keyword && <strong style={{ color: dotColor }}>{keyword}:</strong>}
-              {rest}
-            </span>
-          </li>
-        );
-      })}
-    </ul>
-  );
-}
-
-function ScoreOverviewBar({ summary }: { summary: Summary }) {
-  return (
-    <div style={{ background: "#1A1612" }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-        <p className="text-[10px] tracking-[0.2em] uppercase mb-5" style={{ color: "#C4B89A" }}>
-          Score Overview
-        </p>
-        <div className="flex gap-4 overflow-x-auto pb-1">
-          {GRID_CATEGORIES.map(({ key, label }) => {
-            const score = summary[key].score;
-            return (
-              <div key={key} className="flex flex-col items-center gap-2 shrink-0" style={{ width: "82px" }}>
-                <span
-                  className="text-[8px] font-bold tracking-wide uppercase text-center leading-tight h-6 flex items-center"
-                  style={{ color: "#C4B89A" }}
-                >
-                  {label}
-                </span>
-                <ScoreBar score={score} trackColor="rgba(255,255,255,0.08)" />
-                <span className="text-base font-black" style={{ color: scoreColor(score), fontFamily: "Georgia, serif" }}>
-                  {score}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function SpotlightCard({
-  icon, label, data, primaryColor, kind,
-}: {
-  icon: string;
-  label: string;
-  data: CategoryData;
-  primaryColor: string;
-  kind: "warning" | "highlight";
-}) {
-  const accent = kind === "warning" ? "#D62839" : "#3BB273";
-  const tag = kind === "warning" ? "Heads up" : "Standout";
-
-  return (
-    <div
-      className="flex flex-col gap-3 p-5 rounded-xl bg-white"
-      style={{ border: "1px solid rgba(0,0,0,0.08)", borderLeft: `4px solid ${accent}` }}
-    >
-      <div className="flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2">
-          <div
-            className="w-8 h-8 flex items-center justify-center text-base rounded-lg shrink-0"
-            style={{ backgroundColor: `${primaryColor}18` }}
-          >
-            {icon}
-          </div>
-          <span className="text-[10px] font-bold tracking-[0.15em] uppercase" style={{ color: "#444444" }}>
-            {label}
-          </span>
-        </div>
-        <span className="text-2xl font-black" style={{ color: accent, fontFamily: "Georgia, serif" }}>
-          {data.score}
-        </span>
-      </div>
-      <span className="text-[9px] font-bold tracking-[0.25em] uppercase" style={{ color: accent }}>
-        {tag}
-      </span>
-      <BulletList points={data.key_points.slice(0, 2)} dotColor={accent} textColor="#444444" textClassName="text-[13px] leading-relaxed" />
-    </div>
-  );
-}
-
-function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
-  icon: string;
-  label: string;
-  data: CategoryData;
-  cardIndex: number;
-  primaryColor: string;
-}) {
-  return (
-    <div
-      className="cat-card flex flex-col gap-4 p-6 rounded-xl bg-white"
-      style={{
-        border: "1px solid rgba(0,0,0,0.08)",
-        "--glow-border": `${primaryColor}40`,
-        "--glow-shadow": `${primaryColor}18`,
-      } as CSSProperties}
-    >
-      <div className="flex items-center justify-between gap-3">
-        <div className="flex items-center gap-3">
-          <div
-            className="w-9 h-9 flex items-center justify-center text-lg rounded-xl shrink-0"
-            style={{ backgroundColor: `${primaryColor}18` }}
-          >
-            {icon}
-          </div>
-          <span
-            className="text-[11px] font-bold tracking-[0.18em] uppercase"
-            style={{ color: primaryColor }}
-          >
-            {label}
-          </span>
-        </div>
-        <span className="text-sm font-black shrink-0" style={{ color: scoreColor(data.score), fontFamily: "Georgia, serif" }}>
-          {data.score}/10
-        </span>
-      </div>
-      <ScoreBar score={data.score} />
-      <BulletList points={data.key_points} dotColor={primaryColor} textColor="#444444" />
-      <div className="flex flex-col gap-2 mt-1">
-        {data.key_quotes.map((quote, i) => (
-          <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} accentColor={primaryColor} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function gatherBottomQuotes(categories: CategoryData[]): Array<{ text: string; upvotes: number }> {
-  return categories
-    .map((cat, i) => {
-      const text = cat.key_quotes[0];
-      return text ? { text, upvotes: fakeUpvotes(i * 17 + 5, text) } : null;
-    })
-    .filter((q): q is { text: string; upvotes: number } => q !== null)
-    .slice(0, 3);
-}
-
 export default async function SchoolPage({
   params,
 }: {
@@ -299,22 +48,13 @@ export default async function SchoolPage({
   const summary = loadSummary(slug);
   const colors = schoolColors[slug] ?? school.colors;
   const primary = colors.primary;
-
-  const sortedByScore = [...GRID_CATEGORIES].sort((a, b) => summary[a.key].score - summary[b.key].score);
-  const lowestThree = sortedByScore.slice(0, 3);
-  const highestOne = sortedByScore[sortedByScore.length - 1];
-
-  const bottomQuotes = gatherBottomQuotes([
-    summary.overall_vibe,
-    summary.social_life,
-    summary.hidden_gems,
-  ]);
+  const lastUpdated = getSummaryLastUpdated(slug);
 
   return (
     <div className="min-h-screen bg-[#EFEFED] font-mono">
       <Navbar />
 
-      {/* ── Hero ──────────────────────────────────────────────────────── */}
+      {/* ── Section 1 — Header ───────────────────────────────────────── */}
       <div style={{ background: `linear-gradient(135deg, ${primary}18 0%, #EFEFED 60%)` }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
           <div className="flex flex-col sm:flex-row sm:items-start gap-6">
@@ -339,17 +79,14 @@ export default async function SchoolPage({
             </div>
           </div>
 
-          {/* Overall vibe — editorial statement */}
+          {/* Tagline — punchy one-liner from overall vibe */}
           <div className="mt-8 pl-5" style={{ borderLeft: `4px solid ${primary}` }}>
-            <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: primary }}>
-              Overall Vibe
+            <p
+              className="leading-snug"
+              style={{ fontSize: "clamp(1.1rem, 2.8vw, 1.5rem)", color: "#222222", fontFamily: "Georgia, serif", fontStyle: "italic" }}
+            >
+              &ldquo;{summary.overall_vibe.key_points[0]}&rdquo;
             </p>
-            <BulletList
-              points={summary.overall_vibe.key_points}
-              dotColor={primary}
-              textColor="#333333"
-              textClassName="text-[clamp(0.9rem,2vw,1.05rem)] leading-relaxed"
-            />
           </div>
 
           {/* Stats pills */}
@@ -370,29 +107,19 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* ── Score Overview ───────────────────────────────────────────── */}
+      {/* ── Section 2 — Vibe Check ───────────────────────────────────── */}
+      <VibeCheckGrid summary={summary} />
+
+      {/* ── Section 3 — Unfiltered Pros & Cons ───────────────────────── */}
+      <ProsConsSection summary={summary} />
+
+      {/* ── Section 4 — Straight from Reddit + sidebar ───────────────── */}
+      <RedditAndSidebar summary={summary} primary={primary} slug={slug} lastUpdated={lastUpdated} />
+
+      {/* ── Section 5 — Full category breakdown ──────────────────────── */}
       <ScoreOverviewBar summary={summary} />
 
-      {/* ── Spotlight ─────────────────────────────────────────────────── */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
-        <SectionLabel text="Before You Commit" color={primary} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {lowestThree.map(({ key, label, icon }) => (
-            <SpotlightCard key={key} icon={icon} label={label} data={summary[key]} primaryColor={primary} kind="warning" />
-          ))}
-          <SpotlightCard
-            key={highestOne.key}
-            icon={highestOne.icon}
-            label={highestOne.label}
-            data={summary[highestOne.key]}
-            primaryColor={primary}
-            kind="highlight"
-          />
-        </div>
-      </div>
-
-      {/* ── Category cards ────────────────────────────────────────────── */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
         <SectionLabel text="What students are saying" color={primary} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {GRID_CATEGORIES.map(({ key, label, icon }, i) => (
@@ -405,94 +132,6 @@ export default async function SchoolPage({
               primaryColor={primary}
             />
           ))}
-        </div>
-      </div>
-
-      {/* ── Red Flags ─────────────────────────────────────────────────── */}
-      <div style={{ background: "#2D0A0A" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <div className="flex items-center gap-3 mb-5">
-            <span className="text-2xl">⚠️</span>
-            <span className="text-[11px] font-bold tracking-[0.25em] uppercase" style={{ color: "#FF6B6B" }}>
-              Red Flags
-            </span>
-          </div>
-          <div className="mb-6">
-            <KeywordBulletList points={summary.red_flags.key_points} dotColor="#FF6B6B" textColor="#F2C9C9" />
-          </div>
-          <div className="mb-6">
-            <div className="flex items-center justify-between mb-1.5">
-              <span className="text-[9px] font-bold tracking-[0.2em] uppercase" style={{ color: "#FF6B6B" }}>
-                Severity
-              </span>
-              <span className="text-sm font-black" style={{ color: "#FF6B6B", fontFamily: "Georgia, serif" }}>
-                {summary.red_flags.score}/10
-              </span>
-            </div>
-            <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: "rgba(255,255,255,0.1)" }}>
-              <div
-                className="h-full rounded-full"
-                style={{ width: `${Math.max(0, Math.min(10, summary.red_flags.score)) * 10}%`, background: "#FF6B6B" }}
-              />
-            </div>
-          </div>
-          <div className="flex flex-col gap-3">
-            {summary.red_flags.key_quotes.map((quote, i) => (
-              <QuoteRow key={i} quote={quote} seed={i * 11 + 99} accentColor="#FF6B6B" dark />
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* ── Hidden Gems ───────────────────────────────────────────────── */}
-      <div style={{ background: "#0A2D0F" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <div className="flex items-center gap-3 mb-5">
-            <span className="text-2xl" style={{ color: "#6FE08C" }}>◆</span>
-            <span className="text-[11px] font-bold tracking-[0.25em] uppercase" style={{ color: "#6FE08C" }}>
-              Hidden Gems
-            </span>
-          </div>
-          <div className="mb-6">
-            <BulletList points={summary.hidden_gems.key_points} dotColor="#6FE08C" textColor="#CDEFD6" />
-          </div>
-          <div className="flex flex-col gap-3">
-            {summary.hidden_gems.key_quotes.map((quote, i) => (
-              <QuoteRow key={i} quote={quote} seed={i * 9 + 88} accentColor="#6FE08C" dark />
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* ── Straight from Reddit ──────────────────────────────────────── */}
-      <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)", backgroundColor: "#E8E8E6" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <SectionLabel text="Straight from Reddit" color={primary} />
-          <div className="flex flex-col gap-3">
-            {bottomQuotes.map((quote, i) => (
-              <div
-                key={i}
-                className="cat-card p-5 rounded-xl bg-white"
-                style={{
-                  border: "1px solid rgba(0,0,0,0.08)",
-                  borderLeft: `4px solid ${primary}`,
-                  "--glow-border": `${primary}35`,
-                  "--glow-shadow": `${primary}12`,
-                } as CSSProperties}
-              >
-                <p className="text-sm leading-relaxed italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
-                  &ldquo;{quote.text}&rdquo;
-                </p>
-                <div className="flex items-center gap-2 mt-3">
-                  <span style={{ color: primary, fontSize: "10px" }}>▲</span>
-                  <span className="text-[11px]" style={{ color: "#999999" }}>{quote.upvotes.toLocaleString()}</span>
-                  <span className="text-[11px] ml-1" style={{ color: "#bbbbbb" }}>
-                    u/{quoteUsername(i * 7 + quote.text.length)}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

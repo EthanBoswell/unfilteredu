@@ -21,3 +21,9 @@ export function getAvailableSlugs(): string[] {
     return [];
   }
 }
+
+export function getSummaryLastUpdated(slug: string): string {
+  const jsonPath = path.join(dataDir(), `${slug}_summary.json`);
+  const { mtime } = fs.statSync(jsonPath);
+  return mtime.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+}
