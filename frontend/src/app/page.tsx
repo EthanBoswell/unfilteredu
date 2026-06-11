@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import SearchBar from "@/components/SearchBar";
 import TypewriterFacts from "@/components/TypewriterFacts";
 import { getSchoolBySlug } from "@/lib/schools";
-import { getAvailableSlugs, loadSummary } from "@/lib/data";
+import { getAvailableSlugs } from "@/lib/data";
 import { getHomepageFacts } from "@/lib/facts";
 
 export const metadata: Metadata = {
@@ -35,12 +35,10 @@ export default function HomePage() {
   const schools = availableSlugs
     .map((slug) => {
       const meta = getSchoolBySlug(slug);
-      const summary = loadSummary(slug);
       return {
         slug,
         name: meta?.name ?? slug,
         location: meta?.location ?? "",
-        vibe: summary.overall_vibe.summary,
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name));

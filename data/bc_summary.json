@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Limited direct discussion of on-campus housing quality in the posts. One mention of Newton campus exists in the context of law school commuting, suggesting BC has multiple residential areas. No strong complaints or praise emerged from these posts specifically about dorms.",
     "key_quotes": [
       "As someone who went to BC for undergrad, lived on Newton, and is going back for law school",
       "Factor in traffic for sure. Could be 20 minutes could take an hour to get to BC",
       "It helps getting adjusted to the campus in a more relaxed environment"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "BC has multiple residential areas including a separate Newton campus.",
+      "Newton campus adds commute complexity for residents.",
+      "No strong student complaints or praise about dorm quality found."
+    ]
   },
   "social_life": {
-    "summary": "BC has established senior week traditions including a Commencement Ball and 'Dance Through the Decades,' which alumni fondly remember decades later. The social scene appears to have genuine traditions that create community. Boston's college-dense environment also provides significant social opportunities beyond campus.",
     "key_quotes": [
       "It was my fave part of senior week! People dress up in a 'decade' and the music played is mostly 70s-90s music. Tons of singing along and just overall a ton of fun!",
       "It's a dance where you take yourself less seriously than Comm Ball. This is one where you get to be a little goofy and just have fun.",
       "Boston is a lot more 'student friendly' because there are so many colleges in the area (BC, BU, Harvard, MIT, Brandeis, Olin, UMass, Simmons, etc.)"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Senior week traditions like Commencement Ball create lasting alumni nostalgia.",
+      "Dance Through the Decades is a beloved, uniquely BC tradition.",
+      "Boston's college-dense environment expands social life well beyond campus."
+    ]
   },
   "dining": {
-    "summary": "No substantive discussion of dining halls or food quality appeared in any of these posts. This category cannot be meaningfully assessed from the available Reddit data.",
     "key_quotes": [
       "New York is expensive in terms of food, clothing, housing, entertainment",
       "Boston however isn't cheap either",
       "If you wanted to compare apples to apples..."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No student discussion of dining halls or food quality found.",
+      "Dining experience at BC remains unassessed from available data.",
+      "Incoming students should research dining independently before committing."
+    ]
   },
   "mental_health": {
-    "summary": "No direct discussion of BC's mental health resources or support systems appeared in these posts. The broader admissions stress culture discussed across multiple posts is relevant context for incoming students, but BC-specific mental health infrastructure is not addressed.",
     "key_quotes": [
       "I've felt myself spiraling further and further into my depression and an elitist mindset",
       "I couldn't sleep all night thinking about all the rejections I've gotten so far, comparing myself with others",
       "Admissions broke me and I want everyone to know they don't have to break you"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No BC-specific mental health resources discussed in available posts.",
+      "Broader admissions stress culture is relevant context for incoming students.",
+      "Students should independently investigate BC counseling and support services."
+    ]
   },
   "financial_aid": {
-    "summary": "BC's financial aid is primarily need-based, and aid levels generally stay stable if family income doesn't change significantly. The exception is the Gabelli Scholars program, which is merit-based. Students coming off the waitlist report receiving financial aid packages relatively quickly after admission.",
     "key_quotes": [
       "Outside of Gabelli Scholars, ALL financial aid is based on income/need. If your family income goes up 'a lot' you'll receive less aid. If it stays relatively the same, your aid will as well",
       "Unless your parents' (or your) income has changed dramatically, I don't think your finaid will change",
       "I received my financial aid a few hours after I got my email saying that I was taken off of their waitlist"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Need-based aid stays stable if family income doesn't change significantly.",
+      "Gabelli Scholars is BC's primary merit-based aid exception.",
+      "Waitlisted students report receiving aid packages quickly after admission."
+    ]
   },
   "academics": {
-    "summary": "CSOM enforces a strict grade distribution curve where only ~15% of students can receive an A and ~35% can receive an A- or higher. This grade deflation is a major differentiator from peer schools and can significantly impact GPA-sensitive outcomes like grad school applications. Political science is described as a strong program with light requirements, and professors are generally praised.",
     "key_quotes": [
       "Only ~15% of students can get an A, ~35% an A- or higher, and ~70% a B+ or higher. The curve might be more relaxed in some classes",
       "Professors are great. Internships require you to be proactive. You can definitely double major—it is a light major in terms of requirements.",
       "I had a great experience doing a political science degree at Boston College, they have a fantastic program"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "CSOM enforces strict curve: only 15% of students can earn an A.",
+      "Grade deflation significantly impacts GPA-sensitive grad school applications.",
+      "Political science is strong with light requirements and praised professors."
+    ]
   },
   "administration": {
-    "summary": "Admissions counselors appear responsive, with students reporting quick replies to emails about waitlist status and additional materials. However, a cyberattack hit Canvas during finals period, raising concerns about BC's IT infrastructure and data security. Administrative responsiveness on financial aid for waitlisted students was noted positively.",
     "key_quotes": [
       "I emailed my admissions counselor about it and responded quickly letting me know he'll add it to my credentials",
       "Cyberattack knocks out Canvas at Boston College during finals period, threatens data leak",
       "I kept checking my portal and finally got somewhere about 1.5 hours later. Not sure why there was a delay"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Admissions counselors respond quickly to waitlist and financial aid emails.",
+      "A cyberattack hit Canvas during finals, raising serious IT concerns.",
+      "Financial aid responsiveness for waitlisted students was noted positively."
+    ]
   },
   "location_and_campus": {
-    "summary": "BC is located in Chestnut Hill, described as a quieter suburban setting very different from NYU's urban environment. The Newton campus adds a secondary residential area but contributes to commute complexity. Boston's broader college ecosystem is a major asset, though traffic to and from BC can be unpredictable and significantly extend commute times.",
     "key_quotes": [
       "Would you rather live in East Village or Chestnut Hill? They're quite different environments.",
       "Factor in traffic for sure. Could be 20 minutes could take an hour to get to BC",
       "Boston is a lot more 'student friendly' because there are so many colleges in the area"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Chestnut Hill is a quiet suburb, sharply unlike urban schools like NYU.",
+      "Boston's college ecosystem is a major asset for students.",
+      "Unpredictable traffic significantly extends commute times to and from campus."
+    ]
   },
   "career_outcomes": {
-    "summary": "Limited direct discussion of BC career outcomes appeared in these posts. Political science students are told internships require proactivity rather than being handed to them. BC's placement in US News rankings around 35th nationally provides context for employer recognition, but specific career outcome data is absent from these posts.",
     "key_quotes": [
       "Internships require you to be proactive",
       "Boston College is tied for 35th",
       "I had a great experience doing a political science degree at Boston College, they have a fantastic program"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Political science students must proactively seek internships — none are handed out.",
+      "BC's ~35th US News ranking aids employer recognition nationally.",
+      "Specific career placement data is absent from available student posts."
+    ]
   },
   "value_for_money": {
-    "summary": "BC's financial aid is need-based and described as relatively stable year-to-year, which provides predictability for budgeting. The strict grade deflation in CSOM could potentially hurt graduate school prospects, raising questions about return on investment for business students. No direct cost-benefit complaints emerged but BC is clearly positioned as an expensive private university.",
     "key_quotes": [
       "Getting admitted to USC, Middlebury, Swarthmore, Vassar and BC hardly seems like 'getting cooked'",
       "Only ~15% of students can get an A — the curve might be more relaxed in some classes",
       "Outside of Gabelli Scholars, ALL financial aid is based on income/need"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Need-based aid is stable year-to-year, aiding budget predictability.",
+      "CSOM grade deflation may hurt grad school ROI for business students.",
+      "BC is a high-cost private school with no direct cost complaints noted."
+    ]
   },
   "overall_vibe": {
-    "summary": "BC comes across as a school with strong traditions, Jesuit identity, and genuine community spirit — alumni remain nostalgic about their experience decades later. It attracts academically competitive students but has a reputation for being more socially cohesive than cutthroat. The suburban Chestnut Hill setting creates a distinct, campus-centered culture that differs sharply from urban schools.",
     "key_quotes": [
       "I love that they still have this as part of senior week - I remember mine from the late '90s!",
       "My biggest concern was the ability to travel abroad and the Jesuit identity",
       "It was my fave part of senior week! Tons of singing along and just overall a ton of fun!"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Alumni remain nostalgic decades later, signaling strong community and traditions.",
+      "BC culture is competitive but socially cohesive, not cutthroat.",
+      "Suburban Chestnut Hill setting creates a distinct, campus-centered identity."
+    ]
   },
   "red_flags": {
-    "summary": "The most concrete red flag is the enforced grade deflation in CSOM, which is institutionally mandated and not just a rumor — only 15% of students can get an A. A cyberattack during finals that took down Canvas and threatened a data leak is a serious IT/security concern. Students considering BC for business should carefully weigh how the grading curve could affect graduate school or job applications.",
     "key_quotes": [
       "Only ~15% of students can get an A, ~35% an A- or higher — the curve might be more relaxed in some classes",
       "Cyberattack knocks out Canvas at Boston College during finals period, threatens data leak",
       "I was in the middle of an exam"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Academics: CSOM institutionally mandates only 15% of students can earn an A.",
+      "IT Security: Cyberattack took down Canvas during finals, threatening a data leak.",
+      "Career: Business students should carefully weigh how grade deflation affects applications."
+    ]
   },
   "hidden_gems": {
-    "summary": "BCF1RST (likely a first-generation or early orientation program) is a lesser-known program that alumni describe warmly as helping students adjust to campus in a relaxed environment with strong staff and peer mentors. The Dance Through the Decades senior week event is a uniquely fun BC tradition not found at most schools. BC Law students also benefit from Boston's dense legal market and the school's established reputation in the region.",
     "key_quotes": [
       "I know the staff and they are very nice as well as the student mentors you get to meet. It helps getting adjusted to the campus in a more relaxed environment",
       "It was my fave part of senior week! People dress up in a 'decade' and the music played is mostly 70s-90s music",
       "Boston is a lot more 'student friendly' because there are so many colleges in the area"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "BCF1RST program warmly praised for easing first-gen student transitions with strong mentors.",
+      "Dance Through the Decades is a uniquely fun senior week tradition.",
+      "BC Law benefits from Boston's dense legal market and strong regional reputation."
+    ]
   }
 }

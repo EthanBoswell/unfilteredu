@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "There is almost no direct discussion of Stanford housing in these posts. The limited mentions are indirect, with one person noting they live a block from campus. No student complaints or praise about dorms or residential life appear in this dataset.",
     "key_quotes": [
       "My dad works at Stanford and I live like a block away from campus",
       "it won't be in sunny Palo Alto or experiencing the residential colleges at Yale or Rice",
       "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Almost no student discussion of dorms or residential life exists.",
+      "One indirect mention: a student lives a block from campus.",
+      "No complaints or praise about Stanford housing appear in data."
+    ]
   },
   "social_life": {
-    "summary": "Stanford is described as having a 'relaxed vibe' on the surface, but students warn this is deceptive — people are working very hard underneath. The 'duck phenomenon' is explicitly mentioned. Fountain hopping is cited as a genuine fun campus activity by locals.",
     "key_quotes": [
       "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon (for Stanford)",
       "Can confirm as a high school student nearby, fountain hopping is the best. Especially on XC runs",
       "Social life & having fun are important to me!"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Relaxed vibe is deceptive — students work intensely beneath the surface.",
+      "The 'duck phenomenon' is explicitly named by students themselves.",
+      "Fountain hopping is a genuine, locally beloved campus activity."
+    ]
   },
   "dining": {
-    "summary": "Stanford dining gets genuinely positive reviews from someone with direct local knowledge. The food is described as delicious and varied, including waffles, soft-serve, pasta, and good vegan options. Off-campus dining in Palo Alto is noted as expensive, with a Nobu in downtown.",
     "key_quotes": [
       "the Stanford dining options are delicious. They've got waffles, soft-serve ice cream, pasta and all kinds of vegan shit that actually taste good",
       "Outside dining is expensive as heck",
       "If you are rich, then there are some nice ass restaurants to go to, there's a fricking Nobu in downtown Palo Alto"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Dining halls praised as delicious and varied by locals.",
+      "Options include waffles, soft-serve, pasta, and strong vegan choices.",
+      "Off-campus Palo Alto dining is expensive; Nobu is nearby."
+    ]
   },
   "mental_health": {
-    "summary": "The 'duck phenomenon' — appearing calm while frantically working underneath — is the most concrete mental health signal in these posts. The intense pressure-cooker environment of nearby feeder high schools (Palo Alto, Gunn) suggests the student culture Stanford draws from is already highly stressed. No direct student mental health support resources are mentioned.",
     "key_quotes": [
       "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon (for Stanford)",
       "Palo Alto ----- Silicon Valley big daddy model / Gunn ----- The other Big Daddy model",
       "This admissions cycle was a very difficult, emotionally draining process for me"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Duck syndrome signals intense hidden stress beneath calm exteriors.",
+      "Stanford draws from already high-pressure Palo Alto feeder high schools.",
+      "No student mental health support resources are mentioned at all."
+    ]
   },
   "financial_aid": {
-    "summary": "Financial aid at Stanford is barely discussed in this dataset. Stanford is treated as a prestige target school, not a financial aid leader, unlike Harvard/Princeton/Yale which are explicitly praised for full rides in one post. No specific Stanford aid packages are mentioned.",
     "key_quotes": [
       "Harvard University [ full ride ] / Princeton University [ full ride ] / Yale University [ full ride ]",
       "Both schools cost around the same for me, so that is not a factor",
       "I would give my left arm to go to Stanford"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Stanford is never cited as a financial aid leader.",
+      "Harvard, Princeton, Yale get praised for full rides — Stanford doesn't.",
+      "No specific Stanford aid packages are mentioned by any student."
+    ]
   },
   "academics": {
-    "summary": "Stanford is consistently praised as one of the strongest schools for STEM, especially CS, engineering, and entrepreneurship. It is seen as genuinely superior to Yale for the 'T' and 'E' in STEM. The quarter system is mentioned as a notable con — no dead week and a faster pace.",
     "key_quotes": [
       "Stanford is genuinely much stronger than Yale for the 'T' and 'E' parts of STEM",
       "enjoy berkeley while you can! oh and additional bad thing about stanford - we have a quarter system so we don't have dead week",
       "There is a great deal of deeptech coming out of Stanford. The three heavyweights in that arena are Stanford, MIT, and Berkeley"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "Stanford is top-tier for CS, engineering, and entrepreneurship.",
+      "Seen as genuinely superior to Yale for STEM's 'T' and 'E'.",
+      "Quarter system con: no dead week, relentlessly fast pace."
+    ]
   },
   "administration": {
-    "summary": "The most striking administration-related post is the arrest of a Stanford admissions officer for attempted murder while on LSD, which students used to darkly joke that admissions is random and luck-based. No direct commentary on bureaucracy or student services administration appears.",
     "key_quotes": [
       "An assistant director of admissions at Stanford University is facing charges of attempted murder and domestic violence in what is believed to be a drug-fueled attack",
       "and that's why elite college admissions sucks... it's so random and based on chance and luck",
       "Your fate is determined by how the AO felt at that particular moment"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "An admissions officer was arrested for attempted murder while on LSD.",
+      "Students used the incident to joke admissions is pure luck.",
+      "No direct commentary on bureaucracy or student services appears."
+    ]
   },
   "location_and_campus": {
-    "summary": "Campus is consistently described as beautiful — Spanish architecture, lots of trees and grass, and excellent weather (65-75°F most of the year). Palo Alto is noted as expensive but well-situated, about an hour from San Francisco by Caltrain. Some students list 'Palo Alto' itself as a con, suggesting it can feel isolated or suburban.",
     "key_quotes": [
       "Campus is really beautiful, lots of trees and grass and Spanish architecture",
       "the weather here from fall-spring is a consistent 65-75 except for the summers where it's like 90-100",
       "Palo Alto is a con... tbh it's really not far from sf or sj"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Campus is consistently called beautiful: Spanish architecture, trees, perfect weather.",
+      "Palo Alto is expensive but an hour from San Francisco by Caltrain.",
+      "Some students list 'Palo Alto' as a con — feels suburban and isolated."
+    ]
   },
   "career_outcomes": {
-    "summary": "Stanford's career outcomes, especially in tech and entrepreneurship, are treated as essentially unquestioned. It is repeatedly cited alongside MIT as a top destination for deeptech, Silicon Valley, and startups. The alumni network and proximity to Silicon Valley are seen as massive structural advantages.",
     "key_quotes": [
       "Stanford, MIT, and Berkeley — the three heavyweights in that arena [deeptech]",
       "next to a (albeit very expensive) downtown area and an hour caltrain ride to San Francisco... perfectly situated for tech internships",
       "UIUC >>> UPenn for a career in silicon valley"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "Stanford's tech and startup outcomes are treated as unquestionable.",
+      "Cited alongside MIT as the top destination for Silicon Valley careers.",
+      "Alumni network and proximity to tech industry are massive structural advantages."
+    ]
   },
   "value_for_money": {
-    "summary": "Stanford's cost is not heavily discussed but is implicitly understood to be very high. No specific financial aid generosity is highlighted the way Harvard, Princeton, and Yale's full rides are in these posts. The general consensus treats Stanford as worth it for STEM/tech careers but the financial picture is murky.",
     "key_quotes": [
       "Both schools cost around the same for me, so that is not a factor",
       "Outside dining is expensive as heck",
       "If you are rich, then there are some nice ass restaurants to go to"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Stanford's high cost is assumed but rarely directly discussed.",
+      "No financial aid generosity highlighted unlike Harvard, Princeton, Yale.",
+      "Consensus: worth it for STEM careers, but financial picture stays murky."
+    ]
   },
   "overall_vibe": {
-    "summary": "Stanford has an almost mythological status in these posts — it is treated as the ultimate tech/STEM school, with a beautiful campus and great weather, but also a place where appearances of chill mask intense underlying competition. Students joke about it constantly, affectionately nicknaming it 'St. Anford' and 'UC Palo Alto.' Getting in feels like a life-changing miracle to most applicants.",
     "key_quotes": [
       "TLDR; time to put stanford 25 in my instagram bio!! fuck all the other schools that rejected me",
       "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
       "Stanford University = STFU / UC Palo Alto / St. Anford"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Stanford holds near-mythological status as the ultimate tech and STEM school.",
+      "Hidden intensity masks a beautiful, chill-seeming campus culture.",
+      "Affectionately nicknamed 'St. Anford' and 'UC Palo Alto' by students."
+    ]
   },
   "red_flags": {
-    "summary": "The most concrete red flag is the arrest of an admissions officer for attempted murder while on LSD, which highlighted how arbitrary and personality-driven admissions decisions can be. The duck syndrome culture — intense hidden stress beneath a calm exterior — is a genuine concern. The quarter system's lack of dead week adds academic pressure.",
     "key_quotes": [
       "An assistant director of admissions at Stanford University is facing charges of attempted murder and domestic violence in what is believed to be a drug-fueled attack",
       "Relaxed on the surface but people are working just as hard under the surface, it's called the duck phenomenon",
       "additional bad thing about stanford - we have a quarter system so we don't have dead week"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Admissions: Officer arrested for attempted murder on LSD; decisions feel arbitrary.",
+      "Mental health: Duck syndrome masks serious hidden academic stress.",
+      "Academics: Quarter system has no dead week, amplifying student pressure."
+    ]
   },
   "hidden_gems": {
-    "summary": "Fountain hopping on campus is a genuine local secret activity praised by nearby high schoolers. The dining hall's quality — especially vegan options — is surprisingly good according to someone with real local knowledge. Stanford's position for deeptech and hardware startups (not just software) is underappreciated compared to its general CS reputation.",
     "key_quotes": [
       "fountain hopping is the best. Especially on XC runs",
       "all kinds of vegan shit that actually taste good",
       "There is a great deal of deeptech coming out of Stanford... wouldn't have that as a potential con to Stanford at all"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Fountain hopping is a genuine local secret loved by students.",
+      "Dining hall quality — especially vegan options — is surprisingly excellent.",
+      "Stanford leads in deeptech and hardware startups, not just software."
+    ]
   }
 }

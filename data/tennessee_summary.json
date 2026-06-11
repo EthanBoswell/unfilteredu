@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Housing at UTK has notable issues including mold complaints, restricted spring break access for freshmen, and significant price hikes announced for 2026-2027. Some dorms increased by $400-500 per semester, with at least one increase exceeding the 10% cap outlined in housing agreements. Freshmen also face complications around car access and break housing.",
     "key_quotes": [
       "Don't worry, the mold will kill you before you ever get to return home anyway.",
       "Some dorms increased by 400-500 per semester...the Vol Hall Quad Private increased by greater than 10%, which isn't allowed per the 2026-2027 housing agreement.",
       "I'm a freshman, and this is my THIRD TIME attempting to take English II...UTK is accepting so many students that I literally cannot take a CORE fucking class."
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "Dorm costs rising $400-500/semester, one hike exceeding contractual 10% cap.",
+      "Mold complaints reported across multiple residence halls.",
+      "Freshmen lose dorm access over spring break with limited alternatives."
+    ]
   },
   "social_life": {
-    "summary": "UTK has a strong SEC sports culture with massive football game days that dominate social life, and Greek life is prominent. However, students who don't fit the dominant 'sorority SEC' mold report feeling out of place, with one transfer student describing the school as 'too sorority SEC infested.' The campus elf, game day traditions, and strong Vol pride create genuine community for those who embrace it.",
     "key_quotes": [
       "It was way too sorority SEC infested for me and being super far from home also sucked.",
       "I absolutely love driving you kids around on weekends. It makes my whole week.",
       "Bartended on the strip 2019-2024. All I can say about UT these days is... If the torch used to dim for virgins, it's a miracle it hasn't hiroshima'd the university by now."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Football game days and SEC culture dominate campus social life.",
+      "Greek life is prominent; non-Greek students often feel excluded.",
+      "Campus traditions like Vol pride create strong community for many."
+    ]
   },
   "dining": {
-    "summary": "Dining quality is uneven across campus, with Mabel's Cafe on ag campus praised as a hidden gem with well-seasoned, affordable food. The main dining options received complaints, and a mid-semester change to POD Market meal swipe policies caused significant student backlash — though it was eventually reversed after public outcry. Aramark's corporate management of dining is a recurring source of frustration.",
     "key_quotes": [
       "Mabel's Cafe...is the best dining hall on campus by FAR imo. The chicken isn't questionable like some other places on campus.",
       "Not being able to use my meal swipes on anything actually good at a pod market this semester is downright predatory behavior.",
       "This change is awesome but I wish it didn't take mass public outcry from the student body for leadership and corporate sponsors (Aramark) to have a rational decision making process."
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Mid-semester meal swipe policy change sparked major backlash, then reversed.",
+      "Aramark's corporate management is a recurring student frustration.",
+      "Mabel's Cafe on ag campus is a praised, affordable hidden gem."
+    ]
   },
   "mental_health": {
-    "summary": "Mental health resources are not prominently discussed positively in the posts. Students express significant stress around financial aid delays, registration issues, and academic pressures. The campus culture around high-pressure situations like finals, Canvas outages, and administrative errors affecting enrollment suggests a stressful environment with limited visible institutional support.",
     "key_quotes": [
       "Anyone else just given up on ever receiving their financial aid refund? Some of us depend on those refunds to live!",
       "I came home from work and logged into canvas to see none of my classes were appearing...I'm freaking out.",
       "I tried so hard to like it here, but I can't. It stinks, and I'm sad it's not working out."
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "No strong institutional mental health support is visible to students.",
+      "Financial aid delays and registration failures create serious student stress.",
+      "High-pressure academic environment lacks visible administrative safety nets."
+    ]
   },
   "financial_aid": {
-    "summary": "UTK offers competitive merit scholarships that attract both in-state and out-of-state students, including full tuition awards that make it a genuine safety for high-achieving students. However, financial aid refund processing delays are a real problem — students report depending on refunds for groceries and bills. The university also recently announced free tuition for lower-income students.",
     "key_quotes": [
       "I got into UTK basically for free...We're out-of-state and can afford to send our daughter anywhere and we're sweating her ability to get into UTK because it's so damn hard to get in there now for out-of-state.",
       "Anyone else just given up on ever receiving their financial aid refund? I got bills, and groceries I need to buy.",
       "University of Tennessee announces free tuition for lower-income students."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Merit scholarships, including full tuition awards, make UTK a strong value.",
+      "Refund processing delays leave students unable to afford groceries.",
+      "New free tuition program launched for qualifying lower-income students."
+    ]
   },
   "academics": {
-    "summary": "UTK's academic experience is mixed: strong programs exist in supply chain management (top 3 nationally), Haslam business school, materials science, and the Chancellor's Honors Program (ranked #8). But students report grade inflation concerns with nearly half the student body on the Dean's List, widespread AI cheating, professors making classes progressively easier, and a freshman struggling three times to register for a required English course due to overcrowding.",
     "key_quotes": [
       "Over 17k Students on the Dean's List...from my interactions with classmates this number seems almost impossible.",
       "I am the campus elf ask me anything — When I was there the 4th floor ladies room in the old geology building was unmatched seclusion. And there was a couch!",
       "I was not told how bad our chemistry and science department was, nor how not helpful the advising team is. Not to mention scheduling and even getting the classes you need is borderline impossible."
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Top programs in supply chain (#3), honors (#8), and materials science.",
+      "Nearly half the student body on Dean's List raises grade inflation concerns.",
+      "AI cheating described as rampant; required English course chronically overcrowded."
+    ]
   },
   "administration": {
-    "summary": "UTK administration draws consistent criticism for slow responsiveness, opaque decision-making, and politically motivated actions. The firing of a faculty member following pressure from Senator Marsha Blackburn over a social media post, while a 2016 professor who called for running over protesters faced no consequence, is widely cited as hypocrisy. Parking administration and housing administration are seen as profit-driven rather than student-centered.",
     "key_quotes": [
       "UT 2016: Prof: 'Run them down!' about protesters. UT: 'Free speech 👍' / UT 2025: Prof: 'World's better off without Charlie Kirk.' UT: 'Fire her immediately!'",
       "Danny White currently has a salary of over $2.7 million...But fear not, for tuition and parking will have another price increase soon.",
       "She single-handedly cost TN Universities millions with her stupid antics."
     ],
-    "score": 3
+    "score": 3,
+    "key_points": [
+      "Faculty fired after senator's political pressure; inconsistent free speech standards.",
+      "Parking and housing administration widely seen as profit-driven.",
+      "Opaque, slow decision-making frustrates students across departments."
+    ]
   },
   "location_and_campus": {
-    "summary": "The campus is widely described as beautiful, with students posting about stunning views, great outdoor study spots, and the proximity to the Smoky Mountains being a genuine draw. Knoxville itself is a college town with a lively strip, but some students from larger cities or coastal areas find it limiting. The pedestrian walkway (the Ped) is a social hub but also a regular site for protesters and street preachers.",
     "key_quotes": [
       "It sure was, I love spring here — That is one of my favorite spots on campus.",
       "This is honestly unbelievably beautiful.",
       "I wasn't the biggest fan of UT. It just felt overwhelmingly big and I'm not the biggest sports person."
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Campus widely praised as beautiful with Smoky Mountain proximity.",
+      "Knoxville feels limiting to students from larger or coastal cities.",
+      "The Ped walkway is a social hub and frequent protest site."
+    ]
   },
   "career_outcomes": {
-    "summary": "Haslam's supply chain management program is nationally ranked top 3, and the business school has strong regional placement. A UT professor posting about materials science noted the field's strong career prospects. However, multiple students worry about regional limitations, and some field concerns about the CS and chemistry departments being weak relative to peer institutions.",
     "key_quotes": [
       "I was accepted to the Haslam school of business at UT Knoxville and was excited when I saw they were ranked top 3 nationally for supply chain management.",
       "I was not told how bad our chemistry and science department was.",
       "UTK might be too much for me...Feels the school will have more of a regional placement."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Supply chain and Haslam business grads have strong regional placement.",
+      "CS and chemistry departments seen as weak relative to peer schools.",
+      "Some students worry about limited career reach beyond the Southeast."
+    ]
   },
   "value_for_money": {
-    "summary": "For in-state students and those with merit scholarships, UTK offers excellent value — multiple students received full tuition awards and the school is frequently listed as a strong financial safety. Out-of-state tuition around $45-52k per year is harder to justify, though scholarships can offset this significantly. The combination of rising dorm costs, parking fees, meal plan changes, and tuition hikes tempers the value proposition.",
     "key_quotes": [
       "Got into UTK with a $15k/year scholarship!! I know this is one acceptance post out of many but I'm just really happy.",
       "I will be able to go to UTK for only 7k/year, and get a bachelors in only 3 years because I already have AS out of high school.",
       "But fear not, for tuition and parking will have another price increase soon. Big orange screw."
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "In-state and scholarship students get exceptional value for tuition paid.",
+      "Out-of-state cost at $45-52k annually is difficult to justify.",
+      "Rising dorms, parking fees, and meal plan changes erode overall value."
+    ]
   },
   "overall_vibe": {
-    "summary": "UTK has a strong, passionate Vol identity and genuine school pride that many students love, especially those who embrace SEC sports culture. The community is welcoming to many minorities despite Tennessee's red-state reputation, as one student noted in a popular post. However, a visible far-right presence on campus (street preachers, TPUSA events, anti-immigration polling), politically motivated administrative decisions, and a dominant Greek/sports social scene make it a poor fit for students seeking a more progressive, urban, or alternative college experience.",
     "key_quotes": [
       "Since the moment I decided to commit to UTK, my parents and friends all warned me...but it was one of my best actions I have ever done! Everyone at UTK was so welcoming.",
       "I've been here for a year and it seems like every person is the same, nobody wants to actually talk, and I don't fit the demographic of the college either.",
       "I was curious so I went to a Turning Point event. I overheard a couple of girls talking about how they were keeping an eye out for Jews and some other antisemitic shit."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Strong Vol identity and school pride define the campus experience.",
+      "Campus is more welcoming to minorities than Tennessee's reputation suggests.",
+      "Far-right presence and Greek dominance make it a poor progressive fit."
+    ]
   },
   "red_flags": {
-    "summary": "Several serious red flags emerge: politically motivated faculty firings following pressure from elected officials, a visible far-right extremist presence on campus including antisemitic incidents in Greek life, repeated fake active shooter alerts tied to organized swatting groups, grade inflation concerns with AI cheating described as rampant, and $37.7M in federal grant cancellations affecting graduate students. The administration's inconsistent application of free speech principles based on political pressure is a significant academic freedom concern.",
     "key_quotes": [
       "A bill currently under consideration to remove tenure from University of Tennessee system — What will happen is good professors will go elsewhere.",
       "Delta Tau Delta still lists Matthew Morin as Director of Risk Management, even though the school is apparently aware of his love for Adolf Hitler, terroristic threats against Jews on campus.",
       "It's a group of people doing this. $20 dollars for a fake shooting. It's $95 now. Seems like it's connected to 764 people."
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Political interference: Faculty fired following elected official pressure, free speech inconsistently applied.",
+      "Safety: Repeated fake active shooter alerts linked to organized swatting campaigns.",
+      "Funding: $37.7M federal grant cancellations directly impact graduate student support."
+    ]
   },
   "hidden_gems": {
-    "summary": "Mabel's Cafe on ag campus is a genuinely beloved secret spot with great food at low prices that most students never discover. The campus has fascinating liminal spaces, hidden study spots, and quirky traditions like the campus elf. UTK also has a surprisingly strong honors program (ranked #8 nationally), a top-3 supply chain management program, and a materials science department with a professor who actively engages with prospective students online.",
     "key_quotes": [
       "Mabel's Cafe...is the best dining hall on campus by FAR. SSHHHHHH, I'm tryna enjoy my Mabel's peaceful. We must keep this sacred place a secret.",
       "The graduate lecture hall at the top floor of Ayres Hall was never occupied between my classes so I had an opportunity to chill there and crank out homework. Shit was gas.",
       "Spring 2026's most unusual class: HIST 150, 'Grand Theft America: US History since 1980 through the Grand Theft Auto Video Games' — fulfills VolCore GCUS credit."
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Mabel's Cafe on ag campus offers great food most students never find.",
+      "Honors program ranks #8 nationally, vastly underrecognized by prospective students.",
+      "Materials science professor actively mentors prospective students online; top career prospects."
+    ]
   }
 }

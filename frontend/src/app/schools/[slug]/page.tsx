@@ -108,6 +108,53 @@ function QuoteRow({ quote, seed, accentColor, dark = false }: { quote: string; s
   );
 }
 
+function BulletList({
+  points, dotColor, textColor = "#444444", textClassName = "text-sm leading-relaxed",
+}: {
+  points: string[];
+  dotColor: string;
+  textColor?: string;
+  textClassName?: string;
+}) {
+  return (
+    <ul className="flex flex-col gap-2">
+      {points.map((point, i) => (
+        <li key={i} className={`flex items-start gap-2.5 ${textClassName}`} style={{ color: textColor, fontFamily: "Georgia, serif" }}>
+          <span className="shrink-0 mt-[9px] rounded-full" style={{ width: "6px", height: "6px", background: dotColor }} />
+          <span>{point}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function KeywordBulletList({
+  points, dotColor, textColor,
+}: {
+  points: string[];
+  dotColor: string;
+  textColor: string;
+}) {
+  return (
+    <ul className="flex flex-col gap-2">
+      {points.map((point, i) => {
+        const colonIndex = point.indexOf(":");
+        const keyword = colonIndex !== -1 ? point.slice(0, colonIndex) : null;
+        const rest = colonIndex !== -1 ? point.slice(colonIndex + 1) : point;
+        return (
+          <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed" style={{ color: textColor, fontFamily: "Georgia, serif" }}>
+            <span className="shrink-0 mt-[9px] rounded-full" style={{ width: "6px", height: "6px", background: dotColor }} />
+            <span>
+              {keyword && <strong style={{ color: dotColor }}>{keyword}:</strong>}
+              {rest}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 function ScoreOverviewBar({ summary }: { summary: Summary }) {
   return (
     <div style={{ background: "#1A1612" }}>
@@ -175,9 +222,7 @@ function SpotlightCard({
       <span className="text-[9px] font-bold tracking-[0.25em] uppercase" style={{ color: accent }}>
         {tag}
       </span>
-      <p className="text-[13px] leading-relaxed line-clamp-4" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
-        {data.summary}
-      </p>
+      <BulletList points={data.key_points.slice(0, 2)} dotColor={accent} textColor="#444444" textClassName="text-[13px] leading-relaxed" />
     </div>
   );
 }
@@ -218,9 +263,7 @@ function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
         </span>
       </div>
       <ScoreBar score={data.score} />
-      <p className="text-sm leading-relaxed" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
-        {data.summary}
-      </p>
+      <BulletList points={data.key_points} dotColor={primaryColor} textColor="#444444" />
       <div className="flex flex-col gap-2 mt-1">
         {data.key_quotes.map((quote, i) => (
           <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} accentColor={primaryColor} />
@@ -301,12 +344,12 @@ export default async function SchoolPage({
             <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: primary }}>
               Overall Vibe
             </p>
-            <p
-              className="leading-relaxed"
-              style={{ fontSize: "clamp(0.9rem, 2vw, 1.05rem)", color: "#333333", fontFamily: "Georgia, serif" }}
-            >
-              {summary.overall_vibe.summary}
-            </p>
+            <BulletList
+              points={summary.overall_vibe.key_points}
+              dotColor={primary}
+              textColor="#333333"
+              textClassName="text-[clamp(0.9rem,2vw,1.05rem)] leading-relaxed"
+            />
           </div>
 
           {/* Stats pills */}
@@ -374,9 +417,9 @@ export default async function SchoolPage({
               Red Flags
             </span>
           </div>
-          <p className="text-sm leading-relaxed mb-6" style={{ color: "#F2C9C9", fontFamily: "Georgia, serif" }}>
-            {summary.red_flags.summary}
-          </p>
+          <div className="mb-6">
+            <KeywordBulletList points={summary.red_flags.key_points} dotColor="#FF6B6B" textColor="#F2C9C9" />
+          </div>
           <div className="mb-6">
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[9px] font-bold tracking-[0.2em] uppercase" style={{ color: "#FF6B6B" }}>
@@ -410,9 +453,9 @@ export default async function SchoolPage({
               Hidden Gems
             </span>
           </div>
-          <p className="text-sm leading-relaxed mb-6" style={{ color: "#CDEFD6", fontFamily: "Georgia, serif" }}>
-            {summary.hidden_gems.summary}
-          </p>
+          <div className="mb-6">
+            <BulletList points={summary.hidden_gems.key_points} dotColor="#6FE08C" textColor="#CDEFD6" />
+          </div>
           <div className="flex flex-col gap-3">
             {summary.hidden_gems.key_quotes.map((quote, i) => (
               <QuoteRow key={i} quote={quote} seed={i * 9 + 88} accentColor="#6FE08C" dark />

@@ -1,5 +1,5 @@
 export type CategoryData = {
-  summary: string;
+  key_points: string[];
   key_quotes: string[];
   score: number;
 };

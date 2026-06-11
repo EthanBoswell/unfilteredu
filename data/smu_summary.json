@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Dorm information is limited in the posts, but students indicate mattresses are standard dorm quality and recommend mattress toppers. Communal showers have curtains, and AC is present. The residential commons system appears functional but unremarkable.",
     "key_quotes": [
       "Mattresses are fine, but as with any other dorm, having a mattress topper is good",
       "Communals have shower curtains",
       "Do the dorms come with microwaves? Fridges?"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "AC present; mattress toppers strongly recommended by students",
+      "Communal showers have curtains; basics are covered",
+      "Residential commons system functional but generates little excitement"
+    ]
   },
   "social_life": {
-    "summary": "SMU has a strong reputation for Greek life and a wealthy social scene, which is a major draw for some but a serious turn-off for others. Multiple students transferred or considered transferring specifically because of the Greek-life-dominated, wealth-focused culture. Finding your social group outside of Greek life, especially as a transfer junior, is described as genuinely difficult.",
     "key_quotes": [
       "SMU is a small, conservative, greek oriented university that I have come to realize is not for me at all. It took me coming here to realize that I hate the focus on wealth and greek life",
       "Coming in as a junior is quite an unpleasant experience, even for an extravert, on the basis of finding your group outside of greek life",
       "We are Baylor times TCU to the third power. I have more money than you could dream of. My dad has more net worth than Baylor."
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Greek life and wealth dominate social scene significantly",
+      "Finding community outside Greek life, especially as transfer, is hard",
+      "Multiple students transferred specifically due to wealth-focused culture"
+    ]
   },
   "dining": {
-    "summary": "There is virtually no substantive discussion of dining halls or food quality across all 128 posts. This absence of data makes it impossible to draw meaningful conclusions, though no major complaints were surfaced either.",
     "key_quotes": [
       "No meaningful dining-related quotes found in the dataset",
       "Summer dorm question asked about microwaves and fridges but no dining hall feedback given",
       "Campus logistics questions focused on housing amenities rather than food"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No meaningful dining data surfaced across student posts",
+      "No major complaints found, but no praise either",
+      "Insufficient data to draw any reliable conclusions"
+    ]
   },
   "mental_health": {
-    "summary": "Mental health concerns appear indirectly — students describe scholarship pressure causing anxiety about transferring, and at least one student left SMU partly for mental health reasons. The high-pressure, wealth-focused environment and difficulty fitting in socially likely contribute to stress for students who don't align with the dominant culture.",
     "key_quotes": [
       "I decided to go to community college for financial and mental health reasons",
       "I need to keep up my GPA and scholarship so my parents can afford it",
       "As a graduating senior, my advice to you is to leave while you can. It really does not get better here, the people don't change"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Wealth-focused culture creates stress for non-fitting students",
+      "At least one student left SMU partly for mental health",
+      "Scholarship pressure adds significant anxiety around transferring decisions"
+    ]
   },
   "financial_aid": {
-    "summary": "SMU is known for offering substantial merit scholarships that can dramatically reduce the sticker price, including full-ride opportunities like the Presidential Scholarship. However, without merit aid, the full cost is extremely high, and need-based aid for middle/upper-income families appears limited. The scholarship amounts frequently mentioned range from $80k-$100k total, making it financially viable mainly for those who earn significant merit awards.",
     "key_quotes": [
       "Accepted with $80k scholarship!",
       "Accepted w 100k direct admit into cox and hilltop scholars program!",
       "I just got into SMU along with $90,000 in scholarships — I'll need a lot more to actually be able to go there"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Full-ride Presidential Scholarship exists; merit aid can be substantial",
+      "Without merit aid, sticker price is extremely high",
+      "Merit scholarships of $80k–$100k total frequently mentioned by students"
+    ]
   },
   "academics": {
-    "summary": "Cox School of Business receives consistent praise and is widely regarded as the school's strongest program, with strong regional recruiting especially in Dallas/DFW. The CS department draws serious criticism — one transfer student reported 90% of undergrad CS classes are taught by part-time or visiting professors, calling it overpriced and weak. Political science is described as genuinely challenging with demanding professors.",
     "key_quotes": [
       "90% of your undergrad classes will be taught by part-time professor or visitor professor — it is absolutely a waste of money",
       "None of the professors I've had for upper-level political science classes gives easy A's, you have to work for it",
       "Cox made some changes recently... coming in as a junior is quite an unpleasant experience"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Cox Business School is consistently praised with strong DFW recruiting",
+      "CS department criticized: 90% of classes taught by adjuncts",
+      "Political science described as genuinely rigorous with demanding professors"
+    ]
   },
   "administration": {
-    "summary": "SMU administration gets mixed signals from the data. On one hand, they send personalized acceptance letters referencing specific extracurriculars, which applicants found impressive. On the other hand, Meadows School of the Arts used AI-generated images for an ad campaign rather than hiring student artists, which current students found deeply hypocritical and tone-deaf.",
     "key_quotes": [
       "They actually mentioned specific extracurriculars. It made me feel like they actually read my application",
       "Why would an art school with a great visual arts department elect to use AI slop as their Instagram ad? For a degree in arts leadership no less!",
       "Is SMU calling its own education worthless? Does SMU not believe in the talent it is cultivating?"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Personalized acceptance letters referencing specific extracurriculars impressed applicants",
+      "Meadows used AI art in ads instead of hiring students",
+      "Administration signals suggest disconnect from school's own stated values"
+    ]
   },
   "location_and_campus": {
-    "summary": "The campus and surrounding Highland Park neighborhood are consistently described as beautiful, affluent, and well-located. Dallas's warm weather and proximity to a major metro area are frequently cited as genuine selling points. The campus aesthetic is often compared favorably to schools like Boston College and Emory, and wealthy California students are increasingly drawn to SMU specifically for the lifestyle and social scene.",
     "key_quotes": [
       "The area surrounding SMU is beautiful and just Highland Park which is just full of nice houses and mansions",
       "From SoCal. Yes, this is happening. Have heard it's mostly because of weather and perceived social life",
       "Where there are 232 sunny days and strong medical school connections awaiting you"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Campus and Highland Park neighborhood are consistently called beautiful",
+      "Dallas metro offers warm weather and strong lifestyle appeal",
+      "Campus aesthetics favorably compared to Boston College and Emory"
+    ]
   },
   "career_outcomes": {
-    "summary": "SMU Cox has a strong regional reputation in Dallas/DFW and is consistently recommended for students who want to work in Texas. Outside of Texas, the brand recognition drops significantly and schools like Georgia Tech are recommended instead. Alumni network strength is frequently cited as a major asset, particularly for finance and business careers in the Dallas market.",
     "key_quotes": [
       "If in Texas or nearby, SMU. If elsewhere in the SE, NE, or Cali, GT, no question with its reputation",
       "SMU if you want to live and work in Dallas Texas — local alums make a huge difference",
       "Get your degree from the state school, work in industry for 5+ years, then apply to their MBA program or better down the line"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Cox has strong alumni network for finance and business in DFW",
+      "Brand recognition drops significantly outside of Texas",
+      "Georgia Tech recommended over SMU for careers beyond Texas"
+    ]
   },
   "value_for_money": {
-    "summary": "Value at SMU is highly dependent on scholarship status. With strong merit aid it can be competitive with or cheaper than state schools, making it an excellent deal. Without significant scholarships, the full sticker price is hard to justify given the regional limitations of the brand outside Texas. Multiple commenters explicitly say to choose A&M or UT over SMU if costs are equal.",
     "key_quotes": [
       "Yes, paying full cost SMU vs A&M, choose A&M. If the price was equal, SMU is the better choice for ROI",
       "The fact that you can go to SMU for the same price as South Carolina is evidence that you have a pretty awesome opportunity",
       "I got rejected from cox with a 3.55 GPA — do I stay at my current state school as a finance major or try and go to SMU as a non business major?"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "With merit aid, SMU can beat state school pricing",
+      "Without scholarships, sticker price is very hard to justify",
+      "Multiple students explicitly recommend UT or A&M over SMU at equal cost"
+    ]
   },
   "overall_vibe": {
-    "summary": "SMU has a distinct, polarizing culture centered on wealth, Greek life, and social prestige. Students who fit this mold — wealthy, socially driven, interested in business and Texas careers — tend to thrive and speak highly of it. Students who don't fit this mold frequently describe feeling out of place, isolated, and ultimately leave. It is not a diverse or politically varied campus.",
     "key_quotes": [
       "SMU is a small, conservative, greek oriented university — I hate the focus on wealth and greek life that is held by the students here",
       "It really does not get better here, the people don't change, and as a graduating senior, my advice to you is to leave while you can",
       "We are Baylor times TCU to the third power. I have more money than you could dream of"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Wealth and Greek life define SMU's polarizing campus culture",
+      "Students who fit the mold thrive; others feel isolated",
+      "Campus lacks diversity in both background and political viewpoint"
+    ]
   },
   "red_flags": {
-    "summary": "The most consistent red flag is the entrenched wealth and Greek-life culture that makes the school actively uncomfortable for students who don't align with it — and multiple students confirm it does not improve over time. The CS department is flagged as severely under-resourced with predominantly adjunct faculty. The administration's use of AI art for a fine arts school promotion signals possible institutional disconnect from its own stated values.",
     "key_quotes": [
       "As a graduating senior, my advice to you is to leave while you can. It really does not get better here, the people don't change",
       "90% of your undergrad classes will be taught by part-time professor or visitor professor — absolutely overpriced and weak",
       "Why would an art school use AI slop as their ad? Is SMU calling its own education worthless?"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Culture: entrenched wealth and Greek life alienates non-fitting students long-term",
+      "Academics: CS department heavily reliant on adjunct and visiting faculty",
+      "Administration: fine arts school used AI art in official promotion"
+    ]
   },
   "hidden_gems": {
-    "summary": "SMU's personalized acceptance letters that reference specific applicant extracurriculars suggest genuine holistic review and make applicants feel valued. The Cox School's direct admit and honors program combination with scholarships is a genuinely strong package for business-focused students. The Dallas location provides exceptional internship and networking access to one of the fastest-growing major metros in the US, which is underappreciated by applicants outside Texas.",
     "key_quotes": [
       "I got direct entry into the Cox School of Business along with a scholarship and entry into the honors program",
       "Cox School of Business is world class with thousands of internships, full-time employment opportunities and networking in the DFW area — one of the best places to network in the US",
       "They mentioned key information that I gave them — it was like a breath of fresh air, it made me feel like they actually read my application"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Personalized acceptance letters suggest genuine holistic admissions review",
+      "Cox direct admit plus honors plus scholarships is a strong package",
+      "Dallas internship access is underappreciated by out-of-state applicants"
+    ]
   }
 }

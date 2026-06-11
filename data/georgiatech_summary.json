@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Athletic dorms at Georgia Tech are described as very nice with private rooms and good amenities for recruited athletes. General student housing information is sparse in these posts, but the campus appears to have standard dorm arrangements. One student noted living on-campus in Atlanta with security checkpoints for guests.",
     "key_quotes": [
       "The athletic dorms are very nice, each person gets their own room, has a living room, showers, etc.",
       "I live on-campus in Atlanta so there are checkouts and security measures to guests in dorm.",
       "Crime is not really an issue on the GT campus. Just don't be stupid or go off campus during the night"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Athlete dorms offer private rooms and strong amenities.",
+      "Campus has standard dorm arrangements with guest security checkpoints.",
+      "General student housing details are sparse in available feedback."
+    ]
   },
   "social_life": {
-    "summary": "Georgia Tech has a well-known reputation as a heavily male-dominated engineering school, with students themselves joking about the skewed gender ratio. One post noted that students committed to GT can end up drowning in schoolwork with limited social life. A founder doing customer discovery specifically identified GT's social life as something students find frustrating.",
     "key_quotes": [
       "we dont neeed that sasuage fest of gatech anyways!!!",
       "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork and no social life",
       "As the GT girls like to say, the odds are good, but the goods are odd."
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Heavy workload leaves many students with little social life.",
+      "Gender ratio is heavily male-skewed, openly mocked by students.",
+      "Social life frustration is a known, recurring student complaint."
+    ]
   },
   "dining": {
-    "summary": "There is virtually no direct discussion of dining hall quality or food options at Georgia Tech in these posts. The only food-adjacent content involves a Chick-fil-A proximity ranking post and a student eating peaches as a celebration bet. This absence of commentary makes it difficult to assess.",
     "key_quotes": [
       "If I get into Georgia Tech I will literally eat 10 peaches and stream it live",
       "If I get into Georgia Tech I will drink 2 gallons of banana flavored milk in one sitting",
       "Ranking t20s based on the distance to the closest Chick Fil A"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No meaningful student feedback exists on dining quality.",
+      "Chick-fil-A proximity is the only food reference found.",
+      "Dining experience at GT remains essentially unassessed here."
+    ]
   },
   "mental_health": {
-    "summary": "The workload at Georgia Tech appears to be a serious concern, with one student explicitly stating they ended up drowning in schoolwork and having no social life after prioritizing prestige. The intense academic pressure at a top engineering school is implied throughout multiple posts where students treat GT as a dream school worth extreme effort to attend. No dedicated mental health resources are discussed.",
     "key_quotes": [
       "I ended up going where there was most prestige, and I often wish I had picked a different school. All of my high school friends are loving their schools and I'm downing in schoolwork and no social life",
       "People dont get how shitty untreated ADHD actually is to deal with academically and emotionally",
       "I became suicidal again and my grades took a hit"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Intense workload causes students to feel overwhelmed and isolated.",
+      "One student explicitly regretted choosing GT's prestige over happiness.",
+      "No mention of mental health resources or support programs."
+    ]
   },
   "financial_aid": {
-    "summary": "Georgia Tech's Stamps President's Scholar and Gold Scholar programs are mentioned as highly prestigious and potentially full-ride opportunities, making it a strong financial option for top scholars. One student was so impressed by a GT scholarship offer that they reconsidered their ED commitment to Northwestern, which was charging ~$75K per year. In-state tuition in Georgia is significantly cheaper than out-of-state, and the HOPE scholarship is an additional financial benefit for Georgia residents.",
     "key_quotes": [
       "I was blown away when Georgia Tech released decisions and I got chosen as a Stamps President's Scholar/Gold Scholar semifinalist. This would mean I could potentially go to a school of this caliber for almost free",
       "ED is a scam to enhance a school's yield and rankings while controlling financial aid costs",
       "After I sort out my ADHD treatment... I'll transfer to Georgia Tech... which will qualify me for the HOPE scholarship which pays full tuition"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Stamps and Gold Scholar programs offer potentially full-ride merit aid.",
+      "GT scholarship convinced one student to reconsider a $75K Northwestern offer.",
+      "Georgia residents benefit further from in-state tuition and HOPE scholarship."
+    ]
   },
   "academics": {
-    "summary": "Georgia Tech is consistently ranked among the top 5-10 CS and engineering programs in the country, frequently mentioned alongside MIT, CMU, Stanford, and Berkeley. Students and commenters treat it as a world-class technical institution, particularly strong in aerospace, computer engineering, and CS. The academic rigor is real and intense, with students warning that the workload can overwhelm social life.",
     "key_quotes": [
       "It's an amazing and world-renowned school and one of the best for Aerospace",
       "USNews 2021 CS Rankings: MIT, CMU, Stanford, Berkeley, Caltech, UIUC, UW, Princeton, Cornell, Georgia Tech",
       "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "GT ranks top 5-10 nationally in CS and engineering.",
+      "Especially strong in aerospace, computer engineering, and CS programs.",
+      "Academic rigor is intense and can overwhelm students socially."
+    ]
   },
   "administration": {
-    "summary": "Georgia Tech's email phishing protection drew direct criticism from a student who noted receiving at least one blatantly malicious email every week with inadequate institutional response. A GT IT staff member acknowledged the issue publicly but framed it as a broader higher-education problem. The admissions office does not consider legacy in decisions, which is noteworthy and positive.",
     "key_quotes": [
       "It's ridiculous how many phishing emails I receive from random other students",
       "We're aware that sending phishing simulations to students is a gap we have today and we're working on that",
       "Colleges don't really care where your parents went to college unless you are applying to the same school (legacy). So no one except Ga Tech should care. And Ga Tech doesn't do legacy anyway."
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Cybersecurity: weekly phishing emails reach students with inadequate institutional response.",
+      "IT staff acknowledged the problem but deflected responsibility broadly.",
+      "Admissions does not consider legacy, a notably positive policy."
+    ]
   },
   "location_and_campus": {
-    "summary": "Atlanta is generally viewed positively as a city, described as fun and dynamic, though crime concerns are mentioned by prospective students. The campus itself is described as safe when students stay on campus and don't venture off at night. Atlanta's cost of living is noted as high, with rent being a significant burden for students trying to live off-campus.",
     "key_quotes": [
       "Crime is not really an issue on the GT campus. Just don't be stupid or go off campus during the night",
       "Atlanta seeming a bit more fun, except I worry about crime a little bit",
       "I live in Atlanta where rent is extremely high so for 8 months I just worked my ass off"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Atlanta is seen as dynamic but has real crime concerns.",
+      "Campus itself is considered safe when students stay on-site.",
+      "Off-campus rent in Atlanta is a significant financial burden."
+    ]
   },
   "career_outcomes": {
-    "summary": "Georgia Tech's career outcomes are treated as excellent throughout these posts, with the school consistently cited alongside MIT and CMU as a top destination for students aiming at FAANG companies, defense, and aerospace careers. Students actively pursue co-ops, internships, and research experience, with one student receiving a co-op offer at a $1.7B company. The engineering network and industry connections appear strong.",
     "key_quotes": [
       "Georgia Tech IS WHERE FRIEND'S DAUGHTER WANTS TO GO",
       "I have an offer for a Product and Technologies co-op at Landis+Gyr, a $1.7 billion smart metering and grid modernization company",
       "state school or a top public university is better than attending an elite ivy league university if you wish to study computer science"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "GT consistently cited alongside MIT and CMU for top tech careers.",
+      "Students actively pursue co-ops, with one landing a $1.7B company role.",
+      "Engineering network and industry connections are widely seen as strong."
+    ]
   },
   "value_for_money": {
-    "summary": "For Georgia residents, Georgia Tech represents exceptional value given its top-5 engineering rankings and the availability of the HOPE scholarship covering full tuition. Out-of-state students also find it compelling versus private alternatives, as demonstrated by the student who considered abandoning a $75K/year Northwestern ED over a potential GT full scholarship. The school is consistently cited as an underrated or appropriately rated value pick relative to its academic quality.",
     "key_quotes": [
       "This would mean I could potentially go to a school of this caliber for almost free",
       "Georgia Tech IS underrated",
       "After I sort out my ADHD treatment... I'll transfer to Georgia Tech... which will qualify me for the HOPE scholarship which pays full tuition"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "Georgia residents get top-5 engineering at exceptional cost with HOPE scholarship.",
+      "Out-of-state students still find GT compelling versus $75K private alternatives.",
+      "Consistently rated an underrated value relative to its academic prestige."
+    ]
   },
   "overall_vibe": {
-    "summary": "Georgia Tech has a passionate, loyal fanbase with multi-generational family traditions and students who genuinely dream of attending. The school has a nerdy, engineering-focused identity that students either embrace enthusiastically or find socially isolating. The gender imbalance and heavy workload are the two most consistent cultural notes, but academic pride runs extremely high.",
     "key_quotes": [
       "THIS HAS BEEN MY DREAM SCHOOL SINCE I WAS 5 YALL",
       "As the GT girls like to say, the odds are good, but the goods are odd.",
       "He went to Georgia Tech himself (and so did his dad and my dad) and it's one of the few things he remembers these days"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Students are passionate and proud with multi-generational GT loyalty.",
+      "Nerdy engineering identity is embraced by many but isolating for some.",
+      "Heavy workload and gender imbalance are the two defining cultural notes."
+    ]
   },
   "red_flags": {
-    "summary": "The most consistent red flag is the combination of intense academic workload and poor social life, with one student explicitly regretting choosing prestige over happiness and describing drowning in schoolwork with no social life. The heavily male-skewed gender ratio is openly mocked even by current students. Cybersecurity infrastructure appears weak, with students receiving weekly phishing emails from compromised student accounts.",
     "key_quotes": [
       "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork and no social life",
       "we dont neeed that sasuage fest of gatech anyways!!!",
       "It's ridiculous how many phishing emails I receive from random other students... at least one blatantly malicious email every week"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Workload: one student described drowning in schoolwork with no social life.",
+      "Gender ratio: heavily male-skewed campus, openly mocked by current students.",
+      "Cybersecurity: students receive weekly phishing emails from compromised accounts."
+    ]
   },
   "hidden_gems": {
-    "summary": "The Stamps President's Scholar program is a potentially full-ride merit scholarship that most prospective students don't know about until they receive it. The Regents Engineering Transfer Pathway Program (RETP) offers a legitimate backdoor into GT for students who didn't get in directly. The CREATE-X startup accelerator program is an active on-campus resource for entrepreneurially-minded students that gets little external press.",
     "key_quotes": [
       "I was blown away when Georgia Tech released decisions and I got chosen as a Stamps President's Scholar/Gold Scholar semifinalist. This would mean I could potentially go to a school of this caliber for almost free",
       "Check out the Regents Engineering Transfer Pathway Program",
       "I'm a founder going through CREATE-X Startup Launch this summer"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Stamps President's Scholar offers a potential full ride few know about.",
+      "RETP program provides a legitimate backdoor entry for waitlisted students.",
+      "CREATE-X on-campus startup accelerator supports entrepreneurs with little external attention."
+    ]
   }
 }

@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Howard's housing administration is a chronic nightmare, with students frequently assigned to inactive dorms, losing deposits, getting no communication about assignments, and having to call relentlessly just to get a room. Junior and senior students are not guaranteed on-campus housing, which creates additional stress. The process is so broken that students and parents have shared tips on how to physically show up in person to force resolution.",
     "key_quotes": [
       "My sister was assigned to a dorm that's been inactive for 3 years. No email or formal communication btw.",
       "Its cheaper to not go through Howard for housing",
       "We have been calling since Monday all day everyday - My daughter got her dorm assignment on the phone"
     ],
-    "score": 2
+    "score": 2,
+    "key_points": [
+      "Students frequently assigned to inactive dorms with zero communication",
+      "Deposits lost; resolution often requires showing up in person",
+      "Juniors and seniors not guaranteed on-campus housing"
+    ]
   },
   "social_life": {
-    "summary": "Howard's social scene is widely described as vibrant and culturally rich, with homecoming being a landmark event that draws massive enthusiasm. Greek life (Divine Nine) is central to campus culture, which some students love and others feel excluded by. Introverts and students who aren't part of Greek organizations or legacy networks can feel left out, and some describe the campus social climate as cliquey.",
     "key_quotes": [
       "Howard is clicky af",
       "Am I weirdo for going to homecoming solo? ...I ended up going to two events last night and it was indeed a time!",
       "I hate being a student at a 'prestigious' HBCU who's not a rich kid - Everybody is Jack and Jill, entire family D9, 4th generation student"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Homecoming is a landmark, culturally electric campus event",
+      "Divine Nine Greek life dominates social culture and networking",
+      "Non-Greek and introverted students often feel cliquey and excluded"
+    ]
   },
   "dining": {
-    "summary": "There is very little detailed feedback about Howard's dining hall in the posts, with only one indirect reference to free food being given away before it was thrown out. This lack of discussion may suggest dining is not a standout feature in either direction, but the scarcity of positive commentary is notable.",
     "key_quotes": [
       "There's an event on the second floor of Blackburn. They have salmon, chicken, and mashed potatoes for anyone who wants it. When I asked they said they planned on throwing it out",
       "How does dining hall stuff work, like I feel like imma walk onto campus lost",
       "Meal type? Specially for a south asian student rate out of 10"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Almost no student feedback exists about Howard's dining hall",
+      "One mention of giveaways before food disposal; nothing positive",
+      "Silence likely signals dining is unremarkable, not a strength"
+    ]
   },
   "mental_health": {
-    "summary": "Multiple students have shared serious mental health struggles directly tied to Howard's administrative dysfunction, financial instability, and campus stress. One student mentioned attempting suicide twice and self-harming while enrolled. The institution does not appear to have robust mental health support systems, and administrative chaos actively worsens student wellbeing.",
     "key_quotes": [
       "It fucked up my grades, put me in financial debt, made me attempt suicide twice, self-harm every night",
       "All these issues combined have made it so difficult to be in an academic mindset",
       "I've been having financial aid and housing issues ALL SUMMER LONG and to top it all off I will be leaving my sick parent behind"
     ],
-    "score": 3
+    "score": 3,
+    "key_points": [
+      "Admin dysfunction directly linked to serious student mental health crises",
+      "One student reported two suicide attempts while enrolled at Howard",
+      "No robust institutional mental health support systems appear to exist"
+    ]
   },
   "financial_aid": {
-    "summary": "Howard's financial aid office is one of the most criticized aspects of the university, with students reporting unresponsive staff, surprise charges, lost scholarship money, and balances that appear without explanation. Merit scholarships exist and can be significant, but navigating the office is described as a battle, and many students leave with far more debt than anticipated. Transfer students face particular difficulty accessing scholarships, often requiring in-person visits to specific administrators.",
     "key_quotes": [
       "Just as I was trying to figure out what to do about my balance, I had checked and gotten two scholarships added that cleared the rest of my balance",
       "Howard offered me 20k out of their 58k cost of attendance",
       "I still need to get 15,000 down. I've tried to think of any other possible solution but there isn't many left - I only have one semester left"
     ],
-    "score": 2
+    "score": 2,
+    "key_points": [
+      "Staff unresponsive; scholarships lost and surprise charges appear without explanation",
+      "Students leave with far more debt than anticipated",
+      "Transfer students must visit specific administrators in person for scholarships"
+    ]
   },
   "academics": {
-    "summary": "Academic quality at Howard is generally respected, especially in programs like nursing, political science, and STEM fields. The Karsh STEM Scholars program and other honors initiatives are praised. However, some students report difficulty getting into their desired major, with advisors giving conflicting information and limited spots creating frustration for enrolled students.",
     "key_quotes": [
       "I applied with Psychology but wasn't let in to my major. I went in Undecided. My advisor kept telling me I would be able to get into Psych after a while, but its spring semester and I'm still not in",
       "Howard named top HBCU by Forbes",
       "Six Howard Graduates Named U.S. Fulbright Scholars"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Nursing, STEM, and political science programs are well-regarded",
+      "Karsh STEM Scholars and honors programs receive strong praise",
+      "Conflicting advisor guidance and limited major spots frustrate students"
+    ]
   },
   "administration": {
-    "summary": "Howard's administration is almost universally described as dysfunctional, unresponsive, and occasionally hostile. Emails go unanswered for weeks or months, paperwork gets lost, transfer decisions come dangerously late, and staff are reported to be rude when contacted. This is the single most consistent and damning complaint across all posts, mentioned by current students, alumni, and parents alike.",
     "key_quotes": [
       "Howard administration is historically bad and will continue to be so throughout your time there",
       "Why doesn't howard ever answer emails? like are they understaffed? or do they just not care?",
       "Who would have known that my email would go a month without being responded to - I need a certified copy of my diploma sent for grad school"
     ],
-    "score": 1
+    "score": 1,
+    "key_points": [
+      "Universally described as dysfunctional, unresponsive, and occasionally hostile",
+      "Emails unanswered for weeks; paperwork routinely lost by staff",
+      "Transfer decisions arrive dangerously late; staff reported as rude"
+    ]
   },
   "location_and_campus": {
-    "summary": "Howard's location in Washington DC is consistently cited as a major draw, offering unparalleled access to internships, government agencies, policy organizations, and cultural institutions. The campus itself (The Yard) is described with pride and cultural significance. The DC location is frequently mentioned as a reason students choose Howard over other HBCUs or even some PWIs.",
     "key_quotes": [
       "I toured Howard this year and loved it. My mom didn't want me to go but I convinced her to take me",
       "Nothing beats the experience of going to a HBCU and the alumni network of howard",
       "Its location and culture made me consider it more"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "DC location offers unmatched internship and government career access",
+      "The Yard carries deep cultural pride and historic significance",
+      "Location is a top reason students choose Howard over rivals"
+    ]
   },
   "career_outcomes": {
-    "summary": "Howard's name and DC location are widely seen as career assets, particularly for politics, law, policy, and media. The alumni network is frequently cited as a strength. However, one analysis noted that the average salary 10 years post-graduation is around $49k, which raises questions about ROI given the high tuition cost without significant aid.",
     "key_quotes": [
       "When I graduate from law school and have an amazing job I won't even reference where I went for undergraduate",
       "The average salary after 10 years is only 49k - help me understand where I'm going wrong",
       "Nothing beats...the alumni network of howard"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Howard's name is a major asset in law, policy, and media",
+      "Alumni network is frequently cited as a genuine career advantage",
+      "Average salary $49k at 10 years raises serious ROI questions"
+    ]
   },
   "value_for_money": {
-    "summary": "Howard is widely considered poor value for money unless you receive a substantial merit scholarship. At roughly $58k-$64k annual cost of attendance with aid packages often leaving $40k+ gaps, many students and advisors recommend going elsewhere for better financial offers. Students are repeatedly warned not to attend without a full ride or significant funding.",
     "key_quotes": [
       "Don't come here unless you're on a full ride or you have A LOT of money",
       "Howard offered me 20k out of their 58k cost of attendance. Spelman offered me $0. Tuskegee offered me a full ride. Hampton offered me a full ride. Apply everywhere!",
       "I have seen students with really atrocious student loan debt from Howard"
     ],
-    "score": 2
+    "score": 2,
+    "key_points": [
+      "Poor value unless you receive a substantial merit scholarship",
+      "Aid packages often leave $40k+ annual gaps for students",
+      "Advisors repeatedly warn: do not attend without significant funding"
+    ]
   },
   "overall_vibe": {
-    "summary": "Howard occupies a paradoxical space: students deeply love what it represents culturally and are proud of its legacy as 'The Mecca,' but the operational reality frequently fails them. Many students stay or choose Howard for the name, network, and Black excellence mission despite suffering through administrative chaos. The phrase 'if you can make it through Howard you can make it through anything' captures the bittersweet sentiment.",
     "key_quotes": [
       "I love going to Howard but the administration pisses me off so much",
       "Howard is as illustrious as you are, and we love you",
       "What made/is making you stay? - people mainly stay for the name and reputation"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Students love Howard's legacy but suffer through operational failures",
+      "Pride in Black excellence persists despite chronic administrative chaos",
+      "'If you survive Howard, you can survive anything' is the mantra"
+    ]
   },
   "red_flags": {
-    "summary": "The administration is a documented institutional failure affecting housing, financial aid, enrollment, transcripts, and basic communication - and it has persisted for years across multiple student cohorts. Students have experienced mental health crises directly attributed to Howard's dysfunction. A president stepping down days into a new academic year, surprise financial holds, and students being registered for classes they never enrolled in are among the most alarming signals.",
     "key_quotes": [
       "It fucked up my grades, put me in financial debt, made me attempt suicide twice",
       "Did Howard Lose My Application? I applied back in December and have been waiting ever since",
       "After Harvard, the Howard board has the highest paid salary of any University board of directors in the US - while being far from the best school"
     ],
-    "score": 1
+    "score": 1,
+    "key_points": [
+      "Administration: emails ignored for months, paperwork lost across all offices",
+      "Mental health: student suicide attempts directly attributed to institutional dysfunction",
+      "Finances: surprise holds, misapplied scholarships, and unexplained balance charges appear"
+    ]
   },
   "hidden_gems": {
-    "summary": "Howard's DC location creates genuinely elite networking and internship access that rivals Ivy League schools for certain career paths, especially law, policy, and government. The Presidential Scholarship, when awarded, is a full ride covering all costs and is renewable for four years. Students who navigate the chaos successfully often describe transformative experiences and lifelong community connections through the HBCU network.",
     "key_quotes": [
       "I committed to Howard university on a full tuition scholarship",
       "i am about to start my junior year at howard university. it has changed my life",
       "The only thing illustrious about Howard University is its name, which holds weight"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "DC location unlocks elite networking rivaling Ivy League schools",
+      "Presidential Scholarship covers full costs, renewable all four years",
+      "Successful students gain transformative experiences via HBCU network"
+    ]
   }
 }

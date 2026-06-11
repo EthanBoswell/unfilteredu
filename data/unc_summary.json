@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "On-campus housing at UNC Chapel Hill is extremely scarce and competitive, especially for upperclassmen and transfer students. Freshmen are guaranteed housing but missing the priority deadline limits options significantly. Off-campus housing costs have skyrocketed, with rents far higher than just a decade ago.",
     "key_quotes": [
       "Housing on campus at UNC is completely scarce",
       "Do you go here? I've literally had friends forced off campus because of how tight on-campus housing is rn",
       "Just looked up this complex (now called Crosstown at Chapel Hill) and its minimum $1100 for a 1 bedroom 1 bath. And that's the 'special offer'"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "On-campus housing is scarce and highly competitive for upperclassmen",
+      "Missing the priority deadline severely limits freshman housing options",
+      "Off-campus rents have skyrocketed far beyond levels from a decade ago"
+    ]
   },
   "social_life": {
-    "summary": "Greek life exists but is clearly expensive and not accessible to students on financial aid, with strong warnings about hidden costs. Campus life seems moderate, with some students finding UNC underwhelming socially, though others love it. The COVID era severely disrupted normal social development for multiple cohorts.",
     "key_quotes": [
       "Greek life is (intentionally) meant to be for rich kids",
       "Don't forget the extra inevitable expenses, not just rushing fees. It's the head-to-toe outfits, the rush bag, mixers, semi-formals",
       "Parties are going to be the downfall of all colleges. Stopping 18-22 year olds from getting together after they have been in lockdown for months seems impossible"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Greek life is expensive and largely inaccessible to financial aid students",
+      "COVID severely disrupted social development for multiple student cohorts",
+      "Some students find UNC underwhelming socially; others genuinely love it"
+    ]
   },
   "dining": {
-    "summary": "The on-campus meal plan system is inflexible and wasteful, with students reporting leftover swipes they cannot use efficiently. There is a hidden alternative dining option at the Agora at Granville that offers better food at lower cost. The closure of beloved campus cafes like Joe Van Gogh was handled poorly with no severance or transition planning for workers.",
     "key_quotes": [
       "I ended the semester with around 90 swipes left",
       "Look into the Agora at Granville. Much more affordable and better food",
       "They had a sign up last week that said '48 hours ago we were told via email that our store will be closing with no transition to another store or severance pay'"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Meal plan swipes go to waste due to inflexible system design",
+      "Agora at Granville offers better food at lower cost than dining halls",
+      "Joe Van Gogh cafe closure was mishandled with no worker transition plan"
+    ]
   },
   "mental_health": {
-    "summary": "Mental health support is a known concern among students, with at least one student explicitly mentioning depression and suicidal feelings during their first semester. The abrupt COVID transitions caused significant academic and emotional stress. Students and SGA have been actively pushing for better mental health resources and more meaningful break days.",
     "key_quotes": [
       "I was extremely depressed and feeling suicidal for a good majority of the semester",
       "Mental health awareness was always a priority in my SGA career",
       "Maybe consider having our already scheduled days off count for something. We just had 'fall break', 2 whole days off school, and many of us had more stress"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Students have reported depression and suicidal feelings during first semester",
+      "COVID transitions caused significant emotional and academic stress campuswide",
+      "SGA is actively pushing for better resources and meaningful mental health breaks"
+    ]
   },
   "financial_aid": {
-    "summary": "UNC's financial aid picture is mixed — the Carolina Covenant provides strong support for low-income students, but middle-class families can face sticker shock at $30k/year. Merit scholarships outside of Morehead-Cain are limited and poorly publicized. Students report getting refunds of $3,000–$6,000 per semester with the right aid combination.",
     "key_quotes": [
       "Just looked at my aid offer, how am I supposed to afford 30k a year",
       "Not really. There are almost no scholarships at UNC. I am in honors and don't get any money",
       "I get slightly different aid but I usually get around 3-4 thousand back a semester"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Carolina Covenant offers strong support for low-income students",
+      "Middle-class families face sticker shock at roughly $30k per year",
+      "Right aid combinations can yield $3,000–$6,000 refund checks per semester"
+    ]
   },
   "academics": {
-    "summary": "Academic quality is generally respected, with standout professors in biology and other departments, though experiences vary widely by department and instructor. Pre-med weed-out culture is intense, with students struggling with C averages in biology and chemistry. The CS major requires re-application to declare, which surprises many transfer students.",
     "key_quotes": [
       "Mark Peifer is the best + my favorite biology professor at UNC",
       "I'm just about to finish my sophomore year with a major in biology. However in these past two years all I have been getting are C's in the weed out biology and chemistry classes",
       "I heard I have to re-apply to actually major in computer science, right now I'm 'intended'"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Pre-med weed-out culture is intense with many students averaging Cs",
+      "Academic quality is strong but varies widely by department and instructor",
+      "CS major requires re-application to declare, surprising many transfer students"
+    ]
   },
   "administration": {
-    "summary": "Administration has drawn criticism for poor communication and slow decision-making, particularly during COVID when UNC went online just one week into in-person classes. The university also handled the Joe Van Gogh cafe closure with zero notice to employees. Housing bureaucracy and transfer credit appeals are frustrating processes for incoming students.",
     "key_quotes": [
       "The UNC school system KNEW this was going to happen and just went ahead and fucked over thousands of students",
       "They had a sign up that said '48 hours ago we were told via email that our store will be closing with no transition'",
       "They're already planning to expand admissions over the course of several years but as it stands right now, they literally don't have the room to add more students"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "COVID handling was poor — UNC went online just one week in",
+      "Joe Van Gogh closure gave workers zero notice or transition support",
+      "Transfer credit appeals and housing bureaucracy are frustratingly slow processes"
+    ]
   },
   "location_and_campus": {
-    "summary": "Chapel Hill is widely regarded as a safe, walkable college town with free buses and easy access to Carrboro and Durham. The campus itself is beautiful and historically significant, though it is under pressure from rapid enrollment growth. Franklin Street and surrounding areas offer solid dining, coffee, and entertainment options.",
     "key_quotes": [
       "Chapel Hill is a safe town. That extends to the buses",
       "Buses are free in town and then it takes me 20 min to campus",
       "Until 2006, in order to graduate from UNC-Chapel Hill, students had to prove they knew how to swim"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "Chapel Hill is safe, walkable, and served by free campus buses",
+      "Franklin Street offers solid dining, coffee, and entertainment nearby",
+      "Beautiful historic campus faces pressure from rapid enrollment growth"
+    ]
   },
   "career_outcomes": {
-    "summary": "Kenan-Flagler Business School is consistently praised as elite and a strong career launchpad. For CS and other STEM majors, UNC is respected regionally but students are advised that skills and networking matter more than the diploma. Research opportunities are available even for freshmen if they proactively reach out to professors.",
     "key_quotes": [
       "Kenan-Flagler (UNC's business school) is elite",
       "It's never too early [to pursue research]; there are many instances where freshman get research opportunities lined up for the fall",
       "NC admission statistics: Duke: 9%, UNC-Chapel Hill: 29%... NC State's engineering program is excellent"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Kenan-Flagler Business School is elite and a strong career launchpad",
+      "CS and STEM grads rely more on skills and networking than diploma",
+      "Research opportunities are available to freshmen who proactively contact professors"
+    ]
   },
   "value_for_money": {
-    "summary": "For in-state students, UNC is an exceptional value, with some students paying as little as $2,000 and others receiving large refund checks from financial aid. Out-of-state students face a very different calculation at $30k+ per year with limited merit aid. The rigid meal plan system and tight housing situation reduce value for many students.",
     "key_quotes": [
       "I pay 2k lol",
       "me when i drop 70k a year for a state school",
       "The price calculator estimated it to be half of what it's actually saying"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "In-state students can pay as little as $2,000 with strong aid",
+      "Out-of-state students face $30k+ with very limited merit aid available",
+      "Rigid meal plans and tight housing reduce overall value for many"
+    ]
   },
   "overall_vibe": {
-    "summary": "UNC Chapel Hill has a strong identity and loyal alumni base, with students who get into the groove genuinely loving the experience. The school is academically competitive, socially diverse, and benefits from a beautiful campus and town. However, rapid enrollment growth, housing scarcity, and administrative stumbles create real friction for students trying to make the most of it.",
     "key_quotes": [
       "I worked all throughout high school to get into this prestigious college",
       "2026 grad - everyone i know had really low expectations but we were all really blown away by the speech",
       "I am currently a freshman at UNC and so far I do not like it... I worked all throughout high school to get into this prestigious college"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Students who find their groove genuinely love UNC Chapel Hill",
+      "Campus is academically competitive, socially diverse, and beautifully situated",
+      "Enrollment growth and administrative stumbles create real friction for students"
+    ]
   },
   "red_flags": {
-    "summary": "The university went fully online just one week into the fall 2020 semester after bringing students to campus, raising serious trust issues about administrative honesty. On-campus housing is so scarce that even some students with guaranteed admission to business school cannot get their preferred housing. The influx of 85,000 applicants for a campus with no room to grow suggests worsening conditions ahead.",
     "key_quotes": [
       "UNC-Chapel Hill fall semester going online amid COVID-19 outbreaks, one week into classes",
       "I've literally had friends forced off campus because of how tight on-campus housing is rn",
       "They're already planning to expand admissions but as it stands right now, they literally don't have the room to add more students"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "COVID policy: UNC sent students home just one week into fall 2020",
+      "Housing: Business school admits still struggle to secure preferred on-campus housing",
+      "Growth: 85,000 applicants for a campus with no room left to expand"
+    ]
   },
   "hidden_gems": {
-    "summary": "The APPL101 and APPL110 applied sciences gen-ed courses are underrated and teach practical engineering and programming skills applicable across all majors. Project Uplift Plus is a little-known summer program for prospective students with almost no online presence but strong alumni reviews. The Agora at Granville offers better and cheaper food than standard dining halls but is rarely mentioned in official materials.",
     "key_quotes": [
       "Consider adding APPL101 or APPL110 to your degree. Whatever your major is, you can be a UNC graduate who is knowledgeable about prototyping or have good programming and modeling skills",
       "From my experience [at Project Uplift Plus], we did a lot of tours around professional schools like med, dental, law, pharmacy",
       "Look into the Agora at Granville. Much more affordable and better food. Only thing is you'll have to walk 'off campus'. It's literally right at the edge"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "APPL101 and APPL110 teach practical engineering and coding skills for all majors",
+      "Agora at Granville offers better, cheaper food but gets no official promotion",
+      "Project Uplift Plus is a low-profile summer program with strong alumni reviews"
+    ]
   }
 }

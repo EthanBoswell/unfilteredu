@@ -1,118 +1,170 @@
 {
   "housing": {
-    "summary": "Housing at UofL has notable issues including mold problems in residential buildings and a documented housing crisis. Parking for commuter students is a serious pain point, with students reportedly missing class due to lack of parking. Off-campus options like Derby Row and UPointe exist but have their own quirks.",
     "key_quotes": [
       "there are plenty of mold problems",
       "commuter students' grades suffer because there's no where for them to park to even get to class",
       "occasionally the lights in the garage would shut off at night and it was horrifying"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "Mold and a housing crisis plague residential buildings",
+      "Commuter parking is so scarce students miss class",
+      "Off-campus options like Derby Row and UPointe exist"
+    ]
   },
   "social_life": {
-    "summary": "Social life exists but commuter students struggle significantly to make friends and feel connected. Bar scene includes spots like Granny, the Tav, and Zbar. Student organizations like BSU exist for specific communities, and campus events are promoted through EngageUofL.",
     "key_quotes": [
       "being a commuter student makes it very difficult to make friends, especially since I am not from KY",
       "Granny (Granville), the tav (tavern) and zbar (Zanzabar)",
       "BSU is back I would recommend joining"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Commuter students struggle significantly to make friends and connect",
+      "Bar scene includes Granny, the Tav, and Zbar",
+      "EngageUofL and orgs like BSU offer community for some"
+    ]
   },
   "dining": {
-    "summary": "There is very little discussion of dining in these posts, suggesting it's neither a major selling point nor a major complaint. Cardinal Cash can be used at some off-campus locations like Speedway. Local food strips near campus offer employment and presumably dining options.",
     "key_quotes": [
       "Panera was what got me through undergrad, but anywhere on the strips around campus",
       "It looks like it! [Cardinal Cash can be used off campus]"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Dining is rarely mentioned, suggesting mediocrity over crisis",
+      "Cardinal Cash accepted at off-campus spots like Speedway",
+      "Local food strips near campus offer nearby options"
+    ]
   },
   "mental_health": {
-    "summary": "Mental health resources are not prominently discussed in these posts, which itself may be telling. One student noted collapsing honors department and lack of support as a grievance. The advising podcast suggestion about burnout and failing classes hints at real student stress.",
     "key_quotes": [
       "the collapse of their honors department and the lack of support",
       "You've got straight A's your entire life, and now you just failed a class. Now what?",
       "Honestly, I'd want episodes that are practical like how to choose the right courses, avoid burnout"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "Mental health resources are rarely discussed, which is concerning",
+      "Honors department collapse left some students without academic support",
+      "Burnout and failing classes are real undercurrents on campus"
+    ]
   },
   "financial_aid": {
-    "summary": "UofL is frequently praised for its affordability and scholarship offerings, making it a cost-effective option for in-state students. The Grawemeyer Scholars program offers up to $28k/year essentially covering full tuition. However, taking a gap year forfeits freshman scholarships, which is a notable trap.",
     "key_quotes": [
       "so far Madison and Louisville are the most cost effective",
       "a $28000/yr scholarship that would essentially make a full ride scholarship",
       "If you do not apply to university DIRECTLY after high school, you forfeit any potential scholarships that require you to be a 'first time freshman'"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "UofL is one of the most affordable in-state options",
+      "Grawemeyer Scholars offers up to $28k per year",
+      "Gap year forfeits freshman scholarships, a costly hidden trap"
+    ]
   },
   "academics": {
-    "summary": "UofL has credible programs in engineering (Speed School), biology, political science, and premed, with research opportunities available even for undergrads. The engineering program is described as hard with no semester breaks, and group project dynamics can make or break grades. Faculty quality appears mixed but some professors are highly regarded.",
     "key_quotes": [
       "I can speak on Louisville...it's hard, you don't get semester breaks",
       "I work in a lab doing research on bryophytes and I have close connections to the Deans of Arts and Sciences",
       "I am majoring in political science...it has prepared me for law school"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Speed School engineering, biology, and premed are credible programs",
+      "Engineering has no semester breaks and brutal group project stakes",
+      "Faculty quality is mixed but some professors are standouts"
+    ]
   },
   "administration": {
-    "summary": "Administration is a clear sore spot, with documented complaints about non-professionalism, lack of responsiveness to student concerns, and a university president who allegedly gave himself a $750,000 bonus. Staff layoffs (RIFs) are reportedly coming, and a compensation study did little to retain staff. The school does not listen to concerns according to multiple students.",
     "key_quotes": [
       "'president' gerry bradley gave himself a $750,000 christmas bonus",
       "the school does not listen to concerns",
       "that compensation study did little to retain staff or faculty, and many units/colleges have let people stick around that are just absolute culture killers"
     ],
-    "score": 3
+    "score": 3,
+    "key_points": [
+      "President allegedly gave himself a $750k bonus mid-crisis",
+      "Staff layoffs incoming while a compensation study changed nothing",
+      "Multiple students independently confirm administration ignores their concerns"
+    ]
   },
   "location_and_campus": {
-    "summary": "Louisville as a city offers a real urban experience with bars, neighborhoods like the Highlands, and Derby-related events. However, public transportation (TARC) is unreliable and students frequently supplement with Lyft/Uber. Campus itself has good libraries and some green spaces with wildlife.",
     "key_quotes": [
       "Living in the Highlands, I would NOT rely on TARC as your primary means of transportation",
       "Everyone I know that uses tarc also has to supplement with lyft/uber due to buses not coming or being extremely late",
       "UofL is a great school academically at least and the libraries are awesome"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Louisville offers a real urban experience with distinct neighborhoods",
+      "TARC public transit is unreliable, forcing reliance on Lyft",
+      "Campus has solid libraries and pleasant green spaces"
+    ]
   },
   "career_outcomes": {
-    "summary": "Career outcomes are not extensively discussed but engineering students have access to internships at companies like GE and Dana. Premed students have pathways through Norton Healthcare and clinical certifications. The CS program is noted as having credible professors though the school's rankings may limit national name recognition.",
     "key_quotes": [
       "My son has an internship at Dana for the summer",
       "Check out Norton's opportunities! They have some cool stuff!",
       "U of L is a good school, what I'm saying though is that if you have no reason to be in the US...it's not that great educationally"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Engineering students access internships at GE and Dana",
+      "Premed pathways exist through Norton Healthcare and clinical certifications",
+      "CS has credible professors but school rankings limit national reach"
+    ]
   },
   "value_for_money": {
-    "summary": "UofL consistently appears as one of the most affordable options for in-state students, often with substantial merit scholarships that make it competitive or superior to pricier schools. For out-of-state students the value proposition is less clear. The free tuition scholarship mentioned in multiple posts makes it genuinely hard to beat financially.",
     "key_quotes": [
       "go to university of Louisville free of cost",
       "so far Madison and Louisville are the most cost effective",
       "If you're having to borrow for all three of these options, then pick the one that's least expensive. Which would be Louisville."
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "In-state tuition with merit aid makes UofL hard to beat",
+      "Free tuition scholarships mentioned repeatedly as a genuine differentiator",
+      "Out-of-state students face a much weaker value proposition"
+    ]
   },
   "overall_vibe": {
-    "summary": "UofL feels like a practical, urban commuter-heavy school where you get out what you put in. It's not a traditional college-experience school, and commuters especially can feel socially isolated. There's genuine pride in certain programs and a tight-knit community for those who seek it out, but administrative frustrations and campus issues dampen enthusiasm.",
     "key_quotes": [
       "UofL is a great school academically at least",
       "I could write an entire essay on my grievances with the university",
       "be very thorough about reading the website and everything listed on there...I've been here two semesters as a transfer and still learning new things"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "UofL is a practical commuter school where effort determines experience",
+      "Commuters especially can feel socially isolated without intentional effort",
+      "Program pride exists but admin frustrations and campus issues linger"
+    ]
   },
   "red_flags": {
-    "summary": "Several serious red flags emerge: a president allegedly giving himself a $750k bonus while students can't park to attend class, documented mold in dorms, an imploding honors program, unreliable public transit, and coming staff layoffs. The pattern of administration ignoring student concerns is repeated by multiple independent students.",
     "key_quotes": [
       "'president' gerry bradley gave himself a $750,000 christmas bonus, all while commuter students' grades suffer because there's no where for them to park",
       "there are plenty of mold problems",
       "the collapse of their honors department and the lack of support for students"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Administration: president allegedly took $750k bonus while students suffer",
+      "Housing: documented mold in dorms and ongoing housing crisis",
+      "Academics: honors program imploding with little institutional support offered"
+    ]
   },
   "hidden_gems": {
-    "summary": "UofL has some genuinely underrated resources: free donuts at weekly Commuter and Transfer Student events, practice rooms at the School of Music open to non-music majors, a premed advisor accessible informally through Reddit, and Norton Healthcare student opportunities. The Grawemeyer Scholars program is also a little-known full-ride opportunity.",
     "key_quotes": [
       "every Thursday, I go to the Commuters and Transfer Student event where they give away free donuts",
       "You should be able to use any of the practice rooms at the school of music",
       "Check out Norton's opportunities! They have some cool stuff! I'm actually a premed advisor at UofL so very happy to help"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Free donuts weekly at Commuter and Transfer Student events",
+      "School of Music practice rooms open to non-music majors",
+      "Grawemeyer Scholars is a little-known near-full-ride opportunity"
+    ]
   }
 }

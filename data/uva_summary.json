@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Off-grounds housing options near JPA are plentiful with prices around $1,000-$1,150/month, but some areas like Copeley are considered isolated. First-year housing is mostly mixed-gender by floor, not suite, and most students end up in standard assignments. Transfer and late-admit students sometimes scramble for housing options.",
     "key_quotes": [
       "I'll be staying at The Standard in a 4 bedroom for $1085/month, but parking is an extra cost",
       "Which Copeley? There were three phases. One was torn down recently and is getting replaced by a parking garage",
       "Most people live in same gender suites or same gender floors"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Off-grounds near JPA runs $1,000–$1,150/month with solid availability.",
+      "First-year housing is mixed-gender by floor, not suite.",
+      "Transfer and late admits often scramble to find housing options."
+    ]
   },
   "social_life": {
-    "summary": "UVA has a strong Greek life presence and is noted as a top party school, but the social scene is perceived as preppy and can feel exclusionary to some. Students from Virginia describe the campus culture as noticeably preppy on visits. The first semester social experience is considered important for making lasting connections.",
     "key_quotes": [
       "UVA was so preppy when I visited",
       "UVA...Ranked top 20 in academics, top in most beautiful campuses, and top in party schools",
       "I just feel like it's less nervewracking to check immediately — comparing UVA to a school 'riding on rank'"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "UVA ranks as a top party school with strong Greek presence.",
+      "Campus culture reads as preppy and can feel exclusionary.",
+      "First semester is critical for forming lasting social connections."
+    ]
   },
   "dining": {
-    "summary": "There is virtually no specific dining hall feedback in these posts. No students commented on food quality, dining hall options, or meal plan value at UVA specifically. This absence itself may suggest dining is not a standout positive or negative.",
     "key_quotes": [
       "No substantive dining feedback found in the dataset",
       "Housing and Food listed at $15,300 in cost of attendance",
       "Off-campus apartments near JPA mentioned as common alternative living arrangements"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No students specifically praised or criticized UVA dining.",
+      "Dining hall quality, options, and meal plan value went unmentioned.",
+      "Absence of feedback suggests dining is neither standout nor terrible."
+    ]
   },
   "mental_health": {
-    "summary": "Academic suspension appeals reveal that substance abuse and mental health struggles do occur, with the review committee noting students often repeat the same issues after warnings. The broader Reddit context shows UVA students face pressure around academics and prestige. No dedicated counseling or mental health support resources were specifically praised or criticized.",
     "key_quotes": [
       "In order to get to this point, a student has to have had multiple semesters of poor performance",
       "Is it acceptable to just say you will no longer party and drink too much? Easy to say, harder to do if you continue in the same social and living environment",
       "Someone I love very deeply is going through this academic suspension process"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Substance abuse and mental health struggles appear in suspension appeals.",
+      "Academic and prestige pressure weighs on UVA students broadly.",
+      "No counseling or mental health resources were praised or criticized."
+    ]
   },
   "financial_aid": {
-    "summary": "UVA meets 100% of demonstrated need for in-state students, which is a significant draw, but financial aid administration appears inconsistent and bureaucratic. Students report confusion navigating SFS, sibling-in-college situations are handled unfavorably, and late admits sometimes receive no financial aid information for months. Access Scholarship recipients worry about losing aid for academic reasons.",
     "key_quotes": [
       "Has anyone had their Access Scholarship dropped for academic reasons or significantly reduced? I wouldn't be able to afford UVA without it",
       "Year 1, received about 30k with a sibling in another university, year 2,3,4 nada",
       "From my experience with SFS, they don't consider appeals for additional children in college"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "UVA meets 100% of demonstrated need for in-state students.",
+      "SFS navigation is consistently described as confusing and bureaucratic.",
+      "Late admits may wait months before receiving any aid information."
+    ]
   },
   "academics": {
-    "summary": "UVA is academically rigorous with a strong economics program, though the econ major is math-heavy with a known weed-out course (ECON 3010). The engineering school has strict transfer and prerequisite requirements. The Echols Scholars program is a notable honors distinction mentioned positively by admitted students.",
     "key_quotes": [
       "I transferred out of UVA because the econ program wasn't as quantitative as I wanted it to be",
       "ECON 3010 and ECON 3720 are the most math-intensive courses — 3010 is the weed out class, it's as hard as it gets",
       "UVA is highly regarded and considered one of the finest institutions in the country"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "ECON 3010 is a known weed-out course in a math-heavy major.",
+      "Engineering has strict transfer and prerequisite requirements.",
+      "Echols Scholars is a notable honors distinction praised by admits."
+    ]
   },
   "administration": {
-    "summary": "Administrative processes at UVA are frequently described as slow, confusing, or error-prone — particularly for transfers, late admits, and students navigating SFS. One student waited months with no graduate program update in their SIS account after being accepted 4 days before the semester. The orientation registration system had a bug that required a phone call to resolve.",
     "key_quotes": [
       "I was a late acceptance last August, literally got accepted 4 days before the semester started. I haven't received anything in terms of financial aid and it still says undergrad in my SIS account",
       "Every time I click on the link to register for orientation I get 'there is a problem with your student account'",
       "I called the office and it was a mistake on their end"
     ],
-    "score": 4
+    "score": 4,
+    "key_points": [
+      "Transfers and late admits face slow, error-prone administrative processes.",
+      "One student waited months for grad acceptance to appear in SIS.",
+      "Orientation registration had a bug requiring a phone call to fix."
+    ]
   },
   "location_and_campus": {
-    "summary": "UVA's campus in Charlottesville is consistently praised as one of the most beautiful in the country, with its historic Jeffersonian architecture frequently cited. Duke's East Campus is even described as 'UVA-inspired.' The JPA corridor is a well-known off-campus hub. However, some outlying areas like Copeley feel isolated from the main academic buildings.",
     "key_quotes": [
       "East Campus, which is UVA-inspired, is the freshman dorm campus at Duke",
       "Copeley — I don't want to be isolated from everything, assuming taking the buses would be fine",
       "UVA: top in most beautiful campuses"
     ],
-    "score": 8
+    "score": 8,
+    "key_points": [
+      "UVA's Jeffersonian architecture is consistently ranked among the most beautiful.",
+      "JPA corridor is the well-known off-campus student hub.",
+      "Outlying areas like Copeley feel isolated from main academic buildings."
+    ]
   },
   "career_outcomes": {
-    "summary": "UVA's McIntire School of Commerce is ranked highly for undergraduate business, and the school places well in consulting and finance recruiting. CS and engineering outcomes are seen as solid but not elite compared to pure tech schools. Pre-med students are warned that UVA's name matters less than GPA and med school admissions outcomes.",
     "key_quotes": [
       "Undergrad business programs: UVA tied for 7th with Cornell, UNC, CMU, and IU Bloomington",
       "Where you go for pre-med doesn't even matter as long as you have a high GPA and good recs",
       "UVA is one of the best educations you can get inside the US"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "McIntire places strongly in consulting and finance recruiting.",
+      "CS and engineering outcomes are solid but not elite tech-school level.",
+      "Pre-med students warned UVA's name matters less than GPA outcomes."
+    ]
   },
   "value_for_money": {
-    "summary": "For Virginia residents, UVA is considered an exceptional value — full need-met aid makes it competitive even against full-ride offers at lesser schools. Out-of-state students face a steeper calculus, with some choosing VT or W&M for cost reasons. The $59,906 annual tuition and fees for OOS students is a real barrier without significant aid.",
     "key_quotes": [
       "If I go to UVA, I would be getting in-state tuition and they will meet 100% of my demonstrated need",
       "UVA is a full ride for you — WAY more opportunities, WAY bigger, and WAY better",
       "I would pay around $20k more per year at UVA compared to GWU's scholarship offer"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "For Virginia residents, UVA offers exceptional value with full need-met aid.",
+      "Out-of-state students often choose VT or W&M for cost reasons.",
+      "OOS tuition at $59,906 annually is a real barrier without aid."
+    ]
   },
   "overall_vibe": {
-    "summary": "UVA projects a preppy, tradition-heavy culture that is beloved by its students but can feel unwelcoming to outsiders or students from different backgrounds. The school carries genuine prestige and strong alumni loyalty ('Wahoowa'). Students who fit the culture tend to be fiercely proud; those who don't may feel out of place.",
     "key_quotes": [
       "UVA, to me, just seems like a place that's riding on rank",
       "Wahoowa!",
       "I lived in Virginia my whole life but UVA was so preppy when I visited. I absolutely loved UNC though"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "UVA is preppy and tradition-heavy with fierce alumni loyalty.",
+      "Students who fit the culture tend to be passionately proud.",
+      "Those outside the culture may feel noticeably out of place."
+    ]
   },
   "red_flags": {
-    "summary": "A sexual assault case involving a fraternity received significant attention, with students criticizing the university's response as prioritizing reputation over student safety. The administration sent emails described as 'extremely impersonal' and focused on legal liability rather than student welfare. Academic suspension for substance abuse is a recurring issue with low appeal success rates.",
     "key_quotes": [
       "The University really isn't doing much other than covering its own ass. The President has sent out multiple emails, most of which feel extremely impersonal",
       "Universities are more willing to protect their reputation than their students",
       "Phi Psi hasn't been shut down — they voluntarily suspended themselves for the duration of the investigation"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Sexual assault: University response to fraternity case criticized as prioritizing reputation.",
+      "Administration: Emails after assault described as impersonal and liability-focused.",
+      "Academics: Substance abuse suspensions recur with low appeal success rates."
+    ]
   },
   "hidden_gems": {
-    "summary": "The Echols Scholars program offers a notable honors distinction that appears in multiple acceptance posts as a differentiator. The autonomous racing club (Cavalier Autonomous Racing) is an active and competitive engineering club that covers robotics, cars, and software. UVA's language placement test (PLACE) can exempt students from the foreign language requirement entirely if scored high enough, saving significant credits.",
     "key_quotes": [
       "Cavalier autonomous racing still very active — they have recruiting events every semester",
       "If you get above a 5.0 on the PLACE Spanish test you will be tested out of the language requirement entirely",
       "UVA EA accepted + Echols Scholar program"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Echols Scholars distinction appears repeatedly as a meaningful differentiator.",
+      "PLACE language test can exempt students from the foreign language requirement.",
+      "Cavalier Autonomous Racing club spans robotics, software, and competitive racing."
+    ]
   }
 }

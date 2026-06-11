@@ -1,119 +1,171 @@
 {
   "housing": {
-    "summary": "Housing at Alabama is reported to be tight, especially for students who commit late. Students are advised to lock in housing early after acceptance, and the enrollment deposit may be required before registering for a dorm. The nearest major airport is about an hour away, which can complicate travel for out-of-state students living on campus.",
     "key_quotes": [
       "I understand housing at both Auburn and Univ of Alabama is tight and one of the benefits of him getting his application in early is the benefit of being able to lock in housing",
       "Tuscaloosa is not an easy place to get to - flights are expensive, the nearest airport is an hour away",
       "he would need to pay the enrollment fee at Alabama to be allowed to register for housing"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Commit early or risk missing out on available dorms.",
+      "Enrollment deposit required before dorm registration.",
+      "Nearest major airport is an hour away."
+    ]
   },
   "social_life": {
-    "summary": "Greek life dominates the social scene at Alabama, making it difficult for non-Greeks, especially men, to find their social footing. The school has a strong party culture tied to football, which can be overwhelming or isolating for students not interested in that lifestyle. Students from urban backgrounds often feel trapped or out of place in Tuscaloosa.",
     "key_quotes": [
       "this school is really run by the Greek life. I'm a guy and I am not in a fraternity, which makes it hard to fit in socially",
       "okay i went to alabama and it was really hard to have real friends everyone just parties and doesn't care abt school",
       "I come from a suburb of a big metro area, and I miss living near a city. I used to do a lot in the city and now I feel a little trapped"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Greek life dominates; non-Greeks, especially men, struggle socially.",
+      "Football party culture can feel overwhelming or isolating.",
+      "Urban students often feel out of place in Tuscaloosa."
+    ]
   },
   "dining": {
-    "summary": "There is virtually no mention of dining hall quality or food options in the Reddit posts analyzed. This absence of data makes it difficult to assess, though no strong complaints surfaced either.",
     "key_quotes": [
       "No dining-specific quotes available in the dataset",
       "No dining-specific quotes available in the dataset",
       "No dining-specific quotes available in the dataset"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "No significant dining complaints surfaced in student posts.",
+      "Data too limited to assess food quality confidently.",
+      "Absence of feedback may suggest general indifference."
+    ]
   },
   "mental_health": {
-    "summary": "A few students mention struggling academically and emotionally at Alabama, including one who withdrew from a semester due to ADHD and another who described feeling trapped and unhappy. The social environment dominated by Greek life and partying can leave non-participants feeling isolated, which may contribute to mental health challenges.",
     "key_quotes": [
       "I just withdrew from this semester at the university of Alabama... I performed horribly due to my newly diagnosed ADHD",
       "I'm not loving it... I feel a little trapped",
       "I'm trapped in hell, and I can't leave because I'm not well monied"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Non-Greek students report feeling isolated and emotionally trapped.",
+      "Some students withdrew semesters due to ADHD and unhappiness.",
+      "Party-dominant culture leaves non-participants at higher risk."
+    ]
   },
   "financial_aid": {
-    "summary": "Alabama's merit scholarship program is one of the most celebrated aspects of the school, particularly for National Merit Finalists who can receive a full ride plus stipend for up to 5 years. The scholarship tiers are publicly published and automatic based on GPA and SAT scores, making it highly transparent and predictable. This is widely considered one of the best deals in American higher education for high-stat students.",
     "key_quotes": [
       "University of Alabama provides full ride + dorm + stipend for up to 5 years of college for NMF",
       "Bama is almost universally considered the best full-ride option",
       "Alabama is the number one school for enrolling National Merit Scholars in the 2022 entering class with 323 National Merit Scholars"
     ],
-    "score": 10
+    "score": 10,
+    "key_points": [
+      "National Merit Finalists can receive a full ride plus stipend.",
+      "Scholarship tiers are automatic and publicly published by GPA/SAT.",
+      "Widely considered one of the best merit aid deals nationally."
+    ]
   },
   "academics": {
-    "summary": "Academic quality at Alabama is described as solid but unspectacular, with the biggest weakness being limited research funding compared to peer institutions. The Honors College is frequently praised as a genuine differentiator, with selective programs like Randall Research Scholars and Blount Scholars offering elite experiences within the larger university. Department quality varies significantly, with engineering and business seen as reasonable, while research opportunities lag behind flagship peers.",
     "key_quotes": [
       "The biggest way they aren't on par with T100ish state schools? Research funding. If you look at the NSF's R&D measure they are 179th in the country",
       "programs like Blount Scholars, Randall Research Scholars, and UFE are more prestigious than most people know",
       "The Econ department is very business oriented over math/theoretical oriented. The English department is good, the same quality you'd find at any state university"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Honors College programs like Randall Scholars rival elite institutions.",
+      "Research funding lags significantly behind peer flagship universities.",
+      "Engineering and business are solid; research opportunities are limited."
+    ]
   },
   "administration": {
-    "summary": "Administrative experiences at Alabama are mixed. One student reported that Alabama's admissions office responded to inquiries with just a list of links rather than actual answers, suggesting impersonal or unhelpful communication. The scholarship office is described as strict about GPA requirements, with little flexibility even in edge cases like a 2.999 GPA. Overall, administration appears functional but not particularly student-friendly.",
     "key_quotes": [
       "they didn't actually respond to my inquiry and simply sent me a list of links to their website",
       "I currently have a 2.999 GPA and I'm on 'scholarship advisory' because it is not a 3.0 or above",
       "University of Alabama SGA President Arrested"
     ],
-    "score": 5
+    "score": 5,
+    "key_points": [
+      "Scholarship office is strict with little GPA flexibility.",
+      "Admissions inquiries often met with links, not real answers.",
+      "Administration functions adequately but is not student-friendly."
+    ]
   },
   "location_and_campus": {
-    "summary": "The campus itself is consistently described as beautiful, and students who tour it often fall in love with it immediately. However, Tuscaloosa as a city is seen as a major drawback for students from urban areas, with limited things to do outside of football and Greek events. The location is logistically inconvenient for out-of-state students, particularly those from the Northeast.",
     "key_quotes": [
       "Once you step foot on the Capstone, it's pretty much game over",
       "Bama is a college college, everything you see about American schools like fraternities and a huge college town is true there",
       "Tuscaloosa is not an easy place to get to - flights are expensive, the nearest airport is an hour away, and by car, it's 17 hours"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Campus is widely described as beautiful and immediately impressive.",
+      "Tuscaloosa offers little outside football and Greek events.",
+      "Logistically inconvenient for out-of-state students, especially from Northeast."
+    ]
   },
   "career_outcomes": {
-    "summary": "Career outcomes at Alabama are generally described as solid, particularly in engineering and business, with notable recruiter relationships such as Lockheed Martin. The former CEO of Lockheed Martin is an alumnus, and Alabama students reportedly did well at a Lockheed recruiting event. For most fields, employers care more about skills and GPA than the Alabama name, though it lacks the prestige network of top-tier schools.",
     "key_quotes": [
       "Alabama students did quite well at a Lockheed Martin recruiting event... 85 job/internship offers",
       "After you get your first job in engineering, all they care about is that you can do the work",
       "He ended up attending Columbia Med"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Engineering and business have strong recruiter relationships like Lockheed.",
+      "Skills and GPA matter more than the Alabama name.",
+      "Lacks prestige alumni network of top-tier schools."
+    ]
   },
   "value_for_money": {
-    "summary": "For high-stat students who qualify for significant merit aid, Alabama offers arguably the best value in American higher education, with full rides covering tuition, room, board, and even a stipend. Even students admitted to Ivies and elite schools frequently choose Alabama specifically for financial reasons, and the decision is widely validated by Reddit commenters. The value proposition drops sharply for students who don't qualify for substantial merit aid.",
     "key_quotes": [
       "Found another one! $200k for free is hard to turn down, isn't it? Those T20s can off themselves for all I care",
       "Alabama full ride, hands down. They'll even pay tuition for a 5th year, you can get your masters too for free",
       "As someone with student debt, I wish I could impart how awesome going to college for free is for students' futures"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "Full rides with stipends make Alabama a top value school.",
+      "High-stat students frequently choose Alabama over Ivies for finances.",
+      "Value drops sharply without significant merit aid qualification."
+    ]
   },
   "overall_vibe": {
-    "summary": "Alabama has a distinct, strong identity centered on football, Greek life, and Southern culture that students either love or find suffocating. Students who thrive there tend to embrace the traditional college experience, while those from urban, LGBTQ+, or academically intense backgrounds may struggle to find their community. The school is in the middle of a reputation transformation, attracting more high-achieving students through scholarships while still carrying its party school image.",
     "key_quotes": [
       "It's just the reputation of it being a southern party school with Greek life and sports; while that is a true reputation, people don't realize that Bama is much more than that",
       "I noticed an extreme shift in culture",
       "Bama is a college college, everything you see about American schools like fraternities and a huge college town is true there"
     ],
-    "score": 6
+    "score": 6,
+    "key_points": [
+      "Football, Greek life, and Southern culture define Alabama's identity.",
+      "LGBTQ+ and urban students may struggle to find community.",
+      "School is attracting more high-achievers while shedding party school image."
+    ]
   },
   "red_flags": {
-    "summary": "Several concerning issues emerge from the data: the sexual assault statistics were noted as 30% higher than peer institutions by UA's own student paper, the social environment can be deeply isolating for non-Greek students and LGBTQ+ individuals in a Southern conservative context, and the administration has received criticism for being unresponsive. The dominance of Greek life in the social hierarchy and the SGA president arrest also signal potential governance and culture issues.",
     "key_quotes": [
       "The University of Alabama has had 30 percent more sexual assaults occurring on campus than peer institutions",
       "I've experienced an intense amount of social backlash for it... I've never felt home in the South",
       "this school is really run by the Greek life... which makes it hard to fit in socially"
     ],
-    "score": 7
+    "score": 7,
+    "key_points": [
+      "Safety: Sexual assault rates 30% higher than peer institutions per UA's own paper.",
+      "Culture: LGBTQ+ and non-Greek students face deep social isolation.",
+      "Governance: SGA president arrest and unresponsive administration signal systemic issues."
+    ]
   },
   "hidden_gems": {
-    "summary": "The Honors College at Alabama contains several elite programs that are largely unknown outside the school, including the Randall Research Scholars Program, Blount Scholars, and the University Fellows Experience, which rival opportunities at much more prestigious institutions. The university also allows National Merit Scholars to pursue an accelerated master's degree within their 5-year scholarship window, essentially getting a graduate degree for free. These programs create a genuine elite academic community within the larger party school context.",
     "key_quotes": [
       "programs like Blount Scholars, Randall Research Scholars, and UFE are more prestigious than most people know",
       "They'll even pay tuition for a 5th year, you can get your masters too for free",
       "Have you investigated the special programs at Alabama offered through the Honors College? They're genuinely impressive"
     ],
-    "score": 9
+    "score": 9,
+    "key_points": [
+      "Randall Scholars and Blount Scholars rival elite institutional opportunities.",
+      "National Merit Scholars can earn a free master's within five years.",
+      "A genuine elite academic community exists within the larger university."
+    ]
   }
 }

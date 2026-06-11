@@ -70,27 +70,32 @@ SYSTEM_PROMPT = (
 OUTPUT_SCHEMA = """\
 Return ONLY a valid JSON object (no markdown, no explanation) with this exact structure:
 {
-  "housing": {"summary": "2-3 sentence summary", "key_quotes": ["quote1", "quote2", "quote3"], "score": 7},
-  "social_life": {"summary": "...", "key_quotes": [...], "score": 7},
-  "dining": {"summary": "...", "key_quotes": [...], "score": 7},
-  "mental_health": {"summary": "...", "key_quotes": [...], "score": 7},
-  "financial_aid": {"summary": "...", "key_quotes": [...], "score": 7},
-  "academics": {"summary": "...", "key_quotes": [...], "score": 7},
-  "administration": {"summary": "...", "key_quotes": [...], "score": 7},
-  "location_and_campus": {"summary": "...", "key_quotes": [...], "score": 7},
-  "career_outcomes": {"summary": "...", "key_quotes": [...], "score": 7},
-  "value_for_money": {"summary": "...", "key_quotes": [...], "score": 7},
-  "overall_vibe": {"summary": "...", "key_quotes": [...], "score": 7},
-  "red_flags": {"summary": "...", "key_quotes": [...], "score": 3},
-  "hidden_gems": {"summary": "...", "key_quotes": [...], "score": 7}
+  "housing": {"key_points": ["point1", "point2", "point3"], "key_quotes": ["quote1", "quote2", "quote3"], "score": 7},
+  "social_life": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "dining": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "mental_health": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "financial_aid": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "academics": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "administration": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "location_and_campus": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "career_outcomes": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "value_for_money": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "overall_vibe": {"key_points": [...], "key_quotes": [...], "score": 7},
+  "red_flags": {"key_points": [...], "key_quotes": [...], "score": 3},
+  "hidden_gems": {"key_points": [...], "key_quotes": [...], "score": 7}
 }
-Each category must have a "summary" (2-3 sentences), "key_quotes" (2-3 short direct quotes from the data), \
-and a "score" from 1-10:
-- 1-3 = poor, consistent complaints
-- 4-5 = mixed, notable issues
-- 6-7 = good, mostly positive
-- 8-10 = excellent, strong praise
-For "red_flags", the score scale is reversed: 10 = very serious concerns, 1 = minimal concerns."""
+Each category must have:
+- "key_points": exactly 3 short, punchy bullet points (max 12 words each), most important insight \
+first, written so someone can scan the whole page in 60 seconds
+- "key_quotes": 2-3 short direct quotes from the data
+- "score": an integer from 1-10:
+  - 1-3 = poor, consistent complaints
+  - 4-5 = mixed, notable issues
+  - 6-7 = good, mostly positive
+  - 8-10 = excellent, strong praise
+For "red_flags", the score scale is reversed (10 = very serious concerns, 1 = minimal concerns), and each \
+key_point must start with a bold category keyword and a colon, e.g. \
+"Housing: students assigned to inactive dorms with no notice"."""
 
 
 def format_posts(posts: list) -> str:
