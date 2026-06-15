@@ -56,30 +56,23 @@ export function SectionLabel({ text, color }: { text: string; color: string }) {
   );
 }
 
-export function QuoteRow({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
+function CompactQuote({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
   return (
     <div
-      className="p-3 rounded-lg"
+      className="rounded-lg"
       style={{
+        padding: "8px 10px",
         backgroundColor: "#F7F7F7",
         border: "1px solid rgba(0,0,0,0.06)",
         borderLeft: `3px solid ${accentColor}`,
       }}
     >
-      <div className="flex items-start gap-2">
-        <span style={{ color: accentColor, fontSize: "9px", marginTop: "3px", flexShrink: 0 }}>▲</span>
-        <div>
-          <span className="text-[10px] font-bold tracking-wide" style={{ color: `${accentColor}cc` }}>
-            u/{quoteUsername(seed)}
-          </span>
-          <p
-            className="text-[12px] leading-relaxed mt-1 italic"
-            style={{ color: "#333333", fontFamily: "Georgia, serif" }}
-          >
-            &ldquo;{quote}&rdquo;
-          </p>
-        </div>
-      </div>
+      <p className="text-[12px] leading-relaxed italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
+        &ldquo;{quote}&rdquo;{" "}
+        <span className="not-italic font-bold" style={{ color: "#999999" }}>
+          — u/{quoteUsername(seed)}
+        </span>
+      </p>
     </div>
   );
 }
@@ -142,6 +135,13 @@ export function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
   cardIndex: number;
   primaryColor: string;
 }) {
+  const topQuote = data.key_quotes
+    .map((quote, i) => {
+      const seed = cardIndex * 7 + i * 3;
+      return { quote, seed, upvotes: fakeUpvotes(seed, quote) };
+    })
+    .sort((a, b) => b.upvotes - a.upvotes)[0];
+
   return (
     <div
       className="cat-card flex flex-col gap-4 p-6 rounded-xl bg-white"
@@ -172,11 +172,7 @@ export function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
       </div>
       <ScoreBar score={data.score} />
       <BulletList points={data.key_points} dotColor={primaryColor} textColor="#444444" />
-      <div className="flex flex-col gap-2 mt-1">
-        {data.key_quotes.map((quote, i) => (
-          <QuoteRow key={i} quote={quote} seed={cardIndex * 7 + i * 3} accentColor={primaryColor} />
-        ))}
-      </div>
+      {topQuote && <CompactQuote quote={topQuote.quote} seed={topQuote.seed} accentColor={primaryColor} />}
     </div>
   );
 }
