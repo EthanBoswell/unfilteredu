@@ -13,7 +13,7 @@ from scrape_and_summarize_all import (
     summarize_school,
 )
 
-DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
+DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "frontend", "data"))
 
 SCHOOL_DELAY_SECONDS = 15
 MAX_RETRIES = 5

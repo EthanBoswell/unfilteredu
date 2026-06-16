@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from scrape_and_summarize_all import summarize_school
 from scrape_reddit_direct import scrape_school_direct
 
-DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
+DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "frontend", "data"))
 
 
 def main():

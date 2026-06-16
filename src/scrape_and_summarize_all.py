@@ -179,7 +179,7 @@ def summarize_school(school: dict, raw_path: str, data_dir: str) -> str:
 
 
 def main():
-    data_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
+    data_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "frontend", "data"))
     os.makedirs(data_dir, exist_ok=True)
 
     total = len(SCHOOLS)
