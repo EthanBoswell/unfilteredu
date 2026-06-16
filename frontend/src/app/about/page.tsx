@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Nav from "@/components/Nav";
+import Wordmark from "@/components/Wordmark";
 import { getAvailableSlugs } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -16,37 +17,41 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#EFEFED]">
-      <Navbar />
+    <div className="min-h-screen" style={{ background: "#F5F4EF" }}>
+      <Nav />
 
       {/* Hero */}
-      <section
-        className="pt-16 pb-20 px-6"
-        style={{ background: "linear-gradient(180deg, #1A1612 0%, #2C3E2D 100%)" }}
-      >
-        <div className="max-w-3xl mx-auto">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="h-px w-8" style={{ background: "#4A7C59" }} />
-            <span
-              className="text-[10px] font-bold uppercase tracking-[0.2em]"
-              style={{ color: "#4A7C59" }}
-            >
-              Our Story
-            </span>
-          </div>
+      <section className="px-8 pt-16 pb-0">
+        <div className="mx-auto max-w-[720px]">
+          <p
+            className="text-[11px] font-bold uppercase mb-4"
+            style={{
+              fontFamily: "Inter, sans-serif",
+              letterSpacing: "0.12em",
+              color: "#999",
+            }}
+          >
+            Our Story
+          </p>
           <h1
-            className="font-[family-name:var(--font-display)] font-bold text-white leading-tight"
-            style={{ fontSize: "clamp(2rem, 6vw, 4rem)", letterSpacing: "-0.02em" }}
+            style={{
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+              fontWeight: 800,
+              fontSize: "clamp(2rem, 6vw, 4rem)",
+              letterSpacing: "-0.02em",
+              color: "#0F0F0F",
+              lineHeight: 1.1,
+            }}
           >
             About UnfilteredU
           </h1>
-          <div className="mt-5 h-px w-12" style={{ background: "#4A7C59" }} />
+          <div className="mt-5 w-12 h-px" style={{ background: "#e0ddd6" }} />
         </div>
       </section>
 
       {/* Main content */}
-      <section className="bg-[#EFEFED] py-16 px-6">
-        <div className="max-w-[680px] mx-auto">
+      <section className="px-8 pt-16 pb-0">
+        <div className="mx-auto max-w-[720px]">
 
           {/* Headshot */}
           <div className="flex justify-center mb-12">
@@ -55,29 +60,85 @@ export default function AboutPage() {
               alt="Ethan Boswell"
               width={150}
               height={150}
-              className="rounded-full object-cover border border-black/10"
-              style={{ width: 150, height: 150 }}
+              className="rounded-full object-cover"
+              style={{ width: 150, height: 150, border: "1px solid rgba(0,0,0,0.08)" }}
             />
           </div>
 
-          <div className="space-y-5 text-[#444444] leading-relaxed text-base font-light">
-            <p className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-xl leading-snug">
-              Built by a student who learned the hard way.
-            </p>
-            <p>
+          {/* Heading */}
+          <p
+            className="mb-2"
+            style={{
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+              fontWeight: 800,
+              fontSize: 20,
+              color: "#0F0F0F",
+              letterSpacing: "-0.02em",
+              lineHeight: 1.25,
+            }}
+          >
+            Built by a student who learned the hard way.
+          </p>
+
+          {/* Body paragraphs */}
+          <div className="flex flex-col gap-5">
+            <p
+              style={{
+                fontFamily: "Inter, sans-serif",
+                fontWeight: 400,
+                fontSize: 16,
+                color: "#444",
+                lineHeight: 1.7,
+              }}
+            >
               My college journey didn&rsquo;t go as planned. I transferred twice, and along the way I experienced firsthand the gap between what schools promise and what they deliver. What hurt me most wasn&rsquo;t my own experience — it was watching students around me just make the best of it. Already financially invested. Already committed. With no real way out. Nobody told them what they were walking into. There was no honest resource. Just YouTube tours, glossy brochures, and Reddit threads you had to dig through alone at 2am.
             </p>
-            <p>So I built the tool I wish existed.</p>
-            <p>
+            <p
+              style={{
+                fontFamily: "Inter, sans-serif",
+                fontWeight: 400,
+                fontSize: 16,
+                color: "#444",
+                lineHeight: 1.7,
+              }}
+            >
+              So I built the tool I wish existed.
+            </p>
+            <p
+              style={{
+                fontFamily: "Inter, sans-serif",
+                fontWeight: 400,
+                fontSize: 16,
+                color: "#444",
+                lineHeight: 1.7,
+              }}
+            >
               UnfilteredU aggregates thousands of real student opinions from Reddit and uses AI to surface what students actually say about housing, dining, social life, mental health, financial aid, and academics. No marketing. No sponsored content. No tours. Just the truth.
             </p>
-            <p>
+            <p
+              style={{
+                fontFamily: "Inter, sans-serif",
+                fontWeight: 400,
+                fontSize: 16,
+                color: "#444",
+                lineHeight: 1.7,
+              }}
+            >
               I&rsquo;m a CS student who built this in between classes, tournaments, and late nights because I couldn&rsquo;t stop thinking about every student making one of the biggest decisions of their life based on a campus tour and a brochure. The information gap is real — and the students on the other side of it deserve better.
             </p>
           </div>
 
-          <div className="mt-10 pt-8 border-t border-black/10">
-            <p className="font-[family-name:var(--font-display)] font-bold text-[#111111] text-sm italic">
+          {/* Signature */}
+          <div className="mt-10 pt-8" style={{ borderTop: "1px solid #e0ddd6" }}>
+            <p
+              style={{
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontWeight: 800,
+                fontSize: 14,
+                fontStyle: "italic",
+                color: "#0F0F0F",
+              }}
+            >
               — Ethan Boswell, Founder. JMU Student Athlete.
             </p>
           </div>
@@ -85,18 +146,37 @@ export default function AboutPage() {
       </section>
 
       {/* Mission stats */}
-      <section className="py-16 px-6 border-t border-black/10" style={{ background: "#E8E0D4" }}>
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-black/10">
-            {MISSION_STATS.map(({ value, label }) => (
-              <div key={value} className="px-8 first:pl-0 last:pr-0 py-8 sm:py-0">
+      <section className="px-8 py-[72px]">
+        <div className="mx-auto max-w-[720px]">
+          <div
+            className="rounded-xl p-8 grid grid-cols-1 sm:grid-cols-2 sm:divide-x"
+            style={{
+              background: "#fff",
+              border: "1px solid #e8e8e2",
+              borderRadius: 12,
+              divideColor: "#e8e8e2",
+            }}
+          >
+            {MISSION_STATS.map(({ value, label }, i) => (
+              <div key={value} className={i > 0 ? "pt-8 sm:pt-0 sm:pl-8" : ""}>
                 <p
-                  className="font-[family-name:var(--font-display)] font-bold text-[#111111] leading-none mb-2"
-                  style={{ fontSize: "clamp(2rem, 4vw, 3rem)", letterSpacing: "-0.03em" }}
+                  className="leading-none mb-2"
+                  style={{
+                    fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                    fontWeight: 800,
+                    fontSize: "clamp(2rem, 4vw, 3rem)",
+                    letterSpacing: "-0.03em",
+                    color: "#0F0F0F",
+                  }}
                 >
                   {value}
                 </p>
-                <p className="text-xs text-[#444444] font-light tracking-wide">{label}</p>
+                <p
+                  className="text-[13px]"
+                  style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
+                >
+                  {label}
+                </p>
               </div>
             ))}
           </div>
@@ -104,26 +184,17 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-10 px-6 border-t" style={{ background: "#1A1612", borderColor: "rgba(255,255,255,0.05)" }}>
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5">
-            <div
-              className="w-6 h-6 rounded flex items-center justify-center text-xs font-black font-[family-name:var(--font-display)]"
-              style={{ background: "#2C3E2D", color: "#E8E0D4" }}
-            >
-              U
-            </div>
-            <span className="font-bold text-sm font-[family-name:var(--font-display)]" style={{ color: "#E8E0D4" }}>
-              UnfilteredU
-            </span>
-          </div>
-          <p className="text-sm text-center font-light" style={{ color: "rgba(232,224,212,0.3)" }}>
-            Real opinions. Real students. No filter.
-          </p>
-          <p className="text-xs font-light" style={{ color: "rgba(232,224,212,0.15)" }}>
-            Not affiliated with any university.
-          </p>
-        </div>
+      <footer
+        className="flex items-center justify-between px-8 py-5"
+        style={{ background: "#0F0F0F", borderTop: "1px solid #1a1a1a" }}
+      >
+        <Wordmark size={15} dark />
+        <span
+          className="text-[11px]"
+          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
+        >
+          Not affiliated with any university
+        </span>
       </footer>
     </div>
   );
