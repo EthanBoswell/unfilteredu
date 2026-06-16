@@ -1,534 +1,493 @@
-import type { CSSProperties } from "react";
-import type { CategoryData, Summary } from "@/lib/schools";
+"use client";
 
-const FAKE_USERNAMES = [
-  "anon_student", "college_bound_24", "reddit_lurker99", "freshman_vibes",
-  "campus_insider", "honest_review", "student_life_real", "dorm_dweller",
-  "late_night_study", "quad_walker", "first_gen_student", "transfer_tales",
-];
+import { useState } from "react";
 
-export function quoteUsername(seed: number): string {
-  return FAKE_USERNAMES[((seed % FAKE_USERNAMES.length) + FAKE_USERNAMES.length) % FAKE_USERNAMES.length];
+export type Sentiment = "positive" | "mixed" | "concern";
+
+export interface TopicData {
+  id: string;
+  label: string;
+  sentiment: Sentiment;
+  sentimentLabel: string;
+  tagline: string;
+  summary: string;
+  quotes: Array<{ text: string; author: string }>;
 }
 
-export function fakeUpvotes(seed: number, text: string): number {
-  return 300 + ((seed * 211 + text.length * 37) % 1300);
+export interface SchoolProfileProps {
+  name: string;
+  location: string;
+  accent: string;
+  accentLight: string;
+  accentText: string;
+  postsAnalyzed: number;
+  lastUpdated: string;
+  heroQuote: string;
+  heroAuthor: string;
+  verdict: {
+    bestFor: string;
+    watchOut: string;
+    bottomLine: string;
+  };
+  topics: TopicData[];
 }
 
-export const GRID_CATEGORIES: Array<{ key: keyof Summary; label: string; icon: string }> = [
-  { key: "housing",             label: "Housing",             icon: "🏠" },
-  { key: "social_life",         label: "Social Life",         icon: "🎉" },
-  { key: "dining",               label: "Dining",              icon: "🍽️" },
-  { key: "mental_health",       label: "Mental Health",       icon: "🧠" },
-  { key: "financial_aid",       label: "Financial Aid",       icon: "💰" },
-  { key: "academics",           label: "Academics",           icon: "📚" },
-  { key: "administration",      label: "Administration",      icon: "🏛️" },
-  { key: "location_and_campus", label: "Location & Campus",   icon: "📍" },
-  { key: "career_outcomes",     label: "Career Outcomes",     icon: "💼" },
-  { key: "value_for_money",     label: "Value for Money",     icon: "💵" },
-];
+const SENTIMENT_CONFIG: Record<Sentiment, { color: string; bg: string; icon: string }> = {
+  positive: { color: "#16a34a", bg: "#f0fdf4", icon: "↑" },
+  mixed:    { color: "#d97706", bg: "#fffbeb", icon: "~" },
+  concern:  { color: "#dc2626", bg: "#fef2f2", icon: "↓" },
+};
 
-export function scoreColor(score: number): string {
-  if (score <= 3) return "#D62839";
-  if (score <= 6) return "#EF9F27";
-  return "#3BB273";
-}
+function TopicCard({
+  topic,
+  isOpen,
+  onToggle,
+  accent,
+}: {
+  topic: TopicData;
+  isOpen: boolean;
+  onToggle: () => void;
+  accent: string;
+}) {
+  const s = SENTIMENT_CONFIG[topic.sentiment];
 
-export function ScoreBar({ score, trackColor = "rgba(0,0,0,0.08)" }: { score: number; trackColor?: string }) {
-  return (
-    <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: trackColor }}>
-      <div
-        className="h-full rounded-full"
-        style={{ width: `${Math.max(0, Math.min(10, score)) * 10}%`, background: scoreColor(score) }}
-      />
-    </div>
-  );
-}
-
-export function SectionLabel({ text, color }: { text: string; color: string }) {
-  return (
-    <div className="flex items-center gap-2.5 mb-5">
-      <span style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: color, borderRadius: "2px", flexShrink: 0 }} />
-      <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "#777777" }}>
-        {text}
-      </p>
-    </div>
-  );
-}
-
-function CompactQuote({ quote, seed, accentColor }: { quote: string; seed: number; accentColor: string }) {
   return (
     <div
-      className="rounded-lg"
       style={{
-        padding: "8px 10px",
-        backgroundColor: "#F7F7F7",
-        border: "1px solid rgba(0,0,0,0.06)",
-        borderLeft: `3px solid ${accentColor}`,
+        border: `1.5px solid ${isOpen ? "#111" : "#e5e7eb"}`,
+        borderRadius: 12,
+        overflow: "hidden",
+        background: "#fff",
+        transition: "border-color 0.2s",
       }}
     >
-      <p className="text-[12px] leading-relaxed italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
-        &ldquo;{quote}&rdquo;{" "}
-        <span className="not-italic font-bold" style={{ color: "#999999" }}>
-          — u/{quoteUsername(seed)}
-        </span>
-      </p>
-    </div>
-  );
-}
-
-export function BulletList({
-  points, dotColor, textColor = "#444444", textClassName = "text-sm leading-relaxed",
-}: {
-  points: string[];
-  dotColor: string;
-  textColor?: string;
-  textClassName?: string;
-}) {
-  return (
-    <ul className="flex flex-col gap-2">
-      {points.map((point, i) => (
-        <li key={i} className={`flex items-start gap-2.5 ${textClassName}`} style={{ color: textColor, fontFamily: "Georgia, serif" }}>
-          <span className="shrink-0 mt-[9px] rounded-full" style={{ width: "6px", height: "6px", background: dotColor }} />
-          <span>{point}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-export function ScoreOverviewBar({ summary }: { summary: Summary }) {
-  return (
-    <div style={{ background: "#1A1612" }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-        <p className="text-[10px] tracking-[0.2em] uppercase mb-5" style={{ color: "#C4B89A" }}>
-          Score Overview
-        </p>
-        <div className="flex gap-4 overflow-x-auto pb-1">
-          {GRID_CATEGORIES.map(({ key, label }) => {
-            const score = summary[key].score;
-            return (
-              <div key={key} className="flex flex-col items-center gap-2 shrink-0" style={{ width: "82px" }}>
-                <span
-                  className="text-[8px] font-bold tracking-wide uppercase text-center leading-tight h-6 flex items-center"
-                  style={{ color: "#C4B89A" }}
-                >
-                  {label}
-                </span>
-                <ScoreBar score={score} trackColor="rgba(255,255,255,0.08)" />
-                <span className="text-base font-black" style={{ color: scoreColor(score), fontFamily: "Georgia, serif" }}>
-                  {score}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export function CategoryCard({ icon, label, data, cardIndex, primaryColor }: {
-  icon: string;
-  label: string;
-  data: CategoryData;
-  cardIndex: number;
-  primaryColor: string;
-}) {
-  const topQuote = data.key_quotes
-    .map((quote, i) => {
-      const seed = cardIndex * 7 + i * 3;
-      return { quote, seed, upvotes: fakeUpvotes(seed, quote) };
-    })
-    .sort((a, b) => b.upvotes - a.upvotes)[0];
-
-  return (
-    <div
-      className="cat-card flex flex-col gap-4 p-6 rounded-xl bg-white"
-      style={{
-        border: "1px solid rgba(0,0,0,0.08)",
-        "--glow-border": `${primaryColor}40`,
-        "--glow-shadow": `${primaryColor}18`,
-      } as CSSProperties}
-    >
-      <div className="flex items-center justify-between gap-3">
-        <div className="flex items-center gap-3">
-          <div
-            className="w-9 h-9 flex items-center justify-center text-lg rounded-xl shrink-0"
-            style={{ backgroundColor: `${primaryColor}18` }}
-          >
-            {icon}
-          </div>
-          <span
-            className="text-[11px] font-bold tracking-[0.18em] uppercase"
-            style={{ color: primaryColor }}
-          >
-            {label}
-          </span>
-        </div>
-        <span className="text-sm font-black shrink-0" style={{ color: scoreColor(data.score), fontFamily: "Georgia, serif" }}>
-          {data.score}/10
-        </span>
-      </div>
-      <ScoreBar score={data.score} />
-      <BulletList points={data.key_points} dotColor={primaryColor} textColor="#444444" />
-      {topQuote && <CompactQuote quote={topQuote.quote} seed={topQuote.seed} accentColor={primaryColor} />}
-    </div>
-  );
-}
-
-/* ───────────────────────── Section 2 — Vibe Check ───────────────────────── */
-
-function VibeCard({ children }: { children: React.ReactNode }) {
-  return (
-    <div
-      className="flex flex-col gap-4 p-6 rounded-xl"
-      style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
-    >
-      {children}
-    </div>
-  );
-}
-
-function VibeCardLabel({ icon, text }: { icon: string; text: string }) {
-  return (
-    <div className="flex items-center gap-2">
-      <span className="text-base">{icon}</span>
-      <span className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "#C4B89A" }}>{text}</span>
-    </div>
-  );
-}
-
-function ProgressRing({ percent, color, size = 128, stroke = 10 }: { percent: number; color: string; size?: number; stroke?: number }) {
-  const radius = (size - stroke) / 2;
-  const circumference = 2 * Math.PI * radius;
-  const clamped = Math.max(0, Math.min(100, percent));
-  const offset = circumference * (1 - clamped / 100);
-  return (
-    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
-      <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth={stroke} />
-      <circle
-        cx={size / 2}
-        cy={size / 2}
-        r={radius}
-        fill="none"
-        stroke={color}
-        strokeWidth={stroke}
-        strokeDasharray={circumference}
-        strokeDashoffset={offset}
-        strokeLinecap="round"
-        transform={`rotate(-90 ${size / 2} ${size / 2})`}
-      />
-      <text
-        x="50%"
-        y="50%"
-        textAnchor="middle"
-        dy="0.35em"
-        fill="#F5F1EB"
-        fontSize={size * 0.22}
-        fontWeight={900}
-        fontFamily="Georgia, serif"
+      <button
+        onClick={onToggle}
+        style={{
+          width: "100%",
+          padding: "18px 20px",
+          display: "flex",
+          alignItems: "center",
+          gap: 14,
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          textAlign: "left",
+        }}
       >
-        {Math.round(clamped)}%
-      </text>
-    </svg>
-  );
-}
-
-function SocialSceneCard({ social }: { social: CategoryData }) {
-  const percent = social.score * 10;
-  const color = scoreColor(social.score);
-  return (
-    <VibeCard>
-      <VibeCardLabel icon="🎉" text="Social Scene" />
-      <div className="flex justify-center py-1">
-        <ProgressRing percent={percent} color={color} />
-      </div>
-      <div className="flex flex-col gap-2.5">
-        <div className="flex items-center gap-2.5">
-          <span className="rounded-full shrink-0" style={{ width: "8px", height: "8px", background: color }} />
-          <span className="text-xs" style={{ color: "#E8E0D4" }}>
-            Social life score: <strong>{social.score}/10</strong>
-          </span>
-        </div>
-        <div className="flex items-start gap-2.5">
-          <span className="rounded-full shrink-0 mt-1" style={{ width: "8px", height: "8px", background: "#C4B89A" }} />
-          <span className="text-xs leading-relaxed" style={{ color: "#C4B89A" }}>
-            {social.key_points[0]}
-          </span>
-        </div>
-      </div>
-    </VibeCard>
-  );
-}
-
-function CampusVibeCard({ academics }: { academics: CategoryData }) {
-  return (
-    <VibeCard>
-      <VibeCardLabel icon="📚" text="Campus Vibe" />
-      <p className="text-xs leading-relaxed" style={{ color: "#C4B89A" }}>
-        {academics.key_points[0]}
-      </p>
-      <div className="flex-1 flex flex-col justify-end gap-2">
-        <input
-          type="range"
-          min={0}
-          max={10}
-          step={1}
-          value={academics.score}
-          disabled
-          readOnly
-          className="w-full"
-          style={{ accentColor: scoreColor(academics.score) }}
-        />
-        <div className="flex justify-between text-[9px] font-bold tracking-[0.15em] uppercase" style={{ color: "#E8E0D4" }}>
-          <span>Grind culture</span>
-          <span>Collaborative</span>
-        </div>
-      </div>
-    </VibeCard>
-  );
-}
-
-function BarRow({ label, score }: { label: string; score: number }) {
-  const color = scoreColor(score);
-  return (
-    <div className="flex flex-col gap-1.5">
-      <div className="flex items-center justify-between">
-        <span className="text-[11px] font-bold tracking-wide" style={{ color: "#E8E0D4" }}>{label}</span>
-        <span className="text-[11px] font-black" style={{ color, fontFamily: "Georgia, serif" }}>
-          {(score / 2).toFixed(1)}/5
-        </span>
-      </div>
-      <div className="w-full rounded-full overflow-hidden" style={{ height: "6px", background: "rgba(255,255,255,0.08)" }}>
         <div
-          className="h-full rounded-full"
-          style={{ width: `${Math.max(0, Math.min(10, score)) * 10}%`, background: color }}
-        />
-      </div>
-    </div>
-  );
-}
-
-function AdminRatingCard({ summary }: { summary: Summary }) {
-  const rows: Array<{ label: string; key: keyof Summary }> = [
-    { label: "Financial Aid", key: "financial_aid" },
-    { label: "Academics", key: "academics" },
-    { label: "Administration", key: "administration" },
-    { label: "Housing", key: "housing" },
-  ];
-  return (
-    <VibeCard>
-      <VibeCardLabel icon="🏛️" text="Admin Rating" />
-      <div className="flex flex-col gap-4 flex-1 justify-center">
-        {rows.map(({ label, key }) => (
-          <BarRow key={key} label={label} score={summary[key].score} />
-        ))}
-      </div>
-    </VibeCard>
-  );
-}
-
-export function VibeCheckGrid({ summary }: { summary: Summary }) {
-  return (
-    <div style={{ background: "#1A1612" }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <p className="text-[10px] tracking-[0.2em] uppercase mb-5" style={{ color: "#C4B89A" }}>
-          Vibe Check
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <SocialSceneCard social={summary.social_life} />
-          <CampusVibeCard academics={summary.academics} />
-          <AdminRatingCard summary={summary} />
+          style={{
+            width: 36,
+            height: 36,
+            borderRadius: 8,
+            background: s.bg,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 15,
+            fontWeight: 800,
+            color: s.color,
+            flexShrink: 0,
+          }}
+        >
+          {s.icon}
         </div>
-      </div>
-    </div>
-  );
-}
 
-/* ───────────────────────── Section 3 — Pros & Cons ───────────────────────── */
-
-function ProsConsCard({ point, quote, accentColor, isFlag = false }: {
-  point: string;
-  quote?: string;
-  accentColor: string;
-  isFlag?: boolean;
-}) {
-  const colonIndex = isFlag ? point.indexOf(":") : -1;
-  const title = colonIndex !== -1 ? point.slice(0, colonIndex).trim() : point;
-  const rest = colonIndex !== -1 ? point.slice(colonIndex + 1).trim() : null;
-
-  return (
-    <div
-      className="flex flex-col gap-2 p-5 rounded-xl bg-white"
-      style={{ border: "1px solid rgba(0,0,0,0.08)", borderLeft: `4px solid ${accentColor}` }}
-    >
-      <h3 className="font-bold text-sm" style={{ color: "#1A1612", fontFamily: "Georgia, serif" }}>
-        {title}
-      </h3>
-      {rest && (
-        <p className="text-sm leading-relaxed" style={{ color: "#444444", fontFamily: "Georgia, serif" }}>
-          {rest}
-        </p>
-      )}
-      {quote && (
-        <p className="text-[12px] leading-relaxed italic mt-1" style={{ color: "#888888", fontFamily: "Georgia, serif" }}>
-          &ldquo;{quote}&rdquo;
-        </p>
-      )}
-    </div>
-  );
-}
-
-export function ProsConsSection({ summary }: { summary: Summary }) {
-  const gems = summary.hidden_gems;
-  const flags = summary.red_flags;
-
-  return (
-    <div style={{ background: "#EFEFED" }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div>
-            <SectionLabel text="What Reddit Loves" color="#3BB273" />
-            <div className="flex flex-col gap-3">
-              {gems.key_points.map((point, i) => (
-                <ProsConsCard key={i} point={point} quote={gems.key_quotes[i]} accentColor="#3BB273" />
-              ))}
-            </div>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2, flexWrap: "wrap" }}>
+            <span
+              style={{
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontWeight: 700,
+                fontSize: 15,
+                color: "#111",
+              }}
+            >
+              {topic.label}
+            </span>
+            <span
+              style={{
+                fontSize: 11,
+                fontWeight: 600,
+                color: s.color,
+                background: s.bg,
+                padding: "2px 8px",
+                borderRadius: 20,
+                whiteSpace: "nowrap",
+              }}
+            >
+              {topic.sentimentLabel}
+            </span>
           </div>
-          <div>
-            <div className="flex items-center justify-between mb-5">
-              <div className="flex items-center gap-2.5">
-                <span style={{ display: "inline-block", width: "3px", height: "14px", backgroundColor: "#D62839", borderRadius: "2px", flexShrink: 0 }} />
-                <p className="text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "#777777" }}>
-                  The Realities
-                </p>
-              </div>
-              <span className="text-[10px] font-bold tracking-[0.15em] uppercase" style={{ color: "#D62839" }}>
-                Severity {flags.score}/10
-              </span>
-            </div>
-            <div className="flex flex-col gap-3">
-              {flags.key_points.map((point, i) => (
-                <ProsConsCard key={i} point={point} quote={flags.key_quotes[i]} accentColor="#D62839" isFlag />
-              ))}
-            </div>
-          </div>
+          <p style={{ margin: 0, fontSize: 13, color: "#6b7280", lineHeight: 1.4 }}>
+            {topic.tagline}
+          </p>
         </div>
-      </div>
-    </div>
-  );
-}
 
-/* ─────────────────── Section 4 — Reddit quotes + sidebar ─────────────────── */
+        <div
+          style={{
+            width: 24,
+            height: 24,
+            border: "1.5px solid #e5e7eb",
+            borderRadius: 6,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 12,
+            color: "#6b7280",
+            flexShrink: 0,
+            transition: "transform 0.2s",
+            transform: isOpen ? "rotate(45deg)" : "rotate(0deg)",
+          }}
+        >
+          +
+        </div>
+      </button>
 
-function extractTopic(point: string): string {
-  const colonIndex = point.indexOf(":");
-  if (colonIndex !== -1 && colonIndex <= 24) return point.slice(0, colonIndex).trim();
-  return point.split(" ").slice(0, 2).join(" ");
-}
+      {isOpen && (
+        <div style={{ borderTop: "1px solid #f3f4f6", padding: "20px 20px 24px" }}>
+          <p style={{ margin: "0 0 20px", fontSize: 14, lineHeight: 1.7, color: "#374151" }}>
+            {topic.summary}
+          </p>
 
-export function gatherHotTopics(summary: Summary): string[] {
-  const topics = [
-    ...summary.red_flags.key_points.map(extractTopic),
-    ...summary.hidden_gems.key_points.map(extractTopic),
-  ];
-  return Array.from(new Set(topics)).slice(0, 6);
-}
-
-export function gatherTopQuotes(summary: Summary): Array<{ text: string; upvotes: number; seed: number }> {
-  const categories: Array<keyof Summary> = [...GRID_CATEGORIES.map((c) => c.key), "overall_vibe", "hidden_gems", "red_flags"];
-  const candidates: Array<{ text: string; upvotes: number; seed: number }> = [];
-  categories.forEach((key, ci) => {
-    summary[key].key_quotes.forEach((text, qi) => {
-      const seed = ci * 17 + qi * 5;
-      candidates.push({ text, upvotes: fakeUpvotes(seed, text), seed });
-    });
-  });
-  return candidates.sort((a, b) => b.upvotes - a.upvotes).slice(0, 3);
-}
-
-export function RedditAndSidebar({
-  summary, primary, slug, lastUpdated,
-}: {
-  summary: Summary;
-  primary: string;
-  slug: string;
-  lastUpdated: string;
-}) {
-  const quotes = gatherTopQuotes(summary);
-  const hotTopics = gatherHotTopics(summary);
-
-  return (
-    <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)", backgroundColor: "#E8E8E6" }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2">
-            <SectionLabel text="Straight from Reddit" color={primary} />
-            <div className="flex flex-col gap-3">
-              {quotes.map((quote, i) => (
-                <div
-                  key={i}
-                  className="cat-card p-5 rounded-xl bg-white"
-                  style={{
-                    border: "1px solid rgba(0,0,0,0.08)",
-                    borderLeft: `4px solid ${primary}`,
-                    "--glow-border": `${primary}35`,
-                    "--glow-shadow": `${primary}12`,
-                  } as CSSProperties}
-                >
-                  <p className="text-sm leading-relaxed italic" style={{ color: "#333333", fontFamily: "Georgia, serif" }}>
-                    &ldquo;{quote.text}&rdquo;
-                  </p>
-                  <div className="flex items-center gap-2 mt-3">
-                    <span style={{ color: primary, fontSize: "10px" }}>▲</span>
-                    <span className="text-[11px]" style={{ color: "#999999" }}>{quote.upvotes.toLocaleString()}</span>
-                    <span className="text-[11px] ml-1" style={{ color: "#bbbbbb" }}>
-                      u/{quoteUsername(quote.seed)}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-5 lg:sticky lg:top-6 lg:self-start">
-            <div className="p-5 rounded-xl bg-white" style={{ border: "1px solid rgba(0,0,0,0.08)" }}>
-              <SectionLabel text="At a Glance" color={primary} />
-              <div className="flex flex-col gap-4">
-                <div>
-                  <p className="text-[10px] tracking-[0.15em] uppercase" style={{ color: "#aaaaaa" }}>Posts analyzed</p>
-                  <p className="text-sm font-bold mt-0.5" style={{ color: "#1A1612", fontFamily: "Georgia, serif" }}>10,000+</p>
-                </div>
-                <div>
-                  <p className="text-[10px] tracking-[0.15em] uppercase" style={{ color: "#aaaaaa" }}>Last updated</p>
-                  <p className="text-sm font-bold mt-0.5" style={{ color: "#1A1612", fontFamily: "Georgia, serif" }}>{lastUpdated}</p>
-                </div>
-                <div>
-                  <p className="text-[10px] tracking-[0.15em] uppercase" style={{ color: "#aaaaaa" }}>Sources</p>
-                  <p className="text-sm font-bold mt-0.5" style={{ color: "#1A1612", fontFamily: "Georgia, serif" }}>
-                    r/{slug} · r/ApplyingToCollege
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-5 rounded-xl bg-white" style={{ border: "1px solid rgba(0,0,0,0.08)" }}>
-              <SectionLabel text="Hot Topics" color={primary} />
-              <div className="flex flex-wrap gap-2">
-                {hotTopics.map((topic, i) => (
-                  <span
+          {topic.quotes.length > 0 && (
+            <div>
+              <p
+                style={{
+                  margin: "0 0 12px",
+                  fontSize: 11,
+                  fontWeight: 700,
+                  color: "#9ca3af",
+                  letterSpacing: "0.08em",
+                  textTransform: "uppercase",
+                }}
+              >
+                What students say
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                {topic.quotes.map((q, i) => (
+                  <div
                     key={i}
-                    className="px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wide"
-                    style={{ background: `${primary}18`, color: primary }}
+                    style={{
+                      background: "#f9f9f7",
+                      borderLeft: `3px solid ${accent}`,
+                      padding: "12px 14px",
+                      borderRadius: "0 8px 8px 0",
+                    }}
                   >
-                    {topic}
-                  </span>
+                    <p
+                      style={{
+                        margin: "0 0 6px",
+                        fontSize: 13,
+                        color: "#111",
+                        lineHeight: 1.5,
+                        fontStyle: "italic",
+                      }}
+                    >
+                      &ldquo;{q.text}&rdquo;
+                    </p>
+                    <span style={{ fontSize: 11, color: "#9ca3af" }}>{q.author}</span>
+                  </div>
                 ))}
               </div>
             </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export function SchoolProfile({
+  name,
+  location,
+  accent,
+  accentLight,
+  postsAnalyzed,
+  lastUpdated,
+  heroQuote,
+  heroAuthor,
+  verdict,
+  topics,
+}: SchoolProfileProps) {
+  const [openTopics, setOpenTopics] = useState<Set<string>>(
+    new Set([topics[0]?.id ?? ""])
+  );
+  const [activeFilter, setActiveFilter] = useState<"all" | Sentiment>("all");
+
+  const toggleTopic = (id: string) => {
+    setOpenTopics((prev) => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
+  };
+
+  const filters: Array<{ id: "all" | Sentiment; label: string }> = [
+    { id: "all",      label: "All topics" },
+    { id: "positive", label: "↑ Highs" },
+    { id: "mixed",    label: "~ Mixed" },
+    { id: "concern",  label: "↓ Concerns" },
+  ];
+
+  const filteredTopics =
+    activeFilter === "all"
+      ? topics
+      : topics.filter((t) => t.sentiment === activeFilter);
+
+  return (
+    <div
+      style={{
+        fontFamily: "var(--font-inter), 'Inter', sans-serif",
+        background: "#F7F6F2",
+        minHeight: "100vh",
+      }}
+    >
+      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px 60px" }}>
+
+        {/* ── School header ─────────────────────────────────────── */}
+        <div style={{ paddingTop: 36, paddingBottom: 28, borderBottom: "1px solid #e5e7eb" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "space-between",
+              gap: 16,
+              marginBottom: 6,
+            }}
+          >
+            <div>
+              <p
+                style={{
+                  margin: "0 0 4px",
+                  fontSize: 11,
+                  fontWeight: 700,
+                  color: "#9ca3af",
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                }}
+              >
+                {location}
+              </p>
+              <h1
+                style={{
+                  margin: 0,
+                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                  fontWeight: 800,
+                  fontSize: "clamp(28px, 6vw, 40px)",
+                  color: "#111",
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1.1,
+                }}
+              >
+                {name}
+              </h1>
+            </div>
+            <div style={{ textAlign: "right", flexShrink: 0 }}>
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: 22,
+                  fontWeight: 700,
+                  color: "#111",
+                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                }}
+              >
+                {postsAnalyzed.toLocaleString()}+
+              </p>
+              <p style={{ margin: 0, fontSize: 11, color: "#9ca3af" }}>posts analyzed</p>
+            </div>
+          </div>
+          <p style={{ margin: "8px 0 0", fontSize: 11, color: "#c4c4c0" }}>
+            Updated {lastUpdated} · Student posts from Reddit
+          </p>
+        </div>
+
+        {/* ── Hero quote (highlight tape) ────────────────────────── */}
+        <div style={{ margin: "28px 0" }}>
+          <p
+            style={{
+              margin: "0 0 10px",
+              fontSize: 11,
+              fontWeight: 700,
+              color: "#9ca3af",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+            }}
+          >
+            Most upvoted take
+          </p>
+          <div style={{ position: "relative" }}>
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: -4,
+                right: -4,
+                bottom: 0,
+                background: accentLight,
+                transform: "rotate(-0.4deg)",
+                borderRadius: 2,
+              }}
+            />
+            <p
+              style={{
+                position: "relative",
+                margin: 0,
+                fontSize: 20,
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontWeight: 700,
+                color: "#111",
+                lineHeight: 1.35,
+                padding: "2px 4px",
+              }}
+            >
+              &ldquo;{heroQuote}&rdquo;
+            </p>
+          </div>
+          <p style={{ margin: "10px 0 0", fontSize: 12, color: "#9ca3af" }}>— {heroAuthor}</p>
+        </div>
+
+        {/* ── Quick verdict ─────────────────────────────────────── */}
+        <div
+          style={{
+            background: "#111",
+            borderRadius: 14,
+            padding: "22px 24px",
+            marginBottom: 32,
+          }}
+        >
+          <p
+            style={{
+              margin: "0 0 16px",
+              fontSize: 11,
+              fontWeight: 700,
+              color: accent,
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+            }}
+          >
+            Quick verdict
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            {[
+              { icon: "✓", label: "Best for",      text: verdict.bestFor,    color: "#4ade80" },
+              { icon: "⚠", label: "Watch out for", text: verdict.watchOut,   color: "#fb923c" },
+              { icon: "→", label: "Bottom line",   text: verdict.bottomLine, color: "#e5e7eb" },
+            ].map((item) => (
+              <div key={item.label} style={{ display: "flex", gap: 12 }}>
+                <span style={{ fontSize: 14, color: item.color, flexShrink: 0, marginTop: 1 }}>
+                  {item.icon}
+                </span>
+                <div>
+                  <span
+                    style={{
+                      fontSize: 11,
+                      fontWeight: 700,
+                      color: "#6b7280",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      marginRight: 8,
+                    }}
+                  >
+                    {item.label}
+                  </span>
+                  <span style={{ fontSize: 13, color: "#e5e7eb", lineHeight: 1.5 }}>
+                    {item.text}
+                  </span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
+
+        {/* ── Filter bar ────────────────────────────────────────── */}
+        <div
+          style={{
+            marginBottom: 16,
+            display: "flex",
+            gap: 8,
+            flexWrap: "wrap",
+            alignItems: "center",
+          }}
+        >
+          {filters.map((f) => (
+            <button
+              key={f.id}
+              onClick={() => setActiveFilter(f.id)}
+              style={{
+                padding: "7px 14px",
+                borderRadius: 20,
+                border: "1.5px solid",
+                borderColor: activeFilter === f.id ? "#111" : "#e5e7eb",
+                background: activeFilter === f.id ? "#111" : "#fff",
+                color: activeFilter === f.id ? "#fff" : "#6b7280",
+                fontSize: 12,
+                fontWeight: 600,
+                cursor: "pointer",
+                fontFamily: "var(--font-inter), 'Inter', sans-serif",
+              }}
+            >
+              {f.label}
+            </button>
+          ))}
+          <button
+            onClick={() => setOpenTopics(new Set(filteredTopics.map((t) => t.id)))}
+            style={{
+              padding: "7px 14px",
+              borderRadius: 20,
+              border: "1.5px solid #e5e7eb",
+              background: "#fff",
+              color: "#6b7280",
+              fontSize: 12,
+              fontWeight: 600,
+              cursor: "pointer",
+              marginLeft: "auto",
+              fontFamily: "var(--font-inter), 'Inter', sans-serif",
+            }}
+          >
+            Expand all
+          </button>
+        </div>
+
+        {/* ── Topic cards ───────────────────────────────────────── */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {filteredTopics.map((topic) => (
+            <TopicCard
+              key={topic.id}
+              topic={topic}
+              isOpen={openTopics.has(topic.id)}
+              onToggle={() => toggleTopic(topic.id)}
+              accent={accent}
+            />
+          ))}
+          {filteredTopics.length === 0 && (
+            <p
+              style={{
+                textAlign: "center",
+                fontSize: 13,
+                color: "#9ca3af",
+                padding: "32px 0",
+              }}
+            >
+              No topics match this filter.
+            </p>
+          )}
+        </div>
+
+        {/* ── Footer disclaimer ─────────────────────────────────── */}
+        <p
+          style={{
+            marginTop: 40,
+            textAlign: "center",
+            fontSize: 11,
+            color: "#c4c4c0",
+            lineHeight: 1.6,
+          }}
+        >
+          Based on {postsAnalyzed.toLocaleString()}+ real student posts · Not affiliated with{" "}
+          {name} · Last updated {lastUpdated}
+        </p>
       </div>
     </div>
   );

@@ -1,18 +1,127 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
+import Nav from "@/components/Nav";
 import { getSchoolBySlug } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs, getSummaryLastUpdated } from "@/lib/data";
 import { schoolColors } from "@/data/schoolColors";
-import {
-  GRID_CATEGORIES,
-  SectionLabel,
-  ScoreOverviewBar,
-  CategoryCard,
-  VibeCheckGrid,
-  ProsConsSection,
-  RedditAndSidebar,
-} from "./components";
+import { SchoolProfile } from "./components";
+import type { TopicData } from "./components";
+import type { Summary } from "@/lib/schools";
+
+// ── Subreddit mapping ────────────────────────────────────────────────────────
+
+const SUBREDDITS: Record<string, string> = {
+  unc: "UNC",
+  duke: "duke",
+  ncstate: "NCState",
+  georgiatech: "gatech",
+  uva: "uva",
+  virginiatech: "VirginiaTech",
+  fsu: "FloridaState",
+  miami: "umiami",
+  clemson: "Clemson",
+  wakeforest: "wakeforest",
+  bc: "bostoncollege",
+  syracuse: "Syracuse",
+  pitt: "Pitt",
+  louisville: "uofl",
+  notredame: "notredame",
+  ucberkeley: "berkeley",
+  smu: "SMU",
+  stanford: "Stanford",
+  howard: "HowardUniversity",
+  alabama: "uAlabama",
+  auburn: "auburn",
+  florida: "ufl",
+  uga: "UGA",
+  tennessee: "UTK",
+  kentucky: "uky",
+  southcarolina: "uofsc",
+  usc: "USC",
+  lsu: "LSU",
+  olemiss: "OleMiss",
+  msstate: "msstate",
+  arkansas: "uofarkansas",
+  tamu: "aggies",
+  texas: "UTAustin",
+  vanderbilt: "vanderbilt",
+  missouri: "mizzou",
+  oklahoma: "uoklahoma",
+};
+
+// ── Color utilities ───────────────────────────────────────────────────────────
+
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace("#", "");
+  const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+  const n = parseInt(full, 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
+function computeAccentLight(hex: string): string {
+  const [r, g, b] = hexToRgb(hex);
+  const bg = [247, 246, 242] as const;
+  const alpha = 0.15;
+  const blend = ([r, g, b] as number[]).map((c, i) =>
+    Math.round(c * alpha + bg[i] * (1 - alpha))
+  );
+  return `#${blend.map((v) => v.toString(16).padStart(2, "0")).join("")}`;
+}
+
+function computeAccentText(hex: string): string {
+  const [r, g, b] = hexToRgb(hex);
+  const toLinear = (c: number) => {
+    const s = c / 255;
+    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4);
+  };
+  const lum = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b);
+  return lum > 0.35 ? "#111" : "#fff";
+}
+
+// ── Data mapping ─────────────────────────────────────────────────────────────
+
+const TOPIC_CATEGORIES: Array<{ key: keyof Summary; label: string }> = [
+  { key: "housing",             label: "Housing" },
+  { key: "social_life",         label: "Social Life" },
+  { key: "dining",              label: "Dining" },
+  { key: "mental_health",       label: "Mental Health" },
+  { key: "financial_aid",       label: "Financial Aid" },
+  { key: "academics",           label: "Academics" },
+  { key: "administration",      label: "Administration" },
+  { key: "location_and_campus", label: "Campus & Location" },
+  { key: "career_outcomes",     label: "Career Outcomes" },
+  { key: "value_for_money",     label: "Value for Money" },
+];
+
+function getSentiment(score: number): "positive" | "mixed" | "concern" {
+  if (score >= 7) return "positive";
+  if (score >= 4) return "mixed";
+  return "concern";
+}
+
+function getSentimentLabel(score: number): string {
+  if (score >= 8) return "Strongly positive";
+  if (score >= 7) return "Mostly positive";
+  if (score >= 4) return "Mixed feelings";
+  return "Some concerns";
+}
+
+function mapTopics(summary: Summary, subreddit: string): TopicData[] {
+  return TOPIC_CATEGORIES.map(({ key, label }) => {
+    const data = summary[key];
+    return {
+      id: key,
+      label,
+      sentiment: getSentiment(data.score),
+      sentimentLabel: getSentimentLabel(data.score),
+      tagline: data.key_points[0] ?? "",
+      summary: data.key_points.join(" "),
+      quotes: data.key_quotes.map((text) => ({ text, author: `r/${subreddit}` })),
+    };
+  });
+}
+
+// ── Route handlers ────────────────────────────────────────────────────────────
 
 export async function generateStaticParams() {
   return getAvailableSlugs().map((slug) => ({ slug }));
@@ -28,7 +137,7 @@ export async function generateMetadata({
   const name = school?.name ?? slug;
   return {
     title: `${name} — UnfilteredU`,
-    description: `Real student opinions about ${name} from Reddit. Housing, dining, academics, red flags, and hidden gems.`,
+    description: `Real student opinions about ${name} from Reddit. Housing, dining, academics, and more.`,
   };
 }
 
@@ -46,134 +155,34 @@ export default async function SchoolPage({
   if (!school) notFound();
 
   const summary = loadSummary(slug);
-  const colors = schoolColors[slug] ?? school.colors;
-  const primary = colors.primary;
   const lastUpdated = getSummaryLastUpdated(slug);
 
+  const colors = schoolColors[slug] ?? school.colors;
+  const accent = colors.primary;
+  const accentLight = computeAccentLight(accent);
+  const accentText = computeAccentText(accent);
+  const subreddit = SUBREDDITS[slug] ?? slug;
+
   return (
-    <div className="min-h-screen bg-[#EFEFED] font-mono">
-      <Navbar />
-
-      {/* ── Section 1 — Header ───────────────────────────────────────── */}
-      <div style={{ background: `linear-gradient(135deg, ${primary}18 0%, #EFEFED 60%)` }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-6">
-            <div className="flex-1 min-w-0">
-              <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}cc` }}>
-                {school.location}
-              </p>
-              <h1
-                className="font-bold leading-none mb-4"
-                style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em", color: "#111111" }}
-              >
-                {school.name}
-              </h1>
-              <div style={{ width: "48px", height: "3px", backgroundColor: primary, borderRadius: "2px" }} />
-            </div>
-            <div className="sm:text-right shrink-0 pt-1">
-              <div className="text-[10px] tracking-[0.15em] uppercase mb-1" style={{ color: "#aaaaaa" }}>sourced from</div>
-              <div className="text-sm font-bold" style={{ color: primary }}>
-                r/{school.slug} · r/ApplyingToCollege
-              </div>
-              <div className="text-[10px] mt-0.5" style={{ color: "#aaaaaa" }}>10,000+ posts analyzed</div>
-            </div>
-          </div>
-
-          {/* Tagline — punchy one-liner from overall vibe */}
-          <div className="mt-8 pl-5" style={{ borderLeft: `4px solid ${primary}` }}>
-            <p
-              className="leading-snug"
-              style={{ fontSize: "clamp(1.1rem, 2.8vw, 1.5rem)", color: "#222222", fontFamily: "Georgia, serif", fontStyle: "italic" }}
-            >
-              &ldquo;{summary.overall_vibe.key_points[0]}&rdquo;
-            </p>
-          </div>
-
-          {/* Stats pills */}
-          {school.stats.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-7">
-              {school.stats.map(({ icon, label }) => (
-                <div
-                  key={label}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold text-white"
-                  style={{ backgroundColor: primary }}
-                >
-                  <span>{icon}</span>
-                  <span>{label}</span>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* ── Section 2 — Vibe Check ───────────────────────────────────── */}
-      <VibeCheckGrid summary={summary} />
-
-      {/* ── Section 3 — Unfiltered Pros & Cons ───────────────────────── */}
-      <ProsConsSection summary={summary} />
-
-      {/* ── Section 4 — Straight from Reddit + sidebar ───────────────── */}
-      <RedditAndSidebar summary={summary} primary={primary} slug={slug} lastUpdated={lastUpdated} />
-
-      {/* ── Section 5 — Full category breakdown ──────────────────────── */}
-      <ScoreOverviewBar summary={summary} />
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-        <SectionLabel text="What students are saying" color={primary} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {GRID_CATEGORIES.map(({ key, label, icon }, i) => (
-            <CategoryCard
-              key={key}
-              icon={icon}
-              label={label}
-              data={summary[key]}
-              cardIndex={i}
-              primaryColor={primary}
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* ── Footer ────────────────────────────────────────────────────── */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 flex flex-col items-center gap-5 text-center">
-        <div
-          className="inline-flex items-start gap-3 p-4 rounded-xl text-left max-w-xl w-full bg-white"
-          style={{ border: "1px solid rgba(0,0,0,0.08)" }}
-        >
-          <span className="text-sm shrink-0 mt-0.5">ℹ️</span>
-          <p className="text-xs leading-relaxed" style={{ color: "#888888" }}>
-            <span className="font-bold" style={{ color: "#555555" }}>Disclaimer: </span>
-            Based on real student opinions from Reddit — not official school content. Views reflect individual
-            student experiences and may not represent the full picture. Always visit campus and do your own research.
-          </p>
-        </div>
-
-        {/* Footer dark bar */}
-        <div className="w-full -mx-4 sm:-mx-6">
-          <footer className="py-8 px-6" style={{ background: "#1A1612" }}>
-            <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-              <div className="flex items-center gap-2">
-                <div
-                  className="w-5 h-5 rounded flex items-center justify-center text-[10px] font-black font-[family-name:var(--font-display)]"
-                  style={{ background: "#2C3E2D", color: "#E8E0D4" }}
-                >
-                  U
-                </div>
-                <span className="font-bold text-sm font-[family-name:var(--font-display)]" style={{ color: "#E8E0D4" }}>
-                  UnfilteredU
-                </span>
-              </div>
-              <p className="font-mono text-[9px] tracking-[0.35em] uppercase" style={{ color: "#C4B89A" }}>
-                Room 305 · {school.name}
-              </p>
-              <p className="text-xs font-light" style={{ color: "#C4B89A" }}>
-                Not affiliated with any university.
-              </p>
-            </div>
-          </footer>
-        </div>
-      </div>
-    </div>
+    <>
+      <Nav schoolName={school.name} schoolColor={accent} schoolTextColor={accentText} />
+      <SchoolProfile
+        name={school.name}
+        location={school.location}
+        accent={accent}
+        accentLight={accentLight}
+        accentText={accentText}
+        postsAnalyzed={10000}
+        lastUpdated={lastUpdated}
+        heroQuote={summary.overall_vibe.key_quotes[0] ?? ""}
+        heroAuthor={`r/${subreddit}`}
+        verdict={{
+          bestFor: summary.hidden_gems.key_points[0] ?? "",
+          watchOut: summary.red_flags.key_points[0] ?? "",
+          bottomLine: summary.overall_vibe.key_points[0] ?? "",
+        }}
+        topics={mapTopics(summary, subreddit)}
+      />
+    </>
   );
 }

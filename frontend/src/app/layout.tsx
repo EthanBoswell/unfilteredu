@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, DM_Sans, Syne } from "next/font/google";
+import { Playfair_Display, DM_Sans, Syne, Inter } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -21,6 +21,12 @@ const dmSans = DM_Sans({
   variable: "--font-dm",
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-inter",
+});
+
 export const metadata: Metadata = {
   title: "UnfilteredU — Real College Reviews from Reddit",
   description:
@@ -33,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} h-full`}>
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} ${inter.variable} h-full`}>
 
       <body className="min-h-full bg-[#f5f1eb] font-[family-name:var(--font-dm)] antialiased text-[#1c1917]">
         {children}
