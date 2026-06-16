@@ -17,13 +17,23 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
       </a>
 
       <div className="flex items-center gap-5">
-        <a
-          href="/about"
-          className="text-[12px] leading-none"
-          style={{ fontFamily: "Inter, sans-serif", color: "#555" }}
-        >
-          About
-        </a>
+        {schoolName ? (
+          <a
+            href="/schools"
+            className="text-[12px] leading-none"
+            style={{ fontFamily: "Inter, sans-serif", color: "#555" }}
+          >
+            ← All schools
+          </a>
+        ) : (
+          <a
+            href="/about"
+            className="text-[12px] leading-none"
+            style={{ fontFamily: "Inter, sans-serif", color: "#555" }}
+          >
+            About
+          </a>
+        )}
 
         {schoolName && schoolColor ? (
           <span
