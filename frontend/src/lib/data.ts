@@ -3,10 +3,6 @@ import path from "path";
 import type { Summary } from "./schools";
 
 function dataDir(): string {
-  // When cwd = .../frontend/ (local dev, Vercel with rootDirectory=frontend)
-  const fromParent = path.join(process.cwd(), "..", "data");
-  if (fs.existsSync(fromParent)) return fromParent;
-  // When cwd = repo root (Vercel without explicit rootDirectory)
   return path.join(process.cwd(), "data");
 }
 
