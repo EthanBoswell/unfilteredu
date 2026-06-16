@@ -7,6 +7,7 @@ export type Sentiment = "positive" | "mixed" | "concern";
 export interface TopicData {
   id: string;
   label: string;
+  score: number;
   sentiment: Sentiment;
   sentimentLabel: string;
   tagline: string;
@@ -32,11 +33,313 @@ export interface SchoolProfileProps {
   topics: TopicData[];
 }
 
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
 const SENTIMENT_CONFIG: Record<Sentiment, { color: string; bg: string; icon: string }> = {
   positive: { color: "#16a34a", bg: "#f0fdf4", icon: "↑" },
   mixed:    { color: "#d97706", bg: "#fffbeb", icon: "~" },
   concern:  { color: "#dc2626", bg: "#fef2f2", icon: "↓" },
 };
+
+function barColor(scoreOutOf10: number): string {
+  const half = scoreOutOf10 / 2;
+  if (half < 2.5) return "#ef4444";
+  if (half <= 3.5) return "#f59e0b";
+  return "#22c55e";
+}
+
+// ── Vibe Check ────────────────────────────────────────────────────────────────
+
+function ProgressRing({
+  percent,
+  accent,
+  size = 120,
+  stroke = 10,
+}: {
+  percent: number;
+  accent: string;
+  size?: number;
+  stroke?: number;
+}) {
+  const radius = (size - stroke) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const clamped = Math.max(0, Math.min(100, percent));
+  const offset = circumference * (1 - clamped / 100);
+  return (
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+      <circle
+        cx={size / 2}
+        cy={size / 2}
+        r={radius}
+        fill="none"
+        stroke="rgba(255,255,255,0.08)"
+        strokeWidth={stroke}
+      />
+      <circle
+        cx={size / 2}
+        cy={size / 2}
+        r={radius}
+        fill="none"
+        stroke={accent}
+        strokeWidth={stroke}
+        strokeDasharray={circumference}
+        strokeDashoffset={offset}
+        strokeLinecap="round"
+        transform={`rotate(-90 ${size / 2} ${size / 2})`}
+      />
+      <text
+        x="50%"
+        y="50%"
+        textAnchor="middle"
+        dy="0.35em"
+        fill="#f5f1eb"
+        fontSize={size * 0.2}
+        fontWeight={900}
+        fontFamily="ui-monospace, monospace"
+      >
+        {Math.round(clamped)}%
+      </text>
+    </svg>
+  );
+}
+
+function VibeCard({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      style={{
+        background: "#1a1a1a",
+        border: "1px solid rgba(255,255,255,0.07)",
+        borderRadius: 12,
+        padding: "20px 20px 22px",
+        display: "flex",
+        flexDirection: "column",
+        gap: 14,
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
+function VibeLabel({ icon, text }: { icon: string; text: string }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+      <span style={{ fontSize: 14 }}>{icon}</span>
+      <span
+        style={{
+          fontSize: 10,
+          fontWeight: 700,
+          letterSpacing: "0.15em",
+          textTransform: "uppercase",
+          color: "#a8a29e",
+          fontFamily: "ui-monospace, monospace",
+        }}
+      >
+        {text}
+      </span>
+    </div>
+  );
+}
+
+function SocialSceneCard({ topic, accent }: { topic: TopicData; accent: string }) {
+  const percent = topic.score * 10;
+  return (
+    <VibeCard>
+      <VibeLabel icon="🎉" text="Social Scene" />
+      <div style={{ display: "flex", justifyContent: "center", padding: "4px 0" }}>
+        <ProgressRing percent={percent} accent={accent} />
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <span
+            style={{
+              width: 7,
+              height: 7,
+              borderRadius: "50%",
+              background: accent,
+              flexShrink: 0,
+              display: "inline-block",
+            }}
+          />
+          <span style={{ fontSize: 12, color: "#e7e5e4", fontFamily: "ui-monospace, monospace" }}>
+            Social life score:{" "}
+            <strong style={{ color: "#fff" }}>{topic.score}/10</strong>
+          </span>
+        </div>
+        <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+          <span
+            style={{
+              width: 7,
+              height: 7,
+              borderRadius: "50%",
+              background: "#78716c",
+              flexShrink: 0,
+              marginTop: 4,
+              display: "inline-block",
+            }}
+          />
+          <span
+            style={{
+              fontSize: 11,
+              color: "#a8a29e",
+              lineHeight: 1.5,
+              fontFamily: "ui-monospace, monospace",
+            }}
+          >
+            {topic.tagline}
+          </span>
+        </div>
+      </div>
+    </VibeCard>
+  );
+}
+
+function CampusVibeCard({ topic, accent }: { topic: TopicData; accent: string }) {
+  return (
+    <VibeCard>
+      <VibeLabel icon="📚" text="Campus Vibe" />
+      <p
+        style={{
+          margin: 0,
+          fontSize: 11,
+          color: "#a8a29e",
+          lineHeight: 1.5,
+          fontFamily: "ui-monospace, monospace",
+        }}
+      >
+        {topic.tagline}
+      </p>
+      <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: "auto" }}>
+        <input
+          type="range"
+          min={1}
+          max={10}
+          step={1}
+          defaultValue={topic.score}
+          disabled
+          style={{ width: "100%", accentColor: accent, cursor: "default" }}
+        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            fontSize: 9,
+            fontWeight: 700,
+            letterSpacing: "0.12em",
+            textTransform: "uppercase",
+            color: "#e7e5e4",
+            fontFamily: "ui-monospace, monospace",
+          }}
+        >
+          <span>Grind culture</span>
+          <span>Collaborative</span>
+        </div>
+      </div>
+    </VibeCard>
+  );
+}
+
+function AdminRatingCard({ topics }: { topics: TopicData[] }) {
+  const rows: Array<{ label: string; id: string }> = [
+    { label: "Financial Aid", id: "financial_aid" },
+    { label: "Academics",     id: "academics" },
+    { label: "Administration", id: "administration" },
+    { label: "Housing",       id: "housing" },
+  ];
+
+  return (
+    <VibeCard>
+      <VibeLabel icon="🏛️" text="Admin Rating" />
+      <div style={{ display: "flex", flexDirection: "column", gap: 14, flex: 1, justifyContent: "center" }}>
+        {rows.map(({ label, id }) => {
+          const topic = topics.find((t) => t.id === id);
+          const score = topic?.score ?? 0;
+          const half = score / 2;
+          const color = barColor(score);
+          return (
+            <div key={id} style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <span
+                  style={{
+                    fontSize: 11,
+                    fontWeight: 700,
+                    color: "#e7e5e4",
+                    fontFamily: "ui-monospace, monospace",
+                    letterSpacing: "0.02em",
+                  }}
+                >
+                  {label}
+                </span>
+                <span
+                  style={{
+                    fontSize: 11,
+                    fontWeight: 900,
+                    color,
+                    fontFamily: "ui-monospace, monospace",
+                  }}
+                >
+                  {half.toFixed(1)}/5
+                </span>
+              </div>
+              <div
+                style={{
+                  width: "100%",
+                  height: 5,
+                  background: "rgba(255,255,255,0.07)",
+                  borderRadius: 3,
+                  overflow: "hidden",
+                }}
+              >
+                <div
+                  style={{
+                    width: `${Math.max(0, Math.min(10, score)) * 10}%`,
+                    height: "100%",
+                    background: color,
+                    borderRadius: 3,
+                  }}
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </VibeCard>
+  );
+}
+
+function VibeCheckSection({ topics, accent }: { topics: TopicData[]; accent: string }) {
+  const socialTopic = topics.find((t) => t.id === "social_life");
+  const academicsTopic = topics.find((t) => t.id === "academics");
+
+  if (!socialTopic || !academicsTopic) return null;
+
+  return (
+    <div style={{ background: "#111" }}>
+      <div style={{ maxWidth: 720, margin: "0 auto", padding: "28px 20px" }}>
+        <p
+          style={{
+            margin: "0 0 16px",
+            fontSize: 10,
+            fontWeight: 700,
+            letterSpacing: "0.18em",
+            textTransform: "uppercase",
+            color: "#78716c",
+            fontFamily: "ui-monospace, monospace",
+          }}
+        >
+          Vibe Check
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <SocialSceneCard topic={socialTopic} accent={accent} />
+          <CampusVibeCard topic={academicsTopic} accent={accent} />
+          <AdminRatingCard topics={topics} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Topic accordion ───────────────────────────────────────────────────────────
 
 function TopicCard({
   topic,
@@ -94,7 +397,15 @@ function TopicCard({
         </div>
 
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2, flexWrap: "wrap" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              marginBottom: 2,
+              flexWrap: "wrap",
+            }}
+          >
             <span
               style={{
                 fontFamily: "var(--font-syne), 'Syne', sans-serif",
@@ -198,6 +509,8 @@ function TopicCard({
   );
 }
 
+// ── Main page component ───────────────────────────────────────────────────────
+
 export function SchoolProfile({
   name,
   location,
@@ -236,16 +549,10 @@ export function SchoolProfile({
       : topics.filter((t) => t.sentiment === activeFilter);
 
   return (
-    <div
-      style={{
-        fontFamily: "var(--font-inter), 'Inter', sans-serif",
-        background: "#F7F6F2",
-        minHeight: "100vh",
-      }}
-    >
-      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px 60px" }}>
+    <div style={{ background: "#F7F6F2", minHeight: "100vh" }}>
 
-        {/* ── School header ─────────────────────────────────────── */}
+      {/* ── School header (light bg) ─────────────────────────────── */}
+      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px" }}>
         <div style={{ paddingTop: 36, paddingBottom: 28, borderBottom: "1px solid #e5e7eb" }}>
           <div
             style={{
@@ -265,6 +572,7 @@ export function SchoolProfile({
                   color: "#9ca3af",
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
+                  fontFamily: "var(--font-inter), 'Inter', sans-serif",
                 }}
               >
                 {location}
@@ -295,15 +603,45 @@ export function SchoolProfile({
               >
                 {postsAnalyzed.toLocaleString()}+
               </p>
-              <p style={{ margin: 0, fontSize: 11, color: "#9ca3af" }}>posts analyzed</p>
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: 11,
+                  color: "#9ca3af",
+                  fontFamily: "var(--font-inter), 'Inter', sans-serif",
+                }}
+              >
+                posts analyzed
+              </p>
             </div>
           </div>
-          <p style={{ margin: "8px 0 0", fontSize: 11, color: "#c4c4c0" }}>
+          <p
+            style={{
+              margin: "8px 0 0",
+              fontSize: 11,
+              color: "#c4c4c0",
+              fontFamily: "var(--font-inter), 'Inter', sans-serif",
+            }}
+          >
             Updated {lastUpdated} · Student posts from Reddit
           </p>
         </div>
+      </div>
 
-        {/* ── Hero quote (highlight tape) ────────────────────────── */}
+      {/* ── Vibe Check (full-width dark) ─────────────────────────── */}
+      <VibeCheckSection topics={topics} accent={accent} />
+
+      {/* ── Rest of content (light bg) ───────────────────────────── */}
+      <div
+        style={{
+          maxWidth: 720,
+          margin: "0 auto",
+          padding: "0 20px 60px",
+          fontFamily: "var(--font-inter), 'Inter', sans-serif",
+        }}
+      >
+
+        {/* Hero quote */}
         <div style={{ margin: "28px 0" }}>
           <p
             style={{
@@ -348,7 +686,7 @@ export function SchoolProfile({
           <p style={{ margin: "10px 0 0", fontSize: 12, color: "#9ca3af" }}>— {heroAuthor}</p>
         </div>
 
-        {/* ── Quick verdict ─────────────────────────────────────── */}
+        {/* Quick verdict */}
         <div
           style={{
             background: "#111",
@@ -401,7 +739,7 @@ export function SchoolProfile({
           </div>
         </div>
 
-        {/* ── Filter bar ────────────────────────────────────────── */}
+        {/* Filter bar */}
         <div
           style={{
             marginBottom: 16,
@@ -450,7 +788,7 @@ export function SchoolProfile({
           </button>
         </div>
 
-        {/* ── Topic cards ───────────────────────────────────────── */}
+        {/* Topic cards */}
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           {filteredTopics.map((topic) => (
             <TopicCard
@@ -475,7 +813,7 @@ export function SchoolProfile({
           )}
         </div>
 
-        {/* ── Footer disclaimer ─────────────────────────────────── */}
+        {/* Footer */}
         <p
           style={{
             marginTop: 40,

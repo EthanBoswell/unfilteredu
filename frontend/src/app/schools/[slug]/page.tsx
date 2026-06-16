@@ -112,6 +112,7 @@ function mapTopics(summary: Summary, subreddit: string): TopicData[] {
     return {
       id: key,
       label,
+      score: data.score,
       sentiment: getSentiment(data.score),
       sentimentLabel: getSentimentLabel(data.score),
       tagline: data.key_points[0] ?? "",
