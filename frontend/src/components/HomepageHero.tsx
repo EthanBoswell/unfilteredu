@@ -53,7 +53,7 @@ export default function HomepageHero() {
   const handleSelect = (school: (typeof SCHOOLS)[number]) => {
     setQuery(school.name);
     setShowDropdown(false);
-    router.push(`/school/${school.slug}`);
+    router.push(`/schools/${school.slug}`);
   };
 
   const quote = quotes[quoteIndex];
