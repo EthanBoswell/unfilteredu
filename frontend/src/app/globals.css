@@ -11,6 +11,12 @@
   --color-rust: #be4b26;
   --color-muted: #78716c;
   --color-border: #d6d1c8;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-bg: #F5F4EF;
+  --color-ink: #0F0F0F;
 }
 
 /* Blinking cursor for typewriter animation */

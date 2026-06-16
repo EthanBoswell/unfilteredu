@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Playfair_Display, DM_Sans, Syne } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -7,6 +7,12 @@ const playfair = Playfair_Display({
   weight: ["400", "700", "800"],
   style: ["normal", "italic"],
   variable: "--font-playfair",
+});
+
+const syne = Syne({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-syne",
 });
 
 const dmSans = DM_Sans({
@@ -27,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable} h-full`}>
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} h-full`}>
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
