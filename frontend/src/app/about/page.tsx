@@ -149,16 +149,15 @@ export default function AboutPage() {
       <section className="px-8 py-[72px]">
         <div className="mx-auto max-w-[720px]">
           <div
-            className="rounded-xl p-8 grid grid-cols-1 sm:grid-cols-2 sm:divide-x"
-            style={{
-              background: "#fff",
-              border: "1px solid #e8e8e2",
-              borderRadius: 12,
-              divideColor: "#e8e8e2",
-            }}
+            className="rounded-xl p-8 grid grid-cols-1 sm:grid-cols-2"
+            style={{ background: "#fff", border: "1px solid #e8e8e2", borderRadius: 12 }}
           >
             {MISSION_STATS.map(({ value, label }, i) => (
-              <div key={value} className={i > 0 ? "pt-8 sm:pt-0 sm:pl-8" : ""}>
+              <div
+                key={value}
+                className={i > 0 ? "pt-8 sm:pt-0 sm:pl-8" : ""}
+                style={i > 0 ? { borderTop: "1px solid #e8e8e2" } : undefined}
+              >
                 <p
                   className="leading-none mb-2"
                   style={{
