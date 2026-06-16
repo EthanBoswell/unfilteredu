@@ -12,7 +12,9 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
       className="sticky top-0 z-[100] flex items-center justify-between px-6"
       style={{ background: "#0F0F0F", height: 52 }}
     >
-      <Wordmark size={18} dark />
+      <a href="/">
+        <Wordmark size={18} dark />
+      </a>
 
       <div className="flex items-center gap-5">
         <a
