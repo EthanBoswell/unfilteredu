@@ -1,34 +1,18 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Nav from "@/components/Nav";
-import Wordmark from "@/components/Wordmark";
+import Navbar from "@/components/Navbar";
 import { getSchoolBySlug } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs, getSummaryLastUpdated } from "@/lib/data";
+import { schoolColors } from "@/data/schoolColors";
 import {
+  GRID_CATEGORIES,
   SectionLabel,
   ScoreOverviewBar,
-  CategorySection,
+  CategoryCard,
   VibeCheckGrid,
   ProsConsSection,
   RedditAndSidebar,
 } from "./components";
-
-/* ── Accent color lookup ────────────────────────────────────────────────────── */
-
-const ACCENT_COLORS: Record<string, { accent: string; accentLight: string; accentText: string }> = {
-  ucla:          { accent: "#2774AE", accentLight: "#EBF4FF", accentText: "#fff" },
-  michigan:      { accent: "#FFCB05", accentLight: "#FFFBDC", accentText: "#111" },
-  nyu:           { accent: "#57068C", accentLight: "#F5EEFF", accentText: "#fff" },
-  "ohio-state":  { accent: "#BB0000", accentLight: "#FFECEC", accentText: "#fff" },
-};
-
-const DEFAULT_ACCENT = { accent: "#0F0F0F", accentLight: "#F0F0EC", accentText: "#fff" };
-
-function getAccent(slug: string) {
-  return ACCENT_COLORS[slug] ?? DEFAULT_ACCENT;
-}
-
-/* ── Static params + metadata ───────────────────────────────────────────────── */
 
 export async function generateStaticParams() {
   return getAvailableSlugs().map((slug) => ({ slug }));
@@ -48,8 +32,6 @@ export async function generateMetadata({
   };
 }
 
-/* ── Page ────────────────────────────────────────────────────────────────────── */
-
 export default async function SchoolPage({
   params,
 }: {
@@ -63,111 +45,48 @@ export default async function SchoolPage({
   const school = getSchoolBySlug(slug);
   if (!school) notFound();
 
-  const summary     = loadSummary(slug);
+  const summary = loadSummary(slug);
+  const colors = schoolColors[slug] ?? school.colors;
+  const primary = colors.primary;
   const lastUpdated = getSummaryLastUpdated(slug);
-  const { accent, accentLight, accentText } = getAccent(slug);
 
   return (
-    <div className="min-h-screen" style={{ background: "#F5F4EF" }}>
-      <Nav schoolName={school.name} schoolColor={accent} schoolTextColor={accentText} />
+    <div className="min-h-screen bg-[#EFEFED] font-mono">
+      <Navbar />
 
-      {/* ── Header ────────────────────────────────────────────────────────── */}
-      <div style={{ background: "#F5F4EF" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-12 pb-10">
+      {/* ── Section 1 — Header ───────────────────────────────────────── */}
+      <div style={{ background: `linear-gradient(135deg, ${primary}18 0%, #EFEFED 60%)` }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-10">
           <div className="flex flex-col sm:flex-row sm:items-start gap-6">
-            {/* Left: location + name */}
             <div className="flex-1 min-w-0">
-              <p
-                className="mb-3 uppercase"
-                style={{
-                  fontFamily: "Inter, sans-serif",
-                  fontWeight: 700,
-                  fontSize: 11,
-                  letterSpacing: "0.12em",
-                  color: "#9ca3af",
-                }}
-              >
+              <p className="text-[10px] tracking-[0.2em] uppercase mb-3" style={{ color: `${primary}cc` }}>
                 {school.location}
               </p>
               <h1
-                className="leading-none mb-4"
-                style={{
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  fontWeight: 800,
-                  fontSize: 40,
-                  letterSpacing: "-0.02em",
-                  color: "#0F0F0F",
-                }}
+                className="font-bold leading-none mb-4"
+                style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.2rem, 5vw, 3.5rem)", letterSpacing: "-0.02em", color: "#111111" }}
               >
                 {school.name}
               </h1>
-              <div style={{ width: 48, height: 3, background: accent, borderRadius: 2 }} />
+              <div style={{ width: "48px", height: "3px", backgroundColor: primary, borderRadius: "2px" }} />
             </div>
-
-            {/* Right: posts analyzed */}
             <div className="sm:text-right shrink-0 pt-1">
-              <p
-                className="uppercase mb-1"
-                style={{
-                  fontFamily: "Inter, sans-serif",
-                  fontWeight: 700,
-                  fontSize: 10,
-                  letterSpacing: "0.12em",
-                  color: "#9ca3af",
-                }}
-              >
-                sourced from
-              </p>
-              <p
-                style={{
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  fontWeight: 800,
-                  fontSize: 22,
-                  color: "#0F0F0F",
-                  letterSpacing: "-0.02em",
-                }}
-              >
-                10,000+
-              </p>
-              <p
-                style={{
-                  fontFamily: "Inter, sans-serif",
-                  fontWeight: 400,
-                  fontSize: 12,
-                  color: "#9ca3af",
-                  marginTop: 2,
-                }}
-              >
-                posts analyzed
-              </p>
+              <div className="text-[10px] tracking-[0.15em] uppercase mb-1" style={{ color: "#aaaaaa" }}>sourced from</div>
+              <div className="text-sm font-bold" style={{ color: primary }}>
+                r/{school.slug} · r/ApplyingToCollege
+              </div>
+              <div className="text-[10px] mt-0.5" style={{ color: "#aaaaaa" }}>10,000+ posts analyzed</div>
             </div>
           </div>
 
-          {/* Hero quote — highlight tape effect */}
-          <div className="mt-8">
-            <div className="relative inline-block">
-              <div
-                className="absolute inset-0"
-                style={{
-                  background: accentLight,
-                  borderRadius: 2,
-                  transform: "rotate(-0.4deg)",
-                }}
-              />
-              <p
-                className="relative px-2 py-1 leading-snug"
-                style={{
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  fontWeight: 800,
-                  fontSize: "clamp(1.1rem, 2.8vw, 1.5rem)",
-                  letterSpacing: "-0.015em",
-                  color: "#0F0F0F",
-                  fontStyle: "italic",
-                }}
-              >
-                &ldquo;{summary.overall_vibe.key_points[0]}&rdquo;
-              </p>
-            </div>
+          {/* Tagline — punchy one-liner from overall vibe */}
+          <div className="mt-8 pl-5" style={{ borderLeft: `4px solid ${primary}` }}>
+            <p
+              className="leading-snug"
+              style={{ fontSize: "clamp(1.1rem, 2.8vw, 1.5rem)", color: "#222222", fontFamily: "Georgia, serif", fontStyle: "italic" }}
+            >
+              &ldquo;{summary.overall_vibe.key_points[0]}&rdquo;
+            </p>
           </div>
 
           {/* Stats pills */}
@@ -176,12 +95,8 @@ export default async function SchoolPage({
               {school.stats.map(({ icon, label }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold"
-                  style={{
-                    fontFamily: "Inter, sans-serif",
-                    backgroundColor: accent,
-                    color: accentText,
-                  }}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-bold text-white"
+                  style={{ backgroundColor: primary }}
                 >
                   <span>{icon}</span>
                   <span>{label}</span>
@@ -192,51 +107,73 @@ export default async function SchoolPage({
         </div>
       </div>
 
-      {/* ── Vibe Check (dark) ─────────────────────────────────────────────── */}
+      {/* ── Section 2 — Vibe Check ───────────────────────────────────── */}
       <VibeCheckGrid summary={summary} />
 
-      {/* ── Pros & Cons ───────────────────────────────────────────────────── */}
+      {/* ── Section 3 — Unfiltered Pros & Cons ───────────────────────── */}
       <ProsConsSection summary={summary} />
 
-      {/* ── Reddit quotes + sidebar ───────────────────────────────────────── */}
-      <RedditAndSidebar summary={summary} primary={accent} slug={slug} lastUpdated={lastUpdated} />
+      {/* ── Section 4 — Straight from Reddit + sidebar ───────────────── */}
+      <RedditAndSidebar summary={summary} primary={primary} slug={slug} lastUpdated={lastUpdated} />
 
-      {/* ── Score Overview (dark) ─────────────────────────────────────────── */}
+      {/* ── Section 5 — Full category breakdown ──────────────────────── */}
       <ScoreOverviewBar summary={summary} />
 
-      {/* ── Topic breakdown ───────────────────────────────────────────────── */}
-      <div style={{ background: "#F5F4EF" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <SectionLabel text="What students are saying" color={accent} />
-          <CategorySection summary={summary} accent={accent} />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+        <SectionLabel text="What students are saying" color={primary} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {GRID_CATEGORIES.map(({ key, label, icon }, i) => (
+            <CategoryCard
+              key={key}
+              icon={icon}
+              label={label}
+              data={summary[key]}
+              cardIndex={i}
+              primaryColor={primary}
+            />
+          ))}
         </div>
       </div>
 
-      {/* ── Disclaimer ────────────────────────────────────────────────────── */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-10">
+      {/* ── Footer ────────────────────────────────────────────────────── */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 flex flex-col items-center gap-5 text-center">
         <div
-          className="inline-flex items-start gap-3 p-4 rounded-xl text-left w-full bg-white"
-          style={{ border: "1px solid #e8e8e2" }}
+          className="inline-flex items-start gap-3 p-4 rounded-xl text-left max-w-xl w-full bg-white"
+          style={{ border: "1px solid rgba(0,0,0,0.08)" }}
         >
           <span className="text-sm shrink-0 mt-0.5">ℹ️</span>
-          <p className="text-xs leading-relaxed" style={{ fontFamily: "Inter, sans-serif", color: "#888" }}>
-            <span className="font-bold" style={{ color: "#555" }}>Disclaimer: </span>
+          <p className="text-xs leading-relaxed" style={{ color: "#888888" }}>
+            <span className="font-bold" style={{ color: "#555555" }}>Disclaimer: </span>
             Based on real student opinions from Reddit — not official school content. Views reflect individual
             student experiences and may not represent the full picture. Always visit campus and do your own research.
           </p>
         </div>
-      </div>
 
-      {/* ── Footer ────────────────────────────────────────────────────────── */}
-      <footer
-        className="flex items-center justify-between px-6 py-5"
-        style={{ background: "#0F0F0F", borderTop: "1px solid #1a1a1a" }}
-      >
-        <Wordmark size={15} dark />
-        <p style={{ fontFamily: "Inter, sans-serif", fontSize: 11, color: "#444" }}>
-          Not affiliated with any university.
-        </p>
-      </footer>
+        {/* Footer dark bar */}
+        <div className="w-full -mx-4 sm:-mx-6">
+          <footer className="py-8 px-6" style={{ background: "#1A1612" }}>
+            <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <div
+                  className="w-5 h-5 rounded flex items-center justify-center text-[10px] font-black font-[family-name:var(--font-display)]"
+                  style={{ background: "#2C3E2D", color: "#E8E0D4" }}
+                >
+                  U
+                </div>
+                <span className="font-bold text-sm font-[family-name:var(--font-display)]" style={{ color: "#E8E0D4" }}>
+                  UnfilteredU
+                </span>
+              </div>
+              <p className="font-mono text-[9px] tracking-[0.35em] uppercase" style={{ color: "#C4B89A" }}>
+                Room 305 · {school.name}
+              </p>
+              <p className="text-xs font-light" style={{ color: "#C4B89A" }}>
+                Not affiliated with any university.
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
   );
 }
