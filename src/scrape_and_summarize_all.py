@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -7,6 +8,7 @@ import anthropic
 from dotenv import load_dotenv
 
 from scrape_reddit_direct import scrape_school_direct
+from scrape_youtube import scrape_youtube
 
 load_dotenv()
 
@@ -16,7 +18,14 @@ if not ANTHROPIC_API_KEY:
 
 MODEL = "claude-sonnet-4-6"
 
+# Pricing per token (Claude Sonnet 4.6)
+_INPUT_PRICE = 3.0 / 1_000_000
+_OUTPUT_PRICE = 15.0 / 1_000_000
+_CACHE_WRITE_PRICE = 3.75 / 1_000_000
+_CACHE_READ_PRICE = 0.30 / 1_000_000
+
 SCHOOLS = [
+    {"name": "University of Kansas", "slug": "kansas", "subreddits": ["r/KUHawks", "r/jayhawks"], "keywords": ["University of Kansas", "KU Jayhawks", "Lawrence Kansas", "KU campus"]},
     {"name": "University of North Carolina at Chapel Hill", "slug": "unc", "subreddits": ["r/UNC", "r/chapelhill"], "keywords": ["University of North Carolina", "UNC Chapel Hill", "Tar Heels", "Chapel Hill NC"]},
     {"name": "Duke University", "slug": "duke", "subreddits": ["r/duke", "r/DukeUniversity"], "keywords": ["Duke University", "Duke Blue Devils", "Durham NC"]},
     {"name": "NC State", "slug": "ncstate", "subreddits": ["r/NCState"], "keywords": ["NC State", "North Carolina State", "Wolfpack", "Raleigh NC"]},
@@ -62,7 +71,7 @@ CATEGORIES = [
 ]
 
 SYSTEM_PROMPT = (
-    "You are analyzing real student opinions from Reddit about a university. "
+    "You are analyzing real student opinions from multiple sources about a university. "
     "Extract honest insights students and parents would want to know but wouldn't "
     "find on an official campus tour. Be specific and direct."
 )
@@ -98,22 +107,39 @@ key_point must start with a bold category keyword and a colon, e.g. \
 "Housing: students assigned to inactive dorms with no notice"."""
 
 
-def format_posts(posts: list) -> str:
+def format_combined(items: list) -> str:
     lines = []
-    for i, post in enumerate(posts, 1):
-        title = (post.get("title") or "").strip()
-        body = (post.get("body") or "").strip()[:500]
-        subreddit = post.get("subreddit", "")
-        upvotes = post.get("upvotes", 0)
-        lines.append(f"--- POST {i} [{subreddit}] ({upvotes} upvotes) ---")
-        lines.append(f"Title: {title}")
-        if body:
-            lines.append(f"Body: {body}")
-        for c in (post.get("top_comments") or [])[:5]:
-            text = (c.get("text") or "").strip()[:200]
-            if text:
-                lines.append(f"  - {text}")
-        lines.append("")
+
+    reddit_items = [i for i in items if i.get("source", "reddit") == "reddit"]
+    youtube_items = [i for i in items if i.get("source") == "youtube"]
+
+    if reddit_items:
+        lines.append("=== REDDIT POSTS ===")
+        for idx, post in enumerate(reddit_items, 1):
+            title = (post.get("title") or "").strip()
+            body = (post.get("body") or "").strip()[:500]
+            subreddit = post.get("subreddit", "")
+            upvotes = post.get("upvotes", 0)
+            lines.append(f"--- POST {idx} [{subreddit}] ({upvotes} upvotes) ---")
+            lines.append(f"Title: {title}")
+            if body:
+                lines.append(f"Body: {body}")
+            for c in (post.get("top_comments") or [])[:5]:
+                text = (c.get("text") or "").strip()[:200]
+                if text:
+                    lines.append(f"  - {text}")
+            lines.append("")
+
+    if youtube_items:
+        lines.append("=== YOUTUBE COMMENTS ===")
+        for idx, item in enumerate(youtube_items, 1):
+            title = (item.get("title") or "").strip()
+            body = (item.get("body") or "").strip()[:500]
+            upvotes = item.get("upvotes", 0)
+            lines.append(f"--- COMMENT {idx} [Video: {title}] ({upvotes} likes) ---")
+            lines.append(f"Text: {body}")
+            lines.append("")
+
     return "\n".join(lines)
 
 
@@ -129,24 +155,39 @@ def strip_fences(text: str) -> str:
     return text
 
 
-def summarize_school(school: dict, raw_path: str, data_dir: str) -> str:
+def _summary_complete(path: str) -> bool:
+    if not os.path.exists(path):
+        return False
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return all(
+            cat in data and isinstance(data[cat].get("score"), int)
+            for cat in CATEGORIES
+        )
+    except Exception:
+        return False
+
+
+def summarize_school(school: dict, combined_path: str, data_dir: str) -> str:
     slug = school["slug"]
     out_path = os.path.join(data_dir, f"{slug}_summary.json")
 
-    if os.path.exists(out_path):
-        print(f"  [SKIP summarize] {slug}_summary.json already exists")
+    if _summary_complete(out_path):
+        print(f"  [SKIP] {slug}_summary.json exists with all 13 categories")
         return out_path
 
-    with open(raw_path, encoding="utf-8") as f:
-        posts = json.load(f)
+    with open(combined_path, encoding="utf-8") as f:
+        items = json.load(f)
 
-    print(f"  Summarizing {len(posts)} posts with Claude ({MODEL})...")
+    print(f"  → Summarizing combined data ({len(items)} total items)...")
 
-    subreddit_list = ", ".join(school["subreddits"] + ["r/ApplyingToCollege", "r/college"])
     user_content = (
-        f"Here are {len(posts)} Reddit posts about {school['name']} "
-        f"from {subreddit_list}.\n\n"
-        f"{format_posts(posts)}\n\n"
+        f"You have two sources of real student data about {school['name']}: "
+        f"Reddit posts (raw student opinions) and YouTube comments (reactions from tours and vlogs). "
+        f"Synthesize both into honest, specific summaries. "
+        f"Weight specific complaints and direct quotes heavily. Ignore generic praise.\n\n"
+        f"{format_combined(items)}\n\n"
         f"{OUTPUT_SCHEMA}"
     )
 
@@ -167,46 +208,83 @@ def summarize_school(school: dict, raw_path: str, data_dir: str) -> str:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    print(f"  Saved → {out_path}")
-
     usage = response.usage
-    cache_written = getattr(usage, "cache_creation_input_tokens", 0)
-    cache_read = getattr(usage, "cache_read_input_tokens", 0)
-    if cache_written or cache_read:
-        print(f"  Cache: {cache_written} tokens written, {cache_read} tokens read")
-
+    cost = (
+        (usage.input_tokens or 0) * _INPUT_PRICE
+        + (usage.output_tokens or 0) * _OUTPUT_PRICE
+        + getattr(usage, "cache_creation_input_tokens", 0) * _CACHE_WRITE_PRICE
+        + getattr(usage, "cache_read_input_tokens", 0) * _CACHE_READ_PRICE
+    )
+    print(f"  ✓ Done. Cost: ${cost:.2f}")
     return out_path
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--school", help="Only process this school slug (e.g. kansas)")
+    args = parser.parse_args()
+
     data_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "frontend", "data"))
     os.makedirs(data_dir, exist_ok=True)
 
-    total = len(SCHOOLS)
+    schools = SCHOOLS
+    if args.school:
+        schools = [s for s in SCHOOLS if s["slug"] == args.school]
+        if not schools:
+            print(f"Unknown school slug: {args.school}")
+            print(f"Available: {', '.join(s['slug'] for s in SCHOOLS)}")
+            return
+
+    total = len(schools)
     failed = []
 
-    for i, school in enumerate(SCHOOLS, 1):
-        print(f"\n{'=' * 60}")
-        print(f"[{i}/{total}]  {school['name']}  ({school['slug']})")
-        print("=" * 60)
+    for i, school in enumerate(schools, 1):
+        print(f"\nProcessing {school['name']} ({i}/{total})...")
 
+        # Source 1: Reddit
         try:
-            raw_path = scrape_school_direct(school, data_dir)
+            reddit_path, reddit_count = scrape_school_direct(school, data_dir)
+            print(f"  ✓ Reddit: {reddit_count} posts")
         except Exception as e:
-            print(f"  ERROR scraping: {e}")
-            failed.append((school["slug"], "scrape", str(e)))
+            print(f"  ✗ Reddit failed: {e}")
+            failed.append((school["slug"], "reddit", str(e)))
             continue
 
+        # Source 2: YouTube
         try:
-            summarize_school(school, raw_path, data_dir)
+            youtube_path, youtube_count = scrape_youtube(school, data_dir)
+            print(f"  ✓ YouTube: {youtube_count} comments")
         except Exception as e:
-            print(f"  ERROR summarizing: {e}")
+            print(f"  ✗ YouTube failed: {e}")
+            youtube_path = None
+
+        # Merge Reddit + YouTube into combined raw
+        combined: list[dict] = []
+
+        with open(reddit_path, encoding="utf-8") as f:
+            reddit_items = json.load(f)
+        for item in reddit_items:
+            item.setdefault("source", "reddit")
+        combined.extend(reddit_items)
+
+        if youtube_path and os.path.exists(youtube_path):
+            with open(youtube_path, encoding="utf-8") as f:
+                combined.extend(json.load(f))
+
+        combined_path = os.path.join(data_dir, f"{school['slug']}_combined_raw.json")
+        with open(combined_path, "w", encoding="utf-8") as f:
+            json.dump(combined, f, indent=2, ensure_ascii=False)
+
+        # Summarize
+        try:
+            summarize_school(school, combined_path, data_dir)
+        except Exception as e:
+            print(f"  ✗ Summarization failed: {e}")
             failed.append((school["slug"], "summarize", str(e)))
             continue
 
         if i < total:
-            print("\n  Waiting 5 seconds...")
-            time.sleep(5)
+            time.sleep(3)
 
     print(f"\n{'=' * 60}")
     print(f"Done. {total - len(failed)}/{total} schools completed successfully.")

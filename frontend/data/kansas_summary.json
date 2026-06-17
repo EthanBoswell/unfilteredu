@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Oswald Hall has large study rooms praised by students",
+      "Dorm rooms are small but functional with lofted beds",
+      "Limited firsthand complaints suggest housing is acceptable baseline"
+    ],
+    "key_quotes": [
+      "Nice big study rooms.",
+      "I don't know if I missed it, but how do you get up on the bed?? It looks way too high"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Basketball culture dominates social identity — Allen Fieldhouse is central",
+      "Strong sports fan community; baseball, volleyball, soccer also rising",
+      "Transfer portal churn has eroded connection students feel to players"
+    ],
+    "key_quotes": [
+      "There is no greater place to go to school. There is no greater place to watch a basketball game.",
+      "The college charm is long gone. We are left with a revolving door of rent-a-players.",
+      "Watching guys develop and turn into studs is half the fun."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful dining data appears across any source",
+      "Campus food quality is essentially unmentioned by students",
+      "Cannot score positively or negatively without student feedback"
+    ],
+    "key_quotes": [
+      "No direct quotes available from any source."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One student mentions discovering passion after leaving KU — suggests some drift",
+      "No dedicated mental health support resources mentioned by students",
+      "A student described feeling unmotivated and directionless at KU"
+    ],
+    "key_quotes": [
+      "I used to be so motivated in high school... I ended up going to my backup school, the University of Kansas, when every single other college I applied to denied or waitlisted me.",
+      "I'm on the verge of having a breakdown.",
+      "I used to go to university of Kansas, raised my 3.0 to a 3.5, then switched... I realized how passionate about Psychology I am."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "KU gives only $1k/year for National Merit Finalists — far below competitors",
+      "Out-of-state tuition around $28k/year, in-state ~$12k — seen as affordable",
+      "SELF Fellowship in engineering praised as a strong opportunity"
+    ],
+    "key_quotes": [
+      "KU only gives $1k per year for being NMF. Meanwhile, Bama covers tuition for 10 semesters.",
+      "I got an offer for $9000 a year for four years in University of Kansas to study CS.",
+      "I got accepted to the SELF fellowship program at their college of engineering."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering internship pipeline is reportedly strong per faculty claims",
+      "CS program ranked outside top 100 nationally — not a tech powerhouse",
+      "Honors program exists but students unsure if it's worth the extra work"
+    ],
+    "key_quotes": [
+      "A professor directly told me that most anyone in engineering at KU can land a paid internship.",
+      "I was just admitted to the KU Honors Program! Has anyone else been admitted on here? People who went through this program — is it worth it?",
+      "I suppose I was either a waste of space or a person who discovered it was a joke to get a degree."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "App fee payment portal caused anxiety for international students with no confirmation",
+      "NIL and transfer portal management criticized as disorganized under Self",
+      "David Booth's $300M donation shows admin has elite donor relationships"
+    ],
+    "key_quotes": [
+      "He refuses to allow Goff to hire a GM. He refuses to hire an offensive coordinator style assistant coach.",
+      "I paid it with the link on my applicant portal. It's been 4 days yet my applicant portal shows 'awaited' on the application fee status. I'm scared.",
+      "Camp Lottery Rigging (finally) exposed... This has been going on at least since the Phog Phanatics cheated all the time back in the early 2000s."
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Lawrence is a beloved college town with strong local identity",
+      "New David Booth Stadium is visually stunning and generating buzz",
+      "Allen Fieldhouse described repeatedly as one of the best venues in sports"
+    ],
+    "key_quotes": [
+      "The most sacred grounds in all of sports, the Taj Mahal of Basketball.",
+      "Great photo. This really showcases the architecture concept of the golden wheat in the new stadium design.",
+      "To be a student at KU is like nowhere else."
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering students report strong paid internship placement per faculty",
+      "Notable alumni in NBA, entertainment (Don Johnson), and business",
+      "KU not mentioned as a target school for competitive tech or finance jobs"
+    ],
+    "key_quotes": [
+      "A professor directly told me that most anyone in engineering at KU can land a paid internship.",
+      "You are equally likely to get selected whether your undergrad was at T20 or University of Kansas — per NASA astronaut data.",
+      "Christian Braun signs 5-year, $125 million extension with Nuggets."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state at ~$12k/year is consistently flagged as genuinely affordable",
+      "Out-of-state sticker price competitive but NMF merit aid is weak",
+      "Strong athletic investment via Booth donations doesn't directly help students financially"
+    ],
+    "key_quotes": [
+      "Currently my cheapest option is University of Kansas, which is 12k per year.",
+      "KU only gives $1k per year for being NMF. Meanwhile, Bama covers tuition for 10 semesters.",
+      "I can afford it with minor loans."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Basketball is the soul of campus — non-fans may feel left out",
+      "Strong school pride and tradition; 'Rock Chalk' identity is deeply felt",
+      "NIL era frustration is real but hasn't killed fan passion yet"
+    ],
+    "key_quotes": [
+      "There's no greater place to watch a basketball game. Rock Chalk.",
+      "I'm done. See you next fall when I am learning names and numbers again.",
+      "I wasn't a KU fan before I arrived at campus in 2005, so he's the only KU coach I've ever known in 20 years of diehard fandom."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Merit Aid:** NMF scholarship is only $1k/year — one of the worst in the country",
+      "**Academics:** CS rejected a 31 ACT/3.0 GPA student; admissions inconsistency noted",
+      "**Administration:** Student camp lottery rigging exposed, reportedly ongoing since early 2000s"
+    ],
+    "key_quotes": [
+      "Just got denied from CompSci at University of Kansas... I only applied to have a fallback plan.",
+      "This has been going on at least since the Phog Phanatics cheated all the time back in the early 2000s. Glad they caught this one though.",
+      "KU only gives $1k per year for being NMF. Meanwhile, Bama covers tuition for 10 semesters."
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "SELF Engineering Fellowship is a well-regarded and underrated opportunity",
+      "Baseball program is a surprise powerhouse — Big 12 champs, Super Regional host",
+      "Allen Fieldhouse student experience rivals any venue in college sports"
+    ],
+    "key_quotes": [
+      "I got accepted to the SELF fellowship program at their college of engineering.",
+      "45 wins. 3 championships. 2 postseason weekends in Lawrence.",
+      "I went to almost every game when I was a student there, and it still gives me chills watching that."
+    ],
+    "score": 8
+  }
+}

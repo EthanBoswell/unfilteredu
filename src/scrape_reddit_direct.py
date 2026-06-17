@@ -1,40 +1,53 @@
+from __future__ import annotations
+
 import json
 import os
 import re
 import time
 from datetime import datetime, timezone
 from typing import Optional
-from urllib.parse import quote_plus
+from urllib.parse import quote, urlencode
 
 import requests
+from dotenv import load_dotenv
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-}
+load_dotenv()
+
+SCRAPEDO_API_KEY = os.getenv("SCRAPEDO_API_KEY")
+SCRAPEDO_ENDPOINT = "https://api.scrape.do"
 
 CROSS_SUBS = ["ApplyingToCollege", "college"]
-SLEEP = 3
-MAX_COMMENT_POSTS = 100  # only fetch comments for top N posts by upvotes
+SLEEP = 2
+MAX_COMMENT_POSTS = 100
 
 
-def _get(url: str, params: Optional[dict] = None):
-    for _ in range(2):
-        resp = requests.get(url, headers=HEADERS, params=params, timeout=30)
+def _get(url: str, params: Optional[dict] = None) -> dict:
+    target_url = url
+    if params:
+        target_url = f"{url}?{urlencode(params)}"
+
+    for attempt in range(2):
+        resp = requests.get(
+            SCRAPEDO_ENDPOINT,
+            params={"token": SCRAPEDO_API_KEY, "url": target_url},
+            timeout=60,
+        )
         if resp.status_code == 429:
-            retry_after = int(resp.headers.get("Retry-After", 60))
-            wait = max(retry_after, 60)
+            wait = 60
             print(f"    Rate limited — sleeping {wait}s before retry...")
             time.sleep(wait)
             continue
         resp.raise_for_status()
-        return resp.json()
+        try:
+            return resp.json()
+        except Exception:
+            # Scrape.do sometimes wraps response; try parsing as text
+            import json as _json
+            text = resp.text.strip()
+            return _json.loads(text)
+
     resp.raise_for_status()
-    return resp.json()
+    return {}
 
 
 def _utc_to_iso(ts: float) -> str:
@@ -44,6 +57,7 @@ def _utc_to_iso(ts: float) -> str:
 def _parse_post(data: dict) -> dict:
     return {
         "id": data.get("id", ""),
+        "source": "reddit",
         "subreddit": f"r/{data.get('subreddit', '')}",
         "title": data.get("title", ""),
         "body": data.get("selftext", ""),
@@ -94,13 +108,17 @@ def _fetch_comments(post_id: str) -> list[dict]:
         return []
 
 
-def scrape_school_direct(school: dict, data_dir: str) -> str:
+def scrape_school_direct(school: dict, data_dir: str) -> tuple[str, int]:
     slug = school["slug"]
-    out_path = os.path.join(data_dir, f"{slug}_raw.json")
+    out_path = os.path.join(data_dir, f"{slug}_reddit_raw.json")
 
     if os.path.exists(out_path):
-        print(f"  [SKIP scrape] {slug}_raw.json already exists")
-        return out_path
+        with open(out_path, encoding="utf-8") as f:
+            existing = json.load(f)
+        return out_path, len(existing)
+
+    if not SCRAPEDO_API_KEY:
+        raise ValueError("SCRAPEDO_API_KEY not found in .env")
 
     own_subs = set()
     for sub in school["subreddits"]:
@@ -121,7 +139,6 @@ def scrape_school_direct(school: dict, data_dir: str) -> str:
 
     posts: dict[str, dict] = {}
 
-    # Scrape each school's own subreddits (top posts of the year)
     for sub in school["subreddits"]:
         sub_name = sub[2:] if sub.startswith("r/") else sub
         url = f"https://www.reddit.com/r/{sub_name}/top.json"
@@ -130,7 +147,6 @@ def scrape_school_direct(school: dict, data_dir: str) -> str:
             if p["id"] not in posts:
                 posts[p["id"]] = p
 
-    # Search cross-subs (r/ApplyingToCollege, r/college) for each keyword
     for keyword in school["keywords"]:
         for cross_sub in CROSS_SUBS:
             url = f"https://www.reddit.com/r/{cross_sub}/search.json"
@@ -142,17 +158,15 @@ def scrape_school_direct(school: dict, data_dir: str) -> str:
     all_posts = list(posts.values())
     relevant = [p for p in all_posts if is_relevant(p)]
     relevant.sort(key=lambda p: p["upvotes"], reverse=True)
-    print(f"  {len(all_posts)} posts collected, {len(relevant)} kept after relevance filter")
+    print(f"    {len(all_posts)} posts collected, {len(relevant)} kept after relevance filter")
 
-    # Fetch top comments for the highest-upvoted posts only
     for_comments = relevant[:MAX_COMMENT_POSTS]
-    print(f"  Fetching comments for {len(for_comments)} posts (top {MAX_COMMENT_POSTS} by upvotes)...")
-    for i, post in enumerate(for_comments, 1):
-        print(f"    [{i}/{len(for_comments)}] {post['title'][:70]}...")
+    print(f"    Fetching comments for {len(for_comments)} posts...")
+    for j, post in enumerate(for_comments, 1):
+        print(f"      [{j}/{len(for_comments)}] {post['title'][:70]}...")
         post["top_comments"] = _fetch_comments(post["id"])
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(relevant, f, indent=2, ensure_ascii=False)
 
-    print(f"  Saved {len(relevant)} posts → {out_path}")
-    return out_path
+    return out_path, len(relevant)
