@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_quotes": [
+      "As someone who went to BC for undergrad, lived on Newton, and is going back for law school",
+      "Factor in traffic for sure. Could be 20 minutes could take an hour to get to BC",
+      "It helps getting adjusted to the campus in a more relaxed environment"
+    ],
+    "score": 6,
+    "key_points": [
+      "BC has multiple residential areas including a separate Newton campus.",
+      "Newton campus adds commute complexity for residents.",
+      "No strong student complaints or praise about dorm quality found."
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "It was my fave part of senior week! People dress up in a 'decade' and the music played is mostly 70s-90s music. Tons of singing along and just overall a ton of fun!",
+      "It's a dance where you take yourself less seriously than Comm Ball. This is one where you get to be a little goofy and just have fun.",
+      "Boston is a lot more 'student friendly' because there are so many colleges in the area (BC, BU, Harvard, MIT, Brandeis, Olin, UMass, Simmons, etc.)"
+    ],
+    "score": 7,
+    "key_points": [
+      "Senior week traditions like Commencement Ball create lasting alumni nostalgia.",
+      "Dance Through the Decades is a beloved, uniquely BC tradition.",
+      "Boston's college-dense environment expands social life well beyond campus."
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "New York is expensive in terms of food, clothing, housing, entertainment",
+      "Boston however isn't cheap either",
+      "If you wanted to compare apples to apples..."
+    ],
+    "score": 6,
+    "key_points": [
+      "No student discussion of dining halls or food quality found.",
+      "Dining experience at BC remains unassessed from available data.",
+      "Incoming students should research dining independently before committing."
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "I've felt myself spiraling further and further into my depression and an elitist mindset",
+      "I couldn't sleep all night thinking about all the rejections I've gotten so far, comparing myself with others",
+      "Admissions broke me and I want everyone to know they don't have to break you"
+    ],
+    "score": 6,
+    "key_points": [
+      "No BC-specific mental health resources discussed in available posts.",
+      "Broader admissions stress culture is relevant context for incoming students.",
+      "Students should independently investigate BC counseling and support services."
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "Outside of Gabelli Scholars, ALL financial aid is based on income/need. If your family income goes up 'a lot' you'll receive less aid. If it stays relatively the same, your aid will as well",
+      "Unless your parents' (or your) income has changed dramatically, I don't think your finaid will change",
+      "I received my financial aid a few hours after I got my email saying that I was taken off of their waitlist"
+    ],
+    "score": 7,
+    "key_points": [
+      "Need-based aid stays stable if family income doesn't change significantly.",
+      "Gabelli Scholars is BC's primary merit-based aid exception.",
+      "Waitlisted students report receiving aid packages quickly after admission."
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "Only ~15% of students can get an A, ~35% an A- or higher, and ~70% a B+ or higher. The curve might be more relaxed in some classes",
+      "Professors are great. Internships require you to be proactive. You can definitely double major—it is a light major in terms of requirements.",
+      "I had a great experience doing a political science degree at Boston College, they have a fantastic program"
+    ],
+    "score": 7,
+    "key_points": [
+      "CSOM enforces strict curve: only 15% of students can earn an A.",
+      "Grade deflation significantly impacts GPA-sensitive grad school applications.",
+      "Political science is strong with light requirements and praised professors."
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "I emailed my admissions counselor about it and responded quickly letting me know he'll add it to my credentials",
+      "Cyberattack knocks out Canvas at Boston College during finals period, threatens data leak",
+      "I kept checking my portal and finally got somewhere about 1.5 hours later. Not sure why there was a delay"
+    ],
+    "score": 6,
+    "key_points": [
+      "Admissions counselors respond quickly to waitlist and financial aid emails.",
+      "A cyberattack hit Canvas during finals, raising serious IT concerns.",
+      "Financial aid responsiveness for waitlisted students was noted positively."
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "Would you rather live in East Village or Chestnut Hill? They're quite different environments.",
+      "Factor in traffic for sure. Could be 20 minutes could take an hour to get to BC",
+      "Boston is a lot more 'student friendly' because there are so many colleges in the area"
+    ],
+    "score": 7,
+    "key_points": [
+      "Chestnut Hill is a quiet suburb, sharply unlike urban schools like NYU.",
+      "Boston's college ecosystem is a major asset for students.",
+      "Unpredictable traffic significantly extends commute times to and from campus."
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "Internships require you to be proactive",
+      "Boston College is tied for 35th",
+      "I had a great experience doing a political science degree at Boston College, they have a fantastic program"
+    ],
+    "score": 6,
+    "key_points": [
+      "Political science students must proactively seek internships — none are handed out.",
+      "BC's ~35th US News ranking aids employer recognition nationally.",
+      "Specific career placement data is absent from available student posts."
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "Getting admitted to USC, Middlebury, Swarthmore, Vassar and BC hardly seems like 'getting cooked'",
+      "Only ~15% of students can get an A — the curve might be more relaxed in some classes",
+      "Outside of Gabelli Scholars, ALL financial aid is based on income/need"
+    ],
+    "score": 6,
+    "key_points": [
+      "Need-based aid is stable year-to-year, aiding budget predictability.",
+      "CSOM grade deflation may hurt grad school ROI for business students.",
+      "BC is a high-cost private school with no direct cost complaints noted."
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "I love that they still have this as part of senior week - I remember mine from the late '90s!",
+      "My biggest concern was the ability to travel abroad and the Jesuit identity",
+      "It was my fave part of senior week! Tons of singing along and just overall a ton of fun!"
+    ],
+    "score": 7,
+    "key_points": [
+      "Alumni remain nostalgic decades later, signaling strong community and traditions.",
+      "BC culture is competitive but socially cohesive, not cutthroat.",
+      "Suburban Chestnut Hill setting creates a distinct, campus-centered identity."
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "Only ~15% of students can get an A, ~35% an A- or higher — the curve might be more relaxed in some classes",
+      "Cyberattack knocks out Canvas at Boston College during finals period, threatens data leak",
+      "I was in the middle of an exam"
+    ],
+    "score": 5,
+    "key_points": [
+      "Academics: CSOM institutionally mandates only 15% of students can earn an A.",
+      "IT Security: Cyberattack took down Canvas during finals, threatening a data leak.",
+      "Career: Business students should carefully weigh how grade deflation affects applications."
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "I know the staff and they are very nice as well as the student mentors you get to meet. It helps getting adjusted to the campus in a more relaxed environment",
+      "It was my fave part of senior week! People dress up in a 'decade' and the music played is mostly 70s-90s music",
+      "Boston is a lot more 'student friendly' because there are so many colleges in the area"
+    ],
+    "score": 7,
+    "key_points": [
+      "BCF1RST program warmly praised for easing first-gen student transitions with strong mentors.",
+      "Dance Through the Decades is a uniquely fun senior week tradition.",
+      "BC Law benefits from Boston's dense legal market and strong regional reputation."
+    ]
+  }
+}

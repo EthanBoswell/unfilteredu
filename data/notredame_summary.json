@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_quotes": [
+      "Dorms have weekly masses, but there is no pressure to go and it's a great way to meet people",
+      "I haven't been assigned to my dorm yet; Which is required to state on the form",
+      "Looking for any summer sublets to take over or if any current/past interns have housing suggestions"
+    ],
+    "score": 6,
+    "key_points": [
+      "Dorm system is central to campus community and social life.",
+      "Weekly masses and events create strong dorm-based belonging.",
+      "Five Corners Apartments offer an off-campus housing alternative."
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "Obviously college football is the most important facet of any university, so I'd like to get my tickets sorted",
+      "You can find pickup games pretty much anytime on campus in the North fields. There are always more than enough fields to go around",
+      "I really love ND so much. I was a catholic going in, but now I identify as agnostic. I have never felt pressured into anything spiritual"
+    ],
+    "score": 7,
+    "key_points": [
+      "Football is the dominant social force unifying the campus.",
+      "Campus culture is tight-knit, warm, and genuinely welcoming.",
+      "Club sports and dorm activities provide non-varsity social outlets."
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "if you want to work at any of the desks in lafun or duncan, those are under SAO",
+      "they post them on the job board once a year but i also believe they have an open form you can submit your name to"
+    ],
+    "score": 6,
+    "key_points": [
+      "Almost no student commentary exists on dining quality or options.",
+      "Dining locations like LaFun and Duncan offer campus jobs.",
+      "Insufficient data to meaningfully assess dining experience."
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "Therapy is freely offered through the University Counseling Center. I've never used it personally, but my friends who did never shared any complaints",
+      "I had a mental health episode on campus freshman year. I received free mental healthcare and therapy the rest of my time at ND",
+      "We ranked #1 in student happiness. Calm down"
+    ],
+    "score": 7,
+    "key_points": [
+      "Free counseling is available through the University Counseling Center.",
+      "System appears equipped to handle mental health crises directly.",
+      "Some cultural dismissiveness around mental health concerns is present."
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "Notre Dame's 18th President announced that the university will be need-blind for both domestic and international student which will be effective immediately",
+      "I'm not going. Not to be cocky but I think I'll get in but between the classic middle class no-financial-aid-but-can't-afford-it... I can't attend",
+      "As a fellow international student with a similar aid package who applied and received OSE move in funding last year, it included a $200 target gift card and a $1000 reimbursement for international flights"
+    ],
+    "score": 7,
+    "key_points": [
+      "Notre Dame is now need-blind for all students including internationals.",
+      "Middle-class families frequently fall into a painful financial aid gap.",
+      "International students on full rides get ~$1,000 flight reimbursement."
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "I'm a junior ACMS major and I feel like I was misinformed when I chose the major. I thought I was going into a high demand area, 'data science' and all",
+      "The Notre Dame page on undergrad ACMS leads off with the claim that ACMS is one of '5 College Majors on the Rise' according to the Chronicle of Higher Ed. It does not say the article is from 2009",
+      "I am leaning toward the 5 year dual degree, in aerospace engineering"
+    ],
+    "score": 6,
+    "key_points": [
+      "ACMS major sits awkwardly between CS and pure math job markets.",
+      "Aerospace engineering and dual-degree programs are well-regarded by students.",
+      "Some programs rely on outdated marketing to oversell job prospects."
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "Notre Dame let me down easy — 'our loss often proves to be another University's gain'",
+      "the form is currently closed and opens around late July. If they deem you eligible, you'd get a mail saying you qualify",
+      "Reach out to the cadre not reddit"
+    ],
+    "score": 6,
+    "key_points": [
+      "Admissions office is known for compassionate, thoughtful rejection letters.",
+      "International financial aid requires navigating specific forms with strict timing.",
+      "NROTC waitlist coordination requires direct outreach; not well-integrated."
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "I'm from a medium-sized city in northern Indiana. It's quite irrelevant like literally nothing goes on here except hella Notre Dame shit",
+      "By the dome where gold lights gleam, My hopes align with every dream",
+      "Notre Dame (sounds so mysterious and has so much aura)"
+    ],
+    "score": 7,
+    "key_points": [
+      "Campus aesthetics are consistently rated S or A tier by students.",
+      "The Golden Dome is a genuine source of student pride.",
+      "South Bend is quiet with little activity beyond Notre Dame life."
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "if you wanna work in Finance go to Cornell, Notre Dame",
+      "companies think it's not domain specific enough like CS and engineering. But it's also not 'general' enough for things like consulting",
+      "you should be pretty competitive for something like consulting"
+    ],
+    "score": 7,
+    "key_points": [
+      "Notre Dame is a recognized strong pipeline into finance careers.",
+      "General prestige and alumni network are seen as major assets.",
+      "Niche interdisciplinary majors may not translate cleanly to employer recognition."
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "Notre Dame was my most affordable private school compared to the other private schools I was accepted to",
+      "I'm getting some aid but my EFC is around $50k, far from what my family can really afford",
+      "Notre Dame for $4k/year? You better not pass that up!!"
+    ],
+    "score": 7,
+    "key_points": [
+      "With strong aid, Notre Dame costs can rival in-state tuition.",
+      "Middle-class families at full sticker price face serious affordability hardship.",
+      "New need-blind policy may improve value for lower-income students."
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "I am a hardcore anti-theist atheist who actively trashes religion at any chance I get and I go to Notre Dame. I have never experienced any religious issues here",
+      "religion is only used to enhance the overall mission of notre dame to make you a better person. you can only gain from religion at notre dame, it never detracts from your experience",
+      "How do you know if someone went to ND? They will slip it in the conversation 5 times in the first 15 minutes of meeting them"
+    ],
+    "score": 8,
+    "key_points": [
+      "Campus culture centers on football, faith, and strong institutional pride.",
+      "Non-Catholics and atheists report feeling genuinely welcome on campus.",
+      "Quiet Midwestern location may not suit students wanting urban energy."
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "The Hunting Ground is basically about college's and official's responses on sexual assault on college campuses. It focuses on institutions such as Notre Dame... and their shrugging off of sexual assault claims",
+      "It does not say the article is from 2009 — the ACMS marketing is misleading",
+      "I am still salty that they deferred me just to reject me"
+    ],
+    "score": 4,
+    "key_points": [
+      "Academics: ACMS job market pitched with outdated 2009 marketing materials.",
+      "Safety: Notre Dame named in documentary on mishandled assault claims.",
+      "Financial Aid: Middle-class families often too rich for aid, too poor for tuition."
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "It included a $200 target gift card and a $1000 reimbursement for international flights — apply through the form when it opens in late July",
+      "You can find pickup games pretty much anytime on campus in the North fields. There are always more than enough fields to go around and you'll quickly find like-minded people",
+      "Notre Dame let me down easy — 'our loss often proves to be another University's gain' — take notes other schools"
+    ],
+    "score": 8,
+    "key_points": [
+      "International full-aid students get ~$1,000 flight reimbursement and Target gift card.",
+      "Club sports offer community and play without varsity-level time commitment.",
+      "Notably kind rejection letters reflect genuine warmth in institutional character."
+    ]
+  }
+}

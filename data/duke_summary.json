@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_quotes": [
+      "I've been here 4 years and it has all been great. Any issues were fixed within 24 hours",
+      "I am moving out of Poplar Manor (close to West Campus) at the end of June, so there will be a unit available",
+      "There's absolutely no reason to live outside of Durham if you will be at Duke"
+    ],
+    "score": 6,
+    "key_points": [
+      "Grad/international students struggle to rent without US credit history",
+      "Poplar Manor near West Campus praised for responsive maintenance",
+      "Live in Durham proper; avoid suburbs like Cary or Morrisville"
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "my current friend group is almost all pArts kids; anecdotally i've noticed a lot of the pArts kids stay together even after orientation",
+      "I won't lie it was very hard for me [as a transfer]. You really need to put in effort yourself to find people",
+      "I loved PCitizen!! super fun DC trip with lots of cool activities, still great friends with the people from there even after graduating"
+    ],
+    "score": 6,
+    "key_points": [
+      "Orientation cohorts like pArts often become lasting friend groups",
+      "Transfers report significant difficulty breaking into existing social circles",
+      "Social scene heavily rewards early engagement; late arrivals struggle"
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "No relevant quotes available from these posts"
+    ],
+    "score": 6,
+    "key_points": [
+      "No meaningful student discussion of dining halls exists here",
+      "Food quality at Duke cannot be evaluated from this data",
+      "Dining remains an open question requiring additional research"
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "the hardest part of this school was the application process",
+      "I didn't take the hardest course load possible, nor did I perform the greatest (3.84 GPA)"
+    ],
+    "score": 6,
+    "key_points": [
+      "No direct student discussion of mental health resources found",
+      "One senior implied workload is more manageable than expected",
+      "Mental health support infrastructure remains unevaluated in this dataset"
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "damn i would apply for premed, but their fin aid sucks compared to the other privates",
+      "I've had friends with ample support from the finaid office who did not get the same from other peer private schools",
+      "If you go the MD/PhD route, they cover all tuition, fees, plus pay you a modest stipend"
+    ],
+    "score": 5,
+    "key_points": [
+      "Aid perceived as weaker than peer elite privates by some",
+      "Duke Med offers limited non-need-based scholarships for pre-med students",
+      "MD/PhD students receive full tuition plus stipend as exception"
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "How the fuck is a 3.84 gpa not Latin honors lmao? Does duke have mad inflation that I'm not aware of",
+      "Duke definitely grade inflates and has been trending upward for years",
+      "Duke doesn't have nursing for undergraduates. That won't be available to you"
+    ],
+    "score": 7,
+    "key_points": [
+      "Grade inflation is real; 3.84 GPA falls outside Latin Honors",
+      "Focus program is highly sought but many land in Constellations",
+      "Duke does not offer undergraduate nursing despite strong reputation there"
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "I'm a recent grad and career services made a big deal about using our Duke.edu emails for job applications so I'm on more than 20 portals with that address",
+      "It isn't an issue. It's Duke being cheap, they just won't admit it",
+      "I will not be donating to Duke while this decision stands and I feel obligated to tell prospective students that the university does not value its commitments"
+    ],
+    "score": 4,
+    "key_points": [
+      "Alumni email revocation broke a promised lifetime benefit with no warning",
+      "Response criticized as evasive; alumni vowing to withhold donations",
+      "Revocation especially harmful as Career Services promoted Duke emails actively"
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "Durham is not that unsafe",
+      "there is zero reason to live in cary or morrisville. i'm also from california (from the bay and lived in la for a decade) and i moved here two years ago",
+      "If you're a graduate student with SF money, I'd recommend downtown Durham until you know the area well enough"
+    ],
+    "score": 7,
+    "key_points": [
+      "Durham is safer and better than its stigma suggests",
+      "California students specifically advised to embrace Durham over fleeing suburbs",
+      "Campus is visually stunning and featured in professional tour videos"
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "Duke University is listed among the most elite American universities by the UK government for its high potential immigrant program",
+      "I am a current senior at Duke University majoring in Economics and Computer Science graduating next May",
+      "If you are super antsy [about career prep], look into some of the clubs"
+    ],
+    "score": 7,
+    "key_points": [
+      "Duke alumni qualify for UK High Potential visa, signaling global prestige",
+      "Econ and CS grads report strong career preparation overall",
+      "Quant finance and trading students are notably drawn to Duke"
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "damn i would apply for premed, but their fin aid sucks compared to the other privates",
+      "I feel obligated to tell prospective students that the university does not value its commitments",
+      "Duke definitely grade inflates and has been trending upward for years"
+    ],
+    "score": 5,
+    "key_points": [
+      "Prestige is real but financial aid lags behind top peers",
+      "Grade inflation makes high GPAs easier but potentially less meaningful",
+      "Alumni email cut signals university may withdraw promised long-term benefits"
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "On the whole, Duke is a strikingly liberal campus",
+      "the hardest part of this school was the application process",
+      "Everyone ends up in one of their top 5 choices and orientation week is entirely what you make of it"
+    ],
+    "score": 6,
+    "key_points": [
+      "Driven, pre-professional students dominate; econ, CS, and finance are central",
+      "Orientation programs define social belonging; missing them has lasting effects",
+      "Admin trust damaged among alumni following the email controversy"
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "Delaying a broken promise is still a broken promise. I will not be donating to Duke while this decision stands",
+      "The doubling down with weasel words is honestly insulting",
+      "I won't lie it was very hard for me [as a transfer]. You really need to put in effort yourself to find people"
+    ],
+    "score": 6,
+    "key_points": [
+      "Administration: promised lifetime alumni email revoked with evasive justification",
+      "Academics: 3.84 GPA insufficient for Latin Honors due to grade inflation",
+      "Transfers: face real social isolation with little institutional support provided"
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "my current friend group is almost all pArts kids; anecdotally i've noticed a lot of the pArts kids stay together even after orientation",
+      "I loved PCitizen!! super fun DC trip with lots of cool activities, still great friends with the people from there even after graduating",
+      "Box is not great, but it was created by a Duke student, and there is some loyalty to it"
+    ],
+    "score": 8,
+    "key_points": [
+      "Orientation programs like pArts and PCitizen build friendships lasting all four years",
+      "Focus program offers rare tight-knit intellectual community for admitted freshmen",
+      "Box file storage was created by a Duke student, reflecting quiet entrepreneurial culture"
+    ]
+  }
+}

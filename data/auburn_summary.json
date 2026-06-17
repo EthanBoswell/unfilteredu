@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_quotes": [
+      "my daughter got in last spring and we're out of state and just could not afford it... almost $60,000 per year",
+      "The city of auburn/the university have allowed an unethical towing monopoly around the campus with unethical towing practices for at least 35 years",
+      "In my experience if you push back at all in person they will give you the entire deposit back"
+    ],
+    "score": 4,
+    "key_points": [
+      "Out-of-state total costs approach $60K yearly, limiting accessibility",
+      "Predatory towing companies near campus have plagued students for decades",
+      "Landlords illegally withhold deposits, but students who dispute usually win"
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "You should expect to have the time of your life. I reflect back on my time at AU as one of the best decisions I ever made",
+      "I'm from 14 hours away and I just feel like I have no friends here and maybe I wasn't meant for the sec",
+      "Stay away from Sky Bar"
+    ],
+    "score": 6,
+    "key_points": [
+      "Football, Greek life, and bars create a vibrant, beloved social scene",
+      "Out-of-state and international students often struggle to find social footing",
+      "Sky Bar has decades of credible drink-spiking and assault allegations"
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "Grab a lemonade from Toomer's drug store, pizza at the Amsterdam Cafe, Brunswick stew at the best BBQ in the world",
+      "2 hot dogs, fries and a drink = $30 there. What fucking college student eats like that",
+      "Please god can we get a cheap bar in that space... a student can dream"
+    ],
+    "score": 6,
+    "key_points": [
+      "On-campus dining is rarely discussed by students",
+      "Local alumni favorites include Toomer's lemonade, Amsterdam Cafe, Brunswick stew",
+      "Students want more affordable options after downtown closures like Five Guys"
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "Has anyone else ever felt like they just want to transfer or something? I'm really sad and just want to go home. Does it get better?",
+      "For ten years, I've carried that trauma silently, battling high-functioning depression, denial, and moments of suicidal idealization",
+      "college is really what you make of it. Auburn has truly incredible opportunities but you have to seek them out"
+    ],
+    "score": 5,
+    "key_points": [
+      "University mental health support is rarely mentioned or praised",
+      "At least one student posted publicly about isolation and transfer plans",
+      "Students are told college is 'what you make of it' — self-advocacy required"
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "Auburn University gives full tuition with an ACT score of 34",
+      "we're out of state and just could not afford it. We didn't qualify for any aid... almost $60,000 per year",
+      "the aid I was promised is gone... the school is telling me I have to register it as a 9-credit internship... $14k"
+    ],
+    "score": 5,
+    "key_points": [
+      "ACT 34+ earns full tuition; Auburn excels for high-achieving in-state students",
+      "Out-of-state aid is limited; $50–60K yearly deters many applicants",
+      "Athletic scholarship stripped via NIL lawsuit fallout; student then charged $14K"
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "professors have been hit or miss",
+      "I hope they are wearing respirators to tear it down. The defining characteristics of Parker has to be black mold",
+      "Auburn University requires faculty to review courses to comply with anti-DEI law"
+    ],
+    "score": 6,
+    "key_points": [
+      "Engineering, architecture, and pre-vet programs are consistently well-regarded",
+      "Instruction quality varies sharply by professor across departments",
+      "Mandatory anti-DEI curriculum audits are alarming students and faculty deeply"
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "Auburn's administration is caving to fascists. Shameful",
+      "AU campus security tried to stop the protest, APD let it happen",
+      "when I was [a student], Auburn hired many of its econ professors from the Mises Institute and my classes were basically rants on how evil the Federal Reserve is"
+    ],
+    "score": 4,
+    "key_points": [
+      "Administration faces criticism for coaching hires, protests, and DEI capitulation",
+      "Forced faculty course audits to comply with Alabama anti-DEI law angered campus",
+      "Security reportedly shut down peaceful protests while past allowing Spencer to speak"
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "One of the most beautiful campuses I've visited",
+      "Everything that made it wonderful from the late 2000s-2015ish is mostly gone. Lots of high-rise, shoddily built 'luxury' housing stands where staples used to be",
+      "Just walking around campus, so beautiful. I also enjoyed going out to Chewacla state park"
+    ],
+    "score": 7,
+    "key_points": [
+      "Campus is widely considered one of the most beautiful in the country",
+      "Overdevelopment has replaced authentic spots with luxury high-rises and chains",
+      "Chewacla State Park and Tuskegee National Forest offer nearby outdoor escapes"
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "committed to Auburn University for the Class of 2026 with a dual major in Aerospace Engineering and Musical Theater",
+      "Employers won't care if you went to UNA or Auburn or UA",
+      "I reflect back on my time at AU as one of the best decisions I ever made"
+    ],
+    "score": 6,
+    "key_points": [
+      "Engineering, aerospace, and vet programs are praised for career preparation",
+      "Alumni generally reflect positively on Auburn's career value in retrospect",
+      "No concrete job placement rates or salary data surfaces in student discussions"
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "if you're getting a full ride, it's hard to beat, financially speaking",
+      "out of state tuition (est. 50k) is WAY too much for me",
+      "I had to pay almost as much as I earned the entire summer so that I could graduate"
+    ],
+    "score": 5,
+    "key_points": [
+      "In-state students with merit aid get exceptional value at Auburn",
+      "Out-of-state students paying $60K yearly find better deals elsewhere",
+      "Lost scholarships and surprise $14K internship charges signal unreliable financial agreements"
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "Auburn normally has the reputation of being good to visiting fans. Glad that is the experience that you got",
+      "I was a conservative when I entered Auburn and left a liberal",
+      "i got here in 2021 and let me tell you, it has changed SO much in just that amount of time (not in a good way)"
+    ],
+    "score": 6,
+    "key_points": [
+      "Auburn has fierce school pride, legendary football culture, and genuine community warmth",
+      "Campus leans conservative, reflecting Alabama's political climate broadly",
+      "Beloved by alumni, but current students say the town has worsened recently"
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "In 2015, while living in Auburn, I was drugged, kidnapped, and raped after being at Sky Bar... I've carried that trauma silently for ten years",
+      "Auburn is the only place in my life I have had the unfortunate personal experience [of antisemitism]",
+      "Being on that list alongside Liberty University and Hillsdale College says a lot"
+    ],
+    "score": 8,
+    "key_points": [
+      "Sky Bar: decades of credible drugging and sexual assault allegations reported publicly",
+      "Antisemitism: graffiti on campus and personal accounts from Jewish alumni confirmed",
+      "Campus climate: anti-DEI laws enforced, protests suppressed, Pentagon 'non-woke' designation received"
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "One of the best experiences of my life. Congrats to her! It's gonna be awesome [about AUMB]",
+      "I plan to do Mechanical Engineering and hopefully join the Formula SAE club",
+      "By far and away, people in Auburn were the most friendly and welcoming people we have EVER encountered while traveling to an away game"
+    ],
+    "score": 8,
+    "key_points": [
+      "Auburn Marching Band offers transformative friendships and deep community belonging",
+      "Formula SAE and engineering clubs provide rare hands-on real-world technical experience",
+      "Toomer's Corner rolling tradition is a uniquely memorable cultural experience universally praised"
+    ]
+  }
+}

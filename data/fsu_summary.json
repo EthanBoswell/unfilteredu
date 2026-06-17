@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_quotes": [
+      "Lived in Landis 4th floor last year. Had a wonderful roommate... HOWEVER, our FREAKING tiles were ALWAYS WET near my roommate's [side]",
+      "a lot are going to the new build across the street",
+      "I don't know Tallahassee super well yet, and I've never seen the dorms"
+    ],
+    "score": 5,
+    "key_points": [
+      "On-campus dorms vary widely; older buildings report maintenance issues.",
+      "Landis Hall specifically flagged for wet tiles and bathroom problems.",
+      "New off-campus build popular with business students near campus."
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "Girl looking for friends on st pattys day - I'm on campus but a lot of my friends are going out of town",
+      "There's gonna be a bar crawl on Feb 21st from LineLeap/Fireball",
+      "Currently go to FSU, its fucking awesome so I'm not surprised [by rising applications]"
+    ],
+    "score": 7,
+    "key_points": [
+      "Bar crawls, Greek life, and football define FSU's social scene.",
+      "Pledge death brought serious scrutiny to Greek life culture.",
+      "Transfer and isolated students may struggle to find social connection."
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "Something like a cafeteria gift card/gas money/alcohol [as a gift for FSU student]",
+      "a bottle of vodka tbh [suggested as a gift for FSU student]"
+    ],
+    "score": 6,
+    "key_points": [
+      "Dining generates almost no student commentary, positive or negative.",
+      "Absence of strong opinions suggests dining is unremarkable overall.",
+      "Cannot assess quality due to near-zero student data available."
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "it took me almost a decade to reach this point because I withdrew three times due to sudden documented mental health related hardships (Panic Disorder)",
+      "I have since fully recovered and graduated this past semester with a 3.0 GPA",
+      "Nevermind, I was accepted! [after disclosing mental health history in application]"
+    ],
+    "score": 5,
+    "key_points": [
+      "Students with mental health histories can navigate FSU successfully.",
+      "One student took nearly a decade finishing AA due to Panic Disorder.",
+      "No mention of strong campus mental health infrastructure or support."
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "I got into Florida State in the honors program w a $60000 scholarship!!",
+      "I have the highest Bright Futures tier and 11k in grants for both semesters",
+      "For context, I am a FL resident, and qualify for 100% bright futures. Going to FSU would be significantly cheaper [than Wellesley]"
+    ],
+    "score": 8,
+    "key_points": [
+      "Florida Bright Futures makes FSU near-free for qualifying residents.",
+      "Out-of-state students receive far less aid; cost calculus changes dramatically.",
+      "Rare high-dollar scholarships like $60,000 awards generate real excitement."
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "FSU is in the capitol as you know, and has pretty great funding for their program",
+      "I did one in geology at FSU. I loved it! We have a fantastic department",
+      "FSU'd assert FSU is on the rise. Their ranking has increased quite a bit in the past few years"
+    ],
+    "score": 7,
+    "key_points": [
+      "FSU excels in political science, criminology, and environmental sciences.",
+      "State capitol location gives poli-sci and pre-law students unique internship access.",
+      "Often seen as a safety school, but students leave genuinely impressed."
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "FSU President bans Greek life on campus following death of Pi Kappa Phi pledge Andrew Coffey",
+      "Herff Jones has now sent me the wrong gown twice (they sent USF both times)",
+      "I emailed the transfer student services this question, but I figured I'd ask here if someone has any insight"
+    ],
+    "score": 5,
+    "key_points": [
+      "Greek life ban after pledge death shows some administrative accountability.",
+      "Graduation gown sent wrong twice signals vendor/admin coordination failures.",
+      "Responsiveness to student concerns appears inconsistent across departments."
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "a beautiful campus... Bricks can be gorgeous when done right. I'm a huge fan of the red/green contrast",
+      "The beach isn't close by!!! I'm fairly familiar with the area and yeah the pretty beaches are not close",
+      "in the state capitol so plenty of opportunities for political internships"
+    ],
+    "score": 7,
+    "key_points": [
+      "Campus brick architecture is widely praised as genuinely beautiful.",
+      "Tallahassee is two hours from beaches, contrary to common expectations.",
+      "State capitol location is a major practical advantage for certain majors."
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "I got an internship with state rep in Tallahassee and that's what's been affecting my decision",
+      "Academic reputation rlly is not that big of a deal when deciding between FSU and UF, especially regarding polisci",
+      "FSU will give you a better education and prepare/set you up for medical a lot more than FIU will"
+    ],
+    "score": 7,
+    "key_points": [
+      "Tallahassee location provides real internship access to state government roles.",
+      "Rising rankings suggest improving graduate outcomes over time.",
+      "Limited data on career placement beyond government and politics pipelines."
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "That scholarship is amazing, imagine being debt-free when you graduate",
+      "Me: $1700 EFC. Most likely going to FSU (in-state)",
+      "Going to FSU would be significantly cheaper [than a $3000/year aid package from Wellesley]"
+    ],
+    "score": 8,
+    "key_points": [
+      "Bright Futures makes FSU one of America's best higher-ed values.",
+      "Out-of-state students face a much harder, less favorable financial calculation.",
+      "Rising rankings plus in-state affordability create a standout deal for Floridians."
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "Currently go to FSU, its fucking awesome so I'm not surprised",
+      "Although I mostly wrote FSU off as 'another safety,' I'm [now excited]",
+      "just go to Florida State and join the carnival [said mockingly, but captures the school's fun reputation]"
+    ],
+    "score": 7,
+    "key_points": [
+      "FSU has strong spirit and real academic substance often underestimated.",
+      "Students who arrive skeptical frequently become enthusiastic advocates.",
+      "Party and football culture is real but coexists with genuine academic energy."
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "FSU President bans Greek life on campus following death of Pi Kappa Phi pledge Andrew Coffey",
+      "The Hunting Ground is basically about college's and official's responses on sexual assault on college campuses. It focuses on institutions such as... FSU",
+      "All fraternities and sororities should just pull out and ditch the school [in response to Greek life ban]"
+    ],
+    "score": 8,
+    "key_points": [
+      "Hazing: pledge Andrew Coffey died, triggering full Greek life ban.",
+      "Sexual assault: FSU featured in 'The Hunting Ground' documentary.",
+      "Institutional response: handling of assault cases warrants careful research before enrolling."
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "Being in Tallahassee is also amazing and there are a lot of opportunities for internships there",
+      "I did one in geology at FSU. I loved it! We have a fantastic department",
+      "Transferring from TCC [Tallahassee Community College] is a well-known pathway into FSU"
+    ],
+    "score": 8,
+    "key_points": [
+      "Capitol location creates unmatched internship pipelines for poli-sci and pre-law students.",
+      "Geology and environmental science departments are unexpectedly strong per students.",
+      "Bright Futures plus TCC pathway plus honors scholarships enable near debt-free education."
+    ]
+  }
+}

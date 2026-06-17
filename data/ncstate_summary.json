@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_quotes": [
+      "I move in on January 2 and the university doesn't open until the 2 either",
+      "Our student services are really good. The fact that dorms open the 2nd and staff doesn't report back until then is a problem and is incredibly frustrating",
+      "I was told my status is currently not enrolled because of some reporting error"
+    ],
+    "score": 5,
+    "key_points": [
+      "Dorms open same day staff return, creating a support gap",
+      "One student lost housing due to unexpected enrollment cancellation",
+      "Limited housing feedback; broader trends unclear from available data"
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "I live just down the street from NC State and a ton of my friends are going there. It's a great school and downtown Raleigh is great too!",
+      "I just visited again and it was awesome so I can't wait for the fall!",
+      "I believe it's in the student union. Really nice campus, the student union looks amazing"
+    ],
+    "score": 7,
+    "key_points": [
+      "Downtown Raleigh provides an active social scene beyond campus",
+      "Wolfpack identity fosters strong community pride among students",
+      "Detailed social life content is sparse in available posts"
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "No dining-specific quotes available in this dataset",
+      "No dining-specific quotes available in this dataset",
+      "No dining-specific quotes available in this dataset"
+    ],
+    "score": 7,
+    "key_points": [
+      "No meaningful dining content exists in this data set",
+      "Students did not mention food quality or dining halls",
+      "No conclusions about campus dining can be drawn"
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "After months of struggling to make it out of this semester alive (much less with honors) thanks to my dad kicking me out of the house",
+      "I don't have 3 grand. Even my financial aid is gone until I get it reinstated",
+      "Looks like Hunt. Pretty accurate if you go there and aren't getting a full ride"
+    ],
+    "score": 4,
+    "key_points": [
+      "Financial crises and enrollment issues leave students without timely support",
+      "Academic gatekeeping via CODA creates measurable stress and anxiety",
+      "Library culture reflects broader financial and academic pressure students feel"
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "Even my financial aid is gone until I get it reinstated",
+      "If it were a full ride, I would definitely take it no questions asked. But I do still have to pay for room and board which is quite pricey",
+      "That full ride will allow a great deal of freedom to your life after college"
+    ],
+    "score": 4,
+    "key_points": [
+      "Administrative errors can erase aid and leave students fully exposed",
+      "NC State is strong in-state value, especially for engineering",
+      "Room and board costs remain high even with scholarships"
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "I am a rising sophomore at NC State and was denied from the Genetics major and the Molecular and Cellular Biology major. My overall GPA is 2.91",
+      "I would call the departments and ask specifically for what GPAs were accepted to CODA (change of degree application)",
+      "It has an amazing program for my major (Statistics) and I just visited again and it was awesome"
+    ],
+    "score": 6,
+    "key_points": [
+      "CODA gatekeeping can deny intended majors after freshman year",
+      "A 2.91 GPA was insufficient for Genetics and MCB entry",
+      "Engineering and statistics programs are particularly well-regarded"
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "My admissions have been put into question for the millionth time",
+      "My enrollment was cancelled (again..)",
+      "The fact that dorms open the 2nd and staff doesn't report back until then is a problem and is incredibly frustrating"
+    ],
+    "score": 4,
+    "key_points": [
+      "Enrollment cancellations and reporting errors leave students without support",
+      "CODA adds bureaucratic gatekeeping that catches students off guard",
+      "Multiple students faced financial aid disruptions with little recourse"
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "I live just down the street from NC State and downtown Raleigh is great too!",
+      "Really nice campus, the student union looks amazing",
+      "NC State was always referred to as the engineering school"
+    ],
+    "score": 8,
+    "key_points": [
+      "Adjacent to downtown Raleigh, a major and recurring selling point",
+      "Campus is consistently praised, with a standout student union",
+      "Growing city offers substantial off-campus lifestyle advantages"
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "70s is a fine ranking for the broad discipline of engineering. Every school peer to NC State's size has an engineering school",
+      "When you go to Stevens and are making way more than you would have at NCSU, are you really gonna regret that you went to a lower ranked school?",
+      "A lot of rankings are based on research money and graduate programs"
+    ],
+    "score": 7,
+    "key_points": [
+      "Engineering program seen as strong career launchpad with solid ROI",
+      "Students chose NC State over pricier schools with confidence",
+      "No specific employer recruitment or alumni network data available"
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "My in-state option is North Carolina State University, which is a great option for my major (engineering)",
+      "I'm not willing to go into debt for an undergraduate degree",
+      "Pretty accurate if you go there and aren't getting a full ride"
+    ],
+    "score": 7,
+    "key_points": [
+      "Best value for in-state students, especially in engineering",
+      "Multiple students chose it over costlier peers for financial reasons",
+      "Aid administrative failures can create serious unexpected financial exposure"
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "I just committed to NC State guys!! So excited and even though it wasn't my first choice it has an amazing program",
+      "It's a great school and downtown Raleigh is great too!",
+      "I'd rather attend State and major in what I want than go to an ivy and major in bio"
+    ],
+    "score": 7,
+    "key_points": [
+      "Strong Wolfpack identity creates genuine excitement and community pride",
+      "Raleigh location elevates NC State beyond a typical campus experience",
+      "Real structural issues with CODA and aid administration lurk beneath"
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "I was denied from the Genetics major and the Molecular and Cellular Biology major. My overall GPA is 2.91",
+      "My enrollment was cancelled (again..) — I don't have 3 grand. Even my financial aid is gone",
+      "My admissions have been put into question for the millionth time"
+    ],
+    "score": 7,
+    "key_points": [
+      "CODA: students can be denied intended major after a full year",
+      "Financial Aid: aid can vanish alongside enrollment cancellation unexpectedly",
+      "Transparency: systemic risks are not prominently disclosed during recruitment"
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "It has an amazing program for my major (Statistics) and I just visited again and it was awesome",
+      "Downtown Raleigh is great too!",
+      "I'd rather attend State and major in what I want than go to an ivy and major in bio"
+    ],
+    "score": 7,
+    "key_points": [
+      "Statistics and engineering programs are strong and underpriced for quality",
+      "Walkable access to downtown Raleigh rivals costly urban universities",
+      "Genuine student community identity makes NC State feel like a destination"
+    ]
+  }
+}

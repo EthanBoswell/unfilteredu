@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_quotes": [
+      "We may have room at our son's place... $625 a month at Woodlands",
+      "Me and my current roommate are going abroad next spring and need a lease for this fall... not interested in any leases more than $800 a month",
+      "I will be an RCM next semester... two weeks of training that starts at 8am everyday"
+    ],
+    "score": 5,
+    "key_points": [
+      "Off-campus housing near Clemson runs $625–800/month.",
+      "RCM training is a structured two-week pre-move-in program.",
+      "On-campus housing is rarely discussed by students online."
+    ]
+  },
+  "social_life": {
+    "key_quotes": [
+      "Clemson is truly an amazing place and I hope everyone gets to experience having a home like this in their lifetime",
+      "Pickup basketball games at the court across from old stone church cemetery very regularly",
+      "my ap gov teacher went there and always talked about how much she loved it"
+    ],
+    "score": 8,
+    "key_points": [
+      "Clemson students describe campus as a genuine, tight-knit home.",
+      "Football culture drives exceptionally strong school spirit.",
+      "Community loyalty is a defining, repeatedly emphasized trait."
+    ]
+  },
+  "dining": {
+    "key_quotes": [
+      "No direct quotes available regarding dining",
+      "No student reviews of campus food found in dataset",
+      "No mentions of meal plans or dining halls"
+    ],
+    "score": 5,
+    "key_points": [
+      "No meaningful student discussion of dining halls exists.",
+      "Food quality, variety, and dining plan value are unknown.",
+      "Dining is a critical data gap for prospective students."
+    ]
+  },
+  "mental_health": {
+    "key_quotes": [
+      "This year was a mix of late nights, random memories, stressful moments, great people, and a lot of lessons learned",
+      "It somehow made another stressful semester feel worth it in the end",
+      "As someone who is done with Clemson (recently) all I have to say is: Good luck"
+    ],
+    "score": 5,
+    "key_points": [
+      "Heavy pre-med and engineering loads are implied stressors.",
+      "No direct discussion of campus mental health resources exists.",
+      "Competitive academic tracks may pressure students without visible support."
+    ]
+  },
+  "financial_aid": {
+    "key_quotes": [
+      "If it's the Clemson National Scholars Program, I would take that every single time, and twice on Sundays. Every pre-med Clemson National Scholar got into medical school",
+      "Clemson. Come on. Why is this even a question? [regarding full ride vs UVA full pay]",
+      "Apparently they send out acceptance letters to students in November if they will receive scholarships"
+    ],
+    "score": 8,
+    "key_points": [
+      "Clemson National Scholars Program offers full-ride merit scholarships.",
+      "In-state tuition is widely called an exceptional value.",
+      "Scholarship deadlines are critical and should be watched closely."
+    ]
+  },
+  "academics": {
+    "key_quotes": [
+      "USC has a decent engineering program, but from what I've heard, Clemson's is better",
+      "As an engineering manager, I've hired from both schools. Equally good schools",
+      "If music is important to you, then USC is the clear choice. USC's music programs are at a much higher level than Clemson's"
+    ],
+    "score": 7,
+    "key_points": [
+      "Engineering, especially ME and EE, is consistently highly praised.",
+      "National Scholars pre-med track has a standout reputation.",
+      "Neuroscience is unavailable; music programs are weaker than USC."
+    ]
+  },
+  "administration": {
+    "key_quotes": [
+      "As someone who is done with Clemson (recently) all I have to say is: Good luck",
+      "I submitted October 14, and the letter is dated November 1 [regarding scholarship notification]",
+      "I just got off the waitlist yesterday and I'm a bit conflicted"
+    ],
+    "score": 5,
+    "key_points": [
+      "Admissions decisions and scholarship notices arrive in November via EA.",
+      "A recent grad's cryptic 'Good luck' hints at frustrations.",
+      "Direct student commentary on administration is largely absent."
+    ]
+  },
+  "location_and_campus": {
+    "key_quotes": [
+      "Clemson is truly an amazing place and I hope everyone gets to experience having a home like this in their lifetime",
+      "Games would take place at Fike unless someone has a different location",
+      "There seems to be pickup games at the court across from old stone church cemetery very regularly"
+    ],
+    "score": 8,
+    "key_points": [
+      "Campus inspires strong affection from students and alumni alike.",
+      "Located in a small upstate South Carolina town environment.",
+      "Sense of place and belonging is consistently highlighted."
+    ]
+  },
+  "career_outcomes": {
+    "key_quotes": [
+      "As an engineering manager, I've hired from both schools. Equally good schools. Both schools are well known in engineering",
+      "Every pre-med Clemson National Scholar got into medical school",
+      "Getting a degree only helps you get in the door. After your first job, your experience matters far more than your degree"
+    ],
+    "score": 7,
+    "key_points": [
+      "Employers treat Clemson and NC State engineering grads equally.",
+      "National Scholars pre-med track boasts near-perfect med school acceptance.",
+      "Business and finance career outcomes are largely undiscussed."
+    ]
+  },
+  "value_for_money": {
+    "key_quotes": [
+      "Clemson in-state full ride [vs UVA full pay ~$90k/year]... Clemson. Come on. Why is this even a question?",
+      "Clemson's diversity is absolutely trash [but] I'm a SC resident and can afford Clemson for relatively cheap",
+      "Cost is the decisive factor in this ranking: Clemson 1, UNC 2, UVA 3"
+    ],
+    "score": 8,
+    "key_points": [
+      "In-state Clemson with merit aid beats expensive out-of-state schools.",
+      "Multiple advisors recommend Clemson over pricier options like UVA.",
+      "Out-of-state costs are high and less competitive without scholarships."
+    ]
+  },
+  "overall_vibe": {
+    "key_quotes": [
+      "Clemson is truly an amazing place and I hope everyone gets to experience having a home like this in their lifetime",
+      "Clemson's diversity is absolutely trash",
+      "My ap gov teacher went there and always talked about how much she loved it"
+    ],
+    "score": 8,
+    "key_points": [
+      "Clemson blends genuine academic strength with spirited community culture.",
+      "Engineering and sciences are respected; specialized programs are limited.",
+      "Lack of diversity and niche programs are primary criticisms."
+    ]
+  },
+  "red_flags": {
+    "key_quotes": [
+      "Clemson's diversity is absolutely trash",
+      "Clemson does not have [neuroscience as a major]",
+      "As someone who is done with Clemson (recently) all I have to say is: Good luck"
+    ],
+    "score": 5,
+    "key_points": [
+      "Diversity: one student calls Clemson's diversity 'absolutely trash.'",
+      "Programs: neuroscience unavailable; arts and music offerings are weak.",
+      "Administration: recent grad's only comment was a cryptic 'Good luck.'"
+    ]
+  },
+  "hidden_gems": {
+    "key_quotes": [
+      "If it's the Clemson National Scholars Program, I would take that every single time, and twice on Sundays. Every pre-med Clemson National Scholar got into medical school",
+      "The perk of your special named full ride (assuming it's like research advantage) will help you get into medical school",
+      "Games would take place at Fike [Recreation Center]"
+    ],
+    "score": 8,
+    "key_points": [
+      "Clemson National Scholars is a little-known full-ride with elite pre-med outcomes.",
+      "Engineering placement rivals far pricier or more selective schools.",
+      "Fike Recreation Center is a notably valued student facility."
+    ]
+  }
+}

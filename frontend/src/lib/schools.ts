@@ -370,6 +370,18 @@ export const SCHOOLS: SchoolMeta[] = [
     ],
   },
   {
+    slug: "lsu",
+    name: "Louisiana State University",
+    location: "Baton Rouge, LA",
+    colors: { primary: "#461D7C", secondary: "#FDD023" },
+    radioStation: "KLSU 91.1 FM",
+    stats: [
+      { icon: "📋", label: "34K+ Applicants" },
+      { icon: "🏈", label: "SEC Football" },
+      { icon: "🐅", label: "Tiger Country" },
+    ],
+  },
+  {
     slug: "usc",
     name: "University of Southern California",
     location: "Los Angeles, CA",
