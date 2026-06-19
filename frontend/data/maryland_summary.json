@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Off-campus Varsity apartments: unauthorized entry, hostile staff, double-charging",
+      "Dorms had no heat or hot water during 15°F winter storm",
+      "E-scooter ban triggered by dorm charging fires; campus too big to walk"
+    ],
+    "key_quotes": [
+      "They used my roommate's SPOON to pry open the drain",
+      "It's so weird that lots of money goes to sports, while student facilities remain shit",
+      "Shuttle UM is so damn unreliable. The campus is too big for that"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Active campus culture: lightsaber battles, club events, strong community feel",
+      "Some seniors regret staying isolated; Greek life present but not dominant",
+      "Political provocateurs (Turning Point USA) regularly set up on campus"
+    ],
+    "key_quotes": [
+      "I focused on grades and kept my head down. Now that it's almost over, it feels like I missed out",
+      "Don't feed their ego!",
+      "May the 4th be with y'all crazy kids"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "South dining hall ran above 90°F for weeks; plates hot enough to cause blisters",
+      "Food quality described as inconsistent and bland at South",
+      "Board and Brew café had a health code violation; campus food safety spotty"
+    ],
+    "key_quotes": [
+      "South is literally unsafe to eat at right now",
+      "Food is so inconsistent and bland. Sorry bout it",
+      "and turf is still open [after Board and Brew violation]"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Students openly discuss burnout, isolation, and feeling like they wasted college",
+      "Professor disability accommodation violations reported multiple times; systemic issue",
+      "Sick students pressured to attend class by professors who won't allow makeups"
+    ],
+    "key_quotes": [
+      "I woke up, drove to school, came home, did nothing, rinse and repeat",
+      "Under no circumstances should you go to school when you're sick and potentially contagious. Wtf",
+      "UMD needs to stop looking the other way when they learn about these situations"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Maryland state budget shortfall of $3B is cutting university funding",
+      "Over $30 million in federal grants canceled due to Trump administration cuts",
+      "Merit scholarships exist but are modest compared to peer schools"
+    ],
+    "key_quotes": [
+      "About $30 million worth of UMD grants have been canceled",
+      "University community members say proposed USM budget cuts could harm students",
+      "I got into University of Maryland CS, with a $60k scholarship! It's actually the smallest of the three packages I've received"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "CS ranked #16 nationally; legitimate strong program with beloved professors retiring",
+      "Widespread AI/ChatGPT cheating in classes, including during finals and by TAs grading code",
+      "Admitted to Letters & Sciences (undeclared) by default if not directly into major"
+    ],
+    "key_quotes": [
+      "For my CS finals, I saw at least 5 people pull out GPT on their phone during the exam",
+      "80% of the time I plug your writing into an AI detector it flags the whole thing",
+      "Wdym Letters and Sciences?? I didn't grind for 4 years to be academically undecided-core"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Slow and opaque response to crises: lice infestation, cyberattack, no heat in dorms",
+      "Career Center sent students AI-generated slop emails",
+      "DEI office quietly renamed under political pressure; admissions lost a student's transcript"
+    ],
+    "key_quotes": [
+      "Beyond disgusting behavior if true — the university should have informed students immediately!",
+      "I'd be pissed. Your sole job is helping students with this and you need AI help?",
+      "'It is not their responsibility to check every student's individual checklist' — UMD Admissions"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Purple Line light rail finally arriving after 15+ years of delays; major convenience win",
+      "Campus is visually beautiful, especially in fall and snow, but physically large",
+      "College Park area has safety concerns; recurring break-in warnings near campus"
+    ],
+    "key_quotes": [
+      "When I was at UMD they told me it would be finished by 2022 and now it's 2026",
+      "I always get a little homesick for UMD this time of year",
+      "Every year, sometimes more than once, creepy men attempt to break into houses near campus"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Strong DC/federal job proximity; CS and engineering grads well-positioned",
+      "Sergey Brin (Google co-founder) is the most famous UMD undergrad alumni",
+      "COMM major reported applying to hundreds of jobs post-grad with no success"
+    ],
+    "key_quotes": [
+      "UMCP is highly ranked, but am skeptical of its location — more federal jobs than IT",
+      "I graduated as a COMM major and have had trouble finding a job/internship",
+      "Another interesting thing: many who went to a non-T20 school go on to a T20 grad school"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong value for Maryland in-state students, especially in CS and engineering",
+      "Out-of-state tuition harder to justify given peer competition",
+      "State budget cuts may mean fewer resources with tuition increases ahead"
+    ],
+    "key_quotes": [
+      "I'm having a hard time justifying it financially, what with UF's in-state tuition",
+      "It would be nice if Maryland protected its students like TX does",
+      "My parents make 250k and they're telling me they can't pay for my school"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Large, spirited public university with genuine community pride and quirky traditions",
+      "Academic intensity varies wildly by major; CS/engineering grind, other majors coast",
+      "Campus culture is politically engaged, sometimes chaotic, rarely boring"
+    ],
+    "key_quotes": [
+      "I don't like the academic atmosphere here. People don't care about academics",
+      "lmao UMD's finest",
+      "I used to pray for times like this"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Infrastructure: no heat or hot water in dorms during sub-freezing weather storm",
+      "Health & Safety: confirmed body lice infestation in McKeldin Library with delayed university response",
+      "Security: campus cyberattack during finals week knocked out ELMS access; phishing page harvested student logins"
+    ],
+    "key_quotes": [
+      "It's cold asf and I can't sleep cuz I'm freezing my ass off",
+      "The university should have informed students immediately!",
+      "12k is gone in my bank account. I really have no idea what to do"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Legendary CS professors like Fawzi Emad make difficult courses genuinely memorable",
+      "Testudo statue and campus traditions create real school identity and community",
+      "Proximity to DC opens government, research, and internship pipelines unavailable elsewhere"
+    ],
+    "key_quotes": [
+      "One of my favorite professors from my time in UMD CS. His projects were the coolest",
+      "I always get a little homesick for UMD this time of year",
+      "Probably the highest profile athlete to ever pick Maryland in any sport"
+    ],
+    "score": 7
+  }
+}

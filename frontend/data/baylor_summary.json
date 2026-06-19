@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Honors Residential College (HRC) is highly recommended by alumni",
+      "Students advised not to buy furniture before arriving in Texas",
+      "Dorm drama is real — branch out beyond your hall early"
+    ],
+    "key_quotes": [
+      "I lived in the Honors Residential College and can 100% recommend it as an amazing academic environment. I made great friends there and lived on campus 3/4 years.",
+      "Do not buy any furniture besides maybe a headboard for your bed!",
+      "Your only friends should not be within your dorm. A lot of drama goes down and it's hard to escape it."
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life exists but Baylor has unique social orgs like Line Camp",
+      "Line Camp is genuinely a strong community-building experience for freshmen",
+      "Introverts report feeling behind socially at orientation — it gets better"
+    ],
+    "key_quotes": [
+      "Line Camp you need to do if you can afford the travel! So much fun & many memories and friends are made there!",
+      "It feels like everyone else around me has already made their groups.",
+      "Branch out and meet other people in other dorms; diversity in friendships is key."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "Almost no current student commentary on dining quality in data",
+      "Athletic dining hall (Brooks Hall) mentioned only by a 1979 grad",
+      "No strong complaints or praise — dining is a data gap here"
+    ],
+    "key_quotes": [
+      "I ate at Brooks Hall. It was the Athletic Dining Hall. Now I graduated in 1979, so, a lot could have changed.",
+      "Start selling beer and the stadium will be packed."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One student noted the beautiful campus actively helped with depression",
+      "Orientation is mentally exhausting — reported by multiple incoming students",
+      "No dedicated counseling resources mentioned; religious community fills some gap"
+    ],
+    "key_quotes": [
+      "That campus always really helped with my depression during school! Beautiful place.",
+      "I've just completed my first day of orientation and to say I'm completely mentally exhausted is an understatement.",
+      "I've been around long enough to see way worse football with NO hope on the horizon."
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships are transparent and match their published calculator exactly",
+      "Large scholarships ($50k–$120k) are common for strong stats students",
+      "Even with big merit aid, many students find total cost still burdensome"
+    ],
+    "key_quotes": [
+      "I can definitely vouch for Baylor!! I got the exact scholarship their scholarship calculator told me I'd get. Ended up not going though because even with aid it was too expensive.",
+      "Just got into Baylor! I also got 120,000 dollars in merit-based scholarship!",
+      "I love Baylor but I don't have enough money for the tuition fee so I will apply elsewhere."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Honors College programs (University Scholars, BIC, Great Texts) are highly regarded",
+      "Pre-med track has strong reputation with high med school acceptance rates",
+      "Heavy core curriculum includes mandatory religion classes — transfer students must complete them"
+    ],
+    "key_quotes": [
+      "Upvote for Baylor. Really good pre-med program. Admissions rate is over 60% I think.",
+      "It's a good thing I took three years of English literature and two years of foreign language for my *checks diploma* biochemistry degree.",
+      "Baylor does have excellent core classes."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Former president Ken Starr had verified ties to Jeffrey Epstein on campus",
+      "Admin rescinded LGBTQ+ research grant under donor pressure, then issued vague statement",
+      "Athletic department in turmoil — AD left amid affair scandal, coach retained despite fan outrage"
+    ],
+    "key_quotes": [
+      "Not surprised in the slightest. These people are despicable.",
+      "My main issue with all this is that Linda literally listed one of the reasons for not firing him as the fact that they don't want to spend the money to buy him out. What a fucking morale killer.",
+      "lmao, just jangling keys to avoid turning off right-wing donors. Cowardice."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is genuinely beautiful — foliage, river, architecture praised consistently",
+      "Waco itself is small and described as boring, not always clean",
+      "Dallas is 1.5 hours away; Austin roughly similar — escapable on weekends"
+    ],
+    "key_quotes": [
+      "One of the prettiest campuses in the world.",
+      "Waco is boring and is not the cleanest city.",
+      "Dallas is only 1.5 hours away and a perfect 2-3 day getaway."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Majority of Texas hospitals are Baylor Scott & White — strong pre-med pipeline",
+      "National Merit Scholarships available, boosting outcomes for high-stat students",
+      "Limited alumni network data beyond Texas healthcare; prestige ceiling is real"
+    ],
+    "key_quotes": [
+      "Carries a strong brand name in health sciences, majority of TX hospitals are BSW.",
+      "I graduated from Baylor and I'm starting medical school this year.",
+      "Ranking doesn't define anything... For those premeds/prelaw, it doesn't matter what school you go to."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Sticker price is high for a non-T20 private school — debate is real",
+      "Merit aid is generous and predictable, but rarely covers full cost",
+      "Multiple students chose cheaper alternatives even after large Baylor scholarships"
+    ],
+    "key_quotes": [
+      "I ended up not going though because even with aid it was too expensive.",
+      "Baylor would be $35,000 [after scholarships] — is the increased cost worth it?",
+      "UNT has offered me a free ride. It would cost me $10,000 a year in loans at Baylor."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Predominantly Christian, conservative-leaning, but more politically quiet than expected",
+      "Strong school spirit and tight community — especially in honors and Greek life",
+      "Non-Christian and LGBTQ+ students can find community but must seek it out"
+    ],
+    "key_quotes": [
+      "I've been searching for a college where I can stand strong in my Christian & Conservative values. Baylor is at the top of my list.",
+      "I'm a lesbian, hispanic woman and I'm not religious… will I have a good time? Will I meet other people like me?",
+      "One kind of odd attribute of Baylor is that barely anyone talks about politics here."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Former president documented meeting Jeffrey Epstein on campus in 2012",
+      "**Sexual Assault:** 15+ people sued Baylor over widely reported mishandling of rape cases",
+      "**Academic Freedom:** Grant on LGBTQ+ church inclusion rescinded under donor pressure despite faculty support"
+    ],
+    "key_quotes": [
+      "He called Epstein a trusted friend in 2012. Four years after he was convicted of being a child sex offender.",
+      "Felt sick after reading this yesterday. This fucking university. So high and mighty, dripping with gold and the word of God.",
+      "Researcher (and former Baylor grad) here. In the esoteric dialect of higher ed administration this is pretty much exactly what you think it is."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Baylor Acrobatics & Tumbling has won 11 national championships — a dominant dynasty",
+      "Sailgating on the Brazos River during football games is a unique Baylor tradition",
+      "Invitation to Excellence (I2E) weekend offers $20k scholarship — RSVP fast, it fills up"
+    ],
+    "key_quotes": [
+      "They are the real GOAT — No. 1 Baylor Acrobatics & Tumbling secured 11th NCATA Championship.",
+      "I will when they fire Aranda [go sailgating]. One of my former Baylor professors takes his boat to the game every week.",
+      "I2E — invitation to excellence ($20,000 scholarship if you attend the weekend) — it 'sells out' quickly! If you get the email RSVP immediately!"
+    ],
+    "score": 7
+  }
+}

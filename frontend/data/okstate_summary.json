@@ -1,0 +1,167 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm GroupMe culture is lively but chaotic",
+      "Campus described as beautiful by visiting and incoming students",
+      "No major housing complaints surfaced; limited direct data"
+    ],
+    "key_quotes": [
+      "I still remember the excitement I felt as a freshman years ago. It's a beautiful campus where I made lots of friends.",
+      "My freshman dorm GroupMe had a guy ask for a tampon to plug up his nose bleed"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life active; Kappa Sigma removed for hazing and alcohol",
+      "Bar strip (Murphy's, Outlaws, Willie's) was the main scene but is collapsing",
+      "Sports culture dominates weekends; hockey and wrestling have passionate fanbases"
+    ],
+    "key_quotes": [
+      "Murphy's and Outlaws were the two main spots on weekends.",
+      "Outlaws was the spot everyone went at the end of the night but honestly it has always sucked. It's overpriced and is nothing more than the front door to the Stillwater PD's checkpoint.",
+      "Kid died for like a minute [at Kappa Sigma]."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Meal plan doesn't refund unused balances upon withdrawal",
+      "One student had $1,115 left with no refund option on withdrawal",
+      "No strong praise or consistent complaints about food quality in data"
+    ],
+    "key_quotes": [
+      "I have 1,115.44 left on my meal plan, what should I buy... I won't get a refund of it no matter what and I have to withdraw.",
+      "If anyone cared, my professor let me take the final again."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct data on counseling services or mental health support",
+      "Students dealing with family crises (e.g., homelessness) turned to Reddit, not OSU resources",
+      "High-stress football culture and safety incidents add campus anxiety"
+    ],
+    "key_quotes": [
+      "My mom has kicked me out (F17) and sadly I wasn't able to take my dog with me.",
+      "I need help."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Out-of-state cost runs ~$30k/year with no scholarship",
+      "National Merit Scholarship is a known pathway to major aid",
+      "OSU regularly cited as an affordable safety school for in-state students"
+    ],
+    "key_quotes": [
+      "Im an out of state freshman attending Oklahoma State University and the cost is around 30,000... I don't know how I can pay for everything with no scholarship.",
+      "OSU is the highest ranked midsized employer in Oklahoma — The lowest wages ever too."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Widely perceived as an easy-admission safety school nationally",
+      "Strong programs in agriculture, engineering, and computer science noted",
+      "Canvas LMS security breach interrupted finals with poor admin response"
+    ],
+    "key_quotes": [
+      "A safety is a school that will 100% admit you, guaranteed, based on your standardized test scores. An example would be Oklahoma State.",
+      "Lack of response shows admin is very much not prepared and also doesn't want to say anything so they're keeping quiet.",
+      "Lol isn't that the school where they fired a prof for failing a student because the student said the bullshit she wrote was protected by 'freedom of religion'?"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Football program mismanagement cost taxpayers ~$100M over Gundy's tenure",
+      "Admin slow to respond to LMS security breach during finals",
+      "Opioid settlement foundation separated from OSU to avoid public reporting"
+    ],
+    "key_quotes": [
+      "After his $15 million buyout we (OK taxpayers) will have given him around $100 million in his 21 years as head coach.",
+      "Now that the foundation is no longer affiliated with the university, it will not be subject to the same public reporting requirements.",
+      "We're in full clean house mode 4 games into the season… awesome."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Stillwater is a small college town with limited infrastructure",
+      "Downtown small businesses struggling; fewer options for non-students",
+      "Big Orange Bus to Tulsa is a cheap and convenient transit option"
+    ],
+    "key_quotes": [
+      "Downtown Stillwater feels impact of still being downtown Stillwater.",
+      "Stillwater has a hockey team??? Wow I am so far behind the trends.",
+      "It's $15 for students on the Big Orange Bus. I would recommend it."
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni have reached notable positions including aerospace and tech sectors",
+      "OSU grads working for companies that helped return humans to the moon",
+      "Limited employer prestige outside Oklahoma; viewed as regional school nationally"
+    ],
+    "key_quotes": [
+      "OSU alumna and CEO of Frontier Electronics Brenda Rolls helped send mankind back to the moon.",
+      "A heroin addict gets clean and attains a Computer Information Systems degree with a 4.0 average.",
+      "OSU is the only higher education institution in Oklahoma on the Forbes highest-ranked midsized employer list."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is a strong value; out-of-state is a harder sell",
+      "National Merit Scholars can get exceptional deals here",
+      "Meal plan non-refund policy can cost students hundreds of dollars"
+    ],
+    "key_quotes": [
+      "I have a 13k a year [scholarship] to OSU making it semi-affordable, plus almost all of my friends are going there.",
+      "I won't get a refund of it no matter what and I have to withdraw.",
+      "Imagine getting paid $15m because you're so bad at your job they can't stand to be around you. Who says the American dream is dead?"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong sports and community identity; fans are loyal even through losing seasons",
+      "Campus atmosphere is fun and welcoming but heavily tied to football culture",
+      "Non-country students worry about fitting in; veterans say it's not that extreme"
+    ],
+    "key_quotes": [
+      "We can lose everything but the party.",
+      "He's definitely not country. We are from Texas, but he's very mainstream — golf, basketball, etc. Any personal experiences?",
+      "Best school ever."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Campus Safety:** Convicted serial rapist Jesse Butler received no jail time; community outrage ongoing",
+      "**Administration:** $15M football buyout while athletic and academic admin accountability questioned publicly",
+      "**Greek Life:** Kappa Sigma removed after hazing incident where a student nearly died"
+    ],
+    "key_quotes": [
+      "Jesse Mack Butler has pleaded guilty to multiple counts of sexual assault involving several girls but will not serve time in jail.",
+      "This entire case exposes how money and power still run Stillwater and Oklahoma.",
+      "Kid died for like a minute [during Kappa Sigma hazing]."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Club hockey team is thriving with a winning record and passionate fanbase",
+      "Wrestling program is elite; GIA packed for matches, national championship pedigree",
+      "Sailing club at Lake Carl Blackwell is low-cost and open to all"
+    ],
+    "key_quotes": [
+      "I'll take being a Hockey School over the embarrassment of a football program we have any day.",
+      "A packed GIA is a wonderful sight for sore eyes!",
+      "OSU has some of the lowest membership dues among the various sports clubs."
+    ],
+    "score": 8
+  }
+}

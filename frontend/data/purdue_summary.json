@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Tark doubles (Tarkington Hall) notoriously cramped, referenced as punishment",
+      "Administration accused of fitting too many students into limited infrastructure",
+      "Hillenbrand Hall notable enough to have its own campus lore"
+    ],
+    "key_quotes": [
+      "Ways that he can cut costs to further degrade the undergrad experience here",
+      "Fitting five students into a Tark double",
+      "They only want to use Indy to offload students from WL because there's too many students for the infrastructure"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Strong sports culture dominates social scene, especially basketball",
+      "Campus has bizarre viral moments that become shared lore (WALC incidents, peanut butter man)",
+      "Frat culture present but not the only social option; nerdy subcultures also thrive"
+    ],
+    "key_quotes": [
+      "Welcome! But you may be surprised to find out the majority cosplayers at Purdue are for Genshin and similar gacha games",
+      "Ahh yes the 2 poles of WALC - humping the couch or pooping under the stairs",
+      "Is there anything at Purdue that's fun anymore?"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Ford dining court bans quirky student traditions like 'pilk' (Pepsi + milk)",
+      "Dining courts have cult-like student followings and inside jokes",
+      "Restrictions feel increasingly corporate and fun-policing to students"
+    ],
+    "key_quotes": [
+      "They banned pilk at ford",
+      "I'm sorry, I thought this was America",
+      "Dang we cant waste room for paying customers. Fire the owner"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Student deaths occur regularly enough that staff posts public warnings every 6-12 months",
+      "CAPS (Counseling) referenced as a resource but not praised for quality",
+      "Academic pressure from engineering/CS is a documented mental health stressor"
+    ],
+    "key_quotes": [
+      "About every 6 months to a year or so, we lose one of our Boilermakers to some sort of horrific incident",
+      "In retrospect it's ridiculous we weren't notified or reassured in any way",
+      "But seriously take care of yourselves and go to CAPS if you need help"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "University subsidizes airport flights but students note it can't afford basic campus bus service",
+      "Purdue broke its 2003 promise of permanent lifetime alumni email addresses",
+      "Administration gave top officials large raises while workers received less"
+    ],
+    "key_quotes": [
+      "The university cant afford bus service on campus but yet they can subsidize unprofitable flights to Purdue",
+      "I dont care if he is Chinese... I would like just to know why the guy got a huge raise, and along with a few other top officials at Purdue, but the rest of the workers got [less]",
+      "Purdue reneges on permanent lifetime email"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering and CS are legitimately brutal — Calc, Diff EQ, and CS240 have cult-level infamy",
+      "Widespread AI cheating crisis in CS classes led to mass academic dishonesty investigations",
+      "Professors like Turkstra are polarizing but respected in hindsight by graduates"
+    ],
+    "key_quotes": [
+      "Thousands of students have taken this very class with Turkstra and passed. Yes, it's a hard class",
+      "Nothing but busy work. I know how to use excel already. Why are we doing business shit?",
+      "I'm convinced the math department feeds off of this suffering"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Purdue Indianapolis marketed deceptively as equivalent to West Lafayette — it isn't",
+      "Faculty fired over speech under pressure from Indiana state government",
+      "President Mung Chiang criticized for hypocrisy on Chinese national policies"
+    ],
+    "key_quotes": [
+      "Purdue has been blatantly lying about both the indy program and the purdue global system for a long fucking time",
+      "Shameful that Purdue is doing this and trying to market the entire experience as one and the same",
+      "The most milquetoast stance possible. Absolutely insane thing to lose your job over"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "West Lafayette is small and isolated — students openly say they hate living there",
+      "Campus is visually beautiful, especially at night, but surrounded by freezing winters",
+      "New airport terminal and United flights to Chicago are a genuine quality-of-life upgrade"
+    ],
+    "key_quotes": [
+      "I hate living in West Lafayette dawg",
+      "I miss purdue at night. I feel like I spent most of my undergrad walking between my house on salisbury street and the math building, mostly after dark",
+      "There in the yonder are a few huts in the middle of a cornfield, freezing and snowed in, and yet they must march to class... grit"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering and CS degrees carry real weight — recruiters show up to farmer's markets by accident",
+      "AI over-reliance flagged as a serious job-readiness problem by recent grads and employers",
+      "Top-ranked CS and engineering programs consistently place in national top 10-15"
+    ],
+    "key_quotes": [
+      "If you're using AI to do your homework you can just skip your first job in major and skip to the unemployment lines",
+      "I see it everyday in the new grads at the office and it's a huge problem",
+      "I went over to Pepsi to get some Pepsi - they started asking me for a resume? And why were there aeroplane companies there?"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Out-of-state cost (~$47k/year) makes value proposition weaker vs. in-state alternatives",
+      "Purdue Global and Purdue Indianapolis use the Purdue brand to charge near-flagship prices",
+      "For in-state engineering students, widely considered one of the best public school values"
+    ],
+    "key_quotes": [
+      "I accidentally applied to Purdue Indianapolis instead of the WL campus, completed my degree, and graduated",
+      "Should have applied to Chicken. You're cooked",
+      "At Purdue University... the cost of attendance is 47k/year"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Intense academic culture with a dark humor coping mechanism — suffering is a shared identity",
+      "Basketball brings campus together; football is a running joke students accept with grace",
+      "Gritty, nerdy, proud — alumni affection is genuine and strong despite the suffering"
+    ],
+    "key_quotes": [
+      "To be a fan is to suffer",
+      "Welcome to the club, friend. You slowly realise that you won't make memories like the ones from here again",
+      "Once a Boiler, always a Boiler"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: student deaths occur every 6-12 months; notification protocols called inadequate",
+      "Institutional Honesty: Purdue Indianapolis actively misrepresented as equivalent to West Lafayette",
+      "Civil Liberties: faculty fired for speech, Chinese grad students effectively banned, ICE detained a student"
+    ],
+    "key_quotes": [
+      "About every 6 months to a year or so, we lose one of our Boilermakers to some sort of horrific incident",
+      "Purdue effectively bans grad students from China, other countries, faculty say",
+      "Purdue University accused of 'chilling' retaliation for sexual assault reports"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Mackey Arena basketball atmosphere is genuinely elite — students are obsessed",
+      "Campus photography is stunning, especially winter nights near the bell tower",
+      "New direct flights from the Amelia Earhart Terminal to Chicago O'Hare are a real convenience win"
+    ],
+    "key_quotes": [
+      "Easily one of the best pictures I've seen of campus",
+      "It looks like a movie set. Amazing",
+      "God I hope this is super successful and we get another airline doing flights to places like Indianapolis"
+    ],
+    "score": 7
+  }
+}

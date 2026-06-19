@@ -1,0 +1,165 @@
+{
+  "housing": {
+    "key_points": [
+      "Raikes program students praised for having amazing dorms",
+      "Gender-inclusive housing options exist for LGBTQ+ students",
+      "Large campus size intimidates students coming from smaller environments"
+    ],
+    "key_quotes": [
+      "Amazing dorms [in the Raikes program]",
+      "I would second gender inclusive housing. Everyone I knew who went that route was queer of some sort and very accepting."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Described as classic big American college experience with parties and sports",
+      "Exchange students specifically seek out UNL for party culture",
+      "Big 10 school energy with large college-age student population around town"
+    ],
+    "key_quotes": [
+      "If you want the Animal House, huge campus experience, you'll want to go to places like Iowa State, Illinois, Nebraska",
+      "Big public universities in college towns like Kansas and Nebraska have a ton of college age students around"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No direct student feedback on dining quality found in data",
+      "Campus food experience not mentioned in any posts or comments",
+      "Insufficient data to score meaningfully"
+    ],
+    "key_quotes": [
+      "No quotes available from this data set"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Students with depression report fear of feeling lost in large student body",
+      "Finding learning communities recommended as key coping strategy at large schools",
+      "No dedicated mental health resources specifically mentioned for UNL"
+    ],
+    "key_quotes": [
+      "I have depression and used to be homeschooled, so I had gotten used to feeling like a nobody. I'm afraid that if I go to a big college, that feeling will just intensify",
+      "What helped me was finding a learning community at school, which is a group of students in a similar situation"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships available and can be generous — one student got $13K/year",
+      "Out-of-state and international students get little to no need-based aid",
+      "Supplemental scholarship application opens in October — easy to miss"
+    ],
+    "key_quotes": [
+      "I got a letter stating I got a scholarship for $13,000 per year. IT MADE ME SO HAPPY",
+      "Public universities will rarely give financial aid to out-of-state students",
+      "Nebraska has a supplemental scholarship application that opens in October. Did they give you a merit scholarship with your acceptance?"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Raikes program (CS + business honors cohort) highly regarded, seen as elite track",
+      "Meteorology/atmospheric science program is a genuine differentiator vs. peer schools",
+      "University of Nebraska Omaha doesn't offer tutoring for College Algebra — students sent to noisy Math Lab"
+    ],
+    "key_quotes": [
+      "Raikes is an honor to be selected for and I do believe the education I would receive there would be superior",
+      "UNL offers meteorology, and Iowa does not",
+      "My school doesn't offer tutoring for College Algebra students; those who need guidance should go to the Math Lab. I can't focus in the Math Lab"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Scholarship notification process is unclear — students unsure how or when they'll hear",
+      "Admissions email response times are slow for international students",
+      "No major administrative horror stories surfaced, but processes lack transparency"
+    ],
+    "key_quotes": [
+      "I've gotten accepted to The University of Nebraska but they didn't say anything about scholarships",
+      "I sent an email to uno admissions about the same, but have not heard anything yet"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Nebraska is geographically isolated — 'in the middle of nowhere transport wise'",
+      "Lincoln described as a classic college town with strong campus-centric culture",
+      "Weather and remoteness are consistent deterrents for out-of-state students"
+    ],
+    "key_quotes": [
+      "Nebraska is in the middle of nowhere transport wise",
+      "I wouldn't be too excited about UN Lincoln",
+      "UNL is really a great school... I definitely understand wanting to leave your current surroundings"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Warren Buffett's undergraduate degree is from UNL — frequently cited as a credential boost",
+      "Raikes program positions students well for CS and business careers",
+      "Regional job market concentration limits national opportunities without grad school"
+    ],
+    "key_quotes": [
+      "Warren Buffett: University of Nebraska Lincoln, Master of Science: Columbia University",
+      "State schools typically have better recognition near their location, so if you choose to move after grad, get a masters elsewhere and you'll be fine",
+      "Warren Buffett is based for sending his kid to University of Nebraska"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is genuinely affordable with strong merit aid stacking",
+      "Out-of-state students struggle to make the finances work without major scholarships",
+      "Raikes program at ~$9K OOS is considered exceptional value by students comparing it to $40K+ alternatives"
+    ],
+    "key_quotes": [
+      "As an OOS (but neighboring state) student, I would only be paying around 9k, which is financially the best option for my family",
+      "I applied to University of Nebraska-Lincoln... I got a scholarship for $13,000 per year",
+      "Public universities will rarely give financial aid to out-of-state students. It is very difficult to pull together enough scholarships to cover the full cost"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Classic Midwestern big state school — football, Greek life, college town feel",
+      "Students who visit tend to like it; reputation suffers from coastal bias more than reality",
+      "Best fit for in-state students or those with specific programs like Raikes or meteorology"
+    ],
+    "key_quotes": [
+      "UNL is really a great school",
+      "I visited and liked it a lot even though it was super [cold/flat]",
+      "On this list, I wouldn't be too excited about UN Lincoln"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Support services: UNO doesn't offer tutoring for College Algebra despite high failure rates",
+      "Financial aid: no need-based aid for OOS or international students — sticker shock is real",
+      "Isolation: geographic remoteness limits internship access and post-grad mobility without relocation"
+    ],
+    "key_quotes": [
+      "My school doesn't offer tutoring for College Algebra students; I can't focus in the Math Lab: listening to music, eating and drinking",
+      "It is very difficult to pull together enough scholarships to cover the full cost of attendance",
+      "Nebraska is in the middle of nowhere transport wise"
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Raikes School is a hidden elite program — cohort-based CS+business at a fraction of peer school cost",
+      "Meteorology program is rare among Big 10 peers and a real differentiator for that field",
+      "Warren Buffett name recognition opens doors in finance and investing circles nationally"
+    ],
+    "key_quotes": [
+      "Raikes is an honor to be selected for and I do believe the education I would receive there would be superior",
+      "UNL offers meteorology, and Iowa does not",
+      "Warren Buffett: University of Nebraska Lincoln — most successful investor of all time"
+    ],
+    "score": 8
+  }
+}

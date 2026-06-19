@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Only two housing options rated good: The Gardens and Cherry Street",
+      "Market is split: luxury-priced new or cheap-but-bad old, nothing in between",
+      "Off-campus common; bike recommended for commuting from apartments"
+    ],
+    "key_quotes": [
+      "College Station has a massive issue with convenient housing; either you will find a new luxurious option with high prices or old and relatively cheap, you cannot find something in between",
+      "The Gardens TAMU & Cherry Street apt everything else is bad",
+      "What is the best bike to get for TAMU the college is quite big and my apartment is off campus"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Cult-like identity is the dominant social force on campus",
+      "Legacy families drive homogeneous social scene; many students know same people from high school",
+      "Some students find it hard to meet new people outside their existing friend group"
+    ],
+    "key_quotes": [
+      "Had multiple family members and people I graduated with go to A&M and they've all agreed it's a cult",
+      "Many students don't know how to have a conversation or meet new people unless it's only their group of friends they know",
+      "I don't even want to go there because it's all the same people from hs"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No substantive student feedback on dining quality in the data",
+      "Halal food availability raised as concern by prospective students",
+      "Campus dining not a notable talking point positively or negatively"
+    ],
+    "key_quotes": [
+      "Am I going to have trouble with getting Halal food in the dining halls?",
+      "I remember the year before going to TAMU there was a story of some kids from my hometown driving home and getting into a head on crash"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "A student died by suicide during the data period, noted without institutional response",
+      "Political turmoil and firings causing documented stress and campus division",
+      "Corps of Cadets cited as causing severe sleep deprivation and mental exhaustion"
+    ],
+    "key_quotes": [
+      "Texas A&M student Brianna Aguilera took her own life in fall near UT",
+      "5 hours of sleep daily, constant surveillance by my superiors...physical exhaustion, demotivation",
+      "I know there is a huge rift on campus... The end goal has always been to divide people"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "4.0 GPA students reporting zero academic scholarship offers",
+      "International students face high tuition with broken scholarship links on the website",
+      "Strong full-ride STEM scholarship exists but highly competitive with strict GPA requirements"
+    ],
+    "key_quotes": [
+      "I have 4.0 unweighted gpa, 5.2 weighted, 1360 SAT, bunch of volunteer hours, but I did not get any academic scholarship for TAMU",
+      "I just saw that Texas A&M has a $90 application fee and also has high tuition for international students... their link for scholarships was broken for me",
+      "They require you to maintain a 3.5 GPA, do a study abroad program, an internship, and a fifth year MS Business degree"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Professors actively being instructed to remove controversial topics from curriculum",
+      "ETAM system forces general engineering first year with GPA barriers to declare major",
+      "Changing majors requires meeting grade thresholds, frustrating students who want flexibility"
+    ],
+    "key_quotes": [
+      "Yesterday I had not one but two professors mention that they're no longer able to say 'climate change' and are instructed to now only say 'extreme weather events'",
+      "AND IF U WANT TO CHANGE MAJORS YOU HAVE TO SOMETIMES MAKE AS AND BS IN CERTAIN CLASSES TO CHANGE WHICH IS RIDICULOUS",
+      "Professors are being instructed to remove certain controversial topics from the curriculum, and are being directed not to speak about them"
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "Two university presidents fired in two years over political pressure from state legislature",
+      "Chancellor donated to SPLC-designated extremist group; uses university resources for personal communications",
+      "Politicians, not educators, are functionally deciding what gets taught in classrooms"
+    ],
+    "key_quotes": [
+      "Two fucking embarrassing university president firings in just over 2 years. TAMU is a laughing stock",
+      "Texas A&M Chancellor Glenn Hegar donated $2750 to the True Texas Project, a group that believes there is a war on white America",
+      "At Texas A&M, politicians, not professors, decide what is taught in classrooms. This is A&M's reputation now"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is large and architecturally striking but described as bland and colorless",
+      "College Station is extremely college-centric with limited life outside the university bubble",
+      "3 hours from Dallas, 1-2 hours from Houston and Austin; isolated location is a real factor"
+    ],
+    "key_quotes": [
+      "Everything was bland and the walks were atrocious. Not a lick of soul on this campus",
+      "Campus is 1 to 2 hours from Houston and Austin. 3 hours to Dallas... Could use some color though",
+      "I long for the days when all the college kids are gone. So much better when the roads are empty"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Aggie alumni network is genuinely powerful and well-documented, 'Aggies hire Aggies' is real",
+      "Fortune 100 has TAMU tied for most CEOs with Penn and Boston College",
+      "Academic freedom crisis is now a hiring concern; tech executives publicly saying they won't hire from schools banning Plato"
+    ],
+    "key_quotes": [
+      "I have been hiring for 20 years. In tech. I wouldn't hire anyone from a school that bans Plato",
+      "Guy I knew started a business with the term 'Aggieland' in the name and got business solely on that from alumni",
+      "Fortune 100 has TAMU and Penn tied for the pack, each with 4 CEOs"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition competitive but engineering-track students risk extra semester if ETAM GPA missed",
+      "Out-of-state costs run $60k+/year with limited scholarship support for internationals",
+      "Degree value being actively questioned as academic reputation declines under political interference"
+    ],
+    "key_quotes": [
+      "Feel sorry for all the good kids who go here who are having their degree devalued by culture war turds",
+      "As someone who doesn't go to A&M it's been crazy to watch this elite, globally respected institution speedrun the death of its reputation",
+      "TAMU Blinn will most likely cost me around 100k in student debt"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Football and volleyball wins generate massive communal pride but are masking serious institutional crisis",
+      "Deep split between traditional Aggie identity and students horrified by political direction of school",
+      "Trans and LGBTQ+ students report feeling genuinely unsafe; straight conservative students mostly unbothered"
+    ],
+    "key_quotes": [
+      "I am a trans student at A&M. I am not your political scapegoat",
+      "To be fair. A&M radicalized me. Now I care about people",
+      "Lotta stuff happening to churn the news cycle away from Welsh, yeah. Go football tho"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academic Freedom:** Professors instructed to remove topics; 'climate change' banned by name",
+      "**Administration:** Grad student held in ICE detention with university refusing to pay legal fees or comment",
+      "**Campus Safety:** Bryan PD documented profiling students; ICE activity emails sent to grad departments"
+    ],
+    "key_quotes": [
+      "Reminder: Graduate student Will Taeheung Kim is still in ICE detention and Texas A&M has made no comment and refuses to pay his legal fees or stand up for him, while taking his tuition money",
+      "Fuck the Bryan Police Department. Bunch of losers trying to make something of nothing to prey on young students",
+      "Newly hired professor at A&M Philosophy withdraws from appointment because of lack of academic freedom at university"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Volleyball program just won national championship sweeping every #1 seed — world-class athletics beyond football",
+      "Aggie Ring tradition creates lifelong alumni loyalty and genuine career networking unlike most schools",
+      "Academic Plaza protests show a real, active student community pushing back on institutional failures"
+    ],
+    "key_quotes": [
+      "BEAT THE #1 OVERALL IN THEIR HOUSE, SWEEP THE OTHER #1 IN THE SEMIS, SWEEP THE LAST #1 IN THE NATTY",
+      "I'm a very left-leaning POC. I worked hard for my ring... I wear it as a reminder of the time, work, the ups and downs it took to get it",
+      "I was surprised to find there were quite a few conservatives participating at the academic freedom rally tonight"
+    ],
+    "score": 7
+  }
+}

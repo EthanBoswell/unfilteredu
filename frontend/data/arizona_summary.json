@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Honors Village dorm was still under construction at move-in",
+      "Campus is large — 30 minutes to walk end to end",
+      "Dorm overnight guest policy exists but is rarely enforced"
+    ],
+    "key_quotes": [
+      "I'm living in the Honors Village this upcoming Fall! I hope it's done being built for our move in",
+      "30 minutes to get around campus? Dang, it takes me 5 minutes to walk from one side to another in my university",
+      "The 12 overnight visits rule is an official formality that is stated in our contract, but rarely do we ever check it"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Reputation as a party school is real but doesn't define everyone",
+      "Greek life is visible and influential, especially sororities",
+      "Strong school spirit and big-time athletics draw wide engagement"
+    ],
+    "key_quotes": [
+      "Colleges in Arizona are where kids from Laguna Beach go to frat",
+      "I didn't even think I wanted to join a sorority, but seeing your Alpha Phi videos completely flipped my view",
+      "Any public school of significant size will be a party school. It's what you make of it"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No proper all-you-can-eat dining hall — a consistent complaint",
+      "Meal plan options are limited compared to peer universities",
+      "Students recommend living off-campus to avoid meal plan costs"
+    ],
+    "key_quotes": [
+      "On regards of food on campus, it sucks! Is the thing that I dislike the most about the UoA",
+      "Rutgers has 4 different dining halls, all buffet style. Having at least 1 proper dining hall with all you can eat will be awesome",
+      "I would live off campus in a cheap apt instead of a dorm. Don't get meal plans"
+    ],
+    "score": 3
+  },
+  "mental_health": {
+    "key_points": [
+      "One student cited rampant antisemitism and dangerous social situations",
+      "Mental health counseling services exist and are recommended by students",
+      "Some students transferred out citing mental health hitting its worst point"
+    ],
+    "key_quotes": [
+      "Trouble making friends, starting to hate the city, rampant antisemitism, keep getting put in dangerous situations by people supposed to be my friends, mental health at its worst",
+      "Make sure to take advantage of all the services they offer you, including mental health counseling",
+      "Active Minds is also great for mental health awareness on campus"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships for OOS students were slashed by $15k for Fall 2025",
+      "School is in a publicized financial crisis; president resigned over mismanagement",
+      "In-state students and pre-med applicants still see strong value proposition"
+    ],
+    "key_quotes": [
+      "Arizona slashed their merit scholarships — max OOS merit dropped from $35k to $20k",
+      "They are in a financial crisis mode",
+      "President mismanaged $ and is resigning. The only question was how much of a reduction"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Astrophysics and optics programs are genuinely world-class, often underrated",
+      "Intro STEM courses like Chem 151 and Math 112 are brutally hard",
+      "Pre-med program is strong with a medical school directly on campus"
+    ],
+    "key_quotes": [
+      "If he wants to get a PhD in Astrophysics eventually, U of A is the right call. Its astrophysics is one of the best in the world",
+      "If you take Chem 151 or Math 112, they are horrible and hard as hell. Get a tutor if you aren't good",
+      "Every high-achieving student I knew who was interested in pre-med went to UA. You should DEFINITELY apply for the honors college"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "University is in active financial crisis with leadership instability",
+      "Alleged pattern of pushing out unwanted students through administrative harassment",
+      "Housing and orientation paperwork processes require acting fast or losing spots"
+    ],
+    "key_quotes": [
+      "It has become official UoAZ practice to harass students they don't want at the university in such a way they have no choice but to leave",
+      "President mismanaged $ and is resigning",
+      "Put down your deposit fast. Orientation dates will fill up as well"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Tucson is a college town with charm but lacks big-city energy",
+      "Heat and desert wildlife are real concerns — scorpions in apartments",
+      "Campus is beautiful and walkable but physically large at 30 minutes end-to-end"
+    ],
+    "key_quotes": [
+      "Do I have to worry about scorpions and poisonous spiders in an off-campus apartment?",
+      "Tucson doesn't have the big city vibes, but it is very much a college town which I think is neat",
+      "Phoenix is an overwhelming, paved-over megalopolis. Tucson is a good-sized city with lots of charm"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Strong outcomes reported for astrophysics, optics, and pre-med graduates",
+      "CS program is solid but not a top recruiting target like T20 schools",
+      "Alumni include Rhodes scholars, doctors, lawyers, and Peace Corps members"
+    ],
+    "key_quotes": [
+      "I know a few who were Rhodes scholars, and some who are now doctors, lawyers, Peace Corps-ers",
+      "CS is one of those degrees where you can pretty much get a job out of most schools if you work hard",
+      "A degree from UA never held her back"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "OOS students took a major hit with recent scholarship reductions",
+      "In-state students and honors college recipients report strong value",
+      "Student turning down UW for UA Honors specifically cited affordability as the win"
+    ],
+    "key_quotes": [
+      "I'll be turning down my dream school of the University of Washington in favor of the University of Arizona Honors College — it feels refreshing",
+      "It's a school that I can afford, which is a big deal for me and my family",
+      "Your UArizona number may increase as they just reduced their OOS merit and have been having financial issues"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Best described as a fun, mid-sized public university with strong niche programs",
+      "Reputation as a party school overshadows genuinely excellent research departments",
+      "Students who thrive here are self-directed; passive students struggle"
+    ],
+    "key_quotes": [
+      "A school can be a party school and still be strong academically. College is what you make it",
+      "University of Arizona for Astrophysics — most slept-on school by major",
+      "U of A is an EXCELLENT school — and I say that as someone who works at ASU"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Alleged harassment of unwanted students until they leave",
+      "**Finances:** Active institutional financial crisis with president resigning over mismanagement",
+      "**Safety/Culture:** Student reported antisemitism and dangerous social situations on campus"
+    ],
+    "key_quotes": [
+      "It has become official UoAZ practice to harass students they don't want at the university in such a way they have no choice but to leave",
+      "They are in a financial crisis mode — president mismanaged $ and is resigning",
+      "Rampant antisemitism, keep getting put in dangerous situations by people supposed to be my friends"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Astrophysics program rivals Ivies — PhD applicants told to choose UA over Princeton",
+      "Honors College offers a significantly different, more rigorous experience",
+      "Clubs like Vida (Costa Rica conservation trip) and Blue Chip offer unique opportunities"
+    ],
+    "key_quotes": [
+      "Even if he could afford the ivies, I'd be telling you to seriously consider going to Arizona — he should go to Arizona",
+      "Blue Chip is great for leadership experience and there are amazing acapella groups on campus",
+      "There is a very strong professional development culture at UA if you seek it out"
+    ],
+    "score": 8
+  }
+}

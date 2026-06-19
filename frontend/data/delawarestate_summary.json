@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Morgan State added 300 beds after record enrollment surge",
+      "Housing demand outpacing supply at growing HBCUs generally",
+      "No specific DSU housing complaints found in data"
+    ],
+    "key_quotes": [
+      "Morgan may have more students than NCAT soon. This housing is needed.",
+      "It's cool the students get to live downtown."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Football atmosphere praised; DeSean Jackson revived DSU Hornets program",
+      "Greek life dominates HBCU social scenes, non-D9 students can feel excluded",
+      "Campus events draw non-students, creating safety concerns"
+    ],
+    "key_quotes": [
+      "The Delaware St. Hornets has been a welcome mat for The MEAC for years. DeSean Jackson has really turned that program around.",
+      "I don't like how much HBCUs center fraternities and sororities — what about SGA, the newspaper, the debate team?",
+      "Let the kids have fun. There's nothing wrong with this."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No direct DSU dining reviews found in available data",
+      "Jackson State's $21.7M dining expansion shows HBCUs investing in food",
+      "Dining quality at HBCUs varies widely; check campus-specific reviews"
+    ],
+    "key_quotes": [
+      "Jackson State University begins $21.7 million dining hall expansion — that is going to be beautiful!",
+      "No DSU-specific dining feedback available in this dataset."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "NCCU student died after targeted harassment over not being D9",
+      "Homophobia reported as real stressor at some HBCUs",
+      "HBCU community culture praised for cognitive and emotional long-term benefits"
+    ],
+    "key_quotes": [
+      "NCCU student Zyarre Prince dies from targeted anonymous harassment — recounts feeling excluded due to homophobia and not being D9.",
+      "Spending your formative years in an environment that nurtures you and promotes your emotional and intellectual growth surely pays dividends.",
+      "Homophobia, okay, I understand the toll that could take. Not being D9? I don't get that."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "DSU student posted urgent plea about tuition deadline with no options",
+      "Federal HBCU grant cuts of $350M create real financial pressure",
+      "Smaller HBCUs often offer better aid packages than Howard or Spelman"
+    ],
+    "key_quotes": [
+      "PLEASE HELP – My tuition deadline is coming up and I'm out of options.",
+      "Howard offered me 20k out of their 58k cost of attendance. Spelman offered me $0. Tuskegee offered me a full ride.",
+      "Getting somewhere sometimes is easier than staying — cost may be a factor in low graduation rates."
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Only 7 of ~107 HBCUs have graduation rates above 50%",
+      "DSU subreddit is nearly inactive; almost no academic discussion exists",
+      "FAMU academic rankings rising; HBCU nursing programs posting elite results"
+    ],
+    "key_quotes": [
+      "Only 7 out of 107-ish HBCUs graduating more than half their students — the national average is 64%.",
+      "FAMU's academic programs ascend in national rankings, bolstering university's stature.",
+      "We get more done with less, IYKYK."
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "DSU administration essentially invisible in student Reddit discourse",
+      "FAMU president controversy shows political appointees can destabilize HBCUs",
+      "Federal funding cuts threaten HBCU admin stability nationally"
+    ],
+    "key_quotes": [
+      "FAMU alums blast MAGA President at Trustee meeting — accused of being an absentee leader and poor fundraiser.",
+      "She doesn't give a damn about FAMU and her political allies sure as hell don't.",
+      "Who is on financial code red? Everyone I've talked to has said their institutions are."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Dover, Delaware is a small, quiet city with limited nightlife options",
+      "DSU campus described positively by one visitor as most impressive HBCU seen",
+      "Delaware's traffic and mix of transient regional population noted as downsides"
+    ],
+    "key_quotes": [
+      "I am so very impressed with Delaware State!! Of all the HBCU colleges I've seen, I am most impressed with this one!!",
+      "Traffic always been bad in Delaware — people from NJ, New York, Maryland, and PA all pass through.",
+      "To outsiders it's boring, but you have to be down to know where the fun is."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No DSU-specific career placement data surfaces in student discussions",
+      "HBCU alumni networks are active and career-boosting post-graduation",
+      "Graduation rate gap vs. PWIs is a real risk to degree completion"
+    ],
+    "key_quotes": [
+      "As an alumni you have so many opportunities to stay connected and you build bonds with HBCU alums in the world.",
+      "I'm 1st generation to college, 1st generation law school and pretty soon, 1st generation doctor — don't worry about what those other folks got.",
+      "You wanna guess how many HBCUs have a graduation rate above 50%? Only 7."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "DSU student had tuition crisis with no backup options — aid gaps are real",
+      "Smaller HBCUs like DSU often undercut Howard/Spelman on cost",
+      "MacKenzie Scott donations improving endowments but DSU not yet a recipient"
+    ],
+    "key_quotes": [
+      "PLEASE HELP – My tuition deadline is coming up and I'm out of options.",
+      "Apply everywhere! Tuskegee offered me a full ride. Hampton offered me a full ride.",
+      "Black elitism has too many of the parents in a chokehold — there are so many amazing institutions that will offer full rides."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong HBCU pride and community warmth evident in DSU football coverage",
+      "Campus described as welcoming to all backgrounds, not just Black students",
+      "DSU student online community is extremely thin — Reddit is nearly a ghost town"
+    ],
+    "key_quotes": [
+      "The Delaware St. Hornets has been a welcome mat for The MEAC for years.",
+      "I am so very impressed with Delaware State!! Keep up the good work!!!",
+      "My son will be an incoming freshman this year — we are excited for him."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Campus Safety:** Teen girl murdered on campus by non-students allowed to roam freely",
+      "**Financial Aid:** Student posted emergency tuition plea with zero safety net available",
+      "**Community:** DSU's own subreddit has near-zero student engagement — serious isolation signal"
+    ],
+    "key_quotes": [
+      "2 charged in teen girl's murder at Delaware State University — 'I'm sure they had no plans on enrolling in college. Why were they there?'",
+      "Time to keep all non-students off campus — we must protect our young Black students who are doing the right thing.",
+      "Yeah great school, every person mentioned here is a non-student on campus. When I think of my kid being at university, this is not what comes to mind."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "DeSean Jackson coaching has genuinely revitalized DSU football program",
+      "Delaware's no-sales-tax shopping and proximity to Philly/DC is a real lifestyle perk",
+      "DSU's HBCU identity offers tight-knit community rare at larger institutions"
+    ],
+    "key_quotes": [
+      "DeSean Jackson has really turned that program around in a short period of time. Big ups to Coach Jack.",
+      "My husband grew up in Lewes — he loved the slower, lower lifestyle.",
+      "Our HBCUs are intimate — only two have more than 10,000 students — but the legacy is larger than life!"
+    ],
+    "score": 6
+  }
+}

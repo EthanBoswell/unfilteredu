@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Suite-style dorms leave students more isolated than community halls",
+      "Freshman dorm rooms described as extremely small and cramped",
+      "Students strongly recommend community-style dorms for social life"
+    ],
+    "key_quotes": [
+      "I'm in a dorm and I went with a suite style and I hate it. I wish I had done community so bad.",
+      "All of my friends in community dorms have become best friends with all of their hallmates.",
+      "The rooms are the size of matchboxes, two beds crammed into a single small living space."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Dorm choice heavily determines your social experience at K-State",
+      "Strong school spirit; friends and community form quickly for many students",
+      "Manhattan's isolation means social life is largely campus-dependent"
+    ],
+    "key_quotes": [
+      "I love K-State, they treat the students here like they really matter and honestly the atmosphere on campus during classes is great.",
+      "All of my friends in community dorms have become best friends with all of their hallmates.",
+      "Around the city is nothing."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful dining data surfaced from either Reddit or YouTube sources",
+      "Not a common complaint or praise point in available student discussions",
+      "Score reflects insufficient data, not confirmed quality"
+    ],
+    "key_quotes": [
+      "No direct quotes about K-State dining available in the data.",
+      "Insufficient student feedback to draw conclusions.",
+      "N/A"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of mental health services in available student data",
+      "Students note Kansas isolation could impact wellbeing for some",
+      "Score reflects data gap, not confirmed strength or weakness"
+    ],
+    "key_quotes": [
+      "I was hesitant to live in a dorm due to some medical problems but everyone has been really understanding.",
+      "No substantive mental health service feedback found in data.",
+      "N/A"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "In-state tuition around $15k/yr makes K-State a strong value option",
+      "International students face $45-50k/yr total cost with limited aid clarity",
+      "National Merit Finalists can attend for nearly free, a major draw"
+    ],
+    "key_quotes": [
+      "Both schools are in the $45-50k a year range including the living costs.",
+      "I'd be able to go to OU for basically free and probably the same for k-state.",
+      "Would cost about $60k total for in-state over four years."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "CS Scholars program cited as a notable differentiator for computer science students",
+      "Engineering and animal science programs mentioned positively multiple times",
+      "Ranked outside top tier for CS nationally, but considered solid for cost"
+    ],
+    "key_quotes": [
+      "Kansas State or apply for KU. In undergrad and especially as an engineer, both are pretty decent schools.",
+      "Kansas State — in-state, 15k/yr, CS Scholars program.",
+      "Tier 3: UNT, Kansas State or Utah [for CS job outcomes as an international student]."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Students feel genuinely cared for by the institution per direct accounts",
+      "Advisor interactions described as helpful for major selection decisions",
+      "No major administrative complaints surfaced in available data"
+    ],
+    "key_quotes": [
+      "They treat the students here like they really matter.",
+      "After meeting with my advisor today and signing up for classes... she started talking about ecology and it seemed really relevant.",
+      "N/A"
+    ],
+    "score": 7
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Manhattan, Kansas is extremely isolated — 'around the city is nothing'",
+      "Campus itself is described warmly; purple branding beloved by some students",
+      "Two-hour drive from Kansas City is the closest major metro area"
+    ],
+    "key_quotes": [
+      "It is in Kansas, so around the city is nothing.",
+      "Kansas State Universities' rich purple PENETRA[tes the soul].",
+      "I dream of retiring in the middle of nowhere Kansas lol."
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "CS graduates considered employable but school not in top recruiting tiers",
+      "Animal science and vet school pipeline mentioned as a genuine strength",
+      "Engineering grads seen as competent but school lacks elite employer name recognition"
+    ],
+    "key_quotes": [
+      "Tier 3: UNT, Kansas State or Utah [for CS international student job outcomes].",
+      "CS is such a growing field that doing it at a smaller school won't hurt you.",
+      "Kansas State is a full ticket to the American Dream!"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Best value case: in-state students graduate debt-free for ~$60k total",
+      "Out-of-state and international students see much weaker value proposition",
+      "Consistently recommended as the financially smart choice over pricier OOS schools"
+    ],
+    "key_quotes": [
+      "Kansas State — would cost about $60k total, 2.5 hour drive.",
+      "I actually am a junior at K-State right now — I love K-State, they treat students like they really matter.",
+      "Graduate debt free [at K-State] and go to a nice grad school."
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Warm, community-oriented campus culture with genuine school pride",
+      "Best fit for in-state students comfortable with rural Midwest isolation",
+      "Not a prestige play — but students report feeling valued and supported"
+    ],
+    "key_quotes": [
+      "I love K-State, they treat the students here like they really matter.",
+      "Kansas State is a full ticket to the American Dream!",
+      "I dream of retiring in the middle of nowhere Kansas."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Location: Manhattan KS is deeply isolated — virtually nothing surrounding campus",
+      "Career: CS and engineering grads face uphill battle at top-tier employers vs. peer schools",
+      "Housing: Suite-style dorm choice can seriously damage your social life freshman year"
+    ],
+    "key_quotes": [
+      "Around the city is nothing. Also, it's known for agriculture.",
+      "Tier 3: UNT, Kansas State or Utah [for CS job outcomes].",
+      "I went with a suite style and I hate it. I wish I had done community so bad."
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "CS Scholars program offers structured cohort experience rare at state schools",
+      "National Merit Finalists can attend nearly free — massively underutilized by high achievers",
+      "Animal science and pre-vet pipeline is genuinely strong and underrated nationally"
+    ],
+    "key_quotes": [
+      "Kansas State — CS Scholars program, could graduate debt free.",
+      "I'd be able to go to K-State for basically free [as a National Merit Finalist].",
+      "Did a research project with a prof out of there and loved the campus."
+    ],
+    "score": 7
+  }
+}

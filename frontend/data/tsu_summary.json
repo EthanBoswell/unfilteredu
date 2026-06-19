@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "Wilson Hall ('da Zoo') and Hale Hall high-rises are student landmarks",
+      "Watson Hall is the designated freshman male dorm",
+      "Dorm culture is memorable but infrastructure reputation is mixed"
+    ],
+    "key_quotes": [
+      "Wilson hall aka da zoo and da high rises hale hall wow",
+      "im coming to TSU as a freshman... do i need to bring a microwave and mini fridge?"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life is central to campus social identity, as at most HBCUs",
+      "MAGA group invasion became a defining campus moment students handled with pride",
+      "Students describe strong sense of community and belonging on yard"
+    ],
+    "key_quotes": [
+      "Tennessee State is a flagship HBCU with history, pride, and presence",
+      "Students booed and laughed them off campus. Such class!"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall reviews found in available data",
+      "Campus tour videos mention basic facilities but no dining detail",
+      "Comparable HBCUs are investing in dining upgrades; TSU data absent"
+    ],
+    "key_quotes": [
+      "Can you highlight some of the student activities?",
+      "I'm thinking about going to this school next fall, can anyone give me more information?"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "NCCU student death linked to homophobia and D9 exclusion pressures signals wider HBCU issue",
+      "No TSU-specific mental health support data found in sources",
+      "Political targeting of HBCUs adds stress layer for current students"
+    ],
+    "key_quotes": [
+      "Recounts feeling excluded due to homophobia and not being D9",
+      "The confrontation at TSU is a reminder that HBCUs remain frequent targets of hostility"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "$350M in HBCU grants cancelled by federal government affects TSU directly",
+      "TSU had a 'stunning financial turnaround' per recent president statement",
+      "No specific TSU scholarship data; broader HBCU aid cuts are a real risk"
+    ],
+    "key_quotes": [
+      "'What a difference a year makes,' says TSU president after HBCU's stunning financial turnaround",
+      "He cuts funding for HBCUs and others, then turns around and takes credit for new funding"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Pre-PA science infrastructure raised concerns; student cited 'horror stories'",
+      "Only 7 of ~107 HBCUs graduate over 50% of students nationally",
+      "TSU's academic reputation solid enough to attract serious pre-professional students"
+    ],
+    "key_quotes": [
+      "How solid is TSU regarding the sciences (orgo chem, genetics, etc)? I'm lowkey scared and have heard horror stories",
+      "I'm a pre PA student looking to finish prerequisites here"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "TSU enforced trespassing policies correctly during MAGA campus invasion",
+      "Financial turnaround noted but details are vague from president's statement",
+      "No sustained student complaints about admin found, but data is thin"
+    ],
+    "key_quotes": [
+      "TSU had the right policy in place. If you are not a student, you have to have a permit",
+      "'What a difference a year makes,' says TSU president after HBCU's stunning financial turnaround"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Nashville, one of the fastest-growing cities in the South",
+      "Nashville's 'Music City' identity has deep HBCU roots via Fisk Jubilee Singers",
+      "Campus tour videos show recognizable landmarks but aging infrastructure visible"
+    ],
+    "key_quotes": [
+      "So many memories especially Wilson hall aka da zoo and da high rises",
+      "I visited over the summer, loved it and considered going, now I really want to attend"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No TSU-specific alumni career outcome data surfaced in either source",
+      "HBCU attendance broadly linked to late-life cognitive and networking benefits",
+      "Nashville location provides strong access to healthcare, music, and business industries"
+    ],
+    "key_quotes": [
+      "HBCU attendance may provide late-life cognitive benefits for Black adults",
+      "The sky is the limit! Folks wanna dismantle our schools, but we can't allow them"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Federal funding cuts make cost stability uncertain for students right now",
+      "TSU financial turnaround is promising but specifics not publicly detailed",
+      "Peer HBCUs offering full rides; TSU aid competitiveness is unclear"
+    ],
+    "key_quotes": [
+      "Howard offered me 20k out of 58k. Spelman offered $0. Tuskegee offered a full ride. Apply everywhere!",
+      "HBCUs have always been a safe haven — they are more vital today than ever"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "TSU students handled political provocation with confidence and class",
+      "Strong institutional pride and community identity define the experience",
+      "Incoming students enthusiastic; campus nostalgia from alumni is genuine"
+    ],
+    "key_quotes": [
+      "Tennessee State is a flagship HBCU with history, pride, and presence",
+      "I visited over the summer, loved it — now I really want to attend"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** Pre-professional student cited 'horror stories' about science infrastructure",
+      "**Security:** TSU was specifically targeted by MAGA group as a 'test run' for HBCU invasions",
+      "**Funding:** $350M in HBCU grants cancelled federally; TSU directly exposed to cuts"
+    ],
+    "key_quotes": [
+      "I'm lowkey scared of going here and have heard horror stories",
+      "Tennessee State was essentially a test run — they want another Tennessee State moment"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Nashville location gives unmatched access to healthcare, business, and entertainment careers",
+      "TSU students demonstrated national model for handling campus political provocations",
+      "Financial turnaround underway — could signal improved resources and stability ahead"
+    ],
+    "key_quotes": [
+      "Students booed and laughed them off campus. Such class!",
+      "'What a difference a year makes,' says TSU president after stunning financial turnaround"
+    ],
+    "score": 7
+  }
+}

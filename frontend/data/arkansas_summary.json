@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Move-in logistics at Garland parking garage caused heat stroke incidents",
+      "Campus has expanded dramatically — new residential complexes where tennis courts once stood",
+      "Older dorms like Reid Hall historically had no AC on upper floors"
+    ],
+    "key_quotes": [
+      "Parking staff closing in 5 min wouldn't let us drop stuff off in the lot by the room... Everyone helping got sick and almost had heat stroke from the Garland parking garage",
+      "Freshman year, I was stuck in Reid Hall on the 8th floor without AC",
+      "Now there's a huge residential complex next to it. This area used to be the tennis courts"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates — harder to make friends if not in a fraternity or sorority",
+      "SEC football culture is central to campus social identity",
+      "Party scene is real; international and exchange students specifically seek it out"
+    ],
+    "key_quotes": [
+      "I'm not sure I'd fully fit in there, and I've heard it can be harder to make friends if you're not involved in Greek life",
+      "I don't really care about the academics, but i'd really like to go to a university with a fun and engaging campus, and party culture",
+      "Both of my older brothers go to UChicago... I do want a typical college experience, but I won't be joining a sorority wherever I go"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific on-campus dining mentions — a notable data gap",
+      "Fayetteville city food scene gets indirect positive mentions",
+      "Little Rock's food scene praised, but that's 2+ hours from campus"
+    ],
+    "key_quotes": [
+      "I've lived here for a few years now and definitely agree with everything you said about the food and people",
+      "Best damn Cheeseburger, and yes, till 5 a.m."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No student mentions of counseling services or mental health support on campus",
+      "Pre-med students warned about burnout risk at peer schools — implied pressure exists",
+      "LGBTQ students with unsupportive families flagged UArk as a concern for social safety"
+    ],
+    "key_quotes": [
+      "We've already had discourse about my lgbtq identity, and it's likely they would stop paying me if I don't behave within their Christian, heterosexual standards",
+      "i wouldn't apply to UM, it's hella expensive and they're pre med is notoriously difficult and most pre med kids burn out with their party lifestyle"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Fellows Program offers full ride including housing, research, and study abroad — a standout deal",
+      "National Merit Finalists get $40,000 Chancellor's Merit Scholarship over four years",
+      "In-state tuition is genuinely affordable; OOS students should negotiate hard"
+    ],
+    "key_quotes": [
+      "I've been accepted into the Fellows program at my state school (University of Arkansas) and would graduate without having to pay anything for tuition, housing, research, study abroad, etc.",
+      "The U of A awards the Chancellor's Merit Scholarship, valued at $40,000 over four years, to all National Merit finalists",
+      "Arkansas would be approximately $15,000 a year"
+    ],
+    "score": 8
+  },
+  "academics": {
+    "key_points": [
+      "Business and Walton College consistently praised; Walmart proximity creates real-world ties",
+      "Engineering described as 'very competitive and challenging' with strong career fairs",
+      "Honors College is selective enough that Vanderbilt parents confused acceptance rates"
+    ],
+    "key_quotes": [
+      "Arkansas has the better business program. Courtesy of Walmart",
+      "I'm currently studying Civil Engineering at the university of Arkansas. It's a very competitive and challenging program, but you learn a lot and have giant career fairs and lots of clubs to network",
+      "CEO of the top Fortune 100 company went to the University of Arkansas"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Parking enforcement is rigid and unhelpful during high-stress move-in situations",
+      "Admissions office responsive enough for international students to reach out directly",
+      "Online Eversity division dissolved into University of Grantham — credits in limbo for some students"
+    ],
+    "key_quotes": [
+      "Parking staff closing in 5 min wouldn't let us drop stuff off in the lot by the room and get a cart... it took hours and people got heat stroke",
+      "During an extended break, Eversity changed/sold to the University of Grantham... I was informed that all of my credit would transfer but that I would have to complete a minimum of 30 hours"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Fayetteville is consistently described as a great college town with strong growth",
+      "Campus has grown massively — alumni from the 1980s barely recognize it today",
+      "Northwest Arkansas tech and retail hub (Walmart HQ nearby) adds real career proximity"
+    ],
+    "key_quotes": [
+      "I have a few friends in the Honors College too and I live by Fayetteville! It's a good area of Arkansas",
+      "I have heard that Fayetteville is becoming Austin 2.0, would locals agree with this?",
+      "Oh my, can't believe how much this place has grown!"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Walton College business grads benefit directly from Walmart and Walmart-adjacent companies",
+      "Engineering students get strong internship pipeline and networking through career fairs",
+      "Fortune 100 CEO (Walmart's) attended UArk — signal for business-track students"
+    ],
+    "key_quotes": [
+      "CEO of the top Fortune 100 company went to the University of Arkansas",
+      "If you want to major in business (Walmart) or pre-med fields, take a harder look at Arkansas",
+      "I'm currently studying Civil Engineering at the university of Arkansas... have giant career fairs and lots of clubs to network and meet with companies"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full-ride Fellows Program is one of the best value deals of any state school nationally",
+      "In-state cost (~$15-22k/year all-in) makes it a legitimate choice over pricier OOS schools",
+      "Reddit consistently tells students: take the UArk money over $83k/year dream schools"
+    ],
+    "key_quotes": [
+      "GO TO ARKANSAS. That's a terrific Fellows program. YOU WILL HAVE SO MANY WONDERFUL OPPORTUNITIES... Plus it's free.",
+      "$83k a year is INSANE. No school is worth that much (outside of HYPSM).",
+      "Arkansas would be approximately $15,000 a year"
+    ],
+    "score": 9
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong SEC sports culture — football and basketball are genuine social anchors",
+      "Campus feels welcoming for in-state students; OOS and POC students express more uncertainty",
+      "Alumni sentiment is warm and nostalgic; international students are drawn by reputation and culture"
+    ],
+    "key_quotes": [
+      "I left UofA in 2016... UofA has never left me",
+      "I was inspired by one of your notable alumni, featured in a movie, Brandon Burlsworth",
+      "Woo Pig Sooie. Yes, you made the right call"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Social inclusion**: Greek life gatekeeps friendships; non-members report social isolation",
+      "**LGBTQ climate**: conservative Christian culture noted as a real concern for queer students",
+      "**Diversity**: multiple POC applicants flagged low minority representation as a serious worry"
+    ],
+    "key_quotes": [
+      "I've heard it can be harder to make friends if you're not involved in Greek life",
+      "We've already had discourse about my lgbtq identity, and it's likely they would stop paying me if I don't behave within their Christian, heterosexual standards",
+      "After scrolling through several official and student-led pages, I realized not many POC attend UArk compared to other schools"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Fellows Program is a full ride almost no one outside Arkansas knows about",
+      "Walmart's HQ proximity creates unique supply chain, retail, and finance internship pipelines",
+      "Honors College is selective enough to surprise people — rivals some private school programs"
+    ],
+    "key_quotes": [
+      "I've been accepted into the Fellows program at my state school (University of Arkansas) and would graduate without having to pay anything for tuition, housing, research, study abroad, etc.",
+      "My mom thought University of Arkansas had the same acceptance rate as Vanderbilt",
+      "If you want to major in business (Walmart) or pre-med fields, take a harder look at Arkansas"
+    ],
+    "score": 8
+  }
+}

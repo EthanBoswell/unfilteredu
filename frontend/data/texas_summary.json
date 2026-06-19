@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "West campus area has safety incidents including violent assaults",
+      "Hit-and-run incidents reported in campus parking garages",
+      "Sketchy characters released near campus boundary zones"
+    ],
+    "key_quotes": [
+      "Isn't 200 yards from UT Austin still West Campus? In other words, where he was doing all of this stuff?",
+      "Someone hit and run THREE cars at the Texan Tower parking garage",
+      "they are letting the motorcycle helmet guy out because he is 'incompetent to stand trial'"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "50,000+ students makes it hard to build consistent social circles",
+      "Greek life exists but fraternities notorious for extreme noise and entitlement",
+      "Football culture dominates social calendar and campus identity"
+    ],
+    "key_quotes": [
+      "I literally don't have any friends its almost impossible to meet anybody as every face I see seems to disappear into the sea of 50,000 faces",
+      "Your music not only penetrates my walls, but is unaffected by two fans, an AC unit, noise-cancelling headphones, and even a white noise generator",
+      "I moved here from Georgia. I'm convinced Austin isn't real and I died somewhere along the way"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Beloved affordable food spots on Guadalupe keep closing",
+      "Dollar pizza slice spot on Guad recently shut down, students devastated",
+      "Limited cheap quality options near campus being replaced by chains"
+    ],
+    "key_quotes": [
+      "The only cheap food option around campus that has reliable quality and they're closing??? BRUH",
+      "End of an era. I got my masters fueled on dollar slices",
+      "Texas students losing beloved food spots, tale as old as time"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple student deaths including suicide documented on campus",
+      "Student gun violence affects campus community regularly",
+      "High-pressure academics with documented cheating panic signals stress culture"
+    ],
+    "key_quotes": [
+      "Small memorial for the student in the tragedy last week, outside the Union on 24th street",
+      "After a student tragically committed suicide a week ago, people put flowers and letters",
+      "Lots of panic in this subreddit among AI cheaters in the CS program who are getting caught"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Free tuition for families under 65k income is a genuine standout benefit",
+      "In-state tuition makes UT exceptional value vs comparable private schools",
+      "Out-of-state students face very high costs with low acceptance rates around 6%"
+    ],
+    "key_quotes": [
+      "UT Austin promises free tuition to students with family income less than $65,000",
+      "I'm sorry but how are people genuinely justifying 400k at Yale vs a full ride at UT Austin",
+      "My bill for my first semester was $2,135. That's it. And 99% of that was my meal plan"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "CS ranked top 11 nationally, engineering strong but extremely competitive to enter",
+      "AI cheating rampant in CS; professors now implementing strict detection protocols",
+      "Internal major transfers nearly impossible; choose your major carefully before enrolling"
+    ],
+    "key_quotes": [
+      "I am currently finishing undergrad engineering at UT Austin this semester… if you love having a faculty that's 80% incompetent at teaching",
+      "UT is notoriously known for being impossible to internally transfer",
+      "When you use an AI LLM product to cheat and produce code that you are supposed to have created yourself… their code will look VERY similar to yours"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Administration capitulating to political pressure from Texas governor and Trump compact",
+      "Faculty purges and department eliminations actively underway, brain drain accelerating",
+      "Student protesters arrested in 2024; no apology issued by university leadership"
+    ],
+    "key_quotes": [
+      "UT hasn't apologized for the 2024 beating and jailing of dozens of students over political speech",
+      "Only one, the University of Texas, suggested it might be open to signing on quickly",
+      "I left my position at UT and took a faculty position at an even more prestigious institution out of state"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Austin is vibrant but increasingly expensive and rapidly gentrifying",
+      "Campus itself is beautiful with iconic Tower and beloved spots like PCL and the Union",
+      "Scooter chaos on Speedway is a genuine daily hazard for pedestrians"
+    ],
+    "key_quotes": [
+      "I love the Union so much",
+      "The line of armchairs facing the windows on the top floor is a peak nap spot",
+      "If you're on a quiet floor, stop talking!"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "CS and engineering grads land FAANG jobs regularly; alumni network strong in Texas",
+      "McCombs business school highly regarded regionally and nationally",
+      "Political instability now threatens long-term degree value as rankings may drop"
+    ],
+    "key_quotes": [
+      "my sister went there and 'is doing well for the price' (she works at a FAANG)",
+      "Texas could use a political purge of the legislature… I doubt UT will be a top rated university in a decade",
+      "People do not realize how quickly UT will deteriorate once it completes this devil's bargain"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Unbeatable value for in-state students, especially those with financial need",
+      "Out-of-state costs hard to justify given admission difficulty and current instability",
+      "Free tuition under 65k household income is one of best deals in public higher ed"
+    ],
+    "key_quotes": [
+      "My bill for my first semester was $2,135. That's it",
+      "I'm sorry but how are people genuinely justifying 400k at Yale vs a full ride at UT Austin",
+      "even my lowest safety is in the top 3%, that really puts things into perspective"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Massive school energy with intense sports culture and longhorn pride",
+      "Politically charged atmosphere with protests, tension, and ideological battles on campus",
+      "Deeply loved by alumni but current students watching institution change in real time"
+    ],
+    "key_quotes": [
+      "what starts here changes the world",
+      "genuinely what is UT",
+      "I never thought Texas could do something so antithetical to its mission that it would turn my orange blood red again"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Political interference: Governor purging faculty, Trump compact signed, academic freedom gutted",
+      "Safety: violent assaults near campus, hate crimes, dangerous repeat offenders released nearby",
+      "Institutional integrity: student government election cheating, biased event approval, protest crackdowns"
+    ],
+    "key_quotes": [
+      "Gov. Abbott Admitted to Purging 'Leftist' Professors",
+      "UT student suspended after organizing protest over Trump compact",
+      "Twenty-three years after I graduated, SG continues to be a complete joke. Constant cheating by election tickets, zero actual accomplishments"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "PCL library upper floor leather chairs are a beloved hidden study sanctuary",
+      "Albino squirrel near Painter Hall is a beloved campus luck tradition",
+      "The Rag underground leftist magazine revival shows authentic student cultural life"
+    ],
+    "key_quotes": [
+      "That line of armchairs facing the windows on the top floor is a peak nap spot",
+      "the albino squirrel's been hanging out near painter hall for the past 2 ish weeks so pass by there if you need some good luck on finals",
+      "A left-wing magazine with actually good takes instead of edgy circle-jerking? A good sign"
+    ],
+    "score": 7
+  }
+}

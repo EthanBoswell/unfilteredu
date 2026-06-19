@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Housing is competitive — beds ran out last year for incoming students",
+      "South Tower dorms mentioned positively by incoming freshmen",
+      "Committing early recommended specifically to secure housing spot"
+    ],
+    "key_quotes": [
+      "USC housing is pretty competitive; they ran out of beds last year and me and my friends are trying to get ahead on that",
+      "I will also be in South Tower! So I'm excited!!!",
+      "Go ahead and pay it... you aren't going to get a much better deal"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Sports culture is a major social anchor — Gamecock games are central",
+      "Columbia described as 'pretty lit' by locals; good city energy",
+      "Frisbee on the Horseshoe and campus hangout culture praised by alumni"
+    ],
+    "key_quotes": [
+      "Mondays are Moe's Mondays and you can drive out to US1 for no line",
+      "Seeing people play frisbee in the horseshoe and all the hidden gardens",
+      "Columbia is pretty lit (SC boi here)"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall complaints or praise surfaced in data",
+      "Moe's Monday deal mentioned as a popular cheap food option off-campus",
+      "Off-campus food scene appears to be where students actually eat"
+    ],
+    "key_quotes": [
+      "Mondays are Moe's Mondays and you can drive out to US1 for no line",
+      "Columbia is pretty lit"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Pre-med stress culture is real — students cry over others' high grades",
+      "Roommate conflicts (alarm noise, sleep disruption) affect wellbeing noticeably",
+      "No mention of university mental health resources in any student post"
+    ],
+    "key_quotes": [
+      "'You hear tears. The Pre-med student next to you got a 98.' That's an absolute gem",
+      "I had to share a room this year at university and I just didn't like it",
+      "Finals are week after next I'm a theater major and it's a lot; just oof"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "USC offers substantial merit scholarships — one student got $39K minimum",
+      "Strong out-of-state scholarship options make USC competitive on cost",
+      "In-state students have strong value; out-of-state aid varies significantly"
+    ],
+    "key_quotes": [
+      "I was accepted into the University of South Carolina! They are giving me a minimum of $39,000 scholarship",
+      "The University of South Carolina, Columbia has A BUNCH of scholarships",
+      "Because you are in-state, you aren't going to get a much better deal"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Honors college (Capstone program) is a standout differentiator students actively seek",
+      "Business and international business programs are repeatedly cited as strong",
+      "Some students report advisors are hit-or-miss; good ones make a big difference"
+    ],
+    "key_quotes": [
+      "I was accepted into the Capstone program for UofSC. I really like the UofSC campus. Great for my major",
+      "I had a pretty good advisor all 4 years that supported me, so I was fortunate and my teachers were some of the best",
+      "USC only takes 24 credits total from the hundreds listed at our college"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Credit transfer policies are strict — only 24 CC credits accepted, frustrating transfers",
+      "Professor communication is slow; textbook info sometimes missing until class starts",
+      "No strong praise or complaints about admin responsiveness in the data"
+    ],
+    "key_quotes": [
+      "University of South Carolina for instance only takes 24 credits total from the hundreds listed at our college",
+      "I'm trying really hard not to stress and panic... I am a part time student at University of South Carolina",
+      "He'll tell you on the first day. Or there may not be any required textbook"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Columbia is HOT until Halloween — pack summer clothes, not fall clothes",
+      "Campus has hidden gardens and a beautiful horseshoe — aesthetically strong",
+      "Trains near campus are a recurring annoyance alumni still remember fondly/frustratedly"
+    ],
+    "key_quotes": [
+      "Columbia is HOT until Halloween. Bring way more hot weather clothing than cool weather clothing. Be prepared to sweat. A lot",
+      "Seeing people play frisbee in the horseshoe and all the hidden gardens. Had so many fond memories",
+      "This video... brought back memories of those stupid trains!!! LOL"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni network is large and geographically active across the US",
+      "Many graduates end up staying in Columbia — city grows on people",
+      "Business school alumni report strong local network helping land first jobs"
+    ],
+    "key_quotes": [
+      "The good part about bigger state schools like South Carolina is that they tend to have huge, active alumni bases all across the United States",
+      "I fell in love with the city and stayed here. With that said, you have a choice",
+      "Study hard, remember your sports ticket requests. Study hard in something hard"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state ROI is consistently cited as a top reason to choose USC",
+      "Out-of-state students can offset costs with merit scholarships — worth researching",
+      "One advisor explicitly said: go to USC, avoid debt, get a masters later"
+    ],
+    "key_quotes": [
+      "Go to USC. Do not go into super debt. The programs are all really about the same. Get a masters degree at Tech or whatever school is your new dream",
+      "This school has been on my mind recently due to its strong ROI and business program",
+      "Congrats on the USC admit! Damn good school"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong school spirit and Gamecock identity define the student experience",
+      "Campus is genuinely beautiful — alumni miss it years after graduating",
+      "Laid-back enough socially but academically serious in competitive programs"
+    ],
+    "key_quotes": [
+      "Welcome to the Gamecocks. Alum here. Remember study hard, Mondays are Moe's Mondays",
+      "Most of my close friends are from uni... I loved my time there",
+      "This really calmed me down about the whole experience"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Housing:** Beds ran out last year — no guarantee of on-campus room",
+      "**Safety:** Shooting reported near campus mentioned in student thread without context",
+      "**Transfers:** Strict 24-credit cap from community college frustrates transfer students"
+    ],
+    "key_quotes": [
+      "USC housing is pretty competitive; they ran out of beds last year",
+      "Stay safe cause I just heard there was a shooting near the university",
+      "University of South Carolina for instance only takes 24 credits total from the hundreds listed at our college"
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Horseshoe and hidden campus gardens are secret hangout spots worth finding",
+      "Study abroad office is highly praised — helped students get to Korea and beyond",
+      "Capstone Honors College gives USC a strong academic track most people overlook"
+    ],
+    "key_quotes": [
+      "Seeing people play frisbee in the horseshoe and all the hidden gardens. Had so many fond memories",
+      "The study abroad office helped me out a lot too when I decided to study [abroad]",
+      "I was accepted into the Capstone program for UofSC. I really like the UofSC campus"
+    ],
+    "score": 8
+  }
+}

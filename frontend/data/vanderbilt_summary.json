@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Limited student feedback on dorms; McGill mentioned as a single option",
+      "Transfer students report feeling isolated and disconnected from residential life",
+      "No strong praise or complaints about housing quality in available data"
+    ],
+    "key_quotes": [
+      "What is McGill like? Living there in single, also a sophomore transfer.",
+      "It's been about two months since school started, and honestly, I've been having a really hard time connecting with people. I'm usually just in my room doing homework."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates social scene; non-members feel excluded",
+      "Transfer students repeatedly report inability to make friends",
+      "Finance clubs are ultra-competitive and reportedly rude to newcomers"
+    ],
+    "key_quotes": [
+      "I didn't realize how big of a deal greek life really was... it all came to an abrupt halt when I suffered the bad luck of [not getting in].",
+      "I have 0 idea what I'm doing wrong people seem to can't stand me, and they only hit me up when they need help on assignments.",
+      "Some of the people running them have been unbelievably rude to me for no reason. And the multi-round interview for student orgs is ridiculous."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Almost no direct student feedback on dining quality in available data",
+      "Vanderbilt mentioned positively in a 'perfect school' post for its 'charm' but not food",
+      "Nashville food scene praised as a compensating factor off-campus"
+    ],
+    "key_quotes": [
+      "My parents will be in town for a week (they eat everything), was wondering what your favorite bites to eat were in Nashville?",
+      "Rand cookie heist — Circa Nov 2021"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple students report depression, isolation, and loneliness at Vandy",
+      "One student scraped by with 2.0 first semester due to depression",
+      "Lonely students post publicly asking for things to do and friend-making tips"
+    ],
+    "key_quotes": [
+      "I've been kind of in a pretty sad slump and i dont rlly have any friend atm and ill be pretty lonely during fall break.",
+      "My first semester was terrible, I was depressed as shit and ended up scraping by with a 2.0 GPA.",
+      "I see so many posts saying they are miserable at Vandy. My daughter is thinking of applying ED and those kinds of things make us very concerned."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid can be excellent — full rides and Chancellor's Scholarships exist",
+      "Aid reportedly dropped mid-enrollment for one student with no warning; office ignored them",
+      "Total cost of attendance hit $101,380/year for 2026-27 with quiet fee increases"
+    ],
+    "key_quotes": [
+      "My friend who had been committed for a month and declined all their offers suddenly got their fin aid increased by $30k so now they can't pay, and the fin aid office is basically ignoring them.",
+      "Tuition is ridiculous (2026-2027): $101,380. How could they raise fees quietly like that without publicly announcing it?",
+      "For such a supposedly snobby school, their finaid is REALLY good."
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Coursework is genuinely harder than high school; students from strong backgrounds still struggle",
+      "Grade inflation is real — many report easy 3.5+ GPAs, especially in non-STEM fields",
+      "Premed track is tough; harder to get good grades than at comparable schools"
+    ],
+    "key_quotes": [
+      "Here, if I know all the material, create a study guide, take practice tests, do constant flash cards... I still get a 70.",
+      "Grade inflation is real. I was able to easily get a 3.5. I have seen so many people with 3.8.",
+      "Vandy cons: harder to get good grades in premed reqs."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Peabody College used ChatGPT to write a condolence email after a mass shooting",
+      "Class registration info withheld from incoming students until very late",
+      "Financial aid office described as unresponsive and dismissive by multiple students"
+    ],
+    "key_quotes": [
+      "Peabody College at Vanderbilt University apologized for using ChatGPT to write a sensitive email... The message asked students to 'come together' following a shooting at Michigan State.",
+      "Class registration is like next week and they haven't given us any information about how or what classes to register for.",
+      "The admissions officers are almost impossible to get ahold of, they are incredibly rude when you do get to talk with them."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Nashville food and music scene is a genuine asset students appreciate",
+      "California and Northeast students report culture shock adjusting to the South",
+      "Campus described as charming; Parthenon at sunset mentioned as a highlight"
+    ],
+    "key_quotes": [
+      "I'm from California and the culture here is quite different imo. I'm Asian American so the vibes in California vs Tennessee are very different.",
+      "Nashville has tons of opportunities — really like the idea of being there.",
+      "Vanderbilt has the most aura."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Finance and consulting recruiting is active but clubs are brutally competitive",
+      "Multi-round interviews for student organizations feel gatekeeping and elitist",
+      "Nashville location provides hospital and healthcare access for premeds"
+    ],
+    "key_quotes": [
+      "The finance clubs are ultra-competitive, but some of the people running them have been unbelievably rude to me for no reason. And the multi-round interview for student orgs is ridiculous.",
+      "Career-wise I was surprised how unenjoyable it is.",
+      "Nashville has tons of opportunities."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "At $101K/year sticker price, value depends entirely on merit aid or financial aid",
+      "Full rides and Chancellor's Scholarships make it a steal for some students",
+      "Without significant aid, cost is hard to justify vs. peer schools"
+    ],
+    "key_quotes": [
+      "Total cost of attendance is now $101,380/year. How could they raise fees quietly like that?",
+      "Vandy would be little to nothing a year... Vandy is far superior to UF, and costs you less!! What a gift!",
+      "Parents, how do you afford Vandy and is it worth it? The thought of 95k per year is absolutely dumbfounding."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Reputation is 'preppy party school meets serious academics' — both stereotypes are real",
+      "Athletics culture has surged recently with football success creating genuine school pride",
+      "Socially stratified by Greek life; outsiders feel the gap acutely"
+    ],
+    "key_quotes": [
+      "People quite literally crying because they 'only got into Vanderbilt.'",
+      "Is Vanderbilt 'nerdy' or 'cool'? I definitely hear everything from 'smart kid nerdy school' to 'oh vandy is a party school.'",
+      "Inside Vanderbilt: The 'new Harvard' where young people actually have fun."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Race: Black student reports people crossing the street and avoiding eye contact with him on campus",
+      "Administration: ChatGPT used for mass shooting condolence email; no one reviewed it before sending",
+      "Social exclusion: Multiple transfer students report total social isolation months after arriving"
+    ],
+    "key_quotes": [
+      "Everytime I walk by someone or get up close to someone they either put they head down, cross the street or pretend to be on their phone — I promise you guys I'm not going to rob you.",
+      "So when you are a Dean, you apologize for a ChatGPT essay. But as an applicant, that same Dean will disqualify me if I send an AI generated one.",
+      "I've been having a really hard time connecting with people. I'm usually just in my room doing homework... I tried reaching out to a couple people to hang out, but no luck."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Surprise acceptance packages mailed to your door — no portal update needed",
+      "Chancellor's Scholarship is a structured, well-funded merit program worth pursuing",
+      "Former AO confirmed Vanderbilt genuinely values quirky, memorable extracurriculars"
+    ],
+    "key_quotes": [
+      "My mom called my name and said there was a package at the door... turns out it was an invitation to attend MOSAIC and early acceptance! And I found out I got the Chancellor's Scholarship!",
+      "There are ECs that are impressive and there are ECs that are memorable – and they aren't always the same. Hell yeah, I want to see [the death metal ukulele transposition].",
+      "I got off the waitlist for Vanderbilt with a close full ride!!!! MY DREAM SCHOOL!"
+    ],
+    "score": 8
+  }
+}

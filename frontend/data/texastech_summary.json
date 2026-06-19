@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Apartment shortage is real — find one ASAP after acceptance",
+      "Limited on-campus options push students off-campus quickly",
+      "Parking has always been notoriously bad, per multiple alumni"
+    ],
+    "key_quotes": [
+      "Another thing is to find an apartment complex as soon as possible because they ain't too many to choose from",
+      "The parking has always sucked"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Legendary party school reputation — Greek life runs hot every night",
+      "Sports culture dominates social life; basketball and football are religion",
+      "School spirit is overwhelming — nearly universal among students and alumni"
+    ],
+    "key_quotes": [
+      "I graduated from Tech in 2000 and was a pike and that is exactly what it was like every night, not just the weekends. Plan on failing out one year",
+      "The Partying, Mac's RIZZ, The Fights, The Frat Tour, Chips Threesome",
+      "Tech is known for the most loyal fan base in the state"
+    ],
+    "score": 8
+  },
+  "dining": {
+    "key_points": [
+      "On-campus food gets low marks from students",
+      "Fresh Plate in the SUB has limited hours — frustrates students with early classes",
+      "Off-campus options on University Ave praised as solid alternative"
+    ],
+    "key_quotes": [
+      "Food here is not great, but just go across the way and all good restaurants on University",
+      "I can't stay until 9 am, brother. I have class",
+      "Spankys and Torchys by Tech is an absolute blessing"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct student data on counseling services in either source",
+      "Heavy party culture and academic pressure create burnout risk",
+      "One student described working 30 hours a week while taking max credits — wiped out"
+    ],
+    "key_quotes": [
+      "After taking thirty credits spring semester to graduate with my associate's degree at a community college while still attending Texas Tech, I guess I am just wiped out",
+      "I just ended up settling for the cheapest place with the best reputation. There's just no reason for me to be there"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "National Merit Scholarship offers full rides — a major draw for top students",
+      "International students report near-zero institutional aid",
+      "One family's FAFSA wasn't finalized until after their daughter started — caused major stress"
+    ],
+    "key_quotes": [
+      "I am 95% sure that I will be a National Merit finalist... I could get full rides at colleges like Texas Tech",
+      "My family maximum budget is around 30k a year so I won't be able to attend",
+      "The decision on her FAFSA wasn't finalized till after she started"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Chancellor's censorship memo actively restricting what professors can teach",
+      "Faculty changing syllabi mid-semester; some readings removed without replacement",
+      "CS department described as subpar by a current student who transferred out"
+    ],
+    "key_quotes": [
+      "The CS department isn't ideal, there are many professors that aren't very good and the foundational engineering program wastes a lot of time on mostly unimportant content",
+      "One professor specifically told us that there would be readings he was leaving on the syllabus that he would not be allowed to teach in the course",
+      "Those of you who think this won't affect your education are dreaming. Faculty were told that if they mention their SPOUSE in class, they have to run that content by the Board of Regents"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Chancellor Creighton not a Tech alum, doesn't live in Lubbock, seen as outsider",
+      "University paid $1.2M above market value for chancellor's new residence",
+      "Faculty Senate formally condemned chancellor's censorship policies — extremely rare"
+    ],
+    "key_quotes": [
+      "I know he was picked because he helped Abbott get vouchers, but the dude doesn't even have any affiliation with Tech. He doesn't care about Tech",
+      "You'd think with a $1.2 million salary the dude could buy his own house",
+      "Clearly this university doesn't care about its public image given its choice of new chancellor"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Lubbock is small and isolated — arriving from Houston or Austin is a genuine shock",
+      "Campus itself is widely praised as beautiful and well-maintained",
+      "Extremely dry, flat, West Texas climate — humidifiers recommended by students"
+    ],
+    "key_quotes": [
+      "Living in Austin, DFW or Houston, when you arrive in Lubbock, its a shock. You can drive around the entire city in 15 mins",
+      "I was shocked to hear the girls say you need a humidifier",
+      "Tech Alum from early 90s. I haven't been on campus in almost 20 years. Living in Huntington Beach Cali now but I still keep up with my University"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "92% job placement rate claimed by admissions for Rawls College of Business",
+      "Record 9 players drafted in one NFL Draft signals rising athletic prestige",
+      "Censorship policies drawing alumni concern that degrees are losing value nationally"
+    ],
+    "key_quotes": [
+      "92% job placement rate in our Rawls College of Business",
+      "Texas Tech had a program record 9 players drafted in this year's NFL draft",
+      "If you have any work in a blue state during the early phase of your career when where you went to school matters, you should be really pissed about this rightward shift. Your degrees are becoming worth less"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Near-free for National Merit Scholars — exceptional deal for top students",
+      "For international students with no aid, cost-benefit is questionable",
+      "Censorship policies actively threatening degree value in national job markets"
+    ],
+    "key_quotes": [
+      "TTU is basically free for me",
+      "This was the FIRST thing that disqualified my son from attending Tech. Had scholarships and everything but opted to go out of state",
+      "Your degrees are losing value by the minute"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Intense school spirit and sports culture define the Tech identity",
+      "Political tensions are high and increasingly affect daily campus life",
+      "Alumni overwhelmingly nostalgic, but current students face a different institution"
+    ],
+    "key_quotes": [
+      "2018 alum. TTU was my home and will always be. All I could think while at UT for my master's was how much I missed TTU",
+      "I went to Tech. I'm sorry to say they have become a racist breeding ground. They have become a beacon to all things Christofascist",
+      "God, I'm so embarrassed to hold a degree from this place"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Academic Freedom: Chancellor banned teaching on gender, sexuality, race across all courses",
+      "Free Speech Double Standard: student expelled for mocking Charlie Kirk; swastikas went unpunished in 2011",
+      "Corruption: $1.2M overpayment on chancellor's home; existing chancellor residence already existed"
+    ],
+    "key_quotes": [
+      "Not only will our credibility as a respected public institution of higher education be destroyed, but you are ordering us as faculty to impose your favored viewpoints",
+      "So making fun of Charlie Kirk in the FREE SPEECH area can get you expelled from Texas Tech university?",
+      "never mind that there was ALREADY a home for the Chancellor"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "World-class recreation facilities — pools, gyms, library all highly rated",
+      "Honors College offers smaller class sizes and easier research placement",
+      "Incredibly tight-knit alumni network; graduates describe lifelong friendships"
+    ],
+    "key_quotes": [
+      "Tech has wonderful recreational facilities, parks, pools, gyms, amazing library. World class faculty",
+      "The Honors College has easier to get placement for research and get priority for class registration",
+      "98% said it's the friends they made — my experience too"
+    ],
+    "score": 8
+  }
+}

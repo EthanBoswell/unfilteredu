@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "River Houses highly coveted; housing lottery creates stress",
+      "Dorms range from historic to brutalist concrete buildings",
+      "Some students essentially live in libraries during finals"
+    ],
+    "key_quotes": [
+      "'Is my friend actually living in the library? For seven days my phone shows the same little pin in the same corner'",
+      "'That dude loved chilling in my wigg dorm'",
+      "'I scraped through Harvard with a B- average in the 80s'"
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "Wealth gap between rich and scholarship students is stark and visible",
+      "Exclusive clubs exist but most students are too studious to party much",
+      "Social scene reportedly less intense than rumored; many friends too studious to party"
+    ],
+    "key_quotes": [
+      "'I didn't feel particularly unsafe most of the time? If anything I just had friends who were too studious to even party that much'",
+      "'Two types of exceptional at Harvard: exceptional academic achievements or exceptional family wealth'",
+      "'I had a coworker who left us when he graduated from Harvard and got one of those consulting jobs, and it made him so miserable he came back after a year. We're freaking baristas'"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Annenberg Hall is iconic and visually stunning",
+      "The Coop bookstore workers report being underpaid and overworked",
+      "Campus food quality not a major discussion point in student posts"
+    ],
+    "key_quotes": [
+      "'Ever wondered what we, the underpaid, overworked, and non-harvard-affiliated employees feel like when you're bu...'",
+      "'Prospective students see way better food than they ever do on a normal day because a bunch of prospective students are here'",
+      "'The Coop was so bare bones... wild to see it turned into the library from Hogwarts'"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Grade inflation cap proposal triggered crying, skipped classes, student outrage",
+      "Sleep deprivation is normalized; students brag about running out of paper studying",
+      "Students openly question whether they made the most of their experience post-graduation"
+    ],
+    "key_quotes": [
+      "'The whole entire day, I was crying. I skipped classes on Monday and was just...' — student reacting to grading report",
+      "'Sleep deprived is exactly how I would describe my university experience'",
+      "'I graduated this year and have been struggling with feeling like I made the most of the college experience... I'm already quite disillusioned with the institution'"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Need-blind aid is genuinely generous for families earning under ~$200k",
+      "Students above the aid threshold face brutal sticker price with no middle ground",
+      "International grad students face near-impossible funding situation with no co-signer options"
+    ],
+    "key_quotes": [
+      "'I got in, can't afford it — I don't qualify for need-based aid, so the cost is largely on my family and me'",
+      "'Your parents are honestly quite selfish if they make enough that you don't qualify for fin aid (aka >>$200k/yr) and are unwilling to help'",
+      "'Harvard said no deferral just for finances' — international MPH admit"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "CS50 with Prof. Malan is legitimately world-class; students globally rave about it",
+      "Grade inflation is severe — over 50% of grades are As, faculty voting to cap at 20%",
+      "Asian international students frequently say Harvard is easier than expected"
+    ],
+    "key_quotes": [
+      "'Currently in university in England and I have never seen a lecture at this quality and nor have I ever seen a lecturer so enthusiastic'",
+      "'Harvard admits all straight A students and then wonders why they all continue to get straight As'",
+      "'I thought it would be HARDER' — Indian student at Harvard"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Ad Board dismissal process described as opaque, bureaucratic, and merciless",
+      "Harvard removed 800 grad students from union, claiming they aren't employees",
+      "Staff layoffs of 25% at SEAS and FAS triggered by funding uncertainty; workers devastated"
+    ],
+    "key_quotes": [
+      "'The Ad Board bureaucracy, the no-mercy decision making...' — dismissed student",
+      "'Utterly depressed and dismayed over the ongoing union staff layoffs. We are losing the very fabric of what makes this university function'",
+      "'Complete and utter BS' — reaction to Harvard removing 800 students from grad union"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Harvard Square and Cambridge are genuinely beautiful, especially in snow",
+      "Bike and scooter safety in and around the Yard is a real daily hazard",
+      "Campus is walkable but pedestrian infrastructure near Science Center is dangerous"
+    ],
+    "key_quotes": [
+      "'These shots are so cinematic! Making me very homesick for Harvard'",
+      "'I always have to look both ways when I leave the yard bc I'm scared of being run over by a bike or a scooter'",
+      "'I used to walk from main campus to HBS daily and my goodness the sense of peace was almost overwhelming'"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Harvard name alone doesn't guarantee better outcomes than peers nearby",
+      "Consulting and finance jobs exist but reported to cause misery in practice",
+      "The Harvard degree carries international recognition but local neighbors earn comparable salaries"
+    ],
+    "key_quotes": [
+      "'I live right near Harvard, which means I know a lot of people that went there, they are all in the exact same positions making the same or less than the other adults I know'",
+      "'I had a coworker who left us when he graduated from Harvard and got one of those consulting jobs, and it made him so miserable he came back after a year'",
+      "'you think you are going to change the world, but actually you are there to keep the world EXACTLY as it is'"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "For families under ~$200k income, Harvard is often cheaper than state schools",
+      "Middle-income families earning just above aid thresholds face worst deal",
+      "Free online courses like CS50 offer genuine Harvard-quality education at zero cost"
+    ],
+    "key_quotes": [
+      "'Fun fact: Harvard has free courses online that you can attend and when you finish, you get a certificate that you can then put on your CV'",
+      "'Got in, can't afford it — offered a full ride to another university, and from their perspective it doesn't make sense to turn that down'",
+      "'I 100% financed a HYPSM education and I have no regrets. I paid off my loans in a few years'"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students are driven, sleep-deprived, and self-aware about elite bubble they inhabit",
+      "Wealth inequality on campus is jarring and openly discussed by students",
+      "Harvard brand carries social baggage — graduates often hide it by saying 'school in Boston'"
+    ],
+    "key_quotes": [
+      "'My brother went to Harvard. He said well I thought so too until I saw how many idiots they let in'",
+      "'It's called the H-bomb. Once you mention it in conversation, it derails the moment'",
+      "'Just say you went to school in Boston like the rest of us'"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Epstein ties: Multiple senior faculty including Larry Summers sought Epstein's advice on pursuing women they mentored",
+      "Legacy/wealth access: 43% of white admits are ALDC; 75% of those would have been rejected otherwise",
+      "Labor practices: kitchen staff forced to commute in blizzards as 'essential workers'; Coop workers paid below Dunkin wages"
+    ],
+    "key_quotes": [
+      "'when i was first looking at the course catalogue this summer and saw his name as a professor i was like ...oh he's still allowed to teach huh'",
+      "'More than 43% of white student admits at Harvard are ALDC admissions... Roughly three-quarters of white ALDC admits would have been rejected absent their ALDC status'",
+      "'Is Harvard forcing its kitchen staff to drive to work during the storm again? They declared them essential workers during the last storm and I'm still furious about it'"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Sanders Theater philosophy lectures were historically open to the public — just walk in",
+      "Graduate seminars open to undergrads offer smaller, more rigorous intellectual experience",
+      "Remy the Harvard Cat is a beloved campus fixture who visits dorms and buildings"
+    ],
+    "key_quotes": [
+      "'About 7 years ago, Professor Sandel was still teaching this course and the public could sit in on all the lectures — just walk into Sanders Theater and take a seat'",
+      "'Take grad seminars. Graduate students are cool, especially HDS kids'",
+      "'That dude loved chilling in my wigg dorm. Glad to see he's still around' — about Remy the cat"
+    ],
+    "score": 7
+  }
+}

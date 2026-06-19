@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Off-campus landlords routinely change rent after leases are signed",
+      "Specific apartments (The Brexx/Retreat) charged $2,000 in bogus damage fees",
+      "Dorm fires reported; dryer lint traps cited as hazard at Shulze Hall"
+    ],
+    "key_quotes": [
+      "They literally changed my rent after I had signed my lease, and there is no way for me to prove it",
+      "DO NOT live at The Villas at Happy Valley — they required us to empty our fridge by 8am with no warning",
+      "The landlord issue in State College should be studied"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life hazing is a documented, serious problem — not just rumors",
+      "Fraternity culture described as toxic; one student regretted joining a 'top' frat",
+      "Football game day student section has major crowd management failures"
+    ],
+    "key_quotes": [
+      "I got yelled at by almost everyone except my pledge brothers and thought that was just how it worked",
+      "Got to the gate at 2:30 and didn't get to scan my ticket until 4:00",
+      "3 fraternity brothers sentenced to jail in Penn State hazing death"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Creamery (on-campus ice cream) mentioned positively by multiple alumni",
+      "No specific widespread dining hall complaints surfaced in data",
+      "Off-campus food delivery blocked from most major apartment buildings"
+    ],
+    "key_quotes": [
+      "Fresh ice cream at the Creamery",
+      "We do not have access to your dorms — The Standard, The Maxxen, The Haus, The Rise, either Oliv's"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Branch campus closures causing real distress for working-class students",
+      "Students working 35-40 hours weekly while taking 5-6 courses — unsustainable",
+      "Isolation and loneliness reported frequently by freshmen and transfer students"
+    ],
+    "key_quotes": [
+      "I found it hard working 35 hours and doing 5 courses, working 40 hours and 5 to 6 courses sounds miserable",
+      "I've spent the past two weekends alone in my dorm and never felt so lonely before",
+      "I am miserable here as my only friends come from my fraternity"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Penn State is notoriously stingy with merit scholarships",
+      "Out-of-state cost is prohibitively high — students regularly turn PSU down for this reason",
+      "Honors College requires massive essay investment with no guaranteed aid boost"
+    ],
+    "key_quotes": [
+      "I wish penn state didn't require me to go 200k in debt if I went",
+      "Receiving $15k from PSU is a huge achievement — they are typically stingy with merit",
+      "PSU would be 25k/year with my Schreyers scholarship"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Smeal (accounting/business) and engineering programs are genuinely well-regarded",
+      "Honors College is considered one of the best in the country but extremely hard to get into",
+      "AI cheating is rampant and disrupting group project integrity"
+    ],
+    "key_quotes": [
+      "Penn State is ranked like #23 for accounting, probably higher than a couple of the ivies",
+      "It is generally regarded as one of the best if not the best honors colleges in the world",
+      "There are people in my class who blatantly use AI in discussion posts, online exams, homework"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "President received 47% raise while staff got 2.4-2.9% and campuses closed",
+      "Board of Trustees unanimously shut down WPSU public radio to cut $3.4M from $10B budget",
+      "Canvas LMS got hacked mid-finals week; IT response took over 24 hours"
+    ],
+    "key_quotes": [
+      "President Bendapudi got a 47% raise... roughly $27,000 per week",
+      "I stopped considering donating after they closed the branch I went to for a budget shortfall less than the president's raise",
+      "The trustees can UNANIMOUSLY vote against keeping WPSU open but have millions to give the president a huge raise"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "University Park is widely praised as a quintessential college town experience",
+      "State College is geographically isolated — no car means feeling stuck",
+      "Campus traffic and pedestrian safety are recurring complaints"
+    ],
+    "key_quotes": [
+      "Very good school, fun and safe location. The epitome of a 'college town'",
+      "It's very hard to get out of state college/PA if you don't have a car",
+      "Stop tailgating people, put your phone down — it's only the first week and there's been plenty of accidents"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Career fairs are a genuine standout — companies actively recruit and value PSU grads",
+      "Strong alumni network frequently cited as a real-world advantage",
+      "On the West Coast, PSU brand recognition is weak — often confused with UPenn"
+    ],
+    "key_quotes": [
+      "One of the most amazing things about Penn State is the career fairs — companies seriously value our university",
+      "Penn State has an amazing alumni network and opportunities",
+      "Almost no one on the west coast even knows UPenn exists — Penn State is just such a big name"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is manageable; out-of-state cost is a dealbreaker for many",
+      "Honors College Schreyers scholarship (25k/yr) makes PSU genuinely competitive",
+      "Rising tuition and poor merit aid make cost-benefit math difficult for middle-income families"
+    ],
+    "key_quotes": [
+      "PSU would be 25k/year with my Schreyers scholarship",
+      "I wish penn state didn't require me to go 200k in debt — settling for a school with a worse aerospace program",
+      "Why donate to PSU in the first place? My tuition is plenty for them"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Massive school spirit and football culture define the social atmosphere",
+      "THON raises $18M for children's cancer — genuinely inspiring student-run tradition",
+      "Campus pride is real, but institutional scandals create a complicated identity"
+    ],
+    "key_quotes": [
+      "My time at Penn State was life defining. Best of luck!",
+      "THON is incredible — a student organization that raises $18M for children's cancer",
+      "I've been a Penn State fan since essentially the day I can remember — born and raised"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: State College Police underreported hundreds of rapes over nearly a decade",
+      "Hazing: Three fraternity brothers sentenced to jail in a student hazing death",
+      "Scandal: Former professor sentenced after being caught masturbating and performing lewd acts on campus 55+ times"
+    ],
+    "key_quotes": [
+      "State College Police Department underreported hundreds of rapes in public data, masking the true extent of crime",
+      "At Penn State, critics claim, there's no handle on hazing",
+      "Former PSU professor Themis Matsoukas sentenced to 5-20 months after seen in videos at least 55 times"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "THON is the largest student-run philanthropy in the world — $18M raised annually",
+      "The Arboretum on campus is free, beautiful, and gives out pumpkins in fall",
+      "Career fairs bring top recruiters who genuinely prioritize Penn State candidates"
+    ],
+    "key_quotes": [
+      "The largest student-run charitable event in the country — THON",
+      "Gorgeous arboretum with free festive pumpkins in the fall",
+      "I got my job at the spring career fair at PSU when I was a senior"
+    ],
+    "score": 8
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Moody Towers described as long overdue for demolition by locals",
+      "Living on campus means sharing dorms with 4+ people",
+      "Parking is expensive, predatory ticketing up to $500-$1000"
+    ],
+    "key_quotes": [
+      "Moody Towers should have been all torn down 25 years ago!!!",
+      "16k.. lmao, just rent at this point with roommates nearby",
+      "her only concern is me sharing a dorm with four other people"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Commuter-heavy culture makes organic friend-making genuinely hard",
+      "Active campus wildlife, cosplay cons, raccoons become social events",
+      "Drink spiking reported at tailgates; stay alert at events"
+    ],
+    "key_quotes": [
+      "I didn't make a single friend at UH. Even when I lived closer and tried to go on campus hoping to meet people, it just never worked out.",
+      "Don't be hard on yourself. UH isn't set up to be like this.",
+      "Please be safe and watch all your drinks like a hawk"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "McDonald's closed; Pizza Hut replacement won't open until Fall 2026",
+      "Nook Cafe closed with no social media announcement during grad season",
+      "Chick-fil-A in student center remains the reliable go-to option"
+    ],
+    "key_quotes": [
+      "They seriously tried to sneak this by during grad season. Not even a post on their socials",
+      "bro WHY PIZZA HUT OF ALL PLACES",
+      "a full year bro??? my ass want it NOW"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Student death on campus created visible community grief and fear",
+      "Many students feel isolated due to commuter lifestyle and online classes",
+      "Genuine peer support exists on Reddit; students look out for each other"
+    ],
+    "key_quotes": [
+      "I feel like I lost a friend, or a colleague who I was familiar with. This shit isn't fucking right",
+      "I didn't make a single friend at UH",
+      "I love UH and college in general... everyone is doing their own fucking thing and everyone just chilling"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Out-of-state tuition hits $50k/year with poor phone support access",
+      "Parking tickets can snowball to $500-$1000 with minimal grace",
+      "Strong scholarship programs exist including National Merit and full-ride options"
+    ],
+    "key_quotes": [
+      "I do not live in texas and will not arrive on campus until AFTER tuition is due... I am paying 50k a year",
+      "500 to 1000 if late by 2 weeks? wtf that's predatory",
+      "They did this shit to my friend... it racked up to almost 8K cuz it kept doubling and when he wanted to transfer they wouldn't let him so he just dropped out"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Beloved professors exist but CS department quality gets criticized sharply",
+      "Canvas crashed during active finals; proctors scrambled with no solution",
+      "CougarGrades tool and RateMyProfessor essential for class planning"
+    ],
+    "key_quotes": [
+      "I hate the computer science department there. Most of the professors are absolute garbage and I honestly did not learn much",
+      "Canvas went down while I was taking a final. Images for questions wouldn't load",
+      "Dr. Bott is the only professor I knew to walk into the auditorium with a piece of chalk and nothing else. He was one of my favorite professors"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Bureaucratic systems actively trap students near graduation with circular rules",
+      "2.5-hour phone hold times reported for basic out-of-state student services",
+      "Departments don't communicate; students get bounced between offices"
+    ],
+    "key_quotes": [
+      "I can't enroll in the summer class. My enrollment period is tomorrow and I can't enroll because I've applied to graduate.",
+      "Classic UH. None of their systems, building, departments communicate.",
+      "Welcome to UH... It does not get better once you are on campus. UH is still very disorganized"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Massive ongoing construction destroying campus landmarks mid-enrollment",
+      "Cullen Fountain demolished; won't be replaced until 2027 at earliest",
+      "Off-campus area described as genuinely dangerous, especially at night"
+    ],
+    "key_quotes": [
+      "I fucking hate the fact that we're paying the same tuition... but our campus is infinitely more ghetto",
+      "Glad they murked this area just in time for me to graduate",
+      "Off campus is very dangerous, especially this area, please please please do not walk at night"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Entry-level CS job market described as brutal regardless of school",
+      "Houston location provides strong energy/chemical industry networking",
+      "Bauer business school has decent regional employer presence"
+    ],
+    "key_quotes": [
+      "CS for entry level is in the fucking toilet",
+      "I'm glad I got to know him, he's one of the primary reasons I ended up in the chemical industry",
+      "Hats funny my friend went there and didn't have a high gpa but has had some great jobs"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is reasonable; out-of-state at $50k is hard to justify",
+      "Construction chaos means paying full price for a degraded experience",
+      "Strong scholarship programs can make UH genuinely affordable for top students"
+    ],
+    "key_quotes": [
+      "I hope it's worth the cost cause UH definitely not worth 50k",
+      "She forgot 'Close The Largest Student Parking Lot for construction AFTER the Fall Semester starts'",
+      "Your great grandchildren will have a nice modern campus to enjoy. Be grateful."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Diverse, unpretentious student body that genuinely roots for each other",
+      "Chaotic energy: bank robbery on campus, library sex, squirrel heists",
+      "Football culture building momentum; game atmosphere still inconsistent"
+    ],
+    "key_quotes": [
+      "UH is really one of a kind bruh",
+      "Back in the day UH was my security blanket, I lived there for years, worked there, ate there, partied there",
+      "It's an uncomfortable experience going to a game. Not gonna lie"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: armed bank robbery on campus mid-day during school hours in 2025",
+      "Safety: student died after going missing near campus; serial killer fears raised",
+      "Administration: graduation system trapped student who followed advisor's instructions exactly"
+    ],
+    "key_quotes": [
+      "Armed Bank Robbery on SCHOOL GROUND during SCHOOL HOURS what r we doing twin",
+      "UH kept a neo-Nazi from Patriot Front as a TA grading minority students, and let him resign the next year",
+      "They did more than bend you over they fucked you too"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Student-built Chrome extension adds RateMyProfessor data directly to enrollment page",
+      "UH calculus video library is widely praised across Reddit as best free resource",
+      "Tight-knit subreddit community actively helps strangers navigate campus chaos"
+    ],
+    "key_quotes": [
+      "This is the kind of project that should be recognized by ivy leagues. You are doing gods work",
+      "Go coogs!! [re: UH calculus videos being the best found online]",
+      "UH is a community and we have to look out for each other"
+    ],
+    "score": 7
+  }
+}

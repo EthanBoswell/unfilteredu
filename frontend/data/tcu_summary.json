@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Transfer students frequently waitlisted for campus housing with no guarantee",
+      "Housing waitlist is a real risk, especially for non-freshmen",
+      "Campus construction ongoing, which may affect residential experience"
+    ],
+    "key_quotes": [
+      "She has been informed that she has been waitlisted for campus housing and it may not be guaranteed.",
+      "I do not live in the States and this is a huge pain in the butt."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates — 48% of students are in fraternities or sororites",
+      "Non-Greek students worry about feeling left out of the social scene",
+      "Fan culture is genuinely warm; rivals and visitors consistently praise TCU crowds"
+    ],
+    "key_quotes": [
+      "I'm worried that if I don't join a sorority I'm gonna feel kind of left out.",
+      "I've been to a football and a baseball game... both times their fans were super nice.",
+      "TCU is ranked in the real T10 for social scene and attractiveness of student body."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No strong complaints or praise about on-campus dining in student posts",
+      "Fort Worth restaurant scene near campus is widely praised by students and parents",
+      "A paid laundry service exists at $119/month — students debate if it's worth it"
+    ],
+    "key_quotes": [
+      "Bearded Lady, Buff Bros, Cane Rosso, and Joe T's are go-to spots near campus.",
+      "Is it worth it to pay for TCU's laundry service? The cheapest option is $119 per month."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support discussions found in student posts",
+      "One student openly discussed hospitalization for mental health affecting GPA",
+      "High financial stress around aid and debt appears frequently in student posts"
+    ],
+    "key_quotes": [
+      "I was hospitalized for mental health, heavily medicated, very physically ill, and switched schools twice.",
+      "The recent rejections have been hitting me hard... mental health should be my focus."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Need-aware for international students — aid denials sent within 24 hours of parent income forms",
+      "Domestic merit scholarships are real and generous, but sticker price remains very high",
+      "Students regularly warned that a $30k scholarship still leaves $50k+ gap per year"
+    ],
+    "key_quotes": [
+      "They straight-up told me that they didn't have enough money for me. I received my decision less than 24 hours after my mom filled out a form asking how much she would contribute.",
+      "I do want you to know there's still $50k+ left per year to account for.",
+      "They have given me the faculty scholarship ($22k/year) plus $5k middle income scholarship... the rest of it is loans."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Neeley School of Business is consistently praised and compared favorably to SMU Cox",
+      "STEM and engineering programs seen as weak compared to UT Austin or A&M",
+      "One CS professor called out specifically for not answering emails or using slides"
+    ],
+    "key_quotes": [
+      "Anything BUT improve their STEM programs... LOL.",
+      "TCU is a phenomenal school for finance. You'll largely see the same companies recruiting at both TCU and SMU.",
+      "Dick Rinewalt doesn't answer emails sometimes and doesn't use slides."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Campus master plan and rapid enrollment growth raise concerns about quality dilution",
+      "Free speech controversy surfaced but current students say conservative speech is not suppressed",
+      "TCU shut down The Pub on campus, angering some students"
+    ],
+    "key_quotes": [
+      "TCU needs to focus on making acceptance rate more competitive… I don't want to go to a university with a 92% acceptance rate.",
+      "TCU shut down The Pub, the school can get fucked as far as I'm concerned.",
+      "As a current TCU student I can assure you that they do not suppress conservative Christian speech."
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is universally described as beautiful — frequently compared to Vanderbilt",
+      "Fort Worth is a real city with strong restaurant and cultural scene nearby",
+      "Parking near campus is a genuine problem, especially on game days"
+    ],
+    "key_quotes": [
+      "TCU and Vanderbilt's campuses look similar.",
+      "Parking for an extra 1000 people? Hahahaha.",
+      "The campus is beautiful and I was offered generous financial aid."
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Finance and business grads see strong DFW and some West Coast recruiting",
+      "Neeley school has notable alumni in finance; Desmond Bane in NBA is a sports highlight",
+      "STEM and engineering outcomes not well-represented in student discussions"
+    ],
+    "key_quotes": [
+      "TCU has a little more presence on the West Coast, and you'll largely see the same companies recruiting at both TCU and SMU.",
+      "Desmond Bane (TCU '20) just became the centerpiece of Orlando's championship push.",
+      "TCU's name recognition and relationships with local businesses in Dallas and Fort Worth."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Sticker price around $87k/year all-in — only worth it with substantial merit aid",
+      "Students consistently told to choose TCU over SMU only because of scholarship money",
+      "Without aid, UNT at $16k/year vs TCU at $87k/year is a stark and repeated comparison"
+    ],
+    "key_quotes": [
+      "Go to school for as little debt as possible.",
+      "Unless you were talking about Wharton or MIT, it's not worth having debt for a normal person.",
+      "My dream school is TCU and I got into UNT. TCU is $87k/year after aid, UNT is $16k/year."
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Warm, social, beautiful campus with a strong sports culture and loyal fanbase",
+      "Predominantly white, wealthy, Greek-dominated — diversity is limited, especially for Koreans and Asians",
+      "Students who get good aid love it; those paying full price often regret it"
+    ],
+    "key_quotes": [
+      "I graduated from TCU and had the time of my life there. The campus culture promoted study-life balance.",
+      "The Korean community at TCU is hella lowkey, prob due to there not being a lot of Koreans.",
+      "TCU is a gem of a school."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Financial Aid:** International students rejected within 24 hours based on parent income forms",
+      "**Diversity:** Korean and Asian students report very small community and limited cultural orgs",
+      "**STEM:** Engineering and CS programs consistently called out as weak relative to peer schools"
+    ],
+    "key_quotes": [
+      "I received my decision less than 24 hours after my mom filled out a form asking how much she would contribute.",
+      "I don't think I personally knew any Korean people at TCU, and I had a somewhat diverse friend group.",
+      "Anything BUT improve their STEM programs... LOL."
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "TCU for Texans program offers free tuition and housing for eligible low-income Texas students",
+      "Anonymous donor paid full spring tuition for entire TCU med school graduating class",
+      "BFA acting program is genuinely well-regarded; one student chose it over engineering programs at UIUC, Purdue, and Clemson"
+    ],
+    "key_quotes": [
+      "TCU Announces Free Tuition and Housing for Eligible Texas Students.",
+      "Anonymous Donor Pays Spring Tuition for TCU Med School Students.",
+      "I decided to turn down UIUC, Purdue, Wisconsin, Texas A&M, and Clemson for a chance to attend TCU."
+    ],
+    "score": 8
+  }
+}

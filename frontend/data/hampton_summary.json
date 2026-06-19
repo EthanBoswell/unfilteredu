@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Male housing options severely limited compared to female housing",
+      "Kennedy Hall and VC Hall are popular; quad layouts confuse incoming students",
+      "No clear info on room dimensions or layouts on official website"
+    ],
+    "key_quotes": [
+      "I look on Hampton's website and see men's housing has like 6 houses compared to the girls",
+      "I got a quad dorm in the VC Hall but have no idea what it looks like",
+      "I can't find [room dimensions] anywhere on their website or anywhere else on Google"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates campus culture; non-D9 students can feel excluded",
+      "Not a party school — described as structured and dress-code enforced",
+      "Strong community and HBCU culture but cliquish if you're not legacy or Greek"
+    ],
+    "key_quotes": [
+      "STAY THE HELL OFF OGDEN CIRCLE! DO NOT PUT SO MUCH AS A TOENAIL ON THAT GRASS!!!",
+      "I wasn't getting the level of education I wanted and the people there were not friendly",
+      "Hampton shapes our identity. We know who we are and come out capable"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Food quality has been a long-standing complaint across multiple decades",
+      "One student added salt to food for the first time in their life at Hampton",
+      "Improvement noted over time, but cafeteria still draws criticism"
+    ],
+    "key_quotes": [
+      "Coming from Houston, Hampton is the first time I ever added salt to my food",
+      "Gourmet services...grade e but edible. That's what the box said when I snuck in the kitchen",
+      "HIU has come a LONG way since the big caf' in VC in the mid 90's!"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Health center turned away a sick student — offered ice instead of treatment",
+      "Medical neglect cited as a primary reason one student transferred out",
+      "No strong positive data on counseling or mental health support services"
+    ],
+    "key_quotes": [
+      "When you touched on the medical reasoning, I was with your decision 100 percent",
+      "I would be highly upset if my daughter was turned away from medical treatment of something serious, and for ice",
+      "I didn't feel like I was a part of anything... I left after my 1st semester"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid office is notoriously unresponsive — multiple students report no callbacks",
+      "Full rides are possible with strong stats (3.3+ GPA, 1000+ SAT)",
+      "Cost has nearly doubled since early 2000s; now ~$40K/year with fees on top"
+    ],
+    "key_quotes": [
+      "I called the financial aid office three separate times and nobody was available",
+      "Hampton cost $40K now?!?! It was 25K back in '04 and I left with over $100K in student loans smh",
+      "Howard offered me 20k out of their 58k. Tuskegee offered me a full ride. Hampton offered me a full ride. Apply everywhere!"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Hampton listed among HBCUs with graduation rates above 50% — a meaningful distinction",
+      "Journalism/Mass Media curriculum seen as thin by prospective students",
+      "Described as one of the top underrated schools nationally for academics"
+    ],
+    "key_quotes": [
+      "If you can effectively and efficiently deal with Hampton University, then you can HANDLE ANYTHING!",
+      "When I looked at the curriculum, it seemed like there were only a few classes",
+      "Hampton University [is] underrated per U.S. News rankings"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Admissions office hard to reach; multiple prospective students report no response",
+      "Scholarship portal errors and password reset failures go unresolved",
+      "Student rebellion reported in grad school; administration slow to respond to concerns"
+    ],
+    "key_quotes": [
+      "The admissions office is very hard to get into contact with",
+      "I have emailed several times and have received no response",
+      "I went to Hampton for grad school. Shit was terrible. I was so disappointed in my people. I'm glad the students finally rebelled this year"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is widely praised as one of the most beautiful HBCUs in the country",
+      "Waterfront location and historic buildings are a genuine draw",
+      "Private campus — non-students have restricted access to some areas"
+    ],
+    "key_quotes": [
+      "Hampton University is by far one of the most beautiful college campuses in North America",
+      "I miss those days studying by the waterfront with my crew",
+      "It's private — outside some areas you have to be a student or staff"
+    ],
+    "score": 9
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni describe being 'polished and prepared' for professional environments",
+      "Business school outcomes questioned by at least one parent comparing to PWIs",
+      "Sports marketing and journalism tracks exist but depth of programming is unclear"
+    ],
+    "key_quotes": [
+      "HU alum are polished and prepared. We know how to carry ourselves",
+      "He's been accepted at some other non-HBCU schools that he thinks will better serve him as a business major",
+      "Being a Hampton graduate is the best thing you can be"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "At $40K/year, students report still paying extra for basic necessities",
+      "Multiple students and parents say comparable HBCU experiences exist for less money",
+      "Full rides are available but require strong test scores submitted at application"
+    ],
+    "key_quotes": [
+      "Damn why does it cost $40,000 if you literally have to pay for EVERYTHING... what exactly does the tuition cover?",
+      "I felt it was too expensive for what you're getting out of it... I could get way more FOR LESS somewhere else",
+      "Even though I was on an academic scholarship, stayed in the new honors dorm and with a 3.7 GPA the school still wasn't for me"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong HBCU pride and identity — Hampton shapes who you become",
+      "Dress codes and formal culture are real; not a casual campus experience",
+      "Legacy students and Greek-affiliated families dominate the social atmosphere"
+    ],
+    "key_quotes": [
+      "I love HU and am very concerned. Stay strong, stay vigilant, my brothers and sisters. You attend a great institution that is the envy of many",
+      "Everybody is Jack and Jill, entire family D9, 4th generation student — it makes me not want to be here",
+      "This is my 'Home by the Sea' — forever a Hamptonian"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Health Center:** Student turned away while ill; offered ice instead of care",
+      "**Administration:** Financial aid office unreachable; portal errors left unresolved for weeks",
+      "**Cost vs. Value:** $40K/year tuition with additional out-of-pocket costs reported by students on scholarships"
+    ],
+    "key_quotes": [
+      "I was shocked to hear that so many things haven't changed — I transferred after my first semester back in 2001",
+      "This is the most annoying thing ever because the office isn't even responding — this is miserable",
+      "Wish I never went to Hampton [left with $100K+ in loans]"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Full rides genuinely available — one student received them from both Hampton and Tuskegee",
+      "Honda Campus All-Star Challenge powerhouse — Hampton reached finals in academic quiz bowl",
+      "Virginia lawmakers seeking to restore land-grant status, which could unlock more scholarship funding"
+    ],
+    "key_quotes": [
+      "My son just got a full ride to Hampton University! Child #2 will graduate debt free!",
+      "Congratulations to Hampton for making it to the Great 8 at the Honda Campus All-Star challenge",
+      "VA lawmakers seek to restore Hampton University's land-grant status after a century"
+    ],
+    "score": 7
+  }
+}

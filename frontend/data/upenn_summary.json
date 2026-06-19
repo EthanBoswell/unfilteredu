@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm quality varies wildly; some unrenovated buildings remain",
+      "Hot water outages reported during cold weather",
+      "Limited info on what freshmen actually get assigned"
+    ],
+    "key_quotes": [
+      "Don't you love it when it snows and this is just the day for the hot water to stop working in your dorm",
+      "Got Pollock my first year. It built something alright, not sure it was character though",
+      "freshman that just moved in, feeling isolated... it's hard to make friends because people don't really engage"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life and Wharton culture dominate social scene",
+      "Non-Wharton students report feeling like second-class citizens",
+      "Freshmen report difficulty breaking into already-formed friend groups"
+    ],
+    "key_quotes": [
+      "I feel like all of the friend groups have already formed from high schools and hometowns",
+      "Penn Engineering alum and I do just say 'yep, sure' when asked if I went to Wharton",
+      "Wharton students definitely have a smug look as if they know they're the Big Man on Campus"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No standout praise for dining in any student posts",
+      "Saxbys closures on both ends of campus frustrated students",
+      "Food options near campus praised more than on-campus dining"
+    ],
+    "key_quotes": [
+      "Who's responsible for the saxbys closure... I'm so glad I'm graduating this year ughhhhh",
+      "absolute best eats at Penn? What restaurants are your favorite to go that are close to campus",
+      "why is this thing $30"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Penn described as 'consistently the most depressing school in the nation'",
+      "Intense academic pressure leads to real breakdowns and self-doubt",
+      "Imposter syndrome is widespread, especially among non-Wharton students"
+    ],
+    "key_quotes": [
+      "As a Penn student, this is pretty accurate... consistently the most depressing school in the nation",
+      "I should have gone to my state school I can't do this",
+      "University of Pennsylvania is a mental asylum where fun goes to die and all students suffer under imposter syndrome"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "Quaker Commitment raised threshold to $200K for full tuition—genuinely helpful",
+      "Families below $200K still receiving aid packages far below expectations",
+      "Financial aid appeals frequently rejected with no clear recourse"
+    ],
+    "key_quotes": [
+      "Penn advertises that families making around 200k receive full tuition, yet we are well below that and still did not get an offer close to full tuition",
+      "Is it normal to pay 99k annually to go to UPenn as a premed with family income being one parent making 200k? My financial aid appeal got rejected",
+      "Penn will no longer consider the value of the primary family home among assets"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Wharton is genuinely world-class; other schools play second fiddle",
+      "Non-Wharton programs are good but not exceptional by Ivy standards",
+      "Grade shock is real—Wharton freshmen report being blindsided by midterms"
+    ],
+    "key_quotes": [
+      "If you're not a Wharton student, then you will always play second fiddle to Wharton students—in the eyes of the university, potential employers, and your peers",
+      "I'm a freshman at Wharton who thought getting 3.8+ GPA was a piece of cake until midterms cooked me",
+      "When I was at Penn, there essentially was no music department, just the marching band and a bunch of acapella groups"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Data breaches hit GSE email system; donor records also reportedly stolen",
+      "Title IX resolution with federal government signals past compliance issues",
+      "Penn rejected White House compact on academic freedom—praised by faculty"
+    ],
+    "key_quotes": [
+      "Penn hacker claims to have stolen 1.2 million donor records in data breach",
+      "Penn's Title IX Resolution with the U.S. Department of Education Office for Civil Rights",
+      "Penn rejects White House proposal for special funding treatment"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "West Philly location means real safety concerns just blocks from campus",
+      "Unprovoked attacks and harassment reported near 37th and Walnut",
+      "Campus itself is beautiful; University City neighborhood is the actual issue"
+    ],
+    "key_quotes": [
+      "Officials warn of unprovoked attacks near Penn's campus in Philadelphia's University City section",
+      "7 yrs apart and was welcomed by rocks thrown at me... 37th and Walnut",
+      "What's going on with safety around Penn lately? My scooter got stolen on Chestnut, and a couple of days later I was shoved by a group of juveniles"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Wharton grads get elite IB/consulting placements; others see less benefit",
+      "Penn Engineering and CAS alumni network is solid but less dominant",
+      "Internship culture is intense and somewhat secretive even among students"
+    ],
+    "key_quotes": [
+      "How do Penn students actually find all these internships and research gigs?? Everything's so hush hush",
+      "It feels like everyone's super lowkey about how they got them",
+      "Private Equity and Hedge funds placing in NYC or London easily pay $400-500k all in"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full-pay families near $200K face $99K+/year with no aid relief",
+      "Strong ROI for Wharton specifically; weaker case for other schools",
+      "Multiple students chose Penn over free rides elsewhere and regretted it"
+    ],
+    "key_quotes": [
+      "Is it normal to pay 99k annually to go to UPenn as a premed with family income being one parent making 200k",
+      "UPenn full pay vs UNC Full Ride... I actually committed to UNC",
+      "I chose elitness/prestige over what my heart was telling me to do, pick Michigan. I have no clue still if I made the correct decision"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Prestige-obsessed culture, especially around Wharton, alienates many students",
+      "Students who embrace Penn's identity love it; those who don't, struggle",
+      "Politically turbulent right now with federal funding threats and campus controversies"
+    ],
+    "key_quotes": [
+      "Penn is not in the middle of the hood like USC. It's right next to center city and west Philly which isn't quite dangerous until you go about 20 more blocks",
+      "Mostly because of Wharton, we might be the biggest a holes in the Ivy league (and that rubs off on a lot of us)",
+      "we are also somehow always in the headlines of many controversial news and is consistently the most depressing school in the nation"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: unprovoked street attacks reported within blocks of main campus",
+      "Mental Health: students openly say Penn is 'the most depressing school in the nation'",
+      "Data Security: hacked GSE emails, 1.2M donor records stolen, identity theft reports from students"
+    ],
+    "key_quotes": [
+      "Someone gained access to send email through Penn's list serve... there goes my SSN",
+      "Penn hacker claims to have stolen 1.2 million donor records in data breach",
+      "Anyone experiencing identity theft today? Someone hacked into my Grubhub and ordered multiple meals... I received 75 emails this evening with authentication codes"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Philadelphia Museum of Art offers $25 student memberships—underused stress relief",
+      "Penn-built course planning tools like PennCoursePlan are genuinely excellent",
+      "City access gives unmatched internship proximity to NYC, DC, and Philly firms"
+    ],
+    "key_quotes": [
+      "If Penn is making you anxious, I highly recommend getting yourself an art museum membership",
+      "UPenNow pulls from multiple Penn sources and shows events happening on campus today on a map",
+      "Penn's location in Philly gives connections with 3 major cities—good for internships"
+    ],
+    "score": 7
+  }
+}

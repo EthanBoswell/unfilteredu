@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "No major housing complaints surfaced, but overcrowding implied",
+      "Dining halls too packed suggests enrollment strain on facilities",
+      "North vs Central campus divide creates two distinct student experiences"
+    ],
+    "key_quotes": [
+      "Mojo tonight is still packed (as of 8:49), which speaks to there being entirely too many students at this school",
+      "North campus has these furry friends... hanging out with me by the BBB studying"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life has serious documented safety problems, not just rumors",
+      "Freshman isolation is real — upperclassmen actively warning newcomers to socialize",
+      "Football culture dominates weekends but pressure to attend is noted"
+    ],
+    "key_quotes": [
+      "helped a girl get home from their house, covered in scratches... some of the brothers went up to her and shoved her to the floor",
+      "i think something may have happened to my drink i got at delta before the game saturday... I have no recollection at all of 4 hours of my day",
+      "My little brother has been telling me everyone on his dorm floor has their doors closed and is just generally antisocial"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Students leaving massive messes — multiple posts, described as embarrassing",
+      "Dining staff responsive to feedback; fruity pebbles returned after student complaint",
+      "Food variety exists but student behavior toward staff is a recurring issue"
+    ],
+    "key_quotes": [
+      "The way you've been treating the University's dining hall and staff are undignified",
+      "Public Ivy my ass. I've seen community colleges with more respect and discipline",
+      "Hello! It is the SQ manager again! I made an entire document about this at work yesterday... We ended up filling it today"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Student death after frat party exposed gaps in peer safety culture",
+      "University email after student death felt tone-deaf and defensive to many",
+      "Free therapy and wellness resources exist but are underutilized or unknown"
+    ],
+    "key_quotes": [
+      "He was last seen at 1:00AM Friday, he wasn't reported missing until 4:30PM",
+      "Definitely felt more like they were trying harder to defend themselves from critics than console those impacted",
+      "you can make appointments with a dermatologist, gynecologist, and get doctor check-ups, meet with a therapist for free"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Free tuition for in-state families under $65k is a real, underknown benefit",
+      "Out-of-state students get little to no aid — multiple students blindsided",
+      "Need-based aid can fluctuate year to year, causing mid-degree financial crises"
+    ],
+    "key_quotes": [
+      "I graduated college in 2014... pretty much 40% of my scholarship was based on need-based aid, something that fluctuated based on my EFC",
+      "I received no aid from the college and very little federal aid",
+      "Yes Facebook, I am in fact interested. Now if they would just let me in... [as a broke commuter] I'm out"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Professor used AI to grade a 40-hour student paper — no transparency",
+      "University obsessed with AI branding at expense of other academic value",
+      "School of Public Health fired ALL lecturers with zero student communication"
+    ],
+    "key_quotes": [
+      "my professor gave me pages and pages of AI-generated feedback, complete with section headings, bold text",
+      "if you are an admitted student to SPH, DO NOT COME! RESCIND YOUR ADMISSION!!! The School of Public Health just fired ALL their lecturers",
+      "Universities toxic obsession with AI... 25/25 sessions are all AI based. Like there is no value in any work before AI existed"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Admin response to protests seen as inconsistent and politically motivated",
+      "University closed Diag during welcome week — students furious about timing",
+      "Epstein documents show outside parties sought to manipulate admissions"
+    ],
+    "key_quotes": [
+      "Palestine protestors are violently suppressed... but Sieg Heil on campus gets ignored",
+      "Can't have protests on the Diag if you close the Diag",
+      "Ypsilanti officials are calling the $1.2 billion AI center project deceptive and disrespectful"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Ann Arbor is genuinely beloved — quirky, walkable, vibrant college town",
+      "Students routinely step into traffic on phones — a documented safety hazard",
+      "Central campus gym under construction past graduation for some students"
+    ],
+    "key_quotes": [
+      "Brilliant enough to get into UMich, unwise enough to almost get killed — an F-150 had to slam its brakes",
+      "Originally set to finish summer 2025, now delayed to winter 2026. Guess we'll be spending even more quality time at the Palmer Field temp gym",
+      "I only came back to do masters because they said the gym would be down. I'm thinking of dropping out (not joking)"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Larry Page (Google) went here — alumni network is legitimately elite",
+      "Ranked #2 public university for high-paying tech careers",
+      "Ross org culture reported as arrogant — interview horror stories circulate"
+    ],
+    "key_quotes": [
+      "very unprofessional to be laughing while I'm trying to answer the questions, and texting each other on your MacBooks",
+      "Trust me, you don't want to work at Ross anyway. I've heard way too many horror stories",
+      "Top 20 Public Universities for High-Paying Careers in Tech: #2 University of Michigan"
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "key_points": [
+      "Out-of-state cost is brutal with no merit aid — students transfer out over finances",
+      "Free tuition under $65k in-state makes it exceptional value for Michigan residents",
+      "Alumni bombarded with donation emails immediately after graduation"
+    ],
+    "key_quotes": [
+      "Yes. I WouLD like to donate more money to the school after paying $~100k per year to not finding a job",
+      "as a broke commuter who's family is struggling bc of this terrible administration I'm out",
+      "I get so many emails it's starting to feel like 'Blue Giving Day' is a monthly occurrence"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "School spirit is intense and genuine — football, hockey, and campus pride are real",
+      "Politically charged campus with protests, counter-protests, and visible tensions",
+      "Squirrels, raccoons, and campus wildlife are unironically beloved mascots"
+    ],
+    "key_quotes": [
+      "How does anyone have the nerve to claim UMich is a tier 2 school? There are so many people that get into ivies and pick UMich instead",
+      "this school is an embarrassment",
+      "Why does UM have the cutest, chonkiest squirrels? Seems like ez marketing for prospective students"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Greek Life Safety**: drink spiking and physical assault reported at named fraternities",
+      "**Student Death**: freshman froze to death after frat party; not reported missing for 15+ hours",
+      "**Academic Integrity**: professor caught using AI to grade student work with no accountability"
+    ],
+    "key_quotes": [
+      "i think something may have happened to my drink i got at delta... I have no recollection at all of 4 hours of my day, stay safe out there ladies",
+      "Delta Chi had the same reputation in the 1990s. Not a good frat — they've always been particularly nasty",
+      "I spent upwards of 40 hours writing a paper and my professor gave me pages of AI-generated feedback... it's incredibly frustrating"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Free condoms, Plan B, dermatologist, therapist, and sleep kits all included in tuition",
+      "Student-built campus tools — interactive map, parking ticket tracker — show real ingenuity",
+      "Dining hall managers actually read Reddit and respond to student requests"
+    ],
+    "key_quotes": [
+      "you can go to the Wellness Center and get free condoms, Plan B, sleep kits... meet with a therapist for free",
+      "I just built MGuide, a free interactive campus map with over 350 buildings",
+      "Hello! It is the SQ manager again! I made an entire document about this at work yesterday... Glad I could help!"
+    ],
+    "score": 8
+  }
+}

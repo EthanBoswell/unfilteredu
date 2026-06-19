@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Athlete housing described as 'really comfortable setup' by observers",
+      "No specific complaints about regular student housing surfaced",
+      "Limited direct student data on non-athlete dorm quality"
+    ],
+    "key_quotes": [
+      "That dorm situation looks like a really comfortable setup. Take advantage of it as long as necessary.",
+      "Comparison is the thief of all joy."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Strong Greek life presence; sororities hold secret ritual practices",
+      "Big college-town atmosphere with heavy football culture dominance",
+      "Norman described as 'nice small town outside OKC' — not a big city"
+    ],
+    "key_quotes": [
+      "It's a neat culture if you want to be immersed in being a Sooner.",
+      "Greeks have tons of secret stuff they do. It's her secret club doing secret stuff.",
+      "Norman is... meh."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "D1 athlete dining is exceptional — dedicated nutrition staff and quality food",
+      "Regular students on a budget can get by on ~$25/week for food",
+      "No major complaints about dining halls from non-athletes in the data"
+    ],
+    "key_quotes": [
+      "I love that there is just good ass food.",
+      "Every time a D1 Football player leaves a building he has someone waiting with boxes full of fancy drinks, food and snacks.",
+      "Most people order in pizza or Chinese or something and that's like under $20."
+    ],
+    "score": 7
+  },
+  "mental_health": {
+    "key_points": [
+      "One student described leaving OU due to mental health struggles before returning",
+      "No mentions of dedicated mental health resources or counseling access",
+      "Injury and academic pressure documented as real stressors for athletes"
+    ],
+    "key_quotes": [
+      "I left because of mental health... I'm so glad that your mental health is in a better place now.",
+      "Gets tough mentally, it's a dark place being injured.",
+      "Spend an extra few years at school or spend a 40 year career wishing you had done something else."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "National Merit Scholars get full-ride plus stipends — one of the best deals in the country",
+      "Oklahoma Promise covers full tuition for qualifying low-income in-state students",
+      "International students can get near-full scholarships, making OU a rare affordable option"
+    ],
+    "key_quotes": [
+      "OU used to let you use your scholarship for your first year of grad school, including law and medicine. Incredibly valuable benefit.",
+      "Got into my safety school! University of Oklahoma hit me up with that sweet sweet scholarship money once Nat'l Merit Finalists come out.",
+      "I'm a low income oklahoma resident so I qualified for Oklahoma promise which automatically gives full tuition."
+    ],
+    "score": 9
+  },
+  "academics": {
+    "key_points": [
+      "Meteorology/atmospheric science program is legitimately top-tier and nationally recognized",
+      "Engineering and CS programs are solid but not elite nationally",
+      "Honors college adds research access and program quality for high-achieving students"
+    ],
+    "key_quotes": [
+      "OU's med school ranking is high in primary care.",
+      "They have a great meteorology program and Norman is home to all kinds of important weather stuff.",
+      "UCSB isn't worth the extra 160K over 4 years, especially when you're in the honors college and the scholars program at OU."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Serious recent scandal raised concerns about academic integrity and political interference",
+      "International application responses took 11+ weeks with no reply to emails",
+      "Admissions portal confusingly shows enrollment deposit before official acceptance letter arrives"
+    ],
+    "key_quotes": [
+      "OU degrees are under such fire rn. Like actually being blacklisted by employers. It will take a long time for them to recover from such a scandal.",
+      "A situation just unfolded at OU that raises serious questions about academic integrity, administrative independence, and how the institution responds when political pressure mounts.",
+      "I've already contacted them, but no answer."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Beautiful campus — widely praised by students, alumni, and visitors alike",
+      "Norman is a classic college town but isolated; OKC is nearby but not walkable",
+      "Weather is Oklahoma-typical: hot summers, tornado risk, mild winters"
+    ],
+    "key_quotes": [
+      "Nice small town outside OKC. Beautiful campus. It's big college town but enough students there for other interests.",
+      "Norman is... meh.",
+      "As much time as I've spent on campus at OU I've never seen the athlete's perspective so it's always dope to get a glimpse!"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Recent administrative scandal actively flagged as causing employer blacklisting of OU degrees",
+      "Energy management program feeds directly into high-paying oil/gas industry jobs",
+      "Strong alumni network and regional brand — but limited national employer reach"
+    ],
+    "key_quotes": [
+      "OU degrees are under such fire rn. Like actually being blacklisted by employers.",
+      "Energy management... I heard they had a good program and I'd be making money out of school.",
+      "Just go to OU and do well. Outcomes can be the same."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "For National Merit or Oklahoma Promise students, OU is one of the best deals in the US",
+      "Out-of-state without merit aid is ~$36k/year — hard to justify over in-state options",
+      "Full-ride plus stipend beats many prestigious schools in pure financial terms"
+    ],
+    "key_quotes": [
+      "Berkeley is good, but not $300K+ good.",
+      "I got into the honors college and the pre law scholars program at OU... UCSB isn't worth the extra 160K.",
+      "OU used to let you use your scholarship for your first year of grad school, including law and medicine. Incredibly valuable benefit."
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Extremely strong football and sports culture — this dominates campus identity",
+      "Friendly, welcoming atmosphere with heavy Christian faith presence throughout",
+      "Classic Big 12 state school energy: spirited, community-focused, conservative-leaning"
+    ],
+    "key_quotes": [
+      "It's a neat culture if you want to be immersed in being a Sooner. I know people who really love the town and the atmosphere.",
+      "LGBT wise I'd say probably none of the three are 'great'... all three lean right.",
+      "Nice music and a video for the accepted students."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academic Integrity**: Recent scandal flagged as causing employer blacklisting of OU degrees",
+      "**Administration**: Political interference in university operations raised by multiple students publicly",
+      "**Communication**: International applicants report weeks of silence and unanswered emails from admissions"
+    ],
+    "key_quotes": [
+      "OU degrees are under such fire rn. Like actually being blacklisted by employers. It will take a long time for them to recover.",
+      "A situation just unfolded at OU that raises serious questions about academic integrity, administrative independence, and how the institution responds when political pressure mounts.",
+      "Please remain cognisant of this when you choose to spend four years of your life there."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Meteorology program is genuinely elite — Norman hosts NOAA and major weather research centers",
+      "National Merit full-ride includes grad school first year — almost no other school offers this",
+      "D1 athlete facilities are described as world-class even by former players from decades ago"
+    ],
+    "key_quotes": [
+      "OU used to let you use your scholarship for your first year of grad school, including law and medicine. Incredibly valuable benefit.",
+      "Norman is home to all kinds of important weather stuff.",
+      "Every time I see the facilities I'm in awe. First time I saw them was on my official visit… in 1992. Things have changed just a bit."
+    ],
+    "score": 8
+  }
+}

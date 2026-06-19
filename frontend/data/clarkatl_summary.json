@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Housing chaos is a decade-long pattern, not a new problem",
+      "Students assigned without rooms, some report mold and no utilities",
+      "Juniors/seniors pushed off-campus with little notice mid-enrollment"
+    ],
+    "key_quotes": [
+      "This has been the same thing for the last 10 years… but parents still keep sending their children",
+      "Now they are there with no water. Molded showers and no electricity.",
+      "They demand she and all juniors and seniors move off-campus with very little advance notice!"
+    ],
+    "score": 3
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates campus culture; non-D9 students can feel excluded",
+      "Homecoming is a major cultural event but attracts off-campus safety risks",
+      "Atlanta location adds significant social opportunities beyond campus"
+    ],
+    "key_quotes": [
+      "At least 4 shot at Clark Atlanta University homecoming party",
+      "Welcome to the panther family🐾 Have the best experience & don't let them stress you out lol",
+      "I love your vids on youtube and even tiktok, such an inspiring person in general"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student feedback on dining quality found in data",
+      "Off-campus Atlanta food scene frequently referenced as alternative",
+      "No specific on-campus dining complaints or praise surfaced"
+    ],
+    "key_quotes": [
+      "The food/college tour was awesome",
+      "People forget this great store called Walmart... you could have gotten all that wayyy cheaper"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Administrative stress cited repeatedly as a major student burden",
+      "Financial aid chaos and housing uncertainty create real anxiety",
+      "No visible mental health support resources mentioned by students"
+    ],
+    "key_quotes": [
+      "This school has caused so much frustration for my daughter!",
+      "Have the best experience & don't let them stress you out lol",
+      "I'm a transfer student and rushing to get everything straight for the fall"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid office is disorganized and slow to respond",
+      "Students threatened with collections and blocked from senior enrollment over billing",
+      "Scholarship offers sent but payment deadlines poorly communicated"
+    ],
+    "key_quotes": [
+      "If she does not pay $2800 before May 15th, they will send her to collections and refuse to allow her to enroll in her Senior classes!",
+      "I would NEVER RECOMMEND Clark-Atlanta",
+      "IMPORTANT - Clark Atlanta Scholarship Offer + Fee Payment [post with no follow-up information]"
+    ],
+    "score": 3
+  },
+  "academics": {
+    "key_points": [
+      "Pre-med and academic program quality is unclear from student accounts",
+      "No standout academic praise or complaints in available data",
+      "CAU mentioned alongside AUC consortium schools suggesting some shared resources"
+    ],
+    "key_quotes": [
+      "I wanted to know if they had a good pre med program... All I know is that they have a pre med program but I don't know if it's worth applying for",
+      "Clark Atlanta University, Morehouse College, Morris Brown College, and Spelman College [share AUC resources]"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Administration described as 'janky' going back to the late 1980s",
+      "Students must find personal contacts inside admin to get anything done",
+      "Financial and housing admin failures are well-documented and ongoing"
+    ],
+    "key_quotes": [
+      "Clark Atlanta University has been janky for a long time, all the way back to the late 80's",
+      "My advice would be to find someone in admin so you plugged in — I would recommend Ms. Jordan (that's who answers when you call the school)",
+      "I definitely think the unorganized trait is for like every HBCU 😂 But I know I'm getting on my financial aid advisor nerves"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus exterior receives consistent praise in tour videos",
+      "Surrounding neighborhood safety is a real concern for students",
+      "AUC shuttle to downtown Atlanta apartments exists but is limited"
+    ],
+    "key_quotes": [
+      "Is it safe to walk around and all that? Are the surrounding areas really as bad as people say??",
+      "The outside looks great, thanks for the outside tour",
+      "5 minute walk from GSU downtown campus & they have a shuttle that runs every 20 minutes for AUC students"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No specific post-graduation employment data mentioned by students",
+      "AUC consortium membership potentially expands networking opportunities",
+      "Arthur Blank $50M donation includes gap scholarships to help students finish degrees"
+    ],
+    "key_quotes": [
+      "Arthur Blank $50M HBCU donation... will provide gap scholarships that help students at Clark Atlanta University... finish their degrees when financial aid runs short",
+      "I'm a podcast host/producer looking for an editor [CAU student building career independently]"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Students threatened with collections over unclear billing undermines ROI",
+      "External donations like Blank's $50M may help close affordability gaps",
+      "Housing and admin dysfunction reduce value of tuition paid"
+    ],
+    "key_quotes": [
+      "Basically, throwing away her opportunity to graduate and left with bad credit and NO degree!",
+      "Do HBCU students see the difference after these donations?",
+      "Lol this has been the same thing for the last 10 years… but parents still keep sending their children"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong cultural pride and HBCU identity despite persistent institutional problems",
+      "Students love Atlanta and the AUC experience but battle the bureaucracy",
+      "Incoming students are enthusiastic; returning students are often frustrated"
+    ],
+    "key_quotes": [
+      "Welcome to the panther family🐾 Have the best experience & don't let them stress you out lol",
+      "I would NEVER RECOMMEND Clark-Atlanta",
+      "CAU is my dream school, and I'm thankful that you all published this tour!!"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Housing**: mold, no water, no electricity reported in dorms",
+      "**Administration**: students blocked from graduation over disputed billing sent to collections",
+      "**Safety**: shooting at homecoming party; dorm burglaries with inadequate response"
+    ],
+    "key_quotes": [
+      "Now they are there with no water. Molded showers and no electricity.",
+      "They will send her to collections and refuse to allow her to enroll in her Senior classes!",
+      "At least 4 shot at Clark Atlanta University homecoming party"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "AUC consortium gives access to Morehouse and Spelman resources and social life",
+      "Atlanta itself is a major asset for networking, internships, and culture",
+      "Personal admin contacts like 'Ms. Jordan' can unlock smoother navigation"
+    ],
+    "key_quotes": [
+      "My advice would be to find someone in admin so you plugged in — I would recommend Ms. Jordan",
+      "5 minute walk from GSU downtown campus & they have a shuttle that runs every 20 minutes for AUC students",
+      "I'm from the bay and considering going to Clark next year, I loved being able to see someone else make the move!"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm experience is memorable but universally described as something to survive",
+      "Will Vill, Kitt, Farrand all functional — roommate lottery matters more than building",
+      "Farrand being gutted for a full year starting 2026, displacing students"
+    ],
+    "key_quotes": [
+      "I had the best time one could possibly have there. Would I want to do it again? No.",
+      "Your experience in the dorms will be made up more by your roommates and neighbors than any single attribute of the hall itself.",
+      "Kitt Central is full of nerds who only study and go to sleep by 10pm"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Party scene is real and dominant — non-drinkers report feeling excluded",
+      "The 'hippie Boulder vibe' is largely gone, priced out to Nederland and nearby towns",
+      "Nightlife reportedly declining year-over-year since pre-COVID peak"
+    ],
+    "key_quotes": [
+      "I toured pre Coach Prime so I was expecting a much different vibe — does anyone have suggestions to meet people that don't do coke to stay skinny?",
+      "The hippies were priced out.",
+      "I can't help but think there's a lot less [nightlife] than there used to be."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Farrand Market disappearing for a full year during dorm renovations",
+      "No significant student praise for dining options in available data",
+      "Off-campus food options limited but growing (new food trucks noted)"
+    ],
+    "key_quotes": [
+      "Farrand will be completely gutted starting next year — the alley and Farrand market will be gone for a full year.",
+      "New food truck in the parking lot behind the District — Indian food, smaller bites and vegetarian."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple posts about loneliness and social isolation, especially freshman year",
+      "Drug use in dorms is real enough that students advise keeping Narcan on hand",
+      "Boulder's intense fitness culture can be alienating for students who don't fit that mold"
+    ],
+    "key_quotes": [
+      "Get some Narcan to have on hand. Even if you don't use drugs, someone in the dorms inevitably does.",
+      "To be 100% transparent, Boulder is a brutal place to be obese.",
+      "I'm really introverted, aroace, overweight, never wanna drink/smoke or party — everyone is saying it's hard to find friends like me."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Strong merit scholarships exist — Presidential Scholarship ($55K) and Engineering merit are real",
+      "In-state cost (~$20K/year) seen as excellent value vs. comparable OOS schools",
+      "Pell Grant cancellation errors reported, with slow admin response over breaks"
+    ],
+    "key_quotes": [
+      "Comes with $55K Presidential Scholarship + $12K Engineering merit scholarship.",
+      "Boulder is $20k/year (in-state + scholarship). At the time of choosing I was confident in my decision.",
+      "I just got an email saying my Pell Grant was canceled even though it shows on my FAFSA that I still have it."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Strong programs in aerospace, physics, CS, and environmental sciences confirmed by students",
+      "Finance degree criticized as too easy with excessive grade handholding",
+      "AI/ChatGPT cheating is widespread in grad programs, undermining academic integrity"
+    ],
+    "key_quotes": [
+      "The finance degree feels like a joke — a lot of handholding to make sure no one can possibly fail.",
+      "Everybody uses ChatGPT for EVERYTHING. They use it to do all their homework, to write all their papers.",
+      "CU Boulder professor here — the school is excellent and many of our programs are nationally top-ranked."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "University secretly signed $2.1M ChatGPT deal, blindsiding students and faculty for two months",
+      "Broke explicit 'Email for Life' promise to 320K+ alumni, then announced AI contract days later",
+      "Shared governance routinely bypassed — faculty and students excluded from major decisions"
+    ],
+    "key_quotes": [
+      "YALL CONSULTED NO ONE.",
+      "CU is all about the money. They need that cash for the football program, to tear down and replace something.",
+      "It is essentially free when you have a system scaled up like this. We pay them tens of thousands per year to get a degree and they can't maintain a simple email?"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus and Boulder location are consistently praised as a major draw",
+      "WiFi is notoriously bad — 1-5 Mbps speeds, constant dropouts, students switching networks constantly",
+      "Boulder is expensive and has shifted from countercultural to wealthy/preppy demographic"
+    ],
+    "key_quotes": [
+      "Coloradoan here — sko buffs! The campus is the absolute prettiest and Boulder is the nicest town.",
+      "Why the actual fuck is the wifi so fucking awful. I can't open Canvas without aging another 6 months.",
+      "The hippies were priced out of Boulder a long time ago."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Economics grads reporting severe job market struggles — 5 of 6 classmates unable to find salaried work",
+      "Engineering and CS grads employable, especially with internship experience",
+      "Consulting careers accessible from CU Boulder with right hustle — alumni confirm this"
+    ],
+    "key_quotes": [
+      "Out of my classmates in the Economics department literally 5/6 people have been able to find salaried positions. Everything is no salary and commission based now.",
+      "I went to CU and was hired immediately after graduation into consulting. I also hired some great people out of CU into consulting jobs.",
+      "A lot less these days about what you know and instead who you know."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is genuinely competitive — widely cited as smart financial choice",
+      "OOS without scholarships is expensive and hard to justify over comparable in-state options",
+      "Administration priorities (AI contracts, football) signal money going away from students"
+    ],
+    "key_quotes": [
+      "Boulder is $20k/year in-state + scholarship. I wouldn't be graduating with any debt.",
+      "CU has been only about selling student loans and football tickets for decades now.",
+      "It's going to cost them future donations. I had hoped to donate to the school eventually. That's pretty much dead now."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Outdoor-focused, active, and beautiful — a genuine draw for nature-loving students",
+      "Student body skews white, wealthy, and fitness-obsessed — less diverse than advertised",
+      "Strong school spirit around football (Coach Prime era) but cultural homogeneity is real"
+    ],
+    "key_quotes": [
+      "I visited pre Coach Prime and was expecting a much different vibe.",
+      "Boulder, especially for engineering/CS, isn't a 'safety.' Boulder's an amazing school.",
+      "Go live your life to the fullest — you guys know how to make people smile."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration Trust**: $2.1M AI deal signed secretly, Email for Life promise broken without warning",
+      "**Student Safety**: Suspicious student death ruled suicide despite blunt force trauma evidence; new missing-student law passed in response",
+      "**Campus Security**: Bomb threats, SWAT calls, active shooter false alarms at Norlin Library reported in recent years"
+    ],
+    "key_quotes": [
+      "It is absolutely asinine that her death was ruled a suicide, given the evidence presented.",
+      "CU EMERGENCY ALERT: Police investigating unconfirmed bomb threat. K-9 units are on scene.",
+      "Former CU Boulder student sentenced to 90 days in jail for campus sexual assault — '90 days is not enough.'"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Library loans free Colorado State Park passes — massively underutilized perk",
+      "Physics and aerospace programs are nationally respected and surprisingly accessible",
+      "LGBTQ+ Spectrum housing wing offers gender-neutral dorms and dedicated community space"
+    ],
+    "key_quotes": [
+      "CU Boulder Libraries checks out free Colorado State Park passes.",
+      "CU Boulder is one of the top schools for physics — and I am majoring in it.",
+      "Take a look at the Spectrum community at CU Boulder — they've got a dedicated wing for LGBTQ students with gender neutral rooms and restrooms."
+    ],
+    "score": 8
+  }
+}

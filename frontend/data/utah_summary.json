@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Honors dorm waitlist is real — admitted students may not get in",
+      "Commuter school reputation means campus housing demand is lower",
+      "Limited student data on housing quality from available sources"
+    ],
+    "key_quotes": [
+      "I'm in the honors college (wait listed for honors dorms tho :/)",
+      "apparently it is a commuter college"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Heavily Mormon-influenced culture makes non-Mormon students feel excluded",
+      "LGBTQ+ students report feeling unsafe and unable to be themselves",
+      "Strong sports culture exists but overall social scene is niche"
+    ],
+    "key_quotes": [
+      "Utah is most definitely not the state to go if you're not straight and white",
+      "I feel like it's kinda dumb to go to Utah unless u are a white man or woman who intends on being a stay at home mom with 6 kids. Or if u are Mormon",
+      "it's like a whole different world out there. I can't imagine anyone saying most of these things with straight faces in any school in Boston"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining data available from student posts or comments",
+      "Salt Lake City proximity gives off-campus food options",
+      "Campus dining not a frequent complaint or praise point"
+    ],
+    "key_quotes": [
+      "Salt Lake City is dope",
+      "SLC is nice"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple students report depression, isolation, and dropping out at UofU",
+      "One student went from California, became suicidal, and dropped out",
+      "Transition shock hits hard — especially for out-of-state students"
+    ],
+    "key_quotes": [
+      "I finally got so depressed I was going to suicide and at that point I finally told my parents and I dropped out and moved back to California",
+      "I had a hard time making friends and gave up on that, and I was consistently sad a lot of the time",
+      "I am an absolute failure and a wastoid. I hate myself and self harm occasionally"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "Notably generous merit scholarships, especially for out-of-state students",
+      "Full rides available through programs like Business Scholars",
+      "Financial aid communication can lag — students wait weeks for packets"
+    ],
+    "key_quotes": [
+      "I'm withdrawing my app from UMich and going to University of Utah with a full ride in the Business Scholars program!",
+      "they are incredibly generous with scholarships, especially for out of state kids",
+      "University of Utah accepted me... they said they would already give me my financial aid info it's not anywhere on my account"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "CS and engineering programs are genuinely well-regarded nationally",
+      "Game design program ranks high on Princeton Review",
+      "No neuroscience undergrad major is a specific gap students have hit"
+    ],
+    "key_quotes": [
+      "University of Utah is awesome for Computer Science!",
+      "Utah is actually pretty well known for CS, and they have a great program",
+      "they don't offer a neuroscience major, which is what I was hoping to study"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Trans student protester group punished while transphobic group was protected",
+      "Transfer credit and nursing waitlist processes cause multi-year delays",
+      "Financial aid packet delays leave accepted students in the dark"
+    ],
+    "key_quotes": [
+      "The group that protested was punished for protesting, while the other group was protected by the university",
+      "I applied to Utah for the Spring semester... I got an email telling me that because I had technically attended the University of Pittsburgh... I couldn't apply",
+      "I got placed on the alternate list the first time I applied and am afraid it might happen again"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Salt Lake City and outdoor access (skiing, cycling, hiking) are major draws",
+      "Campus is viewed as a commuter school — can feel dead on weekends",
+      "45 minutes from Park City ski resorts is a genuine perk"
+    ],
+    "key_quotes": [
+      "only 45 mins away from my favourite place in America (Park City)",
+      "apparently it is a commuter college",
+      "if you like doing things outside, definitely go to Utah"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "CS grads get recruited to Bay Area tech — both ASU and Utah feed Silicon Valley",
+      "Finance is weak — BYU is closer to Wall Street target status than UofU",
+      "Strong local Utah job connections if you plan to stay in-state"
+    ],
+    "key_quotes": [
+      "Both ASU and Utah send a lot of students to the Bay Area for jobs",
+      "For finance, somewhat humorously enough, BYU is closer to semi-target status than U of Utah",
+      "it has good connections in the area... if you want to live and work in Utah"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition plus merit scholarships make it genuinely affordable",
+      "Full-ride recipients clearly beating out Michigan and similar schools on ROI",
+      "Out-of-state sticker price is high but scholarships often offset it significantly"
+    ],
+    "key_quotes": [
+      "I'm withdrawing my app from UMich and going to University of Utah with a full ride",
+      "it's affordable... and only 45 mins away from my favourite place in America",
+      "100% go in state and save the money and be close to where you can get internships"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Great fit if you're outdoorsy, in-state, and okay with Mormon-dominant culture",
+      "Feels isolating for LGBTQ+, out-of-state, and non-religious students",
+      "Strong for CS/engineering; weak for social diversity and inclusivity"
+    ],
+    "key_quotes": [
+      "It literally has everything I'm looking for, it's affordable... and SLC is nice",
+      "I can't be who I want to be. I have to hide who I am",
+      "I see university of Utah and UC Merced climbing in the rankings"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**LGBTQ+ Safety**: university protected transphobic group, punished protesters",
+      "**Mental Health**: multiple dropout stories citing depression, isolation, suicidal ideation",
+      "**Administration**: transfer and nursing program bureaucracy causes years-long delays"
+    ],
+    "key_quotes": [
+      "There was a group who hosted transphobic events... The group that protested was punished for protesting, while the other group was protected by the university",
+      "I finally got so depressed I was going to suicide",
+      "I have 127 credit hours but I have not graduated... got placed on the alternate list"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Business Scholars full-ride program is a legitimate steal over bigger-name schools",
+      "CS and game design programs punch above their weight nationally",
+      "Unbeatable outdoor access — skiing, cycling, hiking literally minutes from campus"
+    ],
+    "key_quotes": [
+      "BS in Games ranks high in Princeton Review",
+      "they are incredibly generous with scholarships, especially for out of state kids",
+      "if you like doing things outside, definitely go to Utah, the views and weather are great"
+    ],
+    "score": 7
+  }
+}

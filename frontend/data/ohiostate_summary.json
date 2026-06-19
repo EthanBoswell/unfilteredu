@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm themes now restricted to OSU-only content due to state law SB1",
+      "Bike theft is rampant near campus; two stolen in two weeks reported",
+      "North campus dorms plagued by loud late-night Christian concerts"
+    ],
+    "key_quotes": [
+      "No chalk, no dorm themes, no personality/expression — the fact that OSU is making a blatant point to restrict these seemingly trivial forms of expression has such big implications",
+      "My furniture was vibrating earlier. It's safe to say I was extremely peeved",
+      "If you've got an E-bike you've always gotta take that thing inside overnight. They are too valuable"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Columbus is widely praised as a very queer-friendly city near campus",
+      "Fraternity activities suspended after alcohol poisoning death; hazing culture flagged",
+      "Campus has strong community spirit — students help strangers dig out cars in snowstorms"
+    ],
+    "key_quotes": [
+      "Columbus is a very queer city, I think you'll do numbers anywhere close to campus",
+      "When will these frats 'get it'? They're killing people in the name of 'Brotherhood'",
+      "I attended the back to school bash and played Capture the Flag with over 150 people"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "GrubHub delivery robots are a campus novelty, spotted even off-campus",
+      "A chocolate-making class is a real and popular course option",
+      "Limited direct complaints about food quality in the data — not a major discussion topic"
+    ],
+    "key_quotes": [
+      "Also for the chocolate class how good does the chocolate taste that you make. Also I'm a hella picky eater how is the food for picky eaters",
+      "He was involved in the recent layoffs but still has bills to pay. He's working that corner now [about a delivery robot off-campus]"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Students working full-time while taking full-time classes report feeling alone and overwhelmed",
+      "Redemption stories exist — one student failed first semester, earned doctorate nine years later",
+      "Strong peer community on Reddit provides emotional support when institutional support feels absent"
+    ],
+    "key_quotes": [
+      "I work full time while taking full time classes and sometimes I just feel like I'm the only one struggling",
+      "If you are struggling now, I can't promise it will get easier, but it is still possible to succeed",
+      "The long days and sacrifices will pay off. I know you see your well-off friends living it up"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "New free tuition for perfect SAT/ACT scorers plus $5,000 research stipend announced",
+      "Admitted students with fee waivers still hit with $100 acceptance fee before aid applies",
+      "Alumni openly refusing donations due to Wexner scandal and admin decisions"
+    ],
+    "key_quotes": [
+      "I got a -1500 on FAFSA and still had to pay my acceptance and housing fees before I got any of my aid applied",
+      "Are you shitting me? I had a perfect ACT and got $1000/year and nothing else. Just a few years too early I guess",
+      "Alumni donations are on indefinite hold until they stop pandering to Wexner"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "TBDBITL marching band demands 10+ hours weekly plus memorization time — serious commitment",
+      "Canvas (Instructure) was hacked twice, causing student data stress during finals",
+      "OSU CS ranked around #41 nationally; strong STEM reputation acknowledged broadly"
+    ],
+    "key_quotes": [
+      "It's really, really hard. It is a lot of dedication. You have to be at 110% every single rehearsal",
+      "Depending on your ability, memorizing the music adds 20 hours a week or more",
+      "Ohio state has some great STEM programs — that said, you have a lot of maturity for your age"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "FIRE gave OSU an F grade on free speech; chalk ban and protest crackdowns cited repeatedly",
+      "University president resigned over inappropriate relationship; OSU faces serial scandal problem",
+      "ACLU sued OSU after student expelled for pro-Palestinian online comments — federal judge ruled against OSU"
+    ],
+    "key_quotes": [
+      "Good God, can we go 1 week without some sort of OSU scandal?",
+      "It's wild how fast OSU dove into censorship after I graduated. I don't even recognize my alma mater anymore",
+      "OSU is committed to protecting the freedom of expression — by banning sidewalk chalking"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is visually beautiful — Thompson Library, Oval, Mirror Lake draw consistent praise",
+      "Parking is outrageously expensive; Campus Parc universally hated by students",
+      "Columbus city itself is vibrant, queer-friendly, and full of student-friendly amenities"
+    ],
+    "key_quotes": [
+      "I pay more per month for parking than my health AND life insurance combined. Shit is ridiculous",
+      "I found the campus lovely — the Thompson Library, Ohio Union, Orton Geological Building, and Mirror Lake were all incredible",
+      "I can smell spring in Columbus all the way from Nevada!! I miss mulch"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "JD Vance (OSU undergrad) cited as proof state school grads reach top positions",
+      "Fisher School of Business seen as less prestigious than Kelley at IU by students themselves",
+      "Strong alumni network but alumni increasingly withholding donations over scandal damage"
+    ],
+    "key_quotes": [
+      "Ohio State to VP of USA. Insert your own state school to the sentence above",
+      "Fisher doesn't have the same prestige that Kelley does. I want to know if I can be as successful coming out of Fisher",
+      "An OSU degree in the right fields are still viewed as a prestigious degree and opens so many doors"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state students can now get free tuition with perfect test scores or via regional campus pathway",
+      "Out-of-state costs are steep; international students especially feel the financial pressure",
+      "Students openly question tuition value when admin buys military MRAPs and invites crypto speakers at graduation"
+    ],
+    "key_quotes": [
+      "Is this where our tuition is going? Last I checked we sorted out our IED problem last November",
+      "I want a refund on my graduation speech that was about crypto — I want a real speech from literally anyone else",
+      "Coming out of undergrad debt free will be better in the long run than the prestige of a T20"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Enormous school energy — football, Brutus, Script Ohio create genuine shared identity",
+      "Politically turbulent campus with active student protest culture pushing back on admin",
+      "Warm, community-oriented student body; older students and nontraditional students feel welcomed"
+    ],
+    "key_quotes": [
+      "This past week was my first at OSU. I was very worried that I, being 34, would struggle to fit in — I'm so happy to report that is not the case",
+      "Somehow we've arrived at the point where the university is bringing shame to the football program and not vice versa",
+      "Most people are decent people — Made me smile. Need to see more community in these troubling times"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Epstein ties: Leslie Wexner named congressional co-conspirator; his name is on major buildings including the medical center",
+      "Free speech: FIRE F-rating, chalk banned, protests broken up by police, student expelled for online comments",
+      "Serial scandals: president resigned over relationship, professor assaulted cameraman, Epstein payments to OSU gynecologist documented"
+    ],
+    "key_quotes": [
+      "It is an embarrassment to be associated with a school who protects and defends Wexner just because of his money",
+      "FOD has been instructed via email to remove and document the W tape overs to aid OSU PD in finding out who is doing it",
+      "Jeffrey Epstein made quarterly $25,000 payments to Ohio State head of gynecology for 'consultant work'"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Orton Geological Museum mimics the geological record in its actual building materials — genuinely unique",
+      "Xerxes, a resident red-tailed hawk near Engineering, has become a beloved campus celebrity",
+      "Thompson Library 11th floor is a stunning study spot rarely mentioned on official tours"
+    ],
+    "key_quotes": [
+      "Orton Geological museum is the only known building that mimics the geological record with the materials used to make it",
+      "Xerxes. King of the hawks — there are some nesting by engineering",
+      "The stadium tour is a cool experience — glad you got to see some of the prettier spots on a non-game day"
+    ],
+    "score": 8
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Roommate conflicts are real; consider single rooms seriously",
+      "Theft reported in locker rooms; $1300 coat stolen",
+      "Dorm communal kitchens trashed regularly; custodians overwhelmed"
+    ],
+    "key_quotes": [
+      "IF YOU ARE ON THE FENCE BETWEEN A SINGLE AND A DOUBLE (w/ a random) GET A SINGLE",
+      "To the guy who stole my $1300 coat out of the Noyes locker room: Why man. It's literally 10°",
+      "Third floor at cascadilla has been awful with the trash in the community kitchen all year"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Social scene feels fake and elite to many students",
+      "Loneliness and exclusion are recurring freshman complaints",
+      "Greek life exists but cliques are noted as a real problem"
+    ],
+    "key_quotes": [
+      "Everyone I've encountered on campus is so fake and so awful and so elite and so out of touch",
+      "I put myself out there and thought I found my group. Weeks into the semester...they left me out",
+      "I rushed a sorority (I'm even living in the house), and tried to put myself out there as much as possible"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Dining hall is visually stunning, praised for atmosphere",
+      "Cornell Dairy Bar ice cream is a beloved campus institution",
+      "Food quality has reportedly declined over the decades per alumni"
+    ],
+    "key_quotes": [
+      "Your dining hall is gorgeous! It looks like something out of the Harry Potter series",
+      "I fell in love with Cornell as I was eating their ice cream at the Dairy Bar after the tour",
+      "More administration. Lower quality food. Smaller trays. Drastically changed"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Academic pressure is intense; imposter syndrome is widespread",
+      "Loneliness and depression complaints appear frequently from freshmen",
+      "Students are explicitly warned about suicide risk near gorges"
+    ],
+    "key_quotes": [
+      "I am so miserable. I hated it here last year and everyone told me it was just a freshman year thing",
+      "These past four years have absolutely destroyed me",
+      "It still hurts to see people you considered friends leave you out or exclude you from pictures"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cornell is need-blind for domestic students; full aid possible",
+      "ICE detention of a parent forced a student to drop classes and take a job",
+      "Federal funding cuts of $250M disrupted research across campus"
+    ],
+    "key_quotes": [
+      "Cornell has been subject to more than $250 million in federal funding interruptions",
+      "She's had to drop a class, pick up a job, and navigate a complicated financial aid system",
+      "If your family makes less than $65,000 a year, you pay nothing in tuition"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Notoriously rigorous; no grade inflation unlike peer Ivies",
+      "Prelim exams are brutal; 78 can be below average in orgo",
+      "CS ranked top 5 nationally; STEM programs are world-class"
+    ],
+    "key_quotes": [
+      "I took my first orgo prelim and was below the average, I got a 78 and the average was 84",
+      "There is no reason to trash on a school that doesn't have grade inflation like the other ivies",
+      "Cornell is ranked higher in most STEM than all other Ivys"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "President Kotlikoff hit students with his car and fled; used official channels to mislead",
+      "University paid $30M to federal government in controversial settlement",
+      "President was appointed with no national search or faculty consultation"
+    ],
+    "key_quotes": [
+      "He committed at least two crimes. Hitting individuals with your car even if you're fearing for your life is illegal in NYS",
+      "Cornell has reached an agreement with the federal government...Cornell will pay $30 million",
+      "There was no job posting, no national search, no consultation with the student or faculty body"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is stunningly beautiful; gorges and waterfalls on doorstep",
+      "Ithaca weather is brutal in winter; warm-weather students warned repeatedly",
+      "No train station; students can feel trapped without a car"
+    ],
+    "key_quotes": [
+      "Just moved my daughter in...we didn't get to tour the campus prior to being accepted, but Cornell is BEAUTIFUL",
+      "Make sure she goes clothes shopping for winter wear as it is like living at Tahoe in the winter",
+      "Having a car definitely makes things A LOT more accessible. I get why some of the undergrads feel trapped up on the hill"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni network is exceptionally strong; Cornell grads find each other everywhere",
+      "100k starting salary considered 'not great' by some students — shows high earning expectations",
+      "Strong placement in medicine, law, engineering, and tech"
+    ],
+    "key_quotes": [
+      "A ton of my interviewers were Cornell alum and we were able to connect and just hit it off immediately",
+      "The job that I am interviewing for has a starting salary of 100k. Which isn't great, but I guess it's alright",
+      "Cornell is consistently one of the best universities in the world"
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "key_points": [
+      "Top STEM and professional school rankings justify cost for many",
+      "No grade inflation means your GPA is harder to earn but more credible",
+      "One student left 9 credits short and still found a $68k job — but Reddit strongly advised against it"
+    ],
+    "key_quotes": [
+      "I Didn't Graduate and I Came Out Fine...I got a job in my field three months ago with a starting salary of 68k",
+      "Folks, finish your degrees. Especially if you're nine credits away. Don't let OP convince you this is a good idea",
+      "Top agriculture school, top hospitality school, top engineering school, top cs school, top architecture school"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "High achievers who work extremely hard; intense but rewarding for the right person",
+      "Class divide is real; many students from very privileged backgrounds",
+      "Students who thrive tend to find their niche; those who don't suffer visibly"
+    ],
+    "key_quotes": [
+      "A lot of people here come from very privileged backgrounds, and I just don't click with people who only care about prestige",
+      "The students are either the nicest people ever, or absolute snobs",
+      "I loved the challenge. I loved studying abroad. I loved learning and being able to spread my knowledge"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Leadership: president ran over students, lied publicly, faced zero criminal consequences",
+      "Mental Health: suicide risk near gorges is well-known; freshmen loneliness is endemic",
+      "Safety: underage drinking death reported; Uber driver assault reported on r/Cornell"
+    ],
+    "key_quotes": [
+      "He used official University mass email to try to set a skewed narrative prior to investigation",
+      "Cornell freshman dies in suspected underage drinking incident",
+      "On Sunday night I was groped by my uber driver...Uber blocked my account last night"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Cornell Dairy Bar ice cream is a campus legend worth the visit",
+      "Risley Hall has a secret subbasement most students never discover",
+      "Johnson Art Museum is free, on campus, and rivals major city museums"
+    ],
+    "key_quotes": [
+      "The Johnson Art Museum: it's truly crazy that we have a free art museum on campus that's the size of the Everson in Syracuse",
+      "The Cornell Dairy Bar — Big Red Bear Tracks gave me more love than my ex-boyfriend ever did",
+      "After visiting for my 10 year reunion, I can confirm that the Risley subbasement is real, and you can still visit it"
+    ],
+    "score": 8
+  }
+}
