@@ -25,7 +25,8 @@ _CACHE_WRITE_PRICE = 3.75 / 1_000_000
 _CACHE_READ_PRICE = 0.30 / 1_000_000
 
 SCHOOLS = [
-    {"name": "University of Kansas", "slug": "kansas", "subreddits": ["r/KUHawks", "r/jayhawks"], "keywords": ["University of Kansas", "KU Jayhawks", "Lawrence Kansas", "KU campus"]},
+    # ACC
+    {"name": "Kansas", "slug": "kansas", "subreddits": ["r/KUniversity"], "keywords": ["University of Kansas", "KU Jayhawks", "Lawrence Kansas"]},
     {"name": "University of North Carolina at Chapel Hill", "slug": "unc", "subreddits": ["r/UNC", "r/chapelhill"], "keywords": ["University of North Carolina", "UNC Chapel Hill", "Tar Heels", "Chapel Hill NC"]},
     {"name": "Duke University", "slug": "duke", "subreddits": ["r/duke", "r/DukeUniversity"], "keywords": ["Duke University", "Duke Blue Devils", "Durham NC"]},
     {"name": "NC State", "slug": "ncstate", "subreddits": ["r/NCState"], "keywords": ["NC State", "North Carolina State", "Wolfpack", "Raleigh NC"]},
@@ -45,6 +46,7 @@ SCHOOLS = [
     {"name": "Southern Methodist University", "slug": "smu", "subreddits": ["r/SMU"], "keywords": ["SMU", "Southern Methodist University", "Mustangs", "Dallas TX"]},
     {"name": "Stanford", "slug": "stanford", "subreddits": ["r/Stanford"], "keywords": ["Stanford University", "Cardinal", "Palo Alto", "Stanford CA"]},
     {"name": "Howard University", "slug": "howard", "subreddits": ["r/HowardUniversity", "r/HBCU"], "keywords": ["Howard University", "Bison", "Washington DC", "HBCU", "Howard HBCU"]},
+    # SEC
     {"name": "University of Alabama", "slug": "alabama", "subreddits": ["r/uAlabama"], "keywords": ["University of Alabama", "Alabama Crimson Tide", "Tuscaloosa", "UA campus"]},
     {"name": "Auburn University", "slug": "auburn", "subreddits": ["r/auburn"], "keywords": ["Auburn University", "War Eagle", "Auburn Alabama", "Auburn campus"]},
     {"name": "University of Florida", "slug": "florida", "subreddits": ["r/ufl", "r/gainesville"], "keywords": ["University of Florida", "UF", "Gators", "Gainesville"]},
@@ -62,6 +64,62 @@ SCHOOLS = [
     {"name": "Vanderbilt University", "slug": "vanderbilt", "subreddits": ["r/vanderbilt"], "keywords": ["Vanderbilt", "Commodores", "Nashville Tennessee"]},
     {"name": "Missouri University", "slug": "missouri", "subreddits": ["r/mizzou"], "keywords": ["University of Missouri", "Mizzou", "Tigers", "Columbia Missouri"]},
     {"name": "Oklahoma University", "slug": "oklahoma", "subreddits": ["r/uoklahoma"], "keywords": ["University of Oklahoma", "Sooners", "Norman Oklahoma"]},
+    # Big 12
+    {"name": "Kansas State", "slug": "kstate", "subreddits": ["r/KStateUniversity"], "keywords": ["Kansas State", "K-State", "Wildcats Manhattan Kansas"]},
+    {"name": "Iowa State", "slug": "iowastate", "subreddits": ["r/iastate"], "keywords": ["Iowa State University", "Cyclones", "Ames Iowa"]},
+    {"name": "Baylor University", "slug": "baylor", "subreddits": ["r/baylor"], "keywords": ["Baylor University", "Bears", "Waco Texas"]},
+    {"name": "TCU", "slug": "tcu", "subreddits": ["r/tcu"], "keywords": ["TCU", "Texas Christian University", "Horned Frogs", "Fort Worth"]},
+    {"name": "West Virginia University", "slug": "wvu", "subreddits": ["r/wvu"], "keywords": ["West Virginia University", "WVU", "Mountaineers", "Morgantown"]},
+    {"name": "University of Cincinnati", "slug": "cincinnati", "subreddits": ["r/uofcincy"], "keywords": ["University of Cincinnati", "UC Bearcats", "Cincinnati Ohio"]},
+    {"name": "University of Houston", "slug": "houston", "subreddits": ["r/UniversityOfHouston"], "keywords": ["University of Houston", "UH Cougars", "Houston Texas"]},
+    {"name": "UCF", "slug": "ucf", "subreddits": ["r/ucf"], "keywords": ["UCF", "University of Central Florida", "Knights", "Orlando"]},
+    {"name": "BYU", "slug": "byu", "subreddits": ["r/byu"], "keywords": ["BYU", "Brigham Young University", "Cougars", "Provo Utah"]},
+    {"name": "University of Utah", "slug": "utah", "subreddits": ["r/uofutah"], "keywords": ["University of Utah", "Utes", "Salt Lake City"]},
+    {"name": "University of Colorado", "slug": "colorado", "subreddits": ["r/cuboulder"], "keywords": ["CU Boulder", "Colorado Buffaloes", "Boulder Colorado"]},
+    {"name": "University of Arizona", "slug": "arizona", "subreddits": ["r/uofaz"], "keywords": ["University of Arizona", "Wildcats", "Tucson Arizona"]},
+    {"name": "Arizona State", "slug": "asu", "subreddits": ["r/ASU"], "keywords": ["Arizona State University", "ASU Sun Devils", "Tempe Arizona"]},
+    {"name": "Oklahoma State", "slug": "okstate", "subreddits": ["r/okstate"], "keywords": ["Oklahoma State", "Cowboys", "Stillwater Oklahoma"]},
+    {"name": "Texas Tech University", "slug": "texastech", "subreddits": ["r/TexasTech"], "keywords": ["Texas Tech", "Red Raiders", "Lubbock Texas"]},
+    # Big Ten
+    {"name": "University of Michigan", "slug": "michigan", "subreddits": ["r/uofm"], "keywords": ["University of Michigan", "Wolverines", "Ann Arbor Michigan"]},
+    {"name": "Michigan State", "slug": "michiganstate", "subreddits": ["r/msu"], "keywords": ["Michigan State University", "Spartans", "East Lansing"]},
+    {"name": "Ohio State", "slug": "ohiostate", "subreddits": ["r/OSU"], "keywords": ["Ohio State University", "Buckeyes", "Columbus Ohio"]},
+    {"name": "Penn State", "slug": "pennstate", "subreddits": ["r/PennStateUniversity"], "keywords": ["Penn State", "Nittany Lions", "State College Pennsylvania"]},
+    {"name": "University of Wisconsin", "slug": "wisconsin", "subreddits": ["r/UWMadison"], "keywords": ["University of Wisconsin", "Badgers", "Madison Wisconsin"]},
+    {"name": "University of Minnesota", "slug": "minnesota", "subreddits": ["r/uofmn"], "keywords": ["University of Minnesota", "Gophers", "Minneapolis Minnesota"]},
+    {"name": "Indiana University", "slug": "indiana", "subreddits": ["r/IndianaUniversity"], "keywords": ["Indiana University", "Hoosiers", "Bloomington Indiana"]},
+    {"name": "Purdue University", "slug": "purdue", "subreddits": ["r/Purdue"], "keywords": ["Purdue University", "Boilermakers", "West Lafayette Indiana"]},
+    {"name": "University of Illinois", "slug": "illinois", "subreddits": ["r/UIUC"], "keywords": ["University of Illinois", "Illini", "Champaign Illinois"]},
+    {"name": "University of Iowa", "slug": "iowa", "subreddits": ["r/uiowa"], "keywords": ["University of Iowa", "Hawkeyes", "Iowa City"]},
+    {"name": "University of Nebraska", "slug": "nebraska", "subreddits": ["r/unl"], "keywords": ["University of Nebraska", "Cornhuskers", "Lincoln Nebraska"]},
+    {"name": "Northwestern University", "slug": "northwestern", "subreddits": ["r/Northwestern"], "keywords": ["Northwestern University", "Wildcats", "Evanston Illinois"]},
+    {"name": "University of Maryland", "slug": "maryland", "subreddits": ["r/UMD"], "keywords": ["University of Maryland", "Terrapins", "College Park Maryland"]},
+    {"name": "Rutgers University", "slug": "rutgers", "subreddits": ["r/rutgers"], "keywords": ["Rutgers University", "Scarlet Knights", "New Brunswick New Jersey"]},
+    # Top HBCUs
+    {"name": "Spelman College", "slug": "spelman", "subreddits": ["r/SpelmanCollege", "r/HBCU"], "keywords": ["Spelman College", "Atlanta HBCU", "Spelman women"]},
+    {"name": "Morehouse College", "slug": "morehouse", "subreddits": ["r/Morehouse", "r/HBCU"], "keywords": ["Morehouse College", "Atlanta HBCU", "Morehouse men"]},
+    {"name": "Hampton University", "slug": "hampton", "subreddits": ["r/HamptonUniversity", "r/HBCU"], "keywords": ["Hampton University", "Hampton Pirates", "Virginia HBCU"]},
+    {"name": "North Carolina A&T", "slug": "ncat", "subreddits": ["r/NCAT", "r/HBCU"], "keywords": ["NC A&T", "North Carolina A&T", "Aggies", "Greensboro HBCU"]},
+    {"name": "Tennessee State", "slug": "tsu", "subreddits": ["r/TennesseeState", "r/HBCU"], "keywords": ["Tennessee State University", "TSU Tigers", "Nashville HBCU"]},
+    {"name": "Morgan State", "slug": "morganstate", "subreddits": ["r/MorganState", "r/HBCU"], "keywords": ["Morgan State University", "Bears", "Baltimore HBCU"]},
+    {"name": "Tuskegee University", "slug": "tuskegee", "subreddits": ["r/Tuskegee", "r/HBCU"], "keywords": ["Tuskegee University", "Golden Tigers", "Alabama HBCU"]},
+    {"name": "Clark Atlanta University", "slug": "clarkatl", "subreddits": ["r/ClarkAtlanta", "r/HBCU"], "keywords": ["Clark Atlanta University", "CAU Panthers", "Atlanta HBCU"]},
+    {"name": "Bethune-Cookman University", "slug": "bcu", "subreddits": ["r/BethuneCookman", "r/HBCU"], "keywords": ["Bethune-Cookman", "BCU Wildcats", "Daytona Beach HBCU"]},
+    {"name": "Fisk University", "slug": "fisk", "subreddits": ["r/FiskUniversity", "r/HBCU"], "keywords": ["Fisk University", "Bulldogs", "Nashville HBCU"]},
+    {"name": "Xavier University Louisiana", "slug": "xula", "subreddits": ["r/XavierUniversity", "r/HBCU"], "keywords": ["Xavier University Louisiana", "Gold Rush", "New Orleans HBCU"]},
+    {"name": "Delaware State", "slug": "delawarestate", "subreddits": ["r/DelawareState", "r/HBCU"], "keywords": ["Delaware State University", "Hornets", "Dover HBCU"]},
+    # Elite privates
+    {"name": "Harvard University", "slug": "harvard", "subreddits": ["r/Harvard"], "keywords": ["Harvard University", "Crimson", "Cambridge Massachusetts"]},
+    {"name": "Yale University", "slug": "yale", "subreddits": ["r/yale"], "keywords": ["Yale University", "Bulldogs", "New Haven Connecticut"]},
+    {"name": "Princeton University", "slug": "princeton", "subreddits": ["r/Princeton"], "keywords": ["Princeton University", "Tigers", "Princeton New Jersey"]},
+    {"name": "Columbia University", "slug": "columbia", "subreddits": ["r/columbia"], "keywords": ["Columbia University", "Lions", "New York City Ivy League"]},
+    {"name": "Cornell University", "slug": "cornell", "subreddits": ["r/Cornell"], "keywords": ["Cornell University", "Big Red", "Ithaca New York"]},
+    {"name": "University of Pennsylvania", "slug": "upenn", "subreddits": ["r/UPenn"], "keywords": ["UPenn", "University of Pennsylvania", "Quakers", "Philadelphia"]},
+    {"name": "Georgetown University", "slug": "georgetown", "subreddits": ["r/georgetown"], "keywords": ["Georgetown University", "Hoyas", "Washington DC"]},
+    {"name": "Emory University", "slug": "emory", "subreddits": ["r/EmoryUniversity"], "keywords": ["Emory University", "Eagles", "Atlanta Georgia"]},
+    {"name": "Tulane University", "slug": "tulane", "subreddits": ["r/tulane"], "keywords": ["Tulane University", "Green Wave", "New Orleans Louisiana"]},
+    # Sun Belt
+    {"name": "James Madison University", "slug": "jmu", "subreddits": ["r/JMU"], "keywords": ["James Madison University", "JMU Dukes", "Harrisonburg Virginia"]},
 ]
 
 CATEGORIES = [
