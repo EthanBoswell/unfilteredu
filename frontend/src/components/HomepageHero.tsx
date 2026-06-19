@@ -3,18 +3,23 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { SCHOOLS } from "@/lib/schools";
+import type { HeroQuote } from "@/lib/data";
 
-const quotes = [
-  { text: "The dining hall is legitimately good. I know that sounds insane but it's true.", school: "UCLA", color: "#2774AE", textColor: "#fff" },
-  { text: "Nobody warns you that the housing lottery is basically a hunger games situation.", school: "UCLA", color: "#2774AE", textColor: "#fff" },
-  { text: "Ann Arbor in the fall is something you have to experience. The whole city is alive.", school: "U of Michigan", color: "#FFCB05", textColor: "#111" },
-  { text: "Waited 3 weeks for a counseling appointment during midterms. That part needs work.", school: "Ohio State", color: "#BB0000", textColor: "#fff" },
-  { text: "NYU is not a college experience. It's a New York experience. Know which one you're signing up for.", school: "NYU", color: "#57068C", textColor: "#fff" },
-];
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
-export default function HomepageHero() {
+export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
   const router = useRouter();
 
+  // Start in the server-rendered order to avoid a hydration mismatch,
+  // then shuffle client-side once mounted.
+  const [shuffledQuotes, setShuffledQuotes] = useState(quotes);
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [quoteVisible, setQuoteVisible] = useState(true);
   const [query, setQuery] = useState("");
@@ -23,15 +28,20 @@ export default function HomepageHero() {
   const searchRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    setShuffledQuotes(shuffle(quotes));
+  }, [quotes]);
+
+  useEffect(() => {
+    if (shuffledQuotes.length < 2) return;
     const interval = setInterval(() => {
       setQuoteVisible(false);
       setTimeout(() => {
-        setQuoteIndex((i) => (i + 1) % quotes.length);
+        setQuoteIndex((i) => (i + 1) % shuffledQuotes.length);
         setQuoteVisible(true);
       }, 400);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [shuffledQuotes.length]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -56,7 +66,7 @@ export default function HomepageHero() {
     router.push(`/schools/${school.slug}`);
   };
 
-  const quote = quotes[quoteIndex];
+  const quote = shuffledQuotes[quoteIndex];
 
   return (
     <section className="relative w-full" style={{ background: "#0F0F0F" }}>
@@ -97,44 +107,46 @@ export default function HomepageHero() {
 
         {/* 2. Quote ticker */}
         <div style={{ minHeight: 180 }}>
-          <div
-            style={{
-              transition: "opacity 0.4s ease, transform 0.4s ease",
-              opacity: quoteVisible ? 1 : 0,
-              transform: quoteVisible ? "translateY(0)" : "translateY(8px)",
-            }}
-          >
-            <p
-              className="mb-5"
+          {quote && (
+            <div
               style={{
-                fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                fontWeight: 800,
-                fontSize: "clamp(22px, 4vw, 36px)",
-                color: "#F5F4EF",
-                lineHeight: 1.25,
+                transition: "opacity 0.4s ease, transform 0.4s ease",
+                opacity: quoteVisible ? 1 : 0,
+                transform: quoteVisible ? "translateY(0)" : "translateY(8px)",
               }}
             >
-              &ldquo;{quote.text}&rdquo;
-            </p>
-            <div className="flex items-center gap-3">
-              <span
-                className="rounded-full px-3 py-1 text-[12px] font-semibold leading-none"
+              <p
+                className="mb-5"
                 style={{
-                  fontFamily: "Inter, sans-serif",
-                  background: quote.color,
-                  color: quote.textColor,
+                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                  fontWeight: 800,
+                  fontSize: "clamp(22px, 4vw, 36px)",
+                  color: "#F5F4EF",
+                  lineHeight: 1.25,
                 }}
               >
-                {quote.school}
-              </span>
-              <span
-                className="text-[12px]"
-                style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
-              >
-                via Reddit
-              </span>
+                &ldquo;{quote.text}&rdquo;
+              </p>
+              <div className="flex items-center gap-3">
+                <span
+                  className="rounded-full px-3 py-1 text-[12px] font-semibold leading-none"
+                  style={{
+                    fontFamily: "Inter, sans-serif",
+                    background: quote.color,
+                    color: quote.textColor,
+                  }}
+                >
+                  {quote.school}
+                </span>
+                <span
+                  className="text-[12px]"
+                  style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
+                >
+                  via Reddit
+                </span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* 3. Divider */}
@@ -181,7 +193,7 @@ export default function HomepageHero() {
         </p>
 
         {/* Search bar */}
-        <div ref={searchRef} className="relative">
+        <div id="search-bar" ref={searchRef} className="relative">
           <div
             className="flex items-center rounded-md bg-white overflow-hidden"
             style={{

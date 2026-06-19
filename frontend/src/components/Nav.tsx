@@ -47,20 +47,7 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
           >
             {schoolName}
           </span>
-        ) : (
-          <a
-            href="/schools"
-            className="rounded-md px-4 py-1.5 text-[12px] leading-none"
-            style={{
-              fontFamily: "var(--font-syne), 'Syne', sans-serif",
-              fontWeight: 700,
-              background: "#F5F4EF",
-              color: "#0F0F0F",
-            }}
-          >
-            Browse Schools
-          </a>
-        )}
+        ) : null}
       </div>
     </nav>
   );

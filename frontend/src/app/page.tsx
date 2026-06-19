@@ -3,6 +3,7 @@ import Nav from "@/components/Nav";
 import HomepageHero from "@/components/HomepageHero";
 import HomepageContrast from "@/components/HomepageContrast";
 import Wordmark from "@/components/Wordmark";
+import { getHeroQuotes } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "UnfilteredU — Real College Reviews from Reddit",
@@ -29,10 +30,12 @@ const HOW_IT_WORKS = [
 ];
 
 export default function HomePage() {
+  const quotes = getHeroQuotes();
+
   return (
     <div style={{ background: "#F5F4EF" }}>
       <Nav />
-      <HomepageHero />
+      <HomepageHero quotes={quotes} />
       <HomepageContrast />
 
       {/* How it works */}
@@ -107,7 +110,7 @@ export default function HomePage() {
             No ratings. No rankings. Just what students said.
           </p>
           <a
-            href="/schools"
+            href="#search-bar"
             className="inline-block rounded-md px-7 py-3 text-[14px]"
             style={{
               fontFamily: "var(--font-syne), 'Syne', sans-serif",

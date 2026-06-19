@@ -46,6 +46,16 @@ function darken(hex: string, amount: number): string {
   return rgbToHex(r * (1 - amount), g * (1 - amount), b * (1 - amount));
 }
 
+export function getContrastTextColor(hex: string): string {
+  const { r, g, b } = hexToRgb(hex);
+  const toLinear = (c: number) => {
+    const s = c / 255;
+    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4);
+  };
+  const lum = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b);
+  return lum > 0.35 ? "#111" : "#fff";
+}
+
 export type RoomPalette = { roomColor: string; wallColor: string; accentColor: string };
 
 export function getRoomPalette(school: SchoolMeta): RoomPalette {

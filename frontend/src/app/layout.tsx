@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} ${inter.variable} h-full`}>
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} ${inter.variable} h-full scroll-smooth`}>
 
       <body className="min-h-full bg-[#f5f1eb] font-[family-name:var(--font-dm)] antialiased text-[#1c1917]">
         {children}

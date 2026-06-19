@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Nav from "@/components/Nav";
 import Wordmark from "@/components/Wordmark";
 import { getAvailableSlugs } from "@/lib/data";
@@ -52,18 +51,6 @@ export default function AboutPage() {
       {/* Main content */}
       <section className="px-8 pt-16 pb-0">
         <div className="mx-auto max-w-[720px]">
-
-          {/* Headshot */}
-          <div className="flex justify-center mb-12">
-            <Image
-              src="/ethan.jpeg"
-              alt="Ethan Boswell"
-              width={150}
-              height={150}
-              className="rounded-full object-cover"
-              style={{ width: 150, height: 150, border: "1px solid rgba(0,0,0,0.08)" }}
-            />
-          </div>
 
           {/* Heading */}
           <p
