@@ -192,7 +192,7 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
         </p>
 
         {/* Search bar */}
-        <div id="search-bar" ref={searchRef} className="relative">
+        <div id="search-bar" ref={searchRef} className="relative scroll-mt-32">
           <div
             className="flex items-center rounded-md bg-white overflow-hidden"
             style={{
