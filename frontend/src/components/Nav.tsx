@@ -28,8 +28,8 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
         ) : (
           <a
             href="/about"
-            className="text-[12px] leading-none"
-            style={{ fontFamily: "Inter, sans-serif", color: "#555" }}
+            className="text-[14px] leading-none"
+            style={{ fontFamily: "Inter, sans-serif", color: "#fff" }}
           >
             About
           </a>

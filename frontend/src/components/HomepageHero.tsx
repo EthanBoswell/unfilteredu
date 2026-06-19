@@ -142,7 +142,6 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
                   className="text-[12px]"
                   style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
                 >
-                  via Reddit
                 </span>
               </div>
             </div>
