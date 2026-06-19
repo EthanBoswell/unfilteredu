@@ -351,6 +351,11 @@ def main():
         for slug, stage, err in failed:
             print(f"  {slug} ({stage}): {err}")
 
+    # Local import avoids a circular import (sync_school_meta imports SCHOOLS from this module).
+    from sync_school_meta import sync_school_meta
+    print()
+    sync_school_meta()
+
 
 if __name__ == "__main__":
     main()
