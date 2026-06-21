@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints found in available data",
+      "Campus tour comments suggest standard HBCU dorm setup",
+      "Isolated location means on-campus living is essentially mandatory"
+    ],
+    "key_quotes": [
+      "Our campus is BEAUTIFUL! I didn't have a problem with it being in the middle of nowhere... fewer distractions!!!!!",
+      "This campus is a nice HBCU campus! it is by itself and the only distractions are the campus itself"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Homecoming and band culture are the dominant social experiences",
+      "Golden Girls dance team is a major campus identity anchor",
+      "Athletics and SOD events drive most visible campus energy"
+    ],
+    "key_quotes": [
+      "God bless HBCUs.. every time i see a clip on instagram or whatever I spend an hour watching these performances",
+      "I was born with purple and gold in my blood stream for a reason"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "Zero dining hall mentions across all sources",
+      "No student reviews of food quality or options found",
+      "Cannot assess dining experience from available data"
+    ],
+    "key_quotes": [
+      "No relevant quotes found in source data",
+      "No relevant quotes found in source data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Security threats caused at least one campus lockdown in 2025",
+      "Alcorn was among multiple HBCUs targeted by email threats",
+      "No counseling or mental health resources mentioned by students"
+    ],
+    "key_quotes": [
+      "Alcorn State University will resume operations at 12 p.m. today following email threats received by several HBCUs, including Alcorn",
+      "What happened? I hear an email with generic threats?"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Alcorn cited primarily as a budget option under 20k per year total",
+      "International students actively seeking scholarship info with no confirmed answers",
+      "President's Excellence Scholarship reportedly up to 18k per year"
+    ],
+    "key_quotes": [
+      "I heard the President's Scholarship can go up to around $18k per year. Does Alcorn give these scholarships to international students on an F-1 visa?",
+      "Go to an 'unknown' oos school like... alcorn state... that cost under 20k/yr total"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "CS program gets zero specific mentions from any student",
+      "No faculty praise or criticism found in any source",
+      "Niche ranks Alcorn No. 2 among HBCUs but student validation is absent"
+    ],
+    "key_quotes": [
+      "Alcorn State University has been recognized among the nation's leading historically Black colleges and universities in a new ranking by Niche",
+      "Alcorn received an A minus overall Niche grade"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Threat response communication handled via mass email at 1am",
+      "Operations suspended then resumed same day after HBCU threats",
+      "No student praise or complaints about admin responsiveness found"
+    ],
+    "key_quotes": [
+      "Alcorn State University will resume operations at 12 p.m. today following email threats received by several HBCUs",
+      "Not sure we only received an email stating this"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is genuinely beautiful with strong visual curb appeal",
+      "Rurally isolated location cuts both ways: fewer distractions, less access",
+      "No car until sophomore year raises real mobility concerns"
+    ],
+    "key_quotes": [
+      "Our campus is BEAUTIFUL! I didn't have a problem with it being in the middle of nowhere... fewer distractions!!!!!",
+      "Is the campus walkable? I'm pretty sure I'm not going to have a car until my sophomore year"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Zero career outcome data found in any student source",
+      "CS and other professional program employment rates are unmentioned",
+      "Cannot assess post-graduation job placement from available data"
+    ],
+    "key_quotes": [
+      "No relevant quotes found in source data",
+      "No relevant quotes found in source data"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Primary appeal is sub-20k all-in cost for out-of-state students",
+      "Positioned as a budget fallback, not a first-choice destination",
+      "Niche A-minus grade suggests decent return on a low price point"
+    ],
+    "key_quotes": [
+      "Go to an 'unknown' oos school like... alcorn state... that cost under 20k/yr total",
+      "Niche ranks Alcorn No. 2 on its 2026 list of the Best HBCU Schools in America"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong HBCU pride and community identity define the Alcorn experience",
+      "Band, dance, and athletics culture is genuinely world-class at this level",
+      "Academic and professional life are invisible in student discourse"
+    ],
+    "key_quotes": [
+      "I was born with purple and gold in my blood stream for a reason",
+      "I love it how you promote the true meaning of HBCU positivity and dance!",
+      "Good job to the entire band! The dancers showed out!!"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: campus locked down due to HBCU-targeted email threats in 2025",
+      "Visibility: school primarily chosen as budget fallback, not academic destination",
+      "Isolation: extreme rural location with no car creates real access issues",
+      "Academics: zero student discussion of classes, professors, or career prep"
+    ],
+    "key_quotes": [
+      "Alcorn State University will resume operations at 12 p.m. today following email threats received by several HBCUs, including Alcorn",
+      "Go to an 'unknown' oos school like... alcorn state... that cost under 20k/yr total",
+      "Is the campus walkable? I'm pretty sure I'm not going to have a car until my sophomore year"
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Golden Girls are nationally recognized and a genuine source of campus pride",
+      "Band culture creates an unusually tight-knit, high-energy community identity",
+      "Rural isolation actually praised by alumni as focus-enhancing environment"
+    ],
+    "key_quotes": [
+      "Our campus is BEAUTIFUL! I didn't have a problem with it being in the middle of nowhere... fewer distractions!!!!!",
+      "Good job to the entire band! The dancers showed out!! As prior HBCU band member myself I love to see these kids doing what they love!! Enjoy it cause you will surely miss it",
+      "They are all good in their respective styles... the cleanliness of a J-sette, and a hump of a GG!"
+    ],
+    "score": 7
+  }
+}

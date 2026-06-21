@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "Multiple named dorms exist; some buildings date back decades",
+      "Freshman dorms like Camille Shade Hall have private bathrooms in some rooms",
+      "Alumni note demolished buildings and changing dorm landscape since early 2000s"
+    ],
+    "key_quotes": [
+      "Your room is cute i love the chandelier and all the wall art your lucky to have a room with a bathroom your freshman year",
+      "That's not the jones hall I stayed in... damn I miss SU... trying to get my sons to go there it's a family tradition",
+      "Is Dunn still open? What about mayberry?"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Football games and band culture are the dominant social experience",
+      "Bayou Classic is described as a guaranteed blast for atmosphere",
+      "Hazing culture in Greek life and even band is a real documented concern at HBCUs broadly"
+    ],
+    "key_quotes": [
+      "are you able to come to Bayou Classic? if ever you come, I'd suggest Bayou Classic. Or Southern vs Texas Southern, it's a Guaranteed Blast!",
+      "It's not just the D9 orgs! They're hazing you to be a part of the band, welcome you to the freshman dorm, honor societies, etc….especially at HBCUs!!",
+      "I love the energy"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No direct student feedback on campus dining found in data",
+      "Cannot score meaningfully without specific complaints or praise",
+      "Prospective students should ask current students directly about meal options"
+    ],
+    "key_quotes": [
+      "No dining-specific quotes available from this data set"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mental health support data found for Southern University specifically",
+      "Hazing-related sleep deprivation and physical abuse at HBCUs broadly documented",
+      "Transfer student from small school to large SEC-style school reported improved mental health"
+    ],
+    "key_quotes": [
+      "The irony of going to college to find a way out of a drug infested, abusive, and gang inherited environment. To go to college be arrested from the same thing you tried to leave...",
+      "Everyone seems sooo much happier and more carefree. I feel my mental health has drastically improved",
+      "Getting yo' ass beat to be a part of an organization is such a disgrace"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Southern University has used transcript holds over unpaid balances",
+      "Students have actively researched whether this practice is legal under new federal rules",
+      "Administration responsiveness to financial aid issues is unclear from data"
+    ],
+    "key_quotes": [
+      "Has anyone dealt with southern University holding their transcripts due to an unpaid balance. I thought a new federal law that schools weren't allowed to hold transcripts due to a balance?"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Psychology program inquiry raised but not answered in available data",
+      "Student-to-teacher ratio and SAT requirements were asked but unanswered publicly",
+      "NASA Artemis II connection suggests some research prestige exists"
+    ],
+    "key_quotes": [
+      "If you don't mind can you please inform me on the student to teacher ratio and required sat score? Do you know rather it has a good psychology program?",
+      "Southern University connection tied to historic NASA Artemis II mission"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "University was actively searching for a new system president as recently as reported",
+      "Search process involved legal counsel and transparency concerns around public records",
+      "Transcript holds for unpaid balances suggest rigid administrative enforcement"
+    ],
+    "key_quotes": [
+      "Universities sometimes use search firms to shield certain documents from public records requests",
+      "Has anyone dealt with southern University holding their transcripts due to an unpaid balance"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Baton Rouge, Louisiana with off-campus housing options nearby",
+      "Cadence Apartments and Sherwood Forest area mentioned as local housing zones",
+      "Canadian fan traveled specifically for the football and band experience"
+    ],
+    "key_quotes": [
+      "I am a mid 30's Canadian and really want to check out a Southern University football game. I love the band and I love the energy. It's down in Baton Rouge, LA",
+      "Lease Transfer: Hey does anybody want to move in a 2x2 at the cadence apartments"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Marshall Faulk adding a Southern standout to coaching staff shows alumni reach in sports",
+      "No data on career placement rates or employer relationships outside athletics",
+      "NASA connection is the one standout professional pipeline mentioned"
+    ],
+    "key_quotes": [
+      "Marshall Faulk to add former Southern standout to coaching staff",
+      "Southern University connection tied to historic NASA Artemis II mission"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "No tuition cost or scholarship data specific to Southern University in this dataset",
+      "Transcript holds over balances suggest financial pressure on students is real",
+      "HBCU experience and band culture provide strong intangible value for the right student"
+    ],
+    "key_quotes": [
+      "Has anyone dealt with southern University holding their transcripts due to an unpaid balance",
+      "damn near everyone in my family went to SU... it's a family tradition"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Southern University is defined by its legendary marching band the Human Jukebox",
+      "Deep family tradition and HBCU pride drive multigenerational loyalty",
+      "Administrative instability and financial bureaucracy temper an otherwise spirited campus culture"
+    ],
+    "key_quotes": [
+      "damn near everyone in my family went to SU... it's a family tradition",
+      "I love the band and I love the energy. I've learned that it's down in Baton Rouge, LA",
+      "The band director pretty much told the announcer fuck you!! Shit had me rolling!! That made me like this band even more"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Financial Aid**: Transcript holds for unpaid balances actively reported by students",
+      "**Hazing**: Documented hazing culture at HBCUs extends beyond Greek life to bands and dorms",
+      "**Leadership Instability**: Active presidential search with legal counsel shielding records from public"
+    ],
+    "key_quotes": [
+      "Has anyone dealt with southern University holding their transcripts due to an unpaid balance. I thought a new federal law that schools weren't allowed to hold transcripts due to a balance?",
+      "It's not just the D9 orgs! They're hazing you to be a part of the band, welcome you to the freshman dorm, honor societies, etc….especially at HBCUs!!",
+      "Universities sometimes use search firms to shield certain documents from public records requests"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "The Human Jukebox marching band is genuinely world-class and emotionally unforgettable",
+      "Bayou Classic game experience is a bucket-list HBCU event drawing fans internationally",
+      "Alumni loyalty is multigenerational, meaning strong informal networks for those who plug in"
+    ],
+    "key_quotes": [
+      "as a trumpet player? this shit is the most flavorful, emotional performance i've ever heard in my life. the power this band holds is incredible",
+      "are you able to come to Bayou Classic? if ever you come, I'd suggest Bayou Classic. Or Southern vs Texas Southern, it's a Guaranteed Blast!",
+      "damn near everyone in my family went to SU... it's a family tradition for my family"
+    ],
+    "score": 8
+  }
+}

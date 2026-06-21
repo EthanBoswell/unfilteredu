@@ -120,6 +120,18 @@ SCHOOLS = [
     {"name": "Tulane University", "slug": "tulane", "subreddits": ["r/tulane"], "keywords": ["Tulane University", "Green Wave", "New Orleans Louisiana"]},
     # Sun Belt
     {"name": "James Madison University", "slug": "jmu", "subreddits": ["r/JMU"], "keywords": ["James Madison University", "JMU Dukes", "Harrisonburg Virginia"]},
+    # SWAC
+    {"name": "Prairie View A&M", "slug": "pvamu", "subreddits": ["r/PVAMU", "r/PrairieView"], "keywords": ["Prairie View A&M", "PVAMU", "Panther City", "Prairie View Texas", "HBCU Texas"]},
+    {"name": "Grambling State", "slug": "grambling", "subreddits": ["r/GramblingState"], "keywords": ["Grambling State", "Grambling", "Tigers", "Louisiana HBCU"]},
+    {"name": "Southern University", "slug": "southern", "subreddits": ["r/SouthernUniversity"], "keywords": ["Southern University", "Jaguars", "Baton Rouge HBCU"]},
+    {"name": "Jackson State", "slug": "jacksonstate", "subreddits": ["r/JacksonState"], "keywords": ["Jackson State", "JSU", "Tigers", "Mississippi HBCU"]},
+    {"name": "Alcorn State", "slug": "alcornstate", "subreddits": ["r/AlcornState"], "keywords": ["Alcorn State", "Braves", "Mississippi HBCU", "Lorman"]},
+    {"name": "Mississippi Valley State", "slug": "mvsu", "subreddits": ["r/MVSU"], "keywords": ["Mississippi Valley State", "MVSU", "Delta Devils", "Itta Bena"]},
+    {"name": "Alabama A&M", "slug": "aamu", "subreddits": ["r/AlabamaAM"], "keywords": ["Alabama A&M", "AAMU", "Bulldogs", "Normal Alabama HBCU"]},
+    {"name": "Alabama State", "slug": "alabamastate", "subreddits": ["r/AlabamaState"], "keywords": ["Alabama State", "ASU", "Hornets", "Montgomery HBCU"]},
+    {"name": "Florida A&M", "slug": "famu", "subreddits": ["r/FAMU", "r/FloridaAM"], "keywords": ["Florida A&M", "FAMU", "Rattlers", "Tallahassee HBCU"]},
+    {"name": "Texas Southern", "slug": "texassouthern", "subreddits": ["r/TexasSouthern"], "keywords": ["Texas Southern", "TSU", "Tigers", "Houston HBCU"]},
+    {"name": "Arkansas Pine Bluff", "slug": "uapb", "subreddits": ["r/UAPB"], "keywords": ["Arkansas Pine Bluff", "UAPB", "Golden Lions", "Arkansas HBCU"]},
 ]
 
 CATEGORIES = [

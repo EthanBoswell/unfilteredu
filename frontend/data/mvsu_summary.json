@@ -1,0 +1,161 @@
+{
+  "housing": {
+    "key_points": [
+      "Campus facilities visibly need renovation and state investment",
+      "Alumni recall adjusting to remote location and distance from home",
+      "No specific student housing complaints found in available data"
+    ],
+    "key_quotes": [
+      "Some restoration, revitalization, redo is in order",
+      "The first few weeks were rough adjusting to being so far from home"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Marching band is a standout, praised for high performance quality",
+      "HBCU community culture creates strong alumni loyalty and nostalgia",
+      "Football classics bring visibility but have caused organizational problems"
+    ],
+    "key_quotes": [
+      "Whoever made that drum part, ATE. that call-and-response from the tenors and basses, too cold",
+      "It still feels like home when I return",
+      "HBCUs need to stop playing in these classics. U lose a home game & the $$$?"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No student reviews of dining hall found in available data",
+      "Cannot assess food quality, variety, or meal plan value",
+      "Treat this category as unknown until you visit in person"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from the data provided"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No campus-specific mental health services data found",
+      "General data suggests rural HBCU campuses often lack robust support",
+      "Students should independently verify counseling availability before enrolling"
+    ],
+    "key_quotes": [
+      "No relevant MVSU-specific quotes available from the data provided"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "MVSU outperforms Harvard at moving poor students into higher income brackets",
+      "3.9% of all students go from poor family to rich adult vs Harvard's 1.8%",
+      "Strong economic mobility signal for low-income students specifically"
+    ],
+    "key_quotes": [
+      "Mississippi Valley State is 3.9% [poor-to-rich mobility] versus Harvard's 1.8%",
+      "Any of the schools that promise to meet 100% need without loans are a golden ticket for poor students"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Alumni praise professors as uniquely dedicated and memorable",
+      "No complaints about academic quality found in available data",
+      "Psychology and other programs represented but limited student detail"
+    ],
+    "key_quotes": [
+      "There are no professors on any campus like those at Valley",
+      "Valley is a wonderful experience"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Chicago Football Classic described as worst experience by head coach",
+      "Organizational failures at external events suggest coordination weaknesses",
+      "No direct student complaints about admin offices or bureaucracy found"
+    ],
+    "key_quotes": [
+      "There shouldn't be a lot of changes and confusion with a game",
+      "There needs to be a discussion with the promoter and management team to make sure things run smoothly"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus visually needs significant investment and beautification",
+      "Rural Mississippi location means isolation, especially for out-of-state students",
+      "Alumni still feel nostalgic about campus despite its limitations"
+    ],
+    "key_quotes": [
+      "This needs some real beautification. Some restoration, revitalization, redo is in order",
+      "Students already know this I'm sure but ya'll need to push for some kind of state funding",
+      "The first few weeks were rough adjusting to being so far from home"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Economic mobility data shows MVSU punches above its weight for poor students",
+      "Outperforms elite schools on converting low-income students to higher earners",
+      "No alumni career placement data or employer recruiting info found"
+    ],
+    "key_quotes": [
+      "Mississippi Valley State is 3.9% [poor-to-rich mobility rate]",
+      "The major you major in + the work you put in matters more"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong economic mobility for low-income students is a concrete ROI signal",
+      "Campus condition raises questions about where tuition dollars are going",
+      "State funding gaps appear to be impacting physical infrastructure quality"
+    ],
+    "key_quotes": [
+      "Ya'll need to push for some kind of state funding if ya'll haven't already",
+      "Mississippi Valley State is 3.9% [poor-to-rich mobility] — outperforming Harvard"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong HBCU pride and tight alumni community are genuine and consistent",
+      "Campus needs physical work but the culture and faculty loyalty are real",
+      "Best fit for students who want HBCU experience and economic opportunity"
+    ],
+    "key_quotes": [
+      "It still feels like home when I return",
+      "There are no professors on any campus like those at Valley",
+      "Valley is a wonderful experience"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Campus Condition:** Observers publicly call out need for major beautification and restoration",
+      "**Athletics Administration:** Head coach called an away classic 'worst experience of my life' due to poor organization",
+      "**Infrastructure Funding:** Campus appears underfunded with no clear state investment plan visible"
+    ],
+    "key_quotes": [
+      "This needs some real beautification. Some restoration, revitalization, redo is in order",
+      "HBCUs need to stop playing in these classics. U lose a home game & the $$$?",
+      "Ya'll need to push for some kind of state funding"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Marching band is legitimately elite and draws real competitive praise",
+      "Faculty dedication is consistently called out as above average by alumni",
+      "Economic mobility rate for poor students quietly beats Ivy League schools"
+    ],
+    "key_quotes": [
+      "Whoever made that drum part, ATE. too cold. Feel like it's the real song",
+      "There are no professors on any campus like those at Valley",
+      "Mississippi Valley State is 3.9% [poor-to-rich mobility] vs Harvard's 1.8%"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Thomas Hall dorm status unclear — students asking if it's still open",
+      "Band members may be grouped together in dedicated dorms",
+      "Limited firsthand dorm reviews; very little student commentary available"
+    ],
+    "key_quotes": [
+      "I notice that none of the videos about the dorms at A&M ever mention Thomas Hall (female dorm). Is it still open?",
+      "Are band members grouped in the same dorms?"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Party culture is prominent enough that students are warned about over-prioritizing it",
+      "Greek life is active with visible stone traditions on campus",
+      "Community atmosphere described as exceptionally welcoming, even by outsiders"
+    ],
+    "key_quotes": [
+      "One day us as a people want be hooked and stuck on parties but more so on changing and taking over the world.",
+      "I've NEVER felt so loved. My brothers and sisters treated me like family from the gate.",
+      "So next time you're on a HBCU campus you should not walk on Greek Stones if you are not a member of that organization."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No student reviews of dining halls found in any source",
+      "Zero specific complaints or praise about campus food",
+      "Prospective students and parents did not raise dining as a concern"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from the data."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Student was killed near campus, raising safety-related stress concerns",
+      "No mention of counseling services or mental health resources in any source",
+      "Safety anxiety expressed directly by a parent: 'You can't even send your daughter to college'"
+    ],
+    "key_quotes": [
+      "You can't even send your daughter to college! Praying for her family as I know her mother is devastated.",
+      "Our students are not safe.",
+      "Students rights now!"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarship process is opaque — students told to just call admissions",
+      "International transfer students unsure when or if they receive merit aid",
+      "Large scholarships (up to $68k over 4 years) are available and attract students from out of state"
+    ],
+    "key_quotes": [
+      "The enrollment fee payment is required for the transfer merit scholarship referral.",
+      "Anyone heard from Alabama A&M University after applying for their presidential scholarship through their website? You might need to call the admissions office.",
+      "My family wants me to go to AAMU cause I got a 68k scholarship there for 4 years."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "ABET-accredited engineering programs confirmed, a meaningful credential",
+      "Professors are accessible — students explicitly advised to build relationships with them",
+      "Very little detailed academic commentary; curriculum depth is largely undiscussed"
+    ],
+    "key_quotes": [
+      "By going to class you build relationships with the professors. You may need them in the future for recommendations or networking.",
+      "AAMU's program is ABET-accredited and just offers a lot.",
+      "I can't find anything about AAMU's program or if they also offer a guaranteed internship."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Scholarship inquiries go unanswered — students told to call rather than receive proactive updates",
+      "International students report confusion about scholarship notification timelines",
+      "No student commentary praising administrative responsiveness"
+    ],
+    "key_quotes": [
+      "You might need to call the admissions office.",
+      "When do they usually notify you about scholarships? Are transfer scholarships limited/competitive?",
+      "Do international transfer students actually receive decent merit aid there?"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is in Huntsville, Alabama — a mid-sized city with off-campus safety concerns",
+      "A student was shot and killed at a nearby off-campus apartment complex",
+      "Virtual tour exists but students want an in-person walking tour option"
+    ],
+    "key_quotes": [
+      "Man, I have been looking for this for weeks. I would love to do a walking tour though.",
+      "Going to a HBCU is the best thing I ever did in my life because they will take good care of you.",
+      "Horrible! You can't even send your daughter to college!"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data mentioned by any student or parent",
+      "Engineering students comparing AAMU to UAB partly based on internship guarantees UAB offers",
+      "ABET accreditation is the main cited career credential"
+    ],
+    "key_quotes": [
+      "UAB offers a guaranteed internship, and from my time talking to one of the students there, have a good program.",
+      "I can't find anything about AAMU's program or if they also offer a guaranteed internship.",
+      "Is UAB ABET accredited? Given that, I'd think beyond the guaranteed internship as relatively unimportant — total cost to you, fit, career outcomes matter more."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "$68k four-year scholarship packages reported — strong financial draw for out-of-state students",
+      "Students weighing AAMU against in-state options primarily on cost grounds",
+      "HBCU experience described as uniquely valuable in ways beyond tuition dollars"
+    ],
+    "key_quotes": [
+      "My family wants me to go to AAMU cause I got a 68k scholarship there for 4 years.",
+      "Going to a HBCU is the best thing I ever did in my life.",
+      "I qualify for Hope and the maximum amount of student aid from FAFSA."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong sense of community and Black excellence is the dominant emotional tone",
+      "Party culture is real and students are actively warned to stay focused",
+      "Outsiders who attended describe feeling immediately embraced and welcomed"
+    ],
+    "key_quotes": [
+      "I've NEVER felt so loved. My brothers and sisters treated me like family from the gate.",
+      "One day us as a people want be hooked and stuck on parties but more so on changing and taking over the world.",
+      "Going to a HBCU is the best thing I ever did in my life because they will take good care of you and help you grow into a strong young man or woman."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety: student shot and killed at nearby off-campus apartment complex**",
+      "**Administration: scholarship process opaque, students told to just call the office**",
+      "**Campus info: dorm status and program details hard to find even for serious prospects**"
+    ],
+    "key_quotes": [
+      "Our students are not safe.",
+      "You can't even send your daughter to college! She's a baby!",
+      "I can't find anything about AAMU's program or if they also offer a guaranteed internship."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Marching Maroon and White band is a major draw — auditions and on-site admissions offered",
+      "HBCU community culture creates unusually strong belonging even for non-Black students",
+      "New band director signals fresh energy and active recruitment happening now"
+    ],
+    "key_quotes": [
+      "I've NEVER felt so loved. My brothers and sisters treated me like family from the gate. I LOVE yall!",
+      "Join us for a special Meet & Greet with William J. Young, New Band Director of Alabama A&M University.",
+      "Going to a HBCU is the best thing I ever did in my life because they will take good care of you and help you grow into a strong young man or woman and you will always have a family."
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints about UAPB housing found in data",
+      "One UARK comment notes smallest dorm costs same as larger ones",
+      "Insufficient UAPB-specific housing data to draw conclusions"
+    ],
+    "key_quotes": [
+      "Room 432 was cursed. It's the smallest dorm in the whole of the maples and it COSTS THE SAME.",
+      "UARK hates their students I swear lol."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "City itself is deeply distressed, limiting off-campus social options",
+      "Mall and downtown are essentially ghost towns now",
+      "On-campus life appears to exist in isolation from the surrounding city"
+    ],
+    "key_quotes": [
+      "The first day there customers were running through the mall screaming. Then I heard 'they're shooting again'. I said 'Again?'",
+      "it will always be home for me because so many good things happen to me there"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "UAPB participates in food charity donations to community",
+      "No student complaints or praise about campus dining found",
+      "Insufficient data to assess dining quality or options"
+    ],
+    "key_quotes": [
+      "UAPB delivers food to charity"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Living in a declining, high-crime city creates chronic stress",
+      "No senior or support services exist in surrounding area",
+      "Students from struggling backgrounds face compounding pressures"
+    ],
+    "key_quotes": [
+      "I loved the ruralness of it, but I don't want to be stuck out in the middle of nowhere when I'm 90 years old",
+      "Pine Bluff is going through a lot these days but I pray that it gets better"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "No direct data on UAPB financial aid from students",
+      "City's economic collapse suggests students likely face financial hardship",
+      "UAPB as an HBCU may offer specific grants not mentioned in data"
+    ],
+    "key_quotes": [
+      "there were absolutely no services for senior citizens",
+      "factories and businesses closing down play a vital role in generating revenue"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "One alumna graduated and speaks positively about her UAPB experience",
+      "No complaints about academic quality in available data",
+      "Insufficient academic-specific feedback to assess rigorously"
+    ],
+    "key_quotes": [
+      "We have a beautiful University of Arkansas at Pine Bluff where I attended and graduated",
+      "When I lived there things were different and although I moved away in 2015 it will always be home"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "City government described as deeply corrupt by multiple commenters",
+      "Corrupt leadership blamed for economic decline affecting students",
+      "No UAPB-specific administration complaints but surrounding context is alarming"
+    ],
+    "key_quotes": [
+      "Corrupt city councils, through and through",
+      "They not solving no violent crimes. The town entire revenue is catch and release and re-catch again"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Pine Bluff is one of America's most distressed small cities",
+      "Downtown is a ghost town with crumbling buildings and no services",
+      "Crime, drugs, and gang activity are ongoing and well-documented"
+    ],
+    "key_quotes": [
+      "now it's like visiting the ruins of a once great city and the people who could turn things around left 30 years ago",
+      "At one point Main St. down from the court house was closed over a year because of crumbling buildings into the street",
+      "Born and raised in pine bluff. I ain't far now, but I damn sure don't live in the city limits."
+    ],
+    "score": 2
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Local job market is severely limited with factories and businesses closed",
+      "Most ambitious residents leave Pine Bluff at first opportunity",
+      "One UAPB grad moved away in 2015, suggesting limited local careers"
+    ],
+    "key_quotes": [
+      "I left at the first opportunity",
+      "our biggest blessing was our dad leaving for the military once he could",
+      "I escaped.....I mean moved away to the DFW area in 83 and haven't looked back"
+    ],
+    "score": 3
+  },
+  "value_for_money": {
+    "key_points": [
+      "UAPB as an HBCU historically offers lower tuition than flagship schools",
+      "Surrounding city offers almost nothing in return for student life investment",
+      "Students get a degree but sacrifice quality-of-life experience"
+    ],
+    "key_quotes": [
+      "We have a beautiful University of Arkansas at Pine Bluff where I attended and graduated",
+      "I wish the city well"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "UAPB alumni speak with genuine pride and warmth about the university itself",
+      "The surrounding city is in severe decline and colors the entire experience",
+      "Students who thrive here do so despite the environment, not because of it"
+    ],
+    "key_quotes": [
+      "We have a beautiful University of Arkansas at Pine Bluff where I attended and graduated. When I lived there things were different",
+      "I wish I was a millionaire with a heart for the people and a plan",
+      "it will always be home for me because so many good things happen to me there"
+    ],
+    "score": 4
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: Mall shooting mid-day was described as routine by locals",
+      "**City Decline**: Downtown has crumbling buildings, no services, ghost-town streets",
+      "**Crime**: Former police officer confirms long-standing violence and drug crisis with no resolution"
+    ],
+    "key_quotes": [
+      "Then I heard 'they're shooting again'. I said 'Again?'. Longest week of my life.",
+      "my senior year of high school Pine Bluff was listed as the city with the highest per capita murder rate on the PLANET",
+      "They not solving no violent crimes. The town entire revenue is catch and release and re-catch again"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "UAPB alumni show strong loyalty and genuine affection for the school",
+      "University actively engages with community through charity programs",
+      "For students who grow up in similar environments, UAPB feels like home"
+    ],
+    "key_quotes": [
+      "We have a beautiful University of Arkansas at Pine Bluff where I attended and graduated",
+      "UAPB delivers food to charity",
+      "it will always be home for me because so many good things happen to me there"
+    ],
+    "score": 6
+  }
+}

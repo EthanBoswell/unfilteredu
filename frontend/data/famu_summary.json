@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "New dorms actively recruiting top students as incentive",
+      "Freshmen banned from having cars on campus, workarounds exist",
+      "Older housing being demolished with replacement plans unclear"
+    ],
+    "key_quotes": [
+      "FAMU's new dorms are a draw for top students. It's part of a bigger trend.",
+      "FAMU demolishes aging campus complex, with replacement plans still unclear.",
+      "I NEED to have my car with me but don't know where I could park."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Marching 100 band is the undisputed cultural centerpiece of campus",
+      "Gospel choir, cheerleading, and athletics create strong community energy",
+      "Students actively seeking friend groups, suggesting social navigation takes effort"
+    ],
+    "key_quotes": [
+      "Who else can be the main attraction at a football game and not be the football team?",
+      "Is there a FAMU club to make friends? I'm looking to make friends.",
+      "I'm looking for friends for Tallahassee FL."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student data on dining quality or options available",
+      "Campus food experience not mentioned in any tours or reviews",
+      "Tallahassee's Black-owned restaurant scene praised as a cultural asset nearby"
+    ],
+    "key_quotes": [
+      "More than a meal: How Black-owned restaurants are shaping Tallahassee's culture."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support resources mentioned by students",
+      "Financial stress and bureaucratic failures are clear stressors for students",
+      "Transfer student described surgery, SAP disqualification, and aid cutoff hitting simultaneously"
+    ],
+    "key_quotes": [
+      "I submitted a SAP appeal for the fall, but approval came too late... I only found out by checking the financial aid website.",
+      "I turned my life around 3 years ago. I was strung out. I came from a crappy family."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "SAP appeal process is slow, opaque, and punishing for students in crisis",
+      "Out-of-state enrollment cap means OOS students should apply Early Action",
+      "Students report getting summer admission when they applied for fall, complicating aid"
+    ],
+    "key_quotes": [
+      "In October, I was disqualified from SAP for not attending the fall semester, but I only found out by checking the financial aid website.",
+      "We were advised to apply Early Action due to the limit on OOS.",
+      "I need to get a loan because I'm not getting anything from the government and I haven't heard back from any scholarships."
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Pharmacy program has a strong, loyal alumni base and inspires many",
+      "Biology program questioned versus Xavier for pre-med pipeline strength",
+      "Forbes ranked FAMU online programs #1 among HBCUs; new PhD in Biology approved"
+    ],
+    "key_quotes": [
+      "The math started looking like the Matrix.",
+      "Xula is a much bigger school for pre-med. Three times as many med school applicants, even though it is a much smaller school.",
+      "This has inspired me to fulfill my dream of attending FAMU and majoring in pharmacy."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "New president Marva Johnson strongly disapproved by campus community before taking office",
+      "Alumni delivered 'scathing rebuke' at Board of Trustees meeting publicly",
+      "Financial leadership instability: another fiscal officer departing amid uncertainty"
+    ],
+    "key_quotes": [
+      "Poll shows FAMU community strongly disapproves of incoming president Marva Johnson just days before her term begins.",
+      "FAMU alums deliver scathing rebuke of President Johnson at BOT meeting.",
+      "Maybe someone will finally answer the phone now and actually start helping students and potential students."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Tallahassee is affordable; FSU proximity creates a parallel college-town atmosphere",
+      "FAMU Law School is in Orlando, not Tallahassee — a key surprise for law hopefuls",
+      "Campus is evolving with new facilities but some older buildings being torn down"
+    ],
+    "key_quotes": [
+      "I would love to see a tour of our College of Law, located in Orlando.",
+      "It's good to know that it's evolved since my days as a student at FAMU.",
+      "Much of what this video presents are new offerings from my days as a student at FAMU."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Notable alumni include NASA engineer, U.S. Rep., and Georgia governor candidate",
+      "Pharmacy graduates report strong career outcomes and NAPLEX readiness",
+      "HBCU network and alumni loyalty appear to be real professional assets"
+    ],
+    "key_quotes": [
+      "FAMU grad Lakiesha Hawkins helped steer NASA's Artemis II into history.",
+      "Saw this video a long time ago when I was still enlisted in the Army. Bam! I start medical school in Texas in July.",
+      "I went to pharmacy school and got registered. Thank you, still love this video."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Out-of-state students face steep costs with limited merit aid clarity",
+      "Florida Bright Futures scholarship makes in-state attendance very cost-effective",
+      "Students frequently choosing FAMU as safety but unsure about financial packages"
+    ],
+    "key_quotes": [
+      "Famu is my first choice... My parents cannot provide me with a straight answer when I ask them if they can afford to help me pay.",
+      "I qualify for 75% bright futures and I got a 1000 dollar scholarship from a fraternity.",
+      "I need to get a loan because I'm not getting anything from the government."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong Black cultural identity and pride is the school's defining characteristic",
+      "Community feel is genuine; alumni remain deeply emotionally connected to FAMU",
+      "Bureaucratic friction is real, but students who stick through it feel rewarded"
+    ],
+    "key_quotes": [
+      "Everything we do is epic, one of a kind and full of cultural significance.",
+      "I went to FSU but probably should have gone to FAMU… just being close to all that went on there was exciting.",
+      "I've dreamed of going to FAMU since I was a little girl."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Administration: new president opposed by community, alumni, and BOT before day one",
+      "Admissions: transcripts frequently lost or unprocessed, applications cancelled without warning",
+      "Financial Aid: SAP disqualification notices sent only via portal, no proactive outreach to students"
+    ],
+    "key_quotes": [
+      "Your application has been cancelled for the term which you applied for admission... I have proof on my side that I sent everything.",
+      "I was disqualified from SAP for not attending the fall semester, but I only found out by checking the financial aid website.",
+      "FAMU sees donor exodus despite fundraising bump as leadership alienates base."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Marching 100 is a nationally recognized performance institution, not just a band",
+      "Gospel choir is extraordinary in quality — viral-level performances on record",
+      "$4 million student investment fund gives business students real Wall Street experience"
+    ],
+    "key_quotes": [
+      "This is Mozart, Handel and Bach all rolled into one.",
+      "With $4 million fund, FAMU students get a real-world shot at Wall Street.",
+      "Who else can be the main attraction at a football game and not be the football team?"
+    ],
+    "score": 9
+  }
+}
