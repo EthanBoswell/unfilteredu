@@ -39,7 +39,7 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
         setQuoteIndex((i) => (i + 1) % shuffledQuotes.length);
         setQuoteVisible(true);
       }, 400);
-    }, 4000);
+    }, 6000);
     return () => clearInterval(interval);
   }, [shuffledQuotes.length]);
 
