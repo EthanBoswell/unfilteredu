@@ -118,8 +118,6 @@ SCHOOLS = [
     {"name": "Georgetown University", "slug": "georgetown", "subreddits": ["r/georgetown"], "keywords": ["Georgetown University", "Hoyas", "Washington DC"]},
     {"name": "Emory University", "slug": "emory", "subreddits": ["r/EmoryUniversity"], "keywords": ["Emory University", "Eagles", "Atlanta Georgia"]},
     {"name": "Tulane University", "slug": "tulane", "subreddits": ["r/tulane"], "keywords": ["Tulane University", "Green Wave", "New Orleans Louisiana"]},
-    # Sun Belt
-    {"name": "James Madison University", "slug": "jmu", "subreddits": ["r/JMU"], "keywords": ["James Madison University", "JMU Dukes", "Harrisonburg Virginia"]},
     # SWAC
     {"name": "Prairie View A&M", "slug": "pvamu", "subreddits": ["r/PVAMU", "r/PrairieView"], "keywords": ["Prairie View A&M", "PVAMU", "Panther City", "Prairie View Texas", "HBCU Texas"]},
     {"name": "Grambling State", "slug": "grambling", "subreddits": ["r/GramblingState"], "keywords": ["Grambling State", "Grambling", "Tigers", "Louisiana HBCU"]},
@@ -145,6 +143,7 @@ SCHOOLS = [
     {"name": "Troy University", "slug": "troy", "subreddits": ["r/TroyUniversity"], "keywords": ["Troy University", "Trojans", "Troy Alabama"]},
     {"name": "ULM", "slug": "ulm", "subreddits": ["r/ULMonroe"], "keywords": ["University of Louisiana Monroe", "ULM Warhawks", "Monroe Louisiana"]},
     {"name": "Louisiana", "slug": "louisiana", "subreddits": ["r/RaginCajuns"], "keywords": ["University of Louisiana Lafayette", "Ragin Cajuns", "Lafayette Louisiana"]},
+    {"name": "James Madison University", "slug": "jmu", "subreddits": ["r/JMU"], "keywords": ["James Madison University", "JMU Dukes", "Harrisonburg Virginia"]},
     {"name": "Arkansas State", "slug": "arkansasstate", "subreddits": ["r/ArkansasState"], "keywords": ["Arkansas State University", "Red Wolves", "Jonesboro Arkansas"]},
 ]
 
