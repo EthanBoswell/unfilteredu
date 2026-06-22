@@ -1,0 +1,165 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm furniture unchanged since at least 2013, possibly older",
+      "Most students move off-campus after freshman or sophomore year",
+      "Scott Hall is a known dorm; room layouts very consistent"
+    ],
+    "key_quotes": [
+      "I see they haven't changed furniture since 2013-2014 when I was there",
+      "She was there as a freshman and sophomore 14' and 15', moving off campus after that",
+      "I will be living in 122 D this fall- pretty crazy that the tour of the dorm I will be living at is the exact spot"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "ECU has a strong party reputation; nicknamed 'G-Vegas'",
+      "Campus is dead during the day on weekends — students sleep it off",
+      "Sup Dogs bar is a student landmark worth knowing about"
+    ],
+    "key_quotes": [
+      "G-Vegas comes alive at night",
+      "The students could have been sleeping off their fun from the night before",
+      "SUP DOGS!! Best Bar!!"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall feedback in available data",
+      "Off-campus bar scene dominates student food/social culture",
+      "Sup Dogs is the most mentioned food/drink destination by name"
+    ],
+    "key_quotes": [
+      "How you gonna not give Sup Dogs a shoutout on here!!!",
+      "Best Bar !! Make sure to holla at Brett !!"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mental health support data available from sources",
+      "Heavy party culture may mask stress or wellbeing issues",
+      "Cybersecurity students describe extremely intense daily routines"
+    ],
+    "key_quotes": [
+      "I've been a cyber security major for 3 years and not once did I wake up at 5:30am to study",
+      "I'm totally in love w his routine — He achieves his goals every single day, no negative people or energy"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "ECU is widely considered a safety school, implying lower cost barrier",
+      "No specific financial aid complaints or praise in data",
+      "Reciprocal in-state tuition programs mentioned as relevant context"
+    ],
+    "key_quotes": [
+      "I'll agree that it's a safety school, but it is a really cool campus",
+      "WI, MN, IL, and MI have certain schools that you can get in state tuition if you live in any one of those states"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Perceived as a safety school academically by prospective students",
+      "Cybersecurity program exists and has engaged, hardworking students",
+      "No strong praise or complaints about academic rigor in data"
+    ],
+    "key_quotes": [
+      "I'll agree that it's a safety school, but it is a really cool campus",
+      "I've been a cyber security major for 3 years",
+      "College is not easy and there is a ton to learn in computers"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Admitted Student Day 2020 was cancelled with no alternative offered",
+      "No direct complaints about administration in the data",
+      "Students had to rely on YouTube tours as substitute for campus visits"
+    ],
+    "key_quotes": [
+      "Since admitted student day 2020 has been canceled we are touring the dorms via youtube",
+      "We appreciate this video and all of the others"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus described as relatively small and easy to walk",
+      "Greenville is rural but not extreme — 'still in a corn field'",
+      "Campus has improved significantly in the last 15 years"
+    ],
+    "key_quotes": [
+      "That campus has had a ton of improvements in last 15 years but its still in a corn field",
+      "Greenville is definitely not middle of nowhere you have to go further east for that",
+      "ECU is a relatively small campus"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data present in sources",
+      "Cybersecurity is an active program with motivated students",
+      "Safety school reputation may affect employer perception"
+    ],
+    "key_quotes": [
+      "I've been a cyber security major for 3 years",
+      "I'll agree that it's a safety school"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Lower admissions bar makes it accessible without massive debt risk",
+      "Older dorm infrastructure suggests reinvestment may be slow",
+      "Campus improvements happening but pace is gradual"
+    ],
+    "key_quotes": [
+      "I'll agree that it's a safety school, but it is a really cool campus",
+      "I see they haven't changed furniture since 2013-2014 when I was there"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong campus spirit and pirate identity; football culture present",
+      "Night life and bar scene define the ECU social experience",
+      "Daytime campus can feel empty especially on weekends"
+    ],
+    "key_quotes": [
+      "Loads of campus spirit!",
+      "G-Vegas comes alive at night",
+      "ECU Is An Absolute Zoo"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** Widely self-identified as a safety school by students and visitors",
+      "**Infrastructure:** Dorm furniture not updated in 10+ years per alumni",
+      "**Campus Life:** Daytime campus unusually quiet; activity concentrated at night"
+    ],
+    "key_quotes": [
+      "I'll agree that it's a safety school",
+      "I see they haven't changed furniture since 2013-2014 when I was there",
+      "The students could have been sleeping off their fun from the night before"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "G-Vegas nickname signals a genuinely active and fun nightlife scene",
+      "Sup Dogs bar is a beloved local institution with strong student loyalty",
+      "Campus is small enough to navigate easily — low stress commute between classes"
+    ],
+    "key_quotes": [
+      "G-Vegas comes alive at night",
+      "SUP DOGS!! Best Bar !!",
+      "ECU is a relatively small campus"
+    ],
+    "score": 7
+  }
+}

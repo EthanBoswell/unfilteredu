@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Residential college system is central to social identity at Rice",
+      "Students risk knowing only people from their own college",
+      "System creates tight-knit communities but limits broader social exposure"
+    ],
+    "key_quotes": [
+      "Things can become stale fast because of too much familiarity",
+      "Unless you're a sports standout or super genius, you can't in most cases 'have it all'",
+      "Rice is honestly so chill and has a great mix of rigor and activity"
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "Beer Bike is a major campus tradition with cult-like following",
+      "Social scene smaller than UT Austin; explicitly less party-focused",
+      "Residential college loyalty can limit meeting people outside your college"
+    ],
+    "key_quotes": [
+      "I'm confused... I thought the second Christmas would be referring to Baker Christmas",
+      "UT seems more exciting because of the large student body and party scene",
+      "Is it true that Rice is a sorta quirky school?"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Dining was once celebrated for cinnamon rolls; quality reportedly declined after chef left",
+      "Food rated positively overall in student Q&A videos",
+      "Residential college serveries require student ID — no exceptions, even for alumni"
+    ],
+    "key_quotes": [
+      "The chef known for his rolls suddenly left Rice last academic year. Not quite been the same since",
+      "The food at Rice definitely looks better than at my school",
+      "I barged into the South Servery and was accosted for my student ID"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No specific mental health complaints surfaced in Rice-specific posts",
+      "Academic rigor is intense; STEM grading difficulty flagged by prospective students",
+      "Compared favorably to Yale and Stanford on mental health support in peer discussion"
+    ],
+    "key_quotes": [
+      "One of my friends at Rice told me it's hard to get a good grade in CS/STEM classes, and GPA matters a lot since I want to go into consulting",
+      "Rice intro physics classes is pretty shit. I self-learn most of them",
+      "Rice was always on my list — academic but also lax and welcoming"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cost is the single most-repeated concern from prospective students",
+      "International students express anxiety about availability of substantial aid",
+      "Middle-income students report getting only partial aid, leaving large gaps"
+    ],
+    "key_quotes": [
+      "It's my dream university but super expensive, fingers crossed I can get a scholarship",
+      "I got accepted and only got 15% out of $1,180 scholarship — my dad won't let me in until it's all paid",
+      "I couldn't find any attendee from my region; we usually need substantial aid"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "STEM rigor is high; intro physics and CS classes specifically called difficult",
+      "Humanities programs described as less strong relative to STEM",
+      "Academic flexibility praised; students can combine engineering with policy or other fields"
+    ],
+    "key_quotes": [
+      "Rice intro physics classes is pretty shit. I self-learn most of them",
+      "Rice is well-rounded, maybe less for humanities",
+      "I want to combine engineering/tech with public policy — Rice supports that"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Rice announced 20% enrollment expansion — seen as student-friendly and mission-driven",
+      "Admissions process includes unique 'Rice Box' image upload requirement",
+      "Administration actively sends recruitment emails with fee waivers"
+    ],
+    "key_quotes": [
+      "Rice University is actually increasing the student body by 20% over the next five years — because they see their mission as educating qualified young people",
+      "Rice sends emails: 'We all know owls are wise, which means they wouldn't procrastinate'",
+      "Everyone knows HPD will not cross the hedges unless someone is dead"
+    ],
+    "score": 7
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus universally described as stunning — Hogwarts comparisons are common",
+      "Houston proximity gives access to energy/business sector but city requires a car",
+      "Outdoor spaces and sunny weather frequently cited as mood-boosting"
+    ],
+    "key_quotes": [
+      "No lens can do its campus justice. It's truly beautiful",
+      "I absolutely love being able to spend so much time outside, it really brightens the day",
+      "I would like to know about public transportation — if I would need a car"
+    ],
+    "score": 9
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Houston location creates strong pipeline into energy, IB, and consulting",
+      "National name recognition outside Texas is a genuine concern raised by students",
+      "CS and premed students ask repeatedly about internship access and feeder strength"
+    ],
+    "key_quotes": [
+      "Rice is next to Houston, which makes it a good place for business — but does it have name recognition outside Texas?",
+      "What are chances of international grads getting internships and opportunities?",
+      "What are internship opportunities for CS majors? I'm deciding between A&M and Rice"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Tuition is elite-tier with aid gaps that deter middle-income families",
+      "For students who receive strong aid, value is considered excellent",
+      "Prestige-to-cost ratio debated when compared to in-state options like UT"
+    ],
+    "key_quotes": [
+      "Rice ought to be the best at those prices for tuition — good grief",
+      "Drive across town for 20 minutes and get a great education from several parallel universities",
+      "I committed to Rice as a CS major — idiot me decided it's prestigious. Then COVID hit Houston"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Described as 'academic but lax and welcoming' — the anti-elitist elite school",
+      "Quirky, tight-knit culture with strong residential college identity",
+      "Underrated nationally; students and alumni express genuine pride and affection"
+    ],
+    "key_quotes": [
+      "Rice is so underrated — heavy prestige but not elitist, diverse, academic but also lax and welcoming",
+      "God damn Texas Hogwarts",
+      "I've officially committed to Rice and couldn't be any happier — Rice is my dream school"
+    ],
+    "score": 8
+  },
+  "red_flags": {
+    "key_points": [
+      "**Cost:** Tuition shock hits middle-income families hard; aid gaps are real and documented",
+      "**Social Bubble:** Residential college system can trap students in a small social loop",
+      "**STEM Grading:** Intro-level physics and CS classes described as poorly taught and sink-or-swim"
+    ],
+    "key_quotes": [
+      "My friend at Rice told me it's hard to get a good grade in CS/STEM, and GPA matters for consulting",
+      "Rice intro physics classes is pretty shit — I self-learn most of them",
+      "Things can become stale fast because of too much familiarity [within residential colleges]"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Beer Bike and Baker Christmas are beloved traditions outsiders rarely know about",
+      "Willy's statue has ashes inside — campus lore runs deep",
+      "Questbridge and ED pathways have helped low-income students access full funding"
+    ],
+    "key_quotes": [
+      "I watched this video ages ago and it made me decide to apply through Questbridge — and I got in!",
+      "I had no idea Willy's ashes were in the statue",
+      "I'm confused — I thought the second Christmas would be Baker Christmas, not Beer Bike"
+    ],
+    "score": 8
+  }
+}

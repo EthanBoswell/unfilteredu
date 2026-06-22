@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Move-in units sometimes uncleaned with dirty carpets needing replacement",
+      "On-campus apartments described as expensive for quality received",
+      "New dorms praised; older units have maintenance issues"
+    ],
+    "key_quotes": [
+      "The apartments and houses on campus are super pricey so for it to not even be cleaned is really ridiculous",
+      "The carpet should have been changed BEFORE you moved in",
+      "Nothing was cleaned and the bathroom roof was caving in and leaking water from the dorm above mine"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Known as a commuter-heavy school; weak residential social scene",
+      "Students warn social life is underwhelming compared to peers",
+      "Close proximity to home for many locals limits campus bonding"
+    ],
+    "key_quotes": [
+      "I know someone who regretted going to UNCC because it doesn't have a good social scene",
+      "I'd also look into if some of the state schools you listed here are 'commuter' schools and that may have an effect on the sense of community",
+      "25 minutes from my house which could be both a pro and con... I am kind of sick of my hometown"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Almost no student discussion of dining quality in available data",
+      "Dorm wifi described as crappy; basic amenities questioned",
+      "No strong praise or specific complaints surfaced from reviews"
+    ],
+    "key_quotes": [
+      "You get to eat home cooked meals and don't have to rely on crappy wifi",
+      "I still remember the smells of the dorms, made my allergies crazy wild"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Campus shooting in 2019 left lasting trauma for community",
+      "Imposter syndrome and academic pressure cited by current students",
+      "No specific mention of counseling services quality from students"
+    ],
+    "key_quotes": [
+      "I forgot to post because I was busy and sad",
+      "Shootings are scary and something has to be done. Enough is enough",
+      "Rest in Peace Riley Howell and Ellis Parlier. It was super heroic that Howell jumped in to save other people's lives"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Levine Scholarship is a standout full-ride opportunity worth pursuing",
+      "Full ride to UNCC often recommended over full-pay UNC Chapel Hill",
+      "Merit aid accessible; multiple students chose UNCC over debt at NC State"
+    ],
+    "key_quotes": [
+      "Saving less than 100k sounds like a dream and charlotte is a nice city; I'd choose this one",
+      "Accepted to UNC but recommend UNCC for you. Make the grade, crush the MCAT and use the 100k for med school",
+      "I got a scholarship in UNC Charlotte but on the other side I will have to take a loan to pay for NC State"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "CS and engineering programs respected but not elite; solid for the region",
+      "One freshman said CS program felt 'too packed' and transferred out",
+      "Honors College adds rigor; Belk business school has strong local reputation"
+    ],
+    "key_quotes": [
+      "I'm a freshman at UNC Charlotte right now and I highly recommend against going here — the CS program here is too packed and it's a bigger college than I am comfortable with",
+      "UNC Charlotte's mechanical engineering program is really good to my knowledge",
+      "Charlotte is one of the largest banking cities in the country — 2nd or 3rd behind NYC"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Admissions communication issues reported; EA applicants bumped to RD without notice",
+      "Housing maintenance response praised in some cases, condemned in others",
+      "Residency appeal process created stress and uncertainty for applicants"
+    ],
+    "key_quotes": [
+      "They contacted her last week thanking her for applying regular decision — she says they didn't look at her Common App until Nov 4th",
+      "I appealed and got my number, but it is waiting on approval — I am really worried",
+      "I'm glad everything got handled though"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus consistently praised as beautiful with notable upgrades in recent years",
+      "City of Charlotte offers strong job market, especially finance and tech",
+      "Significant crime just outside campus is a repeated specific concern"
+    ],
+    "key_quotes": [
+      "A ton of crime right outside of campus",
+      "It's a beautiful campus and the weather is pretty good",
+      "I think those stairs are gonna kill me — but the campus is beautiful"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Charlotte city location gives real advantage for finance and banking internships",
+      "CS grads have strong local job market; big tech less certain",
+      "Engineering seen as solid but NC State brand carries more weight regionally"
+    ],
+    "key_quotes": [
+      "One of the best places for CS jobs in the state",
+      "Charlotte is one of the largest banking cities in the country — 2nd or 3rd behind NYC",
+      "No disrespect to Charlotte but I feel like I'll have less opportunity there as an engineer than anywhere else"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition makes UNCC a strong value, especially with merit aid",
+      "Full ride here often beats full-pay at higher-ranked NC schools",
+      "Out-of-state costs reduce value significantly; limited OOS aid"
+    ],
+    "key_quotes": [
+      "Saving less than 100k sounds like a dream — I'd choose this one but I'm speaking as low income so money always comes first",
+      "UNC Charlotte is a great school in NC if you don't care about the prestige",
+      "Smart to prioritize cost in your decision making process; NC has a strong state university system"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter culture dominates; not a traditional residential campus experience",
+      "Diverse student body with strong local and regional ties to Charlotte",
+      "Students use it pragmatically — value over prestige is the common framing"
+    ],
+    "key_quotes": [
+      "My current college is UNC Charlotte, which is a local college that has 80% acceptance rate and I really don't like attending",
+      "I know someone who regretted going to UNCC because it doesn't have a good social scene",
+      "The campus is beautiful but I think those stairs are gonna kill me"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Housing:** Expensive on-campus apartments delivered uncleaned with broken fixtures at move-in",
+      "**Safety:** Campus experienced a deadly shooting in 2019 on last day of class",
+      "**Admissions Admin:** Students silently bumped from EA to RD without explanation or notification"
+    ],
+    "key_quotes": [
+      "The apartments and houses on campus are super pricey so for it to not even be cleaned is really ridiculous",
+      "There was a shooting at UNC Charlotte on the last day of class",
+      "They contacted her thanking her for applying regular decision — she never knew she missed EA"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Levine Scholars full-ride program is elite and highly underrated nationally",
+      "Charlotte's finance sector gives business students real internship pipelines",
+      "Honors College elevates experience significantly for qualifying students"
+    ],
+    "key_quotes": [
+      "I was a Levine Scholar — lots of great memories, can't wait to see UNCC continue to grow",
+      "Charlotte is one of the largest banking cities in the country — 2nd or 3rd behind NYC",
+      "Only two miles from IKEA! Seriously though — you can build community wherever you go"
+    ],
+    "score": 7
+  }
+}

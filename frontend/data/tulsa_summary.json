@@ -1,0 +1,163 @@
+{
+  "housing": {
+    "key_points": [
+      "Hardesty Hall recommended most for social freshmen",
+      "Honors dorms have no real difference from regular dorms",
+      "Limited student discussion suggests housing isn't a major complaint"
+    ],
+    "key_quotes": [
+      "Hardesty or John Mabee",
+      "There's really no difference, you could go to the first or second floor anytime you wanted"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Small campus means limited social scene outside organizations",
+      "Party scene exists but not prominently discussed",
+      "D1 athletics provide some campus energy and community"
+    ],
+    "key_quotes": [
+      "Go to the buck",
+      "I've always liked Tulsa for some reason",
+      "There's enough diversity in interests/organizations that you stand a pretty good chance of making a good friend group"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No student comments found about dining halls",
+      "Cannot assess quality or variety from available data",
+      "Absence of data is notable — not a selling point"
+    ],
+    "key_quotes": [],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct student comments about mental health resources",
+      "Competitive private university atmosphere noted as stressful",
+      "Small campus means less anonymity which can add pressure"
+    ],
+    "key_quotes": [
+      "because it's a competitive private university, there is occasionally a sense of stress"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "National Merit scholarship recently cut — no longer a full ride",
+      "Now covers only tuition and housing, not fees or food",
+      "Strong merit aid still available but less generous than advertised"
+    ],
+    "key_quotes": [
+      "the University of Tulsa's national merit semifinalist scholarship package is no longer a full-ride. It only covers tuition and housing",
+      "Not even my safety school is completely affordable anymore. I'm so cooked",
+      "So one thing about TU is they absolutely provide a lot of financial aid. Speak to your enrollment advisor and usually if you tell them the number you need in order to commit they'll find a way to get there"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "STEM and chemistry programs genuinely strong with research access",
+      "Liberal arts cuts in 2019 gutted multiple departments",
+      "Small class sizes enable undergrad research opportunities rare elsewhere"
+    ],
+    "key_quotes": [
+      "She already has been hooked up with working on research with a professor (something that not a lot of schools can offer a freshman)",
+      "TU is a great school but only for specific areas of study. If you are going for English or general Humanities I would steer clear",
+      "The chemistry program is strong at TU, and TURC is a great opportunity if you are planning on going to grad school"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "School described as 'broke as hell' by recent 2025 grad",
+      "2019 liberal arts restructuring cut programs with no graduates in 5 years",
+      "George Kaiser's corporate influence over university direction is a documented concern"
+    ],
+    "key_quotes": [
+      "as a new grad (2025), don't attend TU unless you absolutely have to — the school is broke as hell",
+      "The president sent an update with more info not long ago which had more insight into why cuts were made",
+      "TU doesn't have clinical sciences as a historic strength... TU has been having some financial difficulties lately"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus widely praised as beautiful and easy to navigate",
+      "Tulsa city itself offers real cultural amenities and food scene",
+      "Location in Tulsa is genuinely good — not a college town wasteland"
+    ],
+    "key_quotes": [
+      "Beautiful (and easily navigable) campus, fantastic people, incredible city culture",
+      "The campus is awesome, and it's a good location in the city"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "A Fortune 50 CEO (Walmart) attended TU for undergrad",
+      "STEM and engineering grads have solid outcomes especially in oil/gas",
+      "Prestige is low nationally but regional Oklahoma/energy sector network is real"
+    ],
+    "key_quotes": [
+      "Walmart - University of Tulsa",
+      "I'm a premed (bio/psych major) at TU who was recently admitted to medical school. Several of my classmates have also earned an acceptance to schools across the country",
+      "TU is a great uni... for specific areas of study"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "With scholarships many students pay under $5k/year — exceptional value",
+      "National Merit package reduction makes cost calculus less favorable now",
+      "Full sticker price not worth it — scholarships are essential"
+    ],
+    "key_quotes": [
+      "With the scholarship they offered from high school GPA and other scholarships I've applied towards, I only pay around 5k a year",
+      "They have a pretty campus that's about it, the cost does not reflect the academic experience",
+      "The cheapest reputable school is always the right answer"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Best fit for STEM students who land strong merit aid",
+      "Small, tight-knit campus with real research access for undergrads",
+      "Liberal arts and humanities students should look elsewhere"
+    ],
+    "key_quotes": [
+      "Find somewhere else, if I had the opportunity to go back in time and choose where I went to college I would",
+      "Loved my TU experience! Obviously anywhere you go, there's a wide range of people",
+      "It's been worth it for me"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Financial health: 2025 grad warns school is 'broke as hell'",
+      "Liberal arts: major program cuts in 2019, best professors may have left",
+      "Scholarships: National Merit package quietly downgraded, no longer full ride"
+    ],
+    "key_quotes": [
+      "don't attend TU unless you absolutely have to — the school is broke as hell",
+      "TU has been having some financial difficulties lately so it isn't really a place that I would suggest",
+      "the University of Tulsa's national merit semifinalist scholarship package is no longer a full-ride"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Undergrad research access (TURC) rivals much larger universities",
+      "Enrollment advisors will negotiate aid packages if you push back",
+      "Small cohort means professors actually know your name and invest in you"
+    ],
+    "key_quotes": [
+      "That's the advantage of being such a small school — the research opportunities are incredible",
+      "Speak to your enrollment advisor and usually if you tell them the number you need in order to commit they'll find a way to get there",
+      "it is easy to get involved with just by emailing professors and going to their office hours"
+    ],
+    "score": 7
+  }
+}

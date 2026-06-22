@@ -95,6 +95,7 @@ SCHOOLS = [
     {"name": "Northwestern University", "slug": "northwestern", "subreddits": ["r/Northwestern"], "keywords": ["Northwestern University", "Wildcats", "Evanston Illinois"]},
     {"name": "University of Maryland", "slug": "maryland", "subreddits": ["r/UMD"], "keywords": ["University of Maryland", "Terrapins", "College Park Maryland"]},
     {"name": "Rutgers University", "slug": "rutgers", "subreddits": ["r/rutgers"], "keywords": ["Rutgers University", "Scarlet Knights", "New Brunswick New Jersey"]},
+    {"name": "UCLA", "slug": "ucla", "subreddits": ["r/UCLA"], "keywords": ["UCLA", "University of California Los Angeles", "Bruins", "Westwood California"]},
     # Top HBCUs
     {"name": "Spelman College", "slug": "spelman", "subreddits": ["r/SpelmanCollege", "r/HBCU"], "keywords": ["Spelman College", "Atlanta HBCU", "Spelman women"]},
     {"name": "Morehouse College", "slug": "morehouse", "subreddits": ["r/Morehouse", "r/HBCU"], "keywords": ["Morehouse College", "Atlanta HBCU", "Morehouse men"]},
@@ -145,6 +146,20 @@ SCHOOLS = [
     {"name": "Louisiana", "slug": "louisiana", "subreddits": ["r/RaginCajuns"], "keywords": ["University of Louisiana Lafayette", "Ragin Cajuns", "Lafayette Louisiana"]},
     {"name": "James Madison University", "slug": "jmu", "subreddits": ["r/JMU"], "keywords": ["James Madison University", "JMU Dukes", "Harrisonburg Virginia"]},
     {"name": "Arkansas State", "slug": "arkansasstate", "subreddits": ["r/ArkansasState"], "keywords": ["Arkansas State University", "Red Wolves", "Jonesboro Arkansas"]},
+    # American Athletic Conference
+    {"name": "UNC Charlotte", "slug": "uncc", "subreddits": ["r/uncc"], "keywords": ["UNC Charlotte", "49ers", "Charlotte North Carolina"]},
+    {"name": "East Carolina University", "slug": "ecu", "subreddits": ["r/ECU"], "keywords": ["East Carolina University", "ECU Pirates", "Greenville North Carolina"]},
+    {"name": "Florida Atlantic University", "slug": "fau", "subreddits": ["r/FAU"], "keywords": ["Florida Atlantic University", "FAU Owls", "Boca Raton Florida"]},
+    {"name": "University of Memphis", "slug": "memphis", "subreddits": ["r/uofmemphis"], "keywords": ["University of Memphis", "Tigers", "Memphis Tennessee"]},
+    {"name": "United States Naval Academy", "slug": "navy", "subreddits": ["r/NavalAcademy"], "keywords": ["Naval Academy", "Navy Midshipmen", "Annapolis Maryland"]},
+    {"name": "University of North Texas", "slug": "unt", "subreddits": ["r/unt"], "keywords": ["University of North Texas", "UNT Mean Green", "Denton Texas"]},
+    {"name": "Rice University", "slug": "rice", "subreddits": ["r/rice"], "keywords": ["Rice University", "Owls", "Houston Texas"]},
+    {"name": "University of South Florida", "slug": "usf", "subreddits": ["r/USF"], "keywords": ["University of South Florida", "USF Bulls", "Tampa Florida"]},
+    {"name": "Temple University", "slug": "temple", "subreddits": ["r/Temple"], "keywords": ["Temple University", "Owls", "Philadelphia Pennsylvania"]},
+    {"name": "University of Tulsa", "slug": "tulsa", "subreddits": ["r/utulsa"], "keywords": ["University of Tulsa", "Golden Hurricane", "Tulsa Oklahoma"]},
+    {"name": "UAB", "slug": "uab", "subreddits": ["r/UAB"], "keywords": ["UAB", "University of Alabama Birmingham", "Blazers", "Birmingham Alabama"]},
+    {"name": "UTSA", "slug": "utsa", "subreddits": ["r/UTSA"], "keywords": ["UTSA", "University of Texas San Antonio", "Roadrunners", "San Antonio Texas"]},
+    {"name": "Wichita State", "slug": "wichitastate", "subreddits": ["r/wichitastate"], "keywords": ["Wichita State University", "Shockers", "Wichita Kansas"]},
 ]
 
 CATEGORIES = [
@@ -286,17 +301,40 @@ def summarize_school(school: dict, combined_path: str, data_dir: str) -> str:
     )
 
     raw = strip_fences(response.content[0].text)
-    summary = json.loads(raw)
+    usages = [response.usage]
+    try:
+        summary = json.loads(raw)
+    except json.JSONDecodeError as e:
+        # Claude occasionally emits an unescaped quote inside a key_quote (e.g. when
+        # quoting source text that already contains quotation marks). Ask it to fix
+        # the syntax of its own output rather than failing the whole school.
+        print(f"  Malformed JSON ({e}), asking Claude to repair it...")
+        repair_response = client.messages.create(
+            model=MODEL,
+            max_tokens=4096,
+            messages=[{
+                "role": "user",
+                "content": (
+                    "The following is meant to be a valid JSON object but has a syntax "
+                    "error (likely an unescaped quotation mark inside a string value). "
+                    "Return ONLY the corrected, valid JSON with the exact same content "
+                    "— fix only the syntax, do not change any wording:\n\n" + raw
+                ),
+            }],
+        )
+        usages.append(repair_response.usage)
+        raw = strip_fences(repair_response.content[0].text)
+        summary = json.loads(raw)
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    usage = response.usage
-    cost = (
+    cost = sum(
         (usage.input_tokens or 0) * _INPUT_PRICE
         + (usage.output_tokens or 0) * _OUTPUT_PRICE
         + getattr(usage, "cache_creation_input_tokens", 0) * _CACHE_WRITE_PRICE
         + getattr(usage, "cache_read_input_tokens", 0) * _CACHE_READ_PRICE
+        for usage in usages
     )
     print(f"  ✓ Done. Cost: ${cost:.2f}")
     return out_path
