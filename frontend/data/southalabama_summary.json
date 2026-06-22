@@ -1,0 +1,163 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student housing complaints found in available data",
+      "University of Alabama sorority houses described as immaculate and impressive",
+      "Insufficient South Alabama-specific housing data to assess reliably"
+    ],
+    "key_quotes": [
+      "I didn't expect to see 20 something immaculate Barbie dream houses mega sized",
+      "If you don't have a roommate then you are fortunate"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates social scene at Alabama-area universities",
+      "Date parties and sorority events are central to student social calendar",
+      "Mobile's port city location offers some off-campus industry networking"
+    ],
+    "key_quotes": [
+      "classes, meetings, haul, & date party | University of Alabama",
+      "Near a major port city, lots of international shipping companies here and Amazon warehouse"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No South Alabama campus dining data available in sources",
+      "Mobile area has grilled food options and local restaurants noted nearby",
+      "Off-campus food scene in Mobile region mentioned positively by locals"
+    ],
+    "key_quotes": [
+      "I do like when there are grilled options instead of just fried food",
+      "Best breakfast I have ever had"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No South Alabama-specific mental health support data in sources",
+      "Comparison culture and influencer aesthetics flagged as social pressure risk",
+      "Physical therapy and self-care normalized in broader Alabama student content"
+    ],
+    "key_quotes": [
+      "Just as a reminder- her life looks perfect and amazing and aesthetic…but it's not always like that",
+      "I just sit there and stare at my ceiling until I convince myself with a reason to get up"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "No South Alabama financial aid data surfaced in available sources",
+      "Application fee waivers discussed broadly but not specific to South Alabama",
+      "Students near Mobile cite local industry as potential scholarship or job source"
+    ],
+    "key_quotes": [
+      "I was hoping i could make this post and everyone can share the promotional fee waivers they got",
+      "literally submitting my application in ten mins and was def about to pay $70"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Supply Chain Management flagged as strong fit given Mobile's port economy",
+      "Engineering building cited as dramatically improved since 1980s era",
+      "No direct South Alabama classroom quality complaints or praise found"
+    ],
+    "key_quotes": [
+      "SCM is brilliant if you like it. You could be employed anywhere",
+      "our EE building was like a poor man's garage in comparison to this"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Two professors reinstated after wearing controversial costumes — serious concern",
+      "Community and students criticized for not being vocal enough about the incident",
+      "Administration's handling of the controversy drew direct public shame online"
+    ],
+    "key_quotes": [
+      "Shame on you University of South Alabama",
+      "How can all students expect to receive the same treatment and consideration from a professor with the mindset that thinks this was okay",
+      "Students, decent faculty, and the community should be much more vocal against what's happening here"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Mobile is a port city with real international logistics industry presence",
+      "South Alabama campus reportedly unrecognizable compared to decades-ago version",
+      "Broader Mobile/Gulf Coast area praised for hospitality and natural beauty"
+    ],
+    "key_quotes": [
+      "Wow! It is totally unrecognizable! I started way back in Fall 1984",
+      "Near a major port city, Mobile Alabama, lots of international shipping companies",
+      "I can't imagine growing up anywhere else"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Mobile's port economy offers direct SCM and logistics career pipeline",
+      "Amazon warehouse and major shipping firms physically nearby campus",
+      "No alumni career outcome data specific to South Alabama surfaced"
+    ],
+    "key_quotes": [
+      "Most manufacturers rely on supply chain management, and so do logistics companies like UPS and DHL",
+      "I worked at Ford and had several people from my business school go there"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "No tuition or cost data specific to South Alabama in sources",
+      "Local job market proximity could offset cost for business/SCM students",
+      "Engineering and professional facilities appear significantly upgraded"
+    ],
+    "key_quotes": [
+      "Obviously it was much cheaper then",
+      "If I could turn time back, I would do things so differently"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Southern hospitality culture is genuine and widely felt in Mobile area",
+      "Serious unresolved diversity and inclusion concerns shadow campus culture",
+      "Commuter and practical-minded students may fit better than social-scene seekers"
+    ],
+    "key_quotes": [
+      "Shame on you University of South Alabama",
+      "People would come up out of the blue and just start a conversation",
+      "Students, decent faculty, and the community should be much more vocal"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Faculty conduct**: Two professors in controversial costumes were reinstated with no apparent accountability",
+      "**Institutional culture**: Students warned administration quietly buried the controversy with little pushback",
+      "**Equity concerns**: Questions raised publicly about whether all students receive equal treatment from faculty"
+    ],
+    "key_quotes": [
+      "How can all students expect to receive the same treatment from a professor with the mindset that thinks this was okay",
+      "Shame on us Alabamians who just allow this to continue to happen and just decide to not be vocal",
+      "Hence the very few comments here"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Mobile's port gives SCM and logistics students rare real-world proximity",
+      "Campus has undergone major physical transformation — facilities far better than reputation suggests",
+      "Southern hospitality culture creates genuine community feel off-campus"
+    ],
+    "key_quotes": [
+      "Near a major port city, Mobile Alabama, lots of international shipping companies here",
+      "It is totally unrecognizable — the EE building was like a poor man's garage back then",
+      "People would invite you to dinner out of nowhere — I have never been treated so nice"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Off-campus options run $400-$1,200/month depending on location",
+      "The Landing is ~1 mile from main campus; walkable but not ideal",
+      "On-campus Commons dorms (Haymaker) are cramped; lofting beds recommended"
+    ],
+    "key_quotes": [
+      "it's usually 400-1200 depending on where you're looking. also utilities. the landing has some good options, but is about a mile from campus so it's a decent walk",
+      "Pembroke properties on 7th Ave has been good. 650 for a 2br",
+      "Since dresser won't fit under the bed, how cramped is it?"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Social scene exists but requires effort; campus can feel dead mid-week",
+      "Frats throw parties Thu-Sat; bars accessible but scene is limited",
+      "Making friends is hard early on, especially for introverted or LGBTQ+ students"
+    ],
+    "key_quotes": [
+      "Your best bet is probably clubbing unless you're in frat or a girl.",
+      "Thurs–Sat there's usually frat stuff, house parties, or people going out in Huntington",
+      "I have been extremely lonely. I have yet to find anyone to hang out with or even talk to for longer than 30 seconds."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Mandatory meal plan costs ~$1,900 minimum for on-campus students",
+      "Very few dining options available; picky eaters will struggle significantly",
+      "Flex dollars add complexity; system frustrates students with limited choices"
+    ],
+    "key_quotes": [
+      "the cheapest meal plan offered was $1900-something, so not cheap at all. This gives me 10 meal swipes and $500 in 'flex' dollars",
+      "there are very few [options]",
+      "I am honestly kinda a picky eater... I really wish meal plans weren't required"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Loneliness is a real reported issue, especially freshman and transfer students",
+      "LGBTQ+ students face added stress around identity in a conservative region",
+      "No specific mental health support resources were mentioned or praised"
+    ],
+    "key_quotes": [
+      "My week has been so filled with panic attacks stemming from this and not being able to eat",
+      "My family begged me to not out myself the second I got here, and it has been awful",
+      "I'm not trans but I have virtually the exact same experience so far."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships exist but spring semester funding is notably limited",
+      "Out-of-state students should research merit aid carefully before committing",
+      "Transfer students report scholarship and funding gaps during semester switches"
+    ],
+    "key_quotes": [
+      "scholarships and funding are very limited for spring semester",
+      "Depends on your HS stats [for merit aid]",
+      "I picked a few schools I was interested in and a few of them are very expensive"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Journalism/W Page Pitt School praised by alumni; poli sci also well-regarded",
+      "STEM departments are reportedly weak outside cybersecurity and medical fields",
+      "Some professors reportedly poor with neurodivergent accommodations despite paperwork"
+    ],
+    "key_quotes": [
+      "There is a very good chance Marshall will not cure your burnout. It really depends on your career path, but anything STEM, especially non medical, is severely lacking.",
+      "As a forensic chemistry graduate, some of the professors in the chemistry and biology department were very difficult to work with. Even with documented paperwork from my doctor saying 'this student ge[ts accommodations]'",
+      "I graduated from the W Page Pitt School of Journalism in the early 2000s. I loved it."
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Administration widely described as poorly communicating across departments",
+      "Admissions process reported as disorganized and frustrating by multiple students",
+      "Bursars and enrollment offices specifically called out as problematic"
+    ],
+    "key_quotes": [
+      "Marshall is known for having absolutely terrible administrators. This includes Admissions and Bursars. No department on campus communicates to other departments which causes a lot of headaches.",
+      "the admission process has been horrible",
+      "I fully thought I had selected fall 2026 and not spring 2026... I just sent them an email letting them know about my mistake"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Compact campus praised; not so big you waste time walking between classes",
+      "Huntington is safe by WV standards; Ohio River views are genuinely beautiful",
+      "Public bus service (TTA) exists but stops are sparse; manual hailing required"
+    ],
+    "key_quotes": [
+      "At least the university is not so big that one might spend more time going between classes as being IN classes.",
+      "Marshall is an extremely safe school in a very safe area.",
+      "There is a public bus service called TTA that runs along Hal Greer Blvd... You need to manually hail the bus."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni report struggling to launch careers without networking or internships",
+      "Journalism and poli sci alumni report decent outcomes; law school path exists",
+      "One alum with a Marshall degree spent 3 years post-grad working retail"
+    ],
+    "key_quotes": [
+      "my career has yet to take off 3 years after I graduated. I didn't network nor did I connect with many others, nor did I get an internship.",
+      "I have several friends and fraternity brothers who went onto successful careers as lawyers through the Marshall [poli sci] program",
+      "Marshall as an educational entity pales in gravity to Marshall University as a business."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Affordable for in-state students; one of the cheaper WV options",
+      "Out-of-state students should compare carefully; Ohio University frequently recommended over Marshall",
+      "44-50% graduation rate is a major red flag for tuition investment"
+    ],
+    "key_quotes": [
+      "Marshall University, a public university with a 90% acceptance rate and 50% graduation rate",
+      "If you're thinking about advertising/PR/journalism... you should seriously consider Ohio University over Marshall. Much nicer campus.",
+      "Hopefully this doesn't sound like I'm speaking down, but seeing that Marshall University has a 44% graduation rate... I'd say if you work hard, you'd definitely be above your peers"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong school spirit around football; 'We Are Marshall' identity is real and felt",
+      "Community is generally laid-back and accepting, especially for a WV school",
+      "Best for in-state WV students; out-of-staters may find better options elsewhere"
+    ],
+    "key_quotes": [
+      "About to graduate from Marshall. This place has been the best experience of my entire life so far, I've loved every second of it.",
+      "WE ARE........MARSHALL. The University looks amazing!",
+      "Having been at both UIUC and Marshall, you would be better served at UIUC, especially in terms of LGBTQ safety and community. If you can't afford UIUC, Marshall is a good option that is relatively nice."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Graduation Rate:** Only 44-50% of students graduate — well below national average",
+      "**Administration:** Departments don't communicate; admissions and bursars repeatedly cited as dysfunctional",
+      "**Academics:** STEM outside medical fields called 'severely lacking' by multiple insiders"
+    ],
+    "key_quotes": [
+      "Marshall is known for having absolutely terrible administrators... No department on campus communicates to other departments which causes a lot of headaches.",
+      "There is a very good chance Marshall will not cure your burnout... anything STEM, especially non medical, is severely lacking.",
+      "Marshall University, a public university with a 90% acceptance rate and 50% graduation rate"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "HELP program offers real support for neurodivergent and learning-disabled students",
+      "Poli sci and journalism departments have dedicated faculty and alumni networks",
+      "Compact campus means tight-knit community and easy navigation; no sprawl stress"
+    ],
+    "key_quotes": [
+      "Contact the HELP program — it's for people with learning disabilities and should help you. When I was at Marshall many [students used it successfully]",
+      "I'm a senior poli sci major! The entire department is amazing, especially Dr. Beller.",
+      "At least the university is not so big that one might spend more time going between classes as being IN classes."
+    ],
+    "score": 7
+  }
+}

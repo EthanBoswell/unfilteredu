@@ -132,6 +132,20 @@ SCHOOLS = [
     {"name": "Florida A&M", "slug": "famu", "subreddits": ["r/FAMU", "r/FloridaAM"], "keywords": ["Florida A&M", "FAMU", "Rattlers", "Tallahassee HBCU"]},
     {"name": "Texas Southern", "slug": "texassouthern", "subreddits": ["r/TexasSouthern"], "keywords": ["Texas Southern", "TSU", "Tigers", "Houston HBCU"]},
     {"name": "Arkansas Pine Bluff", "slug": "uapb", "subreddits": ["r/UAPB"], "keywords": ["Arkansas Pine Bluff", "UAPB", "Golden Lions", "Arkansas HBCU"]},
+    # Sun Belt
+    {"name": "Appalachian State", "slug": "appstate", "subreddits": ["r/AppState"], "keywords": ["Appalachian State", "App State", "Mountaineers", "Boone North Carolina"]},
+    {"name": "Coastal Carolina", "slug": "coastalcarolina", "subreddits": ["r/CoastalCarolina"], "keywords": ["Coastal Carolina University", "Chanticleers", "Conway South Carolina"]},
+    {"name": "Georgia Southern", "slug": "georgiasouthern", "subreddits": ["r/GeorgiaSouthern"], "keywords": ["Georgia Southern University", "Eagles", "Statesboro Georgia"]},
+    {"name": "Georgia State", "slug": "georgiastate", "subreddits": ["r/GeorgiaStateUniversity"], "keywords": ["Georgia State University", "Panthers", "Atlanta Georgia"]},
+    {"name": "Marshall University", "slug": "marshall", "subreddits": ["r/MarshallUniversity"], "keywords": ["Marshall University", "Thundering Herd", "Huntington West Virginia"]},
+    {"name": "Old Dominion", "slug": "odu", "subreddits": ["r/ODU"], "keywords": ["Old Dominion University", "Monarchs", "Norfolk Virginia"]},
+    {"name": "South Alabama", "slug": "southalabama", "subreddits": ["r/USouthAL"], "keywords": ["University of South Alabama", "Jaguars", "Mobile Alabama"]},
+    {"name": "Southern Miss", "slug": "southernmiss", "subreddits": ["r/SouthernMiss"], "keywords": ["Southern Miss", "University of Southern Mississippi", "Golden Eagles", "Hattiesburg"]},
+    {"name": "Texas State", "slug": "texasstate", "subreddits": ["r/texasstate"], "keywords": ["Texas State University", "Bobcats", "San Marcos Texas"]},
+    {"name": "Troy University", "slug": "troy", "subreddits": ["r/TroyUniversity"], "keywords": ["Troy University", "Trojans", "Troy Alabama"]},
+    {"name": "ULM", "slug": "ulm", "subreddits": ["r/ULMonroe"], "keywords": ["University of Louisiana Monroe", "ULM Warhawks", "Monroe Louisiana"]},
+    {"name": "Louisiana", "slug": "louisiana", "subreddits": ["r/RaginCajuns"], "keywords": ["University of Louisiana Lafayette", "Ragin Cajuns", "Lafayette Louisiana"]},
+    {"name": "Arkansas State", "slug": "arkansasstate", "subreddits": ["r/ArkansasState"], "keywords": ["Arkansas State University", "Red Wolves", "Jonesboro Arkansas"]},
 ]
 
 CATEGORIES = [

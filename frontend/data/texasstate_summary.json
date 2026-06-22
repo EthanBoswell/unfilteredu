@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms cost significantly more than commuting for budget-conscious students",
+      "Bobcat Village mentioned positively by international exchange students",
+      "Financial trade-off debate is real — commuting saves thousands annually"
+    ],
+    "key_quotes": [
+      "Never ever live in dorms if you can possibly avoid it and you're not rich.",
+      "I used to live at bobcat village for one semester. I miss it so much!",
+      "I say dorm freshman year and if you decide you don't like it commute your second year."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Freshman dorm living seen as the primary path to making friends",
+      "Commuters worry about missing out on social integration",
+      "Campus described as lively with San Marcos offering real amenities"
+    ],
+    "key_quotes": [
+      "There are plenty of opportunities on campus to make friends and socialize.",
+      "San Marcos has everything even a hot topic... 30 minutes from Austin heck yeah.",
+      "By that point you've probably already made friends and have your community already."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall reviews in data — major gap in student feedback",
+      "Cost of food on campus is a real budget concern for students",
+      "Free food at home is cited as a genuine reason to commute"
+    ],
+    "key_quotes": [
+      "I would also need to pay for food as well, which is free at home.",
+      "Tuition alone costs about 12k... dorming will make the cost of attending increase a lot."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of campus mental health services in student data",
+      "Financial stress is a recurring and serious stressor for TXST students",
+      "Isolation concerns raised by commuter students about campus connection"
+    ],
+    "key_quotes": [
+      "I am taking the summer and fall to save up for rent/food/etc while I'm there.",
+      "Finances are your primary concern — commuting would be my recommendation."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarship notification timeline unclear — students waiting with no answers",
+      "Even with $8k scholarship, students feel significant financial pressure",
+      "Out-of-state and transfer students face sticker shock on total costs"
+    ],
+    "key_quotes": [
+      "I'm curious to know if anyone else has received a scholarship offer — how long did it take?",
+      "Tuition alone ends up being 4k per year... dorming will make the cost increase a lot.",
+      "I am an International Student. [Only response to scholarship post, implying lack of local info]"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Science & Engineering and audio/creative programs draw genuine interest",
+      "Transfer process from community college is an established pathway",
+      "No complaints about academic quality surfaced — neutral to positive"
+    ],
+    "key_quotes": [
+      "I've been working with a transfer advisor there for the past 5 months to ensure I'd have assured admission.",
+      "I plan to look into this university in hope to further study creative writing and animation.",
+      "I'm an audio student looking for a place to continue my audio training in the Austin area — this is the best option."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "ApplyTexas portal bugs blocked multiple students from submitting applications",
+      "Support tickets go unanswered — students miss deadlines waiting for fixes",
+      "Transfer advisors praised individually, but system-level failures are real"
+    ],
+    "key_quotes": [
+      "I submitted multiple tickets to support with no emails back, and my application deadline passed.",
+      "I've submitted two emails to ApplyTexas' help desk. I got a response on the first saying they're looking into it but no instructions.",
+      "I called the school and they said it was an ApplyTexas issue — but that didn't help me submit."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Hilly campus with stairs and steep inclines — physically demanding to navigate",
+      "San Marcos location praised: affordable town, 30 minutes from Austin",
+      "Campus has grown dramatically — alumni from 1965–1982 barely recognize it"
+    ],
+    "key_quotes": [
+      "Thank you for the tour without having to walk up all those stairs and inclines.",
+      "San Marcos has everything... 30 minutes from Austin heck yeah.",
+      "It's hard to describe how much different the campus is now compared to how it was back in 1965."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Austin proximity is cited as a key career networking advantage",
+      "No direct data on job placement rates or employer recruiting presence",
+      "Engineering and creative arts students show career-focused intent in choosing TXST"
+    ],
+    "key_quotes": [
+      "30 minutes from Austin heck yeah.",
+      "I plan to look into this university in hope to further study creative writing and animation."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition relatively manageable but dorms erase savings quickly",
+      "Students actively strategizing to minimize costs — commuting, saving before enrolling",
+      "Scholarship amounts feel inadequate against total cost of attendance"
+    ],
+    "key_quotes": [
+      "Tuition alone costs about 12k and I got a scholarship for 8k per year... dorming will make the cost increase a lot.",
+      "I am taking the summer and fall to save up for rent/food/etc.",
+      "Never ever live in dorms if you can possibly avoid it and you're not rich."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students choose TXST pragmatically — cost, location, program fit over prestige",
+      "Campus has genuine charm and alumni nostalgia is strong",
+      "Financial anxiety underlies most student decisions and discussions"
+    ],
+    "key_quotes": [
+      "This is the best option to be honest — San Marcos has everything.",
+      "Greetings from Germany. I love this campus. I have been an exchange student in 2013. I miss it so much!",
+      "Texas State is like they say you can be better, stronger, smarter than me but regardless I will always be best."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** ApplyTexas bugs caused students to miss application deadlines with zero resolution",
+      "**Financial Aid:** Scholarship notification process is opaque with no clear timeline communicated",
+      "**Cost:** Total attendance cost shocks students post-admission despite manageable tuition headline"
+    ],
+    "key_quotes": [
+      "I submitted multiple tickets to support with no emails back, and my application deadline passed.",
+      "Similar problem! It won't let me submit my Texas residency. I tried multiple browsers and devices.",
+      "Tuition alone costs about 12k... dorming will make the cost of attending increase a lot."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "San Marcos is genuinely affordable and walkable compared to Austin prices",
+      "Transfer advisor support individually praised — find a good one early",
+      "Audio and creative arts programs fly under the radar but draw dedicated students"
+    ],
+    "key_quotes": [
+      "San Marcos has everything even a hot topic — prefer this over a place like commerce and 30 minutes from Austin.",
+      "I've been working with a transfer advisor there for the past 5 months to ensure I'd have assured admission.",
+      "Greetings from Germany — I have been an exchange student in 2013. I miss it so much!"
+    ],
+    "score": 7
+  }
+}

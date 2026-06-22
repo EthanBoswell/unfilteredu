@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm fridges often have broken freezer compartments",
+      "Splitting a tiny freezer among 3-4 roommates is a real issue",
+      "Single rooms exist and improve experience significantly"
+    ],
+    "key_quotes": [
+      "I used to live in Coronna, there was a freezer section in the top of mine but it didn't work",
+      "There's a small freezer compartment at the top yes but remember that you're splitting that with 3 other people",
+      "My kid is there right now and she is enjoying it. Granted, she got a single dorm"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Lafayette city culture is a major draw over rival Louisiana schools",
+      "Football tailgates and games are a genuine community experience",
+      "Club scene is thin but students can start their own organizations"
+    ],
+    "key_quotes": [
+      "Culturally, Lafayette will be the better fit",
+      "None of the current clubs have really interested me",
+      "You'll enjoy Lafayette more than Monroe"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Refilling water bottles at soda fountains is an unofficial norm",
+      "Campus Cupboard food pantry exists for students struggling financially",
+      "Students have hacked the cafeteria in creative ways out of financial necessity"
+    ],
+    "key_quotes": [
+      "They don't care",
+      "Few years ago I used to fill a water bottle with chocolate milk and pack spaghetti into a tupperware (don't judge me)",
+      "Last time I used it, you bring your ID and tell them how large your household is"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mental health discussion found in student posts",
+      "Financial stress is a recurring theme suggesting underlying pressure",
+      "Campus Cupboard use signals real food and bill insecurity among students"
+    ],
+    "key_quotes": [
+      "Really struggling this semester with bills/food",
+      "The whole thing is anxiety inducing in itself",
+      "They can barely afford to keep the lights on"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "TOPS and FAFSA refund timing is confusing and inconsistent",
+      "Go Grant disbursements have been delayed into October",
+      "Students actively asking peers about aid timelines rather than getting clear admin answers"
+    ],
+    "key_quotes": [
+      "I received the go grant and go to University of Louisiana at lafayette but have not received it",
+      "I got my tops at the beginning of October, were you supposed to receive a refund?",
+      "Once it goes down to 0 you can expect to get your refund shortly"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering program is consistently cited as a strong point",
+      "Some professors are described as deeply problematic by a transfer student",
+      "Double majoring is possible but adds roughly a year to graduation"
+    ],
+    "key_quotes": [
+      "No, UL is terrible! I went there for 3 yrs then transferred, even though it added on a year to my education. Best decision ever!",
+      "I have had multiple professors [implied serious issues, comment cut off]",
+      "Engineering program is top-notch"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Graduate school admissions response times are excessively slow, often months",
+      "Students told to 'keep checking the portal' with no real updates",
+      "Governor executive orders adding external delays to already slow processes"
+    ],
+    "key_quotes": [
+      "I've called the university twice, but they just told me to keep checking the portal",
+      "It's been almost two months since I submitted everything",
+      "I know that they have had issues this year due to some executive orders from the governor"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Lafayette is widely considered culturally superior to other Louisiana college towns",
+      "Parking costs $360+ per semester with limited free alternatives",
+      "Cajun Field shuttle is a practical free alternative but reliability is unclear"
+    ],
+    "key_quotes": [
+      "The Lafayette Area (Acadiana) and New Orleans are the epicenters of culture in Louisiana",
+      "Besides paying the $360ish for the semester parking tower pass, does anyone know any cheaper alternatives?",
+      "Taking the shuttle from cajun field is actually pretty nice"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Petroleum engineering has a presence but no detailed student feedback",
+      "NFL draft pick from the program suggests some athletic prestige",
+      "No substantive career placement or internship data surfaced in posts"
+    ],
+    "key_quotes": [
+      "Congratulations to former Cajun Jaden Dugger on being drafted by the San Francisco 49ers",
+      "Engineering program is top-notch",
+      "Any PetE students here? How is the program?"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Out-of-state students weighing $20K scholarship vs full ride elsewhere",
+      "One student transferred after 3 years, calling it the best decision despite losing time",
+      "Budget concerns surface repeatedly, suggesting affordability is a real stress point"
+    ],
+    "key_quotes": [
+      "They can barely afford to keep the lights on. Don't set the bar so low as you enter adulthood",
+      "No, UL is terrible! I went there for 3 yrs then transferred, even though it added on a year to my education",
+      "I like free, however I've heard Monroe is a little on the dead side"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "School spirit around football is genuine and community-driven",
+      "Academic and administrative frustrations temper the social energy",
+      "Experience varies sharply by major, housing type, and financial situation"
+    ],
+    "key_quotes": [
+      "What a game!!! Wish I wouldn't have left early. Ugh. Regret is setting in today",
+      "I think its honestly about the same experience you get at most other similarly priced colleges",
+      "My kid is there right now and she is enjoying it"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Grad admissions ghost applicants for months with zero updates",
+      "**Academics:** At least one student transferred after 3 years citing multiple bad professors",
+      "**Budget:** A commenter directly warned prospective students the university 'can barely afford to keep the lights on'"
+    ],
+    "key_quotes": [
+      "No, UL is terrible! I went there for 3 yrs then transferred, even though it added on a year to my education. Best decision ever! My only regret was not doing it sooner",
+      "They can barely afford to keep the lights on. Don't set the bar so low as you enter adulthood",
+      "I've called the university twice, but they just told me to keep checking the portal"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Student IDs double as public library cards — free access city-wide",
+      "Campus Cupboard food pantry is available and lower-barrier than expected",
+      "Students can start their own clubs with a clear official process in place"
+    ],
+    "key_quotes": [
+      "University of Louisiana at Lafayette IDs now double as public library cards",
+      "Last time I used it, you bring your ID and tell them how large your household is, and then you get to pick certain items",
+      "I have been researching the guidelines and requirements on starting a club and I'm certain that I can try starting one"
+    ],
+    "score": 7
+  }
+}

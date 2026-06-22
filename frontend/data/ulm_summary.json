@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student feedback about ULM housing available",
+      "YouTube comments about ULM were mostly about Ulm, Germany",
+      "Cannot assess dorm quality or off-campus options from data"
+    ],
+    "key_quotes": [
+      "No relevant housing quotes found in available data",
+      "Data sources were too mixed with unrelated universities to extract ULM-specific housing info"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "One ULM student vlog shows active campus social life",
+      "Student filmed friend hangouts, gym visits, and shopping trips",
+      "Religious community appears to be a social anchor for some students"
+    ],
+    "key_quotes": [
+      "I really applaud your desire to grow closer to God. It makes me inspired to do the same",
+      "please include ur homeboy in more videos cs yall friendship is so cutee",
+      "Glad to see you being productive. I love that you have a guy friend that you can depend on"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No student feedback about ULM dining halls found in data",
+      "Cannot assess food quality, hours, or meal plan value",
+      "Data insufficient to score dining fairly"
+    ],
+    "key_quotes": [
+      "No relevant dining quotes found in available data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student openly discussed seeking spiritual and personal healing",
+      "Academic pressure visible — student scored 50/55 on exam and laughed it off",
+      "No mentions of campus counseling or mental health resources"
+    ],
+    "key_quotes": [
+      "i made a 50/55 on my exam yall 😂",
+      "Just take it slow don't worry about other people, don't compare yourself, ask Jesus to heal you",
+      "Keep going Kaylan"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Affordability is ULM's primary draw for international students",
+      "No specific scholarship or aid details mentioned by students",
+      "Competitors like Louisiana Tech and Louisiana-Lafayette also cited as affordable"
+    ],
+    "key_quotes": [
+      "the affordability of the university is what's attracting me",
+      "Look at Louisiana Tech and Louisiana-Lafayette. Better CS schools and they are affordable too"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "CS program has a known negative reputation among prospective students",
+      "Reddit users actively redirected CS applicants to better Louisiana schools",
+      "No current students defended or praised ULM academics in the data"
+    ],
+    "key_quotes": [
+      "I have heard many negative reviews about the computer science program there",
+      "Look at Louisiana Tech and Louisiana-Lafayette. Better CS schools and they are affordable too",
+      "Mississippi State and Alabama are affordable options as well"
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "No direct student feedback about ULM administration found",
+      "International student questions went unanswered in Reddit thread",
+      "Data too sparse to assess bureaucratic responsiveness"
+    ],
+    "key_quotes": [
+      "No relevant administration quotes found in available data"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Monroe, Louisiana campus appearance not described in available data",
+      "Most YouTube campus tour content was mislabeled and showed Ulm, Germany",
+      "No student described the surrounding city or campus layout"
+    ],
+    "key_quotes": [
+      "No relevant ULM campus or location quotes found in available data"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "CS program reputation concerns raise questions about employer perception",
+      "No alumni success stories or internship mentions in data",
+      "Advisors on Reddit suggest stronger programs elsewhere for better job prospects"
+    ],
+    "key_quotes": [
+      "Look at Louisiana Tech and Louisiana-Lafayette. Better CS schools and they are affordable too",
+      "Mississippi State and Alabama are affordable options as well"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Low cost is the main selling point, especially for international students",
+      "But CS program quality concerns undercut the value proposition",
+      "Comparable affordable schools may offer better ROI for STEM students"
+    ],
+    "key_quotes": [
+      "the affordability of the university is what's attracting me",
+      "If the decision is attending or not going to college at all, I'd suggest attending",
+      "Look at Louisiana Tech and Louisiana-Lafayette. Better CS schools and they are affordable too"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Feels like a commuter-friendly, budget-conscious regional university",
+      "Students appear friendly and socially active in limited footage",
+      "Academic ambition seems modest; survival mentality visible in exam comments"
+    ],
+    "key_quotes": [
+      "i made a 50/55 on my exam yall 😂",
+      "That's the problem with these kids these days always running to chat gpt — I'm finna run to it too 😂",
+      "the affordability of the university is what's attracting me"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** CS program has pre-existing negative reputation among prospective students",
+      "**Data Quality:** Most YouTube content labeled ULM was actually about Ulm, Germany — suggesting low visibility",
+      "**Advising:** Reddit commenters redirected applicants away with zero pushback from current students"
+    ],
+    "key_quotes": [
+      "I have heard many negative reviews about the computer science program there",
+      "Look at Louisiana Tech and Louisiana-Lafayette. Better CS schools and they are affordable too",
+      "If the decision is attending or not going to college at all, I'd suggest attending"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Genuine peer support and friendship visible in student vlog community",
+      "Students seem to manage work, study, gym, and social life simultaneously",
+      "Low cost could be a real advantage for students with clear non-CS goals"
+    ],
+    "key_quotes": [
+      "Glad to see you being productive. I love that you have a guy friend that you can depend on",
+      "you were actually productive for a whole day ❤❤❤ while filming @ that",
+      "the affordability of the university is what's attracting me"
+    ],
+    "score": 5
+  }
+}

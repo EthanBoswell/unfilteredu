@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "International students repeatedly ask about accommodation with no answers",
+      "No current students addressing housing questions in comments",
+      "Off-campus living costs are a common unknown for incoming students"
+    ],
+    "key_quotes": [
+      "I need help in finding room, I'm a student at Arkansas State Uni and arriving in a month of Aug2023",
+      "Can you tell me about living apartment/meal approximately how much per month costing? (Out of campus)",
+      "Are you staying on campus? And what is the situation there right now?"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Marching band and homecoming culture appear vibrant and celebrated",
+      "International student community is active, especially Nepali students",
+      "Limited data on domestic student social scene or Greek life"
+    ],
+    "key_quotes": [
+      "I don't know why I'm so happy to see a band kid be homecoming queen, but I surely am",
+      "She won her crown and now she gets to command her people",
+      "My gosh Tash you're grown up... because of your skills you'll get the opportunity to grab everything around you"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No student comments specifically about campus dining quality",
+      "Cost of meals is a frequent unanswered question from international students",
+      "Zero firsthand reviews of dining halls from any source"
+    ],
+    "key_quotes": [
+      "Can you tell me about living apartment/meal approximately how much per month costing?",
+      "I would like to know are there part time jobs for international students available or not"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No student mentions of counseling or mental health resources",
+      "Incoming freshman expressed panic and distress over missing orientation deadline",
+      "International students arriving alone report feeling isolated and scared"
+    ],
+    "key_quotes": [
+      "I'm crying trying to think of what I should do. I feel like such a f*cking idiot",
+      "We don't have any known person out there",
+      "As a US applicant, most of the days I feel so hopeless and demotivated"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Tuition costs are a top concern for international applicants",
+      "Part-time on-campus job availability is frequently questioned but unanswered",
+      "No current students confirming actual scholarship or aid experiences"
+    ],
+    "key_quotes": [
+      "How difficult is it to get a part-time job as a student inside campus. Please reply",
+      "I would like to know are there part time jobs for international students available or not",
+      "Can you help me out on how to go about it and know the cost of living"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Computer Science and Business Admin are popular programs for international students",
+      "Exam format questions go unanswered — students unsure if proctored or not",
+      "2+2 transfer pathway from India to ASU is a known route but outcomes unclear"
+    ],
+    "key_quotes": [
+      "Will it be beneficial for me to do 2 years from this university in Computer Science?",
+      "In which pattern does the exams for masters students will be conducted — is it Assignments or Exams or both?",
+      "Advisor told me they were not proctored, but would love to hear from an actual student or professor"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Orientation deadline confusion caused severe distress for at least one incoming freshman",
+      "No clear communication pathways apparent for students who miss deadlines",
+      "International students report getting no responses to basic logistical questions"
+    ],
+    "key_quotes": [
+      "As of writing this it is July first, the day that I thought the new student orientation seminar thing for Arkansas State University Jonesboro was being held, but apparently today was the deadline",
+      "I'm scared",
+      "Just do everything late, it doesn't really matter"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus described as beautiful by multiple prospective international students",
+      "Jonesboro location raises safety questions from Vietnamese and other international students",
+      "Tornado risk in Arkansas is a real concern raised by prospective families"
+    ],
+    "key_quotes": [
+      "It's beautiful campus — what's the best facilities this university can you tell me?",
+      "Do you think A-State is safe or not? Or have something terrible, like racism?",
+      "What do they do if tornadoes are a threat there?"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni or current students discussing post-graduation job outcomes",
+      "Nursing and CNA pathways appear popular but comments are from unrelated channels",
+      "No internship, co-op, or placement data surfaces in any student discussion"
+    ],
+    "key_quotes": [
+      "Will it be beneficial for me to do 2 years from this university in Computer Science?",
+      "I would like to get admitted to this university — I would like to know are there part time jobs for international students available"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "International students are drawn by presumably lower tuition vs. other US schools",
+      "Cost of living questions go unanswered, making financial planning difficult",
+      "No student confirms whether scholarships or aid offset international tuition rates"
+    ],
+    "key_quotes": [
+      "Can you help me out on how to go about it and know the cost of living",
+      "Can you tell me about living apartment/meal approximately how much per month costing?",
+      "How difficult is it to get a part-time job as a student inside campus"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Campus culture feels welcoming based on marching band and homecoming energy",
+      "International student community is large and active, especially South Asian students",
+      "Domestic student voices are nearly absent — hard to gauge everyday campus life"
+    ],
+    "key_quotes": [
+      "It's beautiful campus",
+      "Last ma sabai millxa (everything works out in the end)",
+      "I just want to thank you a lot — you're a great motivation to many people"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Administration: orientation deadline confusion left freshman in crisis with no support system",
+      "Support gaps: international students arriving alone with zero institutional guidance visible",
+      "Transparency: basic questions about exams, housing costs, and jobs go publicly unanswered"
+    ],
+    "key_quotes": [
+      "I'm crying trying to think of what I should do. I feel like such a f*cking idiot. What should I do?",
+      "We don't have any known person out there",
+      "Just do everything late, it doesn't really matter"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Marching band is a serious, celebrated program with high student pride",
+      "Strong Nepali and South Asian international student network provides informal support",
+      "Arkansas's outdoor culture — rivers, lakes, hiking — is an underrated perk near campus"
+    ],
+    "key_quotes": [
+      "I don't know why I'm so happy to see a band kid be homecoming queen, but I surely am",
+      "Last ma sabai millxa — (everything works out in the end)",
+      "We are still very outdoor-ish. We flock to the rivers and lakes and forests — practically free"
+    ],
+    "score": 7
+  }
+}

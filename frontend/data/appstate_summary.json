@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Off-campus housing quality is consistently poor across multiple complexes",
+      "Dorm noise and courtesy issues are a real problem, especially freshmen",
+      "Parking so bad students miss class; lot closures made it worse"
+    ],
+    "key_quotes": [
+      "People have been saying this about the cottages for over a decade",
+      "The build quality is very poor, the appliances are cheap and we found a dirty sock in our living room on move in day",
+      "App should focus on more parking and housing instead of other new campus facilities"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Football culture is huge; the Michigan upset is still campus legend",
+      "Frat scene exists but has documented assault and harassment incidents",
+      "Strong outdoor/nature social culture; Boone town life is a real draw"
+    ],
+    "key_quotes": [
+      "I was there. Freshman year, had been there for all of a week and this happened. Completely winded myself sprinting from the Legends viewing party to our football field for the goal post",
+      "Owen smith Boone nc app state, we all know he kicked a girl in the face when she confronted him for calling her friend the f slur",
+      "App use to be a hippie school now it's a bro/hipster school. Fits the current trend of rich douches moving here"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Dining hall food is overpriced and underwhelming — $10 for small portions",
+      "Complaints about food quality stretch back decades, not a new problem",
+      "Local spots like Black Cat Burritos are universally preferred over campus dining"
+    ],
+    "key_quotes": [
+      "They'll charge $10 for something as depressing as this and a drink isn't even included. Chipotle is 7 minutes down the road",
+      "Dang. Nothing's changed but the weather and my shoe size... The subpar food [was a con] back when I went... and I graduated in the 90's!",
+      "My daughter graduated from there 2022... Yeah I didn't like any food in that whole town"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Missing one week of class can crater grades — system punishes illness",
+      "Snow and campus beauty are genuine stress relievers students genuinely value",
+      "Overdose risk on campus prompted student-led naloxone and harm reduction efforts"
+    ],
+    "key_quotes": [
+      "I've been sick for the past 2 months straight... I had a week so bad I had to miss class. Immediately my grades dropped from all 90+ to under 80",
+      "Remember to prioritize your mental health as you finish out the semester. If you're feeling overly anxious, take a break from studying and take a walk",
+      "Providing our peers with education, training, test kits, and naloxone could save a stranger or friends life at a frat party"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Grad assistants had promised tuition waivers revoked mid-process by provost",
+      "Cap and gown fees include forced $17 shipping with no pickup option",
+      "UNC system underfunds App State per student; school compensates by growing enrollment"
+    ],
+    "key_quotes": [
+      "The written job listing explicitly promised a tuition waiver as part of the compensation... Earlier in March, App State's Provost implemented a school-wide policy eliminating [it]",
+      "17 dollar shipping on top of an 80 dollar cap and gown why in the world are these people so greedy",
+      "App has consistently been in the bottom of funding per student. The only way to get more is more students"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "AI tools being pushed inconsistently — some profs ban it, others assign it uncritically",
+      "Student abilities described as declining sharply over the last 15 years by faculty",
+      "Advising errors caused a student to get a graduation-short-credits email weeks after graduating"
+    ],
+    "key_quotes": [
+      "I know someone who had to take his calculus exam on the computer. There were ad breaks. He could not skip the ads. They took up exam time",
+      "The quality of the student has declined, and the pandemic exacerbated it... boy-oh-boy have student abilities plummeted",
+      "I graduated this fall semester... There has always been a lot of confusion... only for a couple months after I complete the courses to be told it doesn't count"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Administration expanded enrollment aggressively without matching infrastructure or funding",
+      "Housing office refused to act on a trespassing roommate situation to avoid 'escalation'",
+      "Faculty housing promised as affordable was priced equal to or higher than market rate"
+    ],
+    "key_quotes": [
+      "Thank you to whoever is responsible for the enshittification of my bachelor's degree",
+      "Housing wouldn't do anything because it would 'escalate' the situation",
+      "Call it affordable housing, get good press, then just don't make it affordable"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is genuinely beautiful — snow photos go viral every winter for a reason",
+      "Boone's mountain location means real snow driving hazards every winter",
+      "Town has a beloved local food and outdoor culture that alumni miss for years"
+    ],
+    "key_quotes": [
+      "I miss app. I'm in Charlotte now so there's not these quiet moments, or any snow",
+      "God I loved and love Boone so much, but I've seen better driving in small Albanian towns",
+      "I was an international student and studied at App State for three years. It's the place I will definitely visit again before I die"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni report strong outcomes across diverse fields despite school's regional reputation",
+      "One alum joke-thread showed barefoot hippies become Fortune 50 managers and SVP directors",
+      "Degree value threatened by accreditor switch to DeSantis-aligned body; employers may not recognize it"
+    ],
+    "key_quotes": [
+      "I went to App from 2003-2007, would love to do it all over again but this time get a degree that is worth something",
+      "Manage a team of data analysts for a fortune 50 company [on being asked where barefoot App grads ended up]",
+      "The thing that Republicans don't understand is that while they can cheapen their schools' accreditation... that devalues the degree"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is genuinely affordable by national standards",
+      "Hidden fees pile up: overpriced dining, towing, mandatory software, cap and gown shipping",
+      "Expanding enrollment without infrastructure investment means you're paying more for a crowded experience"
+    ],
+    "key_quotes": [
+      "Can't make more money without more students",
+      "The university doesn't give a shit about anything other than sportsball at this point",
+      "Dang. Nothing's changed but the weather and my shoe size... The subpar food, the advisors, the parking — all still cons from the 90s"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong community identity built around mountains, football, and outdoor culture",
+      "Campus culture shifting from hippie/outdoorsy to bro-heavy as enrollment expanded",
+      "Hurricane Helene aftermath showed students and community genuinely rally together"
+    ],
+    "key_quotes": [
+      "App State use to be a hippie school now it's a bro/hipster school",
+      "They shut down school for a few weeks after the hurricane... those kids that stayed behind and helped the locals are a blessing",
+      "Forever Mountaineers"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety: Reported rape surge on campus; one survivor said her report was literally lost by the university**",
+      "**Administration: Tuition waivers revoked after grad assistants signed leases and made moving arrangements**",
+      "**Accreditation: NC law forces App State to switch to politically motivated accreditor, threatening degree recognition**"
+    ],
+    "key_quotes": [
+      "I was raped my first year and reported it, they actually LOST my report… so nothing was done",
+      "I signed a lease, made multiple down payments, and made travel arrangements to move my life to Boone... [then the tuition waiver was revoked]",
+      "App state use to be a hippie school now it's a bro/hipster school... Do I have concerns about political games leading to worse outcomes for students? Yes, certainly"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Black Cat Burritos is a beloved local institution — every alum mentions it",
+      "Belk Library late-night has a cult following; the coffee is genuinely good",
+      "Blue Ridge Conservancy land access and nearby outdoor recreation is world-class"
+    ],
+    "key_quotes": [
+      "Go to Blackcat Burrito on Depot St",
+      "Nothing like sitting on floor 2 sipping that joe and grinding... the coffee was so good. I took the gourmet stick boy coffee for granted till I went other places",
+      "All my homies love and donate to the BRC, fuck yeah"
+    ],
+    "score": 8
+  }
+}

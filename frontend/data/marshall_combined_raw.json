@@ -1,0 +1,2592 @@
+[
+  {
+    "id": "gcswb4",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "An analysis of 3,069 college emails",
+    "body": "I once read a post on /r/A2C nearly one year ago from /u/Popopopper123 titled \"A brief analysis of 2374 college emails\" which you can find [here](https://www.reddit.com/r/ApplyingToCollege/comments/aibmii/a_brief_analysis_of_2374_college_emails/), and I knew when reading that I would want to conduct some analysis of my own.\n\nOne year later, I finally committed to a university, ~~I'm procrastinating studying for my AP exams~~, and I'm excited to take a look at the schools that have been harassing me for the past 4 years.\n\n**Disclaimers:**\n\n* These numbers may actually be underestimated. In the fall, I created a new email address that I thought was more professional than my last. I set up my old inbox to forward every email I received to the new email inbox, but there possibly were emails that got caught in the spam filter of my first email that I could not get access to.\n* I'm not sure of the legality of this, but my high school gives assignments that are basically filling out forms with your information, and this information is then sold to colleges. I was forced to give out my information probably 5 times.\n* I took the PSAT 3 times, SAT 3 times, and ACT 2 times, and never once did I opt out of the Student Search Service.\n* I don't believe I deleted any emails, and I usually added them to a folder that was specifically for college mail. I don't believe I unsubscribed either, but I may have gotten annoyed once or twice and done it a couple times.\n* I only ever personally requested information from two colleges: the University of Florida and the University of Pennsylvania.\n* I made sure not to include any emails of the 14 colleges I applied to after I submitted my application so as not to skew their numbers.\n* I counted these numbers by searching each college's name and recording them in an excel sheet, and I am prone to error.\n\n----------------------------\n\n# General Statistics:\n\n* I counted a total **3,069 emails** from **127 different colleges**.\n* The average college sent me **\\~24** emails each. (median: 15 for you AP statistics folks)\n* My very first email was from Rensselaer Polytechnic Institute on January 10, 2017.\n* You can see a [graph of the distribution here](https://imgur.com/nOO1SLF).\n\n# Top Spammers:\n\n1. Drumroll please! &gt;!Tulane University!&lt;: 170 emails\n2. Misericordia University: 103 emails\n3. University of Notre Dame: 99 emails\n4. The College of Wooster: 87 emails\n5. Fordham University: 78 emails\n6. Cornell University: 78 emails\n7. Washington &amp; Jefferson College: 71 emails\n8. Hillsdale College 69 emails\n9. Rice University: 67 emails\n10. Wake Forest University: 64 emails\n\n# T20 Schools:\n\nI would like to believe I had the stats to be competitive at these schools, and while that may not have been true many emailed me anyway.\n\n^(Please don't harass me on what schools are T20s I hate the term and I'm only doing this to please A2C's prestige obsession.)\n\n* Harvard 12 emails\n* Yale 24 emails\n* Princeton 9 emails\n* Stanford 4 emails\n* MIT 2 emails\n* Caltech 0 emails\n* UChicago 57 emails\n* UCLA 10 emails\n* UC Berkeley 0 emails\n* Dartmouth 0 emails\n* Vanderbilt 13 emails\n* Michigan 0 emails\n* Columbia 41 emails\n* Cornell 78 emails\n* Penn 15 emails\n* Johns Hopkins 47 emails\n* Northwestern 5 emails\n* Carnegie Mellon 8 emails\n* Brown 35 emails\n* Duke 0 emails\n* Notre Dame 99 emails\n\n# Some Raw Data:\n\n^(in alphabetical order for you to examine your own colleges)\n\n\\*some of these are weirdly specific local schools so I'm sure you've never heard of a few\n\n* Alderson Broaddus University\t39\n* Amherst College\t3\n* Babson College\t11\n* Bentley University\t6\n* Berea College\t15\n* Boston University\t20\n* Bowdoin College\t1\n* Brown University\t35\n* Bucknell University\t29\n* Cal Poly\t5\n* California University of Pennsylvania\t35\n* Carleton College\t16\n* Carnegie Mellon University\t8\n* Case Western Reserve University\t43\n* Charleston Southern University\t11\n* Claremont McKenna College\t11\n* Colby College\t45\n* Colgate University\t25\n* Columbia University\t41\n* Concord University\t32\n* Cornell University\t78\n* Drexel University\t40\n* Duquesne University\t22\n* Eastern Mennonite University\t12\n* Embry-Riddle Aeronautical University\t21\n* Emory University\t22\n* Fairmont State University\t16\n* Florida Atlantic University\t2\n* Florida International University\t9\n* Fordham University\t78\n* Full Sail University\t18\n* Furman University\t12\n* George Mason University\t41\n* George Washington University\t13\n* Georgetown University\t4\n* Glenville State College\t35\n* Grinnell College\t2\n* Harvard University\t12\n* Harvey Mudd College\t3\n* Hillsdale College\t69\n* Indiana University\t8\n* John Paul the Great\t3\n* Johns Hopkins University\t47\n* Lehigh University\t14\n* Long Island University\t61\n* Make School\t7\n* Marietta College\t7\n* Marlboro College\t1\n* Marshall University\t62\n* Metropolitan University\t3\n* Milwaukee School of Engineering\t3\n* Misericordia University\t103\n* MIT\t2\n* Mount Aloysius College\t47\n* Mount St. Mary's University\t33\n* NC State University\t22\n* Neumont College of Computer Science\t1\n* New York University\t4\n* Northeastern University\t8\n* Northwestern University\t5\n* Norwich University\t11\n* Oklahoma University\t55\n* Olin College of Engineering\t10\n* Otterbein University\t52\n* Penn State - Fayette\t4\n* Penn State - University Park\t12\n* Pepperdine University\t2\n* Pitt\t45\n* Pomona College\t26\n* Princeton University\t9\n* Purdue University\t37\n* Rensselaer Polytechnic Institute\t52\n* Rice University\t67\n* Rochester Institute of Technology\t33\n* Rose-Hulman Institute of Technology\t29\n* Saint Louis University\t12\n* Sarah Lawrence College\t4\n* Savannah College of Art and Design\t12\n* Shawnee State University\t21\n* Shippensburg University\t15\n* Southern Methodist University\t12\n* Stanford University\t4\n* Stevens Institute of Technology\t12\n* Stevenson University\t25\n* SUNY ESF\t18\n* Swarthmore College\t22\n* Tel Aviv University\t4\n* The College of Wooster\t87\n* THE Ohio State University\t9\n* Thiel College\t30\n* Tulane University\t170\n* UCLA\t10\n* University of Akron\t53\n* University of Alabama\t19\n* University of Baltimore\t13\n* University of Chicago\t57\n* University of Denver\t9\n* University of Florida\t3\n* University of Kentucky\t41\n* University of Maryland\t8\n* University of North Carolina - Charlotte\t10\n* University of Notre Dame\t99\n* University of Pennsylvania\t15\n* University of Richmond\t10\n* University of Rochester\t2\n* University of San Francisco\t40\n* University of Southern California\t8\n* University of Tampa\t14\n* University of Tennessee\t37\n* University of Texas at Dallas\t6\n* University of Virginia\t4\n* University of Virginia - Wise\t15\n* Vanderbilt University\t13\n* Vassar College\t2\n* Villanova University\t9\n* Wake Forest University\t64\n* Washington &amp; Jefferson College\t71\n* Washington and Lee University\t9\n* Washington University in St. Louis\t62\n* Waynesburg University\t16\n* Wesleyan University\t3\n* West Point Academy\t1\n* West Virginia University\t16\n* Western Colorado University\t1\n* Wheeling Jesuit University\t23\n* Yale University\t24\n\n--------------------------------------------\n\n# Fee Waivers:\n\n**12** colleges sent me application fee waivers:\n\nCollege of Wooster, Fordham University\\*, RIT\\*, Mount St. Mary's, Marietta College\\*, Waynesburg University, Embry-Riddle Aeronautical University, University of San Francisco, University of Alabama\\*, John Paul the Great (initially gave me an 80% discount), Oklahoma University, and the University of Akron.\n\nI applied to the schools marked with a \\*.\n\n# Deadline Extensions:\n\nI received deadline extensions from **13** colleges:\n\nWooster (4 times), Mount St. Mary's (3 times), Rensselaer Polytechnic Institute (3 times), George Mason, Kentucky, John Paul the Great, Oklahoma, Otterbein, Emory, Olin, George Washington, George Mason, and Make School.\n\n# Emojis:\n\n**7** schools sent me emails with emojis in the subject line 😎:\n\n* Carleton College (4 out of 16 emails had emojis in the subject)\n* Colgate College 1 out of 25\n* Florida International University 7/9\n* Full Sail University 2/18\n* Johns Hopkins University 4/50\n* Rice University 5/67\n* Tulane University 11/170 (every subject was extremely cringe-y as well)\n\n# General Fun Statistics:\n\n* I received **11** emails from 9 different colleges that said \"is this \\[my name\\]?\" in the subject line. I still don't understand the point of these.\n* **5** schools sent me emails with \"urgent\" in the subject line.\n* Surprisingly I have never received any emails from the notoriously annoying LSU. Sorry to disappoint.\n* Although, Tulane has sent me a total 170 emails, they haven't sent me an email since **January 14th**.\n* **13** of Rochester Institute of Technology's 33 emails didn't actually have the school's name anywhere in the message, only \"RIT\".\n* The College of Wooster sent me **3** emails recruiting me as an athlete when I am absolutely ASS at the sport that I do participate in.\n* Wesleyan University sent me an \"undercover\" email where they bragged about the school and didn't include their school's name in the email, only a link to [www.UncommonU.org](http://www.UncommonU.org).\n* Colgate University once addressed an email to me as \"Dear {\\[PREFERRED\\]}\". Someone in the recruiting office made an oopsie.\n* Only **355** emails said that they had received my information from CollegeBoard's Student Search Service.\n* **363** (!) emails had a \"P.S.\" at the bottom.\n* Mount Aloysius College once sent me **11** emails within the span of 24 hours.\n* Misericordia once spelled the name of their OWN UNIVERSITY wrong (spelled it Misercordia without the i).\n\n---------------------------------------------\n\nOne thing that I think would be very cool would be to make a cumulative bar chart over time like the ones currently popular over on /r/dataisbeautiful but that would require some coding and is way out of my expertise.\n\nUh I think that's it. Thanks for reading if you made it this far. Let me know if you are curious about something else in the comments and I can try my best to give an answer.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/gcswb4/an_analysis_of_3069_college_emails/",
+    "upvotes": 1465,
+    "date": "2020-05-03T15:55:58.000Z",
+    "author": "5105100",
+    "top_comments": [
+      {
+        "text": "I'm surprised you didn't get any from Hofstra University",
+        "upvotes": 391,
+        "author": "nayayana",
+        "date": "2020-05-03T16:43:32.000Z"
+      },
+      {
+        "text": "who is not surprised by tulane at ALL?",
+        "upvotes": 298,
+        "author": "Saiyan-Luffy",
+        "date": "2020-05-03T16:34:14.000Z"
+      },
+      {
+        "text": "Misericordia literally means sad heart in Latin lol what a name for a university",
+        "upvotes": 110,
+        "author": "[deleted]",
+        "date": "2020-05-03T16:53:39.000Z"
+      },
+      {
+        "text": "thanks, now we all know which schools to block",
+        "upvotes": 109,
+        "author": "RayDeeUx",
+        "date": "2020-05-03T16:27:43.000Z"
+      },
+      {
+        "text": "wow i’m surprised at cornell",
+        "upvotes": 54,
+        "author": "yeehaw1022",
+        "date": "2020-05-03T17:09:41.000Z"
+      },
+      {
+        "text": "Tulane is ruthless. I get so many from them.",
+        "upvotes": 41,
+        "author": "i_am_me47",
+        "date": "2020-05-03T16:38:08.000Z"
+      },
+      {
+        "text": "West point is last? They send me a shit ton of emails",
+        "upvotes": 41,
+        "author": "CabritoRico",
+        "date": "2020-05-03T17:04:38.000Z"
+      },
+      {
+        "text": "You're lucky that Susquehanna University didn't find you. Once they find you, they will latch on like a freeking leech.",
+        "upvotes": 36,
+        "author": "[deleted]",
+        "date": "2020-05-03T17:06:36.000Z"
+      },
+      {
+        "text": "I have no idea how you didn’t get some from LSU. They were sending me 3-4 emails a day in February",
+        "upvotes": 32,
+        "author": "alecr131",
+        "date": "2020-05-03T17:18:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1oskjr7",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Thank You Huntington",
+    "body": "First, I would like to thank the city, the staff, the fans, and the players for making my 1st trip to Marshall University a great one.\r\n\r\nThis year I started a 15 to 20 journey to visit Every FBS division 1 stadium.  Saturday my travels to me to Huntington.  Home of the Thundering Herd.  Joan C. Edwards Stadium was only a 2hr and 30-minute drive from Columbus, OH.  \r\n\r\nAs I cross over the Bridge from Chesapeake to Huntington.  The Ohio River greeted me with is open arms and stunning views.  My 1st stop was Butter it Up.  A small restaurant in a food market in downtown Huntington.  The food and service were great.  Compliments to the cook working that day.  He was exceptional.  After Breakfast I spent a little time downtown exploring before I decided to make my way to the Campus/Stadium Area.\r\n\r\nAs the morning crept closer to mid day.  Fans started to appear all over campus in anticipation for a noon football game vs JMU.  I spent 2 hours walking around campus taking pictures and enjoying the views.  Even in the precipice of a Football game this city has its way of making you feel relaxed.  \r\n\r\nI chose this game as it was the 55-year memorial game of the “75”.  Even though the tragic event happened in 1970.  You can tell how important this is to the city and football team today.   \r\n\r\nShortly after entering the stadium.  I walked around to see what the concession had to offer.  Why doesn’t every stadium have food trucks available for extra concession?  The burrito from food truck was the best Stadium food I’ve had so far in my journey.  \r\n\r\nI was seated in section 111, row 11, seat 11.  Yes 111-11-11.  What are the odds?  The best part of my seating arrangement was the gentleman seated directly to my right.  A man from Chesapeake who said his claim to fame was being an extra in We are Marshall the movie.  As soon as he and his friends sat down, he greeted me.  He was like my personal historian.  We talked lots of football and just life in general.  He was extremely interested in hearing about my journey and wished me well before leaving the stadium.  \r\n\r\nEvery stadium I travel to I am a fan of the home team for the day.  So naturally I was about of the Herd today.  When the game was 28-23 and Marshall got the ball.  I thought I was watching a game winning drive unfold.  Unfortunately, a 4th down with 2 yards to go would decide the game with the Thundering Herd unable to convert.  JMU took over and won 35-23.\r\n\r\nWell, if you have read this far you are now a part of my journey.  This game and this place was special to me.  The memories I made here will travel with me forever.  I feel so grateful to be the smallest part of this beautiful memorial game.   When 30,000 people chant “We are…Marshall.”  You can tell this is not just football, it is family.  Thank you again to everyone that made my day special.  \r\n\nNow it’s on to week 12.  \n\nIf you like this.  I post on r/cfbstorytime after every game.  \n",
+    "url": "https://www.reddit.com/gallery/1oskjr7",
+    "upvotes": 72,
+    "date": "2025-11-09T14:20:08.000Z",
+    "author": "Must_Vibe",
+    "top_comments": [
+      {
+        "text": "Nice write up and safe travels!",
+        "upvotes": 7,
+        "author": "slbarrett89",
+        "date": "2025-11-09T15:14:54.000Z"
+      },
+      {
+        "text": "Glad you got to enjoy the beautiful weather and game yesterday! Score wasn’t what we wanted but it was a good time. The We are Marshall chant is something I always love visiting people to experience and during the 75 game the emotions are just unmatched. Best of luck to you on the rest of your journey!",
+        "upvotes": 5,
+        "author": "themanofsteele61",
+        "date": "2025-11-09T16:14:41.000Z"
+      },
+      {
+        "text": "Glad you got to see us!",
+        "upvotes": 3,
+        "author": "LooserNooser",
+        "date": "2025-11-10T21:19:47.000Z"
+      },
+      {
+        "text": "Thank you!   Come back again soon and best wishes for your journey.   Safe travels!",
+        "upvotes": 2,
+        "author": "TeeVaPool",
+        "date": "2025-11-09T21:29:04.000Z"
+      },
+      {
+        "text": "I sat at the tippy top of the stadium and enjoyed the view down 3rd and the ability to see the surrounding mountains in all directions. Such a beautiful day and a fun game regardless of the outcome.\n\n  \nButter It Up is a nice spot. If there's a next time, I'd recommend Pho U &amp; Mi for some nice Vietnamese cuisine just a few blocks from the stadium on the other side of campus, or Banhof for some delicious German cuisine.",
+        "upvotes": 2,
+        "author": "Keboh3",
+        "date": "2025-11-09T22:50:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "p93g8f",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Been at college for 2 days now. I wish I could fix this loneliness and stuff.",
+    "body": "So I am going to Marshall University now and this is my second day here. I am technically a sophomore, but didn't stay on campus last year sadly due to COVID. So far though, I have been extremely lonely. I have yet to find anyone to hang out with or even talk to for longer than 30 seconds. Meanwhile, I see so many people out mingling and it makes me feel lonely. The other thing is I am also a transgender girl. My family begged me to not out myself the second I got here, and it has been awful feeling having to dress in this disgusting way. I feel like this hinders my non existent social skills even more. As for my social skills themselves, they have always been awful. I have struggled to make friends my entire life. Part of this may be from how I'm autistic. I am generally an introvert in general though, yet I am desperate for some friends to be with. It is making me really sad because I am worried I won't be able to make friends when friends were the biggest thing I honestly want out of all this. I know it's only my second day here, but the bad feelings are already settling in. The only times I have seemed to be happy today are either off campus or in my room. It sucks.",
+    "url": "https://www.reddit.com/r/college/comments/p93g8f/been_at_college_for_2_days_now_i_wish_i_could_fix/",
+    "upvotes": 36,
+    "date": "2021-08-22T01:26:31.000Z",
+    "author": "Weatheronthe8s",
+    "top_comments": [
+      {
+        "text": "Give it time and a little bit of effort, friends wont just appear overnight.  Once class starts try talking to people in them or asking to form study groups. Keep trying even if it's like 3 weeks in...friends tend to show up at very weird times and very weird ways sometimes.",
+        "upvotes": 13,
+        "author": "NinjaLorian",
+        "date": "2021-08-22T03:32:06.000Z"
+      },
+      {
+        "text": "i get that; in the same boat, trans having to not be fully out. trust me, there are cool people out there you can talk to but also there are a lot of people just as lonely, they’re just not as visible. i was one of those people, depressed about not knowing anyone - until i started taking to people. now i, an introvert, have an actual friend group - which is something i never had in high school, and i’ve been here less than two weeks",
+        "upvotes": 9,
+        "author": "terfexclusionary",
+        "date": "2021-08-22T01:48:57.000Z"
+      },
+      {
+        "text": "ah. honestly everyone i’ve met has been becoming of coincidence, like getting on a bus talking a “tour” to downtown and not having any idea of what to do. so i have hope that you will meet people, but also check to see if your college has counseling services in case you’re ever in a bad place",
+        "upvotes": 3,
+        "author": "terfexclusionary",
+        "date": "2021-08-22T02:00:46.000Z"
+      },
+      {
+        "text": "I’m not trans but I have virtually the exact same experience so far. Is it affecting your health? My week has been so filled with panic attacks stemming from this and not being able to eat so it’s been pretty bad. I’m looking at a university back home to switch to before fall semester begins",
+        "upvotes": 3,
+        "author": "ntimm2",
+        "date": "2021-08-22T02:14:21.000Z"
+      },
+      {
+        "text": "I go back to school in two weeks and orientation is next week. I’m nonbinary (kinda out about this, not really) and I’ve always struggled with making friends. I’m a freshman this year and I decided to not live on campus, but I am commuting. I’m terrified to make friends because in high school I only had two who really hurt me in the end. I never felt comfortable to be myself, and in the end I think that is why I couldn’t make friends. When you are completely yourself around others, I find they tend to want to be around you more (although I still have difficulty doing this often). Although I haven’t ever been to college, I plan on joining a bunch of clubs and really putting myself out there, despite having social anxiety and I’m an introvert. After the initial fright, I feel it’ll get better. Just know that you aren’t alone. I wish you the best:)",
+        "upvotes": 2,
+        "author": "artsyspaceperson",
+        "date": "2021-08-22T03:08:52.000Z"
+      },
+      {
+        "text": "Have you checked out the LGBTQ+ Office at Marshall? [Here's a link](https://www.marshall.edu/lgbtq/) to their site. You should stop by their office. Part of their mission is to provide a space for the LGBTQ+ population to meet friendly people.",
+        "upvotes": 1,
+        "author": "-Langdon_Alger-",
+        "date": "2021-08-22T07:06:07.000Z"
+      }
+    ]
+  },
+  {
+    "id": "nr6n7x",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Looking to go to college to become a High School History teacher, advice needed!",
+    "body": "So, a little backstory. In high school I never thought I’d have this aspiration, but ever since I’ve been out of school and started working, it’s really all I’ve wanted to do. But on the downside, I myself never completed high school. There’s a local community college I can attend without a high school diploma and then transfer to Marshall University due to a partnership they have after 2 years at the community school. \n\nI love history and I’d love to help the youth love it too. But I’ve came to a point to where I’m ready to get things rolling and I’m honestly.. unsure of where to begin. I will 100% need financial aid, I know about the FAFSA and I intend to apply for it if I’m able. Would you guys be able to steer me in the right direction?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/nr6n7x/looking_to_go_to_college_to_become_a_high_school/",
+    "upvotes": 33,
+    "date": "2021-06-03T06:26:05.000Z",
+    "author": "RavensRitual",
+    "top_comments": [
+      {
+        "text": "&gt;I know about the FAFSA and I intend to apply for it if I’m able\n\nYou don‘t apply “for” FAFSA.\n\nFAFSA is a vehicle through which you apply for several federal financial aid programs, but FAFSA itself doesn’t provide any aid.\n\nhttps://studentaid.gov/h/understand-aid/how-aid-works",
+        "upvotes": 12,
+        "author": "[deleted]",
+        "date": "2021-06-03T11:27:20.000Z"
+      },
+      {
+        "text": "Congrats to you!! We definitely need amazing history teachers in our world now. \n\nYou can also take the GED to open your options. \n\nYour best bet is to reach out to the community college where you want to start and ask them what you need to get going. They will have counselors and advisors who can guide you.  Then reach out to Marshall and make sure you are taking the prerequisites you need to transfer. \n\nCheck out the fafsa and start looking at the basic classes you’ll need for fall. You will probably need to do some testing at the community college for placement so be sure to check into dates and deadlines for that",
+        "upvotes": 7,
+        "author": "admissionsmom",
+        "date": "2021-06-03T16:47:38.000Z"
+      }
+    ]
+  },
+  {
+    "id": "3b9lml",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "I applied for financial aid and picked out schools and I was wondering about applying to a one that I didn't choose when I first did my financial aid.",
+    "body": "I went to a community college for two years and I want to apply to another one while trying to find a job and get my bachelors in business.  When I signed up for financial aid this year, I picked a few schools I was interested in and a few of them are very expensive.  I found a community college that I would like to apply for and was wondering if I could choose a different one from the ones that I first chose?  It is cheaper and I may not have to take out a loan to enroll there and would rather do that.  \n\nIf I can, how will I change it on my financial aid?  I am assuming I would change it somehow and apply for the school and apply for a loan if I have to.  I am trying not to since I owe $15k in loans right now.  I hope this whole post makes sense.  \n\nEdit:  Also I got a grant for $2,600, but it says it's for Marshall University and I am trying to go to a community college and I was wondering if I could change it to the school that I plan on attending?",
+    "url": "https://www.reddit.com/r/college/comments/3b9lml/i_applied_for_financial_aid_and_picked_out/",
+    "upvotes": 12,
+    "date": "2015-06-27T02:40:41.000Z",
+    "author": "rachmw",
+    "top_comments": [
+      {
+        "text": "Hi, \n\nThank you for your inquiry. This message is to inform you that you can, in fact, go back on to your FAFSA application and make a \"correction\" to include the new schools Title IV school code. \n\nThings to lookout for: \n-application deadlines.this doesn't mean you can't go there if it is missed. It generally means you would have to set up a payment plan and begin paying for your classes \"out of pocket,\" once your application is received and reviewed and no other information is needed from you then you can accept you award offered (pell grant, loans)\n\n-For school starting in August 2015, complete the 15-16 FAFSA. \n\nHOPE THIS HELPED!! \n\nSincerely, \n\nFinancial Aid Technician II of a College.",
+        "upvotes": 2,
+        "author": "[deleted]",
+        "date": "2015-06-27T10:04:39.000Z"
+      },
+      {
+        "text": "You could try to make a correction on the FAFSA website and change the selection of colleges to the ones you prefer (may or may not work). Each college or university you select will typically have their own financial award or package that will be available to you after enrollment, which should include any money allotted to you by the FAFSA grants. What that means is that after finishing the FAFSA application, the colleges will receive that information directly and determine what you will get in grants, aid, loans, etc.\n\nIf the first option doesn't work, try to contact the school's financial aid office or admissions office, maybe they could help. Just know that financial aid has a limit of certain academic semesters of usage (I think it was six years of schooling, not sure) and minimum GPA requirement to maintain certain grants. The FAFSA application has a deadline, however, so it's possible that you may have to wait until next year to reapply.",
+        "upvotes": 1,
+        "author": "ninjafizzy",
+        "date": "2015-06-27T04:44:50.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rlxnfa",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Reminder HERDCON is this Saturday",
+    "body": "",
+    "url": "https://i.redd.it/zdo7l1c9bbng1.jpeg",
+    "upvotes": 11,
+    "date": "2026-03-05T23:37:25.000Z",
+    "author": "MillArts",
+    "top_comments": []
+  },
+  {
+    "id": "1rad3q0",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "CyberSecurity is not the future of Marshall, a small rant",
+    "body": "I've been in small debates with people around campus. I have an undergrad in computer science. Many professors and students on campus have fawned over the money flowing into cyber security. I've hit back saying its not the future and I'm gaslit into thinking I'm crazy and i don't understand cause I'm from out of state.\n\nThey take this tone with me like with my background in computer science why I bother with the neurosciences. Then they \"humbly\" ask, \"why don't you just join the cyber security school?\"\n\n**If you look at the markets today this is why. And yes, I feel ridiculously smug seeing the cyber security stocks fall.**\n\nMarshall should be doing interdisciplinary studies. Comp Sci combined with everything. Higher Education does not have time to be battling department egos and politics. Marshall has to get its shit together or be left behind, again, and again, and again. ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1rad3q0/cybersecurity_is_not_the_future_of_marshall_a/",
+    "upvotes": 10,
+    "date": "2026-02-21T00:51:52.000Z",
+    "author": "rationalexpressions",
+    "top_comments": [
+      {
+        "text": "Dude, it's Friday night, go have a beer and make some friends",
+        "upvotes": 19,
+        "author": "Archaic_1",
+        "date": "2026-02-21T00:58:33.000Z"
+      },
+      {
+        "text": "“The neurosciences.”\n\nI’m not a big expert, but I’m pretty sure it isn’t plural on my Bachelor’s Degree. 😆",
+        "upvotes": 7,
+        "author": "ShakenOatMilkExpress",
+        "date": "2026-02-21T01:54:39.000Z"
+      },
+      {
+        "text": "Marshall as an educational entity pales in gravity to Marshall University as a business.",
+        "upvotes": 3,
+        "author": "Ok_Set3037",
+        "date": "2026-02-21T11:01:12.000Z"
+      },
+      {
+        "text": "CFS major here, it seems you do not understand how markets work. The stock market is based on PREDICTIONS and PREDICTIVE ALGORITHMS. Stocks dropped because the broader market predicted after Anthropic's announcement for their new defensive security tool.\n\nA very great recent example of this is gold and silver. Trump says something about tariffs or conflict, price go up. Trump says nothing about those things, price go down. Really simple. What you are arguing about is a temporary market move that will level out with time. Computer Science had the same thing happen with AI. Stop being a smug prick over something you don't understand whatsoever. \n\nIt is very, very tempting to get a bunch of boomers and Gen X to buy shorts and short futures on CS stocks just to prove you wrong, but since I'm such a nice person I'm not gonna do that. 😁",
+        "upvotes": 2,
+        "author": "Choice_Cheek7369",
+        "date": "2026-02-21T18:57:02.000Z"
+      },
+      {
+        "text": "The intense siloing of departments and disciplines at Marshall University is leading to a rigidity in thinking that doesn’t allow students to really grasp cutting edge or ground- breaking scientific innovation. It really seems with the cyber security school that they’re gravitating towards a new fad without having a good understanding of implementation. You can’t just drop a technologically intense industry in an area with bad Wi-Fi and no other job opportunities.",
+        "upvotes": 2,
+        "author": "Ok_Set3037",
+        "date": "2026-02-21T10:59:53.000Z"
+      },
+      {
+        "text": "Anyone looking at a cyber security would have to be crazy right now for one is not entry-level and you’ll spend years working on helpdesk for $12-$15 an hour if you’re lucky enough to do that, right now there’s also so much uncertainty given AI developments.\n\nIf you make it past the hurdles, you can be one of 700 or 800 applicants applying for an entry-level job 5 to 6 years ago there was maybe 20 to 30 for the same job\n\nFor years influencers boot camps and universities have sold the dream that you can very easily be making six figures in cyber security and that’s just not true people now are like you really need to have a job in it already.",
+        "upvotes": 2,
+        "author": "Subnetwork",
+        "date": "2026-02-22T13:47:56.000Z"
+      },
+      {
+        "text": "Marshall alum here. I was in undergrad where Marshall dropped if I remember correctly 10 million dollars into a new art building for the art department, I was i sophomore at the time, and I thought “oh we are getting a masters program, i can stay in my hometown, i can teach kids, i can get my masters where I got my undergraduate, be close to my family it will be great.” They didn’t do that. In my opinion as a Huntington native who was born and raised in Huntington, Marshall tends to reward people from prominent or influential families, it’s an off shot of West Virginia’s good ol system. If you’re not from a well known family or from money they don’t care about you. It’s just how it works.",
+        "upvotes": 1,
+        "author": "Michelob_304",
+        "date": "2026-02-21T15:12:56.000Z"
+      },
+      {
+        "text": "I am a former IST grad from the early 2000s.  Before Computer Science was brought back even.  The IST program had pretty much what you said, a computer science/combined with everything.  I had to even take 12 hours of foreign language.  I had a few security focused courses in my major.  I was sad to see this program go away in the college of science.  It was a good program.  Cyber Security is very much an important industry right now.\n\nPrograms come and go, and what is hot today, may not be hot 15 years from now, but all schools ride the what's hot bandwagon until its not hot anymore.  Computer Science was killed off once at Marshall and then brought back once it become relevant again.",
+        "upvotes": 1,
+        "author": "PlasticJournalist938",
+        "date": "2026-02-24T15:17:36.000Z"
+      }
+    ]
+  },
+  {
+    "id": "quungu",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "best colleges in the Appalachian region?",
+    "body": "I live in WV and i’m currently freaking out because I realized i really need to apply to a few more schools. i’d like to stay closer to home tho, so i’m trying to stay in the region. \n\ncurrently i’m accepted into the honor’s college at Marshall University and i’ve applied to App State, i’m also going to apply to Virginia Tech and Ohio U.\n\nany suggestions?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/quungu/best_colleges_in_the_appalachian_region/",
+    "upvotes": 9,
+    "date": "2021-11-16T00:23:08.000Z",
+    "author": "emmallyce",
+    "top_comments": [
+      {
+        "text": "What major?\n\nRoanoke College, Ohio State, UNC Asheville, JMU, WVU, UPitt, Duquesne, UKentucky, UT Knoxville are all solid schools in the Appalachian region that seem to fit in with schools you've already applied to.",
+        "upvotes": 14,
+        "author": "[deleted]",
+        "date": "2021-11-16T00:37:36.000Z"
+      },
+      {
+        "text": "Using the state of West Virginia as the center point, some T50 national schools (not necessarily in Appalachia proper):\n\nOhio State\n\nCarnegie Mellon\n\nUniversity of Virginia\n\nWake Forest\n\nCase Western\n\nAnd some LACs:\n\nDennison\n\nKenyon\n\nOberlin\n\nDickinson\n\nWashington and Lee\n\nBerea",
+        "upvotes": 10,
+        "author": "[deleted]",
+        "date": "2021-11-16T01:04:23.000Z"
+      },
+      {
+        "text": "Sewanee (sorry if it was already mentioned)",
+        "upvotes": 3,
+        "author": "the3twins",
+        "date": "2021-11-16T02:58:08.000Z"
+      },
+      {
+        "text": "Budget? Stats?\n\nPSA, **public** universities tend to offer little to no *need-based* financial aid to out-of-state students and charge them more. Some may offer merit scholarships.\n\nOSU full cost of attendance will approach 50k/yr. It's possible that OSU gives merit to out of state students, though I don't know how frequently or how large.\n\nA copy and paste:\n\nFirst see whether you are eligible for any need-based financial aid. Run the ***Net Price Calculator*** on the financial aid website of each college you are interested in, with the help of a parent, to see a need-based estimate before you apply. (Sometimes NPCs are inaccurate for complicated family finances such as divorce or owning a business/rental property/farm if the NPC fails to ask. Students with more complex situations should consider calling the financial aid office with questions.) Federal student loan limits of 5500 for freshman year, totaling 27k over four years, are often reasonable amounts to borrow. Larger loans require a parent signature and are usually not reasonable amounts to borrow.\n\nIf the *need-based* estimate does not make the college affordable for your family, then look for *merit scholarships*. ***Often, the best merit scholarships are offered by the colleges themselves***. Look for colleges that offer competitive merit scholarships according to their websites, where your scores and grades are over the 75th percentile for that college.\n\nAlso look for colleges that offer big automatic merit scholarships to out-of-state students for your level of stats. Usually there will be a chart on their website with the levels of stats and scholarship amounts. Example: [https://scholarships.ua.edu/freshman/out-of-state/](https://scholarships.ua.edu/freshman/out-of-state/); see also UAH, U Maine, U Kentucky, U Mississippi, U Arizona, Arizona State, Wyoming, UTD, etc. Then compare the scholarship amount to the out-of-state cost of attendance to see whether the scholarship would make the college affordable for your family.",
+        "upvotes": 3,
+        "author": "elkrange",
+        "date": "2021-11-16T00:36:49.000Z"
+      },
+      {
+        "text": "Appalachian State Uni, I went there for my 7th grade duke tip program and it was pretty good",
+        "upvotes": 3,
+        "author": "AvocadoCool",
+        "date": "2021-11-16T00:49:44.000Z"
+      },
+      {
+        "text": "Alice Lloyd College is ranked like #7 in US News and World Report.",
+        "upvotes": 2,
+        "author": "Basic-Anything-3928",
+        "date": "2021-11-16T00:25:01.000Z"
+      },
+      {
+        "text": "Of course I agree with the person who suggested UK above, but you should look at Berea College too!",
+        "upvotes": 2,
+        "author": "Peaches_UK",
+        "date": "2021-11-16T00:42:01.000Z"
+      },
+      {
+        "text": "If you let us know what majors you are interested in, or size/ how rural of a school/ how selective/ financial situation, I can be a lot more helpful. \n\nIn the mountains: \nAllegheny College, founded early 1800s.Hidden gem. Between Pittsburgh and Erie. \nSewanee  farther away in TN, but 13000 acres on top of a mountain\nUNC Asheville- I’m not sure what the out of state scholarship situation is there, but if App State is on your list. \n\nSusquehanna River valley central PA\n\nSusquehanna U\nBucknell\nJuniata\n\nUniversity of Tennessee (Knoxville) has automatic scholarships for oos students. Check the grid\n\nOhio- College of Wooster south of Cleveland. Rolling hills. Very strong in sciences/research\n\n\nEastern PA has a ton of colleges including some top universities and liberal arts schools, but I’m not sure I would call it Appalachia.",
+        "upvotes": 2,
+        "author": "Perplexed-Owl",
+        "date": "2021-11-16T13:09:49.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1pfvaaz",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Charles Huff, Scumbag",
+    "body": "Nothing else need be said.  ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1pfvaaz/charles_huff_scumbag/",
+    "upvotes": 8,
+    "date": "2025-12-06T17:49:21.000Z",
+    "author": "bigstrizzydad",
+    "top_comments": [
+      {
+        "text": "Dude.  He’s a coach.\n\nIf you start a job at Fazoli’s making $12 an hour and Applebees offers you $16, you are going to take it.  Then Pizza Hut offers you $20 you are going there.\n\nCoaching is a professional job.  Marshall and the other G5s are always stepping stones.  Sabin coached at smaller schools and moved his way up to Michigan State then LSU then Alabama.",
+        "upvotes": 18,
+        "author": "necrochaos",
+        "date": "2025-12-06T17:54:09.000Z"
+      },
+      {
+        "text": "You should look up the definition of parasocial relationships. Your posting history is concerning.",
+        "upvotes": 4,
+        "author": "Gabrelle03",
+        "date": "2025-12-06T19:40:54.000Z"
+      },
+      {
+        "text": "..... who?",
+        "upvotes": 1,
+        "author": "Choice_Cheek7369",
+        "date": "2026-01-17T16:39:09.000Z"
+      },
+      {
+        "text": "Marshall should have paid him beginning of the season last year. End of story.",
+        "upvotes": 0,
+        "author": "ManySnackgod",
+        "date": "2025-12-06T20:08:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1tnrcgj",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Thoughts on Marshall for a student like me?",
+    "body": "Hello all! I’m a rising high school senior from Illinois doing some college research, and Marshall has come across my list! From what i’ve seen online, the school seems like a pretty great institution that has some nice sounding programs for what I’m interested in, but i’d love to know what some current students and alumni would think of the school for a student like me :)\n\n———\n\nFor some context, i’d most likely be trying to major in something like Advertising/PR or Journalism, and minor in something artsy (I.E, creative writing, film studies, media studies, music), or something humanities based (I.E. English, History, Philosophy, etc)\n\n———\n\nSome things that are important to me are…\n\n\\- networking/employment opportunities \n\n\\- quality/prestige of education, programs, and facilities (Specifically in the Communications and Media school)\n\n\\- LGBTQ+ safety and resources\n\n\\- resources for low income/first gen students\n\n———\n\nAdditionally, i’d love to know about activities at the school, especially in the realm of…\n\n\\- the arts, especially performing arts like drama, a capella, musical theatre, etc\n\n\\- music, on campus and greater local/underground music scene\n\n\\- party and/or bar &amp; club culture\n\n\\- Sporting events\n\n\\- Student activities, clubs, and general social life on campus.\n\n\\- greek/frat life on campus specifically, if anyone has any insight into that\n\n———\n\nHappy and hoping to hear all of your guys’ thoughts soon!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1tnrcgj/thoughts_on_marshall_for_a_student_like_me/",
+    "upvotes": 7,
+    "date": "2026-05-26T00:50:40.000Z",
+    "author": "Dedmoose1",
+    "top_comments": [
+      {
+        "text": "The Dean of Students at Marshall is Marcie Simms.  I've known her since I was a student there in the 90s.  She's pro LGBTQ.  She's doing her best to help out the students and still stay play nice with the state.  We have anti-DEI laws and they had to close down the LGBTQ Center, Women's Center, and Black Students Union.  That doesn't mean resources don't exist.  You just have to look a little bit harder and talk to a few more people.  But her office is the one you want to talk to about student related stuff.\n\nMarshall has a good football team and the women's basketball team and softball team were both highly successful this year.  The basketball team won the Women's NIT and the softball team made the NCAA tournament.  \n\nThe Journalism school has alway been highly regarded.  When I was there, the print and broadcast departments regularly won national awards.  Not sure how it any more with the decline in real journalism.\n\nParty scene is what you make of it.  There are bars within stumbling distance from campus and the frats are close by too.",
+        "upvotes": 5,
+        "author": "MasterRKitty",
+        "date": "2026-05-26T02:47:44.000Z"
+      },
+      {
+        "text": "I graduated from the W Page Pitt School of Journalism in the early 200s.  I loved it.  I loved my time at Marshall.",
+        "upvotes": 5,
+        "author": "necrochaos",
+        "date": "2026-05-26T03:45:31.000Z"
+      },
+      {
+        "text": "Hello there, rising sophomore here that’s first generation. There are student support services you can apply for, and you can either be paired with Jake or Caylin, who will help you with everything first-generation. It's been a blessing that the program has been to me. Sports events are a must, I enjoy going to the football and basketball games with my friends, which is a huge thing honestly. There are sometimes pop-up music events on campus. The bar scene is what you can make of it I enjoyed going to Boots until they upped the age. My friends are in the journalism college and they enjoy it and the professors. I don’t know much about that part since I’m a nursing major. There’s a bunch of student activities and stuff, you just have to honestly put yourself out there. I have friends in Greek life and they love it and their sisters, from an outsider's point of view it’s great that they do events for the local children’s hospital. The campus is a LGBTQ+ friendly campus we are all supportive and there is a LGBTQ+ club or something I’m not sure I know tons of professors are very accepting my friend is a trans woman and they make her feel seen in her body. My education honestly has been good in my opinion, but then again I’ve gotten great professors who have met me in the middle. President Smith is trying to expand Marshall for all, which is a debt-free and tuition-free scholarship I don’t think you’d qualify though since you’re in Illinois, but they’re doing great things.",
+        "upvotes": 4,
+        "author": "Far_Afternoon5051",
+        "date": "2026-05-26T03:10:29.000Z"
+      },
+      {
+        "text": "If you're thinking about advertising/PR/journalism, and are attracted to Ohio, WVA, Kentucky area, you should seriously consider Ohio University (not Ohio State) over Marshall.  Much nicer campus and surrounding area. Much better academic profile. Larger, but not too large. Significantly better Comms program - nationally ranked.  Not even close.",
+        "upvotes": 1,
+        "author": "Minimum_Welder_4015",
+        "date": "2026-05-26T14:19:09.000Z"
+      },
+      {
+        "text": "Having been at both UIUC and Marshall, you would be better served at uiuc, especially in terms of lgbtq safety and community. \n\nIf you can’t afford UIUC, Marshall is a good option that is relatively nearby. Not too dissimilar from rural illinois except prettier nature and more to do.",
+        "upvotes": 0,
+        "author": "blackcatseatmore",
+        "date": "2026-05-27T12:02:02.000Z"
+      },
+      {
+        "text": "Low network, low prestige, decent lgbtq stuff but its a bit undercut but the quality of the locals and the social problems of lgbtq peoples with less social mobility in the area, very friendly faculty towards low income and first gen people with caveats. \n\nfaculty are obviously pushing people through some of their programs. Inflating degrees and stats. \n\nThe faculty that call themselves first gen college educated profs in the liberal arts programs suffer from insecurities that affect the way they teach. IMO some Marshall professors are more concerned with looking like professors rather than being good admins. \n\nSmaller universities are all on the verge of demographic cliffs and structural employment deficiencies. Marshall included. \n\nMarshall’s aging faculty and heavy focus on liberal arts strikes me as bloated and outdated. They arent changing and undergraduate programs are barely set up for success at the national level. No strategic partnerships with larger companies and not really a feeder school to anything but to local melancholy. \n\nI did grad school at UK and oversee some undergraduate classes here. I would not recommend undergrads come here from out of state unless you are poor and in state.",
+        "upvotes": -7,
+        "author": "rationalexpressions",
+        "date": "2026-05-26T01:06:53.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rqfblf",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Herdcon 2026",
+    "body": "",
+    "url": "https://youtu.be/NJlTDwVcju8?si=qRI54c0pbgZEonfU",
+    "upvotes": 7,
+    "date": "2026-03-11T00:52:54.000Z",
+    "author": "MillArts",
+    "top_comments": []
+  },
+  {
+    "id": "1qe7ius",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Thinking about applying to Marshall and I would really appreciate some advice from current or former students.",
+    "body": "I’m from California, but have lots of family in the south which is why I’ve been looking into the school. I’m from a relatively sketchy area so that’s not a big concern to me, but what is the social scene like at Marshall (and is it safe)? I’m a bit of an introvert but I do enjoy making friends and going out occasionally. I hope to major in Art History, but couldn’t find a lot of information about the program. Is it a good school/area for that? Thank you very much to anyone who responds, I’d greatly appreciate open and honest advice, please don’t hold back information :)",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qe7ius/thinking_about_applying_to_marshall_and_i_would/",
+    "upvotes": 7,
+    "date": "2026-01-16T05:33:50.000Z",
+    "author": "AccountantOne1023",
+    "top_comments": [
+      {
+        "text": "Marshall is an extremely safe school in a very safe area. There are a lot of student clubs and student events on campus, so even an introvert like yourself will meet some people and make some friends. Concerning your chosen major, I do not have any insights into the Art History program at Marshall. To be frank, I didn't even know Marshall HAD an Art History program, so I can't speak for the quality or content of it. Good luck in whatever you decide to do though!",
+        "upvotes": 8,
+        "author": "radius1214",
+        "date": "2026-01-16T13:22:12.000Z"
+      },
+      {
+        "text": "i recently moved here from california and i don’t regret it one bit. i’ve always felt safe here personally and ive really enjoyed how easy it is to get to know the area. i don’t know much about the art history program, but being here as a grad student has made me wish i went here for undergrad too. you can’t beat the people and the environment here. it feels so easy to make a friend or just talk to someone new without it being weird. it’s such a beautiful area too, but im also a big believer on stepping out of your hometown. i really don’t think it’ll be hard for you to find your people here.",
+        "upvotes": 8,
+        "author": "Purple_Shopping_4926",
+        "date": "2026-01-16T15:30:51.000Z"
+      },
+      {
+        "text": "I’m very familiar with Marshall (attended for under and grad school), so I wanted to share my experience.\n \n\nFirst, the social scene is really what you make of it, like at any school. My biggest advice is don’t isolate yourself in your dorm (learned that the hard way early on). Getting involved is key. Marshall really does have a [ton of clubs, orgs, and campus events](https://www.marshall.edu/student-affairs/), so if you put yourself out there even a little, it’s pretty easy to meet people and find your niche. It works well for both extroverts and more introverted people who still want a social circle.\n \n\nAs for safety, Marshall is genuinely very safe. As a woman, I never felt unsafe on or around campus. There’s a full-time campus police force that’s very visible and approachable, ID scanners on all residence halls, good lighting across campus, and strong coordination with local police. I even took a self-defense class through [Marshall PD](https://www.marshall.edu/mupd/)my freshman year, which was a great experience, but honestly I never had any incidents or major concerns during my time there.\n \n\nMarshall isn’t especially known for Art History, but they do have a [solid program](https://www.marshall.edu/art/), and smaller programs tend to mean more personal attention and stronger relationships with faculty. You will build incredible relationships with your instructors and peers - 100% - especially in the art school. Huntington itself also has [museums](https://hmoa.org/), local art installations, and galleries, and you’re within a few hours of several major cities if you’re interested in traveling exhibitions.\n \n\nIf you’re still unsure, I’d definitely recommend [reaching out to Marshall’s recruitment or admissions team](https://www.marshall.edu/visit). They’re usually happy to answer specific questions or connect you with someone who can. And feel free to ask me anything too — happy to help! Shoot me an email at sealey3@marshall.edu.",
+        "upvotes": 6,
+        "author": "Working_Fish_198",
+        "date": "2026-01-16T15:48:19.000Z"
+      },
+      {
+        "text": "About to graduate from Marshall. This place has been the best experience of my entire life so far, I’ve loved every second of it. While I don’t know much about Art History here in comparison to other colleges, I’ve had many colleagues and family members talk about their Art History classes at Marshall and they loved them. They bring them up all the time. \n\nMake sure to review the quality of the Art History education to schools nearby, and then compare prices, especially if you’re a good student with scholarships. Refunds are always nice because working while doing school is really stressful, and Marshall is relatively cheap.\n\nCampus is very safe and gorgeous. There’s plenty of stuff to do and very friendly people to meet. Lots of people from out of state.",
+        "upvotes": 4,
+        "author": "ForeignTurn2822",
+        "date": "2026-01-16T15:26:51.000Z"
+      },
+      {
+        "text": "I attended as a distance student and loved it. I've actually never set foot in WV, but I think that the school has a lot to offer on the educational side. I took classes through the WVROCKS system, which offers classes online through all of the WV state colleges, and my favorite professors were always the ones from Marshall.",
+        "upvotes": 3,
+        "author": "Syntinena",
+        "date": "2026-01-16T19:17:34.000Z"
+      },
+      {
+        "text": "its safe dw just dont go near marcum terrace and you’ll be fine",
+        "upvotes": 2,
+        "author": "Barrack_Obamma",
+        "date": "2026-01-16T19:57:15.000Z"
+      },
+      {
+        "text": "I still live in the area and am a 2013 grad. I got my BA in history with a minor in Art History. I will say, unless things have changed in those years, selection for art history classes was fairly limited beyond the basic surveys. You really had to plan ahead carefully for those art history electives to make sure what you needed to take was available. Again, that was over a decade ago, it may have changed, but -more specific details on class offering and how frequently they are offered would definitely be something I’d look in to if I were pursuing an Art History major. They also have the new visual arts center now, which is downtown and lovely. I never got to attend any classes there though, it didn’t open until after I’d left. I spent all my art history time on the 6th floor of Smith Hall. I loved it and had some wonderful professors during my time there. \n\nI did love Marshall, I love the area, I loved my time there and I wouldn’t dissuade you from coming for any other reason. I’d just be sure to check on that first, as their offering may not be as robust as some other schools. It’s a great school, lots of new changes, in a pretty low-cost of living area, affordable, and despite what all the naysayers will chime in, Huntington can be a fun little town. You’re also 2-3 hours from Lexington Ky, Cincinnati OH and Columbus OH.",
+        "upvotes": 2,
+        "author": "dw4815",
+        "date": "2026-01-17T02:44:37.000Z"
+      },
+      {
+        "text": "Marshall seems to have a decent visual arts program. The school of music leaves much to be desired.",
+        "upvotes": 1,
+        "author": "NKPBerkshire",
+        "date": "2026-01-16T23:58:27.000Z"
+      },
+      {
+        "text": "Blighted with little social opportunity &amp; an aging racist local population.  Your education will be fine, but you'll never want to stay there a second longer.",
+        "upvotes": -5,
+        "author": "bigstrizzydad",
+        "date": "2026-01-16T16:23:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1ozlp02",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Why is this crap happening I just wanna apply for housing💔",
+    "body": "",
+    "url": "https://i.redd.it/fbr41y57mu1g1.jpeg",
+    "upvotes": 7,
+    "date": "2025-11-17T17:01:22.000Z",
+    "author": "Clabe_Tickel",
+    "top_comments": [
+      {
+        "text": "That’s weird! Probably just a glitch in the website. Try going to [this](https://www.marshall.edu/housing/signupnow/)  link and sign up!  You’ll need your MyMu login to do it, BTW. So make sure that’s set up before.",
+        "upvotes": 7,
+        "author": "Working_Fish_198",
+        "date": "2025-11-17T17:51:00.000Z"
+      },
+      {
+        "text": "I’m not sure, but the IT desk can be very helpful for situations like these. Try calling them! The number is 304-696-3200!",
+        "upvotes": 6,
+        "author": "NovelEmbarrassed83",
+        "date": "2025-11-17T17:52:11.000Z"
+      },
+      {
+        "text": "Make sure you aren't running any ad blockers or pop-up blockers on the site, as these can cause issues. Consider trying a different browser; Chrome, despite its privacy concerns, remains the most compatible with websites. You can also try using an \"Incognito\" or \"Private\" browser instance to ensure that there aren't any cookies or other tracking elements that may be causing issues.",
+        "upvotes": 2,
+        "author": "_XitLiteNtrNite_",
+        "date": "2025-11-17T18:18:45.000Z"
+      },
+      {
+        "text": "What are the economic housing options apart from the universitie's one? What should be the price range? I'm looking for a one bedroom or studio apartment.",
+        "upvotes": 1,
+        "author": "Reasonable_Skill_785",
+        "date": "2025-11-17T17:53:46.000Z"
+      },
+      {
+        "text": "Mercury retrograde is happening. It'll happen soon enough and will work out!",
+        "upvotes": 1,
+        "author": "YodaEng888",
+        "date": "2025-11-18T20:54:46.000Z"
+      },
+      {
+        "text": "I fixed the issue everyone, thanks for your help",
+        "upvotes": 1,
+        "author": "Clabe_Tickel",
+        "date": "2025-11-19T20:14:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1s3rr87",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Is the Campus walkable?",
+    "body": "Hey everyone! I'm an aspiring international student that will be staying at The Landing. I was wondering if there are any public transportation that passes The Landing? or is it walkable to the Main campus?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1s3rr87/is_the_campus_walkable/",
+    "upvotes": 6,
+    "date": "2026-03-25T23:57:12.000Z",
+    "author": "mblsaha",
+    "top_comments": [
+      {
+        "text": "It depends on the school. If you’re a medical student, one of the main buildings (and the future building) is right next to the Landing, but main campus is about 1 mile away. Many students make the walk, but people also use bikes and electric scooters to commute.\n\nThe Pharmacy school is also right next to the Landing.",
+        "upvotes": 7,
+        "author": "ShakenOatMilkExpress",
+        "date": "2026-03-26T00:46:53.000Z"
+      },
+      {
+        "text": "There is a public bus service called TTA that runs along Hal Greer Blvd.",
+        "upvotes": 2,
+        "author": "Nigel_99",
+        "date": "2026-03-26T03:10:48.000Z"
+      },
+      {
+        "text": "definitely walkable to campus  Its basically on the corner of Campus",
+        "upvotes": 1,
+        "author": "abell2287",
+        "date": "2026-03-26T00:00:29.000Z"
+      },
+      {
+        "text": "Yes, there is the \"8\" bus that travels along Hal Greer Blvd. There are no bus stops in front of the Landing. There are also not really that many bus stops, in general. You need to manually hail the bus, and the bus operator will stop for you. They do not accept cards, only cash or you can pay through a mobile application called 'Token Transit'. Walking is not recommended. The bus is cheap, and I have heard from many locals that it's just not worthwhile to walk that stretch with a bag. You could hail the bus directly in front of the Walgreens pharmacy, or wherever you want, really.",
+        "upvotes": 1,
+        "author": "ancientbrunch",
+        "date": "2026-03-31T23:04:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1pq2g4g",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "How long does it normally take to receive admissions decision?",
+    "body": "Hi! I recently applied and am very anxious and impatient and just wondering how long it normally takes to receive an admissions decision? Also, if they don’t send it out before they’re gone for break, will I have to wait until after? It’s stressing me out lol",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1pq2g4g/how_long_does_it_normally_take_to_receive/",
+    "upvotes": 6,
+    "date": "2025-12-18T21:15:20.000Z",
+    "author": "[deleted]",
+    "top_comments": [
+      {
+        "text": "Admissions reviews applications in the order they are completed and it typically takes anywhere from 4-7 days for a decision to be made! If you email sealey3@marshall.edu they can check your status tonight to help with the anxiousness.",
+        "upvotes": 2,
+        "author": "Working_Fish_198",
+        "date": "2025-12-18T21:31:12.000Z"
+      },
+      {
+        "text": "did you get in?",
+        "upvotes": 1,
+        "author": "MasterRKitty",
+        "date": "2026-01-05T05:50:56.000Z"
+      },
+      {
+        "text": "I’m in the same boat but I contacted advising and my program has a deadline for applications before decisions are made. I have to wait until the middle of February to start in May. Fingers crossed!",
+        "upvotes": 1,
+        "author": "WaterNo1276",
+        "date": "2026-01-06T23:26:48.000Z"
+      },
+      {
+        "text": "Just wondering how this worked out as I just got changed to a transfer student a day or two ago and had to re do the entire application process. Was supposed to start spring semester but have yet to hear anything back.",
+        "upvotes": 1,
+        "author": "Dry-Split-5392",
+        "date": "2026-01-13T15:41:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1ovfusl",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Appalachian Dissertation Study",
+    "body": "Hey y'all,\n\nI'm a PhD candidate in communication studies at George Mason University focused on environment/climate, risk, media, and culture. I'm currently working on my dissertation research, which is broadly interested in exploring how folks across Appalachia think about climate and environment, especially with unique respect to its dynamic history, culture, storytelling, and landscape. \n\nI'd love to connect with any of you (or anyone you know) who has grown up or currently lives in Appalachia, especially if you grew up/live in a rural part of it! Please feel free to scan the QR code in the graphic to [register](https://gmuchss.az1.qualtrics.com/jfe/form/SV_exkcZ702k3kTGYK) (also available at the link), or save this graphic and send it to whomever you'd like. I super appreciate your time in advance and look forward to connecting! Let me know if you have any questions.\n\nhttps://preview.redd.it/iu7zc93wtv0g1.jpg?width=1880&amp;format=pjpg&amp;auto=webp&amp;s=446d48026f93c314172c6630b180e625190abf5a\n\n",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1ovfusl/appalachian_dissertation_study/",
+    "upvotes": 6,
+    "date": "2025-11-12T20:04:57.000Z",
+    "author": "Brilliant_Willow_427",
+    "top_comments": []
+  },
+  {
+    "id": "1o4uh26",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Question about Marshall uni",
+    "body": "Hey everyone! I just got accepted into Marshall for the 26-27 school year! I was scrolling through the reddit but never saw anything about there political science/pre law programs. Can anyone shed some light on them?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1o4uh26/question_about_marshall_uni/",
+    "upvotes": 6,
+    "date": "2025-10-12T17:03:33.000Z",
+    "author": "ManufacturerQuick740",
+    "top_comments": [
+      {
+        "text": "im a poli sci major !! they dont have any specific pre law, so id say poli sci is ur best option, as i also plan on going to law school. i can send u the poli sci department site if youd like? as well as the poli sci ba and bs stuff !!",
+        "upvotes": 3,
+        "author": "haydyewayxey",
+        "date": "2025-10-12T19:58:18.000Z"
+      },
+      {
+        "text": "Patrica proctor is the person you wanna speak with…she’s on the second floor of old main. I had several friends and fraternity brothers who went onto successful careers as lawyers through the Marshall pre-law program.",
+        "upvotes": 2,
+        "author": "intellectualherd75",
+        "date": "2025-10-13T12:52:47.000Z"
+      },
+      {
+        "text": "I’m a senior poli sci major! The entire department is amazing, especially Dr. Beller. If you decide against law school, then we also have an accelerated MPA program which is what I’m currently doing.",
+        "upvotes": 1,
+        "author": "NovelEmbarrassed83",
+        "date": "2025-10-13T01:38:40.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1lvlqeh",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for Roommate",
+    "body": "Hello! As the title says I’m looking for a roommate. I am very comfortable living with one or more people.\n\nA little bit about me: I’m going to Marshall for their MS in geography. I’m pretty clean, love to cook, I am very social and I love to play boardgames. I’m currently an Americorps in Elkins WV. I’m living in a museum! \n\nMessage me if you are interested, we can search together too. I’m pretty flexible with my living conditions as well\n",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1lvlqeh/looking_for_roommate/",
+    "upvotes": 6,
+    "date": "2025-07-09T15:29:11.000Z",
+    "author": "_SuMadre_",
+    "top_comments": [
+      {
+        "text": "Hello geography grad student, I hope you found a place to live! Love Americorps, it was a pretty good experience for me. Hope you got their education scholarship.",
+        "upvotes": 2,
+        "author": "Geog_Master",
+        "date": "2025-11-27T05:49:57.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1lhs3xs",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Graduate Student at Marshall",
+    "body": "Hi everyone! I am a graduate student going to be moving to Marshall for my MS in Physics. I'm currently working on finding a place and wouldn't mind being roommates with some people. I'm moving from Buffalo, NY in August but I'm from Ohio and did my undergraduate degree from Ohio University (like 1.5 hours away). I visited Marshall and I liked it (ngl better than SUNY UB in terms of just the environment). So, I was wondering about cheap housing options closer to campus, how the roommate situation works at The Village and The Landing (just everyone's experience). I've also applied to graduate assistantships and was wondering how long until I would hear back from them? Or if anyone has worked from the H.E.L.P and library how they are. I also applied for a housing position as an Assistant Area Coordinator and wondered how the experiences have been with Residence Life, etc.. I worked in housing for 2 years at OU being an RA and doing showrooms, etc. So, I kinda just wanna know everyone's experiences and what to except before moving there. Thanks.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1lhs3xs/graduate_student_at_marshall/",
+    "upvotes": 5,
+    "date": "2025-06-22T16:32:17.000Z",
+    "author": "statsman222",
+    "top_comments": [
+      {
+        "text": "I lived at the village and it’s honestly a really great place. Granted, I lived with 3 of my best friends, but the apartments are spacious (especially the 3rd floor) and the staff is very helpful. If you get a 4 bedroom, you’ll only pay about $400 a month, unless it’s gone up in the last couple years.",
+        "upvotes": 3,
+        "author": "DannyDimes6977",
+        "date": "2025-06-28T00:44:35.000Z"
+      },
+      {
+        "text": "Pembroke properties on 7th Ave has been good. 650 for a 2br",
+        "upvotes": 2,
+        "author": "LooserNooser",
+        "date": "2025-06-29T08:08:00.000Z"
+      },
+      {
+        "text": "Hey there!\nI live in the Village\nI can help if you need any info",
+        "upvotes": 1,
+        "author": "sameerhossain",
+        "date": "2025-06-23T06:33:38.000Z"
+      },
+      {
+        "text": "Hey! I'm going to Marshall for my MS in Communication Disorders. Also curious how the off campus living situation is and anyone's experience with the GAs.",
+        "upvotes": 1,
+        "author": "Past-Proposal9571",
+        "date": "2026-03-23T17:11:44.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1u36ph2",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Graduate Assistantships",
+    "body": "Hi! I’ll be starting graduate school in the Fall and I’m just curious if anyone knows when I should expect to hear something about the GA positions I applied to? I called HR today and they said the process is confidential so I won’t be able to find out anything from speaking to someone in the department. So I was just hoping that maybe there’s a current GA that could say how long it took them to hear something or anyone else with advice :)",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1u36ph2/graduate_assistantships/",
+    "upvotes": 5,
+    "date": "2026-06-11T18:10:11.000Z",
+    "author": "NovelEmbarrassed83",
+    "top_comments": [
+      {
+        "text": "Have you contacted the graduate school?",
+        "upvotes": 1,
+        "author": "MasterRKitty",
+        "date": "2026-06-11T20:24:45.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1p4uwpz",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Marshall Alumn Morris Duggan of MUFC went on the Underway pod to talk MLS Playoffs",
+    "body": "",
+    "url": "https://www.youtube.com/watch?v=llZskMY1xMg",
+    "upvotes": 5,
+    "date": "2025-11-23T19:02:47.000Z",
+    "author": "Pleasant_Mortgage827",
+    "top_comments": []
+  },
+  {
+    "id": "1o0z6fj",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Hey how trans friendly is Marshall?",
+    "body": "Like jn the dorms or on campus",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1o0z6fj/hey_how_trans_friendly_is_marshall/",
+    "upvotes": 5,
+    "date": "2025-10-08T02:53:38.000Z",
+    "author": "ItznotLuca",
+    "top_comments": [
+      {
+        "text": "All of my teachers and friends have been really open and accepting at Marshall. I've never had a bad experience",
+        "upvotes": 5,
+        "author": "fandom-in-reverse",
+        "date": "2025-10-09T22:53:18.000Z"
+      },
+      {
+        "text": "My experience at Marshall has been that most people are generally accepted. Even when people are transphobic or homophobic, they’re hardly open about it. Huntington is one of the best places in WV for inclusivity.",
+        "upvotes": 4,
+        "author": "Pepperoniroller",
+        "date": "2025-10-09T17:22:12.000Z"
+      },
+      {
+        "text": "starting next year but ive lived in huntington most of my life and its pretty good, at least social wise!!! i know a lot of staff personally and most professors are chill. theres a decent sized trans student population and youll for sure find other queer ppl",
+        "upvotes": 3,
+        "author": "oizysxox",
+        "date": "2025-10-09T01:01:41.000Z"
+      },
+      {
+        "text": "everyones pretty chill about it im trans and have multiple trans friends and havent had any issues :)",
+        "upvotes": 2,
+        "author": "haydyewayxey",
+        "date": "2025-10-12T20:02:08.000Z"
+      },
+      {
+        "text": "Marshall's friendliness to trans people is at least friendly enough that it was used to attack a governor candidate for being on the board at Marshall.  So, yeah.",
+        "upvotes": 1,
+        "author": "Rentington",
+        "date": "2025-10-20T01:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1ltuc8i",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Marshall Thundering Herd 2025 Football Team Preview",
+    "body": "We recently sat down with KD and Rus, the Hosts of The ThunderCast Pod to preview the 2025 Marshall Thundering Herd Football Team. Here is a link to the video if you are interested in hearing more! [2025 Marshall Thundering Herd Football Team Preview](https://youtu.be/pBYJBdF2y3M)\n\nIf you are looking for MORE G5 College Football Content Check Out our [YouTube Page](https://www.youtube.com/@G5Hive) and follow us on [X/Twitter](https://x.com/G5Hive)! Episodes are also available on [Apple Podcasts](https://podcasts.apple.com/gb/podcast/the-g5-hive/id1704591509) and [Spotify](https://open.spotify.com/show/4Sd5XzJCLYiAcf18OGIzc3) if you rather listen in audio form.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1ltuc8i/marshall_thundering_herd_2025_football_team/",
+    "upvotes": 5,
+    "date": "2025-07-07T13:35:37.000Z",
+    "author": "TheG5Hive",
+    "top_comments": []
+  },
+  {
+    "id": "1li4wgq",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Commons Dorm question",
+    "body": "Looking for info on room set-ups in Commons. Moving into Haymaker, 4 doubles. Since dresser won't fit under the bed, how cramped is it? Best way to make space? Can beds be lofted or moved? What's the best room layout? Do bedrooms have locks or just main room door?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1li4wgq/commons_dorm_question/",
+    "upvotes": 5,
+    "date": "2025-06-23T02:05:16.000Z",
+    "author": "LandleSues",
+    "top_comments": [
+      {
+        "text": "I lived in a single suite in Gibson. You can find a photo of a double room at https://www.marshall.edu/housing/residence-hall-info/hall-comparison/. Bunking the beds is probably the best bet if your roommate is ok with that. There are locks on the bedroom doors yes. Another thing I want to mention is that you probably shouldn’t put command strips on the plaster walls. In my room, whatever type of paint they used caused them to stick to the paint and it ended it stripping the paint off the wall in the bathroom. Else where they worked fine.",
+        "upvotes": 1,
+        "author": "Ok_Seaworthiness490",
+        "date": "2025-07-28T16:54:28.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1n03hcn",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Marshall students who bought a house instead of living on campus for NYT feature",
+    "body": "I'm looking for 1-2 current Marshall students who purchased a home, or parents purchased a home for them, to live in rather than living on campus (to save money, investment purposes, etc.). With the right story, you could be featured in The New York Times, as we are helping them gather real-life examples of how this strategy works. Only respond if this is your story, or you can put us in touch with someone who is doing this. ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1n03hcn/marshall_students_who_bought_a_house_instead_of/",
+    "upvotes": 5,
+    "date": "2025-08-25T21:36:37.000Z",
+    "author": "timl25",
+    "top_comments": []
+  },
+  {
+    "id": "1ro6owi",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Sun Belt Men’s Basketball Conference Tournament Semifinals Preview",
+    "body": "It’s Sun Belt conference semis tonight! \n\nCheck out the preview of both games from our own Zac Capps!",
+    "url": "https://syndicatesports.io/sun-belt-mens-basketball-conference-tournament-semifinals-preview/",
+    "upvotes": 4,
+    "date": "2026-03-08T14:47:56.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1qu8lqj",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Graphic design major Question",
+    "body": "Hi! im an upcoming freshmen in the 2026 fall semester, and was wondering during the graphic design course if there is a 2D or 3D animation course?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qu8lqj/graphic_design_major_question/",
+    "upvotes": 4,
+    "date": "2026-02-02T21:39:39.000Z",
+    "author": "Swiss_edits07",
+    "top_comments": [
+      {
+        "text": "here’s the schedule of courses that you can use to check [https://mubert.marshall.edu/scheduleofcourses.php](https://mubert.marshall.edu/scheduleofcourses.php)",
+        "upvotes": 1,
+        "author": "Gabrelle03",
+        "date": "2026-02-02T23:14:41.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1qghr3p",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Herd Complete Sweep of Dukes",
+    "body": "On Saturday afternoon, Marshall completed the season sweep of the JMU Dukes. Sullivan Towe has the recap in the comments. ",
+    "url": "https://i.redd.it/vsfnvuzas5eg1.jpeg",
+    "upvotes": 4,
+    "date": "2026-01-18T19:24:36.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": [
+      {
+        "text": "https://sunbeltsyndicate.com/marshall-sweeps-season-series-with-jmu/",
+        "upvotes": 2,
+        "author": "SunBeltSyndicate",
+        "date": "2026-01-18T19:24:50.000Z"
+      },
+      {
+        "text": "That game gave me a raging Herd On.",
+        "upvotes": 2,
+        "author": "Atadingess",
+        "date": "2026-01-21T18:12:03.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1q9oiso",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "MBA (past and present)",
+    "body": "Hi everyone,\n\nI’d love to hear from those who have completed the online MBA program, as well as anyone who is currently enrolled. I’m participating remotely from out of state and would really appreciate learning about your experiences, what’s worked well, and any insights you’re willing to share. Looking forward to hearing your thoughts.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1q9oiso/mba_past_and_present/",
+    "upvotes": 4,
+    "date": "2026-01-11T03:24:32.000Z",
+    "author": "SoberArchitect99",
+    "top_comments": [
+      {
+        "text": "I just got accepted for one of Marshall's online master's programs as well. Super excited.",
+        "upvotes": 1,
+        "author": "Teal_Turtle2022",
+        "date": "2026-01-13T16:24:34.000Z"
+      },
+      {
+        "text": "Marshall is going to push an 11 month MBA program sometime next year and the dean is striving for it to be top notch, I would email him and ask him yourself!",
+        "upvotes": 1,
+        "author": "redwilldraw",
+        "date": "2026-01-17T03:49:14.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1o997ny",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Does anyone have any personal experience with the Nursing major?",
+    "body": "",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1o997ny/does_anyone_have_any_personal_experience_with_the/",
+    "upvotes": 4,
+    "date": "2025-10-17T18:29:51.000Z",
+    "author": "ExerciseOk5481",
+    "top_comments": [
+      {
+        "text": "What questions do you have?",
+        "upvotes": 1,
+        "author": "YaYa_0981",
+        "date": "2025-12-08T03:48:13.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1n1z9fu",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Will pay to park at your house/appt/dorm",
+    "body": "Hello! I’m going to the Zach Bryan concert with my sister on Saturday and there isn’t a single hotel available. We should’ve started looking sooner but didn’t expect every single place within 100 miles to be sold out :’) If any student has a place we could park (or a parking pass to borrow and park in a lot) we will pay you 100 bucks. We’re 2 girls (18 and 24). We really don’t want to sell our tickets so plz help!!!! Doesn’t matter if it’s a garage, a street spot, or a driveway. Thanks so much!! ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1n1z9fu/will_pay_to_park_at_your_houseapptdorm/",
+    "upvotes": 4,
+    "date": "2025-08-28T01:28:52.000Z",
+    "author": "whimsicalbreezey",
+    "top_comments": [
+      {
+        "text": "Cannot use someone else’s parking pass from the university the parking passes are tied to the license plate number.",
+        "upvotes": 6,
+        "author": "Background_External3",
+        "date": "2025-08-28T01:59:02.000Z"
+      },
+      {
+        "text": "There has to be a better option than sleeping in your car. Please don't try that. Did you try Ashland, KY for hotels? It's a short drive, but do not speed even 1 mile over the limit when you drive through Ohio to get here. Ha. The cops will getcha.",
+        "upvotes": 3,
+        "author": "Brunette_Broad",
+        "date": "2025-08-28T12:08:05.000Z"
+      },
+      {
+        "text": "You can use my driveway. Nice area, close to the venue. Feel free to message me.",
+        "upvotes": 3,
+        "author": "baggaci",
+        "date": "2025-08-28T15:28:55.000Z"
+      }
+    ]
+  },
+  {
+    "id": "12ehgzl",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Should I go to America as a UK student?",
+    "body": "I'm finishing my first year of uni in July and was debating doing my first trimester of year 2 in America more specifically in West Virginia at Marshall University. I'm still debating on whether to go or not as I would be going on my own and find that a bit scary and I feel it would be a major culture shock for someone from the UK but at the same time I always wanted to go to America and feel like there won't be another opportunity like this. Any advice??",
+    "url": "https://www.reddit.com/r/college/comments/12ehgzl/should_i_go_to_america_as_a_uk_student/",
+    "upvotes": 4,
+    "date": "2023-04-07T11:03:56.000Z",
+    "author": "Excellent-Purchase74",
+    "top_comments": []
+  },
+  {
+    "id": "1t8wjvn",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "35M - looking to transfer to West Virginia Marshall university",
+    "body": "I am looking for some smaller and more stable courses that will help me get my degree.   \nI am burnt out.  \nI have many disabilities.  \nI am looking for a place that is more friendly to neurodivergent people.  \nAnd not so stressful and high demanding.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1t8wjvn/35m_looking_to_transfer_to_west_virginia_marshall/",
+    "upvotes": 3,
+    "date": "2026-05-10T04:16:20.000Z",
+    "author": "Madd_Scyentist",
+    "top_comments": [
+      {
+        "text": "[https://www.marshall.edu/help/](https://www.marshall.edu/help/)\n\nContact the HELP program-its for people with learning disabilities and should help you, no pun intended.  When I was at Marshall many years ago, I knew lots of people in the program and they all said it was wonderful.",
+        "upvotes": 8,
+        "author": "MasterRKitty",
+        "date": "2026-05-10T04:57:22.000Z"
+      },
+      {
+        "text": "I would suggest a smaller college. Concord University has a lower average debt post graduation, in the middle of the serene mountains and forest. Marshall University is pretty highly competitive depending on the field and in the middle of a city going through some things.",
+        "upvotes": 3,
+        "author": "Ok_Set3037",
+        "date": "2026-05-10T14:55:41.000Z"
+      },
+      {
+        "text": "There is a very good chance Marshall will not cure your burnout. It really depends on your career path, but anything STEM, especially non medical, is severely lacking. Please, look into other options before even thinking about Marshall.",
+        "upvotes": 2,
+        "author": "Hazartousx",
+        "date": "2026-05-11T01:02:22.000Z"
+      },
+      {
+        "text": "What is your current degree plan?",
+        "upvotes": 1,
+        "author": "Geog_Master",
+        "date": "2026-05-10T05:10:34.000Z"
+      },
+      {
+        "text": "There are other colleges that are more accommodating. I have PHD friends who need accommodations and their feedback is that Marshall professors are too \"old school\" or maybe too laid back to better accommodate people.   \n  \nEspecially unless otherwise explicitly stated the community at large has not treated my disabled friend well.  \n  \nSame goes with women and minorities. The older your superior is - the weirder and more \"old school\" their attitudes are. Its a passive social feeling but its there. Mostly benign but it will limit your opportunities and you will have to play old school politics that might have already evaporated at other institutions. People find this out the hard way by planning to be here for a while. \n\nAt your age unless you have a more southern disposition you will have growing pains here more than other institutions.",
+        "upvotes": 1,
+        "author": "rationalexpressions",
+        "date": "2026-05-11T15:58:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1o8g24w",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Free Australian Rules Football Tournament in Cincinnati for all Marshall Students (Nov 9th at Noon at Kellogg Fields) Tap for Info",
+    "body": "The Cincinnati Bearcats Aussie Rules Club are hosting a collegiate tournament on Nov 9th at Noon at Kellogg Fields in Cincinnati, OH for any college students who would like to give Australian rules football a try. The tournament is free and open to all Marshall students at any skill level.\n\nIf you’re interested, please fill out the Google form.\n\nThank you!\n\nP.S. - Don’t like UC? Then show up on Nov 9th and beat them to spoil their great season.\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSezihWfqItQ-ZPeczTgFLqcIwF4ct0_d2OcP2qEBjnPjxZSxQ/viewform\n\n",
+    "url": "https://i.redd.it/oupsaohh1jvf1.jpeg",
+    "upvotes": 3,
+    "date": "2025-10-16T19:40:40.000Z",
+    "author": "baviskw",
+    "top_comments": []
+  },
+  {
+    "id": "1u36sy1",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Anyone here that's taken STA 150B with Prof. Alaa H Elkadry?",
+    "body": "I'm getting my butt whooped in this class and I was wondering if anyone knew how many questions are on the exams and how (objectify) hard they are? Trying to hedge my bets if I can eek out a passing grade or I should cut my losses. ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1u36sy1/anyone_here_thats_taken_sta_150b_with_prof_alaa_h/",
+    "upvotes": 3,
+    "date": "2026-06-11T18:13:40.000Z",
+    "author": "Content-Employer-356",
+    "top_comments": []
+  },
+  {
+    "id": "1tfvqv4",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for off-campus housing",
+    "body": "Hello!  \nI’m \\[22F\\] a grad student looking for a place to rent for \\~12 months.  \nIs anyone actively looking for roommates or to lease a place? Or do you have any recommendations?   \nI have a cat who will be coming with me and my budget is \\~$900 including utilities.\n\nThank you so much! ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1tfvqv4/looking_for_offcampus_housing/",
+    "upvotes": 3,
+    "date": "2026-05-17T17:21:51.000Z",
+    "author": "qprima",
+    "top_comments": [
+      {
+        "text": "Hello, I rent close to campus on 5th ave and 14th my landlord is Fred Tweel and he's fair in pricing and keeps garbage out of his units so its pretty safe. The units include all utilities and off street parking if you like to send me a DM I can send you his number",
+        "upvotes": 1,
+        "author": "ohgr13",
+        "date": "2026-05-18T00:29:20.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1stgcaw",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Sonography Program",
+    "body": "How is the sonography programs at Marshall? Did you find it to be very competitive admission?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1stgcaw/sonography_program/",
+    "upvotes": 3,
+    "date": "2026-04-23T11:44:32.000Z",
+    "author": "rs1035750",
+    "top_comments": [
+      {
+        "text": "Hey! The sonography program is really good here, but it can be fairly competitive to get in. There's around 80+ applications a year and they only accept around 25 students. \n\nIt doesn't sound like a lot, but other local schools offer less than 15 spots. They go by a point system, so trying to get the highest grades and points in each category can go a long way.",
+        "upvotes": 2,
+        "author": "Working_Fish_198",
+        "date": "2026-04-23T12:31:51.000Z"
+      },
+      {
+        "text": "I ***hear*** its pretty great",
+        "upvotes": 1,
+        "author": "rationalexpressions",
+        "date": "2026-04-23T12:41:06.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rkq54w",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Visiting Saturday",
+    "body": "I was recently admitted into a graduate program for psychology at Marshall and had never visited the area. I was planning on visiting campus Saturday but the tours are at capacity. I was wondering if there were any options for me? Worst case, I could still just walk around campus and explore the area 😂",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1rkq54w/visiting_saturday/",
+    "upvotes": 3,
+    "date": "2026-03-04T16:33:47.000Z",
+    "author": "TastyAd97",
+    "top_comments": [
+      {
+        "text": "Experience@marshall.edu \n\nEmail the Welcome Center team at the address above and they can manually add you to the tour list for Saturday!",
+        "upvotes": 3,
+        "author": "Working_Fish_198",
+        "date": "2026-03-04T17:49:14.000Z"
+      },
+      {
+        "text": "If you are coming in for a graduate program, so you have a faculty advisor? You can reach out to them and/or the point of contact for the department to see if any current grad students are available to give you a tour. The undergrad tours probably won’t be as useful to you anyway.",
+        "upvotes": 2,
+        "author": "blackcatseatmore",
+        "date": "2026-03-04T21:03:35.000Z"
+      },
+      {
+        "text": "Are you in the Psy.D program? I’m an alumni from that program!",
+        "upvotes": 1,
+        "author": "OwlCatPoptart",
+        "date": "2026-03-05T00:14:54.000Z"
+      },
+      {
+        "text": "Hot take: The Black Stallion. Coppola.",
+        "upvotes": -2,
+        "author": "Antigoneandhercorpse",
+        "date": "2026-03-04T21:33:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1r38du0",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Casting Call for the short film Ghost Company!",
+    "body": "This is a non-union student short film. Roles are unpaid. Filming is tentatively scheduled for the first two weekends of March in and around the Huntington, WV area.",
+    "url": "https://i.redd.it/9z2421rn95jg1.jpeg",
+    "upvotes": 3,
+    "date": "2026-02-12T23:00:46.000Z",
+    "author": "WhiteNinjaN8",
+    "top_comments": []
+  },
+  {
+    "id": "1q4tv41",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Health Insurance: F1 Student",
+    "body": "Hi \nThe health insurance plan from the university seems kinda pricey. Has anyone found cheaper options or alternatives that work well for F1 students?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1q4tv41/health_insurance_f1_student/",
+    "upvotes": 3,
+    "date": "2026-01-05T18:34:23.000Z",
+    "author": "Reasonable_Skill_785",
+    "top_comments": []
+  },
+  {
+    "id": "1ptg6ha",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "If you're like me and enjoy having music playing in the background while studying",
+    "body": "Here is \"Something else\", a carefully curated playlist regularly updated with atmospheric, poetic, cinematic and slightly myterious soundscapes. Instrumental music that provides the ideal backdrop for concentration and relaxation. Perfect for staying focused during my study sessions or unwinding after work. \n\n[https://open.spotify.com/playlist/0QMZwwUa1IMnMTV4Og0xAv?si=5\\_4w\\_H\\_4TOyz\\_EaAxgHIZQ](https://open.spotify.com/playlist/0QMZwwUa1IMnMTV4Og0xAv?si=5_4w_H_4TOyz_EaAxgHIZQ) \n\nH-Music ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1ptg6ha/if_youre_like_me_and_enjoy_having_music_playing/",
+    "upvotes": 3,
+    "date": "2025-12-23T00:49:31.000Z",
+    "author": "h-musicfr",
+    "top_comments": []
+  },
+  {
+    "id": "1oznk7o",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Paying for a mass spectrometer analysis?",
+    "body": "At the last university I was at I was able to pay for a graduate student to run a mass spectrometer assay. Does we do the same thing here?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1oznk7o/paying_for_a_mass_spectrometer_analysis/",
+    "upvotes": 3,
+    "date": "2025-11-17T18:09:20.000Z",
+    "author": "rationalexpressions",
+    "top_comments": [
+      {
+        "text": "contact your department head-do you need someone who really knows what they're doing or just a warm body?",
+        "upvotes": 2,
+        "author": "MasterRKitty",
+        "date": "2025-11-18T01:12:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1ot4gpr",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for a one bedroom apartment",
+    "body": "Hi all,\n\nI'm looking for a one bedroom apartment near Marshall University. Could you please give me an idea about the rent? I'm looking for something economic. \n\nPlease let me know if you know any. Thank you!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1ot4gpr/looking_for_a_one_bedroom_apartment/",
+    "upvotes": 3,
+    "date": "2025-11-10T04:27:05.000Z",
+    "author": "Reasonable_Skill_785",
+    "top_comments": [
+      {
+        "text": "it’s usually 400-1200 depending on where you’re looking. also utilities. the landing has some good options, but is about a mile from campus so it’s a decent walk",
+        "upvotes": 3,
+        "author": "Life_Painting",
+        "date": "2025-11-11T10:34:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1oqz2b0",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "75 Week Preview",
+    "body": "It’s ‘75’ week in Huntington. Marshall will honor those lost in the 1970 plane crash as they play host to James Madison. The Battle for the Gavel will be up for grabs!\n\nCade Williams previews the important matchup. ",
+    "url": "https://sunbeltsyndicate.com/week-11-preview-james-madison-vs-marshall/",
+    "upvotes": 3,
+    "date": "2025-11-07T16:31:23.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1nkq8z5",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Trying to get an idea of how much non need based aid for incoming oos freshman is given",
+    "body": "",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1nkq8z5/trying_to_get_an_idea_of_how_much_non_need_based/",
+    "upvotes": 3,
+    "date": "2025-09-19T01:23:21.000Z",
+    "author": "rs1035750",
+    "top_comments": [
+      {
+        "text": "https://www.marshall.edu/sfa/types-of-aid/merit-based-scholarships/ \n\n\nDepends on your HS stats",
+        "upvotes": 1,
+        "author": "BraverSinceThen",
+        "date": "2025-09-25T02:38:22.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1nf66ex",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Can The Herd Claim Their First W?",
+    "body": "Facing a new looking coaching staff and roster has been difficult in Huntington. Can Marshall get in the win column vs EKU? \n\nCade Williams has more. ",
+    "url": "https://sunbeltsyndicate.com/week-3-preview-marshall-eastern-kentucky-2025/",
+    "upvotes": 3,
+    "date": "2025-09-12T15:25:19.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1n8pu2a",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "FREE TUTORING FOR DUMMIES!",
+    "body": "Ya'll! I beg of you, check this girl out she is amazing at what she does. If you ever need help in MTH 102 Prep for College Math B, trust me, she got you! I'll drop her profile if ya'll need a good tutor. [https://app.joinknack.com/user/Vmlld2VyVHlwZTpPeDdMank=](https://app.joinknack.com/user/Vmlld2VyVHlwZTpPeDdMank=) ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1n8pu2a/free_tutoring_for_dummies/",
+    "upvotes": 3,
+    "date": "2025-09-04T23:38:06.000Z",
+    "author": "Inevitable-Switch832",
+    "top_comments": []
+  },
+  {
+    "id": "1mvr6es",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Roster Reload - Marshall",
+    "body": "The Herd were the 2024 Sun Belt Champs. After that, the lost out on a bowl game, their head coach, and numerous transfers. A reloaded staff and roster are now in Huntington. \n\nCheck out the full breakdown from Casey Matthews. ",
+    "url": "https://sunbeltsyndicate.com/football-2025-roster-reload-marshall/",
+    "upvotes": 3,
+    "date": "2025-08-20T20:59:55.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1mbzhbs",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Son Looking for Roommate Off Campus",
+    "body": "He does not have a Reddit account so I’m posting for him. He just graduated with his bachelors and is going for his masters. He lives in a three bedroom house in Chesapeake Ohio. It’s just a couple miles from Marshall campus. It’s a great house. Rent is reasonable. Please message me if you’re interested.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1mbzhbs/son_looking_for_roommate_off_campus/",
+    "upvotes": 3,
+    "date": "2025-07-29T02:16:05.000Z",
+    "author": "VillageProper210",
+    "top_comments": []
+  },
+  {
+    "id": "1rgma8j",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Social life? NEED ADVICE AS INCOMING FRESHMAN",
+    "body": "Hey guys, I like the vibe of Marshall and everything checks a lot of boxes, however I have seen a lot of mixed opinions on how the social life is. My biggest fear is I will pull up and the campus will be dead in the week and the weekends. Obviously we are there for school but I also wanna party in the week/weekends. I know there is a frat row but do they even throw parties and if so are they fun and how frequently do they throw. Also if the frats suck, then are there any bars near campus students go to to have a good time? Let me know because I do not wanna be bored I am trying to have fun lmaooooo, be so honest anything helps thanks twins!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1rgma8j/social_life_need_advice_as_incoming_freshman/",
+    "upvotes": 3,
+    "date": "2026-02-27T23:18:33.000Z",
+    "author": "princessbubblegum911",
+    "top_comments": [
+      {
+        "text": "Your best bet is probably clubbing unless you’re in frat or a girl.",
+        "upvotes": 3,
+        "author": "Beautiful-Net6884",
+        "date": "2026-02-28T03:15:24.000Z"
+      },
+      {
+        "text": "Marshall’s social scene is kind of what you make of it at Marshall University. Some weeks are quieter, but Thurs–Sat there’s usually frat stuff, house parties, or people going out in Huntington if you’re in the right circles. It’s not a constant party school, but it definitely isn’t dead either.\n\nMy advice: enjoy it, meet people, go out — but also use your time there to build a few useful things around you so you’re not just drifting through the years.\n\nIf you want a more real breakdown of how people balance both there, feel free to DM me.",
+        "upvotes": 3,
+        "author": "New_Dragonfruit7277",
+        "date": "2026-02-28T06:22:09.000Z"
+      },
+      {
+        "text": "This is probably not the kind of social you’re interested in, but hey if you’re bored on Sunday morning, check out Church of the Resurrection beside the YMCA, there’s a lot of students your age that go there lol",
+        "upvotes": 2,
+        "author": "aaronpage34",
+        "date": "2026-03-03T01:38:00.000Z"
+      },
+      {
+        "text": "You get free tickets to all athletic events as a student.",
+        "upvotes": 1,
+        "author": "idontwannasignup69",
+        "date": "2026-03-27T15:42:53.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1mx9eyz",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Which of these schools should I remove if I’m planning on eventually going to med school and becoming a doctor?",
+    "body": "Brown University, \nCarnegie Mellon University,\nCase Western Reserve University, \nFranklin &amp; Marshall University,\nJohns Hopkins University,\nLehigh University,\nNorthwestern University,\nPenn State,\nPrinceton University,\nTufts University,\nUniversity of Chicago,\nUniversity of Michigan,\nUNC Chapel Hill,\nUNC Wilmington,\nUniversity of Notre Dame,\nUniversity of Pennsylvania,\nVillanova University,\nWest Chester University \n\nI am aware that I have too many colleges on my list which is why I ask that you guys make recommendations on what to remove and add. For reference, I’m from a Pennsylvania public school, top 10% of class (based on deciles), have a 4.361 cumulative GPA which will go up to around a 4.45 by the time I apply (I assume), 1400 SAT (I plan to apply test optional for some schools, and mediocre extra curriculars. I took 3 APs my junior year and am taking 5 this year. I scored a 4 on lang and world and a 5 on AP 2D Design. I also have around 3 awards for Spanish and art. I’m not sure how I’ll be far from home so I’m not entirely opposed to it. \n\n\nI’m basically looking for a school that will help me get into a great medical school. I want to know the colleges that give me many opportunities, allow me to have a high gpa, or are prestigious enough to better my chances at getting into a top med school. \n\nEdit: I might need to remove a lot of reaches so would CMU or Northwestern be good choices? ",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1mx9eyz/which_of_these_schools_should_i_remove_if_im/",
+    "upvotes": 3,
+    "date": "2025-08-22T15:21:12.000Z",
+    "author": "BrilliantFuture3013",
+    "top_comments": [
+      {
+        "text": "You could start by eliminating based on price. Run the **Net Price Calculator** on the financial aid website of each college you are interested in, with the help of a parent, to see a need-based financial aid estimate.\n\nAlso note that some schools on your list require test scores. Brown, UPenn, JHU require. CMU recommends. I would start by cutting these.\n\nApplying test optional makes reaches even reach-ier.\n\nMake the bulk of your list targets where your scores are in range to submit.\n\nPrestige of undergrad is not a significant factor in med school admission. Choose schools that are affordable and where you will get great grades. Your in-state public universities are often a good choice for premed.",
+        "upvotes": 21,
+        "author": "elkrange",
+        "date": "2025-08-22T15:30:34.000Z"
+      },
+      {
+        "text": "I will be completely honest with you. I am physician and also thought that one had to attend a prestigious undergrad. You do not. The only advantage a prestigious college will have is POSSIBLY, not always, good research opportunities.  That being said, research is a supplement to your application and not the gatekeeper. In order to pass your first line of the application, you HAVE to have a good GPA and MCAT score. Even if you help cure cancer, you will not get into an USA medical school with low scores.\n\nThis is supported by data of entering med school students. Look at their undergrads. also supported by medical school consultants and their data pool of students. Prestige of the undergrad makes little to no difference. \n\nGetting a higher GPA is much easier with a lower gene pool and plus you will save a ton of money.",
+        "upvotes": 9,
+        "author": "[deleted]",
+        "date": "2025-08-22T20:37:20.000Z"
+      },
+      {
+        "text": "This college list is unrealistic and almost all on this list are extreme reaches. You need to apply to the majority of schools with acceptance rates from 30-70%. Apply to 2 or 3 under 30%.",
+        "upvotes": 3,
+        "author": "PresenceBright9236",
+        "date": "2025-08-22T22:07:53.000Z"
+      },
+      {
+        "text": "UPenn is test required and that 1400 will hurt.",
+        "upvotes": 3,
+        "author": "throwawaygremlins",
+        "date": "2025-08-22T19:14:22.000Z"
+      },
+      {
+        "text": "Brown Chicago and UPenn are probably out of reach bc your score is too low. Brown might be possible if you’re male bc they skew female apps 2-3x that if male apps.",
+        "upvotes": 2,
+        "author": "okay4326",
+        "date": "2025-08-22T15:37:41.000Z"
+      },
+      {
+        "text": "1400 is below the bottom 25% for the Ivy league. Unless you have some insane hook, those are all likely reaches. This just looks like a prestige list without the homework on which schools are actually better feeders for medical school.",
+        "upvotes": 2,
+        "author": "lsp2005",
+        "date": "2025-08-22T19:45:58.000Z"
+      },
+      {
+        "text": "Any reason why you are leaving out Pitt? You are in state. \n\nWhen you say you’re dissuaded by ‘nova’s high tuitions, what exactly do you mean? Unconvinced about value proposition? Will only pay high tuitions for super selective schools only?",
+        "upvotes": 2,
+        "author": "CoquitlamFalcons",
+        "date": "2025-08-22T20:16:22.000Z"
+      },
+      {
+        "text": "I think your test scores and lack of EC’s will hurt you for most selective schools. Everyone has a high GPA these days and many applicants have 12 or more AP classes. I think you need to find some schools with higher acceptance rates. I would also hope that you are exceptional in AP Bio and AP Chem if you plan on going to med school. I just looked at our girls private Catholic school grads insta page and 47 girls said they were pre med. Maybe one out of the 47 will actually go to med school. Maybe some will go to PA school or into nursing - but all of which are very expensive.",
+        "upvotes": 2,
+        "author": "PresenceBright9236",
+        "date": "2025-08-22T22:05:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "nnunzu",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "What would the average SAT score be for a college senior at a noncompetitive public university?",
+    "body": "I want to get an idea for how I'm going to progress through college. I'm going to Marshall University, a public university with a 90% acceptance rate and 50% graduation rate, this fall and I got an 1140 on the SAT. I know a a lot of my classmates are also going to Marshall this fall. \n\nI say this as humbly as I possibly can, but I am a fair bit academically smarter than many of the people who'll go to the same college as me. Of course my own senior class in high school isn't a good representation of all college students but I don't have anything else to go off of.",
+    "url": "https://www.reddit.com/r/college/comments/nnunzu/what_would_the_average_sat_score_be_for_a_college/",
+    "upvotes": 3,
+    "date": "2021-05-29T19:35:17.000Z",
+    "author": "BurnerDebateTactics",
+    "top_comments": [
+      {
+        "text": "Average SAT score for Marshall University is:\n\n480-590 for Reading and Writing\n\n460-560 for Math\n\nACT is between 19-25\n\nSource - Googled “SAT score Marshall University”",
+        "upvotes": 5,
+        "author": "Nickjet45",
+        "date": "2021-05-29T19:52:21.000Z"
+      },
+      {
+        "text": "Hopefully this doesn't sound like I'm speaking down, but seeing that Marshall University has a 44% graduation rate (whatever may be the cause), I'd say if you work hard, you'd definitely be above your peers.\n\n\nThat being said, don't get cocky. I'd also imagine that Marshall University is probably below average as a University in general, given its graduation/acceptance rates alone. Being above average in Marshall doesn't really mean much in the grand scheme of things. And a decent amount of students who are actually way above average in HS end up doing poorly in University. \n\n\nSo, from my own experience, and the little info I have to work from, I'll say this: work hard, and if or when you end up above your peers, don't get arrogant. You'll probably do fine in college, probably better than a good number of your peers. But even the best students will struggle from time to time.",
+        "upvotes": 4,
+        "author": "StoicallyGay",
+        "date": "2021-05-29T19:59:55.000Z"
+      },
+      {
+        "text": "Good local state university. WE ARE MARSHALL!!!!\n\nYour SAT score is at the 72nd percentile of all test takers. You're probably above the 85th percentile of your fellow students at Marshall?\n\nYou should do fine! \n\nAs you move up in college and grad school your competition gets stiffer as many of those that drop out have lower SAT scores than you.\n\nHit the books from day one and you can beat out many of those with better SAT scores.",
+        "upvotes": 1,
+        "author": "Kimmybabe",
+        "date": "2021-05-30T00:01:02.000Z"
+      },
+      {
+        "text": "I can say this, I go to a university where my sat score is about 120 points above average and some classes really kicked my butt. I can say now that I am a totally average student/slightly below average there (my school lists class ranking in my portal so that's how I know), at least for now. I was one of the best students in my grade at my high school. It was kind of shocking to me but I went to a ''bad'' high school so maybe that has something to do with it.\n\nBasically, don't let your guard down and don't slack off. And take 15 credits or fewer your first semester no matter how confident you are.",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2021-05-30T00:40:46.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1qgjkf7",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Tuition and Expenses",
+    "body": "Hey everyone. So Im 27 and already have a Bachelor's Degree from Marshall University in WV, but unfortunately my career has yet to take off 3 years after I graduated. I didn't network nor did I connect with many others, nor did I get an internship. All the ways to make College pointless essentially. I was younger and didn't think things like this through. I plan on going back to college for Cinema/Film, although I do worry about the \"gap\" in my career where I worked retail since I couldn't find a job in my field. \n\n  \nI am in the midst of some serious family issues, wont go into details, but I'm trying to get far away from this, as I dont want to be involved in this mess anymore and Im looking at Colleges out of state, obviously.\n\n  \nWith all this in mind and with having my Associate's and Bachelor's. Would it be worth it to get a degree in Film even if the loans could exceed $70k(not including financial aid, could be less once that factors in)?",
+    "url": "https://www.reddit.com/r/college/comments/1qgjkf7/tuition_and_expenses/",
+    "upvotes": 3,
+    "date": "2026-01-18T20:35:00.000Z",
+    "author": "Strawberry_rocket_7",
+    "top_comments": [
+      {
+        "text": "Easy answer. No. \n\nIt is not worth getting a loan even if you qualify for one. You have a degree, you're out in the world. Make it work as best you can. Start earning. Save. If, after you save enough money to pay for your master's you want to get one; great. \n\nThe job doesn't have to be in your field. Get a job in any field which allows you to support yourself and save for your future.",
+        "upvotes": 8,
+        "author": "ourldyofnoassumption",
+        "date": "2026-01-19T02:14:56.000Z"
+      },
+      {
+        "text": "Do note that there is a cap on federal and state loans; if you already have a bachelors and you received loans, you will be at or near the cap. \n\nGetting a second bachelors in general is almost never a good idea. Do you have a) a very clear and specific job you want that can only be obtained with a bachelors in film, and b) a reasonable chance of actually getting that job with said bachelors?",
+        "upvotes": 3,
+        "author": "No_Jaguar_2570",
+        "date": "2026-01-18T20:44:01.000Z"
+      },
+      {
+        "text": "What did you major in?",
+        "upvotes": 2,
+        "author": "College_student_444",
+        "date": "2026-01-18T20:47:01.000Z"
+      },
+      {
+        "text": "Before taking on another degree and additional student loans, consider how you can leverage the degree you already have. Unless you are pursuing a field that requires specific credentials—such as engineering, medicine or law,  a new degree may not be necessary. Also, it’s important to research the job market for your chosen field and understand how you will be able to compete and what you will need to do and be willing to commit to.\n\nIf your current degree can be utilized, look for ways to gain relevant experience without returning to school right away. Intentional volunteer work, when aligned with your career goals, can be just as valuable as an internship and can strengthen both your skills and your resume. As a cinematographer, build your portfolio solo so you show that, while you didn't have internships, you were still practicing your craft.\n\nWhen it comes to paying for college, beyond FAFSA and traditional scholarships, consider employers that offer tuition assistance if you plan to work while studying. Many companies, especially in retail and food service, and retail provide education benefits. Some partner with specific schools, while others allow you to choose your own. Be sure to understand the requirements, such as minimum work hours, GPA expectations, and how long you must remain with the company.\n\nRegarding employment gaps, include the actual work you did during that time, even if not related to your goal – people have to eat, and employers get that. If you were caring for a family member, list yourself as a caregiver—that experience counts. Gaps are most challenging when they can’t be explained. \n\nGood luck",
+        "upvotes": 2,
+        "author": "3AMCareerCoach",
+        "date": "2026-01-18T21:39:26.000Z"
+      },
+      {
+        "text": "I went through something similar. It gets better once you find your people.",
+        "upvotes": 1,
+        "author": "Old_Equivalent_9353",
+        "date": "2026-01-21T01:48:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rztv73",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Campus Plotter for poster presentation??",
+    "body": "Don't tell me we don't' have a plotter on campus. . . .",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1rztv73/campus_plotter_for_poster_presentation/",
+    "upvotes": 2,
+    "date": "2026-03-21T15:10:14.000Z",
+    "author": "rationalexpressions",
+    "top_comments": [
+      {
+        "text": "Engineering building might have one but I’ve never seen one outside of an architecture firm",
+        "upvotes": 4,
+        "author": "pil0tinthesky",
+        "date": "2026-03-21T16:46:12.000Z"
+      },
+      {
+        "text": "The geography department has a very large printer we used to use for that. Unfortunately, maintenance and ink are very expensive, so it is in disrepair. It is cheaper to go to Staples and get something printed there.",
+        "upvotes": 3,
+        "author": "Geog_Master",
+        "date": "2026-03-21T18:56:13.000Z"
+      },
+      {
+        "text": "I've been on a college campus full-time since 1997 and I had to Google what a \"campus plotter\" is. I'm not sure there is one at Marshall or not, but I know someone has the capability of printing posters. Try Print Services linked here:\nhttps://www.marshall.edu/brandservices/",
+        "upvotes": 2,
+        "author": "WingHuge2185",
+        "date": "2026-03-21T16:21:03.000Z"
+      },
+      {
+        "text": "I’ve not been there in a few years but I feel like I remember seeing one at Drinko? If not there then I’d check the engineering complex (I’ve seen them used more to print off engineering blueprints than for posters) If you’ve still not had luck, I’d recommend contacting IT, because if there is one on campus they’d be who serviced it, and should therefore know its location.",
+        "upvotes": 2,
+        "author": "ilikemilfs42068",
+        "date": "2026-03-21T16:48:16.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1tng6yr",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "2 bed/2 bath 1300 sq ft apartment available in June 2026",
+    "body": "Looking for someone to take over apartment lease. Open floor plan, very spacious, quiet and respectful neighbors, apartment complex in safe residential area, free parking, secure package room for residents. Apartment located on Huntington/Barboursville border, dm for details!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1tng6yr/2_bed2_bath_1300_sq_ft_apartment_available_in/",
+    "upvotes": 2,
+    "date": "2026-05-25T17:38:39.000Z",
+    "author": "lumestory",
+    "top_comments": []
+  },
+  {
+    "id": "1ten6q0",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Nightlife recommendations in Huntington/Charleston WV",
+    "body": "Hey everyone, I’m 24 and I’m not a student, but I visit West Virginia about once a month. I usually stay around Huntington and Charleston, and I’m trying to find good places to go out—clubs, bars, rooftop spots, or anything with a good vibe. Any recommendations for spots people my age usually go to?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1ten6q0/nightlife_recommendations_in_huntingtoncharleston/",
+    "upvotes": 2,
+    "date": "2026-05-16T07:57:01.000Z",
+    "author": "Most_Bottle_3437",
+    "top_comments": [
+      {
+        "text": "Old North Arcade is one of my favorites! I just visited the Jockey Club last week and they have some great beverages! The Loud has a variety of events, but I haven’t had a chance to go. Paint &amp; Sip down by the Keith Albee is a great BYOB paint place too.",
+        "upvotes": 2,
+        "author": "ShakenOatMilkExpress",
+        "date": "2026-05-16T15:29:06.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1t6f5fl",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "certificate in medical science program",
+    "body": "Hello,\n\nHas anyone taken this graduate program? I'm currently trying to get into Marshall's medical school, and I went to college out of state, so I figured this program would have a lot of benefits for me. I'm curious as to what I should expect from it. Any feedback will help, thanks!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1t6f5fl/certificate_in_medical_science_program/",
+    "upvotes": 2,
+    "date": "2026-05-07T16:12:19.000Z",
+    "author": "True_Presentation995",
+    "top_comments": [
+      {
+        "text": "It’s a new special masters program (announced this year) so no one has taken it yet. It should teach the same/similar material to the first two blocks of med school but at a slower pace. An interview for the med school is conditional on academic performance.\n\nGood academic performance will get your foot in the door, but you still need to volunteer, shadow, and communicate well. The program also won’t be cheap. If you want to improve on your academics from undergrad, there are lots of other programs to consider, but all are money grabs.",
+        "upvotes": 1,
+        "author": "ShakenOatMilkExpress",
+        "date": "2026-05-08T00:51:55.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1scsekk",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Transfer-neurodivergent",
+    "body": "I am looking for information about the classes and teachers and programs for neurodivergent students.\n\nAre the classes fixed?\n\nDo they provide good programs for neurodivergent students?\n\nWhat is the biology and chemistry department like?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1scsekk/transferneurodivergent/",
+    "upvotes": 2,
+    "date": "2026-04-05T02:57:02.000Z",
+    "author": "Madd_Scyentist",
+    "top_comments": [
+      {
+        "text": "Marshall does a great job with neurodivergent students. Most, but not all, professors work well with the Office of Accessibility and Accommodations. As mentioned elsewhere, the HELP program at Marshall is a great resource and offers many helpful programs, as well as a good understanding of which professors work better with neurodivergent students.",
+        "upvotes": 4,
+        "author": "_XitLiteNtrNite_",
+        "date": "2026-04-05T17:15:11.000Z"
+      },
+      {
+        "text": "I don’t have information about your department, but there is a great program for neurodivergent students called the HELP program. Here is a link to info: https://www.marshall.edu/help/",
+        "upvotes": 2,
+        "author": "[deleted]",
+        "date": "2026-04-05T12:26:31.000Z"
+      },
+      {
+        "text": "As a forensic chemistry graduate, some of the professors in the chemistry and biology department were very difficult to work with. Even with documented paperwork from my doctor saying “this student gets test and quiz extensions due to ADHD” they still would be unaccommodating or make their office hours in order to receive those extensions difficult to work around, especially if it was an online/computer exam, for some reason. I graduated in December of 2022 so maybe it’s changed by now, but I know some of the faculty I specifically worked with are still there. But Marshall’s HELP program is fantastic and does what they can to help students as much as they can.",
+        "upvotes": 1,
+        "author": "TJ_Blank",
+        "date": "2026-04-05T17:22:16.000Z"
+      },
+      {
+        "text": "I am trying at GMU but struggle with the head of the chemistry department.\nAnd I am just tired of dealing with teachers who do the bare minimum for their neurodivergent students.\nPlus, schedules for what teachers teach is not fixed.\nIt is TBA",
+        "upvotes": 0,
+        "author": "Madd_Scyentist",
+        "date": "2026-04-05T20:17:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rjcfae",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Online Art degrees?",
+    "body": "Im having trouble researching if Marshall offers online or even hybrid options for a degree in art. I live about 2 hours away and do not want to move but Marshall is a school I’ve always been interested in. Help! ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1rjcfae/online_art_degrees/",
+    "upvotes": 2,
+    "date": "2026-03-03T01:55:45.000Z",
+    "author": "TarrahRayleeHall",
+    "top_comments": [
+      {
+        "text": "Hello!\n\nI’m currently the online representative for the English program, as far as I know we do not offer the program you’re looking for explicitly online but as the commenter above me stated it would definitely help to reach out. However, we do have amazing humanities programs that are online/hybrid. The department is really amazing and flexible and I’m sure you guys might be able to discuss something.",
+        "upvotes": 1,
+        "author": "itsRamune",
+        "date": "2026-03-03T02:51:42.000Z"
+      },
+      {
+        "text": "The director of the art department Mark Zanter would be a friendly contact you could make through email.",
+        "upvotes": 1,
+        "author": "Special-Asparagus282",
+        "date": "2026-03-03T15:18:53.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1qm74wm",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Student teacher",
+    "body": "Hello! Anyone who has taken a student teaching course here, can I get some help on something? Thank you! ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qm74wm/student_teacher/",
+    "upvotes": 2,
+    "date": "2026-01-25T02:50:16.000Z",
+    "author": "_dreamergirl",
+    "top_comments": []
+  },
+  {
+    "id": "1pjmmwn",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for roommate",
+    "body": "Hi! I’m looking for a female to live with next summer or fall. I’ll be starting grad school in the fall so I’m considering moving into a 2-bedroom at The Landing since the rent isn’t bad and no other bills. I would prefer someone that doesn’t drink or smoke, as I’m really uncomfortable around intoxicated people due to my past. I’m a very clean and quiet person!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1pjmmwn/looking_for_roommate/",
+    "upvotes": 2,
+    "date": "2025-12-11T02:57:32.000Z",
+    "author": "NovelEmbarrassed83",
+    "top_comments": [
+      {
+        "text": "Hi\nCould you please give me an idea about the rent?",
+        "upvotes": 1,
+        "author": "Reasonable_Skill_785",
+        "date": "2025-12-11T04:07:56.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1p85kn6",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Week 14 Preview: Georgia Southern at Marshall",
+    "body": "As the Thundercast said, it’s a one game season. Bowl eligibility at stake. Marshall plays host to Georgia Southern in the regular season finale. \n\nGarrett Armbrust has a look toward Saturday in Huntington. ",
+    "url": "https://sunbeltsyndicate.com/week-14-preview-georgia-southern-at-marshall/",
+    "upvotes": 2,
+    "date": "2025-11-27T15:53:06.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1p45nvx",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Yikyak",
+    "body": "Is there like, a Marshall yikyak for Samsung/Android Users? :p",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1p45nvx/yikyak/",
+    "upvotes": 2,
+    "date": "2025-11-22T22:08:38.000Z",
+    "author": "Lust_Mortum",
+    "top_comments": [
+      {
+        "text": "It is only available for Apple devices",
+        "upvotes": 1,
+        "author": "Wild-Wonderful241",
+        "date": "2025-11-23T13:00:43.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1p0tzdw",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "🎥✨ One-Night Multimedia Pop-Up Exhibition in Huntington — “Minutes Made III” (Nov 20, 2025)",
+    "body": "📅 Date: November 20, 2025\n🕖 Time: 7:00 PM–10:00 PM\n📍 Location: The West Virginia Building, 7th Floor\n910 4th Avenue, Huntington, WV\n\n\nMinutes Made is a one-night, multimedia pop-up exhibition exploring the concept of time through immersive, sensorial experience.\n\n\nThis event features motion design, projection mapping, film, and experimental media artworks created by students from Marshall University. \n\n\nMore than 30 artists will be showing work ranging from digital installations to time-based media pieces.\n\n\nThe exhibition is free and open to everyone.\n\n\nBeer and wine will be available for purchase.\n\n\nIf you're in or around Huntington on the 20th, come experience some incredible emerging media art!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1p0tzdw/onenight_multimedia_popup_exhibition_in/",
+    "upvotes": 2,
+    "date": "2025-11-19T01:15:10.000Z",
+    "author": "WhiteNinjaN8",
+    "top_comments": []
+  },
+  {
+    "id": "1onhapt",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Should I Attend Marshall or Listen to my Gut and Avoid",
+    "body": "Hey everyone. Apologies in advance for the lengthy post. Basically, I’m looking for advice on whether I should attend Marshall because the admission process has been horrible. Maybe someone here can tell me it’s actually normal.\n\nFor reference, I’m currently pursuing a M.S. in Accounting and Data Analytics at Michigan State, but after the first year, I’m 100% sure that accounting isn’t for me. I’m a former QA Software Engineer but was laid off in 2023 and have had trouble finding any software engineering positions since. That prompted me to attempt to switch fields and focus on something with higher job security (everyone needs an accountant).\n\nI applied to the Computer Science M.S. program at Marshall back in July of this year. Classes began August 18, so the entire time leading up I’m checking the portal to see if I’ve been admitted or not. Never getting an update, I called enrollment counselors and kept getting the runaround with them telling me “I don’t know why but the director hasn’t made a decision yet and you’re not the only one dealing with this.” It got to the point that I was able to get the emails of the head of the department and CC’d them in an email. This is what I’m going through until I’m admitted… at the end of September! Over a month after classes started. I get a call saying, “Congratulations on being accepted to Marshall, were you able to register for classes?” It’s laughable at this point, but this is all actually happening.\n\nUp until this point, I made up my mind that Marshall isn’t for me given that everyone I spoke to seemed confused about what was going on, which doesn’t make me feel that I can depend on them when it comes to my future, but I decided that I’ll push my start date to Fall 2026 instead of saying I won’t attend. The enrollment counselor assured me that if I decide to, I can always call back in and switch to Spring 2026 and get started sooner. Cool.\n\nFast forward to October 15, after thinking about it for a few weeks, I decided I’ll put my feelings aside about the communication aspect and go to Marshall Spring 2026, so I call back set things in motion. I don’t get my enrollment counselor on the phone, but I’m able to get someone from admissions on the phone. She sounds confused the entire conversation (smh), looks up my information and ends up telling me that she sees I’m admitted but I must submit a new application, but good news, my application fee will be waived lol. I ask her why I’d have to submit another app if I’m already admitted. I already had a horrible experience with this process and ended up not even starting when I was supposed to because of it. She says there’s a new director and his turnaround time is usually fast (which really doesn’t answer my question). So, between October 15 to October 28, I’ve called the enrollment counselor line and left multiple voicemails, not getting in contact with anyone for 2 weeks. No returned call at all, until this past Friday I got a missed call from Huntington, VA at the end of the work day that I assume is Marshall because no voicemail was left.\n\nAm I crazy for not going for a program I’m interested in because of how unnecessarily difficult this process has been? I have no confidence that I can depend on Marshall when it comes to communication, and I can only imagine how things will be once I’m actually in the program taking courses. Because I was unable to start at Marshall this Fall as anticipated, I stayed in the MSU program, which means I now have 1 semester left. I’m fine with not finishing because I don’t see the point in have a degree I never intend on using. Not sure if it matters, but these are both online degrees by the way. Any insight/help/advice is appreciated",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1onhapt/should_i_attend_marshall_or_listen_to_my_gut_and/",
+    "upvotes": 2,
+    "date": "2025-11-03T17:02:10.000Z",
+    "author": "gssiler7",
+    "top_comments": [
+      {
+        "text": "Admissions offices are notoriously terrible. \n\nAdmissions offices are also not academics/academic programs.",
+        "upvotes": 8,
+        "author": "CptSmarty",
+        "date": "2025-11-03T17:41:31.000Z"
+      },
+      {
+        "text": "Marshall is known for having absolutely terrible administrators. This includes Admissions and Bursars. No department on campus communicates to other departments which causes a lot of headaches. \n\nThat being said, the academic departments themselves tend to work better and you would need to talk to someone currently in that program to see if it is really worth the bureaucratic trouble.\n\nSide Note: I use my CS degree for Excel and the amount of companies that don't know how it works is insane. Definitely something to look at for job security.",
+        "upvotes": 4,
+        "author": "Vamparisen",
+        "date": "2025-11-03T18:44:33.000Z"
+      },
+      {
+        "text": "Try emailing Kat File Smith (file1@marshall.edu) or you can look up her phone number on the MU site.  She's a student advocate and should be able to help you or at least direct you to someone who can.",
+        "upvotes": 2,
+        "author": "DurianOwn1891",
+        "date": "2025-11-04T16:08:02.000Z"
+      },
+      {
+        "text": "Wow, it sounds totally egregious. I can’t blame you for losing hope in a process like that. \n\nI survived the 2023 layoffs but I was just laid off as well in the recent tech layoffs after 13 years at one company following my graduation from Marshall, so I feel you about trying to reinvent yourself. Granted, my time at MU was quite a while ago by this point, but it’s generally thought of as a credible institution within this part of the country, so I’m really surprised the ball was dropped this badly for you. \n\nIMO, a situation like this with repeating failures attempting to use the proper channels very well could warrant escalating your story up the leadership chain to get attention on the matter. If I were you, I’d consider tactfully summarizing your case with dates/timeline/specifics and sending it to some key high ranking university leaders at their university email address, or through LinkedIn, or something like that. Good luck.",
+        "upvotes": 1,
+        "author": "c0ncept",
+        "date": "2025-11-04T00:44:25.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1o83qxk",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Texas State at Marshall - First Time Matchup",
+    "body": "For the first time ever, Texas State and Marshall meet on the football field. What’s to make of this Sun Belt matchup?\n\nKyle Nachtsheim takes a closer look. ",
+    "url": "https://sunbeltsyndicate.com/week-8-preview-texas-state-at-marshall/",
+    "upvotes": 2,
+    "date": "2025-10-16T11:35:48.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1nr2763",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "The 2024 Title Rematch is Here!",
+    "body": "The time has come for the Sun Belt Conference Championship rematch. But this time around both Marshall and Louisiana both look vastly different. \n\nCade Williams previews the 2025 version of this tilt. ",
+    "url": "https://sunbeltsyndicate.com/week-five-preview-marshall-at-louisiana/",
+    "upvotes": 2,
+    "date": "2025-09-26T14:03:15.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1nhypnk",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for Foot Brace/ Ankle Brace",
+    "body": "",
+    "url": "/r/HuntingtonWV/comments/1nhypcc/looking_for_foot_brace_ankle_brace/",
+    "upvotes": 2,
+    "date": "2025-09-15T21:27:35.000Z",
+    "author": "Reasonable_Skill_785",
+    "top_comments": []
+  },
+  {
+    "id": "1mrzm7h",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Marshall vs Maryland Soccer Match",
+    "body": "",
+    "url": "/r/HuntingtonWV/comments/1mrzlsa/marshall_vs_maryland_soccer_match/",
+    "upvotes": 2,
+    "date": "2025-08-16T16:10:06.000Z",
+    "author": "mlbryant",
+    "top_comments": []
+  },
+  {
+    "id": "1mm4naw",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for whole house/apt for rent in Wayne, Cabell or Lincoln counties",
+    "body": "Looking for a 2 bedroom, preferably with a yard since I have 2 small children but open to anything ASAP. I currently attend MU so my location options are limited. $700 or less with no utilities included or $1000-1200 with utilities. We need out of our current situation ASAP due to mold, asthma, overpaying and landlord/maintenance negligence\n\nLooking around Huntington, Barboursville, Wayne, Salt Rock, Hamlin, Branchland, Ranger and all the ones in between!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1mm4naw/looking_for_whole_houseapt_for_rent_in_wayne/",
+    "upvotes": 2,
+    "date": "2025-08-10T00:26:22.000Z",
+    "author": "[deleted]",
+    "top_comments": []
+  },
+  {
+    "id": "1mg0y9z",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Advice for FNP program",
+    "body": "Hi, I am currently deciding between Marshall University’s FNP program or WVUs. Both full time. If anyone has any advice on this please help. I am familiar with the plans of study, tuition differences..etc. just looking for some outside perspective. Thank you. ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1mg0y9z/advice_for_fnp_program/",
+    "upvotes": 2,
+    "date": "2025-08-02T20:51:12.000Z",
+    "author": "spacegirlastronaut",
+    "top_comments": []
+  },
+  {
+    "id": "1tiyy0o",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Biomedical Research Masters - Medical and Research Emphasis",
+    "body": "Has anyone applied to this program? I am applying to different programs and this one seems very solid! just curious. \n\n  \nLink: [https://jcesom.marshall.edu/health-sciences-graduate-programs/master-of-science-in-biomedical-research-ms-nonthesis-with-medical-science-and-research-emphasis/](https://jcesom.marshall.edu/health-sciences-graduate-programs/master-of-science-in-biomedical-research-ms-nonthesis-with-medical-science-and-research-emphasis/)",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1tiyy0o/biomedical_research_masters_medical_and_research/",
+    "upvotes": 1,
+    "date": "2026-05-20T21:02:07.000Z",
+    "author": "Sharp-Cockroach54",
+    "top_comments": [
+      {
+        "text": "Hi! I’m currently a PhD student and know some of the Master’s students. It’s a pretty good program that will get you research experience. People have also graduated and enrolled in the PhD and MD programs at Marshall.\n\nMajor things I like: mostly non-toxic faculty that won’t make you come in 7 days per week. You get to know a lot of the faculty on a first-name basis, which is super helpful if you need a recommendation letter to further schooling. Class sizes are small so you can easily get help if needed.\n\nThings I would like to improve: it is a Carnegie R2 program, so it doesn’t have the same facilities as a bigger R1 school. There’s a lot of nepotism. Housing is expensive like any other college town. If you rent, you can only pick two out of safety, affordability, and comfort.",
+        "upvotes": 1,
+        "author": "ShakenOatMilkExpress",
+        "date": "2026-05-21T22:13:01.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1tc796x",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "The Rec Center",
+    "body": "I have been fully online for the past year due to working full-time, although I have been to The Rec center a couple of times to work out after. I was curious if they were open during the summer, and if so, how busy they are typically. I understand that when I went at 5 pm, the place was crowded. I just didn't know if there was a difference with summer kicking in.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1tc796x/the_rec_center/",
+    "upvotes": 1,
+    "date": "2026-05-13T17:50:58.000Z",
+    "author": "Dry-Split-5392",
+    "top_comments": [
+      {
+        "text": "They're open this summer, just not this week (deep cleaning)",
+        "upvotes": 2,
+        "author": "WingHuge2185",
+        "date": "2026-05-13T17:53:38.000Z"
+      },
+      {
+        "text": "Every gym is crowded around quitting time.  Get up early &amp; you'll have no problems.",
+        "upvotes": -1,
+        "author": "bigstrizzydad",
+        "date": "2026-05-13T18:30:47.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1s7wjyy",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Biomechanics",
+    "body": "Does anyone recommend any great biomechanics human movement tutors from Marshall University that I can try reaching out too? I need help with a biomechanics problem with resistance exercise. If you are an expert in biomechanics don’t be afraid to reach out! ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1s7wjyy/biomechanics/",
+    "upvotes": 1,
+    "date": "2026-03-30T17:05:21.000Z",
+    "author": "JuanSamu",
+    "top_comments": []
+  },
+  {
+    "id": "1rm37qr",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Apartment for Rent",
+    "body": "",
+    "url": "https://i.redd.it/4tqpx4tricng1.jpeg",
+    "upvotes": 1,
+    "date": "2026-03-06T03:41:10.000Z",
+    "author": "Reasonable_Skill_785",
+    "top_comments": []
+  },
+  {
+    "id": "1qze9f9",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Transcripts?",
+    "body": "Can someone provide me with a email address to ask what is the process to obtain copies of my transcript?\n\nHaven’t had much success on their website. \n\nThanks. ",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qze9f9/transcripts/",
+    "upvotes": 1,
+    "date": "2026-02-08T17:01:53.000Z",
+    "author": "waltthedog",
+    "top_comments": [
+      {
+        "text": "call them",
+        "upvotes": 1,
+        "author": "MasterRKitty",
+        "date": "2026-02-08T18:37:57.000Z"
+      },
+      {
+        "text": "Inquiries regarding transcripts can be sent to transcripts@marshall.edu",
+        "upvotes": 1,
+        "author": "WingHuge2185",
+        "date": "2026-02-08T19:24:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1qlwqmn",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Need advice for freshman year courses",
+    "body": "Need advice for the following courses. Just study the text? Any notes? Things to watch out for from the TAs, Profs like things a particular way, any rug pulls? \n\nMM 213 Communication in Relationships\n\nSCLA 102 Transformative Texts Eng\n\nBSC 227 Human Anatomy\n\nBSC 227L Human Anatomy Lab\n\nCHM 205 General \n\nHP 110 Intro to the Health Profession",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qlwqmn/need_advice_for_freshman_year_courses/",
+    "upvotes": 1,
+    "date": "2026-01-24T19:43:59.000Z",
+    "author": "WumberMdPhd",
+    "top_comments": [
+      {
+        "text": "Is lecturio any good? Can I use it for anatomy? \n\nWhat do I use for chemistry? That's the hard one.",
+        "upvotes": 1,
+        "author": "WumberMdPhd",
+        "date": "2026-01-24T20:11:16.000Z"
+      },
+      {
+        "text": "I've been a TA at two other universities and now teach at Marshall. I have NEVER seen a student fail a class that actually did ALL the work. The lowest I've seen is a D, once; the bottom threshold for the rest has been C.\n\nDo. Your. Work.",
+        "upvotes": 1,
+        "author": "Geog_Master",
+        "date": "2026-01-27T01:59:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1paiuqv",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Georgia Southern Soars Past Herd in Regular Season Finale",
+    "body": "It came down to the final Saturday for both Georgia Southern and Marshall. The Eagles would surprise in Huntington and be on their way to a bowl game.  \n\nCade Williams has the recap. ",
+    "url": "https://sunbeltsyndicate.com/georgia-southern-soars-past-herd-in-regular-season-finale/",
+    "upvotes": 1,
+    "date": "2025-11-30T13:55:25.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1oomt2b",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "transfer student app",
+    "body": "hey! I recently submitted my transfer application and I heard back that I got in, but I fully thought I had selected fall 2026 and not spring 2026 because I know scholarships and funding are very limited for spring semester. I just sent them an email letting them know about my mistake. will this make me look bad? am I stressing for no reason?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1oomt2b/transfer_student_app/",
+    "upvotes": 1,
+    "date": "2025-11-04T23:21:30.000Z",
+    "author": "dinointheclouds",
+    "top_comments": [
+      {
+        "text": "Good news! You’re stressing for no reason! I will say that sometimes emails can get lost in the shuffle, so stay on top of it until you hear it’s moved over. \n\nYour best bet would be to text enrollment services at +1 (866) 490-3581, tell them your name and the situation. That will connect you with your college enrollment coordinator, who will take care of you. \n\nSource: I work with Marshall’s admissions team via enrollment services.",
+        "upvotes": 6,
+        "author": "Working_Fish_198",
+        "date": "2025-11-04T23:51:45.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1odifeh",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Do they still make this little guy or is eBay my only hope?",
+    "body": "",
+    "url": "https://www.ebay.com/itm/167847647883",
+    "upvotes": 1,
+    "date": "2025-10-22T19:45:43.000Z",
+    "author": "iloveyourwendyhouse",
+    "top_comments": []
+  },
+  {
+    "id": "1nq4glw",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Current/Past Sonography Majors",
+    "body": "How was your time in the program? Were you in or out of state? What was your overall out of pocket expense? Do you live on campus for 2 years?",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1nq4glw/currentpast_sonography_majors/",
+    "upvotes": 1,
+    "date": "2025-09-25T11:41:50.000Z",
+    "author": "rs1035750",
+    "top_comments": []
+  },
+  {
+    "id": "1nksxm7",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Marshall ROTC?",
+    "body": "Hey guys, I'm looking into Marshall to apply for the spring 2026 semester and so far everything speaks to me but one thing \nI couldn't find much online about the ROTC program, just that they're known as the \"Thundering Herd\" Battalion.\nIs this a good program here or should I start looking elsewhere? What are things and events this Battalion partakes in?\nIs this a more drill focused, PT focused of academic (both army and school) oriented Battalion? How big is the Battalion? Does the Battalion frequently do community service? \nJust a few questions I have for any members of ROTC or those who have insight to such.",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1nksxm7/marshall_rotc/",
+    "upvotes": 1,
+    "date": "2025-09-19T03:31:46.000Z",
+    "author": "Traditional_Tooth427",
+    "top_comments": [
+      {
+        "text": "The Thundering Herd Battalion is great Army ROTC program! I was in it for 2 years and was too focused on the frat house to see it through, but many of the guys in the battalion have gone on to very successful military careers. The battalion is also very connected within the WVNG.",
+        "upvotes": 2,
+        "author": "intellectualherd75",
+        "date": "2025-09-24T10:12:33.000Z"
+      },
+      {
+        "text": "I'd get up with one of the recruiters on campus. They tend to salivate over students with interest",
+        "upvotes": 1,
+        "author": "LooserNooser",
+        "date": "2025-09-22T20:43:59.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1n8qswe",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Looking for Furnitures",
+    "body": "\n\nHello Good People \n\nI just rented a unfurnished apartment near Marshall University and looking for furnitures (chair, table, bed, sofa/ couch). If you have something to sell at a really low price or completely free, that will be really helpful. I heard that churches do help with this kind of stuffs, but I'm not sure. Please connect me with any lead that might work. Also, I have no car, so, dropping off the furniture is the only viable option. Thank you so much for your help!",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1n8qswe/looking_for_furnitures/",
+    "upvotes": 1,
+    "date": "2025-09-05T00:22:05.000Z",
+    "author": "Reasonable_Skill_785",
+    "top_comments": [
+      {
+        "text": "Restore with habitat for humanity near downtown is really good for furniture! Their stuff is older and used but you can get a couch and bed frame for like 20 bucks there, along with cheap cheap tables and stuff. Make sure you can get it home though, they dont deliver. You can also check goodwill! Good luck! (Edited to say i just saw you said you dont have a car, i would try and find somebody who does. Not even Facebook marketplace will really deliver furniture, only the expensive furniture stores around here do that tbh)",
+        "upvotes": 1,
+        "author": "ChaoticMethod13",
+        "date": "2025-09-05T01:21:36.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1m2cqj4",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "ODU Football 2025 Opponent Preview - Marshall",
+    "body": "",
+    "url": "https://theprideofodu.com/blogs/news/odu-football-2025-opponent-preview-marshall",
+    "upvotes": 1,
+    "date": "2025-07-17T16:51:44.000Z",
+    "author": "MonarchLawyer",
+    "top_comments": []
+  },
+  {
+    "id": "1sccfmo",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "questions on how common is professors infighting and fragility",
+    "body": "How common is it to witness professors acting like children on group email chains and scaring away new talent to protect their egos? \n\n",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1sccfmo/questions_on_how_common_is_professors_infighting/",
+    "upvotes": 1,
+    "date": "2026-04-04T15:39:50.000Z",
+    "author": "rationalexpressions",
+    "top_comments": [
+      {
+        "text": "I’ve never seen it as a student, but I’ve also rarely been in group email chains?",
+        "upvotes": 10,
+        "author": "NovelEmbarrassed83",
+        "date": "2026-04-04T16:18:56.000Z"
+      },
+      {
+        "text": "When I was a student &gt; 15 years ago, one of my male lab supervisors was in an inexplicably pointless war with a female colleague just down the hall. I could never sort out the underlying reason aside from male fragility. She's now at the top of her game as a VP for research or something and he's stuck, barely producing any major papers, except for the occasional bone he's tossed by colleagues who haven't interacted significantly with him.",
+        "upvotes": 6,
+        "author": "Nandinia_binotata",
+        "date": "2026-04-04T17:02:08.000Z"
+      },
+      {
+        "text": "I remember in chem, there used to be two REALLY toxic professors -- awful to colleagues, awful to students. The one was John Hubbard. Told me I would never ever accomplish anything scientifically and should quit school. I actually did quit school for awhile in part because of him.\n\n15+ years later, I have more citations than he does.",
+        "upvotes": 4,
+        "author": "Nandinia_binotata",
+        "date": "2026-04-04T17:09:36.000Z"
+      },
+      {
+        "text": "I saw it as a student at another institution. I've not seen it at Marshall University. This is going to be very department-dependent, and bigger departments are more likely to have this culture than small ones. Once a department has more than 10 faculty members, it is easier for cliques to form.",
+        "upvotes": 2,
+        "author": "Geog_Master",
+        "date": "2026-04-06T03:19:37.000Z"
+      }
+    ]
+  },
+  {
+    "id": "5d4fuk",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "How would you rank these colleges?",
+    "body": "So my friend is one of those kids who switches which college he wants to go to every week, his number one goal is WVU but these are his backups, how would you rank them, im doing some research to help him pick. His major is sports marketing or sports managing (can't remember), he says all these schools have his major. He's really out to find which one has the best and sterotypical college experience.    \n1. Cleveland State University    \n2. Marshall University    \n3. Slippery Rock University    \n4. Kent State",
+    "url": "https://www.reddit.com/r/college/comments/5d4fuk/how_would_you_rank_these_colleges/",
+    "upvotes": 1,
+    "date": "2016-11-15T19:20:10.000Z",
+    "author": "theclownermb",
+    "top_comments": [
+      {
+        "text": "Cleveland State is very much a commuter school, so if he's looking for \"the college experience\" he may have trouble finding it there.",
+        "upvotes": 1,
+        "author": "TrafficConeJesus",
+        "date": "2016-11-16T04:08:52.000Z"
+      }
+    ]
+  },
+  {
+    "id": "ph7hww",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "I really wish meal plans weren't required",
+    "body": "So basically, I am now attending Marshall University and living on campus, and am honestly kinda a picky eater. So basically, the cheapest meal plan offered was $1900-something, so not cheap at all. This gives me 10 meal swipes and $500 in \"flex\" dollars which are deducted on more expensive food items along with meal swipes and are also used on certain food items exclusively. So basically, I can eat at the dining hall any time it is open with these meal swipes. Only problem is there are very few foods I will eat here. Those foods consist of pizza, salad, grapes, french toast sticks and Froot Loops/any other dry cereal. All of the meat options taste not very good as in poor quality and I'd rather just not eat the meat here. Most other foods are just of a variety I won't eat or don't cater to me at that hour, so yeah. Then there are the restaurants. I like Chick Fil A and Stake and Shake, but I can only eat them after 1:30 with a meal swipe (plus 3 flex dollar) that I'm desperate to use. There are a couple other restaurants I can go to, but I'm not sure if they are things I would want regularly. I feel obligated to use the stupid meal plan because it was so expensive despite me wanting nothing to do with it. Stretching this meal plan is so hard because I am already so burnt out on the foods that I like that I can get with it after just 2 weeks. It's just so annoying and I wish I didn't have to have the stupid thing or could at least use it at other restaurants. I am enjoying finally being away from my family, but one big advantage of being there is that the food was so much better back home.",
+    "url": "https://www.reddit.com/r/college/comments/ph7hww/i_really_wish_meal_plans_werent_required/",
+    "upvotes": 1,
+    "date": "2021-09-03T15:31:30.000Z",
+    "author": "Weatheronthe8s",
+    "top_comments": []
+  },
+  {
+    "id": "1qrkmtf",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Is there another “learning OS” style platform that puts all the study tools you use in your workflow into one app?",
+    "body": "Hey all, so last semester I really started to reflect on my frustration with current learning apps on the market. Like many other university students, I was paying for a bunch of separate tools just to learn effectively: I’m an ADHD undergraduate Neuroscience &amp; Psychology student with Mandarin and Chemistry minors so I have to give myself every possible boost that I can throughout the semester to maintain my flow state and avoid burnout, thus I use a bit of everything: flashcards (Quizlet and Anki), Goodnotes, google calendar for planning, voicememo for speech-to-text, speechify text-to-speech, plus the obligatory GPT &amp; Claude subscriptions. One of my personal favorite workflows was uploading Canvas materials (particularly ones that were dull and boring and especially hard to digest as-presented), then uploading them to chatGPT and copying and pasting “Generate me an audiobook style transcript optimized for speechify without links numbers or symbols (instead writing them out for good text-to-speech optimization and clarity) explaining: \\*the topic at hand\\* “, before pasting the output into google docs, and exporting it to speechify so I could finally listen to those materials (be it while driving, doing laundry, walking to class, etc). \n\nAs well as it could, this worked, well enough that I continued to do it month after month, but it was annoying, expensive, and everything lived in different places (I had to toggle between 3 or 4 applications just to create the audiobook I wanted to listen to, and I did this multiple times almost every day). Fast forward to now and I’d become so frustrated with this that I built an iOS app (“ePrescience”), which I’m hoping is able to evolve into something of a ‘learning operating system’ over time. It’s in its early stages, but the goal is to really provide something novel for other ambitious, time-conscious learners, who are tired of toggling between platforms and losing track of subscriptions. I can’t be the only one frustrated that the billion dollar companies which currently control the digital learning tools space don’t allow you to upload whichever basic common format (e.g. slides, PDFs, video lectures, etc.) materials you have, and simply transduce those materials into whatever study output you want (flashcards, summaries, study guides, audio, plans), especially given who easy it is to do with AI doing the heavy lifting at this point. \n\nLike the tools are there but why do I have to do so much work to transition from one medium to the next. That’s not the worst part either, when these big names do try and integrate AI, they usually do a very poor job at using it to its true potential. It feels less like these platforms are truly married with state of the art workflows and more like a chatbot has been bolted on to your favorite tool, not to mention the fact that it’s almost always a terrible chatbot as well, or that chatbot’s underlying model doesn’t have access to the necessary context/can’t make useful changes to your materials the way it should, especially given all of the agentic capabilities provider models have developed over the last year. If you're paying for ai-integrated cloud-synched study tools, the ai should be able to actually generate and edit flashcard decks, notes, etc. Many of the well-known platforms barely maintain their platforms or respond to new feature requests by existing users, and when they do release updates it’s usually to paywall existing features that don’t cost them anything meaningful to develop or continuously provide. I think that many of the more mature players in this space have simply become complacent or out-of-touch with what their users actually want, leaving much to be desired.\n\n What I hope to see becoming normalized for the near future is one suite of study tools, one personalized workflow, one subscription, continuously iterated upon and improved to use the tech we have to its maximum potential. I’m trying to understand more about what other things actually frustrate users so much about the current options, myself included, when it comes to apps/sites like Quizlet, Anki, Good Notes, Speechify, Chegg, etc. \n\nIf you feel that disappointment yourself, and have complaints or ideas on how to unify discrete learning tools in your current study stack, what would you like to see in new platforms moving forward? Are there features or integrations I’m perhaps neglecting to consider here? I’m rapidly iterating and working tirelessly with my team to really chisel the app's current bugs for our first update. In the meantime I’m curious to see what ideas other than my own people have out there to improve on what’s available now, and to see if there are other apps out there that attempt to solve these sorts of problems directly. If you all have suggestions for my project in particular I’d love to incorporate them into future updates, or if you have tools you’ve built, I’d love to see how they compare as well. Everything I’ve built so far is out there in the open already, so I’m not just surfing for ideas, mainly trying to see how common these frustrations are and how many other platforms have attempted to address them. Right now we’re just iOS but planning to expand into android and web app compatibility, so if you know others on those platforms I’d be interested to hear what you’ve seen in those markets as well. My main goal is to gain awareness of what else is going on in this space, and to get a concrete idea of the specific ways it could be improved.\n\n",
+    "url": "https://www.reddit.com/r/MarshallUniversity/comments/1qrkmtf/is_there_another_learning_os_style_platform_that/",
+    "upvotes": 0,
+    "date": "2026-01-30T22:44:41.000Z",
+    "author": "UNPLUGGED-O_O",
+    "top_comments": []
+  },
+  {
+    "id": "1orw1dp",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Call for Participants for Study on Activism",
+    "body": "Hello, my name is Jimmy Lizama, and I am a PhD student from Carnegie Mellon University in the English department. I am conducting a research study about progressive activist rhetorical and organizing practices in higher education. The title of the study is Advocate Literacies Responding to College and University Power: Practical Wisdoms in Action. I am recruiting research participants to understand the rhetorical and organizing strategies progressive activists use in higher education to forward their needs and interests despite the possibility of institutional disapproval and even sanction.\n\nThe eligibility criteria are that any individuals (1) be at least 18 years old, (2) attend or have attended a college or university in the United States in the past two years, (3) have experience participating in progressive or leftist advocacy and/or activism in a college or university in the United States in the past two years, (4) are currently residing in the United States, and (5) were/are a student at the college or university during their advocacy and/or activism.\n\nPart of the motivation for this study is some of the labor and free speech organizing I have done at Carnegie Mellon University. Because I am also a writing instructor, I hope to use the findings of this study to improve instruction in advocacy and/or activism.",
+    "url": "https://i.redd.it/opffqtw1p20g1.jpeg",
+    "upvotes": 0,
+    "date": "2025-11-08T18:03:10.000Z",
+    "author": "Particular-Suspect14",
+    "top_comments": []
+  },
+  {
+    "id": "1onn5np",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Men's Basketball 2025-26 Roster Reload: Marshall",
+    "body": "Opening tip is almost here! Be ready with our Roster Reload!",
+    "url": "https://sunbeltsyndicate.com/mens-basketball-2025-26-roster-reload-marshall/",
+    "upvotes": 0,
+    "date": "2025-11-03T20:34:10.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1nl9wqn",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Rivalry Renewed!",
+    "body": "A rivalry dating back to FCS (1992), and every year from 2013 to 2021, gets going again Saturday. Middle Tennessee plays host to Marshall. \n\nCade Williams has more. ",
+    "url": "https://sunbeltsyndicate.com/week-4-preview-marshall-at-middle-tennessee-state/",
+    "upvotes": 0,
+    "date": "2025-09-19T17:30:21.000Z",
+    "author": "SunBeltSyndicate",
+    "top_comments": []
+  },
+  {
+    "id": "1mr63gd",
+    "source": "reddit",
+    "subreddit": "r/MarshallUniversity",
+    "title": "Campus Cuisine #College #Food #GameDay #Yelping #MarshallThunderingHerd",
+    "body": "",
+    "url": "https://i.imgur.com/XdSB9AK.jpeg",
+    "upvotes": 0,
+    "date": "2025-08-15T18:27:27.000Z",
+    "author": "SportBot1119834",
+    "top_comments": []
+  },
+  {
+    "id": "UgwzeNV53VDFW6LE_WV4AaABAg",
+    "source": "youtube",
+    "title": "USC Campus Tour 2024 | Marshall School of Business, Annenberg, Doheny Library, Parks, Quads, + more!",
+    "body": "“The campus has a lot of class buildings” dawg it’s a university, that’s what it’s there for 💀 but in all seriousness I think people do want to see the classrooms",
+    "upvotes": 31,
+    "date": "2024-06-09T16:29:41Z",
+    "author": "@Am-Not-Jarvis"
+  },
+  {
+    "id": "UgxPL1tvn0tQ2ZRUTtZ4AaABAg",
+    "source": "youtube",
+    "title": "USC Campus Tour 2024 | Marshall School of Business, Annenberg, Doheny Library, Parks, Quads, + more!",
+    "body": "I&#39;m a freshman in high school so I&#39;ve still got a few years but as a hopefully future Trojan, this video was great! Campus is so pretty. Fight on ✌",
+    "upvotes": 19,
+    "date": "2024-10-03T15:36:25Z",
+    "author": "@aromanticfranziskavonkarma"
+  },
+  {
+    "id": "UgwylTLRGXguXhCUWi54AaABAg",
+    "source": "youtube",
+    "title": "USC Campus Tour 2024 | Marshall School of Business, Annenberg, Doheny Library, Parks, Quads, + more!",
+    "body": "What about the school of Engineering! It&#39;s beautiful and great things are happening there.  Please continue your tour and always remember to Fight On.",
+    "upvotes": 1,
+    "date": "2025-05-04T20:43:42Z",
+    "author": "@hwillis7570"
+  },
+  {
+    "id": "UgwqZeqZGpIZsbgvpY94AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "so helpful!! got admitted into ucsd for sixth and I literally didn&#39;t remember what my ranking was when i applied 😭",
+    "upvotes": 82,
+    "date": "2024-03-19T08:14:34Z",
+    "author": "@cherry.cinema"
+  },
+  {
+    "id": "UgyP-BEjtP51Kewq0E94AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "uc san diego is my dream school and ill be applying for fall 2025! thanks so much this is so helpful!!",
+    "upvotes": 48,
+    "date": "2024-03-17T20:13:40Z",
+    "author": "@coelucanth"
+  },
+  {
+    "id": "UgzHZ32-8vjaa29jL4Z4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "Love 8th since the dorms are new with great views. You can also be away from all the noise if you don&#39;t want to participate. That being said...6th is awesome.",
+    "upvotes": 13,
+    "date": "2024-09-10T18:36:58Z",
+    "author": "@joserdgr8"
+  },
+  {
+    "id": "UgyGfXdxPGMlVX6KjDF4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "Omg you are like an actual life saver!!! I was trying to fill out forms for the UC schools and I was so confused on what these colleges were in UC San Diego!!  Hopefully I can make it in 😖",
+    "upvotes": 25,
+    "date": "2024-10-01T06:26:53Z",
+    "author": "@animeweeb6627"
+  },
+  {
+    "id": "UgzLuXnmwjl0Y4SEQv14AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "erc is def the best imo so happy i got placed there 🤩 def the most social and lively place",
+    "upvotes": 2,
+    "date": "2024-09-11T05:21:12Z",
+    "author": "@shallowvalkyrie9687"
+  },
+  {
+    "id": "Ugy6neDaTLg6ClHuK3V4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "Wow, thank you for this video, you saved me a lot of time on research for these colleges, I&#39;ll definitely take this into account.",
+    "upvotes": 0,
+    "date": "2024-11-24T04:38:18Z",
+    "author": "@wrios64"
+  },
+  {
+    "id": "Ugy0Dvg2wQpFOFnnluh4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "I got into Revelle after being admitted from the waitlist despite having it ranked near the bottom. I play piano professionally (I practice several hours a day) and am majoring in business economics in order to have the skills to start a brand around my name after graduation, but i fear that the GEs in Revelle will consume so much time and might even interfere with my graduation. Do you have any tips on some steps I could possibly take to make this more manageable for me without mentally burning out?",
+    "upvotes": 0,
+    "date": "2025-05-17T15:05:21Z",
+    "author": "@raidgens8839"
+  },
+  {
+    "id": "UgztcORO3y_-oWdrL1Z4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "so i got into warren cus my first major of choice was aeroE....<br>my assigned major is urban studies &amp; planning...... so I&#39;m segregated from everything....",
+    "upvotes": 0,
+    "date": "2024-07-14T07:24:33Z",
+    "author": "@goldenoodles"
+  },
+  {
+    "id": "UgwA5j0pTRYZlMUACC14AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "Thanks for this! Just got accepted as English Literature in Marshall College and this video is helping me decide between Irvine and SD!",
+    "upvotes": 2,
+    "date": "2025-03-15T05:59:10Z",
+    "author": "@gouwon1745"
+  },
+  {
+    "id": "Ugw1O588OjglTP9Zb3F4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "I’m applying as a psych major this fall. I’m having a hard time ranking the college 😭 what do u suggest ??",
+    "upvotes": 1,
+    "date": "2024-08-19T01:21:57Z",
+    "author": "@kendrapacheco8430"
+  },
+  {
+    "id": "Ugzho8ISb21jGKakLDl4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "thanks so much for this video! do you know which college would be best for a biology major? thanks queen",
+    "upvotes": 0,
+    "date": "2024-09-18T04:50:54Z",
+    "author": "@shreyuu-i7b"
+  },
+  {
+    "id": "UgzznbeS8xO1uQZ9sa14AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "tysm for this vid, I just had a question about the campuses. I am applying as a cs major with specialization in bioinformatics, so would warren still be a good choice? I saw one of your previous comment saying that biology at warren is not ideal, so just wanted to hear your take. thanks!",
+    "upvotes": 0,
+    "date": "2024-09-01T20:26:05Z",
+    "author": "@AntiMaster123"
+  },
+  {
+    "id": "UgxvHimRleB7KIpSHrx4AaABAg",
+    "source": "youtube",
+    "title": "UCSD COLLEGE RANKING EXPLAINED | UPDATED",
+    "body": "Hi Shreya!! Thank you for talking about the major aspects of each college! I&#39;m a humanities major (sociology), so I&#39;m not sure how different the ranking would be for me. What are your thoughts on the UCSD college ranking for humanities?",
+    "upvotes": 0,
+    "date": "2024-11-24T23:04:42Z",
+    "author": "@juliaz6950"
+  },
+  {
+    "id": "UgwtWqII3_BbnY2OHwp4AaABAg",
+    "source": "youtube",
+    "title": "The TRUTH About USC… #usc #college #collegelife #university",
+    "body": "I was middle class and got accepted into USC…<br><br>Half my school was scholarships, the other half loans.<br><br>I had a full time job while going to school there.<br><br>In fact, all my close friends I met there were also middle class…<br><br>Everyone being rich who goes there isn’t true.<br><br>But, my maid did go to UCLA!<br><br>✌🏻",
+    "upvotes": 66,
+    "date": "2025-05-08T03:15:03Z",
+    "author": "@sandramiller1988"
+  },
+  {
+    "id": "UgzkB3CLHesZvfqUPbR4AaABAg",
+    "source": "youtube",
+    "title": "The TRUTH About USC… #usc #college #collegelife #university",
+    "body": "USC is a fantastic school, well worth attending (the &quot;hood&quot; part is bit exaggerated). ...but in a state with Stanford, Cal, UCLA, UCSB, UCSD, Caltech and the Claremont Colleges, it sort of gets lost.",
+    "upvotes": 22,
+    "date": "2025-05-08T04:10:21Z",
+    "author": "@waynesimpson4081"
+  },
+  {
+    "id": "UgxhcO8gbAepT9Newox4AaABAg",
+    "source": "youtube",
+    "title": "The TRUTH About USC… #usc #college #collegelife #university",
+    "body": "How about U of M? university of Michigan? My dream school anything you know about them? Tag me if you do a response video!",
+    "upvotes": 1,
+    "date": "2025-05-07T17:23:23Z",
+    "author": "@Carlows359"
+  },
+  {
+    "id": "Ugzzm6g6Fkm6jdpB8694AaABAg",
+    "source": "youtube",
+    "title": "Campus Tour | Marshall University",
+    "body": "At least the university is not so big that one might spend more time going between classes as being IN classes.   By the way, my grandfather was the architect who designed Morrow Library around 100 years ago.",
+    "upvotes": 9,
+    "date": "2023-10-19T16:18:43Z",
+    "author": "@ColonelMarcellus"
+  },
+  {
+    "id": "Ugwe3GHIRHTM93jeeGd4AaABAg",
+    "source": "youtube",
+    "title": "Campus Tour | Marshall University",
+    "body": "The math of a begotten day, 2 x 4, is Spain high above the trees, and 6 x 4 is French to my eyes, but 20 times the borrow minus the trees is my wrench. I weep. O my Lord. Why am I beforgotten?",
+    "upvotes": 0,
+    "date": "2025-09-28T00:12:32Z",
+    "author": "@anneposie"
+  },
+  {
+    "id": "Ugz7pw2oakUG0WnEkpB4AaABAg",
+    "source": "youtube",
+    "title": "Campus Tour | Marshall University",
+    "body": "Haiku<br>Joniphey-4 Lines, 3 words, 2 paragraphs, 6 goals<br>Trailerism-4 goals, 6 lines<br>Goals- 3 Lines, 2 paragraphs, 6 goals<br>Haiku 2<br>1 Pace<br>Rap<br>Funny<br>blessing<br>Goals 2<br>Rap Funny<br>Joli<br>Rap Jedi<br><br>Jedi=24T<br>Gedi=24T2<br>Fedi=24T25<br>Tedi=bend1236<br>Nedi=bend23",
+    "upvotes": 0,
+    "date": "2025-09-28T01:10:25Z",
+    "author": "@anneposie"
+  },
+  {
+    "id": "Ugwp585efYIVCwZXZvl4AaABAg",
+    "source": "youtube",
+    "title": "Campus Tour | Marshall University",
+    "body": "Haiku 2<br><br>The Ghost In Me<br><br>I see I am the Holy Ghost<br>Jesus lives again today<br>God is loving me as my eyes set in<br><br>The love is my eyes on holidays <br>The wrench is goal<br>But why is my eyes holiday when I&#39;m screwed<br><br>Woe is my eye when I screw<br>And the driver wrecked<br>But to the fall was the primary fall out<br><br>I died that day as a man<br>And the fall tired<br>I weep as Ghost in catastrophe that spilled my guts<br><br>I behold my lying eyes and gale<br>I weep no more<br>And the day is ended as I support me<br><br>My Ghost is a Free Mason I<br>I live again anigh<br>I struggle to ghost my expression as I weep<br><br>No more shells and cheese for me<br>I smile at Chester<br>He killed me with a gun I knew existed<br><br>And the lying I twisted as Irupped<br>I galed down atop<br>I erupted atop a window seal alive and bold<br><br>I&#39;m alive<br>I&#39;m alive, I said<br><br><br>by James Dean Jarvis<br><br>Copyright 2025 James Dean Jarvis Co-Rights Reserved",
+    "upvotes": 0,
+    "date": "2025-09-28T00:45:14Z",
+    "author": "@anneposie"
+  },
+  {
+    "id": "UgyhirI6UAgdPqKdXyB4AaABAg",
+    "source": "youtube",
+    "title": "Campus Tour | Marshall University",
+    "body": "2nd Grade\r<br>Geometry\r<br>Math 102\r<br>4.7\r<br>Geometry 8\r<br>Algebra\r<br>1.9-Suggestion\r<br>Expression\r<br>Gymnastics\r<br>\r<br>3rd Grade\r<br>Expressions 2\r<br>Geometry 7: Puzzle Cube\r<br>Geometry 6\r<br>Proverbs In French\r<br>Geometry Puzzle Cube 2\r<br>CY7-Carius Ynergrowth 7\r<br>Basic French\r<br>Coptional/Gym\r<br>\r<br>4th Grade\r<br>Math 2\r<br>English 3\r<br>Physics 5\r<br>Karate\r<br>French 3-5\r<br>7 Discipline\r<br>8-9\r<br>1 Harmony\r<br>\r<br>5th Grade\r<br>Tides and Expression\r<br>Math 5\r<br>English 4\r<br>Tides and Expression 2\r<br>Legitimate Poses\r<br>Adultery Expressions\r<br>Tides and Explaining\r<br>Poses\\Attitude\r<br>\r<br>6th Grade\r<br>Puzzle Gem\r<br>Math 3\r<br>Blessings In French\r<br>Puzzle In English\r<br>Hydrogemital Thinking\r<br>Blessings In English\r<br>Jury Duty\r<br>Hydrogemital Fal\r<br>\r<br>7th Grade\r<br>Octagonal Plasm\r<br>Hydrogemital Thinking 2\r<br>Hydroplasm Reaches \r<br>Fal\r<br>French 2\r<br>English In Expression\r<br>Jem Cube\r<br>Hydrojemital Thinking 3\r<br>\r<br>8th Grade\r<br>French In 3\r<br>4 Bio-Plasm\r<br>Riches\r<br>Business Opportunity\r<br>Bio-Plasm 2\r<br>Inner Growth\r<br>Physics 3\r<br>Music/Acting\r<br>\r<br>9th Grade-Freshmen\r<br>Computing\r<br>Vocational Agriculture\r<br>Incomputing\r<br>Space Flying\r<br>Desert Colocaust\r<br>Inpress\r<br>Computing 2\r<br>Typing\r<br>Incomputing Press\r<br>Desert 2 Handling\r<br>Sparks\r<br>Incomputing 2: Press\r<br>\r<br>10th Grade-Sophmores\r<br>Computing In French\r<br>Spanish\r<br>Lessons In French\r<br>Shaolin\r<br>Military Training\r<br>Justice\r<br>\r<br>11th Grade-Juniors\r<br>Sophmore Physics: 2 In Lesson\r<br>Junior Physics\r<br>Bomb In Packing\r<br>Physics\r<br>Space Structure\r<br>Discipline\r<br>Daolin\r<br>\r<br>12th Grade-Seniors\r<br>Space Training\r<br>Longitudinal Forces\r<br>Latitudinal Forces And Blessings\r<br>Latitudinal Forces And Jearing\r<br>Conjunction\r<br>Space Monkey\r<br>Forces Of The Law\r<br>\r<br>13th Grade-Felmores\r<br>Space Thinking\r<br>Felmore Classes-Geometry 102\r<br>Law\r<br>Primary Struxis\r<br>Pelimatral Guaging\r<br>Quad Electronics\r<br>\r<br>14th Grade-Selmores\r<br>Telemetry Guaging\r<br>Caitu\r<br>Enemy Guaging\r<br>Haitru Fortress\r<br>Finish Thinking\r<br>Guaging and Fortress\r<br>Spelling\r<br>Haiku\r<br>\r<br>15th Grade-Telmores\r<br>Haiku 2\r<br>Enemy Fortresses\r<br>Teleimetry Guaging 2\r<br>High Enemy Fortresses\r<br>High Teleimetry\r<br>Space Exam 2\r<br>Space Exam 1\r<br>Juices\r<br>Enemy Guaging 2\r<br>\r<br>16th Grade-Telmores 2\r<br>High Tolerance\r<br>Guaging and Map Compassing\r<br>Teleimatry Guaging 3\r<br>Rocket Science\r<br>\r<br>17th Grade-Telmores 3\r<br>Teleimetry 3\r<br>High Guaging\r<br>Space Exam 3\r<br>High Cost\r<br>Enemy Guaging 3\r<br>Be All You Can Be\r<br>Atlas Cost\r<br>Mechanics\r<br>High Consumption\r<br>\r<br>\r<br>The rest is in college.\r<br>\r<br>\r<br>18th Grade-College Exam-Freshmen College-Delmores \r<br>Freshmen College Exam\r<br>Placement\r<br>High School Cheer\r<br>Freshmen College Exam 2\r<br>Gun Wielding\r<br>Gun Making\r<br>Bomb Making\r<br>Structure Of Discipline\r<br>Robotics\r<br>Discipline Training\r<br>Army Corp Of Engineers\r<br>Mercenary Training \r<br>Commando Training\r<br>Back Up\r<br>Green Beret\r<br>\r<br>19th Grade-Freshmen Dolmores\r<br>Freshmen Dolmores\r<br>College Etiquette\r<br>Marine Basis\r<br>Call Of Duty\r<br>Discipline Of Structure\r<br>Marine Call Of Duty\r<br>Business Structure\r<br>Etiquette\r<br>Military Planning\r<br>Raleigh Duty\r<br>Jedi\r<br>Military Post\r<br>Pictures\r<br>\r<br>20th Grade-Freshmen Dolmores 2\r<br>Etiquette 2\r<br>Navy Discipline Structure \r<br>Compound Ethics\r<br>Ship Building\r<br>Jet Structure\r<br>Navy Seal High Plasting\r<br>Etiquette and Handling\r<br>Type 0 Submarining\r<br>Dutch Submarining\r<br>High Draw\r<br>\r<br>21st Grade-Freshmen Dolmores 3\r<br>Marine Compost Housing\r<br>Air Force 1\r<br>Air Force 2\r<br>Air Force 3 Composition Mapping\r<br>Delta Force\r<br>Delta Force 2\r<br>Delta Force 3\r<br>Alpha Force\r<br>Alpha Force 2\r<br>Alpha Force 3\r<br>Alpha Force 4\r<br>\r<br>22nd Grade-Freshmen Delmore 5\r<br>Placement\r<br>Dolmore\r<br>Delmore 5-Space Force\r<br>Dolmore 2\r<br>Dolmore 3\r<br>Delmore\r<br>Space Training: Physics Of Handling\r<br>\r<br>23rd Grade-Sophmore Physics-Celeid\r<br>Splinter Cell\r<br>Quad Physics a567\r<br>Physics a567\r<br>D-composites\r<br>A tuning\r<br>Adular\r<br>b compress Tuning\r<br>C specifics\r<br>Adular 2 and Dressing\r<br>Quad Specifics\r<br>Negotiating Tactics\r<br>quad Cellular\r<br>\r<br>24th Grade-Sophmore Etiquette-Prises\r<br>Business Etiquette\r<br>Business Ethics\r<br>Business Economics\r<br>Literature\r<br>Planning\r<br>Booming\r<br>Business Ethics 2\r<br>\r<br>25th Grade-Junior-Competition\r<br>Junior Classes\r<br>Cosmology\r<br>Time Combustion\r<br>Space Time Combustion\r<br>Space Time Combustion 2\r<br>Space Time Combustion 3\r<br>Space Time Theory II\r<br>Space Theory\r<br>Space Time Theory\r<br>Space Theory II\r<br>Theory\r<br>Space Quad Mechanics\r<br>Time Quad Mechanics\r<br>Quad Mechanics\r<br>Space Time SuggestCombustion\r<br>Space SuggestCombustion\r<br>Time Theory\r<br>Medicine\r<br>Medicine 2\r<br>Medicine 3\r<br>Space Time\r<br>Quad Mechanics 2\r<br>Juices 2\r<br>Trailer\r<br>Tae Kwon Do\r<br>Physics 2\r<br>Physics 3\r<br>Physics 4\r<br>Chess\r<br>Mechanics of Harmony\r<br>Celoid\r<br>Mass Combustion\r<br>Ceremonial\r<br>Marriage\r<br>Cuad Mechanics\r<br>Celibestiay\r<br>Time\r<br>Symbology\r<br>\r<br>26th Grade-Junior-Ejection \r<br>1 Class\r<br>Exam\r<br>1 Finger\r<br>2Punch\r<br>3 4 Calculation\r<br>2 Calculation\r<br>34 Bribe\r<br>Three  Radio\r<br>2 4 Calculation\r<br>2 4 Three Radio\r<br>Three 4 Radio\r<br>2 Three Radio\r<br>1 Three Radio\r<br>1 Radio 2\r<br>1 Radio\r<br>Radio\r<br>Technology\r<br>1 Radio 2Bribe\r<br>2 Bribe\r<br>1 Radio 234\r<br>Signal\r<br>blast\r<br>Blast satellite\r<br>Radio Satellite\r<br>satellite\r<br>satellite blast\r<br>Radio Signal\r<br>Court TV\r<br>Court TV signal\r<br>blast satellite\r<br>blast satellite 2\r<br>\r<br>Math Curriculum I missed\r<br>Geometry 1 through 35\r<br>Calculus 1 through 35\r<br>Algebra 1 through 12\r<br>Math 1 through 3600\r<br>1 2 Traison\r<br>Resistance\r<br>High Q\r<br>Resistance 2\r<br>High Spelling\r<br>Digital 0\r<br>1 2 Coming\r<br>high zero\r<br>AlgeBrA\r<br>Resistance 3\r<br>Jelo\r<br>High Coming\r<br>Light Coming\r<br>Indigital Coming\r<br>Light 2\r<br>High Resistance\r<br>Jelo 2\r<br>Light Fixture\r<br>Light Math 1 through  4",
+    "upvotes": 0,
+    "date": "2025-09-27T23:15:31Z",
+    "author": "@anneposie"
+  },
+  {
+    "id": "UgzfYrrYIFOZrbX3sW14AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "still waiting for the day someone actually shows what they do instead of eating,exercising... like the actual stuff; what tools and why they use,glimpse of scenarios they face.",
+    "upvotes": 1140,
+    "date": "2023-07-26T02:18:04Z",
+    "author": "@citadelarmor"
+  },
+  {
+    "id": "Ugw7OFGCThSiWME679p4AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "I get the impression that after all of the knowledge acquired, really it&#39;s all about eating and enjoying the view....",
+    "upvotes": 2,
+    "date": "2025-09-01T21:13:21Z",
+    "author": "@joekelley5121"
+  },
+  {
+    "id": "Ugw8uu7_t_LX69iOQpR4AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "hey your cool im new to the cyber industry also have all ways been a techie at heart though look forward to talking to you about various topics",
+    "upvotes": 2,
+    "date": "2025-03-07T09:14:01Z",
+    "author": "@phillipokpara8884"
+  },
+  {
+    "id": "Ugw8ZthPGHsgpF6V_5N4AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "Could you explain how the work load is being a cyber security analyst? Does it require OT are you able to leave the work at work? How are you rated for your metrics or do you have any metrics?",
+    "upvotes": 1,
+    "date": "2024-10-25T01:04:05Z",
+    "author": "@rosedia2023"
+  },
+  {
+    "id": "UgxgS2dFU3J9VHAnzrx4AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "Bro as a soc internet i dont have a life like this im workings my azz off so i wont miss ang alerts 😅",
+    "upvotes": 1,
+    "date": "2025-11-12T11:06:39Z",
+    "author": "@NeoArise1"
+  },
+  {
+    "id": "UgxZVH-aoBhA7wAaPdN4AaABAg",
+    "source": "youtube",
+    "title": "Cybersecurity Day in the Life with Timestamps, Denver Edition! #cybersecurity #dayinthelife #work",
+    "body": "Did you recently visit Colorado, Sandra? I called it home for many years.  Sadly, it has changed over the last decade.",
+    "upvotes": 0,
+    "date": "2024-11-18T17:16:10Z",
+    "author": "@Lanae8199"
+  },
+  {
+    "id": "UgxszTzLrrNl5JU4nA14AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "Oh, it&#39;s cool to see people like you. I really liked how you showed the division into anesthesiologists. This immediately becomes clear to people not connected with medicine. There are people in my country who have no idea what an anesthesiologist does. I am glad that you have a good team and such a high-tech hospital, it is my dream to work with you in Florida. I am also an anesthesiologist in Russia, but unfortunately, the process of legalizing a diploma is very expensive for me, in order to complete an internship with you, I need to save money for half a year. Good luck colleagues! Quiet duty, as they say in our country!",
+    "upvotes": 42,
+    "date": "2022-12-02T23:54:38Z",
+    "author": "@ghostknight6815"
+  },
+  {
+    "id": "UgyWGG3G4yiOX-PsOt14AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "Finished my residency here at UF Shands Jacksonville (University Medical Center then) 28 years ago. It was a great experience! Anesthesia has been a great career for me. Every day is rewarding. I highly recommend it! Thanks for the post. It brought back lots of memories.",
+    "upvotes": 3,
+    "date": "2024-10-31T03:00:08Z",
+    "author": "@garyfeldmann4084"
+  },
+  {
+    "id": "Ugzbh1RVolPxObZ91vZ4AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "I&#39;m being honest, at first I don&#39;t find anything special about anesthesiologist and why it&#39;s so important in OR but after doing some research, watching videos about anesthesia and anesthesiologist lives, it makes me have a second thought. I love it how anesthesiologist checks the bp of the patient and more while other surgeon do the surgery. It makes anesthesiologist looks like a guardian angels who keeps someone safe",
+    "upvotes": 142,
+    "date": "2022-10-10T12:49:40Z",
+    "author": "@orangensh34"
+  },
+  {
+    "id": "Ugz0rejL4xWrrbSAHy14AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "The Music helps me have a optimistic mind with surgery and others thing happen when I’m in Hospital because surgery for me it’s a nightmare 😢😢",
+    "upvotes": 1,
+    "date": "2024-06-25T11:25:36Z",
+    "author": "@GiaKhanhTran-y2r"
+  },
+  {
+    "id": "UgwZm6JFGJ8VngbNSnB4AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "As i have passion about orthopaedic surgery faculty but after some try it looks tough for me. Then I tried for anaesthesiology. Here it comes when i start training in anaesthesia. Its super specialised subject which makes surgeons and patients safe during surgery and also there is branch for critical care and pain medicine which another world of anaesthesiology. I wonder how specialised it is! ❤",
+    "upvotes": 2,
+    "date": "2024-03-25T18:23:47Z",
+    "author": "@aasifsarwar3303"
+  },
+  {
+    "id": "UgxqviXEt2_Oyj18s7J4AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "bless ya so much hard work to become an dr I&#39;m sure in end your get there i hope one day to help teach medical students as one of there body donors as I&#39;m thermally ill young man  so decided to give consent to body donation in hope to help teach medical students Anatomy  i wish all well in there studies and pray you carry on to become great dr take care",
+    "upvotes": 8,
+    "date": "2023-10-11T01:45:09Z",
+    "author": "@michaelskuce3677"
+  },
+  {
+    "id": "UgyPjmwjje1es6gQ8FJ4AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "I hope to come back to this comment in a couple years to follow up. <br><br>More than halfway through my BSN now. Main goal is to become an Anesthesiologist. Open to obstetrics or general. Backup is Radiation Oncologist. <br><br>Hope one of you will see this comment down the road and follow up to remind me to come back and update you all!",
+    "upvotes": 0,
+    "date": "2024-09-28T00:10:12Z",
+    "author": "@TessaRoloson"
+  },
+  {
+    "id": "Ugwuqp3R-NPLaK652nR4AaABAg",
+    "source": "youtube",
+    "title": "Day in the Life: Anesthesiology Residency at University of Florida Jacksonville",
+    "body": "I completed my MBBS degree am I able to secure an anesthesiology residency at the university I am FMG from Somalia and went my medical school in china",
+    "upvotes": 7,
+    "date": "2022-10-15T16:54:02Z",
+    "author": "@mindbridgeAfrica"
+  },
+  {
+    "id": "Ugw8Azy0pjzlAduidtl4AaABAg",
+    "source": "youtube",
+    "title": "A Day In The Life Of A Division 1 Soccer Player | Marshall",
+    "body": "Your editing is so good Spencer. Loving these portions of the video that show teams actual game footage. Keep up the hard work man it will be worth it.",
+    "upvotes": 32,
+    "date": "2022-06-10T23:12:20Z",
+    "author": "@harryclough1501"
+  },
+  {
+    "id": "UgwHXVeVrUXx0SyMrt94AaABAg",
+    "source": "youtube",
+    "title": "A Day In The Life Of A Division 1 Soccer Player | Marshall",
+    "body": "Wow Spencer I’m originally from WV and played in the highschool system here about 30 minutes from marshall it’s so cool to see you put this out!! Thank you!! Amazing work!",
+    "upvotes": 2,
+    "date": "2022-08-12T03:22:14Z",
+    "author": "@ericborman5550"
+  },
+  {
+    "id": "UgypvfXQ-stNGZ3Jrjp4AaABAg",
+    "source": "youtube",
+    "title": "A Day In The Life Of A Division 1 Soccer Player | Marshall",
+    "body": "Spence ..I need help ,!&#39;m trying to  create my highlights videos was hoping if can send them to you and give me some advice on how to improve them..I am from Zimbabwe trying to apply for athletics scholarship at college in US",
+    "upvotes": 3,
+    "date": "2022-06-10T21:59:58Z",
+    "author": "@alisterchamboko8333"
+  },
+  {
+    "id": "UgxPU3vQL5l6wO5m7Mp4AaABAg",
+    "source": "youtube",
+    "title": "A day in the life in university (first day at LSE) 🇬🇧 #shorts #dayinthelife #lse #minivlog",
+    "body": "Omg dii this vlog is soo good❤ I wish you get more n more success in your life ...I would love to watch a skincare routine of yours 😊can I get a should btw?",
+    "upvotes": 1,
+    "date": "2023-09-20T12:08:24Z",
+    "author": "@padmapr519"
+  },
+  {
+    "id": "UgwP2ok0ZtBD0YIOSNN4AaABAg",
+    "source": "youtube",
+    "title": "Day in the life of a D1 soccer player traveling to play #2 two ranked Marshall￼",
+    "body": "Standard is awful, so easy to be a D1 US soccer player it seems, majority of England would be D1🤣",
+    "upvotes": 0,
+    "date": "2026-01-11T02:32:02Z",
+    "author": "@FadeToGreenGolf"
+  },
+  {
+    "id": "UgxhQL3QxLEFLuFBFdJ4AaABAg",
+    "source": "youtube",
+    "title": "Marshall University - Official College Video Tour",
+    "body": "If you are working for the school and/or think this school needs updating, please reach out to us at info@<a href=\"http://ytvco.com/\">ytvco.com</a>",
+    "upvotes": 2,
+    "date": "2019-04-04T14:05:34Z",
+    "author": "@YTVCOYOuniversityTVSpokai"
+  },
+  {
+    "id": "UgxPVE4rfv_Om5PiOqx4AaABAg",
+    "source": "youtube",
+    "title": "Marshall University - Official College Video Tour",
+    "body": "I attended Marshall for 2 1/2 years in the 1970s. The last time I was there was during the summer of 2008. There was a bar called the Coffee House in the basement of the student union that featured live bands on the weekends.",
+    "upvotes": 3,
+    "date": "2019-10-10T01:24:28Z",
+    "author": "@willbergie55"
+  },
+  {
+    "id": "UgxE3421Zq8APdF5MVF4AaABAg",
+    "source": "youtube",
+    "title": "Marshall Like You&#39;ve Never Seen It Before | Drone Fly Through of Campus",
+    "body": "I never saw this Extended Version... only the part the NCAA rasies Hell about at the Football game... But Great Shots I Love It... eat your heart out NCAA 25...",
+    "upvotes": 1,
+    "date": "2024-12-11T23:23:23Z",
+    "author": "@TheLegendofBrettMorrison"
+  },
+  {
+    "id": "UgxZlQFvxMyoZGSdJw54AaABAg",
+    "source": "youtube",
+    "title": "Marshall Like You&#39;ve Never Seen It Before | Drone Fly Through of Campus",
+    "body": "WE ARE........MARSHALL.  The University looks amazing!  Anne &amp; I reside in N. Carolina and are both graduates of Marshall.  I remain a season ticket holder to HERD football...and donate my two seats to Huntington&#39;s Boys-Girls Club when we don&#39;t drive to WV for a game.<br>We are excited about the 2024 schedule and hopefully, we will see you &quot;along the Thundering HERD Highway!&quot;<br><br>Anne &amp; Gary in Charlotte 😎",
+    "upvotes": 2,
+    "date": "2024-04-20T13:36:02Z",
+    "author": "@garysweeney753"
+  },
+  {
+    "id": "UgyNrMMnbKz5sN6AqiN4AaABAg",
+    "source": "youtube",
+    "title": "Marshall Like You&#39;ve Never Seen It Before | Drone Fly Through of Campus",
+    "body": "That&#39;s not as huge as many universities I&#39;ve seen.  Some of those places are so big, you spend as much (or more) time going from class to class as you spend IN the class.   By the way, my grandfather was the architect who designed the Morrow Library maybe 100 years ago.",
+    "upvotes": 1,
+    "date": "2023-10-19T16:14:49Z",
+    "author": "@ColonelMarcellus"
+  }
+]

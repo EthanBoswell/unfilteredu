@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Safety concerns about off-campus living raised repeatedly by students",
+      "Students ask about safe apartment options near downtown campus",
+      "On-campus vs. off-campus trade-offs unclear from official materials"
+    ],
+    "key_quotes": [
+      "The only question I have is living off campus safer? I love GSU but my only concern is safety.. and nobody talks about this in their videos.",
+      "Could you make recommendations about off-campus apartments? Where to live if safety is on the top of my list?"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Weak school spirit — GSU is not a traditional college-experience school",
+      "Urban Atlanta vibe replaces campus social scene; not ideal for everyone",
+      "Incoming students nervous about cold, non-friendly downtown social culture"
+    ],
+    "key_quotes": [
+      "The lack of school spirit sounds interesting me. I am a school spirit person, so we'll see how I do.",
+      "I'm naturally a nice person and I like making new friends, so hearing that makes me kinda nervous for going downtown.",
+      "In Atlanta it's like California where it's weird to be friendly."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Almost no student data available on dining — a notable silence",
+      "Urban campus means students likely eat off-campus frequently",
+      "No specific dining hall complaints or praise surfaced in data"
+    ],
+    "key_quotes": [
+      "GSU is a great school professor and student wise, and location too. There's lots of events going on all the time too.",
+      "I studied at GSU in the IEP program. I really enjoyed the university. I loved the buildings and also i loved atlanta."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct student mentions of counseling or mental health resources",
+      "Commuter-heavy culture may isolate students who need support networks",
+      "Safety anxiety is a recurring background stressor for students"
+    ],
+    "key_quotes": [
+      "The only question I have is living off campus safer? I love GSU but my only concern is safety.. and nobody talks about this in their videos.",
+      "I'm trans and plan on transitioning when I go to college, in your honest opinion do you think that I will have a safe experience there?"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Atlanta Scholarship (~$16,700/yr) makes GSU unusually affordable for internationals",
+      "Most international students get the scholarship automatically if applying EA",
+      "Even with scholarship, students face ~$8,500/yr deficit — plan accordingly"
+    ],
+    "key_quotes": [
+      "Georgia State University with its Campus Atlanta Scholarship (which basically every intl gets if they apply EA??)",
+      "GSU is offering me a lot of opportunities like a scholarship and admission into its Honors College.",
+      "Tuition: $25,272/year. 100% Atlanta Scholarship: $16,706/year. Deficit: ~$8,500/year."
+    ],
+    "score": 8
+  },
+  "academics": {
+    "key_points": [
+      "CS program flagged as viable but not prestigious — internships matter more",
+      "Honors College available and praised as an academic differentiator",
+      "Atlanta location seen as academic asset for CS internship access"
+    ],
+    "key_quotes": [
+      "Georgia State is more urban. It'd probably be easier to travel to and have more close internship opportunities.",
+      "GSU is a great school professor and student wise, and location too.",
+      "I got in as a cis major too and what do you plan on going into after you get your degree and are there a lot of job options for this major?"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Credit transfer issues are a real problem — only 26 of 61 hours transferred for one student",
+      "Summer Success Program admission pathway confuses accepted students",
+      "Administrative communication gaps leave students with unanswered questions"
+    ],
+    "key_quotes": [
+      "I got accepted but through the summer success program, do you have insight on what that is or what it means?",
+      "Only 26 of 61 credit hours from my A.S. transfer to the college my heart was set on.",
+      "If there is anything you would like me to film at GSU or anything you would like me to talk about in a video, let me know!"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Downtown Atlanta location is a genuine asset — internships, culture, diversity",
+      "Atlanta traffic is brutal; getting across the city takes up to an hour",
+      "Safety in downtown is a real, repeated concern students don't ignore"
+    ],
+    "key_quotes": [
+      "Don't go out at night. Anyways! My brother goes to college there! There's an ikea, an aquarium, a lot of great stuff! Wouldn't recommend living there though.. not very safe lol.",
+      "It does take about an hour to get from one part to another only with traffic.",
+      "Paying to park is real!!!"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Atlanta's tech and business ecosystem gives GSU students real internship edges",
+      "CS students specifically cite proximity to corporate Atlanta as a differentiator",
+      "No strong alumni network data surfaced — outcomes depend on self-initiative"
+    ],
+    "key_quotes": [
+      "Georgia State is more urban. It'd probably be easier to travel to and have more close internship opportunities. It's more culturally diverse.",
+      "Are there a lot of job options for this major?",
+      "Atlanta is the preferable location for most though."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Best value play for international CS students in the Southeast with EA scholarship",
+      "Honors College + Atlanta Scholarship combo is genuinely hard to beat cost-wise",
+      "Urban campus means no traditional college amenities — you pay for access, not experience"
+    ],
+    "key_quotes": [
+      "Georgia State University with its Campus Atlanta Scholarship (which basically every intl gets if they apply EA??)",
+      "GSU is offering me a lot of opportunities like a scholarship and admission into its Honors College.",
+      "I academically think Washington State [is better], but Atlanta is the preferable location."
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter school energy — don't expect a traditional residential campus feel",
+      "Diverse, urban, serious student body; less party culture, more hustle culture",
+      "Students who thrive here are self-motivated and city-comfortable"
+    ],
+    "key_quotes": [
+      "The lack of school spirit sounds interesting me. I am a school spirit person, so we'll see how I do.",
+      "I'm from atlanta and i want to go here but also want to go to a college out of georgia but also i hate being away from home.",
+      "GSU is a great school professor and student wise, and location too. There's lots of events going on all the time too."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: Multiple students cite downtown crime as their top unresolved concern",
+      "**Social isolation**: Commuter culture and cold urban vibe leaves newcomers friendless fast",
+      "**Transfer credits**: Students routinely lose significant credit hours transferring to GSU"
+    ],
+    "key_quotes": [
+      "The only question I have is living off campus safer? I love GSU but my only concern is safety.. and nobody talks about this in their videos.",
+      "Don't go out at night... Wouldn't recommend living there though.. not very safe lol.",
+      "Only 26 of 61 credit hours from my A.S. transfer to the college my heart was set on."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Atlanta Scholarship auto-awarded to EA international applicants — almost no one knows",
+      "Honors College admission bundled with scholarships is an underrated academic track",
+      "Downtown campus puts students inside Atlanta's actual job market from day one"
+    ],
+    "key_quotes": [
+      "Georgia State University with its Campus Atlanta Scholarship (which basically every intl gets if they apply EA??)",
+      "GSU is offering me a lot of opportunities like a scholarship and admission into its Honors College.",
+      "It'd probably be easier to travel to and have more close internship opportunities. It's more culturally diverse."
+    ],
+    "score": 8
+  }
+}
