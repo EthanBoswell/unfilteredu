@@ -1584,6 +1584,42 @@ export const SCHOOLS: SchoolMeta[] = [
       { icon: "🌾", label: "Largest City in Kansas" },
     ],
   },
+  {
+    slug: "brown",
+    name: "Brown University",
+    location: "Providence, RI",
+    colors: { primary: "#4E3629", secondary: "#C00404" },
+    radioStation: "WBRU 95.5 FM",
+    stats: [
+      { icon: "📋", label: "46K+ Applicants" },
+      { icon: "📖", label: "Open Curriculum" },
+      { icon: "🐻", label: "Strong Arts Culture" },
+    ],
+  },
+  {
+    slug: "dartmouth",
+    name: "Dartmouth College",
+    location: "Hanover, NH",
+    colors: { primary: "#00693E", secondary: "#12312B" },
+    radioStation: "WDCR 1340 AM",
+    stats: [
+      { icon: "📋", label: "28K+ Applicants" },
+      { icon: "🌲", label: "Remote Outdoor Campus" },
+      { icon: "🏛️", label: "Small Liberal Arts Focus" },
+    ],
+  },
+  {
+    slug: "stthomas",
+    name: "University of St. Thomas",
+    location: "St. Paul, MN",
+    colors: { primary: "#4F2D7F", secondary: "#9D9795" },
+    radioStation: "KTOM — online",
+    stats: [
+      { icon: "📋", label: "8K+ Applicants" },
+      { icon: "✝️", label: "Catholic Liberal Arts" },
+      { icon: "🏙️", label: "Twin Cities Access" },
+    ],
+  },
 ];
 
 export function getSchoolBySlug(slug: string): SchoolMeta | undefined {

@@ -119,6 +119,8 @@ SCHOOLS = [
     {"name": "Georgetown University", "slug": "georgetown", "subreddits": ["r/georgetown"], "keywords": ["Georgetown University", "Hoyas", "Washington DC"]},
     {"name": "Emory University", "slug": "emory", "subreddits": ["r/EmoryUniversity"], "keywords": ["Emory University", "Eagles", "Atlanta Georgia"]},
     {"name": "Tulane University", "slug": "tulane", "subreddits": ["r/tulane"], "keywords": ["Tulane University", "Green Wave", "New Orleans Louisiana"]},
+    {"name": "Brown University", "slug": "brown", "subreddits": ["r/brownu"], "keywords": ["Brown University", "Bears", "Providence Rhode Island", "Ivy League"]},
+    {"name": "Dartmouth College", "slug": "dartmouth", "subreddits": ["r/Dartmouth"], "keywords": ["Dartmouth College", "Big Green", "Hanover New Hampshire", "Ivy League"]},
     # SWAC
     {"name": "Prairie View A&M", "slug": "pvamu", "subreddits": ["r/PVAMU", "r/PrairieView"], "keywords": ["Prairie View A&M", "PVAMU", "Panther City", "Prairie View Texas", "HBCU Texas"]},
     {"name": "Grambling State", "slug": "grambling", "subreddits": ["r/GramblingState"], "keywords": ["Grambling State", "Grambling", "Tigers", "Louisiana HBCU"]},
@@ -160,6 +162,8 @@ SCHOOLS = [
     {"name": "UAB", "slug": "uab", "subreddits": ["r/UAB"], "keywords": ["UAB", "University of Alabama Birmingham", "Blazers", "Birmingham Alabama"]},
     {"name": "UTSA", "slug": "utsa", "subreddits": ["r/UTSA"], "keywords": ["UTSA", "University of Texas San Antonio", "Roadrunners", "San Antonio Texas"]},
     {"name": "Wichita State", "slug": "wichitastate", "subreddits": ["r/wichitastate"], "keywords": ["Wichita State University", "Shockers", "Wichita Kansas"]},
+    # Summit League
+    {"name": "University of St. Thomas", "slug": "stthomas", "subreddits": ["r/uofstthomas", "r/StThomasMN"], "keywords": ["University of St. Thomas", "St. Thomas Tommies", "Minneapolis Minnesota", "UST Minnesota"]},
 ]
 
 CATEGORIES = [

@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student feedback on UST housing found in data",
+      "Data sources mostly about other institutions entirely",
+      "Cannot make reliable claims without actual UST housing reviews"
+    ],
+    "key_quotes": [
+      "No usable UST-specific housing quotes available in this dataset",
+      "YouTube comments were primarily about University of Santo Tomas Philippines, not UST Minnesota"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "International students report welcoming atmosphere for newcomers",
+      "Catholic identity shapes campus culture and community norms",
+      "Twin Cities location provides social options beyond campus"
+    ],
+    "key_quotes": [
+      "We love international students here!!! There are definitely a lot of amazing opportunities in the location, not just for networking, but as well as fun",
+      "The opportunities I will get from UST just because of the location itself is better"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Zero student feedback on dining found in available data",
+      "No complaints or praise about campus food surfaced",
+      "Insufficient data to score this category reliably"
+    ],
+    "key_quotes": [
+      "No UST Minnesota dining comments found in this dataset",
+      "Data sources did not contain relevant dining information"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student described UST as 'overly expensive and generally unappealing'",
+      "Anxiety around cost and fit surfaced in decision posts",
+      "No mentions of counseling services or mental health support"
+    ],
+    "key_quotes": [
+      "You find it overly expensive and generally unappealing, so probably not the best decision",
+      "I just really need to hear some opinions from people who aren't close to me"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Full aid packages available for strong international applicants",
+      "Cost flagged as a serious concern by multiple students",
+      "At $39k/year after aid, still expensive compared to competitors"
+    ],
+    "key_quotes": [
+      "University of St. Thomas Minnesota - Full aid",
+      "University of St. Thomas (Minnesota) - honors program as well - $39k/yr",
+      "I would not go to UST. You find it overly expensive"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering program seen as weaker than University of Rochester",
+      "Honors program mentioned as a notable differentiator",
+      "Computer science, engineering options exist but reputation unclear"
+    ],
+    "key_quotes": [
+      "Rochester will open you up to plenty of opportunities in the east",
+      "You should 100% pick Rochester the school is amazing especially for mech e",
+      "I graduated from UWC East Africa as well and I have visited friends in St Thomas"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "No direct complaints or praise about UST administration found",
+      "International student processes appear functional based on aid offers",
+      "Insufficient data to assess bureaucracy or responsiveness"
+    ],
+    "key_quotes": [
+      "Congratulations I also got into University of St. Thomas with partial aid, still deciding",
+      "No administration-specific feedback available in this dataset"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Twin Cities location consistently cited as a genuine advantage",
+      "Minneapolis praised for internship and networking access",
+      "Urban setting seen as stronger than competitor schools in smaller cities"
+    ],
+    "key_quotes": [
+      "The opportunities I will get from UST just because of the location itself is better than OU",
+      "There are definitely a lot of amazing opportunities in the location, not just for networking, but as well as fun",
+      "I have lived in both Minneapolis and Rochester"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Location in Minneapolis seen as key driver of internship access",
+      "Engineering outcomes considered weaker than peer schools like Rochester",
+      "Business and entrepreneurship opportunities boosted by Twin Cities ecosystem"
+    ],
+    "key_quotes": [
+      "The opportunities I will get from UST just because of the location itself is better",
+      "Rochester the school is amazing especially for mech e and I honestly like Rochester better",
+      "Make sure you apply to target schools that companies and recruiters actually recruit from"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "High sticker price causes real hesitation among prospective students",
+      "Community college explicitly recommended over UST for undecided students",
+      "Full aid packages make it viable only when cost is zeroed out"
+    ],
+    "key_quotes": [
+      "I would not go to UST. You find it overly expensive and generally unappealing",
+      "I would go to the community college. You'll save money",
+      "University of St. Thomas (Minnesota) - honors program as well - $39k/yr"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Welcoming to international students but expensive for domestic ones",
+      "Catholic identity present but not dominant in student discussions",
+      "Seen as a safety or backup school, not a dream destination"
+    ],
+    "key_quotes": [
+      "We love international students here!!!",
+      "You find it overly expensive and generally unappealing",
+      "Ayo congratulations I also got into University of St. Thomas with partial aid, still deciding"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Cost: multiple students independently flagged UST as overpriced for what it offers",
+      "Academics: engineering reputation consistently ranked below peer institutions like Rochester",
+      "Fit: students describe choosing UST reluctantly, not enthusiastically"
+    ],
+    "key_quotes": [
+      "I would not go to UST. You find it overly expensive and generally unappealing",
+      "You should 100% pick Rochester the school is amazing especially for mech e",
+      "Make sure you apply to target schools that companies and recruiters actually recruit from"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Full-ride packages for strong international students are genuinely competitive",
+      "Minneapolis location provides big-city internship access rare for small private schools",
+      "Honors program offers structured academic edge within the university"
+    ],
+    "key_quotes": [
+      "University of St. Thomas Minnesota - Full aid",
+      "The opportunities I will get from UST just because of the location itself is better than OU",
+      "We love international students here!!! There are definitely a lot of amazing opportunities"
+    ],
+    "score": 6
+  }
+}
