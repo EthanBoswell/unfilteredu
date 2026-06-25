@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "Art Sharm Living across from Founders Hall offers per-room leases",
+      "Limited on-campus housing data; off-campus options exist nearby",
+      "Small campus size means most students know each other quickly"
+    ],
+    "key_quotes": [
+      "Art Sharm Living has leases per room rather than looking for roommates. Pretty awesome building right across from the Founders Hall",
+      "I used to go there don't go it kind of sucked every one super into drama because it's such a small school"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Small school size creates tight-knit but drama-heavy social environment",
+      "Everyone knows everyone — can feel claustrophobic for some students",
+      "Social scene limited; one former student explicitly warned against attending"
+    ],
+    "key_quotes": [
+      "I used to go there don't go it kind of sucked every one super into drama because it's such a small school I went there for a year and a half and knew everyone",
+      "Also if you want to..."
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining feedback found in available student data",
+      "Small campus footprint suggests limited on-campus dining variety",
+      "Philadelphia location means off-campus food options are accessible"
+    ],
+    "key_quotes": [
+      "No direct student quotes about dining were available in this data set"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support feedback from students found",
+      "Small school drama and social pressure may affect student wellbeing",
+      "Nursing program described as rigorous — high stress load reported"
+    ],
+    "key_quotes": [
+      "The nursing program at La Salle is rigorous... a great deal of work (clinicals)",
+      "I used to go there don't go it kind of sucked every one super into drama"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Accreditation warning raises real concerns about long-term financial stability",
+      "School described historically as 'very shaky money wise' by insider",
+      "Federal aid currently unaffected, but situation warrants close monitoring"
+    ],
+    "key_quotes": [
+      "It serves as a very stark reminder that La Salle is (and to a large extent, always has been) very shaky money wise",
+      "Accreditation is still active during warning, so federal aid and credit transfer continue"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Political Science and Sociology faculty receive strong, specific praise",
+      "Classes get cancelled due to low enrollment — disrupts degree planning",
+      "Nursing program is rigorous with strong employment outcomes post-graduation"
+    ],
+    "key_quotes": [
+      "The Political Science department is top notch. I would highly recommend meeting with Dr. Glatzer (unquestionably a genius)",
+      "Every nursing major I know is currently working in the field",
+      "This has happened twice to me in the past, and I'm afraid that this could happen to some of my major classes"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "No written policy on class cancellation thresholds — students left guessing",
+      "Accreditation warning triggered without clear institutional communication",
+      "Advisor and success coaches recommended as key navigation resources"
+    ],
+    "key_quotes": [
+      "There is no written threshold about class enrollment. I highly recommend talking to your advisor or a success coach",
+      "Raising alarm bells for anyone else that there is no published calendar beyond the spring semester"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Philadelphia — urban setting with real city access",
+      "Small campus means limited space and facilities compared to larger schools",
+      "Described as a PWI and Catholic university in student tour content"
+    ],
+    "key_quotes": [
+      "Quick tour of La Salle University in Philly which is a PWI and catholic university",
+      "I'm considering going to La Salle atm... are people friendly or competitive? Is the student body diverse?"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Nursing grads report strong employment rates in the field",
+      "Political Science students land internships with notable organizations",
+      "Professors maintain professional relationships with grads post-graduation"
+    ],
+    "key_quotes": [
+      "Every nursing major I know is currently working in the field",
+      "A lot of those who major in political science have internships with various organizations and they probably have the most success in that sense outside of the business school",
+      "I am still in touch with my professors who would be able to help me out a lot professionally if I needed it"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Accreditation warning and financial instability undermine tuition investment",
+      "Strong faculty connections may justify cost for certain programs",
+      "Small school with limited program variety may not justify price tag"
+    ],
+    "key_quotes": [
+      "La Salle is (and to a large extent, always has been) very shaky money wise",
+      "The people at LaSalle are fantastic and really care about you"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Small, tight-knit Catholic school with genuine faculty investment in students",
+      "Drama-heavy social scene due to everyone knowing everyone",
+      "Financially precarious institution — passion projects vs. institutional stability"
+    ],
+    "key_quotes": [
+      "The people at LaSalle are fantastic and really care about you",
+      "I used to go there don't go it kind of sucked every one super into drama because it's such a small school",
+      "It serves as a very stark reminder that La Salle is (and to a large extent, always has been) very shaky money wise"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Accreditation: MSCHE issued a formal warning — financial viability in question",
+      "Enrollment: classes cancelled mid-planning with no transparent threshold policy",
+      "Stability: insider with 25-year tenure confirms school has 'always been shaky money wise'"
+    ],
+    "key_quotes": [
+      "La Salle is (and to a large extent, always has been) very shaky money wise",
+      "If they lose it - does it mean the university closes and any degree from there will not be official?",
+      "There is no written threshold about class enrollment"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Dr. Glatzer in Political Science — multiple students call him exceptional",
+      "Nursing program quietly produces job-ready graduates at high rates",
+      "Professors stay connected post-graduation and actively help with careers"
+    ],
+    "key_quotes": [
+      "I would highly recommend meeting with Dr. Glatzer (unquestionably a genius)",
+      "I am still in touch with my professors who would be able to help me out a lot professionally if I needed it",
+      "Every nursing major I know is currently working in the field"
+    ],
+    "score": 7
+  }
+}

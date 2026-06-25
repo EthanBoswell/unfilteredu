@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms reportedly closing down, confirmed by current student",
+      "Housing situation described as actively deteriorating",
+      "No specific praise for dorms found in any source"
+    ],
+    "key_quotes": [
+      "They are laying off faculty and the dorms are all closing down",
+      "I really feel miserable here and if I could make a different decision I would"
+    ],
+    "score": 3
+  },
+  "social_life": {
+    "key_points": [
+      "Described as a solid mid-tier school, not a party school",
+      "Muslim community present; hijabi students visible on campus",
+      "LGBTQ+ students cautious due to Catholic identity of school"
+    ],
+    "key_quotes": [
+      "I'm queer and nonbinary and my parents don't love the idea of me going to SLU",
+      "We do have a large Muslim community. I see and even admire a few hijabi girls",
+      "Are there any good liberal arts schools in the Midwest that are basically SLU minus the religion?"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall feedback found in any source",
+      "Cannot be rated positively or negatively from available data",
+      "Students focused on academics and location, not dining"
+    ],
+    "key_quotes": [
+      "No direct quotes about dining available from student sources"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One current student explicitly described feeling miserable",
+      "No mention of mental health resources in any student posts",
+      "Institutional instability like faculty layoffs likely compounds stress"
+    ],
+    "key_quotes": [
+      "I really feel miserable here and if I could make a different decision I would",
+      "Choosing SLU was a really bad decision for me"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships available and confirmed by multiple students",
+      "Presidential scholarship mentioned but competitiveness unclear",
+      "Cost around $25K-$36K/year after aid for many students"
+    ],
+    "key_quotes": [
+      "I got accepted to saint louis this year and got a 25,000 annual scholarship and was encouraged to apply to the Presidential scholarship",
+      "I got a 33 on my ACT and I had a 4.1 GPA in high school and got in with a good scholarship"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Strong specific programs: OT, radiation therapy, social work (#51 nationally)",
+      "STEM described as 'really hard' by current student",
+      "Med Scholars program alleged to kick students out when overenrolled"
+    ],
+    "key_quotes": [
+      "For radiation therapy I think it's a very high academic university. I have heard from my stem major friends that it's really hard",
+      "DO NOT APPLY TO SLU. They are known to kick students out since they physically cannot accommodate their Med Scholars all matriculating to Med School",
+      "SLU, Adelphia, Hofstra don't even have Chemical Engineering"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Faculty layoffs confirmed by current student — institutional instability signal",
+      "Med Scholars program accused of accepting more students than it can support",
+      "Theology requirement creates bureaucratic hurdles even for returning students"
+    ],
+    "key_quotes": [
+      "They are laying off faculty and the dorms are all closing down",
+      "DO NOT APPLY TO SLU. They are known to kick students out since they physically cannot accommodate their Med Scholars",
+      "I discovered I need to have a Fall Theology course before I'm allowed to take any of the MRI courses"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "St. Louis has crime concerns but affordable cost of living",
+      "Free cultural amenities: zoo, symphony, botanical gardens",
+      "City requires a car; difficult to explore without one"
+    ],
+    "key_quotes": [
+      "I recommend anyone who wants to move to Saint Louis to actually move to any of the suburbs west of the city limits",
+      "It's important to get off campus — city is somewhat inaccessible especially if you are a woman traveling alone without a car",
+      "The zoo is free, the muni opera and the symphony all have free seats in the back of the house"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Radiation therapy grads earn $85K-$100K+ starting salary",
+      "Social work alumni have gotten into WashU law school",
+      "Regional medical center gives health students hands-on clinical access"
+    ],
+    "key_quotes": [
+      "Radiation Therapy B.S., 4-year program, no grad school needed, and I'd be looking at ~$85K–$100K+ starting salary right out of undergrad",
+      "My friend was a social work major and went to WashU for law school and is doing well",
+      "They have a large regional medical center where many of the social work students cut their chops"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Cost around $25K-$36K/year; cheaper than comparable private schools",
+      "Friends reportedly turned down Penn, Emory, Georgetown, NYU for SLU",
+      "Faculty layoffs and dorm closures raise questions about long-term investment"
+    ],
+    "key_quotes": [
+      "I had friends turn down Penn, Emory, Georgetown, and NYU to come here",
+      "Saint Louis University would cost me about $29,000 a year",
+      "They are laying off faculty and the dorms are all closing down"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Catholic identity is central — polarizing for non-religious students",
+      "Niche health programs (OT, radiation therapy) inspire genuine enthusiasm",
+      "Institutional instability undermines otherwise solid mid-tier reputation"
+    ],
+    "key_quotes": [
+      "Saint Louis University will have my heart forever",
+      "Choosing SLU was a really bad decision for me. They are laying off faculty and the dorms are all closing down",
+      "It seems there's no dedicated subreddit for that school"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Faculty layoffs and dorm closures confirmed by current student",
+      "**Med Scholars Program:** Accused of admitting more pre-med students than it can send to medical school",
+      "**Student Wellbeing:** At least one student publicly called SLU a 'really bad decision' with deep regret"
+    ],
+    "key_quotes": [
+      "They are laying off faculty and the dorms are all closing down. I really feel miserable here",
+      "DO NOT APPLY TO SLU. They are known to kick students out since they physically cannot accommodate their Med Scholars. My brother was an unfortunate victim of this",
+      "Choosing SLU was a really bad decision for me and if I could make a different decision I would"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "OT and radiation therapy programs are legitimately elite and career-direct",
+      "Study abroad program at SLU Madrid is highly praised by participants",
+      "Strong Muslim student community — rare for a Catholic university"
+    ],
+    "key_quotes": [
+      "Bro I literally just had my SLU interview today. Their OT program is amazing",
+      "Your Madrid videos have been so so helpful!!!! I'm trying to pick a place for next year",
+      "We do have a large Muslim community. I see and even admire a few hijabi girls"
+    ],
+    "score": 7
+  }
+}

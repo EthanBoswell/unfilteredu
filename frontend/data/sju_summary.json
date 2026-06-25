@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "No meaningful student data found for SJU Philadelphia housing",
+      "Data set contains no dorm reviews or housing complaints",
+      "Cannot assess housing quality from available sources"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data does not contain SJU-specific housing information",
+      "Sources reference unrelated institutions entirely"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Reddit community for SJU was barely active, needed reviving",
+      "No substantive social life commentary found in dataset",
+      "School nickname 'Hawks' appears but no campus culture details"
+    ],
+    "key_quotes": [
+      "We're reaching out to revitalize and consolidate prospective students into a single sub",
+      "Currently, there are multiple subs with minimal activity",
+      "No relevant social life quotes from actual SJU students found"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Zero dining hall reviews found for SJU Philadelphia",
+      "No food quality complaints or praise in dataset",
+      "Dataset contains no usable SJU dining information"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Sources do not address SJU Philadelphia dining",
+      "Data is insufficient to score this category"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health support reviews found in dataset",
+      "Dataset contains no SJU-specific wellness resource feedback",
+      "Cannot assess counseling availability from available sources"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data does not contain SJU-specific mental health information",
+      "Sources reference unrelated institutions entirely"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "No SJU financial aid reviews found in dataset",
+      "ED admissions data exists but no aid package complaints",
+      "Dataset lacks any SJU scholarship or aid commentary"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data does not contain SJU-specific financial aid information",
+      "Sources reference unrelated institutions entirely"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "No SJU Philadelphia academic quality reviews in dataset",
+      "A Chennai St. Joseph's engineering college flagged false placement stats",
+      "Dataset contains no usable SJU Philadelphia academic feedback"
+    ],
+    "key_quotes": [
+      "only 5 members placed but they said 1254 students placed",
+      "No placement and all lie",
+      "No relevant SJU Philadelphia academic quotes found"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "SJU subreddit had to be rebuilt due to community neglect",
+      "No administrative complaint threads found for SJU Philadelphia",
+      "Dataset contains no usable SJU Philadelphia admin feedback"
+    ],
+    "key_quotes": [
+      "We're reaching out to revitalize and consolidate prospective students",
+      "Currently, there are multiple subs with minimal activity",
+      "No relevant SJU Philadelphia administration quotes found"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "No campus environment reviews found for SJU Philadelphia",
+      "Dataset references Indian and Bangalore institutions, not SJU PA",
+      "Cannot assess campus feel from available sources"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data does not contain SJU Philadelphia campus information",
+      "Sources reference unrelated institutions entirely"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No SJU Philadelphia career outcomes data in dataset",
+      "A different St. Joseph's institution accused of fabricating placement numbers",
+      "Dataset too thin to draw any reliable career conclusions"
+    ],
+    "key_quotes": [
+      "only 5 members placed but they said 1254 students placed",
+      "no place ment and all lie",
+      "No relevant SJU Philadelphia career outcome quotes found"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "No tuition or ROI commentary found for SJU Philadelphia",
+      "Dataset contains salary rankings but SJU is not featured",
+      "Cannot assess value from available sources"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data does not contain SJU-specific value information",
+      "Sources reference unrelated institutions entirely"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Dataset contains almost no usable SJU Philadelphia student opinions",
+      "Low Reddit activity suggests limited online student community presence",
+      "Jesuit identity noted but no campus culture details provided"
+    ],
+    "key_quotes": [
+      "We're starting up a new community for Saint Joseph's University",
+      "There is a big difference between Jesuit education and non-Jesuit universities",
+      "No relevant overall vibe quotes from SJU Philadelphia students found"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Data Quality: dataset contains almost no verified SJU Philadelphia student opinions",
+      "Placement Stats: a St. Joseph's institution elsewhere accused of massively inflating placement numbers",
+      "Online Presence: SJU subreddit was dormant enough to require a formal revival effort"
+    ],
+    "key_quotes": [
+      "only 5 members placed but they said 1254 students placed",
+      "Currently, there are multiple subs with minimal activity",
+      "No relevant SJU Philadelphia red flag quotes found"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Jesuit mission noted as a differentiator worth researching independently",
+      "Hawks community exists on Reddit and may be growing",
+      "No hidden gems data available from provided sources"
+    ],
+    "key_quotes": [
+      "There is a big difference between Jesuit education and non-Jesuit universities",
+      "We hope to cultivate a vibrant community and resource for our subscribers",
+      "No relevant SJU Philadelphia hidden gem quotes found"
+    ],
+    "score": 4
+  }
+}

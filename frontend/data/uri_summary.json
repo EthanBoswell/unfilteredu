@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Hillside dorms are popular and have good memories for grads",
+      "Triple rooms existed but were recently converted to doubles",
+      "Room layouts are fairly standard; students ask about customization options"
+    ],
+    "key_quotes": [
+      "They changed the whole triple dorm thing to a double instead this year so thank god for that",
+      "I lived in hillside my freshman year as well, this brought back good memories!",
+      "Are all of the rooms in hillside like this? Like can I have this layout in all of the rooms?"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "URI has a party school reputation; students actively ask if it's a 'fun party school'",
+      "Greek life appears central to social connections — hard to make friends without it",
+      "Campus culture described as very liberal/progressive with active identity-centered programming"
+    ],
+    "key_quotes": [
+      "I read some reviews that it's hard to make friends at URI if you aren't a part of greek life. Is this true?",
+      "It's an extremely woke, liberal university. They legit have a place called the Gender & Sexuality Center for Sex Toy Bingo",
+      "Is it a fun party school? I am thinking about going to Alabama as well"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No direct dining feedback found in available data",
+      "Campus life broadly remembered fondly by alumni but dining not specifically praised",
+      "Insufficient data to score accurately — worth researching independently"
+    ],
+    "key_quotes": [
+      "By far the best four years of my life! College is so much more than classes and partying.",
+      "Enjoy it while you can"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Engineering students openly discuss constant workload and burnout risk",
+      "Students warn incoming freshmen not to flunk out even if they hate their major",
+      "Stress management is a real concern with part-time jobs on top of coursework"
+    ],
+    "key_quotes": [
+      "I'm also an engineering student and I'm always working plus I also have a part time job and life is soo tiresome… how do you cope with the stress/burnout?",
+      "Don't flunk out of classes even if you hate your major. It really negatively affects your GPA.",
+      "When you said you basically are always working, I felt that!!"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "URI publishes merit scholarship amounts based on stats — transparency is a plus",
+      "URI cost cited at ~$33k/year, cheaper than comparable alternatives like Wentworth ($40k)",
+      "Gilman scholarship emails sent to students but require full applications — not guaranteed"
+    ],
+    "key_quotes": [
+      "URI is cheaper for me ($33k for URI and $40k for Wentworth)",
+      "You need to apply for it. It's probably a mass email they send out to everyone.",
+      "University of Rhode Island [publishes merit scholarship amounts based on your stats]"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Engineering programs are intense and demanding — students confirm constant workload",
+      "One alumnus transferred OUT of URI's electrical engineering program in the 80s calling it a 'nightmare'",
+      "Pharmacy, environmental science, and oceanography are frequently cited as strong programs"
+    ],
+    "key_quotes": [
+      "Went there in the mid 80s~ what a nightmare at electrical engineering. I transferred to The University Of Hawaii @ Manoa because thats as far as I could get from URI & still speak English.",
+      "I recently started my journey as an engineering student and when you said you basically are always working, I felt that!!",
+      "The most competitive school i got into was University of Rhode Island, i was just applying to apply lol"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Gilman scholarship mass emails mislead students into thinking they're selected — they're not",
+      "Website information on graduate programs is unclear and hard to navigate",
+      "Limited direct complaints about administration but transparency issues flagged"
+    ],
+    "key_quotes": [
+      "Potential candidate or you got selected? Those are wildly different.",
+      "You still need to apply. Not to burst your bubble, but it's probably a mass email they send out to everyone.",
+      "Their website boasts a great MS program, but it never explicitly states that it is an accelerated program"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Close to both Boston (2 hrs) and NYC (3 hrs) — huge advantage for travel and internships",
+      "Narragansett Beach nearby; campus nostalgia is strong among alumni",
+      "Rhode Island's small size means the location punches above its weight for access"
+    ],
+    "key_quotes": [
+      "I vote for University of Rhode Island - mostly because it's relatively close to both Boston (two hours) and New York (three hours).",
+      "We actually took a ride down to Narragansett Beach today with our dogs and reminisced about the good ol' days at URI.",
+      "I graduated four years ago from URI... I also met my wife there! By far the best four years of my life!"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Incoming freshman already asking about internships vs. Greek life — career awareness is present",
+      "Engineering students motivated by career outcomes but burnout is a real barrier",
+      "No strong data on post-grad placement rates or salary outcomes from this dataset"
+    ],
+    "key_quotes": [
+      "I'll be a freshman at URI this year and I've been caught in a conundrum. Do I try and rush for a frat or try to apply for internships?",
+      "As an incoming freshman, I would focus on getting adjusted to college life. There will be plenty of time for Greek life and internships later.",
+      "Can you pls tell which are the best internships for chemical engineering to get job easier"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "At ~$33k/year, URI is meaningfully cheaper than some comparable engineering schools",
+      "Published merit scholarship structure gives applicants clear expectations upfront",
+      "CCRI students using the 2-year transfer pipeline to URI to cut costs — a real strategy"
+    ],
+    "key_quotes": [
+      "URI is cheaper for me ($33k for URI and $40k for Wentworth)",
+      "lol im at CCRI right now for mechanical engineering and plan on transferring to URI after the free two years",
+      "University of Rhode Island [publishes what stats get you what scholarship]"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Alumni consistently look back on URI with strong nostalgia and warmth",
+      "Party school reputation is real but engineering culture shows serious academic side too",
+      "Students describe it as accessible and fun — not elite, but genuinely enjoyable"
+    ],
+    "key_quotes": [
+      "By far the best four years of my life! Enjoy every second of it, because it goes by too fast.",
+      "I love this video and I am so excited to go to URI this year!",
+      "The most competitive school i got into was University of Rhode Island, i was just applying to apply lol"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Social isolation: hard to make friends at URI without Greek life involvement",
+      "Academics: electrical engineering specifically called a 'nightmare' by at least one alumnus who transferred out",
+      "Administration: misleading mass Gilman emails create false impressions of selection"
+    ],
+    "key_quotes": [
+      "I read some reviews that it's hard to make friends at URI if you aren't a part of greek life. Is this true?",
+      "Went there in the mid 80s~ what a nightmare at electrical engineering. I transferred to The University Of Hawaii @ Manoa because thats as far as I could get from URI & still speak English.",
+      "Not to burst your bubble, but it's probably a mass email they send out to everyone."
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Gilman scholarship program actively recruits URI students for international study",
+      "Proximity to Narragansett Beach makes the location genuinely special for outdoor life",
+      "CCRI-to-URI transfer pipeline is a smart, low-cost path for Rhode Island engineering students"
+    ],
+    "key_quotes": [
+      "I go to the University of Rhode Island and today I received an email saying I was a potential candidate for the Gilman scholarship for studying and interning abroad",
+      "We actually took a ride down to Narragansett Beach today with our dogs and reminisced about the good ol' days at URI.",
+      "lol im at CCRI right now for mechanical engineering and plan on transferring to URI after the free two years"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Mertz popular for freshmen; strong floor community reported",
+      "Baumhart Hall downtown praised for views, no forced meal plan",
+      "Res life reluctant to move you even with serious roommate issues"
+    ],
+    "key_quotes": [
+      "Living in Baumhart was the best year of my life",
+      "The only downfall of Mertz was the elevator rush hour. 10/10 would recommend",
+      "From my personal experience, res life is reluctant to escalate to a room change"
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "School is 70% female; nicknamed 'Gayola' by students",
+      "Making friends is genuinely hard, especially for commuters",
+      "Introverted culture — 'everyone just minds their own, no one really tryna link'"
+    ],
+    "key_quotes": [
+      "everyone's too focused on wearing headphones and/or watching their phones. Nobody cares to socialize",
+      "I was a commuter senior who lives a solid ways from campus. I had the same issue and it was tough",
+      "Lot of queer people and women - the school is 70% female"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Students complain of repetitive, burger-heavy on-campus options",
+      "Meal plan system (Rambler Bucks vs dining dollars) confuses students",
+      "Rogers Park neighborhood has excellent cheap off-campus food options nearby"
+    ],
+    "key_quotes": [
+      "Sick of the burgers on campus and snacks",
+      "Loyola took away all the public panini presses because everyone would stick their cookies in them",
+      "Go down Devon and find a Colombian, Dominican, or Mexican place. You are surrounded by great food"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Wellness Center cannot diagnose ADHD or psychotic symptoms — referrals only",
+      "ADHD evaluation is expensive and not handled on campus",
+      "Students openly post about depression, hallucinations, and financial stress with limited support"
+    ],
+    "key_quotes": [
+      "too scared to call them and ask but would the wellness center be able to do anything for a student with auditory and visual hallucinations",
+      "It's a lengthy and can be expensive process. The wellness center would probably give you a referral",
+      "the transfer was hard and I was really depressed and even had thoughts of harm"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships erode over time due to tuition hikes of $4-6k per year",
+      "$186k for nursing BSN after scholarship called 'systematic servitude' by students",
+      "Financial aid office reportedly unhelpful; work-study students have far more job options"
+    ],
+    "key_quotes": [
+      "Your $32k scholarship will only be worth $20k-$22k by the time you're a senior because of tuition increases",
+      "$186,000 at 8.05% is honestly insane. Even if you're making $80k-$95k as a BSN, that monthly payment is going to feel like a mortgage",
+      "I only got 5500 from FAFSA"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Core curriculum described as 'too rigorous' even by alumni who landed at UChicago grad school",
+      "Nursing program consistently praised; NCLEX pass rates and job placement strong",
+      "CS program is non-ABET and considered weak; Information Systems is better"
+    ],
+    "key_quotes": [
+      "I still feel Loyola's core curriculum is too rigorous for a BA",
+      "I graduated from LUC nursing and loved it so so much. I passed my NCLEX with the minimum questions",
+      "I definitely recommend Loyola, but it's not the best for comp sci people honestly — our program isn't that good"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Advising office widely mocked — unhelpful during registration week, high advisor turnover",
+      "Transfer credits handled poorly; courses often downgraded to generic credits",
+      "Instructor strike disrupted finals with no clear plan communicated to students"
+    ],
+    "key_quotes": [
+      "the advising office here is so useless it's hilarious",
+      "Loyola likes to protect their credit integrity, a lot of my transfer credits were just generic credits",
+      "my advisor just sent an email that she's not going to be working at Loyola anymore"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Lakefront campus is genuinely stunning; lake views a consistent highlight",
+      "Jet airplane noise over campus has worsened significantly in recent years",
+      "Rogers Park neighborhood is walkable with diverse cheap food; Red Line access to all of Chicago"
+    ],
+    "key_quotes": [
+      "It used to be one of the most beautiful and quiet campuses in the country — and then the jets started flying directly over campus almost 24/7",
+      "The campus, the blue sky, and the lake view looks awesome",
+      "lake. beach. study views. public transit to get anywhere you want"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Starting salaries low ($38-48k range); long-term growth reported as solid",
+      "Alumni cite LUC as 'not worth the extra cost' for career outcomes vs price",
+      "Nursing and finance alumni report strong outcomes; arts and social work less clear"
+    ],
+    "key_quotes": [
+      "Career-wise would say LUC was not worth the extra cost",
+      "In STEM, graduated with ~60k debt. $600 of my income a month goes to private loans",
+      "I'm ~10 years post grad and all my nursing friends from Loyola are wildly successful"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Overwhelming student consensus: only worth it with significant scholarship",
+      "OOS students paying near-sticker told to look elsewhere by current students",
+      "Comparable outcomes available at UIC or DePaul for far less money"
+    ],
+    "key_quotes": [
+      "It is not worth it. I am only here because I go for free",
+      "Don't do it. Your $32k scholarship will only be worth $20k-$22k by the time you're a senior",
+      "loyola is def not worth it. even other schools in Chicago like UIC and DePaul beat us in most things"
+    ],
+    "score": 3
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Beautiful campus, great city access, but social scene requires real effort",
+      "Strong Jesuit identity and community; progressive and LGBTQ-friendly atmosphere",
+      "Many students genuinely happy here, but commuters and transfers often feel left out"
+    ],
+    "key_quotes": [
+      "Great diverse student population. Best campus. Amazing location. People like to complain about lack of parties but I've found these people make no effort",
+      "People even call us 'Gayola' if that helps too lol",
+      "I didn't do well at multiple public schools and Loyola was a game changer for me"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: multiple students shot and killed near campus in Rogers Park",
+      "Financial: tuition rises $4-6k/year, eroding scholarships significantly over 4 years",
+      "Advising: high advisor turnover, unresponsive during critical registration periods"
+    ],
+    "key_quotes": [
+      "The gun violence in Chicago does make me nervous I have to admit. What a tragedy",
+      "This is not far from where the Duck Walk Killer shot and killed Eliyahu Moscowitz back in 2018",
+      "my advisor just sent an email that she's not going to be working at Loyola anymore"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Baumhart Hall downtown gives city-living experience with no forced meal plan",
+      "Rogers Park restaurant scene — Taste of Peru, Tamashi Ramen, Morse Gyros — is exceptional",
+      "Campus Ministry runs retreats open to non-religious students; strong transfer community builder"
+    ],
+    "key_quotes": [
+      "Living in Baumhart was the best year of my life. It gives you such a unique opportunity to explore the city",
+      "I'm begging you to go to Taste of Peru",
+      "Campus Ministry runs a soup kitchen and retreats, numerous involvements with the homeless population; very welcoming"
+    ],
+    "score": 7
+  }
+}

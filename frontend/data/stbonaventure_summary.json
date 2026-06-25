@@ -1,0 +1,160 @@
+{
+  "housing": {
+    "key_points": [
+      "No specific housing data available from current students",
+      "Insufficient reviews to assess dorm quality or conditions",
+      "Prospective students should seek current resident feedback"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided sources",
+      "Data insufficient for reliable housing assessment"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "At least one alum reports exclusively negative memories of their time",
+      "Small school size may limit social scene variety",
+      "No positive social life data surfaced in current sources"
+    ],
+    "key_quotes": [
+      "I have nothing but negative memories of my time there",
+      "I should have departed after the first week"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No dining-specific feedback found in available sources",
+      "Cannot assess meal plan value or food quality",
+      "Prospective students should tour dining hall and read recent reviews"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided sources",
+      "Data insufficient for reliable dining assessment"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health support data available from sources",
+      "One alum expresses deep regret suggesting poor fit or support",
+      "Cannot assess counseling services or campus wellness culture"
+    ],
+    "key_quotes": [
+      "I wish I'd never heard of it",
+      "Nothing but negative memories of my time there"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "No financial aid feedback found in available sources",
+      "Cannot assess scholarship generosity or aid office responsiveness",
+      "Seek direct student accounts on net price and aid packages"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided sources",
+      "Data insufficient for reliable financial aid assessment"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "No academic quality feedback surfaced in current sources",
+      "Small school reputation may mean limited major offerings",
+      "Cannot assess faculty quality or rigor from this data"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided sources",
+      "Data insufficient for reliable academics assessment"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Admissions responds exceptionally fast — decision in 3 days",
+      "Rolling admissions process appears efficient and student-friendly",
+      "No complaints about administrative responsiveness surfaced"
+    ],
+    "key_quotes": [
+      "I got my response like 3 days later",
+      "Three days is exceptionally quick — I wouldn't expect that from anywhere"
+    ],
+    "score": 7
+  },
+  "location_and_campus": {
+    "key_points": [
+      "No campus environment feedback from current students available",
+      "Rural New York location limits off-campus options likely",
+      "One alum's strong regret may partly reflect location isolation"
+    ],
+    "key_quotes": [
+      "I have nothing but negative memories of my time there",
+      "No location-specific quotes available from provided sources"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No career outcomes or internship data available from sources",
+      "Cannot assess alumni network strength or job placement rates",
+      "Prospective students should ask for post-graduation employment statistics"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided sources",
+      "Data insufficient for reliable career outcomes assessment"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "At least one alum feels their experience was deeply regrettable",
+      "No positive ROI testimonials surfaced in available data",
+      "Strong regret from alum raises questions about long-term satisfaction"
+    ],
+    "key_quotes": [
+      "I wish I'd never heard of it",
+      "I should have departed after the first week"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Only alum feedback is strongly negative with zero positive counterweight",
+      "YouTube comments are about Saint Bonaventure the saint — not the school",
+      "Insufficient current student data to assess actual campus culture"
+    ],
+    "key_quotes": [
+      "I have nothing but negative memories of my time there",
+      "I should have departed after the first week",
+      "I wish I'd never heard of it"
+    ],
+    "score": 4
+  },
+  "red_flags": {
+    "key_points": [
+      "**Alumni Regret:** One grad calls entire experience deeply negative with zero positives",
+      "**Data Gap:** Most YouTube comments reference the saint, not the university",
+      "**Sample Risk:** Only one alum voice present — but it is strongly damning"
+    ],
+    "key_quotes": [
+      "I have nothing but negative memories of my time there",
+      "I should have departed after the first week",
+      "I wish I'd never heard of it"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Admissions turnaround of 3 days is genuinely rare among colleges",
+      "Rolling admissions process removes anxiety of waiting months for a decision",
+      "Small school size may mean more personalized admissions attention"
+    ],
+    "key_quotes": [
+      "I got my response like 3 days later",
+      "Three days is exceptionally quick — I wouldn't expect that from anywhere"
+    ],
+    "score": 6
+  }
+}

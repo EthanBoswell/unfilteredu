@@ -164,6 +164,20 @@ SCHOOLS = [
     {"name": "Wichita State", "slug": "wichitastate", "subreddits": ["r/wichitastate"], "keywords": ["Wichita State University", "Shockers", "Wichita Kansas"]},
     # Summit League
     {"name": "University of St. Thomas", "slug": "stthomas", "subreddits": ["r/uofstthomas", "r/StThomasMN"], "keywords": ["University of St. Thomas", "St. Thomas Tommies", "Minneapolis Minnesota", "UST Minnesota"]},
+    # Atlantic 10
+    {"name": "University of Dayton", "slug": "dayton", "subreddits": ["r/udayton"], "keywords": ["University of Dayton", "Flyers", "Dayton Ohio"]},
+    {"name": "Duquesne University", "slug": "duquesne", "subreddits": ["r/Duquesne"], "keywords": ["Duquesne University", "Dukes", "Pittsburgh Pennsylvania"]},
+    {"name": "Fordham University", "slug": "fordham", "subreddits": ["r/Fordham"], "keywords": ["Fordham University", "Rams", "Bronx New York"]},
+    {"name": "George Mason University", "slug": "georgemason", "subreddits": ["r/gmu"], "keywords": ["George Mason University", "Patriots", "Fairfax Virginia"]},
+    {"name": "George Washington University", "slug": "gwu", "subreddits": ["r/gwu"], "keywords": ["George Washington University", "GWU Colonials", "Washington DC"]},
+    {"name": "La Salle University", "slug": "lasalle", "subreddits": ["r/LaSalle"], "keywords": ["La Salle University", "Explorers", "Philadelphia Pennsylvania"]},
+    {"name": "Loyola University Chicago", "slug": "loyolachicago", "subreddits": ["r/LoyolaChicago"], "keywords": ["Loyola University Chicago", "Ramblers", "Chicago Illinois"]},
+    {"name": "University of Rhode Island", "slug": "uri", "subreddits": ["r/URhodeIsland"], "keywords": ["University of Rhode Island", "URI Rams", "Kingston Rhode Island"]},
+    {"name": "University of Richmond", "slug": "richmond", "subreddits": ["r/urichmond"], "keywords": ["University of Richmond", "Spiders", "Richmond Virginia"]},
+    {"name": "Saint Louis University", "slug": "slu", "subreddits": ["r/SLU"], "keywords": ["Saint Louis University", "Billikens", "Saint Louis Missouri"]},
+    {"name": "Saint Joseph's University", "slug": "sju", "subreddits": ["r/SaintJosephs"], "keywords": ["Saint Joseph's University", "Hawks", "Philadelphia Pennsylvania"]},
+    {"name": "St. Bonaventure University", "slug": "stbonaventure", "subreddits": ["r/StBonaventure"], "keywords": ["St. Bonaventure University", "Bonnies", "St. Bonaventure New York"]},
+    {"name": "Virginia Commonwealth University", "slug": "vcu", "subreddits": ["r/vcu"], "keywords": ["VCU", "Virginia Commonwealth University", "Rams", "Richmond Virginia"]},
 ]
 
 CATEGORIES = [

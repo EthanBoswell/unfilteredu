@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms appear functional but limited firsthand detail available",
+      "Campus beauty frequently praised; living environment benefits from it",
+      "Small enrollment means housing community is tight-knit"
+    ],
+    "key_quotes": [
+      "I couldn't see the dorms again because of corona and i might be going next year",
+      "Top 10 most beautiful campuses, you're so lucky"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life dominates campus social scene uncomfortably for non-members",
+      "Described as a 'bubble' — hard to escape campus culture",
+      "Preppy, white, straight-leaning vibe reported; LGBTQ+ POC students warned"
+    ],
+    "key_quotes": [
+      "The guys gave me date rapey lax bro vibes",
+      "The girls were blond and sporty lookin",
+      "It's a small uni and a lot of people say it's a bubble, but that's a problem cuz u can't get anywhere without a car"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Dining hall repeatedly praised as genuinely excellent for a small school",
+      "Weekly menus reportedly include high-quality food like flank steak",
+      "One of Richmond's most consistently praised features across sources"
+    ],
+    "key_quotes": [
+      "Excellent food (look at their weekly menus, like wtf they serve flank steak and...)",
+      "I could never go there because I literally live within walking distance (but I do love their dining hall)"
+    ],
+    "score": 8
+  },
+  "mental_health": {
+    "key_points": [
+      "Social environment described as 'incredibly toxic' by at least one student",
+      "Bubble campus with limited escape options may intensify pressure",
+      "No specific mental health resources mentioned positively or negatively"
+    ],
+    "key_quotes": [
+      "Their academics, programs, etc are really good but I think their social environment is incredibly toxic",
+      "It's a small uni and a lot of people say it's a bubble"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Full ride Richmond Scholars program is genuinely transformative and generous",
+      "Virginia residents under $75k income get a guaranteed full ride",
+      "Financial aid can be cut dramatically after freshman year if family income rises"
+    ],
+    "key_quotes": [
+      "Absolutely everything was covered by my financial aid the first two years, but the package I received for the upcoming year left a $20,000 gap",
+      "International: waitlist — 78k contribution or you are out",
+      "University of Richmond rejected me — they said it's aid related"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Student-to-teacher ratio reportedly as low as 5:1; professors accessible",
+      "Slight grade deflation noted alongside W&M and W&L as Virginia norm",
+      "CS department seen as weak enough that one student considered transferring to VT"
+    ],
+    "key_quotes": [
+      "The student-to-teacher ratio is like 5:1, so I can easily get research opportunities",
+      "W&L, W&M and UoR, as virginia colleges, all have slight grade deflation",
+      "The computer science department is stronger at tech which will open up more internships for me"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Admissions-financial aid miscommunication resulted in a scholarship offer to a rejected student",
+      "Financial aid office can gut packages mid-enrollment with little warning",
+      "Waitlist process uses phone calls, not email — unusual and stressful"
+    ],
+    "key_quotes": [
+      "Admissions and Financial aid miscommunicated with our department as we made our decisions",
+      "Received a text saying: The University of Richmond would like to update you on your waitlist status. If you are still interested in Richmond, call [number]",
+      "I found out University of Richmond doesn't email you for notification of your acceptance/denial, you have to wait for a letter"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus consistently called one of the most beautiful in the US",
+      "Richmond city (RVA) is vibrant but requires a car to access",
+      "Campus bubble is real — students warn not to get 'stuck' on campus"
+    ],
+    "key_quotes": [
+      "Make sure you get off campus and don't get stuck in the 'Richmond bubble' — RVA is awesome",
+      "imo one of the prettiest campuses in all of us colleges",
+      "It's a small uni and a lot of people say it's a bubble, but that's a problem cuz u can't get anywhere without a car"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Big 4 accounting firms actively recruit from Robinson School of Business",
+      "CS students feel VT offers stronger internship pipelines than Richmond",
+      "Strong alumni network mentioned but limited concrete outcome data shared"
+    ],
+    "key_quotes": [
+      "My dad works for a big 4 firm and they actively recruit from UR",
+      "The computer science department is stronger at tech which will open up more internships for me",
+      "My nephew just graduated last year and absolutely LOVED it! He now has an amazing job that he loves"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Not worth full tuition — multiple commenters explicitly state this",
+      "Exceptional value with merit aid or Virginia Promise; terrible value at sticker price",
+      "Mid-enrollment financial aid cuts can make a 'affordable' school suddenly unaffordable"
+    ],
+    "key_quotes": [
+      "Good education. A little snobby. NOT worth paying full-tuition to attend though.",
+      "Absolutely everything was covered by my financial aid the first two years, but the package I received for the upcoming year left a $20,000 gap",
+      "Richmond is a rich kids school with a high percentage of recruited athletes that are happy to pay full price"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Wealthy, preppy, Greek-dominated culture that can feel exclusionary",
+      "Beautiful campus softens the experience but doesn't fix social issues",
+      "Best fit for students with strong financial aid who want LAC academics"
+    ],
+    "key_quotes": [
+      "Some people say the culture is white, straight, and pretentious and others say it's laid back, calm, and welcoming",
+      "Richmond is a rich kids school with a high percentage of recruited athletes",
+      "Please look at the Instagram accounts @abolishrichmondgreeklife and @protectourweb to get an idea. The way UR has handled recent issues regarding racism is disgusting"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Racism: student graduating in 2022 called admin response to racism 'disgusting'",
+      "Greek Life: Greek system criticized loudly enough to spawn abolition Instagram account",
+      "Financial Aid: packages can collapse mid-enrollment leaving students $20k+ in debt"
+    ],
+    "key_quotes": [
+      "Please look at the Instagram accounts @abolishrichmondgreeklife and @protectourweb. The way UR has handled recent issues regarding racism is disgusting",
+      "Absolutely everything was covered by my financial aid the first two years, but the package I received for the upcoming year left a $20,000 gap, even after 7k in loans",
+      "If anyone in the comments doesn't know, she ended up transferring out. If you're thinking about attending, I recommend watching that video too"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Richmond Scholars full ride ($340k+) is one of the best LAC merit awards nationally",
+      "Virginia residents under $75k income get a guaranteed full ride — underadvertised",
+      "Robinson School of Business has genuine Big 4 recruiting pipelines most don't know about"
+    ],
+    "key_quotes": [
+      "I was selected as a Richmond Scholar which is a full ride to Urichmond worth $340,000+",
+      "If your family income is less than $75,000 a year, and you're a Virginia resident, Richmond guarantees a full ride",
+      "My dad works for a big 4 firm and they actively recruit from UR. The students are bright and a great fit"
+    ],
+    "score": 8
+  }
+}

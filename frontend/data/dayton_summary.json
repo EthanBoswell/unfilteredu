@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "Police treatment of students in housing is a documented concern",
+      "Housing options video exists but comment warns against attending entirely",
+      "No specific dorm quality complaints found in data"
+    ],
+    "key_quotes": [
+      "Do NOT attend Dayton University. Watch how the University of Dayton Police Department treats their students!! Deplorable Police department!!",
+      "Don't waste your money attending this 'university.' Sincerely, Dr. Irvin."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "School has strong enough party/social culture to attract non-students",
+      "Catholic identity shapes campus community and social environment",
+      "Students describe a tight-knit community feel vs. large state schools"
+    ],
+    "key_quotes": [
+      "I really like Dayton and would definitely prefer to go there",
+      "Dayton seems like a great time because you have positive memories of being there for a day with a friend"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No dining hall reviews appear in any source data",
+      "Cannot assess dining quality from available student opinions",
+      "Zero mentions of food quality, meal plans, or dining facilities"
+    ],
+    "key_quotes": [
+      "No student quotes about dining found in available data",
+      "Insufficient data to assess this category"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health resource mentions appear in student discussions",
+      "Cost anxiety is real: debt stress repeatedly cited by students",
+      "One student admitted they are 'not 100% satisfied' after choosing UD"
+    ],
+    "key_quotes": [
+      "I am in the same situation same uni I chose Dayton but i am not 100% satisfied",
+      "Holy shit don't go to Dayton. $112k is crippling."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Large merit scholarships offered but total cost still very high",
+      "Even with $37k scholarship, students call UD 'stupid expensive'",
+      "Merit aid covers 30%+ of students but net price remains a concern"
+    ],
+    "key_quotes": [
+      "I also received a very large scholarship to UD, but it still ended up being stupid expensive due to their high base price.",
+      "Holy shit don't go to Dayton. $112k is crippling. Go to Ohio University, $52k is already scary.",
+      "University of Dayton - important [for demonstrated interest, with merit aid for 30%+ of students]"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Smaller class sizes repeatedly cited as genuine advantage over state schools",
+      "Not considered prestigious outside Ohio; limited national name recognition",
+      "Engineering and business programs mentioned most; CS seen as mediocre"
+    ],
+    "key_quotes": [
+      "I'm from Ohio and wouldn't say the University of Dayton is a very respected university worth paying a lot of extra money to attend. It's not prestigious enough to be well-known outside of the state.",
+      "None of these are known for their CS programs",
+      "Dayton has smaller classes and a better community aspect"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Police department behavior toward students is a flagged concern",
+      "No positive admin mentions appear anywhere in student data",
+      "ROTC program exists but scholarship competitiveness is poorly communicated"
+    ],
+    "key_quotes": [
+      "Watch how the University of Dayton Police Department treats their students!! Deplorable Police department!!",
+      "You aren't guaranteed scholarship money from ROTC. In fact, the scholarship is quite competitive."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Dayton Ohio location seen as negative by students wanting to leave Ohio",
+      "Too close to home is a real deterrent for some admitted students",
+      "Campus described positively by those who visited; community feel noted"
+    ],
+    "key_quotes": [
+      "I never really planned on going there as it is, for me, too close to home",
+      "I spent the day there with a friend... Dayton seems like a great time",
+      "Notre Dame is my #1 choice but I'd consider [UD] a safety... it's close to home"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Amy Schneider (Jeopardy champion) is a notable UD alumna",
+      "Co-op opportunities mentioned but not elaborated on",
+      "Engineering ROI considered acceptable; national recruiting reach is limited"
+    ],
+    "key_quotes": [
+      "Amy Schneider: University of Dayton [Jeopardy Masters contestant]",
+      "Cincinnati co-op program is supposed to be pretty good [implying UD's is less notable]",
+      "Civil engineering is a good ROI field of study... Dayton is much better than Trine"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Repeatedly called overpriced relative to its academic reputation",
+      "Multiple students explicitly told others to choose cheaper Ohio alternatives",
+      "Extra $40-60k over state schools not justified by outcomes, per students"
+    ],
+    "key_quotes": [
+      "Dayton isn't worth the extra money. And Cincinnati co-op program is supposed to be pretty good.",
+      "IMO, Dayton is one of those schools that's way more expensive than it is good.",
+      "If the CSUs are still better than the University of Dayton [even as a transfer destination]"
+    ],
+    "score": 3
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Warm, tight-knit Catholic campus culture is a genuine draw for right student",
+      "Students who visit tend to like it; those focused on ROI regret it",
+      "Best fit for Ohio students who want small-school feel without flagship pressure"
+    ],
+    "key_quotes": [
+      "I really like Dayton and would definitely prefer to go there",
+      "Go to Ohio University, $52k is already scary. Your friends who say they aren't worried are fools.",
+      "I'm sure Dayton seems like a great time because you have positive memories of being there"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Cost**: Net price called 'crippling' even after large merit scholarships",
+      "**Police**: YouTube comment alleges 'deplorable' police treatment of students with linked video evidence",
+      "**Prestige**: Multiple students warned UD is unknown outside Ohio, limiting career mobility"
+    ],
+    "key_quotes": [
+      "Holy shit don't go to Dayton. $112k is crippling.",
+      "Do NOT attend Dayton University. Watch how the University of Dayton Police Department treats their students!! Deplorable Police department!!",
+      "It's not prestigious enough to be well-known outside of the state."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Demonstrated interest actually matters here; showing up helps your application",
+      "Merit aid is widely available, not just for top students",
+      "Small class sizes mean real professor access, unlike large Ohio state schools"
+    ],
+    "key_quotes": [
+      "University of Dayton - important [for demonstrated interest weighting in admissions]",
+      "University of Dayton [listed among schools where] at least 30% of student body has non-need merit aid",
+      "Dayton has smaller classes and a better community aspect [vs. UC]"
+    ],
+    "score": 6
+  }
+}

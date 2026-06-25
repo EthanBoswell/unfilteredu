@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Housing costs rival tuition, sparking direct complaints to president",
+      "On-campus experience limited; school functions primarily as commuter school",
+      "Snow/ice events expose how campus fails non-residential students"
+    ],
+    "key_quotes": [
+      "big G better run before I ask him why housing is the same price as my tuition",
+      "I am so done with Mason. It's literally a commuter school, yet they act as if everyone lives on campus",
+      "Are you kidding me...for a commuter school..."
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Campus social scene is genuinely thin; commuter culture kills community",
+      "Greek life exists but most students ignore it entirely",
+      "Quirky campus culture—robots, igloos, geese—substitutes for traditional social events"
+    ],
+    "key_quotes": [
+      "There are fraternities that dedicate their efforts...And yet this goes completely disregarded by most students",
+      "Feedback is almost identical from when I went there 30 years ago. Not your traditional on campus experience",
+      "I love attending Mason for a number of reasons, and these stupid little robots are embarrassingly high on the list"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Mouse spotted walking through Ike's dining hall on camera",
+      "Food quality at Ike's draws mockery; late-night options are mediocre",
+      "Starship robot delivery is a genuine campus highlight students love"
+    ],
+    "key_quotes": [
+      "YIke's",
+      "Still not the worst thing in any Mason dining establishment; throwback to the maggots in Chipotle back in 2018",
+      "but late night ike's when that older woman is on the grill…delectable"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Exam stress is intense; students found passed out on library floors",
+      "Professors occasionally show genuine compassion—rounding up grades, giving breaks",
+      "No strong mental health support culture mentioned; students cope individually"
+    ],
+    "key_quotes": [
+      "I cannot believe how kind my professor is! I've never had someone truly give me a break like this before",
+      "Had a prof not round up 89.97... Ya boy was in rehab LMAOOO",
+      "I missed my college days, you won't have such experience anymore once you're out of school"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "In-state tuition is a major draw, especially vs. DC-area private schools",
+      "Housing costs described as equal to tuition—a serious financial burden",
+      "Common advice: start at NVCC, transfer to Mason, save significant money"
+    ],
+    "key_quotes": [
+      "I just got in today with a distinction scholarship and in the honors college!",
+      "I am currently going to Northern Virginia Community College looking to transfer to George Mason University through the Guaranteed Admission Agreement",
+      "If I had to go back and do it all over again, I would have started at NVCC and transferred"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Cheating is a visible, recurring problem in CS and physics classes",
+      "AI tools are actively disrupting exam integrity; professors are frustrated",
+      "Students built tools to find easy-grading professors—grade inflation is real"
+    ],
+    "key_quotes": [
+      "Imagine cheating on a 200 level course at GMU",
+      "U have to see people with the AI meta glasses during the exam",
+      "I am continuously surprised at how the idiocy of this university brings out the best in us"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Admin kept campus open during dangerous ice, students were injured falling",
+      "Graduation processing error: student walked the stage but never officially graduated",
+      "Snow day decisions made absurdly late—midnight parking emails, 8am closures"
+    ],
+    "key_quotes": [
+      "Damn I knew GMU does shit last minute but this is crazy",
+      "apparently I never graduated... I had submitted for my graduation in the winter semester and was pre approved",
+      "I was hoping GMU would have improved in the ten years since I was a student re: snow days"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Fairfax is suburban and quiet, but DC is only 30 min by Metro",
+      "Campus infrastructure is aging—rusty railings, icy uncleared sidewalks regularly",
+      "Campus has genuine charm: pond, wildlife, observatory, snow igloos"
+    ],
+    "key_quotes": [
+      "if you like the city feel but dont like being in traffic all the time fairfax is good because its usually just a 30 min metro ride into DC",
+      "Sad to see the campus falling apart—a lot of the other railings are rusty too",
+      "Oh nah that lake is crazy"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Entry-level salaries start low (~$34k) but job-hopping brings rapid growth",
+      "One alum: $34k first job, $110k four years later via job-hopping",
+      "Some graduates report unemployment a year out; major matters enormously"
+    ],
+    "key_quotes": [
+      "I actually went to this school, first job after graduation was $34k, 4 years later I'm making $110k, job hopping guy is spot on",
+      "I graduated GMU a year ago, and wanted to report I'm still unemployed",
+      "tons of opportunities if you're willing to put in some time and effort"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition plus DC-area job market makes GMU a solid value",
+      "Housing costs eating into that value; president's salary over $800k draws ire",
+      "NOVA-to-Mason pipeline is widely recommended as the smartest financial path"
+    ],
+    "key_quotes": [
+      "Public reminder Gregory's salary is over 800k meanwhile we have hundreds and hundreds of issues with campus",
+      "All of my friendships from the first two years fell apart anyways, and it would have saved me a ton of money",
+      "instate tuition makes a 20k difference"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Underdog, scrappy identity—students are proud but unsentimental about GMU",
+      "Diverse, commuter-heavy, practical-minded student body; not a traditional college experience",
+      "Genuine community warmth exists despite the chaos—people help each other"
+    ],
+    "key_quotes": [
+      "Never knew attending GMU would be such an act of revolution but I'm proudly here for it!",
+      "You're not behind, you're just taking the scenic route",
+      "This is my dream college, it's soo diverse and it's so beautiful seeing people from all over the world just uniting"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: Admin kept campus open during ice storms; student crushed elbow falling",
+      "**Sexual misconduct**: Upskirt photo attempt reported on campus; predator with scholarship arrested",
+      "**Administration**: Student officially never graduated despite walking the stage and getting congratulatory emails"
+    ],
+    "key_quotes": [
+      "Crushed my elbow on the way to class... Genuinely why are we open? There are huge patches of ice",
+      "A guy pointed his phone at me and tried to take an inappropriate picture of me without my consent",
+      "apparently I never graduated... I walked the stage and celebrated with my family as a first generation graduate"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Campus observatory offers free public nights with a massive 32-inch telescope",
+      "Starship robot delivery has genuine cult following—students genuinely love them",
+      "Notable alumni: Golden Globe winner Rhea Seehorn, Olympian Ilia Malinin, NBA champion Tyler Kolek"
+    ],
+    "key_quotes": [
+      "It's a nice Ritchey-Chrétien Cassigrain reflector. It's about 32 inches, which is really huge",
+      "I love attending Mason for a number of reasons, and these stupid little robots are embarrassingly high on the list",
+      "GMU now has the Best Actress and World Champion male figure skater at the same time"
+    ],
+    "score": 8
+  }
+}
