@@ -163,7 +163,7 @@ SCHOOLS = [
     {"name": "UTSA", "slug": "utsa", "subreddits": ["r/UTSA"], "keywords": ["UTSA", "University of Texas San Antonio", "Roadrunners", "San Antonio Texas"]},
     {"name": "Wichita State", "slug": "wichitastate", "subreddits": ["r/wichitastate"], "keywords": ["Wichita State University", "Shockers", "Wichita Kansas"]},
     # Summit League
-    {"name": "University of St. Thomas", "slug": "stthomas", "subreddits": ["r/uofstthomas", "r/StThomasMN"], "keywords": ["University of St. Thomas", "St. Thomas Tommies", "Minneapolis Minnesota", "UST Minnesota"]},
+    {"name": "University of Saint Thomas", "slug": "stthomas", "subreddits": ["r/uofstthomas", "r/StThomasMN"], "keywords": ["University of Saint Thomas", "St. Thomas Tommies", "Minneapolis Minnesota", "UST Minnesota"]},
     # Atlantic 10
     {"name": "University of Dayton", "slug": "dayton", "subreddits": ["r/udayton"], "keywords": ["University of Dayton", "Flyers", "Dayton Ohio"]},
     {"name": "Duquesne University", "slug": "duquesne", "subreddits": ["r/Duquesne"], "keywords": ["Duquesne University", "Dukes", "Pittsburgh Pennsylvania"]},

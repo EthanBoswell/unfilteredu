@@ -1610,7 +1610,7 @@ export const SCHOOLS: SchoolMeta[] = [
   },
   {
     slug: "stthomas",
-    name: "University of St. Thomas",
+    name: "University of Saint Thomas",
     location: "St. Paul, MN",
     colors: { primary: "#4F2D7F", secondary: "#9D9795" },
     radioStation: "KTOM — online",
