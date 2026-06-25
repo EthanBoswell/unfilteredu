@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import HomepageHero from "@/components/HomepageHero";
 import HomepageContrast from "@/components/HomepageContrast";
+import QuoteCarousel from "@/components/QuoteCarousel";
 import Wordmark from "@/components/Wordmark";
 import { getHeroQuotes } from "@/lib/data";
 
@@ -35,7 +36,7 @@ export default function HomePage() {
   return (
     <div style={{ background: "#F5F4EF" }}>
       <Nav />
-      <HomepageHero quotes={quotes} />
+      <HomepageHero />
       <HomepageContrast />
 
       {/* How it works */}
@@ -84,6 +85,12 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section style={{ background: "#F5F4EF" }}>
+        <div className="mx-auto max-w-[720px] px-8 pb-[72px]">
+          <QuoteCarousel quotes={quotes} />
         </div>
       </section>
 
