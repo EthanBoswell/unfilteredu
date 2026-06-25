@@ -3,45 +3,15 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { SCHOOLS } from "@/lib/schools";
-import type { HeroQuote } from "@/lib/data";
+import { filterSchools, SchoolSearchResults } from "./SchoolSearchResults";
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
+export default function HomepageHero() {
   const router = useRouter();
 
-  // Start in the server-rendered order to avoid a hydration mismatch,
-  // then shuffle client-side once mounted.
-  const [shuffledQuotes, setShuffledQuotes] = useState(quotes);
-  const [quoteIndex, setQuoteIndex] = useState(0);
-  const [quoteVisible, setQuoteVisible] = useState(true);
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const [focused, setFocused] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setShuffledQuotes(shuffle(quotes));
-  }, [quotes]);
-
-  useEffect(() => {
-    if (shuffledQuotes.length < 2) return;
-    const interval = setInterval(() => {
-      setQuoteVisible(false);
-      setTimeout(() => {
-        setQuoteIndex((i) => (i + 1) % shuffledQuotes.length);
-        setQuoteVisible(true);
-      }, 400);
-    }, 6000);
-    return () => clearInterval(interval);
-  }, [shuffledQuotes.length]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -53,20 +23,13 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const filtered =
-    query.trim().length > 0
-      ? SCHOOLS.filter((s) =>
-          s.name.toLowerCase().includes(query.toLowerCase())
-        ).slice(0, 5)
-      : [];
+  const filtered = filterSchools(query);
 
   const handleSelect = (school: (typeof SCHOOLS)[number]) => {
     setQuery(school.name);
     setShowDropdown(false);
     router.push(`/schools/${school.slug}`);
   };
-
-  const quote = shuffledQuotes[quoteIndex];
 
   return (
     <section className="relative w-full" style={{ background: "#0F0F0F" }}>
@@ -103,49 +66,6 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
           >
             Real students · Real posts · No marketing
           </span>
-        </div>
-
-        {/* 2. Quote ticker */}
-        <div style={{ minHeight: 180 }}>
-          {quote && (
-            <div
-              style={{
-                transition: "opacity 0.4s ease, transform 0.4s ease",
-                opacity: quoteVisible ? 1 : 0,
-                transform: quoteVisible ? "translateY(0)" : "translateY(8px)",
-              }}
-            >
-              <p
-                className="mb-5"
-                style={{
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  fontWeight: 800,
-                  fontSize: "clamp(22px, 4vw, 36px)",
-                  color: "#F5F4EF",
-                  lineHeight: 1.25,
-                }}
-              >
-                &ldquo;{quote.text}&rdquo;
-              </p>
-              <div className="flex items-center gap-3">
-                <span
-                  className="rounded-full px-3 py-1 text-[12px] font-semibold leading-none"
-                  style={{
-                    fontFamily: "Inter, sans-serif",
-                    background: quote.color,
-                    color: quote.textColor,
-                  }}
-                >
-                  {quote.school}
-                </span>
-                <span
-                  className="text-[12px]"
-                  style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
-                >
-                </span>
-              </div>
-            </div>
-          )}
         </div>
 
         {/* 3. Divider */}
@@ -236,23 +156,8 @@ export default function HomepageHero({ quotes }: { quotes: HeroQuote[] }) {
             </button>
           </div>
 
-          {showDropdown && filtered.length > 0 && (
-            <ul
-              className="absolute left-0 right-0 mt-1 rounded-md overflow-hidden z-10"
-              style={{ background: "#1a1a1a", border: "1px solid #2a2a2a" }}
-            >
-              {filtered.map((school) => (
-                <li key={school.slug}>
-                  <button
-                    className="w-full text-left px-4 py-2.5 text-[14px] hover:bg-[#222] transition-colors"
-                    style={{ fontFamily: "Inter, sans-serif", color: "#F5F4EF" }}
-                    onMouseDown={() => handleSelect(school)}
-                  >
-                    {school.name}
-                  </button>
-                </li>
-              ))}
-            </ul>
+          {showDropdown && (
+            <SchoolSearchResults schools={filtered} onSelect={handleSelect} />
           )}
         </div>
 
