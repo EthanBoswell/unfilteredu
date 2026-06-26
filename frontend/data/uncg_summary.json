@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms described as workable but beds require tricks to assemble",
+      "One student moved out after academic/ethics trouble first semester",
+      "No strong complaints about housing quality in the data"
+    ],
+    "key_quotes": [
+      "get a camping mallet and use that to get the post to dislodge from its connection",
+      "had to move out of my dorm and back in with my parents"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Making friends is genuinely hard; some students feel isolated and judged",
+      "Campus pranks happen — soap in the fountain outside the cafe noted",
+      "Not a nightlife school; Greensboro described as 'not really a real city'"
+    ],
+    "key_quotes": [
+      "The people scare me on campus and I'm completely alone. I haven't made friends and people judge me.",
+      "UNCG has a bit more going on but isn't really a real city",
+      "somebody put soap in the fountain outside the cafe so be prepared to see some shit"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Food described as good both on and off campus",
+      "Small diners off Walker Ave noted for students near nursing or media buildings",
+      "Vegan students express anxiety about meal plan options"
+    ],
+    "key_quotes": [
+      "The food is good, on and off campus, there's great little diners off of Walker if you're down that way for nursing or media, theater",
+      "I'm coming in as a freshmen, and a vegan. I'm pretty nervous about my meal plan"
+    ],
+    "score": 7
+  },
+  "mental_health": {
+    "key_points": [
+      "At least one student got kicked out after severe academic struggles first year",
+      "Social isolation is a real issue — one student explicitly said they were completely alone",
+      "No mention of counseling services or mental health resources in student data"
+    ],
+    "key_quotes": [
+      "just 4 years ago I was a freshman at UNC Greensboro and got kicked out due to my bad grades after the first two semesters",
+      "The people scare me on campus and I'm completely alone. I haven't made friends and people judge me."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "In-state cost around $18,000/year — considered affordable among NC public schools",
+      "Students use UNCG as a stepping stone while saving money before transferring",
+      "No merit aid mentioned; students with other offers compare UNCG as the cheap fallback"
+    ],
+    "key_quotes": [
+      "I think UNC Greensboro I would be paying like $18,000",
+      "I got a $159,000 merit scholarship for Wooster so I would be paying roughly $29,000 a year... is Wooster worth the extra money?"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Professors praised as knowledgeable, approachable, and genuinely invested in students",
+      "Music program considered stronger and more renowned than App State's",
+      "CS program available but seen as inferior to NC State by those who compared"
+    ],
+    "key_quotes": [
+      "no matter what subject, they know their stuff, they're easy to talk to, and want to help you succeed",
+      "the UNCG music program is (IMO) better and more renown than App's",
+      "NCSU has a much better program than UNCG"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Academic probation and suspension process exists and has affected students",
+      "Rescission of admission seen as unlikely even with poor senior year grades",
+      "Transfer process from community college appears straightforward"
+    ],
+    "key_quotes": [
+      "U won't get rescinded from uncg dont worry lol",
+      "just 4 years ago I was a freshman at UNC Greensboro and got kicked out due to my bad grades after the first two semesters. I had to go through all the Academic Probation and Suspension"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus called scenic, beautiful, and safe to walk at night",
+      "Greensboro is not a major city — limited nightlife compared to larger metros",
+      "Medium-sized campus — big enough to explore, not overwhelming"
+    ],
+    "key_quotes": [
+      "UNC Greensboro has one of the most scenic and beautiful campuses I have ever seen",
+      "you feel safe walking at night from evening classes",
+      "UNCG has a bit more going on but isn't really a real city"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No strong data on job placement; online students question networking opportunities",
+      "Pre-pharmacy and pre-med students use UNCG as a launchpad to grad school",
+      "UNCG degree seen as less prestigious than NC State for competitive fields like CS"
+    ],
+    "key_quotes": [
+      "Are they good about networking, job placement, etc.?",
+      "NCSU has a much better program than UNCG and you'll probably have better opportunities",
+      "I'd go UNC Greensboro. No one's gonna see that on your resume and think 'I really don't want to deal with that'"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong value for in-state students at ~$18k/year",
+      "Frequently used as an affordable transfer pathway or backup to Chapel Hill",
+      "Out-of-state students warned to weigh cost carefully against more prestigious options"
+    ],
+    "key_quotes": [
+      "I think UNC Greensboro I would be paying like $18,000",
+      "His goal is to go to med school... the cost of college will be roughly 3-4 times the cost of going to Greensboro",
+      "I got in and committed to the University of North Carolina in Greensboro. It's close to home and I plan to transfer to UNC Chapel Hill after two years."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Solid regional school with a warm academic community but weak social scene",
+      "Often chosen for practicality — affordability, proximity, transfer plans — not passion",
+      "Students who engage find it fine; those who struggle socially find it isolating"
+    ],
+    "key_quotes": [
+      "I really loved the campus and the teachers",
+      "The people scare me on campus and I'm completely alone. I haven't made friends and people judge me.",
+      "It's close to home and I plan to transfer to UNC Chapel Hill after two years"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Social Isolation:** multiple students report loneliness and feeling judged on campus",
+      "**Academic Attrition:** students dismissed after first year for poor grades with little cushion",
+      "**Perception:** frequently listed as a last-resort safety or a transfer stepping stone, not a destination"
+    ],
+    "key_quotes": [
+      "The people scare me on campus and I'm completely alone. I haven't made friends and people judge me.",
+      "just 4 years ago I was a freshman at UNC Greensboro and got kicked out due to my bad grades",
+      "I got in and committed to UNCG... I plan to transfer to UNC Chapel Hill after two years"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Music program is legitimately strong — outranks nearby App State among students who compared",
+      "First Year Experience class praised as 'amazing and truly helpful' by current student",
+      "Walker Ave off-campus dining scene offers real local food options beyond the dining hall"
+    ],
+    "key_quotes": [
+      "the UNCG music program is (IMO) better and more renown than App's",
+      "I would recommend signing up for the First Year Experience class! It is amazing and truly helpful!",
+      "there's great little diners off of Walker if you're down that way for nursing or media, theater"
+    ],
+    "score": 7
+  }
+}

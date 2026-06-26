@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "New lottery system widely hated — seniority no longer counts",
+      "Lucille Clement consistently described as cramped, loud, and prison-like",
+      "Overflow housing sent students to hotels at semester start"
+    ],
+    "key_quotes": [
+      "God I fucking hate Noland — making our housing a gamble and giving majority to freshman is insane",
+      "Do not put Lucille Clement even on your list; it is awful",
+      "It's loud at all hours of the night, there's dirty laundry everywhere, the bathrooms can get disgusting"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Loneliness is the #1 recurring complaint from freshmen and transfers",
+      "Clubs exist but many students struggle to find their community",
+      "Reddit used heavily to find friends — signals campus social scene is lacking"
+    ],
+    "key_quotes": [
+      "I have made essentially no friends while being on campus and it has made my college experience a little lonely",
+      "I haven't really made any friends or found any communities I click in",
+      "I am a freshman and I have 0 friends to be honest"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Food quality dropped noticeably while meal plan prices went up",
+      "Limited selection and broken card reader went unfixed for a full semester",
+      "Multiple students say they stopped eating there and cook or eat out instead"
+    ],
+    "key_quotes": [
+      "The food this year seems to be worse than last year with a more limited selection",
+      "I just can't bring myself to eat there anymore, and have been making my own food or eating out",
+      "Mind you the meal plan prices went up this year"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Counseling services exist and are mentioned positively by other students",
+      "Academic burnout and scholarship pressure compound mental health struggles",
+      "Campus political climate adds stress for LGBTQ+ and marginalized students"
+    ],
+    "key_quotes": [
+      "Insane academic burnout and high expectations my scholarships require of me don't make my experience any better",
+      "I don't even want my bachelors anymore. I don't even feel like I've retained any of the information",
+      "I can only call themselves trans online because they... severely damages everyone's experience at the school"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "One of the cheapest in-state tuitions in Tennessee — tied with TN Tech",
+      "GPA above 3.5 likely nets a $3k/year academic performance scholarship automatically",
+      "Some classes charge extra fees for coursework access ($112 for one course)"
+    ],
+    "key_quotes": [
+      "It is about half the cost of UTK",
+      "Not even my counselor knows what classes require you to pay for the coursework. It's $112 for 4 months",
+      "The main thing that has changed is Fees and cost of living — Arts and Sciences charges $50/credit hour in fees"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Cyber security and CS programs well-regarded academically but job market locally is weak",
+      "Academic integrity question raised by Mike Israetel PhD scandal — ETSU never responded",
+      "Professors range from excellent to openly political MAGA — quality varies widely"
+    ],
+    "key_quotes": [
+      "The cyber security program here is decent. The job market in this area is not",
+      "I had an English professor who was full on MAGA and talked about it all the time",
+      "ETSU has yet to respond to the videos and articles discussing this [dissertation scandal]"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "President Noland repeatedly blamed by students for housing and DEI policy failures",
+      "Free speech officially protected but students report suppression of dissenting voices",
+      "Housing portal, email systems, and financial aid communication are consistently disorganized"
+    ],
+    "key_quotes": [
+      "ETSU has turned to shit under Nolan, it was depressing asf to watch",
+      "People come first, are treated with dignity and respect — lie",
+      "They'll cave to fascism because they have lots of alt and far right staff"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Johnson City itself is LGBTQ-friendly; surrounding towns are not",
+      "Campus is walkable but accessibility for disabled students is described as 'abysmal'",
+      "Outdoor recreation and Appalachian scenery are genuine highlights nearby"
+    ],
+    "key_quotes": [
+      "Johnson City itself is very accepting of the LGBTQ+ community, don't count on the towns around it though",
+      "Ramps are horribly placed, the elevators are consistently broken — wheeling my wheelchair across the football field to get to class",
+      "It was pretty boring when I went there and it is definitely in the middle of nowhere"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Local job market for CS and cyber security called 'abysmal' by multiple students",
+      "Graduates typically must relocate — Nashville minimum for tech jobs",
+      "Health sciences and social work programs have stronger local employment ties"
+    ],
+    "key_quotes": [
+      "I'm sure practically everyone in this comment section has already warned you, but the job market here in East Tenn for cyber security or any sort of comp sci is abysmal",
+      "The program is well known to be good for computer science as a whole. The job market cannot support all of the graduates locally",
+      "You would likely end up looking elsewhere for employment"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Among cheapest in-state options in Tennessee — strong scholarship availability",
+      "Study abroad can actually cost less than a semester on campus",
+      "Rising fees, worse dining, and lottery housing erode perceived value"
+    ],
+    "key_quotes": [
+      "It saved me a lot of money so I don't regret it",
+      "My son is studying abroad in Japan this semester and it was actually cheaper than being on campus",
+      "The apartments are hella expensive and the price increase plus worse food doesn't add up"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Conservative-leaning campus culture creates friction for LGBTQ+ and progressive students",
+      "Small campus feel with tight-knit programs, but social scene requires real effort",
+      "Students who embrace outdoor life and find their niche tend to thrive here"
+    ],
+    "key_quotes": [
+      "On campus it's less accepting, more so tolerating — it honestly seems hard",
+      "Anything is what you make it — there's much to do here if you look",
+      "I had an AMAZING time. Highly recommend staying in the smallest dorms like Lucy if you want community"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** President Noland blamed for DEI gutting, housing chaos, and policy failures",
+      "**Accessibility:** Wheelchair users report broken elevators, unusable ramps, and dangerous routes to class",
+      "**Political Climate:** TPUSA active on campus, roommate matching ignores LGBTQ+ safety preferences"
+    ],
+    "key_quotes": [
+      "They are overfilling housing and the overflow goes to hotels for weeks at the start of the semester",
+      "Disability services can be helpful in the classroom but not really anywhere else — etsu has a habit of misinforming people",
+      "They genuinely do not care [about LGBTQ+ roommate matching]. TPUSA and the forced-birthers are a plague that gets worse every year"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Study abroad program offers cheaper semesters abroad with strong scholarships",
+      "Library Innovation Commons has 3D printers and laser engravers free to use",
+      "Outdoor Adventure program runs regular trips — underused and underadvertised"
+    ],
+    "key_quotes": [
+      "I studied abroad in Greece and it was actually cheaper to attend a semester there than ETSU — would highly recommend",
+      "On the second floor is the Innovation Commons with 3D printers, laser engraver, lots of stuff",
+      "There's an amazing outdoor adventure program that goes on trips a few times a semester"
+    ],
+    "score": 7
+  }
+}

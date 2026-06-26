@@ -1,0 +1,156 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student feedback on dorms found in data",
+      "Campus infrastructure appears dated based on visual impressions",
+      "Volpe Library mentioned as a study spot, suggesting campus use patterns"
+    ],
+    "key_quotes": [
+      "I've never been back, and I can't imagine how much it's changed since then",
+      "I would want to see more tech and cooler buildings"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Very limited student social life commentary in available data",
+      "Campus community exists but subreddit engagement is extremely low",
+      "Cookeville as a college town draws little organic enthusiasm"
+    ],
+    "key_quotes": [
+      "Welcome to r/TennesseeTech, the unofficial home for Golden Eagles past, present, and future",
+      "The only work you did all day was listening to a zoom call"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Serious unresolved allegations tied to campus dining partner Chartwells",
+      "One commenter flagged harassment and safety concerns at The Perch dining location",
+      "No positive dining feedback found in any source"
+    ],
+    "key_quotes": [
+      "I don't think it is safe or reasonable to advertise where The Perch or Chartwells is because of their partnership with the Funderburks",
+      "Harassment and false imprisonment is illegal"
+    ],
+    "score": 3
+  },
+  "mental_health": {
+    "key_points": [
+      "No student commentary on counseling or mental health resources found",
+      "Data too sparse to draw meaningful conclusions",
+      "Low subreddit engagement may reflect disconnected campus community"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from current data sources"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cost is the clearest competitive advantage TTU holds over peers",
+      "Students actively weighing TTU against pricier schools like Belmont",
+      "Affordability is the primary reason prospective students consider TTU"
+    ],
+    "key_quotes": [
+      "Should I save and go to TN Tech which is a great school or go to Belmont and pay triple just to be fancy",
+      "TN Tech is a great deal and a great school"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Engineering reputation implied but not specifically praised in data",
+      "Business major workload casually mocked as light by commenters",
+      "No professor callouts, course complaints, or academic depth found"
+    ],
+    "key_quotes": [
+      "The only work you did all day was listening to a zoom call. Sounds like business major all right",
+      "It's a great school"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "A serious unresolved complaint about fire code violations on campus exists",
+      "No student feedback praising admin responsiveness or support",
+      "Institutional transparency appears lacking based on available signals"
+    ],
+    "key_quotes": [
+      "A doorway restriction violates fire codes and standards",
+      "You don't have a phone in my possession"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus visually underwhelms compared to Belmont and UTK",
+      "Cookeville is quiet and unlikely to excite students wanting a vibrant college town",
+      "Alumni nostalgia exists but no current students praise the location"
+    ],
+    "key_quotes": [
+      "Disappointed a bit compared to Belmont and UTK. I would want to see more tech and cooler buildings",
+      "I've never been back, and I can't imagine how much it's changed since then. Looks like I need a road trip back"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No career outcome data, job placement rates, or employer mentions found",
+      "Engineering focus implies decent regional job market but unconfirmed",
+      "Alumni appear to move on and not return, limiting visible career success stories"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from current data sources"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strongest honest case for TTU is price relative to comparable schools",
+      "Students explicitly choosing TTU over Belmont due to cost, not prestige",
+      "Campus quality gap vs. pricier schools is acknowledged but deemed acceptable"
+    ],
+    "key_quotes": [
+      "Should I save and go to TN Tech which is a great school or go to Belmont and pay triple just to be fancy",
+      "TN Tech is a great deal and a great school but it's not as nice"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "TTU projects a quiet, functional, no-frills college experience",
+      "Community pride exists mostly among alumni, not current vocal students",
+      "School chosen by pragmatic students, not passionate ones"
+    ],
+    "key_quotes": [
+      "Missing the smell of the Quad in fall",
+      "It's a great deal and a great school but it's not as nice"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Dining Safety**: Serious public allegations of harassment and false imprisonment tied to campus dining partner",
+      "**Fire Safety**: Public claim that doorway restrictions at campus locations violate fire codes",
+      "**Community Engagement**: Near-zero subreddit activity suggests weak student voice and campus connectivity"
+    ],
+    "key_quotes": [
+      "I don't think it is safe or reasonable to advertise where The Perch or Chartwells is because of their partnership with the Funderburks. Harassment and false imprisonment is illegal",
+      "A doorway restriction violates fire codes and standards"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Volpe Library cited as a real study hub students actually use",
+      "Strong value proposition makes TTU a smart financial choice over flashier schools",
+      "D1 athletics present including tennis with international student recruitment"
+    ],
+    "key_quotes": [
+      "TN Tech is a great deal and a great school",
+      "Should I save and go to TN Tech or go to Belmont and pay triple just to be fancy"
+    ],
+    "score": 6
+  }
+}

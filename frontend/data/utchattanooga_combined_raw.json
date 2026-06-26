@@ -1,0 +1,1565 @@
+[
+  {
+    "id": "moswf3",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "list of colleges with application deadlines still open!",
+    "body": "hey guys! i've talked to some people who would like to apply to a few more colleges if they have the chance, because they aren't totally happy with their choices as of now. i thought i'd make a list of some colleges with deadlines open to help out people who are still applying/want to apply to more schools. (by no means is this list comprehensive, it's just a small sample. these are all also for the fall 2021 semester)\n\nOld Dominion University - April 15\n\nLouisiana State University - April 15\n\nGeorgia State University - May 1\n\nArizona State University - May 1\n\nUniversity of Iowa - May 1\n\nUniversity of Bridgeport - July 28\n\nCanisius College - May 1\n\nTexas State University - May 1\n\nVirginia State University - May 1\n\nUniversity of Arizona - May 1\n\nUniversity of Central Florida - May 1\n\nFlorida Atlantic University - May 1\n\nUniversity of Nebraska (Lincoln) - May 1\n\nAuburn University- June 1\n\nUniversity of Texas at San Antonio - June 1\n\nUniversity of the District of Columbia - June 14\n\nIowa State University - July 1\n\nUniversity of Nevada Las Vegas - July 1\n\nUNC Charlotte - July 1\n\nUT Dallas - July 1\n\nSUNY Farmingdale State College - July 1\n\nUMD Eastern Shore - July 15\n\nUniversity of Northern Iowa - July 26\n\nNova Southeastern University - July 28\n\nSouth Carolina State - July 31\n\nAlabama State - July 31\n\nSUNY Polytechnic Institute - August 1\n\nNorth Dakota State University - August 1\n\nMerrimack College - August 1\n\nUniversity of North Texas - August 1\n\nUniversity of Tennessee Chattanooga - August 1\n\nHofstra University - August 1\n\nWest Virginia State University - August 10\n\nUVA at Wise - August 15\n\nUniversity of Colorado Denver - August 19\n\nUniversity of Michigan Flint - August 20\n\nBluefield College - August 31\n\nYork College - August 31",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/moswf3/list_of_colleges_with_application_deadlines_still/",
+    "upvotes": 573,
+    "date": "2021-04-11T15:36:25.000Z",
+    "author": "ipretendidonotsee",
+    "top_comments": [
+      {
+        "text": "I think University of Northern Iowa is July 26th\n\nP.S. you're amazing for making this list for people!",
+        "upvotes": 69,
+        "author": "Admiralsky",
+        "date": "2021-04-11T16:45:30.000Z"
+      },
+      {
+        "text": "i think umass dartmouth and umass lowell have rolling admissions!",
+        "upvotes": 57,
+        "author": "iowadenier",
+        "date": "2021-04-11T17:20:50.000Z"
+      },
+      {
+        "text": "some schools will still take apps if you email! i know chapman and loyola marymount are this way so if you’re interested in those, check it out!",
+        "upvotes": 24,
+        "author": "feirly",
+        "date": "2021-04-11T22:27:17.000Z"
+      },
+      {
+        "text": "Asu, u nevada reno, u arizona, oregon state, and portland state are all still open and all great for stem!",
+        "upvotes": 15,
+        "author": "blankpapr",
+        "date": "2021-04-11T20:45:42.000Z"
+      },
+      {
+        "text": "Amongst these, which ones are good for engineering if yk?",
+        "upvotes": 14,
+        "author": "qasime",
+        "date": "2021-04-11T20:58:54.000Z"
+      },
+      {
+        "text": "Penn State and Baylor also have rolling admissions!",
+        "upvotes": 9,
+        "author": "Due_Ad_7169",
+        "date": "2021-04-12T00:15:13.000Z"
+      },
+      {
+        "text": "Embry riddle aeronautical university is also open",
+        "upvotes": 7,
+        "author": "VelvetThunder_69",
+        "date": "2021-04-11T20:48:55.000Z"
+      },
+      {
+        "text": "Hofstra is also open!",
+        "upvotes": 6,
+        "author": "devembre",
+        "date": "2021-04-11T20:47:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "s3ofbw",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "An analysis of 2,461 college emails (+ fun)",
+    "body": "With senioritis kicking in hard, I’ve had lots of motivation to do random projects and not much motivation to do school work. Anyways, instead of Spanish homework I’ve analyzed all 2,461 emails I received from colleges. As far as I can tell, most of these emails are a result of signing up for one (1) virtual college fair in junior year. I didn't actively sign up for any email lists, though scheduling visits likely caused some of them.\n\n# Interesting Statistics\n\n* Average emails per school: **21.8**\n* Median emails per school: **17**\n* Emails from schools I applied to: **212**\n* Day with the most emails: **October 1 with 31 emails**\n* First school to email me: **North Carolina State University**\n* Longest email: **“Spring's Springing: UChicago Updates and Opportunities!”**\n* Most common words: **University, college, and apply**\n\n# [Click here for a chart!](https://i.imgur.com/id7j6iw.png)\n\nNotice how emails slow significantly after November (early decision).\n\n# Biggest Spammers\n\n1. Loyola Marymount University - **90**\n2. Montana State University - **86**\n3. Columbia University - **81**\n4. Rider University - **63**\n5. Bradley University - **60**\n\n# Brand New Email Subjects\n\nA [Markov Chain](https://setosa.io/ev/markov-chains/) is a statistical model that simulates a sequence of events given the outcome of the previous event. They can be used to generate random sentences when “trained” on a big chunk of text. Using 13,426 words taken from email subjects, here are some of the funniest results, edited for grammar.\n\n* **Join America’s war in Afghanistan #WorthIt**\n   * Skidmore + University of Tennessee\n* Columbia University application date approaches &lt;name&gt;, look out\n   * Columbia + Ohio State + Case Western + Kenyon\n* Want to education? Discover your future, &lt;name&gt;\n   * &lt;State School&gt; + Boston University + Pace\n* Oh Fair &lt;name&gt;, want to save lives?\n   * &lt;Many Possibilities&gt; + Colorado College\n* Best Outdoor Spots in San Jose. You've Won Trading Cards!\n   * Tulane + UChicago + Tulane\n* Experienced academic inspiration? Drop it by Nov. 1\n   * Loyola Marymount + Boston University + UC Merced + Ohio State\n* Looking to show you care about diversity and Stanford? #ExperienceLMU\n   * Syracuse University + Willamette + Montana State + Stanford + Loyola Marymount\n* Cornellian! What it means at Haverford.\n   * Cornell + Brandeis + Haverford\n* Cheers on stellar academics!\n   * Loyola Marymount + Baylor\n\n# T20 Schools\n\n1. Princeton - **4**\n2. Columbia - **81**\n3. Harvard - **3**\n4. MIT - **0**\n5. Yale - **0**\n6. Stanford - **0**\n7. UChicago - **55**\n8. UPenn - **19**\n9. Caltech - **0**\n10. Duke - **0**\n11. JHU - **3**\n12. Northwestern - **29**\n13. Dartmouth - **0**\n14. Brown - **0**\n15. Vanderbilt - **0**\n16. WashU - **15**\n17. Cornell - **39**\n18. Rice - **0**\n19. Notre Dame - **16**\n20. UCLA - **0**\n\n# Final Notes\n\nI downloaded my Gmail emails using [Google Takeout](https://takeout.google.com/) and my Yahoo emails using [Thunderbird](https://www.thunderbird.net/en-US/). For Yahoo, I was left with 1,000+ `.eml` files which I combined into a single `.mbox` file. I then combined the Yahoo `.mbox` file with the Gmail `.mbox` file. I parsed that one file using PHP's built-in IMAP functions. It was about 90MB but only took a fraction of a second to process. I then picked out the data I wanted (subject, date, email address, etc) and added it to an [SQLite](https://www.sqlite.org/index.html) database for easy querying. The chart at the beginning was created using [Highcharts](https://www.highcharts.com/).\n\nI was inspired by [Popopopper123's post](https://www.reddit.com/r/ApplyingToCollege/comments/aibmii/a_brief_analysis_of_2374_college_emails/) and [5105100's post](https://www.reddit.com/r/ApplyingToCollege/comments/gcswb4/an_analysis_of_3069_college_emails/).\n\nLet me know if you have any questions!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/s3ofbw/an_analysis_of_2461_college_emails_fun/",
+    "upvotes": 230,
+    "date": "2022-01-14T09:34:46.000Z",
+    "author": "hyseven",
+    "top_comments": [
+      {
+        "text": "try including brown's pre-college programs and i bet my ding dong it will take #1",
+        "upvotes": 107,
+        "author": "adsfafdshbjs",
+        "date": "2022-01-14T10:52:44.000Z"
+      },
+      {
+        "text": "THE EMAIL SUBJECTS I CANT BREATHE",
+        "upvotes": 29,
+        "author": "dominaxe",
+        "date": "2022-01-14T10:52:23.000Z"
+      },
+      {
+        "text": "Duh, you can't get emails from St. Anford; it doesn't exist.",
+        "upvotes": 27,
+        "author": "supermario8038",
+        "date": "2022-01-14T10:07:39.000Z"
+      },
+      {
+        "text": "damn, you must've been really motivated. and bored.",
+        "upvotes": 15,
+        "author": "jxrha",
+        "date": "2022-01-14T13:25:22.000Z"
+      },
+      {
+        "text": "I’ve been saving all of my physical college mail so I’ll probably do something similar with that in the spring",
+        "upvotes": 9,
+        "author": "BlobfishAreCute",
+        "date": "2022-01-14T16:03:50.000Z"
+      },
+      {
+        "text": "This is very interesting! I wonder what region of the US you're from because I didn't get a single email from UPenn or Notre Dame. Also you got so many more Cornell emails than me and I'm an admitted student (':",
+        "upvotes": 6,
+        "author": "Ok-Outlandishness799",
+        "date": "2022-01-14T13:06:37.000Z"
+      },
+      {
+        "text": "mit yale stanford duke caltech dartmouth brown vandy rice ucla chad",
+        "upvotes": 5,
+        "author": "[deleted]",
+        "date": "2022-01-14T12:04:18.000Z"
+      },
+      {
+        "text": "if only i had this much motivation and time on my hands. id be curing cancer and inventing never-ending toilet paper or something lol",
+        "upvotes": 4,
+        "author": "TenaciousTaterTot",
+        "date": "2022-01-14T18:01:20.000Z"
+      },
+      {
+        "text": "Ok now calculate the IQR and Standard deviation of this.",
+        "upvotes": 2,
+        "author": "1123TK",
+        "date": "2022-01-15T07:31:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "637fqa",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Official student experiences/perspectives and college pros/cons compilation megathread",
+    "body": "*Welcome to the official student experiences/perspectives and college pros/cons compilation megathread!* \n\nIn this thread, you will only see the names of colleges as the top level comments. Top level comments containing the names of colleges will act as requests. Each comment must only contain one college name. You may want to include alternative or full forms of a college's name (e.g. UCSD vs. UC San Diego). The comments for the top level comments will either be links to current posts or space for current college students to write a post to share details about their college.\n\nIf this paragraph was a little confusing, don't fret! I have started the process for some colleges. Make sure you use my template when you begin contributing! \n\n---\n\n**Please respect this thread's rules by only making college names the top level comments. Remember: a comment can only contain the name of a single college. Any other types of top level comments will be removed. Before you comment with the name of a college, ensure it hasn't been posted yet!**\n\n**To reduce subreddit flooding, mods will begin deleting [Request] threads soon. We hope this thread is at least a viable band-aid solution.**\n\n---\n\n**Pro tip:** If you want to find the name of a college without scrolling, use CTRL+F on Windows and Command+F on Mac, and type in the name of the college you are looking for.\n\n---\n\n**UPDATE 1:** This thread will be locked until all current links can be posted.\n\n**UPDATE 2 (3:40 PM UTC):** Examples are in place, and the post has been unlocked. You may begin contributing!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/637fqa/official_student_experiencesperspectives_and/",
+    "upvotes": 154,
+    "date": "2017-04-03T15:20:38.000Z",
+    "author": "xByteZz",
+    "top_comments": [
+      {
+        "text": "Cal poly SLO Engineering",
+        "upvotes": 1,
+        "author": "YAOWNYS",
+        "date": "2017-04-10T22:34:44.000Z"
+      },
+      {
+        "text": "Princeton University",
+        "upvotes": 1,
+        "author": "xByteZz",
+        "date": "2017-04-03T15:23:15.000Z"
+      },
+      {
+        "text": "The Ohio State University",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2017-04-03T23:53:12.000Z"
+      },
+      {
+        "text": "Rensselaer Polytechnic Institute",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2017-04-03T23:43:10.000Z"
+      },
+      {
+        "text": "Emory",
+        "upvotes": 1,
+        "author": "Xelarock",
+        "date": "2017-04-03T18:42:46.000Z"
+      },
+      {
+        "text": "Georgetown University",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2017-04-14T21:09:04.000Z"
+      },
+      {
+        "text": "UC Boulder",
+        "upvotes": 1,
+        "author": "agentsmudge724",
+        "date": "2017-04-06T14:04:56.000Z"
+      },
+      {
+        "text": "University of Maryland college park",
+        "upvotes": 1,
+        "author": "Vu004",
+        "date": "2017-04-03T17:55:01.000Z"
+      },
+      {
+        "text": "Michigan State University",
+        "upvotes": 1,
+        "author": "johnny021ify",
+        "date": "2017-04-22T23:26:43.000Z"
+      }
+    ]
+  },
+  {
+    "id": "5zx89k",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "[Megathread] UCLA: discussions, results, hype!",
+    "body": "This megathread should serve as the only thread for users to discuss anything UCLA admissions-related. This includes results as well. Any other posts about UCLA will be removed at moderator discretion from here on out.\n\nOf course, please be civil and thoughtful.\n\n**SPECULATED DECISION RELEASE TIME:** 5 PM PST (12 AM UTC)\n\n– /u/xByteZz and the mods",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/5zx89k/megathread_ucla_discussions_results_hype/",
+    "upvotes": 131,
+    "date": "2017-03-17T12:15:47.000Z",
+    "author": "xByteZz",
+    "top_comments": [
+      {
+        "text": "Now that there's UC Hicago, is UCLA still the second best UC?",
+        "upvotes": 94,
+        "author": "[deleted]",
+        "date": "2017-03-17T12:53:08.000Z"
+      },
+      {
+        "text": "R\n\nE\n\nJ\n\nE\n\nC\n\nT\n\nE\n\nD\n\n\n\nB\n\nO\n\nY\n\nS",
+        "upvotes": 69,
+        "author": "4tlu",
+        "date": "2017-03-18T00:13:56.000Z"
+      },
+      {
+        "text": "If anyone needs a picture of this year's rejection letter, I gotchu fam",
+        "upvotes": 44,
+        "author": "Frowsty",
+        "date": "2017-03-17T14:49:27.000Z"
+      },
+      {
+        "text": "\"Eh, all UCs are safeties except LA and Cal. I'll be okay.\" - me.\n\n\"Eh, LA probably isn't even a good school anyways.\" - also me.",
+        "upvotes": 42,
+        "author": "KingQuantic",
+        "date": "2017-03-18T00:31:30.000Z"
+      },
+      {
+        "text": "&gt; more than 102,000 high school seniors applied for admission to UCLA for fall 2017.\n\nRip me in pepperonis.\n\n[Source] (http://newsroom.ucla.edu/releases/ucla-breaks-several-records-with-2017-freshman-applications)",
+        "upvotes": 38,
+        "author": "[deleted]",
+        "date": "2017-03-17T15:39:10.000Z"
+      },
+      {
+        "text": "All the best for everyone who applied!!!",
+        "upvotes": 33,
+        "author": "kyuujo",
+        "date": "2017-03-17T12:20:27.000Z"
+      },
+      {
+        "text": "Portal just went down. \n\n&gt;The Admission Decision site is currently unavailable. We expect to be back up later this evening.\n\n&gt;Sincerely,\n\n&gt;UCLA Undergraduate Admission\n\nLet's gooooo",
+        "upvotes": 30,
+        "author": "ZhangDynasty",
+        "date": "2017-03-17T16:13:03.000Z"
+      },
+      {
+        "text": "if I get in then I will be an atheist no longer",
+        "upvotes": 28,
+        "author": "Daftpunk107",
+        "date": "2017-03-18T00:05:50.000Z"
+      },
+      {
+        "text": "IT'S 5 P.M. C'MON UCLA GET WITH IT. I need my rejection already",
+        "upvotes": 22,
+        "author": "Un-helpfulComments",
+        "date": "2017-03-18T00:00:44.000Z"
+      },
+      {
+        "text": "i've just immediately regretted applying with nursing as my first choice major and psych as my second. i'll be at DISNEYLAND when the decisions are released, aka i'm going to be unhappy at the happiest place on earth... so much for senior ditch day :)",
+        "upvotes": 21,
+        "author": "17black",
+        "date": "2017-03-17T19:53:30.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1bb4h1d",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Rejected by UCI, but I think I'm fine now",
+    "body": "I was rejected to UCI. I was feeling super down yesterday because literally four of my friends got in, and it just made me feel really stupid. I mean, I know I couldn't get in anyway because my grades were horrible during junior year compared to my grades in previous years, but it still sucked.\n\nBut I just hope I get accepted into SDSU or UCSD (uhhh... probably not UCSD cause then again my grades sucked but I dream of going to Westfield UTC all the time lol).\n\nHonestly, regardless of where I go, junior year me would be very surprised about me even going to university! I mean, I was accepted to CSUSM!! Which... well, to some it's not really an accomplishment, but I was truly happy when I got the acceptance letter because last year I didn't think I'd make it into a university! And I was accepted into one! :) So yeah, I think about that and I feel okay!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1bb4h1d/rejected_by_uci_but_i_think_im_fine_now/",
+    "upvotes": 50,
+    "date": "2024-03-10T07:23:19.000Z",
+    "author": "Careful_Commission20",
+    "top_comments": []
+  },
+  {
+    "id": "ifhahq",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "I made a deadline board for me, anyone else needs it?",
+    "body": "[https://imgur.com/vhu7PLg](https://imgur.com/vhu7PLg)\n\n&amp;#x200B;\n\n* **Update (August 24, 2020 22:25 UTC +5:45)**\n\n**#Bug Fix:** Earlier empty entry could have been added. Now it won't.  If you have installed web app for this then you need to uninstall and clear data for this site. But it some cases you will need to clear site data compulsorily, and this will cause deletion of previous entries. I hope you can manage this now.\n\n&amp;#x200B;\n\n* **Update (August 24, 2020 13:00 UTC +5:45)** \n\nHere is the link to the main stuff: [https://days2deadline.web.app/](https://days2deadline.web.app/)\n\n**#Note:** Only use on devices with a widescreen like iPad Pro, iPad Air, Laptops, Desktops. Don't use this on your phone. Its not optimized for that.\n\n**#Recommended Browser:** Chrome-v70, Microsoft Edge (Chromium)-v70, Firefox-v70, Safari (iPad OS 13, macOS Mojave)\n\n**#Privacy:** This thing works completely offline. You just need to open the website for the first time and install the app ([Like this](https://cdn.guidingtech.com/imager/assets/2019/12/249109/Install-Uninstall-Pwa-in-Chrome-2_4d470f76dc99e18ad75087b1b8410ea9.png?1576590492)). Your entries/data will be stored as your browser AppData \\[info for tech geeks\\].\n\nHappy college applying to all and me🙂🙂",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/ifhahq/i_made_a_deadline_board_for_me_anyone_else_needs/",
+    "upvotes": 42,
+    "date": "2020-08-24T03:15:07.000Z",
+    "author": "MUKUND16",
+    "top_comments": [
+      {
+        "text": "You know CommonApp does this automatically?",
+        "upvotes": 7,
+        "author": "mordiscasrios",
+        "date": "2020-08-24T03:31:50.000Z"
+      },
+      {
+        "text": "Cool, is it open source?",
+        "upvotes": 2,
+        "author": "themindstorm",
+        "date": "2020-08-24T08:23:24.000Z"
+      },
+      {
+        "text": "How can we get that? I have friends who would be all over it.",
+        "upvotes": 1,
+        "author": "VentiUnicornFrappe",
+        "date": "2020-08-24T03:30:40.000Z"
+      },
+      {
+        "text": "Send homie",
+        "upvotes": 1,
+        "author": "Atticus326",
+        "date": "2020-08-24T03:41:30.000Z"
+      },
+      {
+        "text": "i have a good idea of what colleges I want to apply to but I think tmrw ill actually make a list",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2020-08-24T06:49:35.000Z"
+      },
+      {
+        "text": "Can u do those for universities abroad?",
+        "upvotes": 1,
+        "author": "Iamtheman1313",
+        "date": "2020-08-25T04:40:34.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1glhbx0",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Data analysis: 102 colleges and how many locals voted for Trump",
+    "body": "In my [admissions and financial aid database](https://docs.google.com/spreadsheets/d/1otwtaKUYreI1MZsWzmKW5eu-mHVJLnZik8HP2HrTtZs/), I decided to include the percentage of residents in the county where colleges are located voted for Donald Trump for President. This data is from 2020, but when county (and hopefully precinct-level) data become available, I'll update it. You can find data for a few additional colleges at the link.\n\nNote that counties vary in size. Cities are almost always in one county. New York is an exception, and often cities are contiguous with a county (e.g. San Francisco and Philadelphia. This doesn't necessarily reflect culture on campus, but it's interesting to know. \n\n|College|City|Name of the state|Region|County|% of county pop. that voted for Trump in 2020|\n:--|:--|:--|:--|:--|--:|\n|Amherst College|Amherst|Massachusetts|Northeast (New England)|Hampshire County|25%|\n|Barnard College|New York|New York|Northeast (Mid-Atlantic)|New York County|12%|\n|Bates College|Lewiston|Maine|Northeast (New England)|Androscoggin County|49%|\n|Berea College|Berea|Kentucky|Southeast|Madison County|62%|\n|Boston College|Chestnut Hill|Massachusetts|Northeast (New England)|Middlesex County|26%|\n|Boston University|Boston|Massachusetts|Northeast (New England)|Suffolk County|17%|\n|Bowdoin College|Brunswick|Maine|Northeast (New England)|Cumberland County|30%|\n|Brown University|Providence|Rhode Island|Northeast (New England)|Providence County|38%|\n|Bryn Mawr College|Bryn Mawr|Pennsylvania|Northeast (Mid-Atlantic)|Montgomery County|36%|\n|Bucknell University|Lewisburg|Pennsylvania|Northeast (Mid-Atlantic)|Union County|61%|\n|California Institute of Technology (Caltech)|Pasadena|California|West Coast|Los Angeles County|27%|\n|Carleton College|Northfield|Minnesota|Midwest (Great Plains)|Rice County|49%|\n|Carnegie Mellon University|Pittsburgh|Pennsylvania|Northeast (Mid-Atlantic)|Allegheny County|39%|\n|Case Western Reserve University|Cleveland|Ohio|Midwest (Great Lakes)|Cuyahoga County|32%|\n|Claremont McKenna College|Claremont|California|West Coast|Los Angeles County|27%|\n|Colby College|Waterville|Maine|Northeast (New England)|Kennebec County|48%|\n|Colgate University|Hamilton|New York|Northeast (Mid-Atlantic)|Madison County|54%|\n|College of the Holy Cross|Worcester|Massachusetts|Northeast (New England)|Worcester County|39%|\n|College of William and Mary|Williamsburg|Virginia|Southeast|Williamsburg City|28%|\n|Colorado College|Colorado Springs|Colorado|West (Rocky Mountains)|El Paso County|54%|\n|Columbia University (College and SEAS)|New York|New York|Northeast (Mid-Atlantic)|New York County|12%|\n|Cornell University|Ithaca|New York|Northeast (Mid-Atlantic)|Tompkins County|24%|\n|Dartmouth College|Hanover|New Hampshire|Northeast (New England)|Grafton County|37%|\n|Davidson College|Davidson|North Carolina|Southeast (Deep South)|Mecklenburg County|32%|\n|Denison University|Granville|Ohio|Midwest (Great Lakes)|Licking County|63%|\n|Duke University|Durham|North Carolina|Southeast|Durham County|18%|\n|Emory University|Atlanta|Georgia|Southeast (Deep South)|DeKalb County|16%|\n|Florida State University|Tallahassee|Florida|Southeast|Leon County|35%|\n|Franklin \\&amp;amp; Marshall College|Lancaster|Pennsylvania|Northeast (Mid-Atlantic)|Lancaster County|57%|\n|Georgetown University|Washington|Dist. of Columbia|Northeast (Mid-Atlantic)|District of Columbia|5%|\n|Georgia Institute of Technology (Georgia Tech)|Atlanta|Georgia|Southeast (Deep South)|Fulton County|26%|\n|Grinnell College|Grinnell|Iowa|Midwest (Great Plains)|Poweshiek County|56%|\n|Hamilton College|Clinton|New York|Northeast (Mid-Atlantic)|Oneida County|56%|\n|Harvard University|Cambridge|Massachusetts|Northeast (New England)|Middlesex County|26%|\n|Harvey Mudd College|Claremont|California|West Coast|Los Angeles County|27%|\n|Haverford College|Haverford|Pennsylvania|Northeast (Mid-Atlantic)|Delaware County|36%|\n|Johns Hopkins University|Baltimore|Maryland|Northeast (Mid-Atlantic)|Baltimore City|11%|\n|Lafayette College|Easton|Pennsylvania|Northeast (Mid-Atlantic)|Northampton County|49%|\n|Lehigh University|Bethlehem|Pennsylvania|Northeast (Mid-Atlantic)|Northampton County|49%|\n|Macalester College|St. Paul|Minnesota|Midwest (Great Plains)|Ramsey County|26%|\n|Massachusetts Institute of Technology (MIT)|Cambridge|Massachusetts|Northeast (New England)|Middlesex County|26%|\n|Middlebury College|Middlebury|Vermont|Northeast (New England)|Addison County|29%|\n|Mount Holyoke College|South Hadley|Massachusetts|Northeast (New England)|Hampshire County|25%|\n|New York University (NYU)|New York|New York|Northeast (Mid-Atlantic)|New York County|12%|\n|North Carolina State University-Raleigh|Raleigh|North Carolina|Southeast|Wake County|36%|\n|Northeastern University|Boston|Massachusetts|Northeast (New England)|Suffolk County|17%|\n|Northwestern University|Evanston|Illinois|Midwest (Great Lakes)|Cook County|24%|\n|Occidental College|Los Angeles|California|West Coast|Los Angeles County|27%|\n|Ohio State University|Columbus|Ohio|Midwest (Great Lakes)|Franklin County|33%|\n|Pitzer College|Claremont|California|West Coast|Los Angeles County|27%|\n|Pomona College|Claremont|California|West Coast|Los Angeles County|27%|\n|Princeton University|Princeton|New Jersey|Northeast (Mid-Atlantic)|Mercer County|29%|\n|Purdue University-West Lafayette|West Lafayette|Indiana|Midwest (Great Lakes)|Tippecanoe County|48%|\n|Rice University|Houston|Texas|South (Central)|Harris County|43%|\n|Rutgers University-New Brunswick|Piscataway|New Jersey|Northeast (Mid-Atlantic)|Middlesex County|38%|\n|Skidmore College|Saratoga Springs|New York|Northeast (Mid-Atlantic)|Saratoga County|46%|\n|Smith College|Northampton|Massachusetts Northeast (New England)|Hampshire County|25%|\n|Spelman College|Atlanta|Georgia|Southeast (Deep South)|Fulton County|26%|\n|Stanford University|Stanford|California|West Coast|Santa Clara County|25%|\n|SUNY - Stony Brook University|Stony Brook|New York|Northeast (Mid-Atlantic)|Suffolk County|50%|\n|Swarthmore College|Swarthmore|Pennsylvania|Northeast (Mid-Atlantic)|Delaware County|36%|\n|Texas A\\&amp;amp;M University-College Station|College Station|Texas|South (Central)|Brazos County|56%|\n|Trinity College|Hartford|Connecticut|Northeast (New England)|Capitol Planning Region|35%|\n|Trinity University|San Antonio|Texas|South (Central)|Bexar County|40%|\n|Tufts University|Medford|Massachusetts|Northeast (New England)|Middlesex County|26%|\n|Union College|Schenectady|New York|Northeast (Mid-Atlantic)|Schenectady County|41%|\n|University of California-Berkeley|Berkeley|California|West Coast|Alameda County|18%|\n|University of California-Davis|Davis|California|West Coast|Yolo County|28%|\n|University of California-Irvine|Irvine|California|West Coast|Orange County|44%|\n|University of California-Los Angeles|Los Angeles|California|West Coast|Los Angeles County|27%|\n|University of California-Merced|Merced|California|West Coast|Merced County|44%|\n|University of California-San Diego|La Jolla|California|West Coast|San Diego County|37%|\n|University of California-Santa Barbara|Santa Barbara|California|West Coast|Santa Barbara County|33%|\n|University of Chicago|Chicago|Illinois|Midwest (Great Lakes)|Cook County|24%|\n|University of Florida|Gainesville|Florida|Southeast|Alachua County|36%|\n|University of Georgia|Athens|Georgia|Southeast (Deep South)|Clarke County|28%|\n|University of Illinois at Urbana-Champaign|Champaign|Illinois|Midwest (Great Lakes)|Champaign County|37%|\n|University of Maryland-College Park|College Park|Maryland|Northeast (Mid-Atlantic)|Prince George's County|9%|\n|University of Massachusetts-Amherst|Amherst|Massachusetts|Northeast (New England)|Hampshire County|25%|\n|University of Michigan-Ann Arbor|Ann Arbor|Michigan|Midwest (Great Lakes)|Washtenaw County|26%|\n|University of Minnesota-Twin Cities|Minneapolis|Minnesota|Midwest (Great Plains)|Hennepin County|27%|\n|University of North Carolina at Chapel Hill|Chapel Hill|North Carolina|Southeast|Orange County|24%|\n|University of Notre Dame|Notre Dame|Indiana|Midwest (Great Lakes)|St. Joseph County|46%|\n|University of Pennsylvania|Philadelphia|Pennsylvania|Northeast (Mid-Atlantic)|Philadelphia County|18%|\n|University of Richmond|Richmond|Virginia|Southeast|Richmond City|15%|\n|University of Rochester|Rochester|New York|Northeast (Mid-Atlantic)|Monroe County|38%|\n|University of Southern California|Los Angeles|California|West Coast|Los Angeles County|27%|\n|University of Texas at Austin|Austin|Texas|South (Central)|Travis County|27%|\n|University of Virginia|Charlottesville|Virginia|Southeast|Albemarle County|32%|\n|University of Washington-Seattle|Seattle|Washington|West Coast|King County|22%|\n|University of Wisconsin-Madison|Madison|Wisconsin|Midwest (Great Lakes)|Dane County|23%|\n|Vanderbilt University|Nashville|Tennessee|Southeast|Davidson County|32%|\n|Vassar College|Poughkeepsie|New York|Northeast (Mid-Atlantic)|Dutchess County|44%|\n|Villanova University|Villanova|Pennsylvania|Northeast (Mid-Atlantic)|Delaware County|36%|\n|Virginia Tech (Polytech. Inst. \\&amp;amp; State U.)|Blacksburg|Virginia|Southeast|Montgomery County|46%|\n|Wake Forest University|Winston-Salem|North Carolina|Southeast|Forsyth County|42%|\n|Washington and Lee University|Lexington|Virginia|Southeast|Lexington City|33%|\n|Washington University in St. Louis|St. Louis|Missouri|Midwest (Great Plains)|St. Louis County|37%|\n|Wellesley College|Wellesley|Massachusetts|Northeast (New England)|Norfolk County|30%|\n|Wesleyan University|Middletown|Connecticut|Northeast (New England)|Lower Connecticut River Valley Planning Region|41%|\n|Williams College|Williamstown|Massachusetts|Northeast (New England)|Berkshire County|25%|\n|Yale University|New Haven|Connecticut|Northeast (New England)|South Central Connecticut Planning Region|41%|\n\n",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1glhbx0/data_analysis_102_colleges_and_how_many_locals/",
+    "upvotes": 26,
+    "date": "2024-11-07T03:32:38.000Z",
+    "author": "AppHelper",
+    "top_comments": [
+      {
+        "text": "Thank you so much . These good posts are rare to find these days.",
+        "upvotes": 6,
+        "author": "Active_Plenty_2187",
+        "date": "2024-11-07T14:56:14.000Z"
+      },
+      {
+        "text": "This is interesting data. Thanks for posting. \n\nGeorgetown is at 5 percent.",
+        "upvotes": 2,
+        "author": "andyn1518",
+        "date": "2024-11-08T01:26:47.000Z"
+      }
+    ]
+  },
+  {
+    "id": "8pi01x",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Interested in applying to Computer Science programs? Consider these tips and advice, UT-Austin and Turing Scholars as a case study [OC]",
+    "body": "Studying Computer Science at the University of Texas at Austin is a tremendous opportunity. That means there are many applicants competing for a limited number of admissions spaces. UTCS sees a record number of applicants each year not just from Texas but from out-of-state and foreign applicants.\n\n\n**UT Computer Science and Turing Scholars Admissions Statistics**\n\n\nApplicant numbers to Computer Science have skyrocketed since 2010. Assuming a similar rate of increase, it's possible that more than 3,800 students attempted to gain admission for about 570 spaces in Fall 2018.\n\nIt's safe to assume that less than 15% of UT Computer Science applicants will gain admission for Fall 2019 first-time freshman applicants. That makes UTCS on par with some of the most selective programs nationwide.\n\nThere's no getting around it, admission to UT Computer Science is ridiculously difficult.\n\n[Here are the applicant and admitted student numbers from 2010-2016.](https://static1.squarespace.com/static/5746fa0b40261dea55fd563d/t/5b1a2344352f538f3090db08/1528439634658/Computer+Science.png?format=750w)\n\nCompetitive applicants to Computer Science at a minimum come from the top 10% of their senior class scoring at least 1450 on the SAT. I've seen applicants with stronger credentials than this who routinely get denied.\n\nApplicants interested in Turing Scholars Honors should have almost perfect academics meaning a ranking higher than 2% in your senior class scoring around a 1550/34 on the SAT/ACT. A Turing admitted student reported that in their welcome orientation session, Turing staff said they admitted only 14 out of 80 valedictorians (82% denied).\n\nBeing number 1 in your class and/or scoring perfect on the ACT/SAT unfortunately won't be enough for most Turing applicants. Reviewers are looking for a particularly deep interest in computer science with a demonstrated track of independent study, personal projects, and/or succeeding at the national/international level. Taking AP Computer Science and even scoring a 5 isn't enough.\n\nGaining admission to Turing is comparable to getting into most selective programs like UC-Berkeley, Georgia Tech, Cal Tech, and MIT.\n\nIf you have below average rank or test scores, it may be possible to gain admission if you submit a particularly compelling application that will bring a different perspective to the classroom and Honors community.\n\nI present this data not to discourage you but to provide context for your chances of gaining admission. It's important that you submit your strongest application possible. \n\n\n**Maximizing your UT-Austin Computer Science admissions chances**\n\n\nReviewers are looking for a demonstrated commitment to activities and interests related to computer science. Because so many students apply, they can be selective about who they choose. Although CS/Programming/Robotics experience is not necessary to get in, it definitely helps.\n\nThe reality is that, with access to a ton of independent study and resource options that are either free or inexpensive, today's teenager has access to way more opportunities than when I was applying to college. Admissions staff regularly sees applicants with a high level of competency, so it's important that you set yourself apart.\n\nEven though applicants may be doing really neat things, they're not always good at expanding upon their activities in their resume or elaborating on their interests and showing how they're a good fit for computer science in their essays.\n\nLike any other program, reviewers are looking for self-starters, students who can work independently and/or in groups, curiosity and passion about their future studies. Reviewers want to see that you spend your free time tinkering and exploring just because it will help your admissions chances but because you can't imagine doing anything else.\n\nThere is a huge range of successful kinds of Computer Science applicants, and most of them won't have a typical resume of leadership experience, volunteer hours, or your standard list of extracurricular activities.\n\nAll things equal, independent study will almost always look more impressive than joining an organization or contributing to an already established project.\n\n\n**Possible activities and information to include in your Apply Texas Essay A, UT Short Answers, and your expanded resume**\n\n\nThis is not an exhaustive list, but it should give you an idea of some things to consider in your own portfolio based on what I've seen other successful applicants submit. You need to be as explicit as possible about:\n\n* Which programming languages and software you know\n* What resources you've used to learn and your level of competency (elementary, intermediate, proficient, expert)\n* Any independent projects, applications, or games you've developed\n* Leadership positions in niche or underrepresented communities like women in STEM or a Hispanic robotics team\n* Advanced mathematics beyond high school calculus like linear algebra or differential equations\n* STEM extracurricular activities like robotics, Technology Student Association, Science Olympiad, Intel ISEF, etc.\n* Consider including your personal site if you want to give reviewers the chance to look at your work (they won't always do so)\n* If you've conducted research with a professor, note any publications that may be in progress, the journal, and if you're a sole or co-author\n* Unpaid internships or paid employment with technology companies or start-ups\n* Certificates, open-source courses, or university credits you have earned and the approximate number of hours it took for completion\n* Related community service or volunteer projects (like building a website for a non-profit, creating a record keeping software for an animal shelter, constructing and managing a mailing list, etc)\n* Experience and/or demonstrated competency in graphic design, video editing, search engine optimization, online marketing, digital publishing, cryptocurrency, architectural/engineering/statistics software, music production, 3D printing\n* Unconventional activities that are important to you but may be unfamiliar to your reviewers yet are important to you\n* Special circumstances or obstacles you've overcome, i.e. not having AP Computer Science at your school, no access to mentors with relevant experience, starting your own club, not having internet at home\n\nFor activities or interests that are most interesting to you, consider spending at least some parts of your essays providing context why they interest you, how it helps shape your current and future academic/professional goals, and why you would be a good fit for your choice of major.\n\nYou should also consider discussing why UT-Austin specifically is a great fit for you. I suggest that you explicitly identify at least a few resources, student organizations, professors, research labs, upper-division coursework, and professional opportunities in Austin and why you are uniquely interested in UT.\n\nMany applicants competing for spaces at most selective universities nationwide don't do enough to say why they are applying besides just \"it's ranked really high\" and \"it might make me a lot of money in the future.\" \n\nIf you feel that Computer Science is too competitive, you might try related majors like Computational Engineering, College of Fine Arts, Arts and Entertainment Technology, or studying an unrelated major and earning an 18 hour certificate from the Computer Science Department.\n\nI hope that you find this information helpful and constructive. For current CS university students, feel free to chime in with your tips and advice. You've obviously got a lot more direct experience with this process than me.\n\n- Kevin\n\nkevin@texadmissions.com",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/8pi01x/interested_in_applying_to_computer_science/",
+    "upvotes": 19,
+    "date": "2018-06-08T07:32:37.000Z",
+    "author": "BlueLightSpcl",
+    "top_comments": [
+      {
+        "text": "I’m a current CS undergrad (though not at UT). This is all good advice.  You’re right that CS isn’t just for money grubbers- it’s hard, and the people who truly aren’t into it often get weeded out (some intro courses have 35%+ drop rates).  So I’d recommend doing some research on programs before applying just to ensure you aren’t getting yourself into something you’ll hate. Don’t get caught up in the Silicon Valley buzzword hype!\n\nI’ve seen some students recommend that you apply to schools as an “easier” major and transfer to CS.  This might work for some schools, but bear in mind that transferring in at top schools can be just as competitive, if not more competitive than actually getting in in the first place.  So don’t bank on that. \n\nAdmissions questions should be directed to OP, but if anyone wants to know more about majoring in CS, check out /r/csmajors or PM me.",
+        "upvotes": 2,
+        "author": "Hoosierthrowaway23",
+        "date": "2018-06-08T11:18:34.000Z"
+      },
+      {
+        "text": "&gt;just because it will help your admissions chances but because you can't imagine doing anything else.\n\nnot because?",
+        "upvotes": 2,
+        "author": "ninja542",
+        "date": "2018-06-08T16:37:11.000Z"
+      },
+      {
+        "text": "&gt; It's safe to assume that less than 15% of UT Computer Science applicants will gain admission for Fall 2019 first-time freshman applicants. That makes UTCS on par with some of the most selective programs nationwide.\n\nseems like a fallacy to me.\n\n&gt;UC-Berkeley, Georgia Tech, Cal Tech, and MIT\n\nThe first two maybe.",
+        "upvotes": 1,
+        "author": "bbm9",
+        "date": "2018-06-08T14:38:37.000Z"
+      },
+      {
+        "text": "*beep beep* Hi, I'm JobsHelperBot, your friendly neighborhood jobs helper bot! My job in life is to help you with your job search but I'm just 263.7 days old and I'm still learning, so please tell me if I screw up. *boop*\n\nIt looks like you're asking about job search advice. But, I'm only ~9% sure of this. Let me know if I'm wrong!\n\nHave you checked out Forbes, LiveCareer, TalentWorks? They've got some great resources:\n\n* https://www.forbes.com/sites/karstenstrauss/2017/03/07/job-hunting-tips-for-2017/#794febea5c12\n* https://www.livecareer.com/quintessential/15-job-hunting-tips\n* https://talent.works/automate-your-job-search",
+        "upvotes": 1,
+        "author": "JobsHelperBot",
+        "date": "2018-06-08T15:47:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "682oym",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Post Military College",
+    "body": "I get out of the Marines next year and I want to begin looking for schools.  I was looking at Duke or UT Knoxville.  I like the outdoors so UTC looks like a better place to be but Duke is the better school.  Also not sure if I could get into Duke.  Is anyone here a vet that has been through the process and could give some advice?  I've never taken the SAT/ACT because I joined right out of highschool but I did score a 94 on the ASVAB.  Do I need to take the SAT?  I had 3.8/4.0 GPA in highschool.\n\nIf this is the wrong sub reddit or if I am breaking any rules let me know and I'll delete this post.  Many thanks.",
+    "url": "https://www.reddit.com/r/college/comments/682oym/post_military_college/",
+    "upvotes": 11,
+    "date": "2017-04-28T13:41:30.000Z",
+    "author": "SeldomScene",
+    "top_comments": [
+      {
+        "text": "/r/ApplyingToCollege  might be better.  \n\n/r/militarytransition  isn't bad either.  \n\nMost colleges will require you to take the SAT, or otherwise provide their admissions test requirements - whatever they are.  \n\nhttp://colleges.startclass.com/l/3053/Duke-University  \n\nDuke is a private university, so your GI Bill has less power &amp; value there compared to a public school.  \n\nBe aware it is possible for you to request &amp; declare residency in a new state as part of your EAS process. There are hoops to leap through, but if you wanted to become a NC resident to gain better access to Chapel Hill or whatever, there is a process for that.  \n\nWorst Case: If you choose to not take the SAT, you could get a shit job and pay for community college out of pocket, collect enough credits to transfer then turn on your GI Bill (remember: you get 3 years of GI Bill funding, then it goes poof) to complete your Bachelor's degree.",
+        "upvotes": 8,
+        "author": "VA_Network_Nerd",
+        "date": "2017-04-28T13:59:12.000Z"
+      },
+      {
+        "text": "Did you take any courses in the Marines? \n\nYou don't have to take the SAT, but you should get in touch with the veteran's benefits administrators at the schools ASAP and the admissions office to see what you need to do.",
+        "upvotes": 4,
+        "author": "_TheAtomHeartMother_",
+        "date": "2017-04-28T13:52:07.000Z"
+      },
+      {
+        "text": "My boyfriend is a veteran, I'll ask him what's the process like when it comes to applying for schools. He's currently sleeping but, I'll get back to you soon.",
+        "upvotes": 4,
+        "author": "coochers",
+        "date": "2017-04-28T14:13:54.000Z"
+      },
+      {
+        "text": "There are pipelines and resources to get vets into a ton of elite schools (Columbia, Dartmouth, Georgetown, Duke and others). Assuming you're trying to get in for Fall 2018, PM me and I'll fill you in.",
+        "upvotes": 3,
+        "author": "SpartanAesthetic",
+        "date": "2017-04-28T14:38:17.000Z"
+      },
+      {
+        "text": "Are you looking to go straight to a university or would community college be a viable option for a bit? I went to a community college because it was cheaper and helped me with transitioning back into school from the marines. It will also be easier to go to a university after your associates. This is the route i took though so take it with a grain of salt.",
+        "upvotes": 3,
+        "author": "swifferlifterupper",
+        "date": "2017-04-28T16:30:23.000Z"
+      },
+      {
+        "text": "Hey man!  Congrats on your (soon-to-be) exit from the military.  I work in the Vets financial aide and enrollment office at my college and id be happy to help you with what ever questions you have.  I go to a top ten college for veterans and its located in the most beautiful place in the world (NAU), check us out.   Look into schools with high veteran services ratings, it REALLY helps when it comes to getting internships and scholarship awards etc (i just got home from a veterans scholarship banquet and pulled down 3k of free cash money)    You dont have to take the SAT, but you might have to take placement tests to see which classes you will need to start out with.  \n\nWhen you get out, do your very best to get over a 30% disability rating so that you qualify for the VA's VocRehab program.  It pays 100% tuition, books, supplies and you will get BAH equal to E-5 w/ dependents.  You also wont have a time limit, you go to school until you are done with your degree. Also, get a STEM degree.  Dont be silly and get a liberal arts degree or you will be poor af when you graduate.  When it comes to internships, look into USAA.  They are amazing.  Best of luck!",
+        "upvotes": 2,
+        "author": "-Dr_Strangelove-",
+        "date": "2017-04-28T19:12:19.000Z"
+      },
+      {
+        "text": "So I got out and started school just two years ago.  Honestly its a good idea to take an SAT before you get out as you should be able to take it free through educational services.  I'm pretty sure most universities still require the SAT or ACT, mine did.\n\nAs for schools if go to a private U like Duke, check and see what tuition is, and if it is higher than the in-state tuition of the state schools, (pretty sure Duke is), make sure they have the yellow ribbon program, and find out how hard it is to enroll in it.  If you cant get it you will be paying some tuition every year out of pocket.\n\nDo you have any service connected disabilities?  You may be eligible for VocRehab, they will pay for more than 4 years of school if you wanted to do say an accelerated PA program or something.  Also to qualify you only need 1 day of GI bill eligibility so you could in theory go to school on the GI bill for 3 years and switch.  \n\nThings to remember, save money up, you only get BAH when taking classes.  During breaks, winter and summer, you get paid nothing while not taking classes, so year round programs are awesome.  If you are not 100% certain what degree program you want research secondary options at the schools you apply to.  I started in PharmD, spent a year part time in a pharmacy and changed my mind.  I have friends that are PAs and was able to shadow.  I found it a better option for me.  It was my back up and I was able to switch over because I lined up classes so that the first 2 years were identical.  \n\nOnce you've been accepted follow up a lot.  Before I switched to VocRehab I managed to get one of only a few yellow ribbon spots becauae I harrased the U weekly.  Finally, most private universities dont have a huge specific veterans office the way a lot of public universities do.  That being said, almost always there are a lot of vets working at schools so they can help you figure your benefits out.\n\nHope this helps somewhat, feel free to hit me up if you have more questions.",
+        "upvotes": 1,
+        "author": "Dogtown2025",
+        "date": "2017-04-28T21:33:41.000Z"
+      },
+      {
+        "text": "I'm a vet and currently enrolled at UTC. Ask me any questions you want. \n\nAs far as the ACT/SAT, I know that I had to submit my scores when I applied, but I also know that it was for me to be able to get into high enough calculus classes. \n\nLet me know if you have any questions. You can PM me or post it here.",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2017-04-29T02:04:41.000Z"
+      },
+      {
+        "text": "Hey, brother, I separated from the Army this past November and will be attending college this fall. If you have any specific questions or just want to talk about it, feel free to PM me. As far as the SAT goes, you should go to your education center and speak with one of the reps there; you can take the SAT for free while you're in. Somebody at the ed center should be able to give you exact details and dates, as well as studying materials. \n\nIf you know specific schools you want to apply to and even what you want to major in, you could contact their admissions and veterans offices to get exact details on what will be required, but I imagine a school like Duke might still want you to take the SAT, as a prestigious school like that will get many veteran applications each admission's cycle, so you want to have the strongest application possible. Don't just give them the minimums. I was able to get into some pretty decent schools despite a less than stellar SAT, but having it on there definitely didn't hurt me.\n\nAlso, I'm not sure what they call them in the Marines, but you will have to do some transition classes to help prepare you for the move to civilian, and in those they will make you set up a bunch of your benefits information, as well as show you how to access your military transcript. If you have done any high speed schooling while in the Marines, most colleges will do their best to try and transfer those to some sort of credits for you. I know Ranger School, for example, is converted into credit as a leadership class at almost every school out there. Most schools will give you a physical education credit, too, just because of all the PT you did while in the service.\n\nAgain, if you have any other questions, feel free to ask, and good luck on the transition!",
+        "upvotes": 1,
+        "author": "NeoNoireWerewolf",
+        "date": "2017-04-29T05:49:00.000Z"
+      },
+      {
+        "text": "Hey, I was in the Navy and am currently going to school in TN.  The head of veteran's affairs at my school used to work at UTK and he said they've got a really strong support network up there on top of it being a good school.  Duke is obviously a fantastic school and I'm sure it has veteran's resources available as well.  If you have no previous college credit you will likely need to take the SAT/ACT, which I'm pretty sure you can get scheduled through your command's educational person (I've been out for a bit and forgot the proper title).  You have a very good high school GPA and with your military experience, which may help you get into Duke.  Let me know if you have any other questions about the process.",
+        "upvotes": 1,
+        "author": "ReactorOperator",
+        "date": "2017-04-29T13:54:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "sqlft5",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "UT Austin vs NEU for CS job placement?",
+    "body": "Hi all, I was fortunately accepted into both UT Austin and NEU(nu in) for Computer Science for fall 2022, and I'm having a really hard time deciding between the two.\n\nI'm an intl student and I will literally get deported if I don't have a job by the time I graduate, so the job placement rate is absolutely essential to me.\n\nI knew about NEU's excellent co-ops program but on the other hand, UTCS has a higher ranking and more prestige, with big techs actively recruiting from there. I've been digging around for a while but I haven't found a comparative analysis of the job placement scenes of the two schools, and I'd really appreciate if any cs grads/current students from UT and NEU can give me some opinions!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/sqlft5/ut_austin_vs_neu_for_cs_job_placement/",
+    "upvotes": 9,
+    "date": "2022-02-12T06:59:14.000Z",
+    "author": "WeebLogisctics",
+    "top_comments": [
+      {
+        "text": "UT without a doubt. Especially because you’re dealing with NU In.\n\nNeither will hinder you significant, but UT is far better.",
+        "upvotes": 17,
+        "author": "Berkeley_Simp",
+        "date": "2022-02-12T07:45:50.000Z"
+      },
+      {
+        "text": "You won't have a problem getting a job if you go in for CS at either of these schools - both have excellent academics and great placements... So look at other factors like costs, location, weather, etc to make a final decision.",
+        "upvotes": 6,
+        "author": "prsehgal",
+        "date": "2022-02-12T07:39:48.000Z"
+      },
+      {
+        "text": "Neither will hold you back from getting a job.  Most of what will determine whether you find a job comes down to \\*you\\* rather than the school name on your diploma.  Personally, I'd go with UT-Austin, but if you'd prefer to live in the New England area then NEU is also a fine choice.",
+        "upvotes": 4,
+        "author": "[deleted]",
+        "date": "2022-02-12T15:18:06.000Z"
+      },
+      {
+        "text": "Hopefully you get more data points, but the one person I know who went to UT got a job at FB right out of college. Unfortunately don't know anyone who went to NEU.",
+        "upvotes": 3,
+        "author": "abnew123",
+        "date": "2022-02-12T07:01:36.000Z"
+      },
+      {
+        "text": "Both are good, UT is probably better for cs marginally",
+        "upvotes": 3,
+        "author": "[deleted]",
+        "date": "2022-02-12T20:52:02.000Z"
+      },
+      {
+        "text": "NU’s coops give you experience and hard skills which is MUCH more important than just attended a slightly more prestigious university. I know many people at Northeastern who studied computer science and worked at NASA, Google, Apple, liberty mutual, small start ups for their coops and go to work for these companies right out of graduation",
+        "upvotes": 3,
+        "author": "Witty-Evidence6463",
+        "date": "2022-02-18T02:15:37.000Z"
+      }
+    ]
+  },
+  {
+    "id": "ulkdwn",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "I have little to no ECs and am at the end of my junior year",
+    "body": "Hi, I am currently a junior and my main problem is that I don’t have any significant ecs. I am part of a few clubs at my school relating to my interest in CS, but I am just a member. I have made it to state in one of my clubs and won awards in both sophomore year and this year, but pretty much nothing else. I used to do lots of coding competitions as part of my own club in freshman year, but I feel like after covid i gradually stopped doing anything outside of school. I am certified in Java as well as Python though and have programmed a lot on my own with small projects, just not as much this year. I started developing two applications on my own, but I lost interest quickly in it as I struggled with many bugs and errors, but I know I have to go through with it in order to put something on my application. I haven’t actually programmed in many months outside of the state competition I did this year and have forgotten many of what I learned.\n\nI guess what I’m trying to say is that I have an interest in CS and have done some stuff here and there, but nothing really special to show for it. I also don’t have any significant leadership positions, community service, or volunteering outside of school as I only have a few hours from NHS. I did do a highly selective leadership program through my school this year, but this is pretty much the extent of my leadership experiences. I also don’t have a job.\n\nOn the bright side (I guess), I am very academically strong, with a high GPA, class rank, and test score. I have also taken lots of AP courses (14 by end of high school) and I am taking all the AP exams. I live in Texas and I am in the top 2% of my class.\n\nWith all that said, I really want to get into UT Austin for Computer Science, for which although I am auto-admitted, I am not guaranteed my major. Over the next 5-6 months I have until I have to finish my applications, what can I do to go from where I am right now to being a highly competitive applicant for UTCS? Is it even possible or do I have to give up on this? I don’t want to end up at a mediocre college for which I could have gotten into without good academic stats.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/ulkdwn/i_have_little_to_no_ecs_and_am_at_the_end_of_my/",
+    "upvotes": 8,
+    "date": "2022-05-09T05:48:59.000Z",
+    "author": "WittyAd627",
+    "top_comments": [
+      {
+        "text": "I doubt you’ll make any significant headway with EC’s at this point, but try stuff like volunteer organizations and actually stick with it.",
+        "upvotes": 5,
+        "author": "UnkeptSpoon5",
+        "date": "2022-05-09T12:47:43.000Z"
+      },
+      {
+        "text": "AT this point, it will be pretty difficult to develop a \"spike\" in your ECs to help you stand out. Focus on keeping your grades strong, and maybe try to work on an app and strengthen your programming skills. Maybe even get into volunteering. I believe your grades and course load are great and will help you end up in a decent school. Even if you don't, your work ethic and CS skills will carry on into college. Best of luck!",
+        "upvotes": 4,
+        "author": "mrbarelysub50",
+        "date": "2022-05-09T17:13:54.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1cdvtb4",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "My daughter is having a tough time making her college decision. Help!",
+    "body": "She needs a decision by May 1st. She has narrowed it down to four schools: Rhodes College, Lees McRae College,  Mississippi State University, and University of Tennessee Chattanooga. (Listed in order of most costly to least.) She has varying degrees of scholarships at each school, so the biggest price difference would be $10,000/year. She is interested in pursuing a Biology or Zoology related degree. Her dream job would is to be a research director at a zoo. Each school has its positives and negatives, and vastly different student culture. If you can you offer any insight into any of these schools, that she may not have considered, it could help her in her decision. ",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1cdvtb4/my_daughter_is_having_a_tough_time_making_her/",
+    "upvotes": 8,
+    "date": "2024-04-26T20:33:31.000Z",
+    "author": "goodvintage",
+    "top_comments": [
+      {
+        "text": "I toured Lee's McRae, seems like a nice enough school though a bit pricey, I think they have some sort of animal rehabilitation center or something so she could probobly get some sort of experience with that there? It's so pretty omg I loved the old timey stonework looking buildings, I know literally nothing about the other schools, does she need to do grad school for what she wants to do? If so then cost should be more highly prioritized since grad school is expensive, good luck to her on this",
+        "upvotes": 5,
+        "author": "[deleted]",
+        "date": "2024-04-26T22:58:02.000Z"
+      },
+      {
+        "text": "How can we know what she has considered when you haven't listed the positives and negatives and her opinion on the culture?\n\nYou will likely get better responses if you use this template https://new.reddit.com/r/ApplyingToCollege/comments/1bz2bx5/help\\_me\\_decide\\_x\\_vs\\_y\\_example\\_template/",
+        "upvotes": 3,
+        "author": "CherryChocolatePizza",
+        "date": "2024-04-26T21:34:11.000Z"
+      }
+    ]
+  },
+  {
+    "id": "113f9zx",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "What is the gap between UTCS and MIT/Stanford/Berkeley CS?",
+    "body": "I was recently admitted to UT Austin for CS in-state, and I plan on going there, but I can’t help but wonder what would have happened if I applied to MIT as well. I initially thought that I would end up at A&amp;M or UTD with a substantial amount of scholarships since my academics were good and not my ecs, but after getting into Purdue, UMD, UIUC, and UT, I’m starting to ask myself if I could have gotten in. I applied EA to only public schools in T10 and no RD just cause I was too lazy to do them and I thought that there was a minimal chance.\n\nThere’s no point thinking about it now, but my question is would UTCS in-state be the best option for me? Even if I had gotten into MIT or Stanford or Berkeley, I’d have to pay an extra 30-40K per year there, but would it have been worth it? How much of a gap is there between UT and the #1 colleges including everything academic and career related? Would it matter much for someone like me who is aiming to go to the top graduate schools in academia rather than traditional software engineering jobs?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/113f9zx/what_is_the_gap_between_utcs_and/",
+    "upvotes": 7,
+    "date": "2023-02-16T02:10:07.000Z",
+    "author": "PresentFar4299",
+    "top_comments": [
+      {
+        "text": "There isn't any difference between UT Austin CS and MIT CS that'd make MIT worth an extra 30-40k per year. It's not like you've gotten into some random state school; you've gotten into T10 CS schools. You'll still get what you need for your career. Besides, if you're going into academia, you shouldn't put yourself in debt at UC Berkeley.",
+        "upvotes": 12,
+        "author": "Excellent-Season6310",
+        "date": "2023-02-16T02:27:32.000Z"
+      },
+      {
+        "text": "Take the W",
+        "upvotes": 10,
+        "author": "PrestigiousGrade7874",
+        "date": "2023-02-16T12:03:08.000Z"
+      },
+      {
+        "text": "UT Austin has an amazing CS program, so don't overthink it save yourself around 160K, which can shortens any \"gap\" that you can think of.",
+        "upvotes": 10,
+        "author": "prsehgal",
+        "date": "2023-02-16T02:42:31.000Z"
+      },
+      {
+        "text": "don't dwell on not having applied to MIT and Stanford, you got into an amazing CS program. i was also too lazy to apply to mit and stanford and didn't think i would get in but i got into UT for engineering and im really looking forward to possibly attending UT in the fall",
+        "upvotes": 10,
+        "author": "peachgummii",
+        "date": "2023-02-16T15:27:29.000Z"
+      },
+      {
+        "text": "hookem dude. take the dub. ur gonna have an amazing college experience and get a top ten cs education at the same time.",
+        "upvotes": 5,
+        "author": "GroundbreakingCar714",
+        "date": "2023-02-16T16:05:33.000Z"
+      },
+      {
+        "text": "UT CS is amazing, but it’s no where near MIT/Stanford level. \n\nMIT/Stanford are extremely generous with aid, so they probably wouldn’t be $30k/yr more than UT (unless your parents income is very high, in which case they would be able to chip in a significant amount for MIT/Stanford). \n\nThe gap between UT CS and Berkeley CS is not as huge (at the undergrad level at least), especially if you’re in Turing for UT, and Berkeley doesn’t give any aid to OOS, so I probably wouldn’t go to Berkeley CS if I was in state for UT.",
+        "upvotes": 4,
+        "author": "[deleted]",
+        "date": "2023-02-16T03:31:31.000Z"
+      },
+      {
+        "text": "I made a post about going into academia, see https://www.reddit.com/r/berkeley/comments/111ur4i/will_a_berkeley_degree_make_a_big_difference/j8hadr4/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf&amp;context=3. For undergrad UT is totally fine. However, for doctorate you should try your darnedest to get into the above schools (especially Stanford and Berkeley), read the post and the study mentioned in there and you’ll see why.",
+        "upvotes": 1,
+        "author": "AceRodent",
+        "date": "2023-02-16T02:47:24.000Z"
+      },
+      {
+        "text": "Definitely not worth it for Berkeley. MIT / Stanford maybe with financial aid",
+        "upvotes": 0,
+        "author": "FunSign5087",
+        "date": "2023-02-16T08:41:40.000Z"
+      }
+    ]
+  },
+  {
+    "id": "dpxwx1",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "hooray, we get twelve hours less",
+    "body": "*cries in UTC+8*",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/dpxwx1/hooray_we_get_twelve_hours_less/",
+    "upvotes": 5,
+    "date": "2019-11-01T02:05:14.000Z",
+    "author": "tigerintaiwan_610572",
+    "top_comments": [
+      {
+        "text": "the deadline is november 1 in your time zone im pretty sure??",
+        "upvotes": 2,
+        "author": "imaginationwell",
+        "date": "2019-11-01T03:14:48.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1fjex2f",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Free college app month",
+    "body": "Sorry if this is common knowledge (and for the formatting), but I hope it helps someone out. Disclaimer: I have no idea if this is only for TN residents. \n\nSEPTEMBER 1-30:\nAUSTIN PEAY STATE UNIVERSITY: APAPPLY2024\nBETHEL UNIVERSITY\nEAST TENNESSEE\nSTATE UNIVERSITY: TNFREEAPP25\nFISK UNIVERSITY\nJOHNSON UNIVERSITY: GO2JU\nLEE UNIVERSITY: APPLYTN\nTENNESSEE TECH UNIVERSITY\nUNIVERSITY OF ALABAMA HUNTSVILLE code TEXT24\nUNION UNIVERSITY: code FALL24 OR TN2025\nUNIVERSITY OF MEMPHIS\n\n\nONE WEEK ONLY:\nBELMONT UNIVERSITY: SEPT. 15-21\nCODE: TNWEEK\nLIPSCOMB UNIVERSITY: SEPT. 16-30\nCODE: THEC24\n\nWeek of Sept 16-20:\nMIDDLE TENNESSEE STATE UNIVERSITY\nUNIVERSITY OF TENNESSEE CHATTANOOGA CODE: FREEAPP25\nUNIVERSITY OF TENNESSEE KNOXVILLE\nUNIVERSITY OF TENNESSEE MARTIN\nVANDERBILT UNIVERSITY",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1fjex2f/free_college_app_month/",
+    "upvotes": 5,
+    "date": "2024-09-17T23:52:39.000Z",
+    "author": "snippets_s",
+    "top_comments": []
+  },
+  {
+    "id": "1rxdw6k",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "W&amp;L this Friday (lowk alrdy know I'm getting rejected)",
+    "body": "\n\n# Your Regular Decision Application\n\nDear Name,\n\nWe are writing to inform you that on **Friday, March 20**, beginning at **8:00 p.m. Eastern Daylight Time (UTC -4 hours)**, your admission decision will be available through your account in our online applicant porta",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1rxdw6k/wl_this_friday_lowk_alrdy_know_im_getting_rejected/",
+    "upvotes": 4,
+    "date": "2026-03-18T19:37:58.000Z",
+    "author": "Equal_Wafer_7677",
+    "top_comments": [
+      {
+        "text": "Yea I haven’t heard anything from them and my app was mid im cooked",
+        "upvotes": 2,
+        "author": "argus_dorian8",
+        "date": "2026-03-18T19:41:26.000Z"
+      },
+      {
+        "text": "I'm nervous",
+        "upvotes": 1,
+        "author": "taytayamazing",
+        "date": "2026-03-18T20:00:17.000Z"
+      },
+      {
+        "text": "After applying decided I didn’t really like this school. Interviewer was not super bright I feel bad saying but it was all around a kinda blah experience",
+        "upvotes": 1,
+        "author": "Commercial_Ad8072",
+        "date": "2026-03-18T20:55:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1k83z45",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "please help a super indecisive girl choose btwn ucsd and ucd!!",
+    "body": "ucd\n\npros:\n- not so close to home (want new experiences)\n- like the vibes (small college town, everyone looks pretty happy there)\n- i dont want to be somewhere competitive, thrive in more supportive environments\n- professors are more accessible/easier to get ecs/internships (so ive heard)\n- so much prettier than ucsd imo\n\ncons:\n- currently a social science major and i think its kind of hard to switch majors there (im super indecisive)\n- want to switch to cogsci and i heard the majors kind of a mess\n- small town is nice but i feel like i’d explore it all in two weeks and then go crazy with nothing else to do\n\nucsd\n\npros:\n- more opportunities for research, internships, etc?\n- high ranked for the major i want to go into (cogsci)\n- more things to do, (i LOVE the beach, utc, trolley goes into downtown, etc)\n\ncons:\n- more competitive atmosphere\n- got sorted into eleanor roosevelt college and the gen eds terrify me\n- super close to home (want to experience something new, lived in san diego my whole life)\n- not sure if i want to commit to cogsci so dont want to commit just bc the major is better??",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1k83z45/please_help_a_super_indecisive_girl_choose_btwn/",
+    "upvotes": 4,
+    "date": "2025-04-26T03:51:14.000Z",
+    "author": "KneeInner7474",
+    "top_comments": [
+      {
+        "text": "UCD sounds better for you. Main pros of UCSD are related to cogsci and if you’re not sure you want that, choose UCD. Btw, I totally get you I’m super indecisive and have been crashing out about my decisions too 😭",
+        "upvotes": 7,
+        "author": "Doggosrthebest24",
+        "date": "2025-04-26T03:59:18.000Z"
+      },
+      {
+        "text": "choose ucsd, you dont ever want to choose a school that offered you a secondary major when you have a peer school offering your main. plus, sd is a league above davis",
+        "upvotes": 3,
+        "author": "NaoOtosaka",
+        "date": "2025-04-26T04:01:49.000Z"
+      },
+      {
+        "text": "* Individual college threads: [2025 RD Discussion + Results](https://www.reddit.com/r/ApplyingToCollege/comments/1ibqphw/2025_regular_decision_discussion_results/)\n* If you've completed the admissions process, consider taking the [2025 Census Survey](https://www.reddit.com/r/ApplyingToCollege/comments/1jmtpdv/2025_ra2c_census_survey_details_inside/)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ApplyingToCollege) if you have any questions or concerns.*",
+        "upvotes": 1,
+        "author": "AutoModerator",
+        "date": "2025-04-26T03:51:15.000Z"
+      }
+    ]
+  },
+  {
+    "id": "ehz1i7",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "LOCAL TIME ZONE OF MYSELF OR MY SCHOOL???",
+    "body": "My high school is in California (UTC-8), but I’m now in New Zealand (UTC+13). When will be the actual deadline for me? Will it be January 1st 11:59 p.m. New Zealand time or Pacific (California) time?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/ehz1i7/local_time_zone_of_myself_or_my_school/",
+    "upvotes": 3,
+    "date": "2019-12-31T06:21:37.000Z",
+    "author": "azpikachu",
+    "top_comments": [
+      {
+        "text": "Wait this is so trippy because I also live in California and I’m also in New Zealand rn haha",
+        "upvotes": 2,
+        "author": "idrisalicante",
+        "date": "2019-12-31T08:46:50.000Z"
+      },
+      {
+        "text": "Pacific time most likely",
+        "upvotes": 1,
+        "author": "bakedcowboyy",
+        "date": "2019-12-31T08:06:11.000Z"
+      },
+      {
+        "text": "Where are u rn",
+        "upvotes": 1,
+        "author": "deb8trader",
+        "date": "2019-12-31T08:17:58.000Z"
+      },
+      {
+        "text": "It depends on current location",
+        "upvotes": 1,
+        "author": "deb8trader",
+        "date": "2019-12-31T08:18:11.000Z"
+      }
+    ]
+  },
+  {
+    "id": "77slug",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Questions for the Subreddit - From an admissions counselor",
+    "body": "Good morning, as the post states, I've worked in Higher Education and Admissions since 2011 with roughly 1.5 years off, both institutions I have worked for reside in the Southeastern US and are similar in their backgrounds. \n\n\nIn my time I've recruited local areas, out of state areas close to us and have had the pleasure of conducting visits in the Northeast (specifically NH, MA, NY, CT). One particular question springs to mind for our future scholars here who live in areas with high COL and high tuition rates (20k plus for tuition alone). Have you looked outside your region for possible institutions?\n\nI ask this because there are plenty of quality and hidden gem public and private schools in the SE and Midwest, especially within Medicine, Business and Engineering and very few of which reside in backwoods/ college towns. A few examples that come to mind are University of Alabama in Huntsville, Alabama A&amp;M, University of Alabama at Birmingham, Georgia Southern, West Florida, University of Tennessee Chattanooga, East Tennessee State, Middle Tennessee State, Western Kentucky, Murray State and South Alabama.\n\n\nBear in mind that despite the name recognition, UAH AND UAB are EXTREMELY different in style and feel than their sister school in Tuscaloosa. Same applies for Tennessee-Chattanooga compared to their sister school in Knoxville. \n\n\nA majority of these institutions have total out of state costs of less than 30k and include merit scholarships. Providing a discounted education rate, solid graduation rates (most of these started as commuter schools with low rates that have increased exponentially in the last 2 decades) and great experiences along with outstanding graduate and doctoral programs to get you where you need to be. \n\n\nMy question to those of you who are outside of the Southeast or Midwest, how willing are you travel that far away from home? Those of you from those states, what myths and rumors have you heard about these smaller state schools?\n\n\nAs mentioned before, even though I work in Admissions, my goal is to assist students with great placement in Higher Education. As long as you're taking a positive step towards your future, I'm happy!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/77slug/questions_for_the_subreddit_from_an_admissions/",
+    "upvotes": 3,
+    "date": "2017-10-21T10:14:54.000Z",
+    "author": "Rhine1906",
+    "top_comments": [
+      {
+        "text": "I would consider some of these schools as safeties, but I just can't see myself being there. I am Jewish and keep Kosher, so problem number 1 is there is not a large Kosher selection at any of these schools, and even if there was I don't think I'd feel comfortable being there. Also, most people end up living near where they went to college, and I don't want anything to do with the midwest or south, with maybeeeeeeeeeee the exception of chicago suburbs",
+        "upvotes": 9,
+        "author": "Luckyawesome43",
+        "date": "2017-10-21T12:17:10.000Z"
+      },
+      {
+        "text": "I know this comment is going to sound kinda bad, but I'd rather pay the difference to go to Tuscaloosa. In my case, I'd only be paying room and board, and to me, that's worth it for a more reputable and bigger college",
+        "upvotes": 3,
+        "author": "MaddenRegular",
+        "date": "2017-10-21T12:59:52.000Z"
+      },
+      {
+        "text": "I live in Metro Detroit, and people generally don’t go out of state for smaller, u heard of colleges, myself included. If we want something smaller, there’s options in state or the states adjacent to us. Most people only go oos for higher level colleges.",
+        "upvotes": 2,
+        "author": "empireof3",
+        "date": "2017-10-21T14:29:14.000Z"
+      },
+      {
+        "text": "This sub is really geared towards the \"ivy or bust\" type of students, so you're not going to get answers representative of normal high school seniors here. Personally, I wouldn't travel far from home to go to any of those schools because there are really good public schools in my state. I haven't heard of any of those besides Bama",
+        "upvotes": 2,
+        "author": "klarinette",
+        "date": "2017-10-21T17:02:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1hpdwn4",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "I don't know how to make a college list.",
+    "body": "When I make my college list I feel like I have no connection to any of the schools and I have no real reason to apply to any of them. I want to major in Electrical Engineering (with a possible double major in math) and I want to aim for a top school (as you can see later on) but I am also considering a PhD (for literally no good reason beyond me being the first in my family to do so, which is obviously dumb).  I am lowkey interested in research but not 100% sure because I literally have 0 experience as a sophomore in HS. Anyways here's the current list (My aim is to cut it down to around 10 schools or so): \n\nMIT, Caltech, Olin College, Carnegie Mellon, Stanford, Copper Union, Boston University, Georgia Tech, UMich, UPenn, UMass Amherst, North Carolina State University, UW Madison, UT Knoxville, and UT Chattanooga. \n\n I am a TN resident so I get In-state for UTK and UTC, this makes basically every school except those 2 ridiculously expensive beside maybe the privates, So those maybe the first off of my list (Unless I get a good aid package). If you recommend any schools that are more cost effective please LMK! If you need anymore info please LM, I am so lost right now and i want to plan well ahead so I don't get overwhelmed &lt;3",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1hpdwn4/i_dont_know_how_to_make_a_college_list/",
+    "upvotes": 2,
+    "date": "2024-12-30T03:29:15.000Z",
+    "author": "1000000000000Pencils",
+    "top_comments": [
+      {
+        "text": "Start w budget first.  Do you know what it will be? \n\nIf low, prob remove UMich, Ga Tech, the other publics.",
+        "upvotes": 2,
+        "author": "throwawaygremlins",
+        "date": "2024-12-30T03:33:33.000Z"
+      },
+      {
+        "text": "Putting the list of colleges aside, as a sophomore, you've got to get solid 5 and A in AP physics 1,2 and C to be considered by elite EE programs. If you can show off your strong interests and accomplishments in physics and math, I would say you would get decent financial aid package from the best private schools.",
+        "upvotes": 2,
+        "author": "Charming-Bus9116",
+        "date": "2024-12-30T04:11:10.000Z"
+      },
+      {
+        "text": "Hi, similarly, I want to go into EE and I am a sophomore. Currently this is what I have Stanford, CMU, MIT, UIUC, UMich at Ann-Arbor, UCLA, Georgia Tech, Cornell, Princeton, Purdue, and Texas A&amp;M University. My list is based off ranking from US News, location, school life, and other factors so make sure these schools resonate well with you. Please DM why I don’t have some schools and why I have others. Also, maybe we could collaborate on a project since we both interested in EE and we are both clearly ambitious.",
+        "upvotes": 2,
+        "author": "Downtown-Climate-576",
+        "date": "2024-12-30T09:33:48.000Z"
+      },
+      {
+        "text": "This thread has great advice on college research and where to start: [https://www.reddit.com/r/ApplyingToCollege/comments/1dbdcbo/how\\_do\\_you\\_research\\_colleges/](https://www.reddit.com/r/ApplyingToCollege/comments/1dbdcbo/how_do_you_research_colleges/)\n\nBut also, as a side note--if budget is a factor, best to not apply to as many need-aware or expensive schools. You'll want to tweak this list. Options that are too expensive are not options!",
+        "upvotes": 1,
+        "author": "No-Stress602",
+        "date": "2024-12-30T03:36:11.000Z"
+      },
+      {
+        "text": "MIT EECS would be good for you",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2024-12-30T05:13:34.000Z"
+      }
+    ]
+  },
+  {
+    "id": "17mddzt",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "JHU Early Decision 1 Extension",
+    "body": "Am I tripping or did JHU extend their ED1 deadline?? Did anyone else receive this email? Has this ever been done before?\n\n\nThis was the email:\n\nWe’re extending our Early Decision I deadline\n \nIt looks like you indicated an interest in applying Early Decision I (EDI) to Hopkins but didn't submit your completed application by the November 1 deadline.\n\nIf Hopkins remains your first-choice school and you haven't already applied Early Decision to another institution, you may submit your EDI application by the extended deadline of Wednesday, November 8, 2023, at 11:59 p.m. Eastern Standard Time (UTC-05:00).\n\n   Apply via Common App\n   Apply Coalition on Scoir\nKeep in mind, Early Decision is a binding agreement to enroll if admitted. If you decide that applying Early Decision II or Regular Decision best fits your plans, the application deadline is January 2.\n\nWe appreciate your interest in Johns Hopkins University and look forward to reviewing your application.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/17mddzt/jhu_early_decision_1_extension/",
+    "upvotes": 2,
+    "date": "2023-11-02T20:49:08.000Z",
+    "author": "thunderstar56789",
+    "top_comments": [
+      {
+        "text": "Marketing. Schools want more applicants.\n\nCornell does this every year, and Case just did it. I guess it’s becoming more widespread.",
+        "upvotes": 5,
+        "author": "RichInPitt",
+        "date": "2023-11-02T21:12:38.000Z"
+      }
+    ]
+  },
+  {
+    "id": "164ganq",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "International Hackathon Advice High School (+ looking for a teammate ) -repost-",
+    "body": "Hey! I'm looking for a beginner-friendly hackathon as an international high school student. I'm new to this area and want to develop my coding skills. Currently I know Python, Dart (Flutter), Java, some HTML + CSS, and a little C++. I've written a few apps (so not too bad :)).\n\nI would really appreciate some advice from people who had competed in previous hackathons to know more about where to start!\n\nAlso, if anyone, who is a beginner like me and wants to participate in an hackathons, is interested in teaming up, please feel free to pm me! I'm not expecting to win my first ever hackathon or sth, so if you know a few programming languages and are curious about this kind of things please don't hesitate!\n\nExtra info for easier communication: I'm an international and my time zone is UTC+03:00.\n\nThanks!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/164ganq/international_hackathon_advice_high_school/",
+    "upvotes": 2,
+    "date": "2023-08-29T11:49:40.000Z",
+    "author": "swimmerece",
+    "top_comments": [
+      {
+        "text": "Hi there, I’m a bot and something you said made me think you're looking for help with international admissions!\n\n\nThe first thing you need to understand about admissions to colleges and universities is that you need to come to it with an open mind, so that you can have a balanced list. \n\n[Here’s a folder with lists of colleges that have historically been generous with international students](https://drive.google.com/drive/folders/1pu179ZFhaTlFBqepzIB1W7dPhfVxIle2)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ApplyingToCollege) if you have any questions or concerns.*",
+        "upvotes": 1,
+        "author": "AutoModerator",
+        "date": "2023-08-29T11:49:41.000Z"
+      }
+    ]
+  },
+  {
+    "id": "te6h9e",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "I am considering going to The University of Tennessee at Chattanooga",
+    "body": "I recently toured UTC and loved the campus. I can’t afford UTK and plan to major in computer engineering. I was wondering if UTC was a good school for that? And also, does anyone know of any music scholarships?",
+    "url": "https://www.reddit.com/r/college/comments/te6h9e/i_am_considering_going_to_the_university_of/",
+    "upvotes": 2,
+    "date": "2022-03-14T20:06:43.000Z",
+    "author": "Livedeath334",
+    "top_comments": []
+  },
+  {
+    "id": "a51sg1",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Reverse ChanceMe post Stanford Rejection",
+    "body": "Preferably want a good engineering school with an open, green campus in a warm climate\n\n35 ACT (35, 34, 36 , 35) w 9 on essay\n\n3.72 Unweighted (~4.3 weighted though this is by my own calculation and isn't reported)\n\nHave taken hardest possible course load at my school (we have a low number of AP classes)\n\n790 Math II, 770 US History, 750 Chem\n\n5 on APUSH, Stats, and Spanish, taking Chem, Physics, Calc BC this year\n\nECs (Ik they're kinda weak): 4 years varsity swimmer;4 years ultimate Frisbee team both fall and spring, voted captain this year\n\nHobbies: Lego (both sets and mocs); cycling; working out at gym; video games; car nerd\n\nCommunity Service: though part of a Spanish class, I go to a nearby bilingual elementary school and help with a ESL class, I'm required to put in some of my own time for this\n\nOther notes: Hispanic and native speaker of both Spanish and English; good income; only legacy was to Stanford and BC; first generation American, I have Type 1 Diabetes and wrote my essay about my struggles and learnings from it; want to be a mechanical engineer but got a B+ in chem last year, now in AP Chem I'm on the cusp of an A (92.3), otherwise all A's this year except for 92.4 in history\n\nThanks!\n\nPS sorry for formatting I'm on mobile and will do a quick reverse ChanceMe for you if you help me",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/a51sg1/reverse_chanceme_post_stanford_rejection/",
+    "upvotes": 2,
+    "date": "2018-12-11T00:51:07.000Z",
+    "author": "throwawaysnt",
+    "top_comments": [
+      {
+        "text": "Georgia Tech?",
+        "upvotes": 2,
+        "author": "pdunn472",
+        "date": "2018-12-11T01:10:24.000Z"
+      },
+      {
+        "text": "Virginia Tech?",
+        "upvotes": 1,
+        "author": "WBDawg",
+        "date": "2018-12-11T03:44:55.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1r53e5n",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "UTC vs TAMU",
+    "body": "I got capped at UT and I am wondering if I should go through the program as a engineering major. I also have admission into the TAMU engineering program already. So basically I also want to know if I should forget UT altogether, however I really wanted UT ngl.\n\nAdditionally, I joined the waitlist for UT, so is there anything I can do to improve my chances of getting off? Should I call my regional admissions officer and ask about CAP? Appeal? I kind of am at a loss right now.\n\n**edit:** I guess my best bet is going to TAMU rn, so I am wondering if I could transfer to ut the second year. What are my chances of that?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1r53e5n/utc_vs_tamu/",
+    "upvotes": 1,
+    "date": "2026-02-15T02:46:43.000Z",
+    "author": "Serious-Bug5229",
+    "top_comments": [
+      {
+        "text": "TAMU",
+        "upvotes": 1,
+        "author": "imdealhunter",
+        "date": "2026-02-15T03:08:47.000Z"
+      }
+    ]
+  },
+  {
+    "id": "xsewke",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "How Good is UTC’s Honor’s College?",
+    "body": "Hi, sorry if this is a dumb question as I didn’t really know where to ask this, but I recently got an email from UTC regarding their honor’s college. It said they wanted me to apply, and I decided ‘what the heck’ and chose to look into it while I had some down time in class. Honestly, it seems really good as I’m going to major in kinesiology and the campus life seems really fun. But, all the information I got was from the official site so of course they want to make it seem appealing to applicants lol. \n\nSo I was wondering if it’s actually as good as it seems? Or is it at least a good honors college to attend in state? My grades and ECs are good enough to where I am thinking of applying to Vanderbilt (probably won’t get in but might as well try!), so would I have a chance getting in? Thanks in advance!",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/xsewke/how_good_is_utcs_honors_college/",
+    "upvotes": 1,
+    "date": "2022-09-30T22:43:47.000Z",
+    "author": "Lightstar46",
+    "top_comments": [
+      {
+        "text": "University of TN Chattanooga?",
+        "upvotes": 1,
+        "author": "wiserry",
+        "date": "2022-09-30T23:51:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "7n1hfi",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Deadlines",
+    "body": "(urgent and worried) \nI'm an Indian (time zone UTC + 5:30) and submitting from India. \nAre the deadlines for the common app according to US time zones or would it be according to the country from where I'm submitting? \nAnd also for the CSS profiles. ",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/7n1hfi/deadlines/",
+    "upvotes": 1,
+    "date": "2017-12-30T13:11:48.000Z",
+    "author": "kissmyASSthama_5",
+    "top_comments": [
+      {
+        "text": "Common app says it’s due the deadline in ur time zone. so if it’s 11:59 ur time zone but like 5:59 elsewhere ur out of luck unfortunately",
+        "upvotes": 2,
+        "author": "flutterywords",
+        "date": "2017-12-30T13:36:34.000Z"
+      },
+      {
+        "text": "Just use a vpn and change location to USA to gain 12 more hours",
+        "upvotes": 1,
+        "author": "chancemehmu",
+        "date": "2017-12-30T13:46:11.000Z"
+      },
+      {
+        "text": "it would be according to the US time zone, so you'd just determine what that is in your own time zone :)",
+        "upvotes": -1,
+        "author": "[deleted]",
+        "date": "2017-12-30T13:14:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1s9nili",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "UT Austin CSB vs. Cornell CS vs. Yale CS vs. Columbia Egleston Scholar vs. Berkeley MET",
+    "body": "A brief summary on some of the programs if you aren't too familiar: \n\nCSB at UT Austin is an honors program that usually has only abt 25-30 ppl per year (?). Texas is already T10 Business and CS, but this program puts you in honors for both, and it gives you a leg up in recruiting and clubs/orgs, which would put me in a good spot because it sets me apart at a school that is already good for these things. \n\nColumbia's Egleston Scholars guarantees research, gives a $10k research stipend, special mentorship, and more. It is very selective (top 1% of Columbia Engineering) and has only 15-20 people per year and would set me apart at a top school. \n\nBerkeley MET combines business and CS at Berkeley, which is T3 for both. I included it in the title but am not rlly considering it since I'm OOS and got no aid. \n\n  \n**Aid:** \n\nCornell, Yale, and UT Austin (in-state) are all around the same cost for me with my financial aid packages (the differences are within less than $1k per year lol). Columbia is about $20k more expensive per year.  \n\n**My Thoughts:** \n\nBerkeley is a no due to cost. Columbia's location is good and the Egleston Scholars program is good, but it seems better for people who want to go to grad school, and I just want an industry job. It is also expensive, and Columbia is a bit controversial lately. Yale doesn't really have a good CS program. I was thinking UT Austin since its CS program is on par with Cornell's, but it is Honors, so I am a top part of the pool. I am also very unsure about  Cornell's location. \n\nI am leaning towards UT Austin but wanted your thoughts. \n\n  \n**TLDR: UT Austin, Cornell, and Yale around the same cost but UTCS good and really selective Honors even better, Columbia is more expensive but good location + Egleston, Berkeley WAY too expensive so no. what do yall think**",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1s9nili/ut_austin_csb_vs_cornell_cs_vs_yale_cs_vs/",
+    "upvotes": 1,
+    "date": "2026-04-01T15:18:22.000Z",
+    "author": "Existing_Ladder_8681",
+    "top_comments": [
+      {
+        "text": "&gt;Columbia is about $20k more expensive per year.\n\nAlumnus here. Absolutely no. Throw that option out.\n\nBerkeley and Columbia should be thrown out in the bin. Why pay more at this tier. Let alone noticeably more?\n\nAs someone in this industry who constantly on the Internet mocks Yale's CS program, this is how I would decide:\n\n1. Do you want to do robotics/firmware/hardware (chips/GPU/etc)? Head to Cornell\n2. Do you want to do AI/ML? Head to Cornell\n3. Do you want to stay in academia for grad school? Head to Cornell\n4. Do you want the highest chance to get into quant? Head to Yale\n5. Do you want to do basically anything else in CS? Head to Yale\n\nOn a more serious note (and yes, col blah blah blah):\n\nYale CS new grad: $157k avg starting salary (realistically distorted due to more concentration of quant offers)\n\nCornell CS new grad: $129k avg starting salary\n\nUT CS new grad (yes, it's not CSB but use it as reference): $114.6k\n\n[https://ocs.yale.edu/outcomes/#!eWVhcj0yMDI1O21ham9yPUNvbXB1dGVyIFNjaWVuY2U=](https://ocs.yale.edu/outcomes/#!eWVhcj0yMDI1O21ham9yPUNvbXB1dGVyIFNjaWVuY2U=)\n\n[https://career.cornell.edu/outcomes/#!eWVhcj0yMDI1O2RlZ3JlZV9sZXZlbD1CYWNoZWxvcnM7bWFqb3I9Q29tcHV0ZXIgU2NpZW5jZQ==](https://career.cornell.edu/outcomes/#!eWVhcj0yMDI1O2RlZ3JlZV9sZXZlbD1CYWNoZWxvcnM7bWFqb3I9Q29tcHV0ZXIgU2NpZW5jZQ==)\n\n[https://www.cs.utexas.edu/undergraduate/careers](https://www.cs.utexas.edu/undergraduate/careers)",
+        "upvotes": 3,
+        "author": "Fwellimort",
+        "date": "2026-04-01T15:24:09.000Z"
+      },
+      {
+        "text": "All fantastic opportunities, but Yale is Yale and will open may doors.",
+        "upvotes": 3,
+        "author": "JellyfishFlaky5634",
+        "date": "2026-04-01T18:06:29.000Z"
+      },
+      {
+        "text": "If you get in to Yale, you go there. Pretty easy answer :) Do you eventually want to be a software developer, or someone who hires 100 software developers for your startup that you built with your college connections?",
+        "upvotes": 2,
+        "author": "tjarch_00",
+        "date": "2026-04-01T15:27:28.000Z"
+      },
+      {
+        "text": "Honestly, UT + CSB might be the way to go here",
+        "upvotes": 2,
+        "author": "slimsgoal",
+        "date": "2026-04-01T16:07:01.000Z"
+      },
+      {
+        "text": "Yale or CSB.",
+        "upvotes": 2,
+        "author": "imdealhunter",
+        "date": "2026-04-01T16:26:12.000Z"
+      },
+      {
+        "text": "what industry you want to work in, tech or consulting/banking? location matters.\n\nTech: UT or UCB \n\nColumbia otherwise.",
+        "upvotes": 1,
+        "author": "Pristine-Swimmer-135",
+        "date": "2026-04-01T15:27:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "hf3ycj",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Is there a rivalry I’m unaware of?",
+    "body": "This is flaires as a shit post, but this honestly happened to me today. \n\nSo, I still have my internship and work remotely. I enjoy it. Due to privacy issues and company policies, I will not disclose its name. Just know that it is a management firm that helps companies with direction in company strategy. I got this internship through a regionally placement organization. \n\nWe get a lot of colleges who work with us. Georgia Tech, Morehouse, Auburn, UTC, and even some lesser known ones such as Nicols College. It’s fun to work with them, and I learn a lot from them. They’re all so friendly to each other.\n\nAnd then there was today.\n\nIt was UC Riverside and Cal Poly (that’s all that was on the sheet, so I don’t know which one exactly). They just kinda stared and were so stone cold when the other spoke. I don’t know what the grudge is, but goddamn that was funny to experience, especially after seeing other relations go so much more lively and happily.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/hf3ycj/is_there_a_rivalry_im_unaware_of/",
+    "upvotes": 1,
+    "date": "2020-06-24T16:19:15.000Z",
+    "author": "Arthkor_Ntela",
+    "top_comments": [
+      {
+        "text": "lol I think this is just the individuals. There is a rivalry between Cal Poly and UCSB tho.",
+        "upvotes": 3,
+        "author": "[deleted]",
+        "date": "2020-06-24T18:55:55.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1rl30io",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Inquary regarding Admission in UTC. Please help me!!!",
+    "body": "Hello everyone,\n\nI am seeking some information regarding admission to the M.Sc. program in the Mechanical Engineering Department at the University of Tennessee at Chattanooga (UTC).\n\nOne alumnus from my university mentioned that UTC may not admit applicants whose CGPA is below 3.00 according to UTC’s evaluation system. I completed my undergraduate degree in Bangladesh with a CGPA of 3.10.\n\nI would like to know:\n\nWhich GPA evaluation system does UTC follow?\n\nHow can I convert or evaluate my CGPA according to their system?\n\nI have already emailed the Graduate Coordinator but have not yet received a response. I would greatly appreciate any guidance or clarification.\n\nThank you in advance.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1rl30io/inquary_regarding_admission_in_utc_please_help_me/",
+    "upvotes": 1,
+    "date": "2026-03-05T00:41:24.000Z",
+    "author": "Pure-Sea8321",
+    "top_comments": [
+      {
+        "text": "[https://www.utc.edu/academic-affairs/center-for-global-education/international-student-and-scholar-services/prospective-students/graduate-academic-doc-reqs](https://www.utc.edu/academic-affairs/center-for-global-education/international-student-and-scholar-services/prospective-students/graduate-academic-doc-reqs)\n\nInternational credentials are usually evaluated and converted using a third-party service.",
+        "upvotes": 1,
+        "author": "futurxofficial",
+        "date": "2026-03-05T03:30:53.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1hu5tw3",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Coalition Application / Scoir timezone? please help!",
+    "body": "When applying to colleges, if it says its due jan 6 (11:59 pm) does that mean my time, my schools time, the colleges time or utc??",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1hu5tw3/coalition_application_scoir_timezone_please_help/",
+    "upvotes": 1,
+    "date": "2025-01-05T12:12:29.000Z",
+    "author": "Acrobatic-Garden672",
+    "top_comments": [
+      {
+        "text": "To be safe, the earliest of {your time, school's time, EST}.\n\nIt usually wouldn't matter though.",
+        "upvotes": 1,
+        "author": "StruggleDry8347",
+        "date": "2025-01-05T12:44:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1kf3l9u",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "UTCS vs Rice CS, did I make the wrong choice?",
+    "body": "My goal is to go to NASA, SpaceX, or Blue Origin, anything that dabbles in space really, but I’m majoring in computer science. \n\nI was accepted for CS at both colleges, but I want to double major in Astronomy/Astrophysics. UT is 32k per year with Rice being 70k per year. Considering all the factors, which college would y’all choose? ",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1kf3l9u/utcs_vs_rice_cs_did_i_make_the_wrong_choice/",
+    "upvotes": 1,
+    "date": "2025-05-05T05:00:00.000Z",
+    "author": "Altruistic_Piano6822",
+    "top_comments": [
+      {
+        "text": "UT, Rice isn't worth the extra 40k per year",
+        "upvotes": 6,
+        "author": "Ancient-Purpose99",
+        "date": "2025-05-05T05:23:48.000Z"
+      },
+      {
+        "text": "You can work at those companies coming from UT Austin. In fact I think UT Austin is more of a target school for those kind of companies than Rice. \n\nI don’t know why people are fixating so much on jobs here. Look at the LinkedIn profile of any top 50 university. You’ll see that for every page the biggest employers are companies like Meta, Amazon, Microsoft, Tesla, etc. You can get a plain old job from any decently reputable school (and they don’t even need to be T50).",
+        "upvotes": 4,
+        "author": "idwiw_wiw",
+        "date": "2025-05-05T05:45:50.000Z"
+      },
+      {
+        "text": "You go to UT and call it a day.",
+        "upvotes": 2,
+        "author": "ExecutiveWatch",
+        "date": "2025-05-05T11:37:46.000Z"
+      },
+      {
+        "text": "* Individual college threads: [2025 RD Discussion + Results](https://www.reddit.com/r/ApplyingToCollege/comments/1ibqphw/2025_regular_decision_discussion_results/)\n* If you've completed the admissions process, consider taking the [2025 Census Survey](https://www.reddit.com/r/ApplyingToCollege/comments/1jmtpdv/2025_ra2c_census_survey_details_inside/)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ApplyingToCollege) if you have any questions or concerns.*",
+        "upvotes": 1,
+        "author": "AutoModerator",
+        "date": "2025-05-05T05:00:00.000Z"
+      },
+      {
+        "text": "If you work hard at rice your opportunities are boundless",
+        "upvotes": 0,
+        "author": "Fun_Safety_4565",
+        "date": "2025-05-05T05:56:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "12uiy7a",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Im going to UTK but i think i might like UTC better.",
+    "body": "So generally id consider myself an alt person. I love music, playing guitar, fairly liberal, and MID but regardless I'm going to UTK and I'm starting to dislike it. I've been here for a year and it seems like every person is the same, no body wants to actually talk, and I don't fit the demographic of the college either. I have the grades, drive, and motivation to stay at the college but the lack of rock and feel of the big city is starting to bother me. I'm thinking about transferring to UTC for the better personal connections and more relatable demographic, but will it tarnish my degree or ability to get grades in the future? (my major is in microbiology)\n\nI understand that anyone can find a group in a big city but it's hard enough for me in the first place and the short period I've been in chat I've instantly made friends. Yet I've been in Knox for a year and haven't made a good friend once. I haven't even found anyone i like talking to that much. I would like some advice thankyou",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/12uiy7a/im_going_to_utk_but_i_think_i_might_like_utc/",
+    "upvotes": 1,
+    "date": "2023-04-21T21:25:13.000Z",
+    "author": "SuccessfulAd7703",
+    "top_comments": [
+      {
+        "text": "Sometimes it really can take a while to settle in, even more than a year. And, your in-person experience could end up being the same if you transfer. With those caveats out of the way, transferring won’t really hurt much if at all. People transfer for all sorts of reasons… jobs, family, fit of the school, you name it. Usually it’s in upper division classes that students make the most connections with professors, and if you make an effort, you’ll be fine.",
+        "upvotes": 2,
+        "author": "pixelatedpix",
+        "date": "2023-04-22T05:51:16.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1e0a3kz",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "What qualifies me for in-state graduate tuition.",
+    "body": "Hi, I cannot get a clear answer.  I'm preparing to go to graduate school out of state (out of state cost less than my States in state tuition). I'm specifically looking at UTC, ECU, Mercer, Bradley, &amp; Arkansas State University. I've read everything of UTC's I could find on the matter and it looks like if I moved there to stay there, which would be my plan, I could get in-state tuition? However, everything I see on Google says you have to live there for a year first. Wherever I go to school I plan to buy a house and move there for a while, would I qualify for in-state tuition? After school I want to live in TN or NC forever.",
+    "url": "https://www.reddit.com/r/college/comments/1e0a3kz/what_qualifies_me_for_instate_graduate_tuition/",
+    "upvotes": 1,
+    "date": "2024-07-10T23:17:46.000Z",
+    "author": "Remarkable-Look4857",
+    "top_comments": [
+      {
+        "text": "In California you have to have been physically present in the state for a year and also show intent to remain in the state. You might want to look up the specific residency for tuition requirements for the states/schools you are considering. A lot of it seems to be readily available online.",
+        "upvotes": 4,
+        "author": "EmpatheticHedgehog77",
+        "date": "2024-07-10T23:29:22.000Z"
+      },
+      {
+        "text": "In state tuition means you’ve actually lived there for at least a year.",
+        "upvotes": 3,
+        "author": "IridianRaingem",
+        "date": "2024-07-10T23:20:35.000Z"
+      },
+      {
+        "text": "Most states you're required to have lived there for a year. If you buy a house and live in that house for a year, yes you would qualify AFTER you hit that year mark.",
+        "upvotes": 2,
+        "author": "[deleted]",
+        "date": "2024-07-10T23:48:40.000Z"
+      },
+      {
+        "text": "For private schools (e.g., Bradley), there won’t be a difference between in-state and out-of-state, as this is a designation related to public state-funded schools.  \n\nAll states will differ on how to qualify for in-state tuition, but most require someone to live independently in the state for a full calendar year without enrolling in college and contributing to the state’s tax base.  \n\nMany grad programs will offer waivers to only pay the in-state level for students receiving a certain level of funding — e.g., where I am, any student who receives a scholarship or fellowship from the university worth $1000 or more is automatically granted in-state tuition rates for the remainder of their tuition. \n\nLong story short, there’s no simple answer.",
+        "upvotes": 1,
+        "author": "grabbyhands1994",
+        "date": "2024-07-11T00:05:19.000Z"
+      },
+      {
+        "text": "It depends on each university's own policy on residency for tuition purposes.",
+        "upvotes": 1,
+        "author": "puzzlealbatross",
+        "date": "2024-07-11T01:07:03.000Z"
+      },
+      {
+        "text": "Alabama specifically requires at least 12 months living in state, and substantial connections other than education.  \n\nSince I didn't show propert records, when I appealed for in state tuition, I had to show location history records, paycheck stubs, and insurance policies to justify my case.\n\nIf you just move there and live there without doing anything and then try to apply for resident tuition, that may be declined.",
+        "upvotes": 1,
+        "author": "TehWildMan_",
+        "date": "2024-07-11T01:17:04.000Z"
+      },
+      {
+        "text": "Each university differs for what they say qualifies for in state tuition/residency. Is this going to be your first/primary home? You could make a great case if the stipulation is 1 year OR proof of intent to remain in the state post college. \n\nThe best thing you can do is call the financial aid office at your school of choice and ask if that would be sufficient evidence (proof of purchase of the house). Then I’d double back and email the question to have a written answer that it does qualify you for in state tuition if that’s true.",
+        "upvotes": 1,
+        "author": "n_haiyen",
+        "date": "2024-07-11T16:33:48.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1og779c",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "College Applications",
+    "body": "Hey guys, I am a high school senior. I want to become a cybersecurity expert/analyst and my story is a big mess, so i moved from India to YS when i was in 8th grade 2nd sem and let me say you I was a great student in India like not the topper batch but above average student with a A- grade. So after coming to the US I literally had no idea about  AP’s ACT’s SAT’s college essay and all these stuff. And due to which I was way too behind with AP stuff and I took a huge load on me in my 11th grade and took 4 ap’s and I brutally failed 3. And the most important thing I got a 2 in AP computer Science cuz I wanted to be a cybersecurity expert/analyst/specialist/engineer I still decide on it. But I was way to sure on it but that grade actually made me think my career option and made me feel so demotivated like till 11th grade i was sure about it but after the grade release in July ig, I become so silent and distant and stopped coding too. And I even decided for 3 months ig that I will be a fashion designer but I was interested in cybersecurity and coding more than anything and now I want to give the college my best, but I am actually scared on what will happen, like will I get accepted ? These are my stats…..\n\n\nGPA: 3.75\n\nCourse which I took till 11th\n\nAlgebra Il Honors - 82\nArt History AP - 81\nAP Computer Science Principles - 81\nDual Enrollment American History - 92\nEnglish Ill - 93\nEnvironmental Science AP - 93\nLifetime Sports - 100\nPersonal Finance (Social Studies) - 96\nPre-Calculus AP - 74\nBusiness Communication - 99\nChemistry I - 95\nEnglish Il - 95\nGeometry Honors - 89\nMarketing and Management I - 84\nSpanish I - 94\nSpanish II - 99\nWorld History &amp; Geography - 95\nAlgebra I: Part 1 - 86\nAlgebra I: Part 2 - 86\nArt I - 98\nBiology I - 83\nCareer Success - 95\nComputer Science Foundations - 91\nEnglish I - 77\nLifetime Wellness - 94\n\n12th grade courses:\n\nFashion Design \nAP Calculus AB\nAP English literature and composition \nHonors Physics \nYoga and Mindful movements\nAP Macro Micro\nIntro to business \nCredit recovery (US politics and government)\n- long story short so I moved from Tennessee to Illinois so I didn’t a constitution test as it wasn’t required in Tennessee so I had to take this credit recovery in Illinois\nCollege Fashion Merchandising\n3 Dimensional Art\nLifestyle fitness\n\nClubs and activities:\n\nDECA (11–12)\nQualified for DECA States in 11th\nIn 12th grade (present)\nRoleplay: Retail Merchandising\nWritten Event: Startup Plan\n\nGirls Who Code (12)\nCompleting AI challenges\nAnd attended the summers pathways thing\n\nCoding Club (9–11)\n\nKey Club (10-11)\n\nBeta Club (11- was in 12th too but my new school sadly dosent has beta club 🥲)\n\nNational Honor Society (12)\n\nWomen’s Cricket Team (9–11)\nPlayed 3 tournaments\n\nBadminton (Recreational)\n\nYouth Creative Director of a Telugu association in my previous place \nLed décor and stage setup for cultural events\n\nTeen Ambassador, in Library\nOrganized events for kids and teens\nVolunteered in Summer Reading Program\n\nBharatanatyam Dancer — 7+ years\n\n yoga — 4 years\n\nSkills: Drawing, painting, paper quilling, crochet, pottery\n\nVolunteer:\nKey Club: ~100 hours\nBeta Club: ~20 hours\nTAM: ~30 hours\nCollierville Library: ~150 hours\n\nAP Exams Taken:\nAP Precalculus — Score: 4\nAP Environmental Science — Score: 1\nAP Art History — Score: 2\nAP Computer Science Principles — Score: 2\n\nI just short listed these 15 colleges have to select final 10:\n\nDuke University \nGeorgia Institute of Technology \nMiami University (Ohio)\nNorthwestern University \nRice Universiyt \nThe Ohio State university \nThe University of Memphis \nThe university of Tennessee Chattanooga \nThe Univertsity of Texas Austin \nUniversity of Chicago \nUniversity of Illinois Chicago \nUniversity of Illinois Urbana Champaign \nUniversity of Maryland University of North Carolina Vanderbilt University\n\nBut I actually scared if I will even get in my ACT score is also not so good, so I am planing to apply early action to the schools which don’t require ACT or SAT scores…..guys if I write a good essay can that help ? Please help me with this guys I will forever be thankful for ur help. Can you also suggest some of the important tips which worked for you while write your college essay.",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1og779c/college_applications/",
+    "upvotes": 1,
+    "date": "2025-10-26T00:35:57.000Z",
+    "author": "Artistic-Process-515",
+    "top_comments": [
+      {
+        "text": "Hey there, I'm a bot and something you said made me think you might be looking for help!\n\nIt sounds like your post is related to essays — please check the [**A2C Wiki Page on Essays**](https://www.reddit.com/r/ApplyingToCollege/wiki/essays) for a list of resources related to essay topics, tips &amp; tricks, and editing advice. You can also go to [the **r/CollegeEssays** subreddit](https://www.reddit.com/r/CollegeEssays/) for a sub focused exclusively on essays.\n  \n###tl;dr: [A2C Essay Wiki](https://www.reddit.com/r/ApplyingToCollege/wiki/essays)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ApplyingToCollege) if you have any questions or concerns.*",
+        "upvotes": 1,
+        "author": "AutoModerator",
+        "date": "2025-10-26T00:35:57.000Z"
+      },
+      {
+        "text": "Run the NPCs on those college web sites to determine expected out of pocket cost. Not all of them might be affordable.",
+        "upvotes": 1,
+        "author": "Sensing_Force1138",
+        "date": "2025-10-26T00:46:17.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1t5wcng",
+    "source": "reddit",
+    "subreddit": "r/ApplyingToCollege",
+    "title": "Uni in Australia",
+    "body": "Which uni is the best for IT degree and scholarship\n\n1. UTC\n2. Monash\n3. RMIT\n4. Deakin\n\n Macquarie (picked those uni bcz they have direct bachelor of IT degree)",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1t5wcng/uni_in_australia/",
+    "upvotes": 0,
+    "date": "2026-05-07T01:31:26.000Z",
+    "author": "mentallybufferin",
+    "top_comments": []
+  },
+  {
+    "id": "1fe4ud8",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "University Thesis ",
+    "body": "Haven't used reddit since more than a year. I'm in the middle of writing my (useless) thesis, but I need to graduate so I need to take it seriously. I have one close friend that I'd always ask if she can work with me, she'd say yes and bail out in the end, for the millions of time. I'm used to it, don't worry, since I know she likes to work alone.\n\nMy professor did say thesis is easier if I have a friend I can work with. I usually like to work alone too, but this time, I'll be honest to myself and raise my white flag. If anyone here is interested to be my thesis buddy that can give me insights, knowledges, and motivation, yes, I need you. For maybe a semester.\n\nI realized if I have a thesis buddy or buddies, I'd feel like I'm in a class and I have to do it and be serious about it, or sometimes joke about how miserable it is to be a student when I'm tired.\n\nYup, I hate university and I hate thesis with all my ❤️ but reality is I must get through this and graduate, so.. yeah about my thesis;\n\nI'm in communication design major, and the topic for my thesis is semiotics analysis for a parody commercial about Levi's woke by SNL. This topic is quite controversial since it obviously has that bit of political and lots of criticism. About me, I'm just someone who knows what's right and wrong, sometimes when I see something is definitely wrong, I won't support it but I won't voice it out either because I don't want any trouble. Somehow, the parody commercial caught my attention with some things concerning about today's society. So I chose it as the subject for my thesis, and now I'm screwed because I'll have more books to read. My professor said this is a heavy subject, so I'll need to read more in just a semester..\nWell, there's no turning back now.\n\nThat's all I gotta say in this thread. I'm not anything's supporter, not seeking any trouble too because of my controversial topic, just hopefully find someone with the same interest in it who can help me until graduation (pls I just want to leave my university real bad 🧎🏻‍♀️)\n\nOh and my timezone is utc +7, hope y'all have a nice day! ",
+    "url": "https://www.reddit.com/r/college/comments/1fe4ud8/university_thesis/",
+    "upvotes": 0,
+    "date": "2024-09-11T08:02:36.000Z",
+    "author": "Michelle_CCP",
+    "top_comments": []
+  },
+  {
+    "id": "1gn0gto",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Out of State Question",
+    "body": "So, I plan to go to an out-of-state University in Tennessee. However, even with financial aid the price of 4 years would be extremely expensive and send me deep into debt. The college is UTC for reference. My idea is to set up in a cheap apartment and attend UTC Community College. While out-of-state community college is insanely expensive still, this would (From what I've gathered) settle me as a resident of the state. This would immensely help with the university costs halving the time I'm there and paying in-state tuition. Is this a sound idea? I honestly have no idea that's why I'm asking. Paying for the apartment is a whole other can of worms, I'm assuming working and loans.. Thanks for any response!",
+    "url": "https://www.reddit.com/r/college/comments/1gn0gto/out_of_state_question/",
+    "upvotes": 0,
+    "date": "2024-11-09T02:57:39.000Z",
+    "author": "SSJsage1",
+    "top_comments": [
+      {
+        "text": "This approach was fairly standard 30 years ago, especially with people establishing residency in California and attending school there. Check current local laws - probably if you call admissions at a TN community college they will tell you what will work and what won't.",
+        "upvotes": 1,
+        "author": "alt-mswzebo",
+        "date": "2024-11-09T03:07:28.000Z"
+      },
+      {
+        "text": "You generally can’t become a resident of a state that you go to specifically for college. The waiting period is usually a year and you have to show you are financially independent. That being said there are dozens of good schools that offer reduced tuition to OOS students and merit scholarships. My kids go to two of em - university of Idaho and University of Southern Mississippi but there are lots more.",
+        "upvotes": 1,
+        "author": "[deleted]",
+        "date": "2024-11-09T05:46:16.000Z"
+      },
+      {
+        "text": "In general, dependent students have their residency fixed at either their parent's home or where they graduated high school. It is relatively difficult to change, especially if you've already started school because most states prohibit residency changes solely for the purposes of cheaper tuition.\n\nYour post also twigs my spider sense. You've got a \"plan\" that involves potentially paying an enormous premium for the same sort of education you could get by traveling 10 miles down the road. There are very few (good) reasons for doing this.",
+        "upvotes": 1,
+        "author": "ViskerRatio",
+        "date": "2024-11-09T05:46:57.000Z"
+      },
+      {
+        "text": "In addition to what other comments already outlined, does it *have* to be UTC? Depending on your major, you may get a similarly effective education going to an in-state school. If your goal is to move out of Mom and Dad's place for school, pick whatever state school is far enough away to justify dorm life. It'll be much cheaper since you've already got residency established (establishing residency in another state for college is tricky, as already mentioned). Your financial burden will be reduced even further if you qualify for any in-state scholarships. It's one thing if you're prioritizing an out-of-state university because of scholarship opportunities, but that doesn't sound like that's a major factor here.\n\nIf you're doing it for the \"brand recognition\" of having your degree say UTC on it, *where* you went to school doesn't typically matter outside of applying to specific roles in specific companies or applying to specific graduate programs. What matters more is that you went to school and earned your degree; if you have a solid GPA/graduated with honors, that will stick out more to most potential employers and grad schools than \"OP went to a specific school.\" Very few people will run into a *Suits*\\-type situation where an employer won't even look at applicants who didn't go to Harvard or whatever school the founder(s) attended.\n\nDon't get me wrong; I'm not saying I don't want you to pursue your dreams; I'm just asking you to evaluate whether this is a financially responsible decision if you're already concerned about paying for an apartment on top of the school. Doing well in school at the undergraduate level is stressful enough for many people in terms of the work required, especially if you want to keep the door open for graduate programs in the future. Worrying about how to pay for school doesn't make things any easier, and you owe it to your future self to consider how you can reduce your future debt before you take it on.",
+        "upvotes": 1,
+        "author": "bearstormstout",
+        "date": "2024-11-09T12:58:39.000Z"
+      },
+      {
+        "text": "You need to look up the criteria on the schools website, frequently to be considered in state you have to do four years of high school within the state before going into college \n\nIt’s entirely based on the schools criteria",
+        "upvotes": 1,
+        "author": "Prestigious_Blood_38",
+        "date": "2024-11-09T16:20:44.000Z"
+      },
+      {
+        "text": "Go to the best college you can get into. If you are a good or promising student, you can get scholarships and work study programs that will pay most of the expense. The colleges that are state or private non-profit have dorms that are included in the college cost. When you are looking at For-Profit Colleges and paying for an apt. too, that’s when you are going to pay a lot for a college that is not viewed as the best a student can get.",
+        "upvotes": 1,
+        "author": "Lazy-Yogurtcloset784",
+        "date": "2024-11-10T00:49:23.000Z"
+      }
+    ]
+  },
+  {
+    "id": "9o2mbt",
+    "source": "reddit",
+    "subreddit": "r/college",
+    "title": "Looking for badass art adventures in grad school and just average education. Where do i go?",
+    "body": "I'm an artist (graphic designer, cgi, composer and multi-instrumentalist) who finished his undergrad in an okayish college. I'm looking for a masters in average and slightly above average colleges. The thing is, I want a place/city/college where everyone does everything. I want to hang around with artists, perform with musicians and have a great cultural time in general. For instance New Orleans and Nashville have a good music scene, San Fransisco is an artistic place. Similarly loyola, New Orleans apparently has a great music scene.\nI'm really just looking for a place where such people are in crazy numbers. \nColleges I'm planning on\nFlorida tech \nUCF\nUtc Chattanooga\nMtsu\nApp state\nUniversity of Nebraska, Omaha\nCsu San Bernardino\nA few more",
+    "url": "https://www.reddit.com/r/college/comments/9o2mbt/looking_for_badass_art_adventures_in_grad_school/",
+    "upvotes": 0,
+    "date": "2018-10-14T13:14:33.000Z",
+    "author": "braintumor_",
+    "top_comments": []
+  },
+  {
+    "id": "UgxwxO0Rv6_MsutKDXd4AaABAg",
+    "source": "youtube",
+    "title": "Advice For College Freshmen - University Of Tennessee Edition",
+    "body": "The treadmill machine at a slight incline is so correct! University of Tennessee is so large. Huge college      .       .       .       .       .",
+    "upvotes": 5,
+    "date": "2024-10-30T21:51:56Z",
+    "author": "@wIndstar47"
+  },
+  {
+    "id": "UgwhbKYtC_RSDRFakyB4AaABAg",
+    "source": "youtube",
+    "title": "Advice For College Freshmen - University Of Tennessee Edition",
+    "body": "that treadmill shit is no joke. went to UT for 2 years and transferred. them hills ain’t no joke bro",
+    "upvotes": 3,
+    "date": "2024-03-20T00:14:15Z",
+    "author": "@jcoop0008"
+  },
+  {
+    "id": "UgxV1Q7fhvbJEAPkeO54AaABAg",
+    "source": "youtube",
+    "title": "Advice For College Freshmen - University Of Tennessee Edition",
+    "body": "Worst was freshman year, having lunch at the student center, and then having a class on the third floor of Ayres - in the summer! Absolute killer. After that - the rest was an absolute breeze!",
+    "upvotes": 0,
+    "date": "2024-05-07T19:09:10Z",
+    "author": "@tinamcnalley2575"
+  },
+  {
+    "id": "UgxSeFQf5sq7mJFZEvt4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "Funny how a few of them while getting negative reviews immediately blamed the students even one that was positive but said they failed anyway. This is much more telling of what to expect than rate my professor.",
+    "upvotes": 780,
+    "date": "2019-04-06T00:02:15Z",
+    "author": "@vagabondwastrel2361"
+  },
+  {
+    "id": "UgwpJe913P2zoUO8ACp4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "Rate my professor literally saves my life so idc what the professors think 😂 if you want students to take your class then be a good teacher 💁🏼‍♀️",
+    "upvotes": 397,
+    "date": "2021-02-20T21:46:26Z",
+    "author": "@selbyhill4905"
+  },
+  {
+    "id": "Ugw9wXxjWh2TIMdLYXF4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "<a href=\"https://www.youtube.com/watch?v=CnS6FhYvF9Q&amp;t=250\">4:10</a> A philosophy professor being a philosophy professor.<br><br>Jokes aside though, every philosophy professor I&#39;ve had is either otherworldly amazing, or just super egocentric and annoying. I&#39;m getting the first one from him.",
+    "upvotes": 156,
+    "date": "2021-06-15T17:47:06Z",
+    "author": "@shortclub7011"
+  },
+  {
+    "id": "Ugx65A_RQxTW3ECJSYN4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "I would not take accounting. Just the way the teacher reacts to the criticism tells me that she neither a good nor a nice teacher.",
+    "upvotes": 745,
+    "date": "2021-02-21T00:17:07Z",
+    "author": "@summer-ht3gk"
+  },
+  {
+    "id": "Ugxr3cmrZdfy7SOZzyF4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "Could y’all even how much we would love school more if Chem &amp; Mathematics &amp; Finance profs had a personality as awesome as basically any philosophy professor lol",
+    "upvotes": 5,
+    "date": "2021-12-05T02:41:26Z",
+    "author": "@comicalastranomical2780"
+  },
+  {
+    "id": "UgxSzhwcWTqXs62PFrZ4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "i hate how some professors are just immediately dismissive of any criticism<br><br>like we forget they’re people TOO, and despite being well-educated adults, are still prone to deflection like any of us",
+    "upvotes": 5,
+    "date": "2023-05-25T19:34:55Z",
+    "author": "@geoffreygill5849"
+  },
+  {
+    "id": "UgydUgrxwxSgZE9FZzV4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "The professor at <a href=\"https://www.youtube.com/watch?v=CnS6FhYvF9Q&amp;t=5\">0:05</a> genuinely looks like she’d be a terrible teacher. Like you can tell just by the way she talks and acts",
+    "upvotes": 30,
+    "date": "2021-09-18T04:04:09Z",
+    "author": "@p-51mustang51"
+  },
+  {
+    "id": "Ugw0K_FJVHq_Ae6QwWp4AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "It’s funny that there’s on professor that got pretty much all good reviews except for one, then took at as valid criticism. And there’s one professor that got all negative feedback, and wrote it all off as slander and disregarded it.",
+    "upvotes": 12,
+    "date": "2021-11-13T05:19:16Z",
+    "author": "@lorenzodemedici6332"
+  },
+  {
+    "id": "UgwTS1_JjyyVQf0QIp54AaABAg",
+    "source": "youtube",
+    "title": "UTC Professors Read Their Rate My Professor Reviews",
+    "body": "Dr Clark sounds awful. The fact that after someone says they tried hard but struggled and didn&#39;t get what they were aiming for and yet didn&#39;t say one negative thing about her teaching she then has the audacity to blame the student for not trying hard.<br><br>Can tell just from that one response that she&#39;s a bad teacher.",
+    "upvotes": 411,
+    "date": "2021-09-11T01:04:59Z",
+    "author": "@alexjames7144"
+  },
+  {
+    "id": "UgzNMLk5olSBJfu9VK14AaABAg",
+    "source": "youtube",
+    "title": "day in the life at the university of Tennessee!!! 🧡✨🫶",
+    "body": "Go Vols! I wanted to let you know that you are LOVED by Jesus, and that He sent His Son to die for your sin. He did so, and now we have eternal life through His sacrifice. Have an amazing day!",
+    "upvotes": 16,
+    "date": "2025-09-24T13:58:39Z",
+    "author": "@oliviabarker9733"
+  },
+  {
+    "id": "UgxADGLR9uBiVESgnBZ4AaABAg",
+    "source": "youtube",
+    "title": "day in the life at the university of Tennessee!!! 🧡✨🫶",
+    "body": "Ok… I have a question… there is absolutely no hate… <br><br>How do you afford all of this while being in collage girl!! Any tips? 🩷",
+    "upvotes": 1,
+    "date": "2025-09-22T06:48:43Z",
+    "author": "@Emmygrace828"
+  },
+  {
+    "id": "UgwU0Gjd4wtqrVut-Lp4AaABAg",
+    "source": "youtube",
+    "title": "MOVE IN VLOG: freshman dorm room tour // the university of tennessee",
+    "body": "Finally someone in a double who has a lofted bed! Floor space is super important for mental health (if you don&#39;t believe me, live in a room for 4 years without much floor space). I don&#39;t care if you don&#39;t think lofted beds are aesthetically pleasing. You will thank me later.",
+    "upvotes": 27,
+    "date": "2021-02-03T02:12:51Z",
+    "author": "@athenagreen5390"
+  },
+  {
+    "id": "UgyMDR2oj48stzLyoLh4AaABAg",
+    "source": "youtube",
+    "title": "MOVE IN VLOG: freshman dorm room tour // the university of tennessee",
+    "body": "Bingeing these with my 10 year old she loved your video! She is planning a redo on her room soon and this gave her loads of ideas! Love the Deuteronomy verse, Have fun in college ☺️ God Bless 🙏",
+    "upvotes": 16,
+    "date": "2020-08-27T20:31:33Z",
+    "author": "@luladuncanizzy"
+  },
+  {
+    "id": "UgyeDKFVKzJINPSUg5N4AaABAg",
+    "source": "youtube",
+    "title": "MOVE IN VLOG: freshman dorm room tour // the university of tennessee",
+    "body": "Love you’re videos 💕 do you have to stay on campus your first year or can you live off campus ?",
+    "upvotes": 0,
+    "date": "2021-08-03T17:27:57Z",
+    "author": "@tykiadecarra5279"
+  },
+  {
+    "id": "UgyUCSo_Uyta4LXLD014AaABAg",
+    "source": "youtube",
+    "title": "MOVE IN VLOG: freshman dorm room tour // the university of tennessee",
+    "body": "i plan on going to utk and i’m trying to figure out which dorm is which 🥺 could you tell me what dorm this is?",
+    "upvotes": 2,
+    "date": "2020-10-26T14:52:54Z",
+    "author": "@amberlynparker8915"
+  },
+  {
+    "id": "UgzxAWOa8ESbmlnW98V4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "The Strip used to be the 18+ crowd and Old City was where we all went once everyone was 21+...it&#39;s crazy how much UT has changed in just 10 years. Best of luck in your next adventures and GO VOLS",
+    "upvotes": 1,
+    "date": "2024-08-22T23:45:12Z",
+    "author": "@ashleydodd6720"
+  },
+  {
+    "id": "UgwdIM1y_wTC7BG0UO14AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "Hey I go to UT, too! I like it here. What are your plans after graduation? Good luck this semester",
+    "upvotes": 2,
+    "date": "2023-02-05T05:08:08Z",
+    "author": "@tiffanyholland2767"
+  },
+  {
+    "id": "UgzluMGkYU6LAZCO-Vl4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "My name is Phillip mwakio from Kenya. Looking for a former student in the year 1996 in the college of the arts and biological sciences by the name Hellen snook. Can you have her forwarding address. I will appreciate to connect with her. <br>Thank you",
+    "upvotes": 1,
+    "date": "2024-03-22T05:36:17Z",
+    "author": "@philipmwakio"
+  },
+  {
+    "id": "UgzWhNu2etvTw3-w3DR4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "Hi, I&#39;m coming from the uk to UTK next year! looking forward to it, do you know what the international experience is like?",
+    "upvotes": 5,
+    "date": "2023-02-17T01:29:16Z",
+    "author": "@frankwhite5097"
+  },
+  {
+    "id": "Ugz-Hr2HiaO0QspfclN4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "question: do you have any tips for selecting a roommate? do I have to pick one as soon as possible or is there a bit more leeway?",
+    "upvotes": 7,
+    "date": "2023-02-01T14:27:17Z",
+    "author": "@brandonreesee"
+  },
+  {
+    "id": "Ugw1SVU_bNEdv6DcPrZ4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "so ik tennessee says the housing process is a lottery system but does committing earlier increase your chances of getting a better dorm?",
+    "upvotes": 1,
+    "date": "2023-02-02T00:17:11Z",
+    "author": "@lilypollard8928"
+  },
+  {
+    "id": "UgzuXnVnRYUw7pT92Jt4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "You didn’t mention the absolute harassment from homeless people on the strip when you’re trying to get something to eat.",
+    "upvotes": 2,
+    "date": "2024-02-24T16:55:26Z",
+    "author": "@peterandolph7628"
+  },
+  {
+    "id": "Ugxqm6_6GuNm9DddgsV4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "Your video is fine, but this doesn&#39;t really make UT sound like a university where you go to learn anything. Whether that&#39;s true or not, I just listened to you talk for 13 minutes about the football team, sororities, ministry groups, places to drink, dorm life.... Like, did you take any classes here or did you drink and watch football games the whole time?",
+    "upvotes": 9,
+    "date": "2025-06-06T17:46:58Z",
+    "author": "@johhnyapplefake4520"
+  },
+  {
+    "id": "UgzF03akvPp5blRz_vF4AaABAg",
+    "source": "youtube",
+    "title": "EVERYTHING YOU NEED TO KNOW ABOUT UTK | my experince + advice from a senior about to graduate",
+    "body": "<a href=\"https://www.youtube.com/watch?v=PnLiQs0jJIY&amp;t=369\">6:09</a> you contradict yourself by saying that UT admits too many students. Earlier you said they were being more restrictive.<br><br>The “housing crisis” is a failure of capitalism. Which is destroying the college experience for working class and middle class folks. <br><br>I was a resident and an RA at Reese hall from 97-99. Reese was awesome. South Carrick was great. This was before hyper capitalist practices ruined the school. And the athletics.",
+    "upvotes": 1,
+    "date": "2025-08-23T19:26:31Z",
+    "author": "@zackamania6534"
+  },
+  {
+    "id": "UgyNhFODTKJ2f_U3r_x4AaABAg",
+    "source": "youtube",
+    "title": "University of Tennessee Campus Tour",
+    "body": "Born and raised in Auburn and attended highschool and college at AU. Even worked in the VPs office for a few years. <br>War Eagle! My Daughter received her Masters degree at AU and now works at UT. UT is much older than AU and I personally like UT MUCH, MUCH better than Auburn. Auburn was GREAT in the 70&#39;s and 80&#39;s, not at all so great anymore! Anyway, thanks for the video and hope your Daughter is enjoying her time at UT....GO VOLS 🧡",
+    "upvotes": 1,
+    "date": "2025-01-25T02:50:37Z",
+    "author": "@NotYaMomma70sStyle"
+  }
+]

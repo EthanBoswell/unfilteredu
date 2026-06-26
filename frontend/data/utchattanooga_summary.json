@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "Out-of-state costs make UTC financially risky without residency planning",
+      "Students actively researching residency workarounds to reduce costs",
+      "No direct complaints about dorm quality found in data"
+    ],
+    "key_quotes": [
+      "even with financial aid the price of 4 years would be extremely expensive and send me deep into debt",
+      "Floor space is super important for mental health"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "One UTK student transferred specifically hoping UTC has better cultural fit",
+      "UTC described as more alt-friendly and music-oriented than UTK",
+      "No specific UTC social scene complaints or praise found"
+    ],
+    "key_quotes": [
+      "I love music, playing guitar, fairly liberal... I'm thinking about transferring to UTC",
+      "every person is the same, no body wants to actually talk"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific UTC dining hall data available in sources",
+      "Cost of living concerns dominate student financial discussions about UTC",
+      "No positive dining mentions either — a notable absence"
+    ],
+    "key_quotes": [
+      "No direct UTC dining quotes found in available data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Floor space in dorms directly linked to mental health by students",
+      "No UTC-specific mental health resources mentioned by any student",
+      "Financial stress about out-of-state costs is a recurring anxiety trigger"
+    ],
+    "key_quotes": [
+      "Floor space is super important for mental health (if you don't believe me, live in a room for 4 years without much floor space)",
+      "even with financial aid the price of 4 years would be extremely expensive and send me deep into debt"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Out-of-state tuition described as unaffordable even with financial aid",
+      "Students researching complex residency workarounds to get in-state rates",
+      "UTC ranked least expensive among four schools in one comparison"
+    ],
+    "key_quotes": [
+      "even with financial aid the price of 4 years would be extremely expensive and send me deep into debt",
+      "Listed in order of most costly to least... University of Tennessee Chattanooga"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Accounting professor caught on video dismissing all student criticism defensively",
+      "Some professors immediately blame students for poor grades — red flag",
+      "Computer engineering program exists but reputation is unconfirmed by students"
+    ],
+    "key_quotes": [
+      "Dr Clark sounds awful. The fact that after someone says they tried hard but struggled... she then has the audacity to blame the student for not trying hard",
+      "Funny how a few of them while getting negative reviews immediately blamed the students",
+      "I would not take accounting. Just the way the teacher reacts to the criticism tells me she's neither a good nor a nice teacher"
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "UTC has an honors college actively recruiting students via email outreach",
+      "Graduate admissions GPA requirements unclear and poorly communicated to applicants",
+      "No strong positive or negative administration experiences reported"
+    ],
+    "key_quotes": [
+      "I recently got an email from UTC regarding their honor's college",
+      "I cannot get a clear answer"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Chattanooga appeals specifically to outdoors-oriented and alternative students",
+      "Student transferred from UTK citing UTC's city feel and music scene",
+      "Campus described as appealing during tours but no walkability data"
+    ],
+    "key_quotes": [
+      "I like the outdoors so UTC looks like a better place to be",
+      "I recently toured UTC and loved the campus",
+      "the lack of rock and feel of the big city is starting to bother me"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "UTC mentioned alongside Georgia Tech and Auburn in internship pipeline context",
+      "No specific UTC job placement data or employer recruiting info shared",
+      "Computer engineering graduates' outcomes unknown from available student data"
+    ],
+    "key_quotes": [
+      "We get a lot of colleges who work with us. Georgia Tech, Morehouse, Auburn, UTC",
+      "I want to major in computer engineering... was wondering if UTC was a good school for that"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition makes UTC a competitive budget option in Tennessee",
+      "Out-of-state costs described as unmanageable and debt-inducing",
+      "Scholarship availability at UTC mentioned positively in one comparison"
+    ],
+    "key_quotes": [
+      "even with financial aid the price of 4 years would be extremely expensive and send me deep into debt",
+      "She has varying degrees of scholarships at each school, so the biggest price difference would be $10,000/year"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "UTC appeals to students seeking a smaller, more alternative vibe than UTK",
+      "Outdoorsy, city-adjacent culture is the main draw over flagship schools",
+      "Limited firsthand accounts mean the full picture remains unclear"
+    ],
+    "key_quotes": [
+      "I'm thinking about transferring to UTC for the feel of the big city",
+      "I recently toured UTC and loved the campus",
+      "I like the outdoors so UTC looks like a better place to be"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Professors:** Multiple UTC professors publicly dismissed student criticism on camera",
+      "**Accounting Department:** Specific professor caught blaming struggling students instead of reflecting on teaching",
+      "**Financial:** Out-of-state students warn of crushing debt even with financial aid"
+    ],
+    "key_quotes": [
+      "Dr Clark sounds awful... she then has the audacity to blame the student for not trying hard",
+      "I would not take accounting. Just the way the teacher reacts to the criticism tells me she's neither a good nor a nice teacher",
+      "even with financial aid the price of 4 years would be extremely expensive and send me deep into debt"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors college actively recruits students with strong academic potential",
+      "Chattanooga city scene attracts students who feel culturally misfit at UTK",
+      "UTC appears in regional internship pipelines alongside well-known schools"
+    ],
+    "key_quotes": [
+      "I recently got an email from UTC regarding their honor's college... it seems really good",
+      "We get a lot of colleges who work with us. Georgia Tech, Morehouse, Auburn, UTC",
+      "I'm thinking about transferring to UTC... the campus life seems really fun"
+    ],
+    "score": 6
+  }
+}

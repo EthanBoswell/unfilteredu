@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "Living-learning communities available and actively used by students",
+      "Move-in vlog suggests standard D1 athlete housing experience",
+      "No specific complaints about housing quality in available data"
+    ],
+    "key_quotes": [
+      "I also am in a living learning community too",
+      "My D1 Move in Vlog - Wofford College"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Black Student Alliance and Wofford Women of Color are active organizations",
+      "POC students describe nervous but optimistic social experience",
+      "Small campus community feel is a deliberate draw for some students"
+    ],
+    "key_quotes": [
+      "I am also planning on joining Wofford Women of Color and Black Student Alliance",
+      "I actually chose Wofford because of the small class sizes and the sense of community"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No student feedback on dining available in this dataset",
+      "Cannot assess dining quality or variety from current sources",
+      "Prospective students should seek this info from current students directly"
+    ],
+    "key_quotes": [
+      "No dining-specific quotes available in source data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of mental health resources in student comments",
+      "Students report nervousness about fit, especially students of color",
+      "Sense of community cited as a comfort factor by incoming students"
+    ],
+    "key_quotes": [
+      "Honestly nervous but very excited, especially after talking to poc students and faculty members like Mr. Parks",
+      "I've ended up actually liking it a lot"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "No specific financial aid complaints or praise in available data",
+      "Wofford appears in ED advantage discussions, suggesting strategic enrollment use",
+      "Prospective students should independently verify aid packages"
+    ],
+    "key_quotes": [
+      "No financial aid-specific quotes available in source data"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Small class sizes are a top cited reason for choosing Wofford",
+      "Specific courses like Intro to Islam praised enthusiastically by students",
+      "Former president Ben Dunlap known for legendary, transformative teaching"
+    ],
+    "key_quotes": [
+      "Intro to Islam is a phenomenal class btw",
+      "I never knew from one class to the next where his brilliant storytelling and magnificent insights would take me",
+      "I actually chose Wofford because of the small class sizes"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Faculty member Mr. Parks specifically named as supportive of POC students",
+      "No negative administration complaints appear in available data",
+      "Former president Dunlap left a strong legacy of intellectual culture"
+    ],
+    "key_quotes": [
+      "Especially after talking to poc students and faculty members like Mr. Parks",
+      "God bless you, Mr. Ben Dunlap"
+    ],
+    "score": 7
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Spartanburg, SC — students explicitly chose it to leave their home state",
+      "Campus appears functional for D1 athletics with standard facilities",
+      "Spartanburg is not a major urban draw; students seem to accept this"
+    ],
+    "key_quotes": [
+      "I was trying to get out of Florida",
+      "I ultimately chose Wofford"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "D1 athletics pipeline exists and has produced NFL-level players",
+      "No alumni career outcome data or complaints in available sources",
+      "LAC profile suggests professional school and graduate school pathways likely"
+    ],
+    "key_quotes": [
+      "One reason why he went undrafted was because of his lack of speed",
+      "No career outcome quotes from current students available"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "No tuition or cost complaints appear in available student data",
+      "Students seem to choose Wofford intentionally, suggesting perceived value",
+      "As a smaller LAC, value depends heavily on financial aid received"
+    ],
+    "key_quotes": [
+      "No value-for-money quotes available in source data"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students who weren't initially sold often come around and genuinely like it",
+      "Strong sense of tight-knit community, especially for involved students",
+      "POC students find community through specific organizations and supportive faculty"
+    ],
+    "key_quotes": [
+      "It was most definitely not my first choice of schools either but I've ended up actually liking it a lot",
+      "I really wanted to go to Howard to have that culture, but ultimately chose Wofford",
+      "I actually chose Wofford because of the small class sizes and the sense of community"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Diversity:** Multiple POC students chose Wofford despite preferring HBCU culture",
+      "**Data Gap:** Almost no candid student reviews exist — unusually low online footprint",
+      "**Location:** Spartanburg offers limited urban appeal; students flee home states, not to a destination"
+    ],
+    "key_quotes": [
+      "I really wanted to go to Howard to have that culture, but ultimately chose Wofford. Honestly nervous",
+      "I was trying to get out of Florida"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Intro to Islam course gets rare enthusiastic unprompted praise from students",
+      "Former president Ben Dunlap's TED Talk has global fans; intellectual culture runs deep",
+      "Wofford Women of Color and Black Student Alliance provide real community for POC students"
+    ],
+    "key_quotes": [
+      "Intro to Islam is a phenomenal class btw",
+      "I am also planning on joining Wofford Women of Color and Black Student Alliance",
+      "This one is by far the best TED Talk I have seen — about Ben Dunlap of Wofford"
+    ],
+    "score": 7
+  }
+}

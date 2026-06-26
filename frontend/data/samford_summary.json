@@ -1,0 +1,159 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints found in available data",
+      "Incoming students actively seeking roommate connections online",
+      "Limited virtual tour content makes pre-arrival planning difficult"
+    ],
+    "key_quotes": [
+      "How did you find your roommates?",
+      "There isn't much detailed virtual tour online yk"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life appears dominant; non-rushers worry about fitting in",
+      "Homogeneous social scene noted by prospective students on tours",
+      "Introverts and non-conformists may struggle to find their crowd"
+    ],
+    "key_quotes": [
+      "Every guy kind of looked the same and dressed the same way. If I don't fit that mold, would it be hard to fit in?",
+      "As a guy, how easy do you think it would be to make friends and would I have to be in a frat to connect with people (I'm not a very social person)?",
+      "Could you talk more about the specifics of rushing and what happens?"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No student comments about dining found in available data",
+      "Insufficient data to assess dining quality or variety",
+      "Cannot make a reliable assessment from this dataset"
+    ],
+    "key_quotes": [
+      "No direct quotes available about Samford dining"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of mental health support in data",
+      "Faith-based environment may shape available counseling approach",
+      "Insufficient data to assess mental health resources reliably"
+    ],
+    "key_quotes": [
+      "No direct quotes available about Samford mental health services"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "One student received full scholarship at MTSU instead of Samford",
+      "Samford listed as backup school, suggesting cost is a concern",
+      "No direct complaints or praise about Samford financial aid found"
+    ],
+    "key_quotes": [
+      "MTSU with full scholarship (audio production) — Samford University (commercial music) — Georgia Tech (music technology). He will be going to Tech!!",
+      "i sort of want to go there but my parents think it's a bad school (it has a 84% acceptance rate) so :/"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Dr. Chew's studying videos are produced at Samford and well-regarded",
+      "Accepted alongside Georgia Tech and Auburn, suggesting solid academics",
+      "No student complaints about academic rigor found in data"
+    ],
+    "key_quotes": [
+      "Bravo, Dr. Chew. This series of 5 videos is outstanding! The points made are valid and eye-opening.",
+      "A wise student would benefit from implementing these strategies immediately."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Administration made early COVID policy changes ahead of confirmed cases",
+      "No widespread administrative complaints found in available data",
+      "Faith-based governance likely shapes campus policies significantly"
+    ],
+    "key_quotes": [
+      "Samford University changes to only classes until April 6th even though there are no cases in Alabama so far."
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus visually appealing enough to attract tour vlog content",
+      "Prospective students specifically request more detailed campus footage",
+      "Alabama location raises no safety concerns in available data"
+    ],
+    "key_quotes": [
+      "Please take shots of Robert I. Ingalls Sr. Hall and Frank Park Samford Hall front entrance views... from many different angles.",
+      "There isn't much detailed virtual tour online yk."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data found in available sources",
+      "Commercial music and pre-health programs appear to be draws",
+      "84% acceptance rate raises questions about post-grad prestige signaling"
+    ],
+    "key_quotes": [
+      "i sort of want to go there but my parents think it's a bad school (it has a 84% acceptance rate) so :/",
+      "No direct career outcome quotes available from this dataset"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Parents skeptical due to high acceptance rate versus cost",
+      "Students choose Samford over state schools, not over elite privates",
+      "Compared unfavorably to full-scholarship offers at other schools"
+    ],
+    "key_quotes": [
+      "i sort of want to go there but my parents think it's a bad school (it has a 84% acceptance rate) so :/",
+      "MTSU with full scholarship — Samford University (commercial music) — He will be going to Tech!!"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong faith-based identity is central to campus culture",
+      "Homogeneous student body; conformity noted even by prospective students",
+      "Enthusiastic incoming students excited about faith community and growth"
+    ],
+    "key_quotes": [
+      "I'm stoked to grow in my faith and be surrounded by amazing people!",
+      "Every guy kind of looked the same and dressed the same way.",
+      "How easy would it be to make friends and would I have to be in a frat?"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Diversity:** Prospective student noted striking visual homogeneity on campus tour",
+      "**Social inclusion:** Non-Greek, introverted, or non-conforming students may face isolation",
+      "**Perception:** High 84% acceptance rate actively discourages some families from enrolling"
+    ],
+    "key_quotes": [
+      "Every guy kind of looked the same and dressed the same way. If I don't fit that mold, would it be hard to fit in?",
+      "My parents think it's a bad school (it has a 84% acceptance rate) so :/",
+      "How many of Samford University's applications are from people who accidentally apply thinking it's Stanford?"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Dr. Stephen Chew's psychology department produces nationally recognized study skills content",
+      "Commercial music program strong enough to compete with Georgia Tech offers",
+      "Small campus means tight-knit community for students who fit the mold"
+    ],
+    "key_quotes": [
+      "Bravo, Dr. Chew. This series of 5 videos is outstanding!",
+      "Samford University (commercial music) — Georgia Tech (music technology/electrical engineering) — He will be going to Tech!!",
+      "I'm an international student for the fall of 2025, already enrolled. Great video."
+    ],
+    "score": 7
+  }
+}

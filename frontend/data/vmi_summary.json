@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Barracks living is spartan by design, not accidental",
+      "Rats have zero personal space or privacy during hell week",
+      "Rooms deliberately stripped of clocks to disorient new cadets"
+    ],
+    "key_quotes": [
+      "Days felt like weeks since you could never tell what time it was as a rat. The rooms didn't have clocks either, you were woken up by cadre.",
+      "Bring as little as possible.",
+      "Everything you need during hell week will be provided as long as you have the things on the list."
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Brother Rat bond is the defining social relationship at VMI",
+      "Student athletes miss significant portions of the rat experience",
+      "Social life is insular — Lexington is small and options are limited"
+    ],
+    "key_quotes": [
+      "Student athletes miss out on a solid chunk of the rat experience.",
+      "I would burst out laughing every time — I'm sure they must have some other worldly inside jokes.",
+      "A robust but closeted sense of humor about it all."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining data available from student sources",
+      "Physical demands mean eating a lot and eating healthy is critical",
+      "Student athletes specifically advised to 'eat a lot and eat healthy food'"
+    ],
+    "key_quotes": [
+      "Eat a lot and eat healthy food.",
+      "Everything you need during hell week will be provided.",
+      "Bring a first aid kit and LOTS OF MOLE SKIN."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Psychological strain of rat line is intentional and sustained over seven months",
+      "Physical toll is severe — hands destroyed by cleaning chemicals, blisters everywhere",
+      "Mental toughness is the product, not a byproduct — some students genuinely need this structure"
+    ],
+    "key_quotes": [
+      "Your hands will get demolished by brasso and other cleaners, a tub of Vaseline will help. Bring a first aid kit and LOTS OF MOLE SKIN. Parts of your body you never knew exist will blister.",
+      "Keep your sense of humor and laugh on the inside.",
+      "I have great respect for the cadet self aware enough to realize he needed strict discipline."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Tuition runs approximately $60,000 per year per outside observers",
+      "No VMI-specific financial aid data surfaced in student comments",
+      "ROTC contracts and military scholarships are common pathways to affordability"
+    ],
+    "key_quotes": [
+      "Imagine going here and paying $60k when you can join the real military instead and they'll pay for all your schooling.",
+      "I owe VMI everything. Commissioned and left after my first contract. Joined the civilian world and made $185,000 total comp my first year as a 28 year old.",
+      "Paid tuition the whole time and went non-com route after a year and a half because of a medical issue."
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "ECE and STEM majors face intense workload on top of military obligations",
+      "Psych major is mocked internally — STEM and pre-commission tracks are the core identity",
+      "VMI graduates praised by military peers as academically and mentally prepared"
+    ],
+    "key_quotes": [
+      "Psych major is the cherry on top for me.",
+      "I graduated, commissioned but got out early to pursue Ph.D in computer science. I've been at the same company as a principal computer scientist supporting the Army for over 23 years.",
+      "This VMI graduate was an extreme hard charger, mentally tough, physically tough, and always motivated to do the hardest jobs."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "New superintendent Furness expected to crack down on lax standards post-COVID",
+      "Standards visibly slipped — out-of-regs haircuts and uniforms noted publicly",
+      "Political pressure around defunding and female cadet policies creating institutional instability"
+    ],
+    "key_quotes": [
+      "A lot of issues have been festering since Covid.",
+      "Keep the shitbags in your prayers because Furness is about to flip their worlds upside down.",
+      "It looks like the bill to create a task force to defund VMI passed the rules committee 4 to 1 on a party line vote."
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Lexington Virginia is extremely small — graduation restaurant reservations are nearly impossible",
+      "Natural Bridge area is rural with very limited off-campus options",
+      "Campus itself is historic and visually striking but geographically isolated"
+    ],
+    "key_quotes": [
+      "You will need a lot of luck for something like that during VMI graduation booking at this late time.",
+      "You could take a look at Staunton — they've got some places that could take reservations and support a group that large.",
+      "VMI is an otherworldly place, God bless it."
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni report dramatic civilian salary jumps after short military service",
+      "Non-commission route still yields strong outcomes — discipline transfers across industries",
+      "VMI grads trusted and respected by peers from other military institutions"
+    ],
+    "key_quotes": [
+      "I owe VMI everything. Made $185,000 total comp my first year as a 28 year old. Moved up the ranks and now earn over $500,000.",
+      "Whenever I meet a fellow graduate from the Naval Academy, Norwich, Texas A&M, or VMI, I know I can trust them.",
+      "VMI is a different story… said with clear implication of elite respect by a Naval Academy Marine officer."
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "key_points": [
+      "$60K tuition with zero military pay is the core financial tension",
+      "ROI is strong long-term but only if you commission or leverage the discipline in civilian career",
+      "Many observers question cost versus just enlisting and getting education paid"
+    ],
+    "key_quotes": [
+      "Imagine going here and paying $60k when you can join the real military instead and they'll pay for all your schooling.",
+      "I owe VMI everything. Commissioned (total comp was $50k) and left after my first contract. Joined the civilian world and made $185,000 total comp my first year.",
+      "ROTC+. Imagine explaining this during the holidays: 'So you're in the military?' 'No… I just like getting called a dirty little rat.'"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Cult-like loyalty among alumni — nearly universal 'I'd do it again' sentiment",
+      "Current cadets display dark humor as core coping mechanism",
+      "Outside observers oscillate between respect and bewilderment at the model"
+    ],
+    "key_quotes": [
+      "VMI is an otherworldly place, God bless it.",
+      "A guy that went here studied at my uni for a semester. At times I thought he was exaggerating his stories but no, I was wrong. Goddamn.",
+      "It kills a lot of bad habits and laziness that a regular college will let you get away with."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Hazing History:** Uncle broke his wrist in stairwell tradition involving upperclassmen beatings",
+      "**Standards Erosion:** Out-of-regs haircuts and uniform violations openly mocked on r/vmi post-COVID",
+      "**Political Instability:** Defunding task force passed committee 4-1; alumni discussing going private"
+    ],
+    "key_quotes": [
+      "He said he broke his wrist on his way down.",
+      "Haircut out of regs (pretty common on post these days), mustache, collar is fucked.",
+      "The bill to create a task force to defund VMI passed the rules committee 4 to 1 on a party line vote."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Brother Rat system creates lifelong bonds unlike anything at civilian universities",
+      "Rat line time deprivation is a deliberate psychological tool — no watches, no clocks, no control",
+      "VMI alumni are a trusted network — grads from peer institutions say they immediately trust VMI people"
+    ],
+    "key_quotes": [
+      "None of the rats are wearing watches or any time telling device but all the cadre are. This is very much intentional and deeply affected my hell week experience.",
+      "Whenever I meet a fellow graduate from VMI, I know I can trust them.",
+      "Back in Marine Corps OCS we had a VMI graduate in my platoon. This VMI graduate was an extreme hard charger — now he is a Marine Corps infantry officer leading his Marines with discipline and motivation."
+    ],
+    "score": 8
+  }
+}

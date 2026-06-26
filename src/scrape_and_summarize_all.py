@@ -178,6 +178,18 @@ SCHOOLS = [
     {"name": "Saint Joseph's University", "slug": "sju", "subreddits": ["r/SaintJosephs"], "keywords": ["Saint Joseph's University", "Hawks", "Philadelphia Pennsylvania"]},
     {"name": "St. Bonaventure University", "slug": "stbonaventure", "subreddits": ["r/StBonaventure"], "keywords": ["St. Bonaventure University", "Bonnies", "St. Bonaventure New York"]},
     {"name": "Virginia Commonwealth University", "slug": "vcu", "subreddits": ["r/vcu"], "keywords": ["VCU", "Virginia Commonwealth University", "Rams", "Richmond Virginia"]},
+    # SoCon
+    {"name": "The Citadel", "slug": "citadel", "subreddits": ["r/TheCitadel"], "keywords": ["The Citadel", "Bulldogs", "Charleston South Carolina", "military college"]},
+    {"name": "East Tennessee State University", "slug": "etsu", "subreddits": ["r/ETSU"], "keywords": ["ETSU", "East Tennessee State", "Buccaneers", "Johnson City Tennessee"]},
+    {"name": "Furman University", "slug": "furman", "subreddits": ["r/FurmanUniversity"], "keywords": ["Furman University", "Paladins", "Greenville South Carolina"]},
+    {"name": "Mercer University", "slug": "mercer", "subreddits": ["r/MercerUniversity"], "keywords": ["Mercer University", "Bears", "Macon Georgia"]},
+    {"name": "Samford University", "slug": "samford", "subreddits": ["r/SamfordUniversity"], "keywords": ["Samford University", "Bulldogs", "Birmingham Alabama"]},
+    {"name": "Tennessee Tech University", "slug": "tennesseetech", "subreddits": ["r/TennesseeTech"], "keywords": ["Tennessee Tech University", "Golden Eagles", "Cookeville Tennessee"]},
+    {"name": "University of Tennessee Chattanooga", "slug": "utchattanooga", "subreddits": ["r/UTChattanooga"], "keywords": ["UTC", "University of Tennessee Chattanooga", "Mocs", "Chattanooga Tennessee"]},
+    {"name": "UNC Greensboro", "slug": "uncg", "subreddits": ["r/UNCG"], "keywords": ["UNCG", "UNC Greensboro", "Spartans", "Greensboro North Carolina"]},
+    {"name": "Virginia Military Institute", "slug": "vmi", "subreddits": ["r/VMI"], "keywords": ["VMI", "Virginia Military Institute", "Keydets", "Lexington Virginia"]},
+    {"name": "Western Carolina University", "slug": "wcu", "subreddits": ["r/WesternCarolina"], "keywords": ["Western Carolina University", "Catamounts", "Cullowhee North Carolina"]},
+    {"name": "Wofford College", "slug": "wofford", "subreddits": ["r/WoffordCollege"], "keywords": ["Wofford College", "Terriers", "Spartanburg South Carolina"]},
 ]
 
 CATEGORIES = [
