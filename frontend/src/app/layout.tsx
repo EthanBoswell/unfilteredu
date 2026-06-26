@@ -30,7 +30,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "UnfilteredU — Real College Reviews",
   description:
-    "Real student opinions from Reddit — not official school content. Housing, dining, academics, and more.",
+    "Real student opinions — not official school content. Housing, dining, academics, and more.",
 };
 
 export default function RootLayout({
