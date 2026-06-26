@@ -7,7 +7,7 @@ import Wordmark from "@/components/Wordmark";
 import { getHeroQuotes } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "UnfilteredU — Real College Reviews from Reddit",
+  title: "UnfilteredU — Real College Reviews",
   description:
     "Real student opinions from Reddit — not official school content. Housing, dining, academics, and more.",
 };
