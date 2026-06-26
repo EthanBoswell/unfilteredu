@@ -88,7 +88,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{ background: "#F5F4EF", marginTop: -52 }}>
+      <section style={{ background: "#F5F4EF", marginTop: -85 }}>
         <div className="mx-auto max-w-[720px] px-8 pb-[72px]">
           <QuoteCarousel quotes={quotes} />
         </div>
