@@ -591,29 +591,6 @@ export function SchoolProfile({
                 {name}
               </h1>
             </div>
-            <div style={{ textAlign: "right", flexShrink: 0 }}>
-              <p
-                style={{
-                  margin: 0,
-                  fontSize: 22,
-                  fontWeight: 700,
-                  color: "#111",
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                }}
-              >
-                {postsAnalyzed.toLocaleString()}+
-              </p>
-              <p
-                style={{
-                  margin: 0,
-                  fontSize: 11,
-                  color: "#9ca3af",
-                  fontFamily: "var(--font-inter), 'Inter', sans-serif",
-                }}
-              >
-                posts analyzed
-              </p>
-            </div>
           </div>
           <p
             style={{
@@ -623,7 +600,7 @@ export function SchoolProfile({
               fontFamily: "var(--font-inter), 'Inter', sans-serif",
             }}
           >
-            Updated {lastUpdated} · Student posts from Reddit
+            Updated {lastUpdated} · Student posts from Reddit and Youtube
           </p>
         </div>
       </div>
