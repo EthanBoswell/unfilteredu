@@ -2,10 +2,23 @@
 
 import { SCHOOLS, type SchoolMeta } from "@/lib/schools";
 
-export function filterSchools(query: string, limit = 5): SchoolMeta[] {
+export function filterSchools(query: string, limit = 8): SchoolMeta[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
-  return SCHOOLS.filter((s) => s.name.toLowerCase().includes(q)).slice(0, limit);
+
+  const startsWith: SchoolMeta[] = [];
+  const contains: SchoolMeta[] = [];
+  for (const s of SCHOOLS) {
+    const name = s.name.toLowerCase();
+    if (name.startsWith(q)) startsWith.push(s);
+    else if (name.includes(q)) contains.push(s);
+  }
+
+  const byName = (a: SchoolMeta, b: SchoolMeta) => a.name.localeCompare(b.name);
+  startsWith.sort(byName);
+  contains.sort(byName);
+
+  return [...startsWith, ...contains].slice(0, limit);
 }
 
 export function SchoolSearchResults({
