@@ -19,6 +19,7 @@ export default function Wordmark({ size = 16, dark = true }: WordmarkProps) {
     >
       Unfiltered
       <span style={{ opacity: 0.22 }}>U</span>
+      <sup style={{ fontSize: "0.5em" }}>™</sup>
     </span>
   );
 }

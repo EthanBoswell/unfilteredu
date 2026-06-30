@@ -37,7 +37,7 @@ export default function HomepageContrast() {
                 className="text-[12px] font-bold uppercase tracking-widest"
                 style={{ fontFamily: "Inter, sans-serif", color: "#F5F4EF" }}
               >
-                UnfilteredU
+                UnfilteredU<sup style={{ fontSize: "0.65em" }}>™</sup>
               </span>
             </div>
           </div>

@@ -42,7 +42,7 @@ export default function AboutPage() {
               lineHeight: 1.1,
             }}
           >
-            About UnfilteredU
+            About UnfilteredU<sup style={{ fontSize: "0.5em" }}>™</sup>
           </h1>
           <div className="mt-5 w-12 h-px" style={{ background: "#e0ddd6" }} />
         </div>
