@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Chamisa dorms have recurring hot water outages lasting over a week",
+      "On-campus housing described as expensive for what it offers, often leaky",
+      "The Verge off-campus apartments: party central, safety hazards, avoid it"
+    ],
+    "key_quotes": [
+      "I currently live in Chamisa G building, and haven't had hot water for more than a week",
+      "It's expensive for what it is (usually leaky units with a multitude of secondary issues)",
+      "I currently live here at the Verge with my girlfriend. Avoid it. Holy shit please fucking avoid the Verge. This place is honestly a hell hole and a safety hazard"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Making friends is genuinely hard; many students feel isolated on weekends",
+      "Campus energy and school pride are weaker than comparable D1 schools",
+      "Online classes have hollowed out in-person campus community significantly"
+    ],
+    "key_quotes": [
+      "I just kinda… don't make friends kinda hard here",
+      "Online classes have sucked a lot of the oxygen out of the campus",
+      "NMSU won't have pride like UMich or UCONN because while we're a D1 school, we lack the funding"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Frenger dining hall has limited app integration, hard to order remotely",
+      "Kiwibot delivery exists but ordering system is broken for some buildings",
+      "No standout praise or condemnation; dining largely goes unmentioned"
+    ],
+    "key_quotes": [
+      "Does anyone know why Frenger doesn't show up on the everyday app? There's a kiwi stop in front but I can't find any way to order something from there",
+      "Let's see the inside of the Cafeteria more"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Free therapy available through NMSU Family Resource Center, no insurance needed",
+      "Sleep deprivation is a real issue; students petitioned for sleep pods",
+      "Support resources exist but students seem unaware of them"
+    ],
+    "key_quotes": [
+      "A lot of students at New Mexico State struggle with sleep deprivation—whether it's from POTS, commuting, working through school, or just the chaos of college life",
+      "The NMSU Family Resource Center offers free therapy services to individuals, couples, and families in the community. No insurance required"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Disbursement delays are a recurring, multi-semester problem causing real hardship",
+      "New Mexico Opportunity Scholarship covers full tuition for NM residents at 2.5 GPA",
+      "Financial aid system is confusing; balances fluctuate unexpectedly post-disbursement"
+    ],
+    "key_quotes": [
+      "Was gonna buy a laptop but got screwed over by delays",
+      "I went from a refund to now owing $197.71 wtf. Their system is hella messed up",
+      "New Mexico has 100% free tuition for all residents at public institutions"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering and aerospace are the standout programs; ABET-accredited and employer-respected",
+      "CMI (creative media) coursework is extremely heavy; four classes is described as brutal",
+      "Online M.Eng. and other grad programs are quality-variable but improving"
+    ],
+    "key_quotes": [
+      "Engineering is the same everywhere. I have several friends who graduated from NMSU and went to work for Northrop Grumman, General Dynamics",
+      "The workload has already been kind of crazy. Should I drop a class for the sake of my sanity?",
+      "I have peers that went to other schools and I think they are ahead a bit skill wise but generally it's a decent program"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Housing and financial aid offices are slow to respond and hard to reach by phone",
+      "Parking enforcement is aggressive and reportedly inaccurate; appeals process exists but is adversarial",
+      "Administration uses AI-generated content despite having a full art department"
+    ],
+    "key_quotes": [
+      "If this is your first experience dealing with what this university has in terms of a 'website', this is going to be a long journey",
+      "Sorry to hear that NMSU still has parking Nazis. They desperately need to build parking garages",
+      "Not NMSU using AI when they have a whole art department"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Las Cruces is affordable, low-density, and close to El Paso and the outdoors",
+      "Campus is visually appealing but parking is a persistent, semester-long headache",
+      "El Paso is 40 minutes away for city amenities; Juárez is similarly close"
+    ],
+    "key_quotes": [
+      "Las Cruces is a pretty sweet place, not too many people and close to El Paso",
+      "Parking has been absolutely horrible this semester. I purchased a permit, but I'm paying at meters more than I am finding reasonable parking",
+      "If you enjoy the outdoors then there is a lot to do"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering grads regularly land at Northrop Grumman, General Dynamics, and defense firms",
+      "Most engineering grads stay local to NM/TX region; national reach is limited",
+      "Journalism program has solid regional placement in El Paso and Albuquerque markets"
+    ],
+    "key_quotes": [
+      "NMSU engineering graduates get jobs in aeronautic, defense, high tech, and oil industry companies and these entities actively hire from NMSU via career fairs",
+      "Most engineering grads stay local to the area they went to school in",
+      "Their Journalism school has pumped out a lot of TV reporters and producers over the years"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "NM residents pay essentially zero tuition via Opportunity Scholarship at 2.5 GPA",
+      "Out-of-state students pay significantly more with less clear ROI than in-state peers",
+      "One of the cheapest M.Eng. and M.S. programs nationally; strong for working professionals"
+    ],
+    "key_quotes": [
+      "NMSU is cheaper, which is wild to me [compared to Oregon State out-of-state]",
+      "In all honesty, I feel like people coming out of state to attend a college that they could probably attend in-state with the same degree, isn't the best financial choice",
+      "This may be the cheapest program in the country and I am for that"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Friendly, family-oriented culture but lacks energy of larger flagship universities",
+      "Strong sense of nostalgia and alumni loyalty despite lower national profile",
+      "Campus feel has improved over 30 years but still trails peer D1 schools in buzz"
+    ],
+    "key_quotes": [
+      "I love NMSU and the school is truly family oriented",
+      "I feel like the sense of school pride and school community has grown in those 30 years",
+      "After also earning my master's from another school, I've come to realize something was missing at NMSU"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: LGBTQ employee made gun threats at event; administration closed case quietly",
+      "**Housing**: Chamisa dorms lack hot water for weeks; facilities unresponsive to complaints",
+      "**Administration**: Phishing scams using NMSU accounts reported; IT lockouts followed reports"
+    ],
+    "key_quotes": [
+      "If you're queer or an ally don't go to events at NMSU; employee allowed to make gun violence threats. The matter has been closed. Oh well",
+      "I reported it and for my service I have been locked out of my account until tomorrow when IT is back",
+      "OIE is an internal institution check that will almost always side with the institution"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "DACC dental clinic offers full cleanings, X-rays, and exams for just $40",
+      "Activity center recently renovated with new equipment; free for full-time students",
+      "Wine tasting course counts as a VWW credit requirement — genuinely popular"
+    ],
+    "key_quotes": [
+      "Students pay a $40 flat fee for dental cleaning, exam, x-rays, and more",
+      "Recent renovations also, so the workout area and equipment is new",
+      "Wine tasting if it's still available. Took that as a VWW, was able to drink with a good group of people with decent food every Wednesday"
+    ],
+    "score": 7
+  }
+}

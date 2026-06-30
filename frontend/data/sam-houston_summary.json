@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Village dorms are functional but students struggle finding pricing info",
+      "Parents actively research dorms online, suggesting limited official guidance",
+      "International students found housing costs prohibitively expensive"
+    ],
+    "key_quotes": [
+      "i absolutely loved visiting the campus and seeing the dorms but sadly it is too expensive for me as an international student",
+      "Are there different available dorm options for different prices? I can't find any :/"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus skews commuter, weaker social scene than flagship universities",
+      "Huntsville is small; limited off-campus entertainment options noted",
+      "Rodeo culture is a genuine unique draw for some students"
+    ],
+    "key_quotes": [
+      "Sam Houston isn't the flagship university of Texas—the numbers of commuters is usually much higher at non-flagship state universities",
+      "There is a movie theater in Huntsville. It's not as big as other movie theaters but it does show up to date movies.",
+      "me and my wife n son enjoyed very much with all facilities overthere especially rodeo!"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student data on dining quality in either source",
+      "Small-town location limits off-campus food options significantly",
+      "Not a talking point in any tour or student vlog content"
+    ],
+    "key_quotes": [
+      "can go to Houston for the weekend",
+      "There is a movie theater in Huntsville. It's not as big as other movie theaters"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One returning student cited serious mental illness struggles during first enrollment",
+      "No mentions of campus counseling resources in any student content",
+      "Workload stress is real; criminal justice students juggle heavy schedules"
+    ],
+    "key_quotes": [
+      "I was also struggling with what would become a life-long battle with mental illness and living with active drug users to save money",
+      "I have 30 minutes to leave, I have to walk and feed my dog, get ready, and finish this assignment"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "SHSU is notably affordable for in-state students vs peer schools",
+      "High acceptance rate means limited merit aid for average applicants",
+      "International students explicitly priced out by cost structure"
+    ],
+    "key_quotes": [
+      "Sam Houston State isn't a terribly expensive school. Their calculator online suggests costs are manageable",
+      "seeing that the school you're trying to go to has a 97% acceptance rate, you're probably gonna get in but don't expect any other aid",
+      "it is too expensive for me as an international student"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Criminal Justice is SHSU's marquee program with strong national reputation",
+      "Workload can be intense; one history course had 30 pages of notes mid-semester",
+      "Class availability is a real problem — upper-level CJ classes fill up fast"
+    ],
+    "key_quotes": [
+      "all of the classes I wanted are full... most are full already and some only have one or two seats left",
+      "I had written 30 pages of notes between this exam and the last exam — a month and a half of information",
+      "I have a friend doing criminology at SHSU right now who loves it"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Website is confusing — multiple students couldn't find basic info",
+      "Application process lacks transparency; students unsure what's required",
+      "Transfer credit and GPA policies generate consistent confusion among students"
+    ],
+    "key_quotes": [
+      "Their website is confusing and I don't understand how to use it",
+      "I submitted my application for Sam Houston State and it didn't ask for an essay, my SAT or ACT Scores, and my GPA. Is this normal?",
+      "I can't find any [dorm pricing info] :/"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Huntsville is a small town with limited entertainment — students drive to Houston",
+      "Campus itself is pleasant and walkable based on tour reactions",
+      "Safety concerns surfaced in one video about muggings, though older alumni disputed it"
+    ],
+    "key_quotes": [
+      "It's a good size and nice location, can go to Houston for the weekend",
+      "I went to Sam between 2003 and 2007 and I never heard of people getting mugged",
+      "There is a movie theater in Huntsville. It's not as big as other movie theaters"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Criminal Justice and Forensic Science programs have strong career pipelines",
+      "Cyber Security noted as an in-demand field SHSU grads pursue",
+      "Perception as a 'nobody school' may create resume friction in competitive markets"
+    ],
+    "key_quotes": [
+      "Cyber Security is in demand so if you're thinking about going for a Masters next then Cyber Security is a good choice",
+      "If you think going to Sam Houston State is anywhere near the same ballpark as Harvard there isn't much to say",
+      "Future Juvenile Probation Officer here — I have been accepted and will be at SHSU in the Spring"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong value for in-state CJ and criminology students specifically",
+      "Affordable tuition makes it a legitimate backup with Honors program money",
+      "Students choosing it over full rides elsewhere suggests Honors aid is competitive"
+    ],
+    "key_quotes": [
+      "Sam Houston State isn't a terribly expensive school",
+      "Sam Houston (Honors) — accepted alongside UT Austin and Texas A&M",
+      "You must go to community college for 2 years. Must. [advice given to SHSU-bound freshman paying alone]"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Unpretentious regional school with a tight criminal justice identity",
+      "Student body skews practical and career-focused, not research-oriented",
+      "Widely seen as a safety school but students who attend often find community"
+    ],
+    "key_quotes": [
+      "Bloom where you are planted — there aren't any nobody schools, only nobody people",
+      "I almost went to Sam Houston for Criminal Justice — there aren't many CJ major YouTubers",
+      "It's a pretty average school placed in Tier 6 among Texas universities"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Class Access:** Upper-division CJ classes fill instantly, blocking transfers from progressing",
+      "**Perception Gap:** Consistently ranked Tier 6 in Texas; may hurt in competitive job markets",
+      "**Website/Admin:** Multiple students couldn't find basic info on costs, requirements, or housing"
+    ],
+    "key_quotes": [
+      "all of the classes I wanted are full... some only have one or two seats left",
+      "Their website is confusing and I don't understand how to use it",
+      "you're probably gonna get in but don't expect any other aid"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Criminal Justice program is genuinely respected — draws students from across Texas",
+      "Huntsville location means lower cost of living than Houston or Austin campuses",
+      "RA opportunities available even for transfer students, aiding campus integration"
+    ],
+    "key_quotes": [
+      "I have a friend doing criminology at SHSU right now who loves it. It's a good size and nice location",
+      "can you make a vid on how to be a RA at shsu — and how you did it as a transfer?",
+      "I was accepted to Sam Houston at least, as a backup [alongside UH engineering rejection]"
+    ],
+    "score": 7
+  }
+}

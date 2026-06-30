@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm quality varies significantly hall to hall at Missouri State",
+      "Ventilation and mattress quality are common student concerns",
+      "Hammons suites mentioned as a notable private option for freshmen"
+    ],
+    "key_quotes": [
+      "I have a 4 person private suite in Hammons at the moment, I was just wondering if anyone had opinions on the living situation there",
+      "How are the mattresses? Does it vary hall to hall?",
+      "I've heard ventilation can be an issue at some schools, is MO State one of them?"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Making friends is a real challenge, especially for commuters and transfers",
+      "Greek life exists but is less dominant than schools like Mizzou",
+      "Introverts and non-traditional students report feeling isolated on campus"
+    ],
+    "key_quotes": [
+      "I commute an hour to Springfield every day, and I find it hard to be involved in student activities. Everyone seems to prefer to stay in their circle.",
+      "He didn't seem to have any friends. Tried to rush, but didn't get into a frat, isn't in any clubs.",
+      "I just transferred this year as a junior and I realized how unsatisfied I am right now, and that I need to get more connections."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Vegan mislabeling is a documented problem in dining centers",
+      "Students with dietary restrictions must go through Disability Office for accommodations",
+      "Commuter meal plan flexibility is a real concern for off-campus students"
+    ],
+    "key_quotes": [
+      "I saw online that there tends to be a bit of mislabeling when it comes to the vegan options at the dining centers.",
+      "After 2 calls of him not eating anything all day, I figured it out. Go to the student Disability office... the school definitely takes care of your dietary needs. A+",
+      "The idea of everything I eat coming directly out of my pocket freaks me out a bit."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Campus counseling center reviews are mixed — quality depends on who you see",
+      "Students failing semesters during family crises report navigating complex withdrawal policies",
+      "No strong Reddit presence praising mental health resources proactively"
+    ],
+    "key_quotes": [
+      "I had an appointment there recently and I'm curious if other people had an experience similar to mine (not great) or if it just depends on who you see.",
+      "I am currently failing/close to failing out of the Spring 2023 semester... My grandma broke her hip and passed away. I've never failed out of a semester.",
+      "I've been super overwhelmed this past semester with all in person classes."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Missouri State is consistently praised for generous merit aid to international students",
+      "Scholarship renewal terms can be confusing — students frequently ask for clarification",
+      "ProctorU fees ($100/class) added on top of tuition causing financial strain for online students"
+    ],
+    "key_quotes": [
+      "I got an 84k scholarship to MSU as an international student.",
+      "Online courses are forcing us to use ProctorU which is $100 per class just to take tests. I don't even know if I can afford to go anymore.",
+      "My scholarship letter says you are awarded XXX$ annually for four years. Just to confirm, that means this value will be renewed every year, right?"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Some professors are late, unprepared, and visibly unknowledgeable — a recurring complaint",
+      "Lyman Briggs and Honors College are frequently cited as strong academic tracks",
+      "MSU's supply chain management program is nationally ranked #1 and widely recognized"
+    ],
+    "key_quotes": [
+      "It seems like especially this semester I have a slew of professors that truly don't do their jobs — 5-10 minutes late every day, absolutely unprepared.",
+      "Overall, I think MSU is a great university, but it seems like their hiring priorities have shifted.",
+      "MSU's supply chain management is #1 in the country — does MSU having the #1 SCM program even mean anything?"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Withdrawal process is financially punishing — only $500 credit given after early withdrawal",
+      "One professor charged students $99 each to sign up for her activist website; students sued",
+      "Admissions office praised for personal, warm email communication with admitted students"
+    ],
+    "key_quotes": [
+      "They stated the school is no longer doing full refunds and will only give $500 credit to the balance left.",
+      "An MSU professor made students pay $99 each to sign up for her activist website. Now they're suing.",
+      "She said 'I remember your application well and I am thrilled to hear you have been admitted.' Out of thousands of applicants, she remembered my app."
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Springfield campus is considered attractive and walkable by most students and alumni",
+      "Car vandalism in campus lots has occurred — 14 vehicles hit in one incident",
+      "USPS and FedEx reliability in Springfield is genuinely poor — packages routinely lost"
+    ],
+    "key_quotes": [
+      "14 vehicles vandalized August 27 at approx 4am. Tires slashed, windows smashed, and gas caps pried off.",
+      "Packages and letters frequently never show up. Even domestic mail can take anywhere from a week to several months.",
+      "I visited on a speech and debate trip and very much want to attend when I can."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Supply chain and business programs have strong employer recognition nationally",
+      "MSU Honors College alumni have gone on to Stanford PhD programs",
+      "General MSU degree seen as solid but not prestigious outside the Midwest"
+    ],
+    "key_quotes": [
+      "I know someone who went to MSU for undergrad, Stanford for a Ph.D. It's not uncommon.",
+      "The name 'Michigan State' doesn't generate 'oohs' and 'ahhs' like some schools, and people on the other side of the planet haven't heard of MSU.",
+      "Consulting companies recruit UMich engineers. For MSU, if you want to just work in industry doing engineering, you'll be fine."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Exceptional value for merit scholarship recipients, especially international students",
+      "Full ride to Honors College frequently beats paying for marginally better schools",
+      "Without significant aid, costs are hard to justify compared to lower-ranked in-state alternatives"
+    ],
+    "key_quotes": [
+      "A full ride to the honors program at MSU is the better option in my opinion over paying $98k for UMich.",
+      "MSU gave me a ton of merit and financial aid too as an OOS applicant. It was the only OOS school I applied to since I love it so much.",
+      "I committed to MSU because it was cheap. I got into UW-Madison, U-Maryland, UCSB, UIUC."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong school spirit and Spartan identity — students commit with genuine enthusiasm",
+      "Large campus means you find your niche, but it takes real effort to do so",
+      "Frequently a landing spot for students who wanted elsewhere — but many end up loving it"
+    ],
+    "key_quotes": [
+      "You know, I went to MSU for grad school and although it's a very big school, once you find your niche, by the end it felt very cozy.",
+      "I, an international student, FINALLY have a place to go next year.",
+      "MSU Class of '27! Proud to be a Spartan!"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Withdrawal triggers large bills — $1,300 charged for vacant roommate space",
+      "**Safety:** 14 cars vandalized on campus in a single night; university slow to publicly respond",
+      "**Faculty:** Students report suing a professor who charged $99 per student for personal activist site"
+    ],
+    "key_quotes": [
+      "MSU came at me with a bill of $1300 because of the vacant space. I have felt like nothing but a number at this huge university.",
+      "I saw video of it on the MSU snap story — it's super upsetting but I haven't heard the university address it.",
+      "An MSU professor made students pay $99 each to sign up for her activist website. Now they're suing."
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors College professorial assistantship scholarship is automatic and underrated",
+      "Collaborative Care Clinic offers free healthcare services to students",
+      "Admissions staff are unusually personal and remembered individual applications"
+    ],
+    "key_quotes": [
+      "The professorial assistantship scholarship everyone automatically gets in the honors college is so nice.",
+      "Missouri State opens free Collaborative Care Clinic.",
+      "Out of thousands of applicants, she was able to remember my application — 'I am certain you will do great things.'"
+    ],
+    "score": 7
+  }
+}

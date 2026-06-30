@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms arrive dirty: trash, stained mattresses, broken doors reported",
+      "Document every flaw immediately or risk being charged for existing damage",
+      "Housing is 'notoriously bad' per multiple students"
+    ],
+    "key_quotes": [
+      "The mattress is stained in white, which im assuming is paint, some of the blinds are bent, and the carpet looks so musty",
+      "I knew the dorms were notoriously bad but damn wtf",
+      "My door is also broken like, I can lock my door and close it... if you put enough force in the middle [it opens]"
+    ],
+    "score": 3
+  },
+  "social_life": {
+    "key_points": [
+      "Commuter school energy — weak campus identity outside sporting events",
+      "Student orgs run as friend cliques, not career-building opportunities",
+      "Students post seeking friends after 2 years, suggesting real isolation risk"
+    ],
+    "key_quotes": [
+      "It's commuter school energy so weaksauce identity culture except around sporting events",
+      "Student organizations at this university are run in the way so the officers can hang out with their tight knit friends",
+      "I've been at UTEP for 2 years! I am junior... I'm looking for any guys that want to hangout"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Vending machines across multiple buildings are perpetually broken",
+      "No strong dining complaints but limited on-campus food options noted",
+      "Starbucks near chemistry building used by students just to refill water"
+    ],
+    "key_quotes": [
+      "It has to be a damn miracle blessed by god himself that a vending machine works in this place",
+      "I've been to 4 different buildings, biology, business, uglc and union. Tell me why each one is just falling apart?",
+      "The Starbucks at the chemistry and computer science building is where I personally restock on water"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Free counseling available — up to 16 sessions, generally well-reviewed",
+      "Availability is limited; getting appointments can be difficult",
+      "Students openly discuss depression, academic failure recovery, and burnout"
+    ],
+    "key_quotes": [
+      "They dont have enough availability",
+      "I have gotten services and they're pretty decent! The counselor I got assigned is pretty nice and has helped me well",
+      "1.7 was my worst. I attended several semesters in a row never attending class. I fixed it by overcoming my depression"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Random surprise charges appear with zero notice or explanation",
+      "Financial aid office is severely understaffed — 30+ min hold times then disconnects",
+      "In-person visits are the only reliable way to resolve issues"
+    ],
+    "key_quotes": [
+      "My payment plan amount changed out of nowhere. No email. No warning. Nothing. When I went in person nobody could give me a straight answer",
+      "Last semester, I got hit with a random fee the week before finals, got told if I didn't pay I'd be dropped",
+      "The financial aid office was an utter mess at the start of the semester. Seemed really understaffed too"
+    ],
+    "score": 3
+  },
+  "academics": {
+    "key_points": [
+      "Some standout professors praised heavily; quality varies wildly by department",
+      "Schedule changes forced students into 12-hour campus days without warning",
+      "Cheating on GroupMe chats is openly acknowledged and widespread"
+    ],
+    "key_quotes": [
+      "Hands down the best professor I had at UTEP",
+      "I've always gone Tuesdays and Thursdays only, but now I'm there at UTEP everyday... Tuesdays and Thursdays from 8:30am to 8:40pm",
+      "Why do other students share exam answers or cheat on GroupMe chats? I've seen this every time I join one of these chats"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Bursar and financial aid offices are consistently unresponsive and disorganized",
+      "Parking enforcement aggressively tickets students even with valid permits",
+      "Campus WiFi blocks streaming services 8am–5pm without clear communication"
+    ],
+    "key_quotes": [
+      "Every semester comes with some new headache, surprise charge, or unexplained adjustment, and students are the ones who get screwed over",
+      "Parking enforcement is still acting like El Paso's Motorcycle Cops... myself and multiple others with valid permits got ticketed",
+      "Not sure if you got an email, but streaming or gaming services will be blocked from 8am to 5pm due to connection issues"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Unique Bhutanese-inspired architecture — genuinely distinctive and praised",
+      "Cell service is spotty; part of campus roams onto Mexican towers",
+      "Water refill stations frequently out of service across buildings"
+    ],
+    "key_quotes": [
+      "The campus is absolutely beautiful! The buildings, architecture, and landscaping is spectacular!",
+      "Part of campus has a tower in Mexico closer than any in the States. That's why we hit roaming sometimes",
+      "UTEP loves nothing more than fake water fountains"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Job Expo skews heavily toward engineers; non-STEM majors find little value",
+      "Local defense contractors recruit actively, especially veterans",
+      "Networking time is short as a commuter school — a real structural disadvantage"
+    ],
+    "key_quotes": [
+      "I went last year as a political science major and found nothing. Most employers who go are searching for engineers",
+      "I got an offer through one of the defense contractors but that was mainly due to my active duty time",
+      "One of the difficulties of being a transfer student is that you do not have a lot of time to network"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Paydirt Promise covers full tuition for families under ~$100k — genuinely transformative",
+      "Tuition ~$4–5k/semester is affordable; parking adds $400/year on top",
+      "UTEP underpays staff, which may reflect resource allocation priorities"
+    ],
+    "key_quotes": [
+      "If you make less than $100k per year and they are going full time, your student might qualify for the paydirt promise, effectively making school free",
+      "About $1000 a class and close/easy parking for a year is $400",
+      "UTEP underpays their employees… try to get as close to the salary you want before taking the job"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Predominantly commuter school — most students live at home with family",
+      "Chill, low-pressure atmosphere; lacks the energy of a traditional campus",
+      "Strong local identity in a border city; immigration politics run hot on campus"
+    ],
+    "key_quotes": [
+      "UTEP is a more chill commuter school as opposed to the insane party culture at CU",
+      "It's commuter school energy so weaksauce identity culture except around sporting events",
+      "Our city is a city of immigrants and this administration wants to tear families like ours apart"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Financial Aid:** Unexplained charges, unresponsive offices, and payment plan changes with zero notice",
+      "**Parking:** Oversells permits, broken gate systems, aggressive ticketing of valid permit holders",
+      "**Shuttle System:** Chronic mismanagement — wrong number of buses at wrong times, daily crowding at peak hours"
+    ],
+    "key_quotes": [
+      "I agreed to a set amount of $916.97, and suddenly it's higher — when I went in person nobody could give me a straight answer",
+      "They absolutely sell more permits than spots available, and a lot of people will just park there whether they have a pass or not",
+      "Before 9AM there are usually only one or two shuttles in service, and every day there's overcrowding — this has been an ongoing issue with no visible improvements"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Free LP records available at the music library on Fridays",
+      "5th floor library is a genuinely silent study sanctuary with cubicles",
+      "Bhutanese-inspired architecture and Tea Room on the quad are unique cultural treasures"
+    ],
+    "key_quotes": [
+      "The 5th floor is the silent study floor. No phone calls, headphones only, and no talking. Perfect place to study",
+      "Yes, go there on Friday [for free LPs]",
+      "There is some history behind the Bhutanese Temple/Tea Room on the quad — around 1980, the Smithsonian hosted its annual international festival"
+    ],
+    "score": 7
+  }
+}

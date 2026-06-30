@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Park Place apartments described as spacious and well-furnished",
+      "Roommate matching system is slow and unreliable for freshmen",
+      "Parking is expensive (~$120/year) with chronic shortage of spots"
+    ],
+    "key_quotes": [
+      "the rooms are pretty good and spacious!! the apartment itself is decently furnished",
+      "I didn't know I had a roommate til a week before move in",
+      "parking is a beast... you will never find parking"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Queer students exist but acceptance varies heavily by major",
+      "Clubs, intramurals, and coffee shops are main socializing venues",
+      "Fraternities don't require rec letters; rush process is accessible"
+    ],
+    "key_quotes": [
+      "There's a good bit of queer students, though general acceptance can differ some by major",
+      "Go to a few interest meetings... you don't have to keep going, just go to one and find your people",
+      "Be cautious reaching out to TKE members. The ones now are asshats."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Cafeteria uses ID card swipes; unlimited plan allows visits hourly",
+      "Dining Bucks (DB) can be used at the caf for ~$9 per meal",
+      "Halal food options are very limited; one local Islamic center may help"
+    ],
+    "key_quotes": [
+      "If you have unlimited swipes you can go to the caf as often as every hour",
+      "I think tech farms meat is halal... I remember being surprised by the halal labeling",
+      "there isn't any market or halal restaurants [in town]"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of counseling services from students",
+      "Architecture students report brutal workloads with multiple all-nighters",
+      "Academic probation and financial stress appear as recurring student concerns"
+    ],
+    "key_quotes": [
+      "He pulled multiple all nighters every quarter and he ended up dropping and switching to business",
+      "I'm on academic probation and probably going to lose my Sap",
+      "I was so tired after all the events [at orientation]"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Bulldog Scholarship details not included in acceptance letter; check portal separately",
+      "Class purge anxiety is real — students fear dropped classes over payment confusion",
+      "FAFSA must be renewed every year; loans don't auto-renew"
+    ],
+    "key_quotes": [
+      "there should be a dedicated section in your admission portal showing a different letter notifying you that you've received it",
+      "Got an email saying my classes will be held and that they will be dropped if I don't start paying soon",
+      "Yes you have to reapply every year... you always have to fill out the FAFSA each year and then reapply with the university financial aide"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering programs are rigorous; MacBooks explicitly not recommended by COES",
+      "CS/Cyber double major is common due to overlapping coursework",
+      "Accounting 201 is harder than expected — skipping class leads to failure"
+    ],
+    "key_quotes": [
+      "MacBooks are not recommended, bold and underlined [by COES]",
+      "You'll fall if you don't go [to Accounting]. Accounting is not intuitive enough to BS your way through",
+      "Tech CS grad, class of 2018. Cyber/Electrical with CS double major was pretty common. But it's a heavy workload."
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Housing office has limited hours and poor phone responsiveness",
+      "Cashier's office sends confusing or alarming emails about payment",
+      "International admissions department is slow to respond to scholarship questions"
+    ],
+    "key_quotes": [
+      "I tried calling housing, but they don't pick up",
+      "Asked for clarification due to this and was basically told the same thing twice",
+      "as of now, absolutely no response from the international admissions department"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Ruston is a small, conservative town — limited dining, nightlife, and cultural options",
+      "Campus is walkable but roads have potholes; Walmart is within walking distance",
+      "Moving to Sun Belt conference seen as positive for regional rivalries and travel"
+    ],
+    "key_quotes": [
+      "Tech and Ruston in general is conservative so those face piercings are not going to work well for you",
+      "the roads are riddled with potholes",
+      "So glad we're leaving that discombobulated trash heap of a conference [CUSA]"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Accounting grads have landed Big 4 firms internationally",
+      "CS and engineering grads report strong placement in cybersecurity and engineering roles",
+      "Architecture graduates warned they'll be lowest paid in the room long-term"
+    ],
+    "key_quotes": [
+      "My close friend got his bachelors and masters in accounting from Tech and now works at a Big 4 firm in Korea",
+      "2024 CS grad, working in cybersecurity the last 2 years",
+      "20 years later when you're in a room with engineers, project managers, and finance watchdogs you'll be the lowest paid and hardest working among that group"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Free or near-free tuition via scholarships makes Tech a compelling engineering option",
+      "Long commutes to save money are common but unsustainable by mid-semester",
+      "Out-of-state students should compare carefully; in-state value is the real draw"
+    ],
+    "key_quotes": [
+      "If you aren't getting need based [aid] to make those expensive options affordable, I would go with free for almost every engineering field",
+      "I drove to a campus that was just 50 minutes from my house... it got real old by November",
+      "Keep in mind you won't actually be saving 10k with gas prices and the wear and tear on your car"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Tour guides praised for being candid and honest, not scripted",
+      "Campus feels friendly and unpretentious compared to larger Louisiana schools",
+      "Strong alumni pride around notable names like Terry Bradshaw and Karl Malone"
+    ],
+    "key_quotes": [
+      "LA Tech felt like home. Everyone felt like they wanted to be there. The tour guides kept it 100 with me",
+      "Never once did I hear anyone on campus bash another college",
+      "An underrated G5 as far as facilities are concerned"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Campus Culture:** Ruston is openly conservative; LGBTQ+ and non-Christian students report discomfort",
+      "**Administration:** Class purge threats and confusing financial emails cause serious student anxiety",
+      "**Safety:** At least one student post flagged Ruston-adjacent Monroe as having notable crime concerns"
+    ],
+    "key_quotes": [
+      "Ever since I came to Ruston, feels like not a safe place for non Christians, non-MAGA, or non-white",
+      "Watch out for the police they are unforgiving",
+      "Monroe is a pretty dangerous area. You will need a car. I recommend purchasing a weapon for your home"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Professional Aviation program is selective but accessible with PPL already earned",
+      "Athletics department hires students across many roles including video, photography, and marketing",
+      "Campus has explorable tunnels and rooftop access points — informal student tradition"
+    ],
+    "key_quotes": [
+      "Athletics is always hiring. There's game day production, marketing, sports information, video and camera crew, photography",
+      "your GPA shouldn't be an issue... you already have your PPL. There's a good chance you get accepted",
+      "There are tunnels [under campus]"
+    ],
+    "score": 7
+  }
+}

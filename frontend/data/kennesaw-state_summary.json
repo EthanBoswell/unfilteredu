@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Private bathrooms common; dorms rated highly by current students",
+      "UV apartment-style housing praised but expensive, eats full tuition",
+      "Marietta campus dorm options unclear; students ask if modern dorms exist there"
+    ],
+    "key_quotes": [
+      "Dorms and res life overall is incredible, most of their dorms have private bathrooms",
+      "she's probably gonna have to use all of her tuition to live at UV",
+      "Do you know if dorms like this are available on the Marietta campus?"
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "Commuter-heavy culture makes socializing harder, especially Marietta campus",
+      "Marietta campus described as 'socially dead' by multiple students",
+      "Kennesaw town offers easy Atlanta access; mountains nearby for weekends"
+    ],
+    "key_quotes": [
+      "The Marietta campus is allegedly socially dead",
+      "Kennesaw is a cool town. It's far enough outside ATL that it's not too crazy",
+      "I want to have fun in college, go out, parties, events"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Food consistently praised as a standout positive by students",
+      "Multiple Reddit commenters voluntarily mention food quality unprompted",
+      "No serious complaints about dining found in either source"
+    ],
+    "key_quotes": [
+      "the food is bomb. have fun!",
+      "My brother goes to KSU and he enjoys it. Getting better and great food lol",
+      "Not related to the app, but the food is bomb"
+    ],
+    "score": 8
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support discussion found in data",
+      "Students mention stress from transfer anxiety and financial pressure",
+      "One student referenced a near-death experience on campus with emotional attachment"
+    ],
+    "key_quotes": [
+      "I didn't like KSU at all. I don't like talking about it because I don't want to relive those moments",
+      "Consistent struggles with mental illness which incredibly impacted my high-school grades",
+      "I was so scared one night... Kennesaw state saved my life"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "HOPE and Zell Miller scholarships make KSU extremely affordable for Georgia residents",
+      "Total 4-year cost around $74k even with HOPE; manageable but not trivial",
+      "Financial aid bureaucracy causes real problems; one student's mom withheld SS card to block scholarship"
+    ],
+    "key_quotes": [
+      "$74,000 that I nor my parents have. That's four years total. I'm going to KSU and that price is WITH the HOPE",
+      "Important information for getting scholarships is being withheld from me",
+      "my GSAL loan went over the cost of attendance... they're saying if I don't give them the thousand by the 12th they'll send it to collections"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Polytechnic/Marietta campus hit hard by part-time professors who don't know material",
+      "CS program considered best among KSU/GSU/Georgia Southern trio by students",
+      "Computer Engineering Tech degree may not qualify for FE/PE engineering exams"
+    ],
+    "key_quotes": [
+      "They decided to charge full state tuition, jumped people in required classes, then chose all part-time professors who did not know the material",
+      "I believe that KSU has the best program of the three, as UGA's is very new and KSU absorbed Southern Poly",
+      "No. Techs are not considered engineers and possibly cannot qualify for the FE/PE exams"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Counselors at Polytechnic campus only available by email; students felt abandoned",
+      "Admissions portal has technical errors blocking applicants from submitting",
+      "Loan disputes handled aggressively; research stipend caused collections threat"
+    ],
+    "key_quotes": [
+      "Counselors were only available by email",
+      "my email does not exist in tenant 'Kennesaw State University' and cannot access the application",
+      "Their Dean was recently fired after bribery to the staff. Now they're having issues"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Split campuses create confusion; Marietta is STEM-focused but socially isolated",
+      "Kennesaw main campus walkable and visually appealing per tour videos",
+      "Atlanta proximity is a genuine asset for internships, nightlife, and networking"
+    ],
+    "key_quotes": [
+      "The Marietta campus is allegedly socially dead. Not a bad place to try to transfer into Tech from",
+      "Kennesaw is a cool town. Some awesome small towns and mountains are just up 75",
+      "because of its size and proximity to Atlanta you'll probably have better networking"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Seen primarily as a transfer launchpad to Georgia Tech, not a career destination",
+      "KSU-to-GT pipeline exists and is actively used by engineering students",
+      "Game Design grad from Marietta campus reports positive experience; seeks industry work"
+    ],
+    "key_quotes": [
+      "the KSU/GSU pipeline to GT is your best bet",
+      "I graduate May 2023 for Computer Game Design and Development... I've enjoyed my time here so far. Marietta Campus",
+      "I believe that KSU has the best program of the three"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Extremely affordable for Georgia residents with HOPE/Zell Miller; often under $5k tuition",
+      "International and OOS students pay ~$18k/year with limited scholarship options",
+      "Nursing students specifically cite KSU as financially smart choice"
+    ],
+    "key_quotes": [
+      "Their tuition is about $5k per year... with my family income it would be around 18k",
+      "If I go to KSU I'll be commuting from home and will pay 3k out of pocket",
+      "KSU is the better option. The extra 4,000 per year for UGA isn't worth the higher ranking"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Many students attend as a stepping stone, not a destination school",
+      "Enthusiastic minority of students genuinely love it; transfer-minded majority coexist",
+      "Athletic and social culture less dominant than UGA; more academically transactional"
+    ],
+    "key_quotes": [
+      "I came here for a field trip when I was little and now I'm still at KSU and it is amazing",
+      "KSU is slept on imo. If you're staying a year and transferring, you picked a good place to do it",
+      "I genuinely feel like I wasted all these years to end up at a shitty state school. I'm going to Kennesaw State University now"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Administration: dean fired for bribery; leadership described as 'gone corrupt'",
+      "Academics: Marietta STEM campus staffed with part-time professors unqualified in subject matter",
+      "Bureaucracy: loan disputes sent to collections; portal errors block applicants; scholarship documents weaponized by parents"
+    ],
+    "key_quotes": [
+      "Their leadership system has gone corrupt these last few months. Their Dean was recently fired after bribery to the staff",
+      "They chose all part-time professors who did not know the material. Counselors were only available by email",
+      "they're saying if I don't give them the thousand by the 12th they'll send it to collections"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Model UN and Model NATO teams are competitive and well-regarded",
+      "Study abroad programs described as affordable and genuinely available",
+      "Architecture B.Arch program exists as rare undergraduate professional degree in Georgia"
+    ],
+    "key_quotes": [
+      "Their MUN and Model NATO teams are pretty good if you're into that!",
+      "KSU has some fantastic, affordable study abroad opportunities",
+      "I am almost through with my master's at KSU. Really great school"
+    ],
+    "score": 7
+  }
+}

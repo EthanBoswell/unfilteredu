@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "Frat houses described as literal shitholes by visitors",
+      "Transfer housing is a concern — few direct answers available",
+      "On-campus options exist but quality varies significantly"
+    ],
+    "key_quotes": [
+      "Those frat houses were 💩holes 💀. I lived in something similar when I was a senior in Topeka Kansas",
+      "She's a freshman transfer spring 2023. What's the best dorms and is it easy for transfers to find one"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Party/Greek scene exists but frat housing quality is rough",
+      "Campus described as having good work-life balance by applicants",
+      "Newark town scene limited — Grottos pizza mislabeled as a bar"
+    ],
+    "key_quotes": [
+      "I love how UD seems to have a good balance between work and fun",
+      "Grottos isn't really a bar. It's a pizza place. It's like calling Applebee's a bar"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No substantive dining data from either source",
+      "Grottos Pizza is a local off-campus staple students mention",
+      "Campus food culture largely undocumented in student reviews"
+    ],
+    "key_quotes": [
+      "Grottos isn't really a bar. It's a pizza place. It's like calling Applebee's a bar. It's still awesome though"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of counseling or mental health resources",
+      "Students describe stress around admissions deferrals and waitlists",
+      "One student dropped out citing 'suffering grades' and mental strain"
+    ],
+    "key_quotes": [
+      "I was originally going to University of Delaware, but dropped out due to suffering grades",
+      "I currently have a 3.725 cumulative GPA and want to transfer to college for a better experience... I want a more academically competitive school"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "OOS tuition hits $45-60k/year with little to no aid for many",
+      "Merit scholarships are transparent and stat-based — easy to calculate",
+      "Financial aid office accused of fabricating scholarship offers"
+    ],
+    "key_quotes": [
+      "I'm currently attending the University of Delaware — I got no scholarships so I'm paying $45K a year (out of state)",
+      "I got an email telling me I received a scholarship. However, I couldn't login to my account... he told me there was no scholarship listed THEN he tried to talk me into taking out 52k in loans per year",
+      "Was accepted to UD with full ride merit scholarship. Cornell wants us to pay $61k a year"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Chemical Engineering ranked 6th-7th nationally — legitimately elite",
+      "ChemE and chemistry are standout programs with strong peer reputation",
+      "CS ranked around 70th nationally — solid but not exceptional"
+    ],
+    "key_quotes": [
+      "UDel was ranked 6th in the country for ChemE this past year",
+      "US News & World Report has ranked Delaware ChBE as the 7th best chemical engineering undergraduate program in the US",
+      "UMD is ranked ~15th in the nation in regards to [CS], versus UDel's rank of 70"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Financial aid office gave misleading scholarship info to at least one student",
+      "Portal and SRAR system caused missed EA deadlines for applicants",
+      "Scholarship notification delays of 6+ weeks reported post-acceptance"
+    ],
+    "key_quotes": [
+      "He told me there was no scholarship listed THEN he tried to talk me into taking out 52k in loans per year to attend by telling me about UD's reputation",
+      "Totally forgot to set up my U Delaware portal and didn't see that they require submitting the SRAR as well. Now it looks like I went from early action to regular decision",
+      "It's been like 6 weeks now and I still haven't heard back from the school about the scholarships"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Newark, DE is quiet/suburban — not an urban college town",
+      "Campus itself is considered attractive and walkable by visitors",
+      "Delaware as a state is routinely forgotten — 'a rest stop on I-95'"
+    ],
+    "key_quotes": [
+      "Delaware is a rest stop on rt 95 between Philly and Baltimore",
+      "I only remember Delaware because Biden was born there",
+      "I quite loved University of Delaware's campus"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "ChemE grads have strong outcomes given program's national ranking",
+      "Business/finance networking praised by some, questioned vs Penn State",
+      "Trust management minor guarantees internship at Delaware trust companies"
+    ],
+    "key_quotes": [
+      "Go to UDEL, work hard and get a job, if not, go to Cornell for grad school",
+      "The minor is new and only has 12 people in it and we are all guaranteed an internship at a trust company in Delaware",
+      "I hear a lot of good things about Penn State, such as networking, their finance program"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is strong value, especially for ChemE/sciences",
+      "OOS without merit aid ($45-60k/year) is widely considered a bad deal",
+      "Full-ride merit scholarships exist and are worth aggressively pursuing"
+    ],
+    "key_quotes": [
+      "UD being 60k a year... we will most likely have to take out some loans, which is the main drawback",
+      "I'm currently attending the University of Delaware — I got no scholarships so I'm paying $45K a year (out of state). I'm realizing I don't want to go into debt",
+      "Because it's ChemE at UDel, and full ride, UDEL!"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Safe, suburban, laid-back — not a high-energy urban campus",
+      "Strong academic pockets (ChemE, chemistry) alongside average ones",
+      "Genuinely liked by students who chose it deliberately, not as fallback"
+    ],
+    "key_quotes": [
+      "Although this was my safety I feel SO relieved to know I'm in somewhere, especially somewhere I'd be perfectly happy going to!",
+      "I love how UD seems to have a good balance between work and fun",
+      "i've visited campus a couple times already and everybody has been sooooo nice"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Financial Aid: admissions counselor pushed 52k/year loans after fake scholarship email",
+      "Administration: SRAR portal trap moves EA applicants to RD without warning",
+      "OOS Cost: $45-60k/year without aid — multiple students express debt regret"
+    ],
+    "key_quotes": [
+      "He tried to talk me into taking out 52k in loans per year to attend by telling me about UD's reputation",
+      "Totally forgot to set up my U Delaware portal and didn't see that they require submitting the SRAR as well. Now it looks like I went from early action to regular decision",
+      "I'm currently attending the University of Delaware — I got no scholarships so I'm paying $45K a year (out of state). I'm realizing I don't want to go into debt"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "ChemE program is legitimately top-10 nationally — underrated nationally",
+      "Trust management minor guarantees internship — unique in the US",
+      "ROTC + National Guard SMP combo can cover full tuition plus stipend"
+    ],
+    "key_quotes": [
+      "UDel was ranked 6th in the country for ChemE this past year",
+      "The minor is new and only has 12 people in it and we are all guaranteed an internship at a trust company in Delaware",
+      "On top of the almost $900 a month between the pay and stipend it covers full tuition and most of my room and board with a ROTC scholarship"
+    ],
+    "score": 8
+  }
+}

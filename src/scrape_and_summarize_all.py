@@ -190,6 +190,19 @@ SCHOOLS = [
     {"name": "Virginia Military Institute", "slug": "vmi", "subreddits": ["r/VMI"], "keywords": ["VMI", "Virginia Military Institute", "Keydets", "Lexington Virginia"]},
     {"name": "Western Carolina University", "slug": "wcu", "subreddits": ["r/WesternCarolina"], "keywords": ["Western Carolina University", "Catamounts", "Cullowhee North Carolina"]},
     {"name": "Wofford College", "slug": "wofford", "subreddits": ["r/WoffordCollege"], "keywords": ["Wofford College", "Terriers", "Spartanburg South Carolina"]},
+    # CUSA
+    {"name": "Delaware", "slug": "delaware", "subreddits": ["r/udelaware"], "keywords": ["Delaware", "Blue Hens", "UD", "University of Delaware", "Newark Delaware"]},
+    {"name": "Florida International University", "slug": "fiu", "subreddits": ["r/FIU"], "keywords": ["FIU", "Florida International", "Panthers", "Miami Florida"]},
+    {"name": "Jacksonville State University", "slug": "jacksonville-state", "subreddits": ["r/JacksonvilleState"], "keywords": ["Jacksonville State", "Jax State", "Gamecocks", "JSU", "Jacksonville Alabama"]},
+    {"name": "Kennesaw State University", "slug": "kennesaw-state", "subreddits": ["r/KennesawState"], "keywords": ["Kennesaw State", "Owls", "KSU", "Kennesaw Georgia"]},
+    {"name": "Liberty University", "slug": "liberty", "subreddits": ["r/LibertyUniversity"], "keywords": ["Liberty University", "Flames", "LU", "Lynchburg Virginia"]},
+    {"name": "Louisiana Tech University", "slug": "louisiana-tech", "subreddits": ["r/LouisianaTech"], "keywords": ["Louisiana Tech", "Bulldogs", "LA Tech", "Ruston Louisiana"]},
+    {"name": "Middle Tennessee State University", "slug": "middle-tennessee", "subreddits": ["r/MTSU"], "keywords": ["MTSU", "Middle Tennessee", "Blue Raiders", "Murfreesboro Tennessee"]},
+    {"name": "Missouri State University", "slug": "missouri-state", "subreddits": ["r/MissouriState"], "keywords": ["Missouri State", "Bears", "MSU", "Springfield Missouri"]},
+    {"name": "New Mexico State University", "slug": "new-mexico-state", "subreddits": ["r/NMSU"], "keywords": ["NMSU", "New Mexico State", "Aggies", "Las Cruces New Mexico"]},
+    {"name": "Sam Houston State University", "slug": "sam-houston", "subreddits": ["r/SamHouston"], "keywords": ["Sam Houston", "Bearkats", "SHSU", "Huntsville Texas"]},
+    {"name": "University of Texas at El Paso", "slug": "utep", "subreddits": ["r/UTEP"], "keywords": ["UTEP", "Texas El Paso", "Miners", "El Paso Texas"]},
+    {"name": "Western Kentucky University", "slug": "wku", "subreddits": ["r/WKU"], "keywords": ["WKU", "Western Kentucky", "Hilltoppers", "Bowling Green Kentucky"]},
 ]
 
 CATEGORIES = [
