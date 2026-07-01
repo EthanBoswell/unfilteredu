@@ -80,7 +80,7 @@ export default function HomepageContrast() {
           className="mt-3 text-right text-[12px]"
           style={{ fontFamily: "Inter, sans-serif", color: "#aaa" }}
         >
-          Quotes from real student posts on Reddit
+          Quotes from real student posts
         </p>
       </div>
     </section>
