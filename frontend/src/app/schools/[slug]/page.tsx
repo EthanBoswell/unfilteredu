@@ -125,7 +125,7 @@ function mapTopics(summary: Summary, subreddit: string): TopicData[] {
 // ── Route handlers ────────────────────────────────────────────────────────────
 
 export async function generateStaticParams() {
-  return getAvailableSlugs().map((slug) => ({ slug }));
+  return (await getAvailableSlugs()).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -149,14 +149,14 @@ export default async function SchoolPage({
 }) {
   const { slug } = await params;
 
-  const availableSlugs = getAvailableSlugs();
+  const availableSlugs = await getAvailableSlugs();
   if (!availableSlugs.includes(slug)) notFound();
 
   const school = getSchoolBySlug(slug);
   if (!school) notFound();
 
-  const summary = loadSummary(slug);
-  const lastUpdated = getSummaryLastUpdated(slug);
+  const summary = await loadSummary(slug);
+  const lastUpdated = await getSummaryLastUpdated(slug);
 
   const colors = schoolColors[slug] ?? school.colors;
   const accent = colors.primary;

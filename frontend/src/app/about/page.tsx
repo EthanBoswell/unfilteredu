@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   title: "About — UnfilteredU",
 };
 
-export default function AboutPage() {
-  const schoolCount = getAvailableSlugs().length;
+export default async function AboutPage() {
+  const schoolCount = (await getAvailableSlugs()).length;
 
   const MISSION_STATS = [
     { value: `${schoolCount}`, label: "Schools and growing" },

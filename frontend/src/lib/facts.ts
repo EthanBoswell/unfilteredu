@@ -20,15 +20,17 @@ function shuffle<T>(items: T[]): T[] {
   return result;
 }
 
-export function getHomepageFacts(): string[] {
-  const facts = getAvailableSlugs().map((slug) => {
-    const meta = getSchoolBySlug(slug);
-    const name = meta?.name ?? slug;
-    const summary = loadSummary(slug);
-    const prefix = `At ${name}, `;
-    const sentence = truncate(summary.red_flags.key_points[0] ?? "", MAX_FACT_LENGTH - prefix.length);
-    return prefix + sentence;
-  });
-
+export async function getHomepageFacts(): Promise<string[]> {
+  const slugs = await getAvailableSlugs();
+  const facts = await Promise.all(
+    slugs.map(async (slug) => {
+      const meta = getSchoolBySlug(slug);
+      const name = meta?.name ?? slug;
+      const summary = await loadSummary(slug);
+      const prefix = `At ${name}, `;
+      const sentence = truncate(summary.red_flags.key_points[0] ?? "", MAX_FACT_LENGTH - prefix.length);
+      return prefix + sentence;
+    })
+  );
   return shuffle(facts).slice(0, MAX_FACTS);
 }

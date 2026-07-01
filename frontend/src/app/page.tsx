@@ -30,8 +30,8 @@ const HOW_IT_WORKS = [
   },
 ];
 
-export default function HomePage() {
-  const quotes = getHeroQuotes();
+export default async function HomePage() {
+  const quotes = await getHeroQuotes();
 
   return (
     <div style={{ background: "#F5F4EF" }}>
