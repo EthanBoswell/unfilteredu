@@ -24,12 +24,12 @@ function InstagramIcon() {
 
 const SOCIAL_LINKS = [
   {
-    href: "YOUR_LINKEDIN_URL",
+    href: "https://www.linkedin.com/company/unfilteredu/",
     label: "LinkedIn",
     Icon: LinkedinIcon,
   },
   {
-    href: "YOUR_INSTAGRAM_URL",
+    href: "https://www.instagram.com/unfilteredu.co?utm_source=qr",
     label: "Instagram",
     Icon: InstagramIcon,
   },
