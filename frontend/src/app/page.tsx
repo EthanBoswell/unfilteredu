@@ -3,7 +3,7 @@ import Nav from "@/components/Nav";
 import HomepageHero from "@/components/HomepageHero";
 import HomepageContrast from "@/components/HomepageContrast";
 import QuoteCarousel from "@/components/QuoteCarousel";
-import Wordmark from "@/components/Wordmark";
+import Footer from "@/components/Footer";
 import { getHeroQuotes } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -131,19 +131,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer
-        className="flex items-center justify-between px-8 py-5"
-        style={{ background: "#0F0F0F", borderTop: "1px solid #1a1a1a" }}
-      >
-        <Wordmark size={15} dark />
-        <span
-          className="text-[11px]"
-          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
-        >
-          Not affiliated with any university
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
-import Wordmark from "@/components/Wordmark";
+import Footer from "@/components/Footer";
 import { getAvailableSlugs } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -178,19 +178,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer
-        className="flex items-center justify-between px-8 py-5"
-        style={{ background: "#0F0F0F", borderTop: "1px solid #1a1a1a" }}
-      >
-        <Wordmark size={15} dark />
-        <span
-          className="text-[11px]"
-          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
-        >
-          Not affiliated with any university
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 }
