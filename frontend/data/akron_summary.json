@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "On-campus dorms expensive with bad food; off-campus often cheaper",
+      "Dorm flooding reported in Spanton including sewage water incidents",
+      "Off-campus options like Edge (~$500/mo) exist but noise is a problem"
+    ],
+    "key_quotes": [
+      "Dont live in the dorms unless you need to because its expensive + roommates can suck",
+      "did anyone else have their room get flooded by doodoo water?",
+      "$500/mo is cheap as it gets. Anything walkable will take you up to $800"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Widely described as a commuter school; making friends is genuinely hard",
+      "Events for commuters scheduled at times commuters literally cannot attend",
+      "LGBT community exists but campus overall feels socially quiet"
+    ],
+    "key_quotes": [
+      "I've found it incredibly hard to make friends honestly",
+      "Most commuters are commuters because they work and couldn't be there at 1pm",
+      "Campus is pretty quiet from what I've experienced"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Food choices described as horrible by multiple students",
+      "Book bundle charges ~$350 but can include access to homework platforms",
+      "Dorms with kitchens strongly recommended to avoid dining dependency"
+    ],
+    "key_quotes": [
+      "The food choices are horrible so I would choose a dorm with a kitchen",
+      "It's a scammmm. I have no required text so 0 dollars. They have the nerve to tell me I'm saving 200 bucks",
+      "I always wait until the last minute to see if I really need the book bundle...I have NEVER needed it"
+    ],
+    "score": 3
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mental health support mentions; social isolation is a recurring theme",
+      "Commuter structure leaves many students feeling disconnected from campus life",
+      "Accessibility issues compound stress for students with disabilities"
+    ],
+    "key_quotes": [
+      "I've found it incredibly hard to make friends honestly",
+      "The elevator issues are horrible I would miss classes in kolbe because of it",
+      "I am quite nervous about the housing situation"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid processing delays are frequent and poorly communicated",
+      "Scholarships must be applied before grants/loans or students lose money",
+      "Fees beyond tuition add up: ~$1200/semester in mandatory fees plus optional book bundle"
+    ],
+    "key_quotes": [
+      "They're finding any excuse this year. Its been 1 thing after another with mine. Found out today there will be yet ANOTHER 3 to 5 day delay",
+      "If you got any type of scholarships from the university of Akron, make sure financial aid adds their scholarships before applying any grants or student loans",
+      "My fees this year were $1200 each semester and then the optional book bundle was $350ish and then the parking pass was $280 a semester"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Polymer engineering is genuinely world-class; worth attending for that alone",
+      "Program cuts and course cancellations happening without updating the website",
+      "Tutoring and professor office hours are available and generally praised"
+    ],
+    "key_quotes": [
+      "The department is well-known among the Polymers and material science circle worldwide",
+      "A lot of majors are being changed and aren't always being reflected online",
+      "lol what program. The building floods like 3 times a year and they cut most of it"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Mass faculty layoffs happened during COVID with no corresponding admin cuts",
+      "Website redesign widely hated; navigation described as broken and inaccessible",
+      "Grad students stuck in programs for 5+ years due to departmental mismanagement"
+    ],
+    "key_quotes": [
+      "DO NOT go here for grad school. My cohort and I were stuck in a masters program for 5 years due to ridiculous mismanagement",
+      "Alternative title: Universities purge tenured staff to throw more money at executive staff and coaches",
+      "Hmm nothing about cutting administration or administrative salaries though"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Construction disrupting central campus pathways for extended periods mid-semester",
+      "Polsky building requires dangerous road crossings; students report near-misses",
+      "City safety concerns are overblown per students, but off-campus incidents do occur"
+    ],
+    "key_quotes": [
+      "I have almost been hit several times walking to polsky just this semester alone",
+      "A homeless/drunk guy walked up to me and said 'come here little man' and started following me. This was during daylight",
+      "Akron campus is super safe. Never felt in danger, there's usually campus and Akron police roaming around"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Polymer engineering grads well-positioned for industry careers nationally",
+      "Political science has strong local government connections via Bliss Institute",
+      "Art and some humanities programs have been quietly cut, hurting career prep"
+    ],
+    "key_quotes": [
+      "The program will set you up for a successful career in industry or (to a lesser extent) in academia",
+      "UA has an excellent PoliSci program with well-known faculty and great connections/involvement with local government",
+      "This is what happens at Akron with management. The art school was thriving when I attended"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Cheaper cost of attendance than Toledo and many Ohio peers; scholarships are competitive",
+      "Hidden fees ($1200/semester mandatory + $350 book bundle + $280 parking) add up fast",
+      "Parking managed by predatory third-party company with arbitrary ticketing"
+    ],
+    "key_quotes": [
+      "Akron already has a cheaper cost of attendance by 3000 dollars",
+      "iParq is a private company that exists solely to profit off of people doing things minorly wrong",
+      "In overall terms, from my experience Akron is pretty good compared to how much you pay"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter school energy dominates; residential students have a better time socially",
+      "Campus has quirky, low-key charm but lacks consistent school spirit",
+      "Students who engage actively find community; passive attendees feel invisible"
+    ],
+    "key_quotes": [
+      "The thing about University in general is that it is 1000% what you make of it",
+      "I transferred to akron from a community college so I mean I'm used to useless events",
+      "went to akron my freshman year, i LOVED IT!"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** faculty mass-fired during COVID; no admin salary cuts made",
+      "**Infrastructure:** Polsky building has broken elevators, flooding, and dangerous crosswalks",
+      "**Programs:** courses listed online are being cancelled without updating official catalog"
+    ],
+    "key_quotes": [
+      "DO NOT go here for grad school. My cohort and I were stuck in a masters program for 5 years due to ridiculous mismanagement",
+      "lol what program. The building floods like 3 times a year and they cut most of it",
+      "I have almost been hit several times walking to polsky just this semester alone"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Polymer science program is elite and globally recognized in its field",
+      "Bliss Institute of Applied Politics offers rare hands-on government connections",
+      "Off-campus housing near Wheeler St can be as low as $350-450/month with utilities"
+    ],
+    "key_quotes": [
+      "One note, if a polymer major is your goal, Akron has been one of the preeminent programs in polymer research",
+      "Akron's political science programs are fantastic with great connections to local government",
+      "I lived on Wheeler & Sherman for $500/mo with utilities included"
+    ],
+    "score": 7
+  }
+}

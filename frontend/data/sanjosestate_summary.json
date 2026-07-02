@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Washburn is cheapest dorm; best for meeting people",
+      "Dorm quality is visibly low; students want to move out",
+      "Most students commute; campus housing is not the norm"
+    ],
+    "key_quotes": [
+      "I highly recommend living in Washburn. It's the cheapest dorm, and you can tell, but you're most likely to meet new people",
+      "'this is why i want to move' / 'thats why its so dirty and everyone wants to move out lmfao'",
+      "SJSU is a predominantly commuter school"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Widely described as a commuter school with dead social scene",
+      "Introverts actually prefer it; low pressure, big-school feel",
+      "Awkward social dynamics noted; some students just hang around"
+    ],
+    "key_quotes": [
+      "every video i've watched is saying that the social life is kinda dead but i'm a major introvert so it's perfect",
+      "there are some weirdos here at sjsu. Mad awkward dudes that just hang around doing nothing, I swear no hobbies or anything",
+      "The COVID lockdown really messed up an entire generation's social skills"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "On-campus food is overpriced; students mock the pricing openly",
+      "Tables left filthy constantly; roach complaints linked to mess",
+      "Off-campus spots like Peanuts Cafe and La Victoria are beloved"
+    ],
+    "key_quotes": [
+      "Maybe y'all should take pride in your fucking pricing!!!",
+      "Then people wonder why there are roaches everywhere — its because people nasty",
+      "Peanuts is an SJSU institution. I used to get breakfast there all the time after my 9am classes"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Burnout is widespread; students openly ask where to cry on campus",
+      "Wellness center appointments unavailable when students need them most",
+      "Community is surprisingly supportive on Reddit; peers help each other"
+    ],
+    "key_quotes": [
+      "This is my first semester at SJSU and I'm so emotionally and mentally drained, I can't find the will to go to class",
+      "No available appointments at the wellness center to confirm [strep throat]",
+      "it seems like too many of us are down in the dumps, do we need a hug meet up?"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Tuition is ~$4,400/semester; one of cheapest options in California",
+      "Students accepted to Berkeley/UCLA still choose SJSU to avoid debt",
+      "IRA fee allocation heavily skewed toward athletics, students are frustrated"
+    ],
+    "key_quotes": [
+      "I got into cal for data science and made it in... i got fucked over for being lower middle class... i just feel like i worked four years of my ass off in high school for nothing. on the bright side, i got into sj's cs major and i'll be free of debt",
+      "Graduated with only $30k in total expenses as a commuter while any other college would've been $150k+",
+      "I paid off my student loan within 6 months"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "CS is no longer a safety — impacted, competitive, cutoffs rising yearly",
+      "Professor quality is inconsistent; half of lectures reportedly incomprehensible",
+      "AI detection false positives happening; professors refusing to hear appeals"
+    ],
+    "key_quotes": [
+      "I cannot understand the lectures at all for about half my classes. My peers report the same at least in my area of study",
+      "one of my professor's detected AI in one of my essays, even though i used 0 AI... she wouldn't even let me [show proof]",
+      "A great school for almost any major except computer science... many people I know in CS mention the lack of additional classes and the need for better professors"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "President's emails flagged as 100% AI-generated; students are furious",
+      "University aggressively pushing AI integration despite faculty and student resistance",
+      "Class cancellations happen a week before semester with no good alternatives"
+    ],
+    "key_quotes": [
+      "I put it into multiple AI checkers and they all returned 100% AI... Couldn't she have just written it herself?",
+      "And the CSU Board of Trustees just agreed to give her a pay raise with tuition dollars",
+      "i meticulously planned out my course schedule DURING MARCH/APRIL and I need this class as a prerequisite... all of the sudden it gets cancelled a week before the first day"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Open campus means random non-students, scammers, and homeless enter freely",
+      "Parking is a nightmare and has been since at least 1998",
+      "Campus itself is compact and walkable with hidden art and library Easter eggs"
+    ],
+    "key_quotes": [
+      "one of the reasons i failed some classes in my freshman year at sjsu in 1994-95 was because of parking issues",
+      "It's always been like that [homeless in MLK library]. They come in for the bathrooms and free wifi",
+      "Keep your earbuds in and eyes laser-focused on the building you are briskly marching towards. Don't pause for anyone"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Median starting salary for CS grads is $111k; location drives this",
+      "Silicon Valley proximity means direct tech recruiting from campus",
+      "Alumni network credited for landing Finance Director at Google, pilot roles, etc."
+    ],
+    "key_quotes": [
+      "I graduated with a business degree in 2012 and I'm now a Finance Director at Google, all because I was able to leverage the alumni network",
+      "The median starting salary for SJS CS is 111k. Yes you read that correctly. 111k for fresh 22 year old cs grads",
+      "I really loved that college, I went there. Now I am a pilot for Hawaiian airlines thanks to them and their engineering department"
+    ],
+    "score": 8
+  },
+  "value_for_money": {
+    "key_points": [
+      "Best ROI in California for CS/engineering given location and low cost",
+      "Tuition money wasted on $4,000 trash cans and AI Instagram posts",
+      "Students paying $4,500/semester still come to class sick to justify cost"
+    ],
+    "key_quotes": [
+      "I went to SJSU. There is virtually no research, but the students end up working in great companies, and its affordable",
+      "i've been seeing way more trash piling up since they added these I love my tuition getting raised to make campus worse",
+      "Or just wear a mask. Idgaf if I'm dying I paid $4500 for these classes and I'll be at every one, dead or alive"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Pragmatic, career-focused, commuter school with minimal traditional college experience",
+      "Politically active campus with protests, firings, and genuine student advocacy",
+      "Students genuinely proud of scrappy underdog identity and outcomes"
+    ],
+    "key_quotes": [
+      "It just gets overshadowed by UC Berkeley, Stanford, Santa Clara... but for those who want to keep it simple and do what's needed... this is the best option",
+      "I remember watching this video 2 years back while I was starting my application... Currently I am studying at SJSU definitely it was worth all the hassle",
+      "Much of the public now has very negative associations with 'Silicon Valley'... I don't think the motto will age any better going forward"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Safety: shooting threats, on-campus graffiti threats, multiple nearby murders in one week",
+      "Campus Security: open campus allows stalkers, scammers, and suspected traffickers near students",
+      "Administration: president uses AI-written emails, penalizes students for AI while doing it herself"
+    ],
+    "key_quotes": [
+      "2 people killed basically on campus, like 10 yards from Philz. 5 people shot in San Pedro Square. That Hindu STUDENT severely assaulted by south garage. All in the last 48 hours",
+      "A woman wearing all black and black nitrile gloves... asked me to smell something... I was approached on the first day of classes",
+      "Someone give her a 0 — [And the CSU Board of Trustees just agreed to give her a pay raise with tuition dollars]"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "MLK Library has hidden art, revolving bookcase, tiny door, and owl — worth exploring",
+      "Peanuts Cafe off-campus is a beloved cheap institution for decades",
+      "BayPass/GoPass transit campaigns could eliminate $2,000/semester commute costs"
+    ],
+    "key_quotes": [
+      "That library has a ton of hidden art and stuff, there's articles written on it",
+      "man that place [Peanuts] was my home during my bachelors. cheap food, beer, good vibes",
+      "BayPass is 2x cheaper than GoPass at $50/yr ($25/sem) and covers BART, Caltrain, buses and ferries"
+    ],
+    "score": 7
+  }
+}

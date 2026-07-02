@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Cornell Courts praised as most spacious on-campus option",
+      "Lakeview and Westview waitlists fill fast; plan early",
+      "Some dorms close during breaks, forcing students out"
+    ],
+    "key_quotes": [
+      "Cornell; without a doubt. Even though the buildings are on the older side, they are very spacious, even more than both Lakeview and Westview.",
+      "If your hall says it's closed during breaks then you have to be out of your dorm the day break starts.",
+      "I lived in Sellers. The memories, I miss campus."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Campus goes dead Thursday night — it's a commuter school",
+      "Weekend activities require going off-campus to Ypsi or Ann Arbor",
+      "Arts and crafts types will struggle; partiers will be bored too"
+    ],
+    "key_quotes": [
+      "Eastern is a commuting school. Folks disappear for the weekend starting Thursday night.",
+      "Yes she will likely find herself bored, its a commuter school with offers less than WMU in terms of social activities.",
+      "Campus is pretty sleepy on the weekends. She'll want to venture off campus to find things to do."
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Food quality is declining — undercooked food reported repeatedly",
+      "Recent dining system changes cut hours and reduced access points",
+      "Nothing open past 3pm under new system; lines expected to worsen"
+    ],
+    "key_quotes": [
+      "I refuse to eat there anymore after I kept getting undercooked everything.",
+      "Wow, disappointed to see the lack of dining options in the student center, and the lack of hours as well. Nothing open past 3pm? That's crazy.",
+      "I don't think anyone really asked for these changes. Its pretty disappointing."
+    ],
+    "score": 3
+  },
+  "mental_health": {
+    "key_points": [
+      "DRC accommodations reportedly denied or ignored by professors",
+      "Autistic students specifically warned the HHS program is not accommodating",
+      "No strong positive mental health support data found in student posts"
+    ],
+    "key_quotes": [
+      "Depending program, NOT autism friendly. HHS program, but not social work. They continually denied ALL of my DRC accommodations.",
+      "I had many (psychology) professors who refused to follow my APPROVED accommodations.",
+      "So honestly I tell people not to go there in general."
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "Generous scholarships attract students, including full tuition offers",
+      "Strong value for international students with dedicated scholarship programs",
+      "Presidential scholarship is competitive and life-changing but rejection emails arrive fast"
+    ],
+    "key_quotes": [
+      "I was accepted in December with a pretty nice scholarship ($7500/yr for 4 years). Since I like money, EMU is one of my top choices.",
+      "EMU has offered me full tuition for 4 years.",
+      "My rejection email just came in. Congratulations to those who are moving on!!"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Education and teacher prep programs are historically strong — EMU's founding mission",
+      "Small class sizes mean real faculty access and strong recommendation letters",
+      "CS program lacks ABET accreditation; graduation rate concerns raised repeatedly"
+    ],
+    "key_quotes": [
+      "Eastern was created as a teacher's college in 1849. Their programs cater to students who want to be teachers.",
+      "Yes because you can really work with and get to know the faculty, which will lead to excellent letters of recommendation. Much more difficult at a bigger school.",
+      "Here's my problem with EMU. First, as you said, there is a 13 percent graduation rate. This is not a red flag to me so much as it a sign that reads 'DO NOT ENTER'."
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Parking system is a widely-mocked administrative failure",
+      "Dining changes made without student input, causing real accessibility harm",
+      "ICE activity on campus with a delayed or contradictory university response"
+    ],
+    "key_quotes": [
+      "I'm literally in the system enough for you to take my money, but not enough for you to not give me tickets. Make it make sense.",
+      "Yeah they just love fucking shit up.",
+      "I received an email from university communications saying no activity was reported. That email must have been right before they came. So horrible."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Ypsilanti has a real arts scene; Ann Arbor is accessible nearby",
+      "Campus has friendly fox squirrels, a tropical greenhouse, and mapped trees",
+      "Ballard St free parking described as 'sort of sketchy' with people sleeping there"
+    ],
+    "key_quotes": [
+      "Ypsi has a huge arts scene that should be very easy for her to get into. EMU itself doesn't have a whole lot going on, but the surrounding area does.",
+      "Get your coffee from Sweetwaters then take it to the greenhouse on campus. There's a study table in the 3rd room, and it's an AWESOME tropical greenhouse.",
+      "Ballard st Parking Lot. About 3-4 min walk to campus. Sort of sketchy tho. Got there one morning to see people sleeping in a mattress in the parking lot."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "CS grads report median salary of $78k — decent for the price",
+      "Education and HR/MBA grads report solid career outcomes",
+      "Weaker graduate school pipeline compared to larger research universities"
+    ],
+    "key_quotes": [
+      "EMU has a median salary of 78K for CS graduates, which is not a bad deal if they are so affordable.",
+      "I got my MBA from EMU and I think it was one of the best investments I've made. Really opened up my career path.",
+      "The school also has no grad school for CS... I wouldn't want to stay there for grad school."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full-tuition scholarships make EMU a serious option over more expensive schools",
+      "Parking fees ($220-$250/semester) add cost with broken enforcement systems",
+      "Low graduation rate undercuts the value proposition for underprepared students"
+    ],
+    "key_quotes": [
+      "EMU has offered me full tuition for 4 years. But the problem is, EMU doesn't seem to be a good school, the statistics I've looked at say only 10% of people there graduate in 4 years.",
+      "Oh my god they're $220 a semester now??!?! I eventually just stopped paying that extortion racket and started parking off campus.",
+      "My life is 10 times better now. I went on to a successful career in Information systems. No more dead end jobs!"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students who thrive here are self-directed and don't rely on campus energy",
+      "Tight-knit pockets exist but you have to seek them out actively",
+      "Alumni sentiment is warm but honest — 'the experience is what you make it'"
+    ],
+    "key_quotes": [
+      "Find your place, or make one if you can't. The experience will be as great/terrible as you make it, if that makes sense.",
+      "As an Eastern alum, that place turned me into a man. I will cherish my time at Eastern forever!",
+      "I lived in the Ann Arbor student co-ops when I was a student at EMU — campus wasn't where the action was for me."
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Graduation Rate:** Only ~10-13% graduate in 4 years — students and commenters call it a dealbreaker",
+      "**Disability Services:** DRC accommodations denied or ignored; autistic students explicitly warned away",
+      "**Parking:** Paid $220-$250 passes don't register in system; students ticketed repeatedly with no recourse"
+    ],
+    "key_quotes": [
+      "This is not a red flag to me so much as it a sign that reads 'DO NOT ENTER'. The school also has no grad school for CS.",
+      "They continually denied ALL of my DRC accommodations. So honestly I tell people not to go there in general.",
+      "I'm literally in the system enough for you to take my money, but not enough for you to not give me tickets."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Campus greenhouse has a tropical study room — almost no one knows about it",
+      "Geology and natural science faculty offer unusually close mentorship relationships",
+      "Ypsilanti's downtown arts scene (Riverside Arts Center, Dzanc House) is walkable and underrated"
+    ],
+    "key_quotes": [
+      "Get your coffee from Sweetwaters then take it to the greenhouse on campus. There's a study table in the 3rd room, and it's an AWESOME tropical greenhouse.",
+      "Yes because you can really work with and get to know the faculty, which will lead to excellent letters of recommendation. Much more difficult at a bigger school.",
+      "Ypsi has a huge arts scene that should be very easy for her to get into. Check out the Riverside Arts Center and Dzanc House in downtown Ypsi."
+    ],
+    "score": 7
+  }
+}

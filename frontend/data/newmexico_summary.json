@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Casas del Rio has chronic maintenance failures and lost mail including SSN cards",
+      "AC broken in summer, freezing in winter, cockroaches reported across units",
+      "Housing restricts dorm entries to 2 camera points, creating safety blind spots"
+    ],
+    "key_quotes": [
+      "They always cancelled my work orders. Never got anything repaired all semester.",
+      "Don't forget the random cockroaches everywhere",
+      "My AC never worked in casas only blew outside temperature air and made a lot of noise. Summer felt like a sauna and winter was straight up freezing."
+    ],
+    "score": 3
+  },
+  "social_life": {
+    "key_points": [
+      "Freshmen repeatedly report extreme loneliness and difficulty making friends",
+      "Club scene exists but requires active self-searching; not handed to you",
+      "Alt, goth, and film communities present especially around arts programs"
+    ],
+    "key_quotes": [
+      "I haven't met anyone which is so weird because I was popular in high school",
+      "Not a friendly college for older transfers and off-campus students.",
+      "Literally met and am dating a goth chick here bro bro"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "SUB replaced local ABQ restaurant slot with a second Starbucks — students angry",
+      "Food theft from communal fridges is a recurring complaint in dorms",
+      "Campus bar in SUB had a reported drugging incident"
+    ],
+    "key_quotes": [
+      "Taking the 'local' spot is insane",
+      "I remember when they did the remodel they talked at length about ONLY local restaurants. Then Chick-fil-a, then Subway, etc.",
+      "This is the third time someone has stolen my stuff from the communal fridge."
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Students report depression, burnout, and isolation especially in first year",
+      "SHAC counseling exists but students unsure how to navigate it under pressure",
+      "Campus community is generally supportive peer-to-peer even if admin resources lag"
+    ],
+    "key_quotes": [
+      "I can feel my depression coming back and I don't like it — I'm already tired, missing class, missing work",
+      "go try and talk to shac counseling about your depression before the winter break starts",
+      "I feel so alone I feel like all freshman have already made their friends"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "New Mexico Opportunity Scholarship offers free tuition for NM residents — real and significant",
+      "Apply before December 1 for maximum scholarship access per OneStop staff",
+      "Fees can be shockingly high even for minimal enrollment — $763 for one credit reported"
+    ],
+    "key_quotes": [
+      "If you apply before December 1st and start that next fall, you will have WAY MORE scholarship opportunities",
+      "I am literally taking 1 goddamn credit and I have to pay $763.46?",
+      "New Mexico has 100% free tuition for all residents at public institutions."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Individual professors praised highly; quality varies significantly by department",
+      "A game design program was abandoned mid-degree leaving students stranded",
+      "Graduate academics described as high quality, especially sciences and engineering"
+    ],
+    "key_quotes": [
+      "Academics are amazing! The educational quality I've gotten here has been much higher than at my previous institution.",
+      "the program abruptly ended before I got my degree due to no teachers",
+      "Allen Butt's Brain & Behavior course is amazing. Genuinely the best professor I've had."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "GPSA described as rude, slow, and incompetent by multiple grad students",
+      "Housing bureaucracy ignores work orders and lost a student's Social Security card",
+      "LoboWeb registration system crashes on high-traffic days with no IT support"
+    ],
+    "key_quotes": [
+      "Every time I call there's a bad attitude. I feel like everyone is so defensive because they know they're doing a bad job",
+      "They have lost my mail several times, even losing my social security card and took no accountability for it.",
+      "Looks like whole network for loboweb is down, I'm assuming no one from IT systems is in at 7am on Monday"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Albuquerque has highest pedestrian death rate in NM — students nearly hit in crosswalks",
+      "Campus itself is considered beautiful with Pueblo Revival architecture and Sandia views",
+      "Non-students and homeless regularly present on campus, especially near duck pond at night"
+    ],
+    "key_quotes": [
+      "NM has the highest per capita of pedestrian deaths in the country. Bernalillo county has around half.",
+      "My coworker did get hit crossing university and lomas from T lot. And he had the crosswalk light!",
+      "There are quite a few 'non students, non staff' on campus."
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Living in NM limits post-grad opportunity per students — 'you get the short end of the stick'",
+      "Strong pre-med pipeline with direct access to UNM Health Sciences and hospital system",
+      "Research opportunities exist including paid IRB studies and KUNM radio experience"
+    ],
+    "key_quotes": [
+      "living in NM, you get the short end of the stick with opportunity anyway… It will always be harder",
+      "The medical side's budget dwarfs the rest of the university's.",
+      "Every undergrad should hunt for a UNM student job."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Free tuition for NM residents makes UNM exceptional value for in-state students",
+      "Out-of-state students get Amigo and Lue scholarships that meaningfully cut costs",
+      "Athletics subsidized $10M/year by state while dorms lack basic maintenance"
+    ],
+    "key_quotes": [
+      "Didn't you know that UNM would rather spend over $35mil on a new art building and to have state of NM bail the athletics department out 10x over than give their students a liveable environment",
+      "I mean the state funds our football program cause it bleeds 10 mil a year.",
+      "Sure, its just UNM, its not really selective. But this means a lot to me."
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Politically progressive, diverse campus with strong Hispanic cultural identity",
+      "Student community is warm and supportive of each other even when admin fails them",
+      "Campus carries a lived-in, scrappy energy — not polished, but authentic"
+    ],
+    "key_quotes": [
+      "NM is fortunately 'under the radar' when it comes to politics. We are very progressive and diverse.",
+      "As an alum, I love this post. Lobos take care of each other!",
+      "It's time for me to attend a University and unfortunately this is my only option. Not excited or looking forward to going here but it is what it is."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: campus shooting killed a 14-year-old; campus placed under lockdown",
+      "**Housing**: Casas del Rio lost a student's Social Security card with zero accountability",
+      "**Drugging**: reported drink spiking incident at on-campus SUB bar"
+    ],
+    "key_quotes": [
+      "Latest news is one person is dead and one person is injured. Campus is still closed.",
+      "I was stalked once and had to call unmpd for an escort and they told me they were too busy.",
+      "Definitely go to the university police. They don't serve enough alcohol for anyone to black out so you definitely got drugged."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "KUNM radio station offers hands-on volunteer DJ and engineering experience",
+      "Maxwell Museum of Anthropology is free and underutilized by most students",
+      "Underground steam tunnels, RPG-style plazas, and a free greenhouse exist on campus"
+    ],
+    "key_quotes": [
+      "One of the authors of The Expanse graduated from UNM and I found a copy of Leviathan Wakes in Zimmerman.",
+      "The Maxwell Museum of Anthropology is free! The UNM Art Museum is too.",
+      "The little plaza in Centennial that looks straight from a Boss Arena in an RPG."
+    ],
+    "score": 7
+  }
+}

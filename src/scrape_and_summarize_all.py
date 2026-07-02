@@ -223,6 +223,28 @@ SCHOOLS = [
     {"name": "Norfolk State University", "slug": "norfolkstate", "subreddits": ["r/NorfolkState"], "keywords": ["Norfolk State University", "Spartans", "NSU", "Norfolk Virginia", "HBCU"]},
     {"name": "North Carolina Central University", "slug": "nccu", "subreddits": ["r/NCCU"], "keywords": ["NCCU", "North Carolina Central University", "Eagles", "Durham North Carolina", "HBCU"]},
     {"name": "South Carolina State University", "slug": "scstate", "subreddits": ["r/SCState"], "keywords": ["South Carolina State University", "Bulldogs", "SC State", "Orangeburg South Carolina", "HBCU"]},
+    # Mountain West
+    {"name": "U.S. Air Force Academy", "slug": "airforce", "subreddits": ["r/AirForceAcademy"], "keywords": ["Air Force Academy", "USAFA", "Falcons", "Colorado Springs Colorado", "military academy"]},
+    {"name": "University of Hawai'i at Mānoa", "slug": "hawaii", "subreddits": ["r/Hawaii"], "keywords": ["University of Hawaii", "UH Manoa", "Rainbow Warriors", "Warriors", "Honolulu Hawaii"]},
+    {"name": "University of Nevada Reno", "slug": "nevada", "subreddits": ["r/uofnv"], "keywords": ["University of Nevada", "Nevada Reno", "Wolf Pack", "UNR", "Reno Nevada"]},
+    {"name": "University of New Mexico", "slug": "newmexico", "subreddits": ["r/UNM"], "keywords": ["University of New Mexico", "UNM", "Lobos", "Albuquerque New Mexico"]},
+    {"name": "San José State University", "slug": "sanjosestate", "subreddits": ["r/SJSU"], "keywords": ["San Jose State University", "SJSU", "Spartans", "San Jose California"]},
+    {"name": "University of Nevada Las Vegas", "slug": "unlv", "subreddits": ["r/UNLV"], "keywords": ["UNLV", "University of Nevada Las Vegas", "Rebels", "Las Vegas Nevada"]},
+    {"name": "University of Wyoming", "slug": "wyoming", "subreddits": ["r/uwyoming"], "keywords": ["University of Wyoming", "Cowboys", "Cowgirls", "UW", "Laramie Wyoming"]},
+    {"name": "Grand Canyon University", "slug": "grandcanyon", "subreddits": ["r/GrandCanyonUniversity"], "keywords": ["Grand Canyon University", "GCU", "Antelopes", "Phoenix Arizona"]},
+    {"name": "UC Davis", "slug": "ucdavis", "subreddits": ["r/UCDavis"], "keywords": ["UC Davis", "University of California Davis", "Aggies", "Davis California"]},
+    {"name": "North Dakota State University", "slug": "ndsu", "subreddits": ["r/NDSU"], "keywords": ["North Dakota State University", "NDSU", "Bison", "Fargo North Dakota"]},
+    {"name": "Northern Illinois University", "slug": "northernillinois", "subreddits": ["r/NIU"], "keywords": ["Northern Illinois University", "NIU", "Huskies", "DeKalb Illinois"]},
+    # MAC
+    {"name": "University of Akron", "slug": "akron", "subreddits": ["r/uakron"], "keywords": ["University of Akron", "Akron Zips", "Zips", "Akron Ohio"]},
+    {"name": "Ball State University", "slug": "ballstate", "subreddits": ["r/ballstate"], "keywords": ["Ball State University", "Cardinals", "BSU", "Muncie Indiana"]},
+    {"name": "Bowling Green State University", "slug": "bowlinggreen", "subreddits": ["r/BGSU"], "keywords": ["Bowling Green State University", "BGSU", "Falcons", "Bowling Green Ohio"]},
+    {"name": "University at Buffalo", "slug": "buffalo", "subreddits": ["r/UBuffalo"], "keywords": ["University at Buffalo", "UB", "Buffalo Bulls", "Bulls", "Buffalo New York"]},
+    {"name": "Central Michigan University", "slug": "centralmichigan", "subreddits": ["r/centralmichigan"], "keywords": ["Central Michigan University", "CMU", "Chippewas", "Mount Pleasant Michigan"]},
+    {"name": "Eastern Michigan University", "slug": "easternmichigan", "subreddits": ["r/EMU"], "keywords": ["Eastern Michigan University", "EMU", "Eagles", "Ypsilanti Michigan"]},
+    {"name": "Kent State University", "slug": "kentstate", "subreddits": ["r/KentState"], "keywords": ["Kent State University", "Golden Flashes", "Kent State", "Kent Ohio"]},
+    {"name": "University of Massachusetts", "slug": "umass", "subreddits": ["r/UMass"], "keywords": ["University of Massachusetts", "UMass", "Minutemen", "Amherst Massachusetts"]},
+    {"name": "Miami University", "slug": "miamioh", "subreddits": ["r/MiamiOH"], "keywords": ["Miami University", "Miami Ohio", "RedHawks", "Oxford Ohio"]},
 ]
 
 CATEGORIES = [

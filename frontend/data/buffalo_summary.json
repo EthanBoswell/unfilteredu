@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "North and South campus split confuses new students navigating dorms",
+      "International students worry about housing costs in New York State",
+      "On-campus housing exists but off-campus is common for upperclassmen"
+    ],
+    "key_quotes": [
+      "\"I live near south campus too... it's weird seeing south campus\" - current student",
+      "Just scared about the housing cost as NY is expensive",
+      "UB is way too isolated (looks like a ghost town)"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus feels isolated and ghost-town-like, especially for city students",
+      "Large school size makes finding your crowd harder than expected",
+      "International students find social integration challenging but manageable"
+    ],
+    "key_quotes": [
+      "UB is way too isolated (looks like a ghost town)",
+      "People there aren't as friendly as I thought they would be",
+      "I'm scared yet happy, I'm an international student so moving is not easy"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "C3 dining hall recently renovated and well-regarded by students",
+      "Multiple dining halls across split campuses including Ellicott",
+      "Students generally satisfied with on-campus food options"
+    ],
+    "key_quotes": [
+      "I like restaurants on campus and off campus! I'm so proud of our C3 dining hall getting newer and enticing",
+      "I used to study here as one of the undergraduates... Wish it's getting better",
+      "My dining hall Ellicott Dining hall features in this video"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One student left UB specifically due to depression and academic struggles",
+      "Buffalo's cold, grey winters hit students harder than expected",
+      "Safety concerns after a campus shooting caused genuine anxiety"
+    ],
+    "key_quotes": [
+      "I first went to university at buffalo but chose to leave because i was depressed and wasnt doing well in school",
+      "After the recent news about the shooting, i've been really anxious about UB... I don't even feel excited about college anymore",
+      "The weather here is like the ice planet Hoth"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "State school pricing is UB's biggest selling point over private peers",
+      "Merit scholarships exist including Presidential Scholarship (full ride)",
+      "Financial aid portal is confusing — requires enrollment to view package"
+    ],
+    "key_quotes": [
+      "I picked Buffalo because 64k in loans is not worth it, I plan to go to graduate school",
+      "I got zero financial aid and I can't afford to go to the school at sticker price",
+      "For ubuff i got accepted and it says I have to enroll before activating my account — can i not see my financial aid unless i enroll?"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Engineering and CS programs are solid but have brutal weed-out courses",
+      "CS program admission is competitive; admitted as 'CS Intended' is common",
+      "Curriculum load is heavy — 4 required subjects per semester for some grad programs"
+    ],
+    "key_quotes": [
+      "It's really easy to be booted out of the Computer Science program, and indeed the entire Engineering program in general",
+      "I got an admit for fall 2025 Ms.Cs Program. Just worried about the difficulty of curriculum because it is compulsory to take 4 subjects per semester",
+      "I admitted as 'CS Intended,' so the major isn't 100% secured yet"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Accidental withdrawal was processed without human verification despite paid deposit",
+      "Financial aid and portal navigation is opaque and frustrating for new students",
+      "Rolling admissions process is praised for speed and transparency"
+    ],
+    "key_quotes": [
+      "'The University at Buffalo has received and processed your request to withdraw your current application' — I paid the deposit and am panicking",
+      "All transcripts etc can be uploaded by yourself... You don't have to send scores. Just upload a screenshot",
+      "Rolling admissions — get your response within 2-3 weeks max. Sweet!"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Buffalo city itself is described as cold, depressing, and limited by multiple students",
+      "North and South campus split is a constant logistical complaint",
+      "Proximity to NYC and Toronto is a genuine plus for internships and travel"
+    ],
+    "key_quotes": [
+      "Friends told me it's cold, depressing and not that enjoyable",
+      "UB is way too isolated (looks like a ghost town)",
+      "Close proximity to New York City, providing more potential for internships and job opportunities"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Internship access is a weak spot — students often travel to NYC or have limited local options",
+      "Industrial Engineering and Mechanical Engineering have strong job fair presence",
+      "OPT and job prospects are a major concern for international students post-graduation"
+    ],
+    "key_quotes": [
+      "I wanted to know if internship is a con at UB as there aren't much companies due to which students have to travel to NY city",
+      "Most companies that came [to the job fair] are related to either Industrial Engineering or Mechanical or Civil Engineering",
+      "Is the OPT and job potential good after doing this course there?"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Among the best value STEM options in New York State for in-state students",
+      "Out-of-state costs can approach private school prices without merit aid",
+      "Frequently chosen over RIT, RPI, and even Purdue purely on cost grounds"
+    ],
+    "key_quotes": [
+      "I picked Buffalo because 64k in loans is not worth it, I plan to go to graduate school, and I liked Buffalo's campus better",
+      "For Suny Buffalo I would be going for about $20,000 a year while RPI would be about $40,000",
+      "UB most likely will still be the cheapest option"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Academically serious but socially quiet — not a traditional 'college experience' school",
+      "Strong international student community, especially Indian and South Asian students",
+      "Students feel proud of UB as a launching pad despite its safety-school reputation"
+    ],
+    "key_quotes": [
+      "Welcome to buffalo. If you do decide to come here you'll have fun trust me",
+      "I know it's not that big of a school and nor is it a top choice but I'm just happy",
+      "UB seemed more academically focused overall... very transparent and had their professors and students speaking openly"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Weather/Environment:** Multiple students describe Buffalo as cold, depressing, and isolating",
+      "**CS Access:** Admitted as 'CS Intended' with no guaranteed major entry is a real risk",
+      "**Administration:** Paid deposit withdrawal processed automatically with no human check"
+    ],
+    "key_quotes": [
+      "Friends told me it's cold, depressing and not that enjoyable",
+      "I am admitted as 'CS Intended,' so the major isn't 100% secured yet",
+      "I have paid the deposit fee and housing fee. After seeing the withdrawal, I am panicking"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Presidential Scholarship offers full ride — interview-based and worth pursuing",
+      "Rolling admissions with fast decisions and no required essay is unusually student-friendly",
+      "Honors College provides a tighter academic community within a large university"
+    ],
+    "key_quotes": [
+      "I'm doing an interview for the Presidential Scholarship at UB, if received, I would have a full ride there",
+      "No essay required. You can submit one, but it's not necessary. I didn't. Rolling admissions — get your response within 2-3 weeks max",
+      "I got accepted into UB's Honors College!"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "housing": {
+    "key_points": [
+      "On-campus dorms exist but commuter culture dominates student life",
+      "Living on campus means constant exposure to cult recruiters and solicitors",
+      "Parking near dorms is a daily frustration with hit-and-run incidents common"
+    ],
+    "key_quotes": [
+      "I live on campus so I know exactly what you mean. I ignore them but once I step out my dorm it's like you gotta be ready to talk to crazy people in disguise.",
+      "Okay maybe I'm not missing out by dorming",
+      "one thing about being a csn student is not having to stress about parking. but i am transferring so all hell will be mine"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Overwhelmingly a commuter school — most students arrive, attend class, and leave",
+      "Multiple students describe campus as cold, unsocial, and harder than community college",
+      "Active student community exists but requires deliberate effort to find clubs and groups"
+    ],
+    "key_quotes": [
+      "It's crazy how not social this place is... wow. I never realized how quiet the place can be, people just don't want to be social.",
+      "I'm just trying to pass.",
+      "Join a club or something, sure the majority of people come and go but the core community of UNLV is very social."
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Dining commons food is edible and affordable but quality is inconsistent",
+      "Peak hours create serious traffic flow and crowding problems",
+      "Breakfast options mocked online; made-to-order stations are the hidden workaround"
+    ],
+    "key_quotes": [
+      "Just strait up sponge... Spongebob ahh eggs with no seasoning",
+      "I have no meal plan whatsoever and get to eat all I can eat for 8 bucks on some days, and all the food is at least decent?",
+      "Rookie mistake not getting the made to order eggs at the pancake/egg station"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Students visibly burned out — senior burnout and chronic exhaustion are recurring themes",
+      "Grief and personal crises handled unevenly; professor communication is key to survival",
+      "Emotional support posts go viral on the subreddit, suggesting unmet need on campus"
+    ],
+    "key_quotes": [
+      "I'm in my last semester. I only have 2 classes but I've been here for 6 years now. I've been burnt out since year 4.",
+      "Life is not easy one bit but you're still fighting the odds. We're in it together!",
+      "Always, always communicate with your instructors when something happens. It's difficult but most are understanding."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid disbursement posts go viral — students clearly depend on refund timing",
+      "Tuition increases happening regularly with no student input or accountability",
+      "Nevada in-state students can get full rides through honors/merit scholarships"
+    ],
+    "key_quotes": [
+      "MY FINANCIAL AID REFUND HIT MY BANK ACCOUNT RN",
+      "Ugh… I had to take a break from school to save some money. I may not even return. Education is becoming less affordable every year.",
+      "What happened? Only a few years ago an annual pass was like $130. Good thing I graduated."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Math and CS departments widely criticized — high failure rates are documented and public",
+      "Professor quality is wildly inconsistent; Rate My Professor is heavily relied upon",
+      "Hospitality program is genuinely world-ranked; most other programs are average at best"
+    ],
+    "key_quotes": [
+      "The math department is ass. When I look up some of my old teachers and see [the grade distributions]... God damn that's a lot of Fs.",
+      "UNLv's College of Education is a joke. Out of 4 classes, I had two clowns.",
+      "Fuck Han",
+      "This is great gg... I'm a math and CS major and this is incredibly helpful especially since the math department is ass."
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Canvas constantly logs students out — Okta Verify authentication is universally hated",
+      "Parking permit costs jumped from ~$130 to $354 annually with no improvement in parking",
+      "Board of Regents raised tuition without student input; debris sits unremoved for 4+ years"
+    ],
+    "key_quotes": [
+      "THEY ACT LIKE WE HAVE NUCLEAR CODES IN OUR SYSTEM I PROMISE THERES NOTHING VALUABLE IN OUR EMAILS.",
+      "There's no reason for every single student on campus to pay $354 every year for parking.",
+      "This has been on the ground near Lied Library since 2022. It's 2026 and it's still not removed."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is beautiful with stunning desert sunsets but surrounded by aggressive solicitors",
+      "Parking garages are genuinely dangerous — speeding, hit-and-runs, and crashes are routine",
+      "Beloved feral cat colony gives campus unexpected charm and community bonding"
+    ],
+    "key_quotes": [
+      "People do be treating that garage like their private race track.",
+      "I've seen like 10 crashes at this exact spot since the start of the semester.",
+      "No filters…sometimes nature aches with beauty",
+      "atp, strays should be our mascot! definitely rebellious"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Hospitality grads land Strip jobs but the job market post-2025 is tough even for them",
+      "CS and engineering grads face a brutal market; networking and internships are essential",
+      "Alumni community is present but not strong — UNLV name carries limited prestige outside Nevada"
+    ],
+    "key_quotes": [
+      "Took me 100 job applications, 7 months post graduation, and moving to a new city to get this job.",
+      "I graduated in May with a degree in Hospitality Management (awful timing for that with tourism down 10%+ this year, I know).",
+      "It is NOT impossible to get a job as a college grad in 2025... it is HIGHLY improbable."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Nevada residents with strong stats can get a full ride — exceptional value if you qualify",
+      "Out-of-state students get little financial aid; hard to justify cost over better-funded options",
+      "Parking fees, tuition hikes, and tech fees add up fast beyond base tuition"
+    ],
+    "key_quotes": [
+      "UNLV — accepted + full ride + honors college",
+      "as a grad student, everything is out of pocket since it's considered a personal investment, so we don't get refunds.",
+      "i'm mad asf that we pay this much for parking and they took away 2 whole ass lanes in lot O"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Hardworking commuter school with a grind mentality — not a traditional college experience",
+      "Politically active student body; ICE protests, anti-cult posts, and social justice organizing are common",
+      "Strong sense of local pride and dark humor holds the community together despite frustrations"
+    ],
+    "key_quotes": [
+      "I've seen people complain that UNLV has no culture and that they don't feel connected to the campus.",
+      "The jaded grad student has officially become the jaded alumnus.",
+      "This is why I walk around with earbuds in and/or wear imagery that keeps them from interacting with me."
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: December 2023 shooting killed three professors on campus; trauma still raw for students",
+      "**Cult Recruitment**: Aggressive cult members and religious solicitors follow, harass, and won't take no for an answer",
+      "**Campus Crime**: Vague SA alert emails, reports of homeless individuals on campus, and hit-and-run parking incidents go unresolved"
+    ],
+    "key_quotes": [
+      "That day was so scary. I remember texting my friends on campus to find out where they were and if they were safe.",
+      "One of the Bible study people came up to me... she said it's okay she would follow me to class. Eventually I broke into a run.",
+      "Watch out for Hope Church Movement! A notorious cult based out of Arizona that has made its way to UNLV.",
+      "If possible don't walk alone, especially women, this is crazy unlv police need to be strict with homeless walking around campus."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Tradition Keeper Program is a real way to build campus connection most students overlook",
+      "Grade distribution data site (myclassgrades.com) lets you pick professors by actual pass rates",
+      "UNLV football at Allegiant Stadium is genuinely fun and affordable — best value event in Vegas"
+    ],
+    "key_quotes": [
+      "The Tradition Keeper Program is a fantastic way to change that. Chasing those passport [stamps]...",
+      "I pulled the official grade data for UNLV so you can actually see how hard a professor grades before you pick your classes.",
+      "UNLV Football has become one of the best and most affordable things to do in Vegas. Great energy, great atmosphere, and they're actually winning."
+    ],
+    "score": 7
+  }
+}

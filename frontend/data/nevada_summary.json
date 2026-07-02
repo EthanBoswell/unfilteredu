@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Boiler explosion in one dorm made students reconsider on-campus living",
+      "Students pressured into off-campus leases with aggressive sales tactics",
+      "COVID forced dorm evacuation with less than one week notice"
+    ],
+    "key_quotes": [
+      "After the boiler explosion in one of the halls and seeing cheaper options for living in the area, I'm re-thinking my decision",
+      "They pressured me to sign the lease by the end of today because prices could go up as soon as tomorrow",
+      "I checked out the reviews and a lot of them were bad"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life exists and is active enough to have dedicated sorority chefs",
+      "Reno's outdoor access—skiing, Tahoe—is a genuine social draw",
+      "Campus social scene is not a major talking point; overshadowed by location"
+    ],
+    "key_quotes": [
+      "Some of the best memories of my life were made in Reno during ski trips. You will have an absolute blast",
+      "Now that you don't have as many student loans you can gamble at the casinos in Reno during free time"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Sorority dining praised—chef Kevin knows every member's name and preferences",
+      "No specific complaints about general campus dining in the data",
+      "Institutional dining quality appears variable; sorority model is exceptional outlier"
+    ],
+    "key_quotes": [
+      "Kevin knowing all the women in the sorority's names and making each plate to their tastes and requests is amazing",
+      "He's their 'dad away from home,' making sure their bellies are fed so their brains can learn"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support resources mentioned by students",
+      "Transfer stress and housing anxiety are recurring themes without institutional solutions",
+      "Students navigating major life changes at UNR largely without noted campus support"
+    ],
+    "key_quotes": [
+      "Crossing the state line is the first thing worrying me",
+      "I'm struggling... I can't take it"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships are transparent and calculator-based—you know exactly what to expect",
+      "Presidential scholarship cutoffs are strict; no exceptions made for borderline cases",
+      "Nevada Bound program offers near-free attendance for qualifying in-state students"
+    ],
+    "key_quotes": [
+      "I have barely made the cutoff for the presidential scholarship... if I were to email them and ask if they could make an exception, would they?",
+      "UNR is a fairly solid school... its obviously no T20, but its not like you're going to a trash school. And you can go into both UNLV and UNR with FAFSA and scholarships with extra money given to me",
+      "Have you done the Nevada Bound program UNR offers?"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Non-STEM courses reported as highly politicized by at least one student",
+      "Engineering programs are ABET accredited and considered solid, not exceptional",
+      "Class enrollment system has pitfalls—students accidentally dropped from required courses"
+    ],
+    "key_quotes": [
+      "Professors make sure class is highly politicized, especially if it isn't a STEM course, so be prepared",
+      "I feel scammed. Be sure to drop before the early deadline or they keep 100%",
+      "CSE Senior at UNR here, being within the top 5 on a waitlist isn't that bad at all"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "COVID housing evacuation gave students less than one week to move out",
+      "Drop deadline policy penalizes students 100% if missed—no grace period noted",
+      "Transfer credit requirements added unexpectedly by advisors, causing stress"
+    ],
+    "key_quotes": [
+      "We have been asked to leave dorms, to move out and turn keys in. We have less than a week to do this",
+      "I feel scammed. Be sure to drop before the early deadline or they keep 100%",
+      "I met with a counselor at UNR and was told I have to take 2 more Spanish classes"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is modern and visually impressive—widely described as a hidden gem",
+      "Reno itself described as 'dangerous/dirty' by one prospective student post",
+      "Proximity to Lake Tahoe and ski country is a genuine lifestyle advantage"
+    ],
+    "key_quotes": [
+      "It has a super modern campus in the high-desert mountains (google it, it looks actually amazing) and the wolf pack is a sick mascot",
+      "Only problems are that its in Reno (dangerous/dirty)",
+      "I was admitted here in 2016 but... I wish I stayed at UNR way friendlier, nice campus and ethical"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering grads described as doing 'fine' but school lacks strong recruiting reputation",
+      "Tesla Gigafactory proximity in Sparks cited as real internship opportunity for engineers",
+      "CS degree value seen as adequate but school is not a target for top tech employers"
+    ],
+    "key_quotes": [
+      "Nevada isn't a big engineering research school, but it's ABET accredited and their grads do fine. Just make sure to network and seek out internships",
+      "I did research and found out that they have a gigafactory in Sparks, NV which is very close to the college and would provide a great opportunity for an internship",
+      "UNR isn't that highly ranked [for CS]"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Free or near-free attendance for strong Nevada residents is the school's biggest selling point",
+      "Multiple students chose UNR over $200k+ debt at brand-name schools and felt great about it",
+      "Out-of-state students can access WUE rates (150% of in-state), making it affordable regionally"
+    ],
+    "key_quotes": [
+      "It costs so much money and I couldn't see myself being able to handle 200k+ debt for my undergrad alone... I'm planning on double majoring as an engineer and music tech",
+      "No school—not Harvard, none of them—is worth $300k",
+      "It's a popular choice in my area (in NorCal, about two hours from UNR). They do offer the WUE tuition rates"
+    ],
+    "score": 9
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong 'smart financial choice' energy—students arrive pragmatic, not passionate",
+      "Friendly campus culture with outdoor lifestyle appeal for the right student",
+      "Perception gap: students know it's not prestigious but most seem genuinely satisfied"
+    ],
+    "key_quotes": [
+      "I did not see myself going up to UNR... it was just so expensive [elsewhere]. Smart financial moves will save you so much agony",
+      "UNR is a very pleasant place. Don't discount because it might be close to home",
+      "It's an up and coming school and Reno has a lot of outdoor opportunities"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Drop Policy:** Missing early drop deadline means losing 100% of tuition paid",
+      "**Administration:** Advisors added surprise course requirements for transfer students mid-process",
+      "**Politics in Class:** Non-STEM courses explicitly flagged as highly politicized by a current student"
+    ],
+    "key_quotes": [
+      "I feel scammed. Be sure to drop before the early deadline or they keep 100%",
+      "Professors make sure class is highly politicized, especially if it isn't a STEM course",
+      "I met with a counselor at UNR and was told I have to take 2 more Spanish classes [despite AP credit]"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "BS-MD program exists exclusively for Nevada residents—low-key path to med school",
+      "Undergrad research opportunities are cited as genuinely accessible vs. larger schools",
+      "National Merit Finalists can leverage UNR for significant merit aid stacking"
+    ],
+    "key_quotes": [
+      "My state has one [BS-MD program] at UNR that only Nevada residents can apply to. It doesn't seem too difficult for me to get in",
+      "I know I would be able to do research and stand out at UNR which I have heard is quite important for medical admissions",
+      "UNR is a fairly solid school... its obviously no T20, but UNR has a solid engineering program and has lots of opportunities for undergrad research"
+    ],
+    "score": 7
+  }
+}

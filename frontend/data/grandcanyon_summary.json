@@ -1,0 +1,172 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms are modern and well-reviewed by most campus students",
+      "Community bathrooms shared by 30-40 girls with only 3-6 stalls",
+      "Living on campus significantly increases total cost"
+    ],
+    "key_quotes": [
+      "I was the first of triple occupancy in Camelback Hall",
+      "community bathrooms do suck lol, we had 30-40 girls per floor sharing 3-6 stalls",
+      "living on campus is great... much more affordable [commuting]"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Many students report struggling to make friends on campus",
+      "Strict Christian rules: no opposite sex in rooms, no alcohol, no vapes",
+      "Introverted or non-Christian students report feeling isolated and out of place"
+    ],
+    "key_quotes": [
+      "I haven't made any friends and I've already had to withdrawal TWICE",
+      "I go to gcu too and this video is 100% accurate",
+      "Is this a fun school... are there parties?"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Cafeteria was eliminated because students preferred on-campus fast food restaurants",
+      "Dining options are almost entirely fast food chains including Chick-fil-A",
+      "Limited dining hours are a bigger complaint than food variety itself"
+    ],
+    "key_quotes": [
+      "they decided to get rid of it to make room for more restaurants. But I really liked the cafeteria",
+      "I had no idea about the food being mostly fast food",
+      "the only downside of the dining options imo is the hours"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "No specific GCU mental health support data surfaced from either source",
+      "Students leaving GCU cite stress, isolation, and feeling like things have fallen apart",
+      "First-generation students specifically call out lack of support systems"
+    ],
+    "key_quotes": [
+      "since I've moved here everything has fallen apart in a way",
+      "Not a great school for first generation students like myself. Their support is lacking",
+      "I plan on leaving too. It feels like the right decision is to go back home"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarship offers used as high-pressure sales tactics with hours-long deadlines",
+      "Scholarships frequently exclude living expenses, leaving students with unexpected debt",
+      "Hidden and unclear fees reported; one student spent over $1000 on miscellaneous charges"
+    ],
+    "key_quotes": [
+      "pressured to sign with a for-profit school by holding a 'signing scholarship' over her head that was only going to last a few hours",
+      "Scholarship opportunities doesn't equal scholarships. Living expenses are likely not included",
+      "I've spent over a grand on miscellaneous charges due to their unclear policies"
+    ],
+    "score": 3
+  },
+  "academics": {
+    "key_points": [
+      "Multiple students report zero feedback on submitted work for weeks",
+      "Doctoral program widely criticized as misleading and financially exploitative",
+      "Online format works well for non-traditional students needing flexibility"
+    ],
+    "key_quotes": [
+      "I submitted 8 discussions and 2 papers and zero feedback and no grades yet",
+      "Their doctorate program is extremely misleading. Just research your options",
+      "I finished GCU with a EdS degree instead of a doctorate. I got tired of pouring out money for the mistakes they claimed I was making"
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "DOE fined GCU $37.7 million for deceiving students about program costs",
+      "Non-profit conversion attempt was denied; school legally remains for-profit",
+      "Students report unclear policies and being charged fees with little recourse"
+    ],
+    "key_quotes": [
+      "U.S. Department of Education fines Grand Canyon University $37.7 Million for Deceiving Thousands of Students",
+      "Grand Canyon University's Non-profit Conversion Denied. Education Department says the University is a For-Profit",
+      "they charge you for every minor inconvenience"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is widely praised as beautiful, modern, and visually impressive",
+      "Surrounding neighborhood described as unsafe and sketchy by multiple Arizona locals",
+      "Phoenix area heat and urban environment can be isolating for out-of-state students"
+    ],
+    "key_quotes": [
+      "Amazing campus, cheap as hell, they blow money like it's nothing and it seems like it's all to hide their actual academics",
+      "it's in a really sketchy part of Arizona. Most Arizonians I know don't visit that area frequently",
+      "I fell in love with the campus over 2 years ago when I graduated"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "For-profit status is widely cited as a red flag to employers",
+      "At least one CUNY school refused to accept a GCU program due to candidacy accreditation status",
+      "Graduate school acceptance may be complicated by GCU's accreditation issues"
+    ],
+    "key_quotes": [
+      "For profit schools like that tend to be a red flag to employers",
+      "Lehman college (CUNY) won't accept my sister, since the program major is a candidacy",
+      "You aren't really going to be able to do anything with just an undergrad in psychology, especially from a for-profit like GCU"
+    ],
+    "score": 3
+  },
+  "value_for_money": {
+    "key_points": [
+      "Sticker price appears low but hidden fees and living costs erode savings",
+      "$50k in debt for engineering at a minimally selective for-profit is widely discouraged",
+      "Community college then transfer to state school is the near-universal Reddit advice"
+    ],
+    "key_quotes": [
+      "Why take courses at an over-priced, bad reputation for-profit diploma mill when there's a reputable state university nearby",
+      "For profit, 37% graduation rate, 70% retention rate, bottom-tier USNews ranking",
+      "Getting stoned and watching Dragon Ball Z for 2 years straight would be a better use of your time and money"
+    ],
+    "score": 2
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Campus aesthetics attract students but the experience often disappoints after arrival",
+      "Online students report higher satisfaction than on-campus students",
+      "School described as a marketing machine that prioritizes enrollment over education"
+    ],
+    "key_quotes": [
+      "I think GCU is more focused on marketing than actual teaching",
+      "I go to GCU too and this video is 100% accurate",
+      "I love GCU online learning because it gives me the flexibility"
+    ],
+    "score": 3
+  },
+  "red_flags": {
+    "key_points": [
+      "**Racial bias**: Multiple Black and Hispanic students report feeling targeted by instructors",
+      "**Predatory enrollment**: Scholarships dangled with hours-long deadlines to pressure minors into signing",
+      "**Accreditation trap**: Some GCU program majors listed as candidacy status, rejected by other universities",
+      "**Financial deception**: DOE fined $37.7M for lying to students about doctoral program costs"
+    ],
+    "key_quotes": [
+      "I am a current student at gcu and unfortunately I do feel targeted by some teachers since I am hispanic",
+      "pressured to sign with a for-profit school by holding a 'signing scholarship' over her head that was only going to last a few hours",
+      "GCU is a for-profit college... the status said candidacy, which the program major is a candidacy and Lehman college won't accept my sister"
+    ],
+    "score": 9
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Online one-class-at-a-time format genuinely works for working parents and non-traditional students",
+      "Honors college scholarship interview process exists and is competitive, suggesting some academic tier",
+      "Campus visit events like Discover GCU generate strong positive impressions worth experiencing"
+    ],
+    "key_quotes": [
+      "I love it. I can work while going to school. Stay home where my family is. Not have to pay for dining, room, and board",
+      "I am a single mom of a child with autism and I also work. One class at a time sounds amazing",
+      "I went to Discover GCU and fell in love with the campus"
+    ],
+    "score": 5
+  }
+}

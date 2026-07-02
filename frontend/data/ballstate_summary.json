@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Freshmen cannot choose their dorm; BSU assigns based on major",
+      "Stu West has persistent weed smell and sanitation horror stories",
+      "University apartments have 1960s appliances and no central AC"
+    ],
+    "key_quotes": [
+      "Just be ready for 24/7 weed smell",
+      "They found someone shit in the showers last semester. Good luck diva",
+      "The university apartments are fine. They just lack central AC and have appliances from the 1960s"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Frat parties are weak; house parties occasionally get shot up",
+      "Getting out of your dorm room is critical to making friends",
+      "Strong campus event culture with free stuff and broad club options"
+    ],
+    "key_quotes": [
+      "If you like parties our frat parties ain't allat great anymore, and the house parties get shot up a bit more often than I'm comfortable with",
+      "My biggest regret freshman year was staying in my dorm so often. Go to all the events!",
+      "Go to all the events! Even if some seem corny lol, you can often get cool free stuff"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Meal swipe value has declined significantly year over year",
+      "Dining Plus credit barely lasts mid-semester now; it used to last all semester",
+      "Squirrel spotted in Taco Bell; multiple reports of food poisoning on campus"
+    ],
+    "key_quotes": [
+      "I remember when i started here the fall of 2022 i could make my dining plus last all semester plus some, but now it barely gets me through to the middle of the semester",
+      "With the amount of times I got food poisoning at ball state I am honestly not surprised",
+      "A meal swipe is $9.65 for Lunch and Dinner, and $5.85 for breakfast"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Self-inflicted gunshot wound incident reported in Stu West dorm",
+      "Seasonal illness wave hits every fall; students call it the 'Muncie Plague'",
+      "No direct data on counseling services; support resources not mentioned by students"
+    ],
+    "key_quotes": [
+      "Self inflicted gunshot wound on the 6th floor. To the face— victim was alive and was able to walk themself to ambulance",
+      "Its the Muncie Plague that happens every fall semester",
+      "Ball State always brings on way too many students but it works out because of how many drop out around this time"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "First Day textbook program routinely overcharges students significantly",
+      "Presidential scholarship maxes out at $5,000/year; students feel this is insufficient",
+      "International scholarship of $14k/year exists but tied to GPA minimums"
+    ],
+    "key_quotes": [
+      "For me, they wanted to charge about $477, which is a little over double what I would have to pay if I buy them on my own",
+      "This program is so stupid. Why am I automatically charged for 15 credit hours when I don't even require any materials",
+      "The presidential is only 5,000 a year. I fear that is not enough"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Journalism and CCIM programs are genuinely strong with David Letterman ties",
+      "Media majors face major class availability issues; some locked out of needed courses",
+      "Social work program praised for hands-on community placement"
+    ],
+    "key_quotes": [
+      "Ball State has one of the best J-Schools in the midwest, and CCIM also has a lot of great programs",
+      "I'm a media major and theres literally no classes I can take that I need to meet my degree requirements",
+      "I got my bachelors of social work from ball state and one of the things I really liked about the program were the teachers and the hands on aspect"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "President Mearns is actively unpopular; booed publicly at community events",
+      "ACLU sued BSU twice for First Amendment violations against students and faculty",
+      "Professor fired over a Charlie Kirk Facebook post; campus speech climate is chilled"
+    ],
+    "key_quotes": [
+      "Mearns was one of the judges. He got booed harder than the mayor",
+      "id share my thoughts but it seems like doing so may be enough for expulsion. disagree with mearns and youre out",
+      "This is an escalation in insanity from the staff firing over her nuanced Charlie Kirk on her own Facebook page"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is walkable and appropriately sized; not overwhelming like Purdue or IU",
+      "Muncie is a small city with limited nightlife but cheap off-campus housing",
+      "Parking enforcement is aggressive and expensive; students park blocks away to avoid it"
+    ],
+    "key_quotes": [
+      "Campus is almost the perfect size. Walkable year round",
+      "The way this school enforces parking you would swear it makes up for like 50% of the total income for the institution",
+      "Most apartments around muncie are 800 or less for a 2 bedroom"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Journalism and CCIM alumni report solid regional connections and industry entry",
+      "Accounting program has placed graduates at notable firms including Notre Dame",
+      "One alum warns journalism is a 'dying profession' and a poor investment"
+    ],
+    "key_quotes": [
+      "He worked for a local accounting firm in Keystone for a bit and now works for Notre Dame",
+      "Ball State is a great school. It gets unfairly punked on by kids who go to the bigger universities like Purdue and IU",
+      "Journalism is the worst college investment you can make. Journalism is a dying profession"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "First Day textbook program can double your actual textbook costs; opt out recommended",
+      "Meal plan value has eroded; students getting less for same or more money each year",
+      "Off-campus housing is cheap but BSU-affiliated rentals get poor reviews"
+    ],
+    "key_quotes": [
+      "saved my ass for sure, wasn't gonna pay $341.25 for a digital access code and book i can get for $85",
+      "i remember when i started here the fall of 2022 i could make my dining plus last all semester plus some",
+      "stay away from bsu rentals and middletown"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Friendly, mid-sized campus with approachable professors and tight classroom sizes",
+      "Free speech controversies and admin overreach cast a shadow over campus culture",
+      "Strong sense of community pride despite Muncie's limitations"
+    ],
+    "key_quotes": [
+      "It's a very chill campus and people are generally both cool and friendly",
+      "ball state arrests and punishes students who use their first amendment rights to free speech and is getting sued by the ACLU",
+      "I transferred to IU after my freshman year and I regret it to this day"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Free Speech**: ACLU filed two lawsuits; professor fired for a Facebook post about Charlie Kirk",
+      "**Dining Safety**: Squirrel in dining hall, multiple food poisoning reports, roach sightings reported",
+      "**Data Security**: Canvas hacked and held for ransom; BSU delayed notifying students"
+    ],
+    "key_quotes": [
+      "id share my thoughts but it seems like doing so may be enough for expulsion. disagree with mearns and youre out",
+      "With the amount of times I got food poisoning at ball state I am honestly not surprised",
+      "Canvas has been hacked and is being held for ransom... Ball State hasn't said a word about it"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "David Letterman actively visits campus and hosts celebrity talks for CCIM students",
+      "Small classroom environments mean real professor interaction, not lecture-hall anonymity",
+      "Opt out of First Day program to save hundreds of dollars on textbooks"
+    ],
+    "key_quotes": [
+      "communications school is always having david letterman pop in!!!! i think you'd be getting a really good education",
+      "Another thing I really enjoy is the small classroom environments. Professors interact and actually know your name",
+      "Don't have her buy her textbooks until professors tell her what she needs. Sometimes the 'required textbooks' aren't really required"
+    ],
+    "score": 7
+  }
+}

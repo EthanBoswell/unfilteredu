@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorms reported as smaller than comparable schools",
+      "No major housing scandals surfaced in data",
+      "Alumni recall McIntyre Hall and campus living fondly"
+    ],
+    "key_quotes": [
+      "the dorms look smaller than some other schools I'm looking at and I'm not sure I would be happy in a small space",
+      "Lots of great memories with the McIntyre Hall, Washakie Dining Center"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus culture is heavily cowboy/country — niche but real",
+      "Small-town Laramie limits nightlife and off-campus options significantly",
+      "Political debates (Charlie Kirk visit) reveal an ideologically divided campus"
+    ],
+    "key_quotes": [
+      "believe me NO ONE wants to go to the University of Wyoming",
+      "I want to go to a college that has cowboys... hard workin kids who are funny as hell"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Limited food variety — options described as repetitive",
+      "Washakie Dining Center is the main hub, nostalgically remembered",
+      "Off-campus, Crowbar's Pad Thai Fries singled out as a highlight"
+    ],
+    "key_quotes": [
+      "I totally agree that the Pad Thai Fries from Crowbar absolutely slaps",
+      "I also agree that there are not much food options because they are mostly the same"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Isolation in small-town Laramie is a recurring concern for students",
+      "No dedicated mental health support resources mentioned by students",
+      "Students transferring out cite unhappiness and disconnection as drivers"
+    ],
+    "key_quotes": [
+      "I go to UW and it's my second semester and I'm pretty unhappy so far",
+      "no one I can talk to, no friend group, just some independent people I'll talk to here and there"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Frequently cited as a true financial safety school for OOS students",
+      "WUE and Niche scholarship programs make it affordable for out-of-state",
+      "One student received a scholarship via Niche Direct Admissions after rejections elsewhere"
+    ],
+    "key_quotes": [
+      "my only true financial and admissions safety, my state school, the University of Wyoming",
+      "I just found out about niche direct admissions and got a scholarship to the university of wyoming"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Noted as a solid petroleum engineering program nationally",
+      "CS and competitive majors have limited data but UW system grading is harsh",
+      "Average UW system curve lands students around 2.7 GPA doing average work"
+    ],
+    "key_quotes": [
+      "University of Wyoming — listed under Petroleum engineering as a relatively unknown but strong program",
+      "hitting average in chem, for example, will give you a 2.8 for that class... doing average in all your classes will usually land you ~2.7 overall GPA"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Admissions response time complained about publicly on campus tour video",
+      "No systemic admin praise or complaints emerged from student data",
+      "Sorority/trans student lawsuit reflects admin policy disputes making national news"
+    ],
+    "key_quotes": [
+      "I applied since November and we're in mid January. I still have not gotten a feedback. Care to tell me what is going on?",
+      "Artimis doesn't live in the sorority house. They live off campus and didn't plan to move into the sorority when this lawsuit was filed"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Laramie is extremely remote — a significant lifestyle adjustment for most",
+      "Campus described as beautiful with notable outdoor/skiing access nearby",
+      "Wyoming is cold and harsh; wind and altitude catch students off guard"
+    ],
+    "key_quotes": [
+      "Only thing I splurged on was skiing. At least 12 times per year",
+      "Lots of great memories with my walk to classes through Prexy's Pasture everyday"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Petroleum engineering grads have strong industry pipeline from UW",
+      "No tech recruiting presence comparable to UW Seattle mentioned",
+      "Fashion design alumni have gone on to Parsons/FIT for advanced study"
+    ],
+    "key_quotes": [
+      "I graduated with a Design, Textiles and Merchandising degree with a minor in Fashion Design in 2015 from the University of Wyoming",
+      "University of Wyoming — listed for Petroleum engineering programs"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Cheapest real university option for many OOS students via WUE",
+      "In-state tuition with Regents scholarship can mean nearly free attendance",
+      "Students use it explicitly as a financial safety when all else fails"
+    ],
+    "key_quotes": [
+      "my only true financial and admissions safety, my state school, the University of Wyoming",
+      "I have a 3.5 and Regents gives me free college tuition"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Best described as a last-resort financial safety or niche fit for outdoorsy, rural types",
+      "Students who thrive here love skiing, ranching culture, and small-town life",
+      "Those expecting urban energy or competitive peer culture will be disappointed"
+    ],
+    "key_quotes": [
+      "believe me NO ONE wants to go to the University of Wyoming",
+      "I want to go to a college that has cowboys... not rednecks but hard workin kids"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Isolation: Laramie's remoteness causes reported depression and social disconnect",
+      "Social life: Students transferring out cite inability to make meaningful friends",
+      "Controversy: National lawsuit over trans student in sorority reflects campus tension"
+    ],
+    "key_quotes": [
+      "I go to UW and it's my second semester and I'm pretty unhappy so far. I've made some friends, but it's nothing like what I had in high school",
+      "People like him are why there is trans panic happening in our country. He 100% took advantage of a policy"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Skiing access is exceptional — alumni skied 12+ times per year affordably",
+      "Petroleum engineering program is nationally respected and under-publicized",
+      "Niche Direct Admissions scholarship offers real money to students locked out elsewhere"
+    ],
+    "key_quotes": [
+      "Only thing I splurged on was skiing. At least 12 times per year. Otherwise starvation budget",
+      "I just found out about niche direct admissions and got a scholarship to the university of wyoming (go cowboys!)"
+    ],
+    "score": 6
+  }
+}

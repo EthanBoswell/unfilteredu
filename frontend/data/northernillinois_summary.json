@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Stevenson elevators reportedly got stuck 27 times in one semester",
+      "Neptune rooms are notably small with no dressers included",
+      "False fire alarms at ungodly hours are a recurring dorm problem"
+    ],
+    "key_quotes": [
+      "Don't stay in the towers: Stevenson elevators got stuck 27 times last semester and grant ones get stuck at the same time",
+      "Neptune rooms are small, so maybe aim for Stevenson or Grant if you can",
+      "Patterson East has had 2 fire alarms go off at ungodly hours of the morning so far this semester"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus is essentially dead on weekends — most students go home",
+      "Students actively creating clubs just to fill the social void",
+      "Making friends as a transfer or commuter is genuinely difficult"
+    ],
+    "key_quotes": [
+      "NIU is a commuter college now. No one stays for anything and even the professors are too lazy to do anything",
+      "It is so freaking boring on the weekends because no one does anything",
+      "Campus is Pretty much dead on the weekends. Everyone goes home"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Gilbert Dining Hall closed and students are petitioning to reopen it",
+      "Gilbert was the only close-style dining hall — its loss is widely mourned",
+      "Staffing cuts and low enrollment cited as reasons dining was reduced"
+    ],
+    "key_quotes": [
+      "Oh man they still haven't reopened it? That's such a shame, it's such a unique dining hall. It legit felt like a hotel brunch room",
+      "I was SHOCKED to learn that Gilbert had their dining services cut",
+      "The only way that will happen is if enrollment spikes significantly"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Students report bullying and name-calling incidents on campus buses",
+      "Social isolation is common, especially for transfers and commuters",
+      "Campus culture described as bland and emotionally hollow by long-term students"
+    ],
+    "key_quotes": [
+      "Twice now I've had groups of people either making fun of me or my friends, and actively calling people names...I was called names for almost 10 minutes",
+      "The culture in this campus feels bland...there's a hole within the heart of NIU that I feel is missing",
+      "I've been at this school for over a year, mostly just cramming...I don't have many friends"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid office is infamous for ignoring calls, emails, and walk-ins",
+      "System errors have accidentally revoked student loans mid-semester",
+      "NIU offers very competitive aid packages — a major reason students choose it"
+    ],
+    "key_quotes": [
+      "I've left emails, ignored, tried to call, was on hold for 30 minutes...this guy did not make eye contact or say anything for like 10 minutes",
+      "I received an email this afternoon saying that my loans were accidentally revoked",
+      "NIU's cost WITH Federal Student Loans: $1.6k [vs UIC's $18k]"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Psychology and law programs earn genuine praise from students and alumni",
+      "NIU's CS program described as 'mediocre' by students comparing options",
+      "Blackboard and tech infrastructure cause recurring academic disruptions"
+    ],
+    "key_quotes": [
+      "NIU alumni who majored in psych, nothing but great things to say about the program!!! The professors are very kind",
+      "Northern Illinois University (which has a mediocre CS Program)",
+      "I missed an entire lesson on zoom yesterday because the wifi dropped so bad"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Financial aid office widely criticized for unresponsiveness and errors",
+      "Physical OneCards eliminated — mobile-only policy frustrates students with dying phones",
+      "Elevator safety inspection permits expired mid-semester with no urgency to fix"
+    ],
+    "key_quotes": [
+      "Is it just me or does financial aid go out of its way to ignore you?",
+      "They said they don't do physical cards anymore — just the mobile one",
+      "The safety inspection permits for the elevators expired at the end of August...elevators have yet to be reevaluated"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "DeKalb is a small, quiet town — chain restaurants, Walmart, not much else",
+      "Campus WiFi is unreliable with outages affecting entire academic days",
+      "Annie Glidden Road is dangerously dark and poorly maintained at night"
+    ],
+    "key_quotes": [
+      "The town is dead. To be exact honest with you!",
+      "Pages taking forever to load, random internet outages, buildings with low bars/no signal, and constantly seeing the dinosaur game",
+      "The entire road is a deathtrap. The speed limit is 30 but everyone speeds"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Law school alumni report solid job placement and strong public interest reputation",
+      "NIU accounting and business programs have a decent regional employer base",
+      "Perception as a lower-tier school may hurt job searches outside Illinois"
+    ],
+    "key_quotes": [
+      "I've known a small handful of NIU law grads...all got hired on to decent jobs quickly. 5 of 7 passed the bar on the first time",
+      "Big alumni base in the government and collar counties",
+      "NIU isn't an amazing school so I assume it would be pretty hard [to transfer to Michigan]"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "NIU's aid packages are genuinely exceptional — often nearly free for in-state students",
+      "Low cost makes it a serious contender even against stronger schools",
+      "Full rides are common enough that students routinely compare NIU vs. UIUC on cost alone"
+    ],
+    "key_quotes": [
+      "NIU's cost WITH Federal Student Loans: $1.6k",
+      "Go NIU. Trust me, housing kills in costs so take the break when you can",
+      "I got a full ride at Northern Illinois University"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter school energy dominates — campus empties every weekend",
+      "Alumni nostalgia is strong, but current students feel the culture has eroded",
+      "Small pockets of genuine community exist in music, clubs, and the nature trail"
+    ],
+    "key_quotes": [
+      "NIU is a commuter college now. No one stays for anything",
+      "Everyday since graduating, I just dream of being back in Dekalb. I miss my undergrad years",
+      "I've been living on-campus all 4 years and there's one thing I've noticed: the culture in this campus feels bland"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Financial Aid**: office ignores students for weeks, has made errors revoking loans mid-semester",
+      "**Campus Safety**: Annie Glidden Road dangerously unlit; ICE activity confirmed near campus in unmarked vehicles",
+      "**Cult Recruitment**: Brightfield Church actively targets NIU students; university has formally warned about it"
+    ],
+    "key_quotes": [
+      "Stay away from Brightfield church. They are a high control cult that will suck you in with their 'love bombing'...they will encourage you to cut off your family",
+      "ICE agents kidnapped a person on their way to work [near campus]",
+      "I walked into the office, walked up to the front desk...this guy did not make eye contact or say anything for like 10 minutes"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "DeKalb has a thriving DIY punk/indie/emo music scene centered around Fargo venue",
+      "Nature trail along the Kishwaukee River is genuinely beautiful and underused",
+      "Law school is a standout — affordable, small classes, strong faculty access"
+    ],
+    "key_quotes": [
+      "NIU students get 50% off [Fargo shows] with OneCard!",
+      "Yesterday was a beautiful day for a walk, so i went on the nature trail and took a few photos",
+      "It's a great school. It's small, so you get to know faculty, staff, and students. Cheap, so you don't graduate debt"
+    ],
+    "score": 7
+  }
+}

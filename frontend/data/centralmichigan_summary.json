@@ -1,0 +1,165 @@
+{
+  "housing": {
+    "key_points": [
+      "Students hack dorm rooms by putting desks under beds for space",
+      "Small-town campus means dorms are the social hub by default",
+      "Multiple comments asking about bed risers suggest cramped standard rooms"
+    ],
+    "key_quotes": [
+      "I'm dying to know what risers you used to be able to put ur desk under ur bed",
+      "My daughter is going to CMU this fall and likes the idea of putting her desk under the bed"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Siblings weekend activities described as aimed at younger kids, not college-aged",
+      "Tailgate culture praised as welcoming even to non-locals and visitors",
+      "Regional school draw means most students are from Michigan, tight-knit but insular"
+    ],
+    "key_quotes": [
+      "I went for siblings weekend and the activities are kinda meant for younger people",
+      "We hung out with some of the coolest CMU tailgaters and although not being from the area we were welcomed with open arms",
+      "CMU is where all the kids from here go haha"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student feedback on dining quality in available data",
+      "One YouTube commenter flagged food content as insensitive to struggling students",
+      "Dining hall footage shown in tour video but no complaints or praise recorded"
+    ],
+    "key_quotes": [
+      "Don't show food products cause there are people that can't permit to eat these and suffer",
+      "No direct dining complaints or praise found in student comments"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Published student story about CMU administration mishandling a depressive episode",
+      "Stress culture explicitly cited as reason students transfer out",
+      "One student transferred after freshman year citing mental health as primary reason"
+    ],
+    "key_quotes": [
+      "I transferred from CMU to NYU after my freshman year. yes, I transferred bc CMU was mentally too hard",
+      "After reading my friend's story about how he dealt with CMU administration over their mental health",
+      "I am currently a freshman mathematics+CS major at CMU, and I sorta hate my life here right now"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Full ride scholarships available at Central Michigan University for qualifying students",
+      "Students choosing CMU (Central Michigan) specifically for cost savings over pricier schools",
+      "International students note identical pricing regardless of school, limiting financial decisions"
+    ],
+    "key_quotes": [
+      "With my grades/act score I can get a full ride to CMU",
+      "I got accepted to Central Michigan. I studied voice my freshman year"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Geology and engineering programs exist but academic reputation is regional, not national",
+      "Political science department described as super small with limited club options",
+      "Students transfer in from Toledo and other Ohio schools, suggesting solid regional academic standing"
+    ],
+    "key_quotes": [
+      "I am looking to transfer from Carnegie Mellon to my state school (Rutgers) because I feel very limited in opportunity here — my department is super small",
+      "I'm currently a UT student UTOLEDO but I want to transfer after my second year and I think central Michigan might be a good option",
+      "CMU for Geology — Ferris was my first accepted and CMU seems like it'd be a missed opportunity"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Mental health administration handling documented as problematic by at least one student",
+      "No direct administrative complaints about bureaucracy or registration in data",
+      "Small-town location means fewer workarounds if admin issues arise"
+    ],
+    "key_quotes": [
+      "After reading my friend's story about how he dealt with CMU administration over their mental health",
+      "I don't know a thing about college... Eventually I will transfer to Central Michigan University"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Mount Pleasant is a genuinely small town — locals note this proudly, outsiders may struggle",
+      "Campus praised for warmth and community feel compared to large flagship universities",
+      "Alumni describe it as centrally located so all Michigan students can access it"
+    ],
+    "key_quotes": [
+      "I live in mount pleasant where CMU is and I think it's really cool that you go to school in a really small town",
+      "CMU - a university so great that it sits in the middle of the state so everyone can attend",
+      "Going to the game and seeing all the faithful fans — you almost get lost in the crowd at Ann Arbor but not here"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Antonio Brown's NFL career highlights CMU's football-to-pro pipeline as real",
+      "No data on post-grad employment rates or recruiting presence from employers",
+      "Students planning careers in counseling, medicine, and tech choose CMU as a stepping stone"
+    ],
+    "key_quotes": [
+      "I credit CMU for helping me grow as an individual — Class of '75",
+      "My ultimate goal later in life is to become a school counselor... Eventually I will transfer to Central Michigan University"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full rides available, making CMU one of Michigan's most affordable four-year options",
+      "Students explicitly weigh CMU against costlier schools and choose it for finances",
+      "Compared to $200K+ for CMU Carnegie Mellon, Central Michigan is dramatically cheaper for same state"
+    ],
+    "key_quotes": [
+      "With my grades/act score I can get a full ride to CMU, albeit the school isn't too prestigious",
+      "If I go to Penn State I will be paying in-state tuition... these schools will cost my parents over $200,000"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Regional Michigan school with strong community loyalty among in-state students",
+      "Welcoming tailgate and sports culture is a genuine strength students mention unprompted",
+      "Often chosen as affordable fallback but students end up feeling at home"
+    ],
+    "key_quotes": [
+      "CMU is where all the kids from here go haha. That's so cool!!",
+      "We were welcomed with open arms — one of a kind experience compared to big schools",
+      "I credit CMU for helping me grow as an individual"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Mental Health: administration documented mishandling student depressive episodes",
+      "Prestige: frequently confused with Carnegie Mellon, causing identity and perception issues",
+      "Social Programming: siblings weekend activities described as geared toward children, not students"
+    ],
+    "key_quotes": [
+      "After reading my friend's story about how he dealt with CMU administration over their mental health",
+      "I didn't know another school used the initials CMU — people in Michigan call Central Michigan CMU",
+      "I went for siblings weekend and the activities are kinda meant for younger people"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Antonio Brown connection brings real NFL alumni energy and donations back to campus",
+      "Tight-knit Michigan regional network means strong in-state connections after graduation",
+      "Full-ride scholarships make it an elite value play for strong Michigan students"
+    ],
+    "key_quotes": [
+      "AB donated heated benches and came back to work out and speak with students",
+      "CMU - a university so great that it sits in the middle of the state so everyone can attend — Class of '75",
+      "With my grades/act score I can get a full ride to CMU"
+    ],
+    "score": 7
+  }
+}
