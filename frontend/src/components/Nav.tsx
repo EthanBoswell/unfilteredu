@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Menu, X } from "lucide-react";
 import Wordmark from "./Wordmark";
 import SchoolSearchOverlay from "./SchoolSearchOverlay";
 
@@ -33,20 +34,10 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
             <button
               type="button"
               onClick={() => setDropdownOpen((o) => !o)}
-              className="flex items-center gap-1 text-[14px] leading-none"
-              style={{ fontFamily: "Inter, sans-serif", color: "#fff", background: "none", border: "none", cursor: "pointer", padding: 0 }}
+              className="flex items-center"
+              style={{ color: "#fff", background: "none", border: "none", cursor: "pointer", padding: 0 }}
             >
-              About
-              <svg
-                className="w-3 h-3 mt-px"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-                style={{ transition: "transform 0.15s", transform: dropdownOpen ? "rotate(180deg)" : "rotate(0deg)" }}
-              >
-                <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+              {dropdownOpen ? <X size={20} strokeWidth={2} /> : <Menu size={20} strokeWidth={2} />}
             </button>
 
             {dropdownOpen && (
