@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen" style={{ background: "#F5F4EF" }}>
+    <div className="min-h-screen flex flex-col" style={{ background: "#F5F4EF" }}>
       <Nav />
 
-      <section className="px-8 pt-16 pb-0">
+      <section className="px-8 pt-16 pb-0 flex-grow">
         <div className="mx-auto max-w-[720px]">
           <p
             className="text-[11px] font-bold uppercase mb-4"
