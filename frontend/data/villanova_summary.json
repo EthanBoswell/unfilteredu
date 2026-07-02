@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Stanford Hall is most social; Good Counsel has best rooms",
+      "South Campus unanimously preferred by freshmen over other areas",
+      "Communal showers flagged as potentially dirty by incoming students"
+    ],
+    "key_quotes": [
+      "Stanford is the most socially active",
+      "Good Counsel has the best overall rooms",
+      "How's the communal shower? I know people say it can be dirty?"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "'Villanofun' reputation is real — multiple students confirm dead party scene",
+      "Greek life exists (25%) but not required; social scene still cliquey",
+      "Kelly's bar is the only reliable nightlife; others stay empty"
+    ],
+    "key_quotes": [
+      "I've heard many people call it villanofun and heard that the party scene and social life in general is pretty dead",
+      "Why is Kelly's the only one with any real business?",
+      "Is it cliquey?"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student complaints or praise found in the data",
+      "Water quality questioned by incoming freshmen; Brita recommended",
+      "Limited data — not a major topic of student discussion"
+    ],
+    "key_quotes": [
+      "How clean is the water fountain? A lot of people say to bring a Brita",
+      "I'm not really sure [about the water]"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One freshman described failed suicide attempt and panic attacks from workload",
+      "Workload hits hard immediately — 'classes and workload started right off the bat'",
+      "No strong praise for counseling resources; support infrastructure unclear"
+    ],
+    "key_quotes": [
+      "I've been in and out of the psyche ward. I've been so overwhelmed by everything, especially the classes and workload that started right off the bat",
+      "I don't have any close friends... my relationship isn't going the best right now"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Financial aid office slow and error-prone — multiple students ghosted or delayed",
+      "Full sticker price runs ~$75k/year; little need-based aid for middle class",
+      "Merit scholarships exist (Presidential, full tuition) but highly competitive"
+    ],
+    "key_quotes": [
+      "Villanova would cost $75k a year. This is way out of my price range",
+      "They do not respond to my emails even though there's a day left to figure this shit out",
+      "I got accepted ED1, but they give no aid whatsoever. They allowed me to withdraw from the bind because of it"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "VSB (business school) is the crown jewel; CLAS feels like an afterthought",
+      "Mandatory theology courses surprise non-Catholic students; 2+ required",
+      "Blackboard LMS widely disliked — 'literal garbage' interface, unlike Canvas"
+    ],
+    "key_quotes": [
+      "I've continuously heard that the VSB is by far the main focus of villanova as a whole, and CLAS is more of an afterthought",
+      "Blackboard is so much less intuitive and the interface is literal garbage",
+      "There is a pretty heavy emphasis on theology/religion classes"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Financial aid office repeatedly cited for errors, delays, and non-responses",
+      "Business school rejection letters sent to ED applicants mid-process with no warning",
+      "Active shooter hoax in 2025 revealed slow initial communication; police response praised"
+    ],
+    "key_quotes": [
+      "They just don't respond to my emails even though there's a day left",
+      "This is a rejection letter from the business school",
+      "I was not a fan of Radnor police during my time there but they did a great job today"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Beautiful 260-acre suburban campus 12 miles from Philadelphia",
+      "Campus is small enough to know fully within months",
+      "Surrounding area is quiet/suburban — Philly requires a train ride"
+    ],
+    "key_quotes": [
+      "It's a ghost town! It's a dead area",
+      "12 miles from Philadelphia",
+      "The area is very quiet and suburban"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "VSB ranked #14 nationally (Poets&Quants); strong finance/accounting recruiting",
+      "Alumni network produces NBA stars, a Pope, and Lockheed Martin engineers",
+      "CLAS Economics students worry about recruiting disadvantage vs VSB peers"
+    ],
+    "key_quotes": [
+      "Will I struggle finding internships/jobs in the future? (as a CLAS Econ major)",
+      "Villanova semi-target school for finance",
+      "Villanova was among the top schools for Fulbright student scholars as a share of undergrad population"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "~$75k/year sticker price with weak need-based aid for middle class families",
+      "Strong merit scholarships available but only for top applicants",
+      "Many students choose state schools over Villanova purely on cost"
+    ],
+    "key_quotes": [
+      "Villanova would cost $75k a year. This is way out of my price range",
+      "expensive as shit tho",
+      "I turned down BU for my state school. It was tough, but being in serious debt at 22 would be harder"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Predominantly white, Catholic, preppy — diversity concerns raised repeatedly",
+      "Tight-knit but potentially homogeneous; Greek life moderate presence",
+      "Strong basketball culture and Augustinian identity define campus spirit"
+    ],
+    "key_quotes": [
+      "They do not like black people here unless you're a student athlete. This is a very socially isolating experience",
+      "About 70% of students identify as Catholic",
+      "I'm a black woman who's applying ED2 to Villanova... the more time I've spent reading through posts here, the more I've started second-guessing things"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Diversity & Inclusion:** Black grad student says school is 'socially isolating' for non-athletes",
+      "**Financial Aid Office:** Routinely ghosts students near deadlines; documented errors delay packages",
+      "**Campus Safety:** Active shooter hoax (2025) caused mass panic; second such incident referenced"
+    ],
+    "key_quotes": [
+      "I'm a grad student here and I wish I chose a different university. They do not like black people here unless you're a student athlete",
+      "They just don't respond to my emails even though there's a day left to figure this shit out",
+      "Absolutely disgusting that this was a hoax. If it's a student they should be expelled and prosecuted"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Presidential Scholarship offers full ride for top applicants — legitimately competitive",
+      "Fulbright production rate punches above weight vs similarly ranked schools",
+      "Low-income students can receive near-full-ride need-based grants"
+    ],
+    "key_quotes": [
+      "Villanova was among the top schools for Fulbright student scholars for the past 4 years as a share of undergraduate population",
+      "At Villanova I would only have to pay 15k since I am a low income student",
+      "Villanova ironically ended up being one of my cheapest options and they're giving me pretty much a full ride"
+    ],
+    "score": 7
+  }
+}

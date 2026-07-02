@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "Very limited direct data; one transfer student praised single suite setup",
+      "Standard dorm desk space concerns raised for PC/setup logistics",
+      "No specific PC housing complaints unique to Providence College found"
+    ],
+    "key_quotes": [
+      "Moved into my dorm room (a single suite all to myself, sharing a bathroom with another room)",
+      "I honestly feel more comfortable in my dorm than in my actual room back home"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Basketball game atmosphere is genuinely electric and student-driven",
+      "Friar Fanatics student section has a strong, fun reputation on campus",
+      "One current student considering transfer partly due to feeling unchallenged socially"
+    ],
+    "key_quotes": [
+      "I went to there camp I got to talk to all the players and coach Cooley 10 out of 10",
+      "I currently attend providence college in rhode island... I have a girlfriend who goes to school down south and I adore her"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No student comments about Providence College dining found in data",
+      "Providence city itself has excellent restaurant culture per locals",
+      "Cannot rate on-campus dining without direct student feedback"
+    ],
+    "key_quotes": [
+      "Its restaurant culture is one of the best in the country",
+      "Best Italian Food this side of the Atlantic"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Seven students overdosed in a documented drug incident on or near campus",
+      "No mention of counseling resources or mental health support from students",
+      "Suspects linked to student overdoses went to court — serious safety incident"
+    ],
+    "key_quotes": [
+      "Suspects allegedly linked to overdoses of 7 Providence College students appear in court",
+      "I bet slim foolio says 'ya know what I'm saying' to the judge at least one time"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "One student received a substantial $38k/year merit scholarship accepted EA",
+      "Honors College admission offered without application in at least one case",
+      "Student comparing PC to Villanova cited aid package as key decision factor"
+    ],
+    "key_quotes": [
+      "I got a pretty good scholarship yay yay yay!! Go Friars",
+      "I didn't even apply to the honors program and they put me in there. Nice staff, small classes"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Small class sizes mentioned positively by at least one admitted student",
+      "One current student says they feel 'not challenged' academically",
+      "Management and Honors College programs appear to be notable draws"
+    ],
+    "key_quotes": [
+      "Nice staff, small classes, but providence as a city isn't really big",
+      "I currently have a 3.9 here and am also not feeling challenged"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "No direct complaints about PC administration found in student posts",
+      "Staff described as 'nice' by one prospective student after visiting",
+      "Insufficient data to assess bureaucracy or responsiveness"
+    ],
+    "key_quotes": [
+      "Nice staff, small classes",
+      "I visited providence college and liked it enough. Definitely could see myself there"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Providence city has strong food, arts, and culture scene per locals",
+      "City described as underrated gem with relaxed urban feel",
+      "One student noted Providence 'isn't really big' as a potential downside"
+    ],
+    "key_quotes": [
+      "Providence as a city isn't really big (pls correct me if im wrong)",
+      "It's an amazing place to live. The culture, the food, the arts, the people. My home",
+      "Something always drew me back to Providence... it just has this relaxed feel for a city"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data found in student posts",
+      "Management program cited as draw but no post-grad data shared",
+      "Cannot assess internship pipeline or employer recruitment presence"
+    ],
+    "key_quotes": [
+      "I got accepted EA to Providence College for the Management programs",
+      "A solid internship program which I believe is very important"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Large merit scholarships available for strong students significantly cut costs",
+      "Honors College placement can come automatically, adding value",
+      "Private school cost concerns standard but offset by merit aid for top students"
+    ],
+    "key_quotes": [
+      "I got a 38k per year merit scholarship. It's all looking really good to me",
+      "The over priced liberal arts and private universities are the schools that gave huge scholarships. They ended up being the lowest cost"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Catholic liberal arts school with tight-knit campus feel and strong sports culture",
+      "Students describe liking it 'enough' — warm but not overwhelming enthusiasm",
+      "Basketball atmosphere and school spirit appear to be genuine strengths"
+    ],
+    "key_quotes": [
+      "I visited providence college and liked it enough. Definitely could see myself there",
+      "Did anyone else get accepted into PC?? I also got a pretty good scholarship yay yay yay!! Go Friars",
+      "I currently have a 3.9 here and am also not feeling challenged"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Drug Safety:** Seven students overdosed in one incident; suspects criminally charged",
+      "**Academic Rigor:** At least one enrolled student with 3.9 GPA reports feeling unchallenged",
+      "**Retention Risk:** One current student actively exploring transfer due to girlfriend and fit concerns"
+    ],
+    "key_quotes": [
+      "Suspects allegedly linked to overdoses of 7 Providence College students appear in court",
+      "I currently have a 3.9 here and am also not feeling challenged",
+      "I'm considering transferring schools to somewhere closer to her"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors College sometimes offered automatically — worth asking admissions about",
+      "Merit scholarships can be substantial even without applying specifically for them",
+      "Providence city food and arts scene rivals much larger cities per residents"
+    ],
+    "key_quotes": [
+      "I didn't even apply to the honors program and they put me in there",
+      "I got a 38k per year merit scholarship",
+      "Its restaurant culture is one of the best in the country. Proud to live in Rhode Island"
+    ],
+    "score": 7
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Apartment-style dorms offer private rooms with suite-mates",
+      "Incoming students ask basic questions about dorm setup online",
+      "Parents traveling from out-of-state (Texas) can't find dorm tour content"
+    ],
+    "key_quotes": [
+      "So there's suite mates instead of roommates like you have your room to yourself but there's other people living in the same suite??",
+      "Do you have any freshman dorm room tours? My son is going for the fall all the way from TX",
+      "Im coming to Smith this fall and im trynna see how high the ceilings are in these dorms"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Campus energy described as fun and high-vibe by current students",
+      "HBCU culture and community is the main draw for attendees",
+      "People you meet and hang with described as 'vibes'"
+    ],
+    "key_quotes": [
+      "Your energy is fire and the people you chill with is vibes!",
+      "I wish I could have experienced a HBCU!",
+      "They talkin shit in the comments but u not bad... Keep ya head up baby girl"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining feedback found in available data",
+      "General HBCU dining described elsewhere as inconsistent quality",
+      "No student complaints or praise about JCSU food specifically"
+    ],
+    "key_quotes": [
+      "sometimes the food was good but not all the time (general HBCU comment)",
+      "No JCSU-specific dining quotes available in source data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student mentions fear about being an older freshman at 22",
+      "Anxiety about fitting in socially is present among incoming students",
+      "No dedicated mental health support resources mentioned by students"
+    ],
+    "key_quotes": [
+      "I'm coming in the spring semester and I'm scared imma be a older freshman I'll be 22 and I don't know where to start",
+      "No JCSU-specific mental health support quotes found in source data"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "JCSU listed as a school offering full-ride potential for NC students",
+      "General HBCU funding concerns apply; aid packages can be thin",
+      "No specific JCSU financial aid complaints or praise in data"
+    ],
+    "key_quotes": [
+      "HBCUs don't have that much money. They can't afford to be nearly as generous with financial aid as they would like",
+      "North Carolina is noted for offering seventeen full rides statewide (JCSU included in context)"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "JCSU appears on liberal arts college lists in major city (Charlotte)",
+      "No specific professor praise or academic program details from students",
+      "Prospective students ask about majors but get no detailed JCSU responses"
+    ],
+    "key_quotes": [
+      "Johnson C. Smith University listed among liberal arts colleges in major cities",
+      "North Carolina has many HBCUs - NC A&T, NC Central Univ, Johnson C Smith Univ... (listed as option, not praised)",
+      "No JCSU-specific academic quality quotes found in source data"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "No direct JCSU admin complaints surfaced, but HBCU admin issues are common theme",
+      "General HBCU admin problems (rudeness, lost documents) noted across data",
+      "Students at other HBCUs report difficulty reaching staff by phone"
+    ],
+    "key_quotes": [
+      "trying to get anyone on the phone has been a challenge (general HBCU comment)",
+      "A good friend who went to Howard often complained about the administration (pattern across HBCUs)",
+      "No JCSU-specific administration quotes found in source data"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Charlotte, NC — a major city with strong job market",
+      "Charlotte location is a genuine advantage over rural HBCU competitors",
+      "Campus listed favorably among urban liberal arts colleges"
+    ],
+    "key_quotes": [
+      "Johnson C. Smith University (Charlotte, North Carolina) listed among liberal arts colleges in major cities",
+      "Charlotte noted as one of North Carolina's metropolitan areas with opportunity",
+      "No negative location comments found in source data"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No JCSU-specific employer recruiting or alumni outcome data in source",
+      "General HBCU alumni network seen as valuable but varies by school prestige",
+      "Charlotte location provides proximity to finance and tech employers"
+    ],
+    "key_quotes": [
+      "HBCU alumni are thriving more than Black grads of other schools, study shows",
+      "As an HBCU graduate you have to utilize the network (general HBCU advice)",
+      "No JCSU-specific career outcome quotes found in source data"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "JCSU mentioned as option for full-ride scholarships in North Carolina",
+      "Liberal arts HBCU in a major city is rare — strong location value",
+      "No specific cost complaints or praise tied directly to JCSU"
+    ],
+    "key_quotes": [
+      "Costs are significantly lower than other colleges (general HBCU comment)",
+      "Johnson C. Smith University noted in context of NC full-ride scholarship availability",
+      "No JCSU-specific value complaints found in source data"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "HBCU community culture is the top reason students choose JCSU",
+      "Student content shows fun, positive energy during finals week",
+      "Incoming students are excited but nervous — low baseline info available"
+    ],
+    "key_quotes": [
+      "I loved this... Your energy is fire and the people you chill with is vibes!",
+      "I just got accepted in Johnson C. Smith University and Benedict College",
+      "Im coming to Smith this fall (unprompted excitement from incoming student)"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Transparency: almost no detailed student reviews exist online for JCSU",
+      "Reputation: JCSU rarely mentioned when top HBCUs are discussed by students",
+      "Information gap: parents and students can't find basic dorm or campus info"
+    ],
+    "key_quotes": [
+      "Do you have any freshman dorm room tours? My son is going for the fall all the way from TX — nothing available",
+      "They talkin shit in the comments (suggests hostile online reception for JCSU student creators)",
+      "JCSU absent from virtually all HBCU comparison discussions in r/ApplyingToCollege"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "One of very few HBCUs located inside a major metro area (Charlotte)",
+      "Apartment-style housing offers more privacy than typical dorm setups",
+      "North Carolina HBCU ecosystem means transfer and peer network options nearby"
+    ],
+    "key_quotes": [
+      "Johnson C. Smith University (Charlotte, North Carolina) — listed among top urban liberal arts colleges",
+      "So there's suite mates instead of roommates like you have your room to yourself (apartment-style living confirmed)",
+      "North Carolina has many HBCUs... Johnson C Smith Univ (strong regional HBCU network context)"
+    ],
+    "score": 7
+  }
+}

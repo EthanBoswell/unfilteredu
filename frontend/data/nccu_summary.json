@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm quality is improving but still 'much to be desired'",
+      "Some halls are clean and spacious; others lag behind",
+      "YouTube viewers actively ask which halls to avoid or pick"
+    ],
+    "key_quotes": [
+      "Much to be desired but NCCU is becoming better",
+      "What residence hall was this? It seemed really clean and spacious.",
+      "What is the name of the hall that your living in, I'm trying to figure out which spots are the best"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus culture is described as intensely Black and community-driven",
+      "Durham location gives students access to the broader Triangle area",
+      "High female-to-male ratio (17:1) shapes social dynamics significantly"
+    ],
+    "key_quotes": [
+      "The culture is BLACK BLACK. They have a high female to male ratio, 17 to 1.",
+      "NCCU is in Durham, so there is plenty to do in the Triangle area.",
+      "Central is a great place with one of the best law schools in the country and is a great community."
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "No specific NCCU dining data available from sources",
+      "NC State nearby has noted Reddit complaints about Clark dining hall",
+      "Food quality at HBCUs generally described as inconsistent across the board"
+    ],
+    "key_quotes": [
+      "It seems like everybody hates the food at Clark dining hall",
+      "Sometimes the food was good but not all the time",
+      "There was never a dull moment"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support data found for NCCU specifically",
+      "General HBCU data shows students struggling with depression and no help-seeking",
+      "Academic suspension appeals with no documentation support appear difficult to navigate"
+    ],
+    "key_quotes": [
+      "In march i got really depressed. however i never asked for help nor did i take it upon myself to seek professional help because i didn't necessarily know how to do so",
+      "lemme tell u girl... ur strong like really strong",
+      "I feel really scared and worried. I am worried that I am not ready to be by myself yet"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cheatham White scholarship is described as the best on campus",
+      "NCCU missed out on MacKenzie Scott's $700M HBCU donation — reason unknown",
+      "HBCUs broadly underfunded; financial aid packages often disappointing"
+    ],
+    "key_quotes": [
+      "NCCU missed out on the money... I was bummed to hear NCCU missing out",
+      "Relish in the opportunity, this is the absolute BEST scholarship on campus [Cheatham White]",
+      "If only most HBCUs weren't underfunded — the financial aid at top schools is just unmatched"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Law school specifically called out as one of the best in the country",
+      "Transfer student noted professors were good; admin was harder to navigate",
+      "Biology summer courses run intensive daily lab schedules — confirm before enrolling"
+    ],
+    "key_quotes": [
+      "Central is a great place with one of the best law schools in the country",
+      "She liked her profs though. She was a bio major.",
+      "Is that truly EVERYDAY? [referring to Biology 1610 summer lab days M-Th]"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Registration portal access failures reported for incoming students — takes weeks to resolve",
+      "Phone support is understaffed; long hold times with no callback option working",
+      "Tech issues with portal login have blocked students from registering entirely"
+    ],
+    "key_quotes": [
+      "I've emailed twice and was told there was a tech issue and they would get back to me. I waited for an hour for help on the phone and they just told me to call back.",
+      "Tried that Friday, waited 25 minutes but still had 10 callers in queue",
+      "The prompts to leave a message to get a call back didn't work"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Durham location offers Triangle area access — Raleigh, Chapel Hill nearby",
+      "Campus is improving under new chancellor per current students",
+      "YouTube tour confirms campus has visible HBCU pride and Eagle identity"
+    ],
+    "key_quotes": [
+      "NCCU is in Durham, so there is plenty to do in the Triangle area.",
+      "The new chancellor is making major moves, too.",
+      "Young man, your voice and information will allow you to soar like an eagle, indeed. I am a double Eagle!"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "HBCU alumni broadly shown to thrive more than Black grads at other schools",
+      "HBCU network praised as a career accelerator if students actively use it",
+      "Employers generally do not look down on NCCU degree per HBCU grad accounts"
+    ],
+    "key_quotes": [
+      "No one is going to look down at your HBCU. Many of these people in the hiring process don't even know what they are.",
+      "As an HBCU grad you have to utilize the network. There are plenty ways to start looking for the career you want.",
+      "HBCU Alumni Are Thriving More Than Black Grads Of Other Schools, Study Shows"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "NCCU missed MacKenzie Scott funding that peer NC HBCUs received — funding gap real",
+      "Costs are lower than comparable PWIs but financial aid packages often thin",
+      "Cheatham White full scholarship exists but highly competitive"
+    ],
+    "key_quotes": [
+      "I was denied because of my low GPA from community college classes",
+      "Fact is, the HBCUs don't have that much money. They can't afford to be nearly as generous with financial aid.",
+      "I visited the school last year in April, I loved everything about it... accepted myself within seconds"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong HBCU identity and Black community feel is the core appeal",
+      "Students who visit often fall in love immediately with the culture",
+      "Alumni loyalty is high; 'double Eagles' and staff pride visible online"
+    ],
+    "key_quotes": [
+      "I loved how many opportunities there were to find your own community and space. It felt like the true HBCU experience I was looking for.",
+      "OMG!!! I love this!! I'm so proud to be an Eagle and work at NCCU!! This is my school. We rock!",
+      "The culture is BLACK BLACK."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Portal failures block registration for weeks with no working callback system",
+      "**Funding:** NCCU excluded from major MacKenzie Scott HBCU grants with no public explanation",
+      "**Gender ratio:** 17:1 female-to-male ratio may significantly affect social and dating life"
+    ],
+    "key_quotes": [
+      "I've emailed twice and was told there was a tech issue... waited for an hour on the phone and they just told me to call back",
+      "I was bummed to hear NCCU missing out on the money... other NC schools like A&T and Winston-Salem State getting money",
+      "They have a high female to male ratio, 17 to 1."
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Cheatham White scholarship is exceptionally prestigious — insiders call it the best on campus",
+      "Law school reputation punches significantly above NCCU's overall ranking",
+      "Durham's Triangle location gives access to Research Triangle Park jobs and internships"
+    ],
+    "key_quotes": [
+      "Relish in the opportunity, this is the absolute BEST scholarship on campus [Cheatham White]",
+      "Central is a great place with one of the best law schools in the country",
+      "NCCU is in Durham, so there is plenty to do in the Triangle area."
+    ],
+    "score": 7
+  }
+}

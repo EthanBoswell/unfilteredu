@@ -1,0 +1,161 @@
+{
+  "housing": {
+    "key_points": [
+      "International students must pay $13K room and board upfront",
+      "On-campus jobs available but capped at 20 hrs/week — unlikely to cover costs",
+      "No specific praise or complaints about dorm quality found"
+    ],
+    "key_quotes": [
+      "I am required to pay 13K for R&B, I have a scholarship which waives tuition",
+      "You can work only after you have arrived on campus and 20 hrs weekly max"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "XULA's small size is 'a blessing and a curse' — easy to adjust, easy to feel trapped",
+      "92% Black undergraduate population at XULA creates a tight-knit but insular community",
+      "Xavier Cincinnati has regional Midwest recognition but limited national social buzz"
+    ],
+    "key_quotes": [
+      "The school's small size has become a blessing and a curse for me",
+      "Being a minority in any group is a pretty lonely existence even if you aren't ostracized"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No student reviews mention dining halls at either Xavier institution",
+      "No complaints or praise surfaced in any Reddit or YouTube data",
+      "Absence of data suggests dining is neither a selling point nor a crisis"
+    ],
+    "key_quotes": [
+      "No direct quotes available on dining from either source"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student reports Xavier Cincinnati mismanaged their medications during a mental health crisis",
+      "Administration handling of medical situations led to academic collapse and years-long dropout",
+      "No evidence of robust mental health support systems mentioned by any student"
+    ],
+    "key_quotes": [
+      "I tried to kill myself due to them messing with my medications and not knowing I had a brain tumor",
+      "My grades second semester went downhill because of said medication cocktail and I decided to take a year off"
+    ],
+    "score": 3
+  },
+  "financial_aid": {
+    "key_points": [
+      "XULA's Community-Engaged Fellowship replaces existing merit aid — could be a downgrade",
+      "Xavier Cincinnati offers merit scholarships that outcompete even NYU offers",
+      "XULA students on tight budgets warned: on-campus jobs alone cannot realistically cover room and board"
+    ],
+    "key_quotes": [
+      "The scholarship awards 30k every year, which replaces your original merit scholarship. Doesn't seem worth it to me with the 10 hours",
+      "Xavier gave me a merit scholarship while NYU didn't give me a single dime and expects me to pay 90k per year"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "XULA is the #2 producer of Black medical school applicants nationally — pre-med reputation is real",
+      "XULA's Biomedical Honors Corps and early assurance with Tulane Medical School are standout programs",
+      "Xavier Cincinnati is respected regionally in Midwest but alumni question national employer recognition"
+    ],
+    "key_quotes": [
+      "Xula is a much bigger school for pre-med. Three times as many med school applicants, even though it is a much smaller school",
+      "Xavier University has an early assurance program with Tulane's medical school",
+      "Xavier seems to be respected regionally in the Midwest. Is it respected nationally by employers as well?"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "XULA freshman cites 'glaring problems with school systems' as reason to transfer",
+      "Xavier Cincinnati administration has a documented case of medication mismanagement causing serious harm",
+      "Scholarship details are opaque — students can't find fellowship amounts on the official website"
+    ],
+    "key_quotes": [
+      "A lot of problems with the schools systems and general campus itself have become glaring for me",
+      "It does not specify how much and I can't find it anywhere",
+      "I tried to kill myself due to them messing with my medications"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "XULA is in New Orleans — a major cultural draw but a city with real safety considerations",
+      "Xavier Cincinnati sits in a mid-sized Midwest city with solid regional connections",
+      "Small campus size at XULA means limited anonymity and fewer on-campus resources"
+    ],
+    "key_quotes": [
+      "A Catholic institute in my second-favorite city in the entire world of New Orleans",
+      "The school's small size has become a blessing and a curse for me"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "XULA pre-med track has strong med school placement — data backs it up nationally",
+      "Xavier Cincinnati alumni described as 'impressive humans' but national employer reach is unconfirmed",
+      "No concrete salary or placement statistics surfaced from student accounts for either school"
+    ],
+    "key_quotes": [
+      "Xula is a much bigger school for pre-med. Second largest source of black med school applicants in the country",
+      "The people I have met from Xavier seemed like impressive humans and they loved Xavier"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "XULA can be cost-competitive but room and board costs are a serious burden without family support",
+      "Xavier Cincinnati merit scholarships are aggressive — one student chose it over NYU for financial reasons",
+      "For pre-med, multiple Reddit users say go wherever is cheapest — prestige matters less than GPA"
+    ],
+    "key_quotes": [
+      "It's premed — go wherever it's cheapest",
+      "THE QUALITY OF PRE-MED CLASSES IS GOING TO BE ESSENTIALLY THE SAME WHETHER YOU GO TO COMMUNITY COLLEGE OR A PRESTIGIOUS UNIVERSITY"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "XULA has a strong mission-driven community identity centered on Black excellence and pre-med success",
+      "Xavier Cincinnati has a loyal but quieter fanbase — more Jesuit academic culture than party school",
+      "Both schools attract students who are serious about goals, not social prestige"
+    ],
+    "key_quotes": [
+      "I want to be around my community being a Black woman",
+      "I applied to 19 schools and got accepted to two. Xavier in Cincinnati and NYU Shanghai. Xavier gave me a merit scholarship"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Mental Health: Xavier Cincinnati mismanaged a student's medications during a mental health crisis, contributing to years-long dropout**",
+      "**Administration: XULA freshman cited systemic campus and administrative problems serious enough to trigger transfer plans within one year**",
+      "**Financial Transparency: Fellowship scholarship details hidden from applicants; amount not listed anywhere publicly**"
+    ],
+    "key_quotes": [
+      "I tried to kill myself due to them messing with my medications and not knowing I had a brain tumor",
+      "A lot of problems with the schools systems and general campus itself have become glaring for me",
+      "It does not specify how much and I can't find it anywhere"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "XULA's early assurance pipeline to Tulane Medical School is rarely advertised but highly valuable",
+      "Xavier Cincinnati waives its application fee entirely — no common app payment required",
+      "XULA's Biomedical Honors Corps offers structured pre-med support unavailable at larger state schools"
+    ],
+    "key_quotes": [
+      "Xavier University has an early assurance program with Tulane's medical school",
+      "Xavier doesn't charge an application fee — you are fine",
+      "He was also accepted into XULA's Biomedical Honors Corps"
+    ],
+    "score": 7
+  }
+}

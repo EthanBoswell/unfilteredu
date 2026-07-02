@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Daley Hall dorms documented via tour videos — basic but livable",
+      "Alumni recommend visiting the suites for a social housing upgrade",
+      "Incoming students publicly ask if dorms are clean before committing"
+    ],
+    "key_quotes": [
+      "I personally will be at the suites :)",
+      "are the dorms clean/comfy? — prospective student asking before accepting offer",
+      "I loved your video, I'm interested in Coppin but I'm scared to apply"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Homecoming is the standout social event — alumni still return for it",
+      "Campus involvement heavily encouraged; experience depends on your effort",
+      "Alumni consensus: college here is entirely what you make of it"
+    ],
+    "key_quotes": [
+      "College is what you make it. Get active on campus, get to know people.",
+      "Homecoming is next month go to all the events!!",
+      "it definitely looks fun"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Food quality is a known complaint — alumni and students agree",
+      "Cafeteria operates on tight budget, limiting variety and quality",
+      "Hidden seasoning wall in the back by the cereal — a small plus"
+    ],
+    "key_quotes": [
+      "She right about the food lol.",
+      "they on a strict budget and have to consider other ppl food allergies",
+      "the cafe has a seasoning wall all the way in the back by the cereal"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mentions of counseling or mental health services in the data",
+      "Prospective students express fear and anxiety about applying and attending",
+      "Zero student accounts of support resources being available or accessible"
+    ],
+    "key_quotes": [
+      "I'm scared to apply",
+      "my parents are worried about the crime rates on and off campus",
+      "it gives me a lot of insight to this place"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "No student accounts of financial aid experience specific to Coppin",
+      "Prospective students with financial concerns asking questions before enrolling",
+      "HBCU context suggests many students rely on grants and federal aid"
+    ],
+    "key_quotes": [
+      "i got accepted here!",
+      "are the dorms clean/comfy? — asked by student still deciding whether to accept offer",
+      "I'm scared to apply"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Prospective students directly ask about academic quality before enrolling",
+      "No current students volunteered strong praise for coursework or faculty",
+      "Alumni frame success as self-driven, not institution-driven"
+    ],
+    "key_quotes": [
+      "how good are the academics? — prospective student's explicit concern",
+      "are the teachers nice?",
+      "Be Scholarly and HAVE FUNNNNNNN!!!!"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "No student complaints or praise about admin offices or registration",
+      "Admissions process opaque enough that prospects fear applying at all",
+      "NSO leadership appears active and welcoming based on comment evidence"
+    ],
+    "key_quotes": [
+      "can you do a video on the admissions process — prospective student requesting basic info",
+      "Nso leader here, welcome to the nest!",
+      "I'm scared to apply"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Safety is the top concern raised by prospective students and parents",
+      "Campus is in Baltimore — off-campus crime rates are a real worry",
+      "No students defended the neighborhood or called safety concerns overblown"
+    ],
+    "key_quotes": [
+      "what is the safety like there? my parents are worried about the crime rates on and off campus",
+      "Visit other schools!!",
+      "I loved your video, I'm interested in Coppin but I'm scared to apply"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Zero mentions of career services, internships, or job placement at Coppin",
+      "No alumni discussed career trajectories or employer connections post-graduation",
+      "Alumni engagement stops at campus nostalgia, not professional outcomes"
+    ],
+    "key_quotes": [
+      "College is what you make it.",
+      "I graduated in 2017! — alumni comment focused entirely on social life",
+      "Be Scholarly and HAVE FUNNNNNNN!!!!"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "No students explicitly weighed cost vs. outcome for Coppin specifically",
+      "Dining, safety concerns, and academic uncertainty reduce perceived value",
+      "HBCU community and homecoming culture offer non-monetary value"
+    ],
+    "key_quotes": [
+      "she right about the food lol — confirms a consistent shortcoming for the price",
+      "my parents are worried about the crime rates on and off campus",
+      "College is what you make it"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Tight-knit HBCU community with strong school spirit and homecoming culture",
+      "Current students look happy on camera; deeper concerns emerge in comments",
+      "Outsiders and prospects are more worried than enrolled students appear to be"
+    ],
+    "key_quotes": [
+      "Ayeee Coppin!!! I graduated in 2017! 💙💛",
+      "it definitely looks fun",
+      "I'm interested in Coppin but I'm scared to apply"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety**: Parents and prospects cite off-campus Baltimore crime as top concern",
+      "**Dining**: Acknowledged budget constraints produce consistent food quality complaints",
+      "**Transparency**: Basic admissions and campus info so unclear prospects fear applying"
+    ],
+    "key_quotes": [
+      "what is the safety like there? my parents are worried about the crime rates on and off campus",
+      "she right about the food lol — they on a strict budget",
+      "can you do a video on the admissions process"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Homecoming is a genuine cultural highlight worth attending even as alumni",
+      "NSO leaders are engaged and actively welcoming incoming freshmen",
+      "Small campus means it's easier to get involved and be known"
+    ],
+    "key_quotes": [
+      "Homecoming is next month go to all the events!! I personally will be at the suites :)",
+      "Nso leader here, welcome to the nest!",
+      "Get active on campus, get to know people — alumni advice that implies it's actually possible here"
+    ],
+    "score": 7
+  }
+}

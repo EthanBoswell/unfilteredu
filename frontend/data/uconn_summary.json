@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Garrigus dorm furniture replaced with tiny, barely-functional desks",
+      "The Standard off-campus housing has persistent, unfixed wifi issues",
+      "Housing waitlist forces seniors into expensive off-campus leases with no backup"
+    ],
+    "key_quotes": [
+      "'I lived in Garrigus last year and found out they replaced the furniture with this shitty furniture... I was pissed.'",
+      "'Our wifi is still bunz even though they said they fixed it... 1350 a month'",
+      "'Rescinding guaranteed housing screwed me over... I got a lease at Knollwood because I might not have been taken off the waitlist until August'"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Commuters and transfers report severe isolation; friend groups form in dorms",
+      "Campus vibe described as 'apathetic' and 'empty' by multiple students",
+      "Basketball culture is dominant; everything else feels secondary"
+    ],
+    "key_quotes": [
+      "'I can't help but feel like this place is so apathetic if that makes sense. Like, there's not much life here.'",
+      "'Transferring as a junior kinda cooked me in making close relationships, it seems like everyone already has their groups'",
+      "'I'm a freshman here and have no one to talk to... I'm ready to drop out already because of how lonely I am here'"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Dining hall hygiene incidents reported, including unsanitary food handling",
+      "Food variety complaints surface regularly; students post about missing specific items",
+      "Campus has beloved off-campus spots that students mourn when they close"
+    ],
+    "key_quotes": [
+      "'I saw a supervisor scratching his balls for like 10 seconds and immediately start to handle silverware'",
+      "'There's no broccoli at south, I keep needing to eat cauliflower'",
+      "'that place and their garlic parm tenders carried me through my degree' (on Wings Over closing)"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Isolation is a recurring theme, especially for commuters and transfers",
+      "'Windy town in the middle of nowhere' contributes to depression for some students",
+      "University offers therapy dogs during finals, but structural loneliness persists"
+    ],
+    "key_quotes": [
+      "'Being in this windy ass town in the middle of nowhere is really weighing on me'",
+      "'College has made me kinda depressed... something just feels so off about being here'",
+      "'Ngl I'm lonely at UConn... I'm ready to drop out already because of how lonely I am'"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "UConn does not meet 100% of demonstrated financial need for most students",
+      "Out-of-state costs hit $37-40k/year; OOS students question the value",
+      "Merit scholarships exist but are primarily reserved for Connecticut residents"
+    ],
+    "key_quotes": [
+      "'My FAFSA is -1500 and I was expecting 45k in aid but I have to pay 39,000 dollars, that's 7k more than my guardian makes in a year'",
+      "'UConn be like welcome to the Husky nation! Now you have the opportunity to go into debt for 40 years and take out 150k in student loans'",
+      "'Why would the guy from MA pay 37K to go to UConn. Just go to UMass as a state resident and pay a fraction of that.'"
+    ],
+    "score": 3
+  },
+  "academics": {
+    "key_points": [
+      "Engineering and civil engineering programs have strong job placement reputations",
+      "Classes are genuinely rigorous; workload surprises students expecting an easy ride",
+      "Grade data is now publicly available to check professor difficulty before enrolling"
+    ],
+    "key_quotes": [
+      "'No one told me this but if you're a civil engineer major you will very likely easily find a job after graduating'",
+      "'The classes are not easy. I made a schedule of readings, discussions, and papers.'",
+      "'Worst part was all the papers, 8 page, 16 page and 32 page papers and for some reason 1 1/2 space instead of double space'"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Administration removed trash cans from offices campus-wide to cut costs",
+      "UConn deleted alumni email accounts without warning, breaking professional networks",
+      "Title IX handling drew public callout from a student, with community support"
+    ],
+    "key_quotes": [
+      "'UConn is cutting costs by removing trashcans from all offices in buildings. That's how our budgeting is going.'",
+      "'They deleted my entire account including OneDrive... all my professional communications were done with my uconn.edu email'",
+      "'UConn doesn't give a fuck about you... they deleted even that. Without telling us.'"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Storrs is genuinely isolated; students need a car to access anything off-campus",
+      "Weather is brutal: cold, windy, and punishing for a large walking campus",
+      "Campus is architecturally growing but the surrounding town remains underdeveloped"
+    ],
+    "key_quotes": [
+      "'There is actually nothing to do except workout... one of the guys had to bring the car from home just so we can get out of this town'",
+      "'The wind and the cold are terrible. And it's a big campus, so it can be a long cold walk to class.'",
+      "'I came here and it was kind of a culture shock, there is actually nothing to do'"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Civil engineering grads report strong, near-guaranteed job placement",
+      "Business majors struggle more; internship timelines are competitive and stressful",
+      "One junior business student documented a successful internship search starting mid-June"
+    ],
+    "key_quotes": [
+      "'All my civil friends got jobs right out of undergrad... meanwhile I'm a business major and can't get a job since graduating'",
+      "'I'm a Junior business student and started applying in mid-June, just got my offer today'",
+      "UConn graduates reportedly earn about $15k less starting salary than comparable private school peers"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state with merit aid is genuinely good value; without aid it's questionable",
+      "Out-of-state cost rivals private schools without the corresponding prestige bump",
+      "Tuition has risen sharply; one post mentions a proposed 30% in-state hike"
+    ],
+    "key_quotes": [
+      "'I go to UConn and they are going to be raising tuition for in-state residents by 30%, I'm really not sure if it's worth it'",
+      "'I can officially afford to go to one of the best public universities in the country' (after financial aid appeal succeeded)",
+      "'UConn will cost me 26k/year as I got no scholarship money... UVM will cost me 43k'"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Basketball dominates campus identity; non-sports students may feel left out",
+      "Strong regional loyalty from Connecticut students; others feel it's a fallback",
+      "Quirky, self-aware community with real school spirit beneath the complaints"
+    ],
+    "key_quotes": [
+      "'uconn is NOT a real place and I will not be gaslit into believing it is... you drive there and it's just trees, more trees, a cow maybe, then suddenly a NATIONAL CHAMPIONSHIP BANNER materializes out of the fog'",
+      "'Storrs UConn campus is like its own world... enjoy the process, enjoy the struggle'",
+      "'I really want to go (like really really bad) but it's so much, how are they doing this'"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Sexual assault: path between campus and Celeron apartments nicknamed 'The Rape Trail' for decades",
+      "Administration misconduct: UConn wrongly arrested a professor, then settled after cover-up exposed",
+      "Financial aid bait: net price calculator predictions routinely mismatch actual aid offers"
+    ],
+    "key_quotes": [
+      "'Celeron Path... known as the Rape Trail for decades' — confirmed in Daily Campus reporting",
+      "'UConn got professor Sherry Zane arrested on criminal larceny... the UConn investigator's report was a cover-up of UConn's illegal compensation practices'",
+      "'I was expecting UCONN to reward me at least 45,000 in financial aid according to the calculator but alas, I have to pay 39,000 dollars'"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Underground steam tunnel system keeps power on during major storms when CT loses electricity",
+      "UConn Botanical Conservatory has the largest witch's broom dwarf conifer collection in North America",
+      "Honors program is selective and genuinely opens doors; worth pursuing if eligible"
+    ],
+    "key_quotes": [
+      "'This steam system is why I never lost power in my dorm from 2011-14 despite major weather events causing weeklong outages across the state'",
+      "'The UConn Botanical Conservatory's Corpse Flower is opening this evening... the first at UConn in over ten years'",
+      "'I got my BA and MA at UConn in 2022 and 2023 and I just got into my first PhD program at Kent State'"
+    ],
+    "score": 7
+  }
+}

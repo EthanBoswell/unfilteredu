@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "Almost no student data available specifically about UMES housing",
+      "Campus appears small with limited documented student commentary",
+      "Nostalgic alumni references suggest aging facilities on campus"
+    ],
+    "key_quotes": [
+      "the main cafeteria was where waters hall is",
+      "I was thinking about going here... might not go to college at all"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Very little social scene documented by current students online",
+      "Campus appears isolated on Maryland's Eastern Shore region",
+      "Prospective students worried about making friends and connections"
+    ],
+    "key_quotes": [
+      "I just wanna make new friends",
+      "North Dakota seemed a bit way too cold and lonely for me as an international student"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No meaningful student commentary found about UMES dining",
+      "Historical references suggest dining hall has moved or changed buildings",
+      "Cannot assess dining quality from available data"
+    ],
+    "key_quotes": [
+      "back in the day the main cafeteria was where Waters Hall is",
+      "the memories of this place"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "No student commentary found about UMES mental health resources",
+      "Isolation of Eastern Shore location could impact student wellbeing",
+      "Prospective students expressing anxiety and indecision about attending"
+    ],
+    "key_quotes": [
+      "it's been stressing me out so bad",
+      "might not go to college at all"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Students actively seeking fee waivers, suggesting cost is a barrier",
+      "Students asking for access code discounts indicating financial strain",
+      "UMES listed among schools by cost-conscious pre-med Maryland students"
+    ],
+    "key_quotes": [
+      "pls help!! [seeking fee waiver code for UMES]",
+      "Some schools for me are just too expensive, far away, or the area is bad"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "No UMES-specific academic quality data found in sources",
+      "Pre-med students considering UMES alongside stronger Maryland schools",
+      "UMES has a documented geosciences summer program for high schoolers"
+    ],
+    "key_quotes": [
+      "my majors consist of biology, nursing, bioinformatics and bio health",
+      "Does anyone know any summer programs for graduating seniors like the one above"
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "No direct student complaints or praise about UMES administration found",
+      "Fee waiver requests going unanswered suggests limited student support",
+      "Very low Reddit engagement signals weak online student community"
+    ],
+    "key_quotes": [
+      "pls help!! [no responses received on fee waiver post]",
+      "Fee waiver code for fall 2024 at UMES [1 upvote, no replies]"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Eastern Shore location described implicitly as remote and isolated",
+      "Campus has historical buildings with aging infrastructure implied",
+      "Little documented student excitement about surrounding area or town"
+    ],
+    "key_quotes": [
+      "the memories of this place",
+      "we moved so... might not go to college at all"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No career outcome data or alumni success stories found in sources",
+      "Pre-med students choosing UMES as a backup among stronger options",
+      "No mention of internship pipelines, job placement, or employer recruitment"
+    ],
+    "key_quotes": [
+      "I'm on a pre-med track... I've been accepted into Hampton, Howard... UMES, Towson",
+      "No UMES alumni career commentary found in dataset"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Students view UMES as a budget fallback, not a first choice",
+      "Cost-conscious students still weighing cheaper or better-funded alternatives",
+      "No data showing strong ROI or scholarship generosity at UMES"
+    ],
+    "key_quotes": [
+      "Some schools for me are just too expensive, far away, or the area is bad",
+      "I only need to pay about 10K a year [said about a different school entirely]"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "UMES has almost no active online student community or discourse",
+      "Students who mention it treat it as a safety or fallback school",
+      "Alumni have warm nostalgia but current students are largely silent"
+    ],
+    "key_quotes": [
+      "Fa sho a lot of history right there where you standing at, the memories",
+      "I was thinking about going here... might not go to college at all"
+    ],
+    "score": 4
+  },
+  "red_flags": {
+    "key_points": [
+      "**Visibility**: Almost zero active current student voices online about UMES",
+      "**Perception**: Consistently listed as a backup among lower-priority schools",
+      "**Engagement**: Fee waiver post received 1 upvote and zero helpful replies"
+    ],
+    "key_quotes": [
+      "pls help!! [no community response]",
+      "might not go to college at all [after considering UMES]"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "UMES has a real geosciences summer research program worth exploring",
+      "Small campus size may mean smaller classes and closer faculty access",
+      "HBCU community and culture offers unique collegiate experience"
+    ],
+    "key_quotes": [
+      "Does anyone know any summer programs... like the one above [UMES Geosciences]",
+      "Fa sho a lot of history right there... the memories of this place"
+    ],
+    "score": 5
+  }
+}
