@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import Wordmark from "./Wordmark";
 import SchoolSearchOverlay from "./SchoolSearchOverlay";
@@ -14,6 +14,18 @@ interface NavProps {
 export default function Nav({ schoolName, schoolColor, schoolTextColor = "#ffffff" }: NavProps) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!dropdownOpen) return;
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [dropdownOpen]);
 
   return (
     <nav
@@ -26,11 +38,7 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
 
       <div className="flex items-center gap-5">
         {!schoolName && (
-          <div
-            className="relative"
-            onMouseEnter={() => setDropdownOpen(true)}
-            onMouseLeave={() => setDropdownOpen(false)}
-          >
+          <div ref={dropdownRef} className="relative">
             <button
               type="button"
               onClick={() => setDropdownOpen((o) => !o)}
