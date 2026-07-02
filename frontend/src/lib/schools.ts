@@ -2404,7 +2404,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bowlinggreen",
     name: "Bowling Green State University",
     location: "Bowling Green, OH",
-    colors: { primary: "#4F2D7F", secondary: "#FF6600" },
+    colors: { primary: "#FD5000", secondary: "#4F2C1D" },
     radioStation: "WBGU 88.1 FM",
     stats: [
       { icon: "📋", label: "11K+ Applicants" },
