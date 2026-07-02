@@ -109,6 +109,7 @@ SCHOOLS = [
     {"name": "Fisk University", "slug": "fisk", "subreddits": ["r/FiskUniversity", "r/HBCU"], "keywords": ["Fisk University", "Bulldogs", "Nashville HBCU"]},
     {"name": "Xavier University Louisiana", "slug": "xula", "subreddits": ["r/XavierUniversity", "r/HBCU"], "keywords": ["Xavier University Louisiana", "Gold Rush", "New Orleans HBCU"]},
     {"name": "Delaware State", "slug": "delawarestate", "subreddits": ["r/DelawareState", "r/HBCU"], "keywords": ["Delaware State University", "Hornets", "Dover HBCU"]},
+    {"name": "Johnson C. Smith University", "slug": "jcsu", "subreddits": ["r/JCSU"], "keywords": ["Johnson C. Smith University", "JCSU", "Golden Bulls", "Charlotte North Carolina", "HBCU"]},
     # Elite privates
     {"name": "Harvard University", "slug": "harvard", "subreddits": ["r/Harvard"], "keywords": ["Harvard University", "Crimson", "Cambridge Massachusetts"]},
     {"name": "Yale University", "slug": "yale", "subreddits": ["r/yale"], "keywords": ["Yale University", "Bulldogs", "New Haven Connecticut"]},
@@ -203,6 +204,25 @@ SCHOOLS = [
     {"name": "Sam Houston State University", "slug": "sam-houston", "subreddits": ["r/SamHouston"], "keywords": ["Sam Houston", "Bearkats", "SHSU", "Huntsville Texas"]},
     {"name": "University of Texas at El Paso", "slug": "utep", "subreddits": ["r/UTEP"], "keywords": ["UTEP", "Texas El Paso", "Miners", "El Paso Texas"]},
     {"name": "Western Kentucky University", "slug": "wku", "subreddits": ["r/WKU"], "keywords": ["WKU", "Western Kentucky", "Hilltoppers", "Bowling Green Kentucky"]},
+    # Big East
+    {"name": "Butler University", "slug": "butler", "subreddits": ["r/butler"], "keywords": ["Butler University", "Bulldogs", "Indianapolis Indiana"]},
+    {"name": "University of Connecticut", "slug": "uconn", "subreddits": ["r/UCONN"], "keywords": ["UConn", "University of Connecticut", "Huskies", "Storrs Connecticut"]},
+    {"name": "Creighton University", "slug": "creighton", "subreddits": ["r/Creighton"], "keywords": ["Creighton University", "Bluejays", "Omaha Nebraska"]},
+    {"name": "DePaul University", "slug": "depaul", "subreddits": ["r/DePaul"], "keywords": ["DePaul University", "Blue Demons", "Chicago Illinois"]},
+    {"name": "Marquette University", "slug": "marquette", "subreddits": ["r/Marquette"], "keywords": ["Marquette University", "Golden Eagles", "Milwaukee Wisconsin"]},
+    {"name": "Providence College", "slug": "providence", "subreddits": ["r/ProvidenceCollege"], "keywords": ["Providence College", "Friars", "PC", "Providence Rhode Island"]},
+    {"name": "Seton Hall University", "slug": "seton-hall", "subreddits": ["r/SetonHall"], "keywords": ["Seton Hall University", "Pirates", "South Orange New Jersey"]},
+    {"name": "St. John's University", "slug": "stjohns", "subreddits": ["r/StJohns"], "keywords": ["St. John's University", "Red Storm", "Queens New York"]},
+    {"name": "Villanova University", "slug": "villanova", "subreddits": ["r/Villanova"], "keywords": ["Villanova University", "Wildcats", "Nova", "Villanova Pennsylvania"]},
+    {"name": "Xavier University", "slug": "xavier", "subreddits": ["r/Xavier"], "keywords": ["Xavier University", "Musketeers", "Cincinnati Ohio"]},
+    # MEAC
+    {"name": "Coppin State University", "slug": "coppinstate", "subreddits": ["r/CoppinState"], "keywords": ["Coppin State University", "Eagles", "Baltimore Maryland"]},
+    {"name": "Delaware State University", "slug": "delawarestate", "subreddits": ["r/DelawareState"], "keywords": ["Delaware State University", "Hornets", "DSU", "Dover Delaware"]},
+    {"name": "University of Maryland Eastern Shore", "slug": "umes", "subreddits": ["r/UMES"], "keywords": ["UMES", "University of Maryland Eastern Shore", "Hawks", "Princess Anne Maryland"]},
+    {"name": "Morgan State University", "slug": "morganstate", "subreddits": ["r/MorganState"], "keywords": ["Morgan State University", "Bears", "Baltimore Maryland", "HBCU"]},
+    {"name": "Norfolk State University", "slug": "norfolkstate", "subreddits": ["r/NorfolkState"], "keywords": ["Norfolk State University", "Spartans", "NSU", "Norfolk Virginia", "HBCU"]},
+    {"name": "North Carolina Central University", "slug": "nccu", "subreddits": ["r/NCCU"], "keywords": ["NCCU", "North Carolina Central University", "Eagles", "Durham North Carolina", "HBCU"]},
+    {"name": "South Carolina State University", "slug": "scstate", "subreddits": ["r/SCState"], "keywords": ["South Carolina State University", "Bulldogs", "SC State", "Orangeburg South Carolina", "HBCU"]},
 ]
 
 CATEGORIES = [
