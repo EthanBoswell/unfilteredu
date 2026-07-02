@@ -1204,7 +1204,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "aamu",
     name: "Alabama A&M",
     location: "Normal, AL",
-    colors: { primary: "#4B0082", secondary: "#FFD700" },
+    colors: { primary: "#660000", secondary: "#FFFFFF" },
     radioStation: "WJAB 90.9 FM",
     stats: [
       { icon: "📋", label: "6K+ Applicants" },
@@ -1216,7 +1216,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "alabamastate",
     name: "Alabama State",
     location: "Montgomery, AL",
-    colors: { primary: "#000000", secondary: "#C8A84B" },
+    colors: { primary: "#C99700", secondary: "#000000" },
     radioStation: "WHBB — online",
     stats: [
       { icon: "📋", label: "5K+ Applicants" },
@@ -2200,7 +2200,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "umes",
     name: "University of Maryland Eastern Shore",
     location: "Princess Anne, MD",
-    colors: { primary: "#007A33", secondary: "#FFD700" },
+    colors: { primary: "#862633", secondary: "#888B8D" },
     radioStation: "WESM 91.3 FM",
     stats: [
       { icon: "📋", label: "5K+ Applicants" },
