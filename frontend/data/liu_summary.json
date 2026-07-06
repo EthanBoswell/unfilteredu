@@ -1,0 +1,163 @@
+{
+  "housing": {
+    "key_points": [
+      "No specific dorm reviews found in data",
+      "Brooklyn campus tour was inaccessible/closed during research",
+      "International students ask about accommodation with no clear answers"
+    ],
+    "key_quotes": [
+      "We wanted to visit LIU to send our son there, but it's closed now!",
+      "Looking for accommodation, I am joining in spring semester 2025"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Almost no organic social life content from actual students",
+      "Cohort culture exists but bonded over shared frustration",
+      "Full-ride commuter option means many students never truly live on campus"
+    ],
+    "key_quotes": [
+      "If I had a dollar for every time someone in our cohort said 'Sounds about LIU', my tuition would be paid",
+      "I initially committed to LIU-Brooklyn Campus... commute 45 min - 1 hour back and forth every day"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Zero student comments about dining halls or campus food",
+      "No data from either Reddit or YouTube on this topic",
+      "Absence itself is notable for a campus this size"
+    ],
+    "key_quotes": [],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health resources mentioned by any student",
+      "Administrative chaos and scholarship disputes create clear financial stress",
+      "Students describe feeling overwhelmed with no institutional support mentioned"
+    ],
+    "key_quotes": [
+      "They also refused to process my $20K scholarship and expected 7K a month",
+      "I had to transfer out of LIU bc of the underwhelming classes and professors, plus the tuition cost keeps going up"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "LIU aggressively markets 'Presidential Scholarships' to students who never applied",
+      "Scholarship processing failures are a documented real problem",
+      "Full-ride offers are genuine but aid office execution is unreliable"
+    ],
+    "key_quotes": [
+      "They also refused to process my $20K scholarship and expected 7K a month",
+      "A school can 'nominate' you for anything to get your attention. It's marketing.",
+      "I got an email saying I've been given a 17k annual scholarship and never applied"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "CS program widely reported as weak by students and Reddit commenters",
+      "Nursing program has serious complaints about professor quality and curriculum",
+      "Faculty turnover described as constant with chairs and deans cycling rapidly"
+    ],
+    "key_quotes": [
+      "I've heard the CS program is really bad",
+      "RUN away from LIU Brooklyn... very symbolic of the administration, except at least the scaffolding has lasted longer than the deans and chairs of my programs",
+      "half the professors don't care or even want you to fail"
+    ],
+    "score": 3
+  },
+  "administration": {
+    "key_points": [
+      "Administration described as chaotic with rapid leadership turnover",
+      "Scholarship processing failures suggest systemic admin dysfunction",
+      "Flat-rate tuition structure surprises students who weren't warned upfront"
+    ],
+    "key_quotes": [
+      "It's very symbolic of the administration, except at least the scaffolding has lasted longer than the deans and chairs of my programs",
+      "When I accepted LIU's invitation I wish I had known that they charge flat-rate tuition",
+      "They also refused to process my $20K scholarship and expected 7K a month"
+    ],
+    "score": 2
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Brooklyn campus has been covered in scaffolding since at least 2017",
+      "Post campus on Long Island has a more traditional feel",
+      "NYC proximity is the main genuine asset of Brooklyn location"
+    ],
+    "key_quotes": [
+      "RUN away from LIU Brooklyn. They aren't showing half the campus because it's been covered in scaffolding since before 2017",
+      "I did a summer program at their Brookville campus and I love everything about it",
+      "commute 45 min - 1 hour back and forth every day by car"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "LinkedIn data shows LIU CS graduates rarely land big-name companies",
+      "No strong alumni network or recruiting pipeline mentioned by any student",
+      "Ray Dalio gave commencement speech but no connection to actual job placement"
+    ],
+    "key_quotes": [
+      "Looking at LinkedIn data, it doesn't look like LIU places a lot of CS students in big name companies",
+      "CS is one of those fields where what you do counts a lot more than where you go to school"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full-ride or near-full scholarship makes LIU defensible financially",
+      "Without major scholarship, cost-to-quality ratio is widely seen as poor",
+      "Tuition increases while quality stays low is a recurring specific complaint"
+    ],
+    "key_quotes": [
+      "I had to transfer out of LIU bc of the underwhelming classes and professors, plus the tuition cost keeps going up",
+      "LIU might not be high in rankings but at least the scholarship makes it affordable",
+      "I got a full tuition ride... I was one of 75 people out of 12,000 applicants admitted every year into their honors college"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "'Sounds about LIU' is students' own shorthand for chronic dysfunction",
+      "Accepted as a safety school by most; rarely anyone's genuine first choice",
+      "Students who got full rides still questioned whether it was worth it"
+    ],
+    "key_quotes": [
+      "If I had a dollar for every time someone in our cohort said 'Sounds about LIU', my tuition would be paid",
+      "i got a full ride to LIU and Fordham, but i dont feel like i thought i would... literally feeling nothing",
+      "It's a safety that I would be perfectly comfortable going to"
+    ],
+    "score": 4
+  },
+  "red_flags": {
+    "key_points": [
+      "**Financial Aid**: Documented refusal to process a $20K scholarship while billing $7K/month",
+      "**Administration**: Leadership turnover so fast scaffolding outlasted multiple deans and chairs",
+      "**Enrollment Tactics**: Sending fake admission letters and unsolicited scholarship offers to non-applicants"
+    ],
+    "key_quotes": [
+      "They also refused to process my $20K scholarship and expected 7K a month",
+      "scaffolding has lasted longer than the deans and chairs of my programs",
+      "I got an email that said congratulations on your admission to LIU Brooklyn... I don't know what to make of this"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors college admits only 75 students yearly — genuinely small and selective",
+      "Full-ride recipients can commute from Westchester or Long Island with zero debt",
+      "LIU Global program offers multi-country undergraduate experience across 8 countries"
+    ],
+    "key_quotes": [
+      "I was one of 75 people out of 12,000 applicants admitted every year into their honors college",
+      "I did a summer program at their Brookville campus and I love everything about it",
+      "I'm looking into LIU Global, which takes place in 8 different countries over the 4 years"
+    ],
+    "score": 6
+  }
+}

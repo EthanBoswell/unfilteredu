@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "On-campus housing costs $3,000+ per semester, students call it overpriced",
+      "Primarily a commuter school — most students live off campus",
+      "Off-campus apartments run ~$850/month, seen as better value by grad students"
+    ],
+    "key_quotes": [
+      "All for the low price of $3000+ a semester... Lower your prices and maybe you wouldn't have to beg students to live on campus.",
+      "Just for a change take a look at your ridiculous prices!! Then I can assure you it won't sound so great.",
+      "Utoledo is primarily a commuter college. I know maybe one person who lives 'on campus' and even that isn't technically true."
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Commuter-heavy culture makes building a social life harder than typical campuses",
+      "One freshman described their first semester as dragging by very slowly",
+      "EDM/festival scene preferred over clubs by at least some students"
+    ],
+    "key_quotes": [
+      "I'm a freshman at the University of Toledo... this semester has just been dragging by a lot for me.",
+      "I partied a lot in high school... raves and shows are so much more fun to me [than clubs].",
+      "A lot of people go to the bar or just hang out at home."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Very limited dining data available from student sources",
+      "Scott Park campus cafeteria remembered fondly by alumni decades later",
+      "No recent student complaints or praise about current dining options found"
+    ],
+    "key_quotes": [
+      "I loved going to the cafeteria, it was always the best spot. The cooks were funny.",
+      "I graduated back in the 80s and lived off campus during my UT years. It was truly memories of a lifetime."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No student mentions of counseling services or mental health support",
+      "ADHD student noted needing multiple paid tools to manage coursework effectively",
+      "Commuter culture may isolate students who don't proactively build connections"
+    ],
+    "key_quotes": [
+      "I'm an ADHD undergraduate Neuroscience & Psychology student... I use a bit of everything: flashcards, [multiple apps] just to maintain my flow state and avoid burnout.",
+      "I'm really confused on what I should do... I might be robbed of the college experience by going to a school in a small town."
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarships are a major draw — UT offers competitive merit aid including Presidential Scholarship",
+      "International students report receiving significant aid, making UT a budget-friendly option",
+      "Scholarship appeal process can yield more money if you ask directly"
+    ],
+    "key_quotes": [
+      "University of Toledo gave me a 4-year renewable scholarship that is 6,000 a year.",
+      "I got a lot of money from University of Toledo and Bowling Green State University.",
+      "University of Toledo: $30k ($2500 scholarship) — one of the most affordable options on the list."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Single-professor courses on Health Science Campus create no-alternative situations if issues arise",
+      "Engineering program well-regarded by alumni, especially electrical engineering",
+      "Co-requisite advising is inconsistent — overrides handed out freely, causing confusion"
+    ],
+    "key_quotes": [
+      "Most of the time one subject is taught by one professor. If you get issues with the professor, there is no other choice.",
+      "University of Toledo is a great Engineering school. I had great college experience.",
+      "I had one professor who almost doesn't show up to class and only sent... [no follow-up resolution described]."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Advisors inconsistently enforce co-requisite rules, creating student confusion",
+      "Parking enforcement is aggressive — cop ticketed a DoorDash driver stopped for under a minute",
+      "Scholarship communication is slow — applicants wait months with no response"
+    ],
+    "key_quotes": [
+      "Did anyone get a message back from the Presidential Scholarship? I applied last November but didn't get anything back yet.",
+      "The cop still gave me a ticket. I was there with my car running for less than a minute.",
+      "Advisors seem more than happy to hand out overrides for these types of situations."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Toledo described as a small town — students feel limited cultural exposure",
+      "Campus is split across multiple locations including a separate Health Science Campus",
+      "Surrounding area considered safe enough but not exciting for students seeking city life"
+    ],
+    "key_quotes": [
+      "I might be robbed of the college experience by going to a school in a small town.",
+      "I used to walk and cross over Douglas Ave to go to school every day... University of Toledo is a great school specially for Engineering.",
+      "I live off campus in an apartment complex not affiliated with the university. The rent comes out to about $850/month."
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering alumni report strong long-term career success, especially in tech and CS",
+      "When compared to Miami University (OH), UT loses on employer name recognition",
+      "Bacc2Med program pathway to med school exists but acceptance details are unclear"
+    ],
+    "key_quotes": [
+      "I got my BS in Electrical Engineering and MS in Computer Science and have been working in the US for 32 years as a Computer Engineer.",
+      "I get offered jobs to this day just because I went to Miami. Go to Miami.",
+      "I do not recommend the [Bacc2Med] program based on interacting with students in the program."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong scholarship packages make UT one of the most affordable options in Ohio",
+      "On-campus housing costs are considered too high relative to off-campus alternatives",
+      "International students specifically target UT for low total cost with decent academics"
+    ],
+    "key_quotes": [
+      "University of Toledo: $30k total cost — lowest on the list for international students.",
+      "All for the low price of $3000+ a semester... Lower your prices.",
+      "I'm saving a lot of money because I have a decent scholarship."
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter school culture dominates — social life requires active effort to find",
+      "Comfortable and homey feel noted, but less prestigious college-town energy",
+      "International students, especially Nepali, form a visible and active community"
+    ],
+    "key_quotes": [
+      "I found Toledo to feel much more comfortable and homey but Miami is a more prestigious school.",
+      "Utoledo is primarily a commuter college.",
+      "I grew as a person. I wouldn't have done my professional career without [UT]."
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** One professor per course on Health Science Campus — no recourse if problems arise",
+      "**Administration:** Aggressive parking enforcement targets even brief stops in construction zones",
+      "**Reputation:** Multiple Ohio natives consistently recommend Miami University over Toledo for both academics and career outcomes"
+    ],
+    "key_quotes": [
+      "I have seen corruption. I had one professor who almost doesn't show up to class.",
+      "I have degrees from both. Go to Miami.",
+      "No disrespect to Toledo, but the answer to this one is Miami."
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Bacc2Med program offers a direct medical school pathway not widely known externally",
+      "Rocket Solution Central office praised as genuinely helpful for financial and tuition questions",
+      "Engineering reputation quietly strong — alumni thriving in careers 30+ years later"
+    ],
+    "key_quotes": [
+      "Contact Rocket Solution Central to have them look into it for you and break things down. They are pretty helpful and they are completely free.",
+      "I got my BS in Electrical Engineering and MS in Computer Science and have been working in the US for 32 years.",
+      "University of Toledo is a great Engineering school, I had great college experience."
+    ],
+    "score": 7
+  }
+}

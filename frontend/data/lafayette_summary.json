@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Housing survey results are not taken seriously by ResLife",
+      "Wellness housing is a hidden gem — quiet, clean, still social",
+      "Some dorms lack building-wide AC; request a unit individually"
+    ],
+    "key_quotes": [
+      "They really don't take what you put on the housing survey seriously.",
+      "I went Wellness my first year and it was the best. No parties on the floor is an absolute perk.",
+      "I moved into the basement of South College in 1982 — your sister and her roommate did it right."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life and D1 athletics dominate social scene — by far",
+      "Non-athletes, non-Greek students still find community but must seek it out",
+      "Party scene exists but one junior says 'no one throws parties on campus'"
+    ],
+    "key_quotes": [
+      "The two main forms of social life at Laf are Greek life and athletics.",
+      "I feel like there's nothing to do/go to. Do you have any good recs! I have a fake also.",
+      "Greek dominated when I went there 25 years ago. That's probably the case at many small liberal arts colleges with a Greek system."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Dining changed providers 2-3 years ago — quality is now inconsistent",
+      "Upper Farinon and Marquis are nearly identical; Gilbert's is now basically a Starbucks",
+      "Complaints center on mediocrity ('mud'), not outright grossness"
+    ],
+    "key_quotes": [
+      "Complaints are more that it's mud rather than like outright gross or anything like that.",
+      "Gilbert's is completely different now. It's essentially a Starbucks. If you want greasy late-night grub I would suggest Lower Farinon.",
+      "I actually liked it with the other provider. It just depends on the provider."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mental health service complaints found in data",
+      "Deferral and waitlist anxiety is intense — emotional posts are common",
+      "Small campus tight-knit culture may help, but isolation without a car is real"
+    ],
+    "key_quotes": [
+      "It's a little isolated without a car. I stayed on campus basically all the time.",
+      "I got deferred. I don't know what to feel since I would rather a straight acceptance or rejection.",
+      "My confidence has gone down a lot, I don't know what schools to apply to now."
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Lafayette meets full demonstrated need but need-aware for internationals — a critical distinction",
+      "Appeals consistently work — multiple students report getting more aid after asking",
+      "Sticker price hits $70K+; many domestic students pay far less after aid"
+    ],
+    "key_quotes": [
+      "Accepted! Not going tho probably cause 81k a yr is gonna leave my family homeless.",
+      "I was WAITLISTED and got around 60% of my tuition covered.",
+      "We filed an appeal for more merit aid and we filed an appeal for more financial aid. We ended up getting additional aid."
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Small class sizes and accessible professors are consistently praised",
+      "Engineering is a standout program with strong real-world curriculum",
+      "Liberal arts breadth requirements surprise engineering students — 1 in 4 classes non-major"
+    ],
+    "key_quotes": [
+      "He likes how small the classes are and how easy it is to develop relationships with professors.",
+      "Lafayette mechanical engineering program is extremely well respected — Lafayette is a top engineering school.",
+      "In the world of AI, having an engineer who is well rounded is a tremendous advantage."
+    ],
+    "score": 8
+  },
+  "administration": {
+    "key_points": [
+      "Admissions office vague on decision dates — sends non-committal emails",
+      "Financial aid office is responsive and will meet with students",
+      "Career office is excellent but underused — students must proactively engage"
+    ],
+    "key_quotes": [
+      "Thanks for saying nothing. I thought decisions were out, but no.",
+      "The career office is not required during your time there until senior year — you need to go to that office yourself.",
+      "They replied that there is no confirmed date. You will receive email when update is posted in your application portal."
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Easton is improving but campus feels isolated without a car",
+      "NYC and Philadelphia are reachable but require planning — no easy transit",
+      "Beautiful campus architecture; fraternity houses are landmark-sized buildings"
+    ],
+    "key_quotes": [
+      "I didn't have a car or a close friend with a car so I stayed on campus basically all the time.",
+      "Proximity to Philadelphia and NYC was fantastic.",
+      "That fraternity house looks so well built, and massive, as to be one of the main buildings of the College itself."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Career center ranked top 10 nationally — but students must use it proactively",
+      "Strong alumni network especially in finance and Northeast corridor",
+      "Name recognition drops sharply outside the Northeast — a real limitation"
+    ],
+    "key_quotes": [
+      "Lafayette has an incredible career office and alumni network. The career office is not required during your time there — you need to go to that office yourself.",
+      "Name recognition outside of the northeast corridor is limited.",
+      "People in finance have certainly heard of it given the proximity to Wall Street."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full sticker price of $70K+ is genuinely hard to justify for many families",
+      "With merit or need-based aid, cost often becomes competitive or even cheap",
+      "Engineering ROI is specifically cited as strong; liberal arts ROI less clear"
+    ],
+    "key_quotes": [
+      "Lafayette is so expensive. For me it costs 70k and I have already appealed my merit aid once.",
+      "Getting to graduate debt free would be a massive opportunity.",
+      "Engineering is one of the best degrees for ROI at Lafayette. It's one of the school's strongest departments."
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Tight-knit, friendly campus with real professor accessibility",
+      "Skews wealthy, white, and Northeast — socioeconomic diversity is a known gap",
+      "Students who engage actively love it; passive students may feel it's a bubble"
+    ],
+    "key_quotes": [
+      "School sometimes felt like a country club filled with rich kids.",
+      "25% of students came from the top 1% of income earners.",
+      "There are an awful lot of people from NJ, followed by PA, NY, MA/CT, and the rest of the Northeast."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Socioeconomic diversity**: 25% of students from top 1%; campus feels like a country club",
+      "**Financial aid (international)**: Need-aware admissions means low EFC can hurt acceptance odds",
+      "**Isolation**: No car means being stuck on campus; public transit options are very limited"
+    ],
+    "key_quotes": [
+      "Lafayette is need aware, meaning they factor how much aid you need into their admissions decision. Needing 100% aid is a completely different ballgame.",
+      "25% of the students came from the top 1% of income earners.",
+      "I didn't have a car or a close friend with a car so I stayed on campus basically all the time. That makes it a little claustrophobic."
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Outdoors club (LOSt) and motorsports shop are active, welcoming communities",
+      "Research opportunities available even as a first-year in STEM departments",
+      "Appealing financial aid actually works — many students successfully get more money"
+    ],
+    "key_quotes": [
+      "Stop by the motorsports shop with your kid! There'll be people to show you around.",
+      "Even as a first year you can be involved in research. Only issue is you might run into a bad professor or so.",
+      "My son is a first year student. We filed an appeal for more merit aid and we filed an appeal for more financial aid. We ended up getting additional aid."
+    ],
+    "score": 8
+  }
+}

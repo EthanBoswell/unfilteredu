@@ -1,0 +1,162 @@
+{
+  "housing": {
+    "key_points": [
+      "One alum lived in resident halls and served as RA, positive experience",
+      "Limited specific housing complaints in available data",
+      "Previous governor threatened campus closure, creating instability concerns"
+    ],
+    "key_quotes": [
+      "I lived in the resident hall and served as a RA... if I could go back in time, I would do it all over again",
+      "The progression is impressive given the previous governor wanted to close the campus or consolidate with UIC"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Marching band is a growing cultural centerpiece students are proud of",
+      "Sorority and Greek life present and meaningful to participants",
+      "Small campus community means social scene is limited but tight-knit"
+    ],
+    "key_quotes": [
+      "I am a part of the Marching Band. We are trying really hard to create a college level marching culture at Chicago",
+      "I'm a proud member of the Daughters of Issachar chapter... I received my BA and MA from CSU"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall comments in available student data",
+      "Campus tour video focuses on academics and programs, not dining",
+      "Insufficient data to evaluate dining quality or options"
+    ],
+    "key_quotes": [
+      "No direct quotes about dining available from sources"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Faculty strikes create student anxiety about losing instruction time",
+      "Location in South Side Chicago raises safety-adjacent stress for some",
+      "No dedicated mental health support resources mentioned by students"
+    ],
+    "key_quotes": [
+      "I am a Junior at Cal State Fullerton... the CSU Faculty will be striking the first week of the Spring Semester, which means... they wont be holding their class. This is genuinely terrifying",
+      "I'm a student at GSU I understand that teachers deserve more... I'm not happy teachers are treated this badly"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Pell Grant reversals reported with no explanation or notice given",
+      "Financial aid office communication described as unclear and confusing",
+      "CSU system generally affordable but aid administration is problematic"
+    ],
+    "key_quotes": [
+      "My Pell Grant was initially credited to my account in mid August, then completely reversed just a few days later for the exact same amount. No explanation, no notice, just gone",
+      "I spoke with financial aid a month ago, everything seemed fine, but now my aid [is gone]"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "New doctoral programs in education and pharmacy signal academic growth",
+      "MBA program now available — not offered in earlier decades",
+      "Faculty strikes directly disrupt classes and academic continuity"
+    ],
+    "key_quotes": [
+      "The doctoral programs in education and pharmacy is a great step forward. I believe CSU is now offering a MBA in business now which in my era was not available",
+      "Dr. Z, the current president is a great leader, educator"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Admin asked students to report striking professors — deeply adversarial move",
+      "CSU management walked out of faculty negotiations, canceling all meetings",
+      "School communication described as 'terrible' by a current student transferring out"
+    ],
+    "key_quotes": [
+      "My school's asking us to narc on the professors who cancel class because of it",
+      "CSU Management Walks Out of Negotiation Meeting and Cancels All Negotiation Meetings",
+      "I have been working real hard to transfer out of this school for many reasons ranging from different major options, terrible school communication, and a small lack of facilities"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located on Chicago's South Side — dismissed unfairly by outsiders but meaningful to community",
+      "Campus described as visually impressive by visitors unfamiliar with it",
+      "Previous consolidation threats with UIC suggest ongoing identity/location vulnerability"
+    ],
+    "key_quotes": [
+      "This is a very nice college that's located on the southside of Chicago. Wow, let the news tell it the southside has nothing to offer",
+      "The southside of Chicago will always be the MECCA for all of my family members from Arkansas that migrated here and went to college at Chicago State University",
+      "The previous governor wanted to close the campus or consolidate with UIC"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Notable alumni include figures from business, politics, and entertainment",
+      "Limited employer recruiting data or career outcomes mentioned by students",
+      "Pharmacy and education doctoral programs suggest professional pipeline building"
+    ],
+    "key_quotes": [
+      "Oprah, Kanye West, Michael Jordan, Common, Barack and Michelle Obama... are just a few of the most famous Chicagoans [connected to the area]. They could have or should have stepped up to help this fine University",
+      "The doctoral programs in education and pharmacy is a great step forward"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "As a PBI serving underrepresented students, tuition is relatively accessible",
+      "Pell Grant reversals and aid confusion undercut actual affordability",
+      "Growing graduate programs add credential value for long-term investment"
+    ],
+    "key_quotes": [
+      "My Pell Grant was initially credited to my account in mid August, then completely reversed just a few days later. No explanation, no notice, just gone",
+      "I received my BA and MA from CSU! If I could go back in time, I would do it all over again plus more"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Proud, community-oriented alums — loyalty to CSU is genuine and strong",
+      "Campus is growing but institutional instability creates uncertainty",
+      "Underdog identity is a feature for some, a concern for others"
+    ],
+    "key_quotes": [
+      "Proud Alum!!!!!!! I lived in the resident hall and served as a RA... I received my BA and MA from CSU! If I could go back in time, I would do it all over again",
+      "I have been working real hard to transfer out of this school for many reasons ranging from different major options, terrible school communication, and a small lack of facilities",
+      "The southside of Chicago will always be the MECCA"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** School asked students to report professors participating in legal strike",
+      "**Financial Aid:** Pell Grants reversed with zero notice or explanation, disrupting budgets",
+      "**Institutional Stability:** Governor previously tried to close or merge campus with UIC"
+    ],
+    "key_quotes": [
+      "My school's asking us to narc on the professors who cancel class because of it",
+      "My Pell Grant was initially credited to my account in mid August, then completely reversed just a few days later for the exact same amount. No explanation, no notice, just gone",
+      "The previous governor wanted to close the campus or consolidate with UIC"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "One of few Predominantly Black Institutions (PBI) in Illinois — unique identity and mission",
+      "Marching band culture actively being built — ground-floor opportunity for musicians",
+      "New doctoral programs in pharmacy and education opening graduate pathways"
+    ],
+    "key_quotes": [
+      "I didn't think that Chicago State University is an HBCU. Hooray for HBCUs!",
+      "We are trying really hard to create a college level marching culture at Chicago",
+      "The doctoral programs in education and pharmacy is a great step forward... CSU is now offering a MBA in business now which in my era was not available"
+    ],
+    "score": 7
+  }
+}

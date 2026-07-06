@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Riverview Hall is the most-discussed dorm; students actively choose it",
+      "Housing waitlist is real — some students placed in group 15+ priority",
+      "Shared bathrooms and communal kitchens cause anxiety for incoming students"
+    ],
+    "key_quotes": [
+      "I applied for dorms too late and I'm at group 15 currently",
+      "Living with a stranger + having to share bathrooms/kitchen with loads of people. Sighh",
+      "I'm attending sac in the fall and I put Riverview at the top of my list"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Campus life questions go unanswered — students openly ask if events exist",
+      "Strong cultural student orgs (Afghan Student Association events praised highly)",
+      "Commuter-heavy school; making friends harder without dorm life"
+    ],
+    "key_quotes": [
+      "Is the campus life boring? like is there always something to do or any events where a lot of people gather?",
+      "I've lived in Sac all my life, most my friends went to Sac State, and I've never seen the campus",
+      "I'm currently a freshman at Sac State and I'm miserable"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Meal plan details are confusing — incoming students publicly ask for basic info",
+      "No specific complaints about food quality surfaced, but no praise either",
+      "On-campus dining options not highlighted in any tours or vlogs"
+    ],
+    "key_quotes": [
+      "I was curious about school lunch coz the meal plan confused... Do u have any recommendation or how's the school food?",
+      "Since you are dorming what meal plan do you have? I have so many questions"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "At least one student transferred out explicitly citing misery at Sac State",
+      "No mention of mental health resources in any student posts or comments",
+      "Students use Sac State as a safety net school, arriving with low enthusiasm"
+    ],
+    "key_quotes": [
+      "I'm currently a freshman at Sac State and I'm miserable",
+      "Make me love Sac State — the title",
+      "I have no hope for UCI and I didn't get accepted for CS at UCSB. Unless a miracle happens I guess I'm going here"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "One student left Sac State specifically because it became too expensive",
+      "Significantly cheaper than UCs — a major draw for local commuters",
+      "Financial aid packages arrive late relative to private schools, causing stress"
+    ],
+    "key_quotes": [
+      "I used to go to Sac State, didn't graduate because it was expensive so I joined the Army for 4 years",
+      "SDSU, Sac State - 38K/year",
+      "Sac State is a terrific school. It's much more affordable than any school in the UC system"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Engineering and CS graduates report working shoulder-to-shoulder with UC grads",
+      "Capital city location gives political science and government majors real advantages",
+      "Consistently ranked below UCs but students report solid practical education"
+    ],
+    "key_quotes": [
+      "Did MSEE 1996, been working as an electrical engineer in San Jose CA, excellent education, on par with any other college",
+      "Sac state is in the heart of state politics so that campus might be the best choice overall",
+      "CSU graduates end up working shoulder-to-shoulder with UC and private school graduates"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Application errors extremely difficult to fix — admissions office unhelpful without student ID",
+      "Transfer credit acceptance is inconsistent and poorly communicated to students",
+      "Catalog rights confusion leaves students unsure if they've been kicked out"
+    ],
+    "key_quotes": [
+      "I called the admissions office in Sac State about it but they can't help unless I have an ID (which I can't get without the email)",
+      "I got an email stating that I have lost my 'catalog rights' and I still cannot really tell what it is that I have exactly lost",
+      "Spent my last two and a half years of college there... Couldn't stand the place"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Capital city location is a genuine career asset, especially for public sector majors",
+      "Campus is aesthetically pleasant; drone footage and new buildings impress visitors",
+      "Not in downtown Sacramento — a common misconception among incoming students"
+    ],
+    "key_quotes": [
+      "If you live locally, why go anywhere else?",
+      "It's in downtown Sacramento right? [incorrect assumption from incoming student]",
+      "I work downtown sac, went to Sac State for engineering, and I have never seen the punchbowl — that's right by my job"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering alumni report competitive jobs at level comparable to UC graduates",
+      "Political science and government careers boosted by Sacramento's state capital status",
+      "CS and engineering alumni working in San Jose tech sector without UC degree"
+    ],
+    "key_quotes": [
+      "Did MSEE 1996, been working as an electrical engineer in San Jose CA, excellent education, on par with any other college",
+      "Sacramento has a good history program and it's easier for history majors to get a job because it's the capital city",
+      "CSU graduates end up working shoulder-to-shoulder with UC and private school graduates"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong value for local commuters who avoid housing costs entirely",
+      "One student left before graduating due to cost — affordability not guaranteed",
+      "CC-to-Sac State path cited as smart budget move by multiple students"
+    ],
+    "key_quotes": [
+      "Sac State is a terrific school. It's much more affordable than any school in the UC system",
+      "I used to go to Sac State, didn't graduate because it was expensive so I joined the Army",
+      "JC transfer plan would cost less than $35,000 [vs $150k at DePaul]"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Predominantly a safety school or fallback — few students arrive truly excited",
+      "Commuter culture dominates; campus energy depends heavily on dorm residents",
+      "Alumni pride exists but is quiet — grads speak well of it years later"
+    ],
+    "key_quotes": [
+      "Make me love Sac State",
+      "I have no hope for UCI... Unless a miracle happens I guess I'm going here",
+      "If you live locally, why go anywhere else?"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Student morale:** multiple students describe arriving reluctantly or transferring out miserable",
+      "**Administration:** email errors lock students out of their own accounts with no resolution path",
+      "**Graduation:** at least one student left without graduating due to cost mid-degree"
+    ],
+    "key_quotes": [
+      "I'm currently a freshman at Sac State and I'm miserable. I'm looking into other schools I can transfer into",
+      "I called the admissions office but they can't help unless I have an ID, which I can't get without the email",
+      "Couldn't stand the place. Walked out after my last class, had them mail my diploma. Have not been back since, and never will"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors program exists and offers smaller classes plus priority registration",
+      "Capital city proximity gives internship access to state government unavailable elsewhere",
+      "Strong cultural student organizations with vibrant events and real community feel"
+    ],
+    "key_quotes": [
+      "UC Davis has an Honors program — I got invited to apply to Sac State Honors",
+      "Sacramento has good government jobs because it's the capital city",
+      "This is the most beautiful and awesome attan I had seen performed in university [Afghan Student Association event]"
+    ],
+    "score": 7
+  }
+}

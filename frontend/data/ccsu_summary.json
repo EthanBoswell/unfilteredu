@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Housing shortage forced students into converted office buildings last fall",
+      "Laundry is now free — recent positive change for dormers",
+      "Groceries can't be delivered to dorms; nearest store is a walk to Stop & Shop"
+    ],
+    "key_quotes": [
+      "CCSU will have a shortage for a while — they had to reopen an office building as a reshall last fall",
+      "Nothing can be delivered directly to dorms, your best bet is to go to Stop and Shop",
+      "Oh heck yes! I'm going to be full-time dorming this semester, so [free laundry] is great"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Party scene exists Wed–Sat, Phi Delt reportedly draws up to 500 people",
+      "Commuters strongly advised to join clubs early — social life requires effort",
+      "Dorm social life described as chaotic, including 'backstabbing and obnoxious' residents"
+    ],
+    "key_quotes": [
+      "It isn't bad. There's plenty of parties usually Wednesday thru Saturday. Up to 500 at phi delt sometimes",
+      "It was fucking chaos... I've never met so many trashy, backstabbing, weird, obnoxious assholes anywhere else in my life",
+      "There are clubs available to accept new incoming students... primary place where most things take place is the Corq app"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Dining hall (Memorial) is widely disliked — multiple students say avoid it",
+      "Devil's Den is the preferred option; Qdoba reportedly opening soon",
+      "Weekend dining quality drops noticeably compared to weekdays"
+    ],
+    "key_quotes": [
+      "Please do not eat at mem — either pack a lunch, or choose a meal plan with a lot of flex bucks",
+      "I went to the dining hall once and haven't gone back. It's just not worth the cost",
+      "It's solid enough Mon-Fri, Saturday and Sunday it's pretty meh though"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Very little direct mention of counseling or mental health services in student posts",
+      "Students describe extreme academic stress, especially in engineering courses",
+      "One Reddit post from a Connecticut student references a prior mental health crisis and dropping out of a state school"
+    ],
+    "key_quotes": [
+      "It's like when I'm wrong I'm wrong, and when I'm right I'm still wrong... it shouldn't be impossible problem sets with 50-70 questions",
+      "That's why I left CCSU",
+      "I think they do offer some services as part of the 'blanket of support'"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarships are available but release dates are vague — expect late June or July",
+      "Part-time students risk losing full scholarship amounts; aid scales with enrollment",
+      "Financial aid rules are changing frequently — students advised to contact office directly"
+    ],
+    "key_quotes": [
+      "Financial aid has been changing every year especially with the current administration",
+      "Because of weird stuff, I had to do part time and with that the scholarship became half of the full time scholarship",
+      "Central offers a lot of [aid options] — I suggest taking that question in person to financial aid"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Professor quality is highly variable — specific professors make or break courses",
+      "Math department has a long-standing reputation as weak and disorganized",
+      "STEM programs are functional but clearly below UConn in rigor and resources"
+    ],
+    "key_quotes": [
+      "Is the math department still a joke? It's still a dumpster fire",
+      "The standards are definitely higher at UConn for most STEM majors — his homework and exams were distinctly harder",
+      "From what math classes I did in undergrad, the professors weren't the greatest — had to teach myself most things due to heavy accents and incoherence"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Advisors described as minimally helpful — often just send links rather than actual guidance",
+      "Registrar processes can be confusing; students navigate transfer credits largely on their own",
+      "Housing shortage communication was poor — some students found out very late"
+    ],
+    "key_quotes": [
+      "I emailed my advisor but she just emailed me two links... which didn't help a lot",
+      "CCSU will have a shortage for a while — I got my room but there was some type of delay",
+      "Send a succinct and informative email with specific examples to the dean, provost, and president"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in New Britain — transit to Hartford via CT Fastrak bus is the main connection",
+      "Campus has changed noticeably over the years; parking is free with a permit",
+      "Off-campus apartments available for ~$550/month, roughly 5-minute walk to campus"
+    ],
+    "key_quotes": [
+      "The CT Fastrak goes directly from downtown Hartford, not far from Hartford Union Station, to campus",
+      "Looks way different compared to when I graduated in 2008 — hope people are actually landing jobs now",
+      "Off campus apartment, $550 a month per person, 10 month lease, 5 min walk from campus"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering job market described bluntly as 'dog shit' by one recent grad",
+      "Manufacturing engineering grads report steady employment; co-ops available in ME program",
+      "ABET accreditation means the degree is valid — but networking and employer pipelines are limited"
+    ],
+    "key_quotes": [
+      "Dog shit [on the engineering job market]",
+      "I did manufacturing engineering and have been steadily employed at various companies since my sophomore year",
+      "School is good for networking and resources — if the school doesn't have good networking, that's a problem"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Tuition is significantly cheaper than UConn — main draw for in-state students",
+      "Free parking, now free laundry, and low-cost community college credit stacking make it affordable",
+      "Students paying ~$20k/year all-in question whether the academic quality justifies it"
+    ],
+    "key_quotes": [
+      "As a 24-year-old still in undergrad, the cheaper tuition [vs UConn] is a factor",
+      "I currently go to CCSU paying 20k a year for everything — are there better IT programs for around the same money?",
+      "Take community college classes cheaper by a third — the average grad takes 6 years anyway"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Commuter-heavy culture — campus empties on weekends for many students",
+      "Students are practical and pragmatic, not particularly spirited about the school",
+      "Those who engage with clubs and dorm life find community; passive students feel isolated"
+    ],
+    "key_quotes": [
+      "I've found most of my professors actually care about teaching — if you pay attention, the professor will know you",
+      "There are different ways of meeting friends on campus — dorm life is certainly one of them",
+      "I'm in CT and there aren't a lot of options for local colleges here, at least compared to other bigger states"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Math Department:** Described as a 'dumpster fire' by multiple sources, including alumni",
+      "**Housing:** Office buildings converted to dorms due to ongoing shortage with little warning",
+      "**Specific Professors:** At least two professors (Vaz in math, unnamed in materials analysis) have serious red flags around teaching quality and workload"
+    ],
+    "key_quotes": [
+      "I was recommended to take math courses at Tunxis by another department chair if I really wanted to learn math",
+      "It shouldn't be impossible problem sets with 50-70 questions — that's why I left CCSU",
+      "Professor Vaz seems like he doesn't actually teach and everything is on paper — I already wanna drop the course"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Spanish and Italian programs are genuinely well-regarded by students",
+      "Some professors are standout mentors — students recommend researching specific names before enrolling",
+      "Film community and chorale are active and welcoming for arts-inclined students"
+    ],
+    "key_quotes": [
+      "The Spanish professors are really good. The Italian programme is also pretty unique",
+      "If you have to retake materials analysis, take Prof Baumann — much better than the other option",
+      "CCSU has a relatively populous film community — looking for filmmakers who want an extra set of hands"
+    ],
+    "score": 7
+  }
+}

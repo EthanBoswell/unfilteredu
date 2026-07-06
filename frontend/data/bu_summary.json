@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Bay State Road dorms generate constant noise complaints from residents",
+      "Freshman housing is random; many end up far from main campus",
+      "Limited info on dorm quality in public student discourse"
+    ],
+    "key_quotes": [
+      "Every fucking night when I'm doing my work some doofus is being loud and obnoxious",
+      "MOBS of you idiots screaming up and down Bay State and Comm Ave",
+      "People LIVE HERE AND LIKE TO SLEEP"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus is open and urban—city IS the social scene, not just campus",
+      "Greek life exists but is not dominant; social scene is fragmented",
+      "Freshmen struggle to find their footing; friend groups shift dramatically after year one"
+    ],
+    "key_quotes": [
+      "my friend group completely changed after year 1, met a lot of great people",
+      "Not traditional sport bond spirit campus—more of small knit communities where everyone do their own thing",
+      "walk with purpose on comm ave... switch up the going out outfits, the jeans and tube tops are uncanny"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Bay State Underground, Late Night @ West, and Law School Cafe were closed with no warning",
+      "Target near campus stocks expired food—students explicitly warned to check dates",
+      "Dining options have been quietly reduced even as tuition rises"
+    ],
+    "key_quotes": [
+      "Bay State Underground, Late Night @ West, and Law School Cafe have been closed... this sucks",
+      "They stock expired food products, drugs, and personal health products, so be careful",
+      "this is what i'm paying for meanwhile BU is having a hiring freeze and still providing unlivable conditions"
+    ],
+    "score": 4
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple suicide incidents at Warren Towers reported; mental health resources exist but awareness is patchy",
+      "Sexual assault survivors report BU's Title IX process as retraumatizing and ineffective",
+      "One student describes BU years as 'the worst and most traumatic of my life'"
+    ],
+    "key_quotes": [
+      "Title IX cases are supposed to last 3 months, mine went for over half a year, only for them to say there wasn't enough evidence",
+      "0 cases have actually gone in favor of the victim",
+      "BU has some exceptional mental health services—they really invest in your wellbeing"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Sticker price now approaching $94k/year—students openly calling it unjustifiable for a top-40 school",
+      "Financial aid is strong for low-income students but brutal for middle class",
+      "BU WILL negotiate aid packages upward if you ask—one student got $15k added after requesting more"
+    ],
+    "key_quotes": [
+      "No scholarship for me so 77k per year ain't feasible",
+      "BU is charging 94 RACKS for let's face it a decent (not even that good) of a private school that's top 40",
+      "Boston University added $15,000 EXTRA TO MY FINANCIAL AID OFFER AFTER I REQUESTED MORE AID"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Grade deflation reputation is real but debated—current students say it's overblown by outsiders",
+      "Professors are described as excellent by many, especially in STEM and neuroscience",
+      "Hub general education requirements are confusing enough that a student built a tracking tool to navigate them"
+    ],
+    "key_quotes": [
+      "BU is a rigorous school. Professors are fair. You get the grade you deserve. There is less inflation at BU",
+      "I got tired of tracking Hub requirements in a spreadsheet, so I built Terrier Tracker",
+      "tons of amazing and successful professors. i really enjoy walking around Boston as well"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Admin repeatedly criticized for spineless non-responses to campus controversies",
+      "Staff layoffs of ~120 positions announced while faculty got promotions the same week",
+      "TerrierGPT AI tool launched before fixing the notoriously inaccurate bus schedule—widely mocked"
+    ],
+    "key_quotes": [
+      "FYI they've had over 40 meetings to discuss these new values and not a thing has actually happened",
+      "Can't believe we got TerrierGPT before accurate BU Bus schedule",
+      "BU admin doesn't do anything. Last year a majority voted for BU to disclose investments and divest—President ignored it"
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus runs along Commonwealth Ave—open, urban, and beautiful but with no traditional quad feel",
+      "Boston location is a massive asset: internships, culture, other schools nearby",
+      "Construction noise is a persistent, years-long complaint"
+    ],
+    "key_quotes": [
+      "Construction—very noisy",
+      "Campus is cohesive. A lot of things to do. Harvard and MIT very close by. Many opportunities for internship and jobs",
+      "The scenic view of MIT's back... Boston University: The scenic view of MIT's back"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Boston location drives strong internship access across virtually every industry",
+      "Alumni network is described as helpful IF you stay in Boston metro area",
+      "Business and COM schools have strong industry connections; outcomes vary sharply by major"
+    ],
+    "key_quotes": [
+      "After graduation, your fellow alumni will drop things into your lap as long as you are willing to work hard",
+      "If you choose to stay in the Boston area, you can make a lot of money, but be aware there is a rivalry with the other schools and Big H usually wins a lot of the time",
+      "Art got a job down the street from BU at the Museum of Fine Arts as a museum curator"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Cost has jumped from ~$75k to ~$94k in just a few years with no clear quality improvement",
+      "Students explicitly questioning whether BU is worth it at current prices",
+      "Scholarships exist and are negotiable—but middle-class families get squeezed hardest"
+    ],
+    "key_quotes": [
+      "When I first started it was $75k a year and you're telling me it's 20 more thousand dollars? Just keeping it real if you're thinking about transferring, do it",
+      "BU would cost me $90k a year... unfortunately I will not be attending BU which was my dream school",
+      "Unfortunately, BU would cost me $90k a year and Villanova would cost $75k a year. This is way out of my price range"
+    ],
+    "score": 3
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students who love Boston love BU; those who wanted a 'college campus' feel often regret it",
+      "Strong sense of community within specific schools/programs, weaker university-wide identity",
+      "Political tensions are high and recent—ICE controversy consumed campus in 2025"
+    ],
+    "key_quotes": [
+      "ED Not Going Your Way—Got into BU, and now I go here and I couldn't be happier and see myself anywhere else",
+      "It has a 90%+ female fanbase",
+      "I know you had a lot of ups and downs during your time at BU, but you are through it and ready to move on"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Title IX: survivors report zero successful outcomes, process described as protecting BU not victims",
+      "Financial: cost rose $20k in a few years while dining venues close and staff get laid off",
+      "Administration: 40+ meetings on stated values with zero action; admin silence on major campus incidents"
+    ],
+    "key_quotes": [
+      "bu does not care about assault... 0 cases have actually gone in favor of the victim",
+      "i'm livid. this is what i'm paying for meanwhile BU is having a hiring freeze and still providing unlivable conditions",
+      "I have recently learned that the following would be the best way to share your concerns: pr@bu.edu—[admin response to ICE controversy]"
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Low-income students often get exceptional aid packages including full rides",
+      "Boston itself is a hidden gem—access to MIT, Harvard, museums, and endless internships",
+      "Individual professors frequently cited as exceptional, especially in neuroscience and STEM"
+    ],
+    "key_quotes": [
+      "If you're low income, BU gives really great need aid. So many of my low income friends got full rides",
+      "My FAVORITE neuro professor at BU. Literally hugged him at graduation on stage",
+      "Art got a job down the street from BU at the Museum of Fine Arts as a museum curator"
+    ],
+    "score": 7
+  }
+}

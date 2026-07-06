@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "On-campus dorm experience considered worth the cost by most students",
+      "Living on campus seen as key differentiator vs. commuter schools",
+      "No specific dorm horror stories surfaced in available data"
+    ],
+    "key_quotes": [
+      "I'd for sure live in a dorm my first year",
+      "I live in the arbs right up emajean"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Party culture exists but COVID-era enforcement led to expulsions",
+      "Bronco Bash is a beloved campus tradition students remember fondly",
+      "House parties and block parties are part of WMU culture"
+    ],
+    "key_quotes": [
+      "First western party huh? I remember my first party in 2015 a shoot out broke out in Jack pines after a block party",
+      "Come back for house crawl tho, shits always lit",
+      "I miss Bronco Bash. When I was in High School I would come up to your campus and crash the party"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall reviews found in available data",
+      "Kalamazoo's local food scene praised — Bell's Brewery nearby",
+      "Off-campus dining options supplement limited on-campus data"
+    ],
+    "key_quotes": [
+      "Grab a beer at Bell's Eccentric Cafe if the spirit moves you"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No WMU-specific mental health support data available in sources",
+      "General student stress around finances and transfer decisions is evident",
+      "No mentions of campus counseling services in any posts or comments"
+    ],
+    "key_quotes": [
+      "I've been having major second thoughts about the whole thing",
+      "How are you going to be able to afford the next semester?"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cost is the #1 reason students consider leaving or not attending WMU",
+      "CC-to-WMU transfer path widely recommended to cut costs significantly",
+      "FAFSA grants available but may not cover full cost of attendance"
+    ],
+    "key_quotes": [
+      "You really just have to look at the cost",
+      "If you can back out now then do it. How are you going to be able to afford the next semester?",
+      "Because of financial situation, it seems like no chance — scholarships are the only thing holding me back"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "WMU is a doctoral research university with rigorous programs",
+      "Business and aviation programs have active alumni networks",
+      "Computer science and engineering draw significant international student interest"
+    ],
+    "key_quotes": [
+      "Western Michigan University is a doctoral research university with many rigorous programs. You are expected to study, do research, learn and not party",
+      "Although I majored in flight at Western in the 70's, I worked in engineering customer support for Honeywell working with all airlines in the world",
+      "You are representing WMU both on and off campus"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Student expelled for hosting a party during COVID with no apparent appeal path",
+      "Administration enforced pandemic rules strictly, including eviction",
+      "No mentions of administrative support or responsiveness from students"
+    ],
+    "key_quotes": [
+      "You guys definitely coulda gotten away with it if it wasn't a pandemic",
+      "OMG! Some kid sent this video to me and I just realized you were supposed to be in my Bus 3000 group project! Sorry dude!!"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Kalamazoo is a real college town with craft beer culture and Amtrak to Chicago",
+      "Campus is visually impressive — drone tour drew praise from alumni and prospects",
+      "Close proximity to Chicago makes weekend travel accessible and appealing"
+    ],
+    "key_quotes": [
+      "WMU is really nice, I almost went there. Grab a beer at Bell's Eccentric Cafe if the spirit moves you. Kzoo is also pretty close to Chicago, you can catch Amtrak over",
+      "It has been 30 years. I have to see WMU one more time",
+      "Oh God, so beautiful! My dream university"
+    ],
+    "score": 8
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Aviation alumni report strong industry careers spanning decades",
+      "Sports business networking at WMU seen as superior to community college",
+      "Notable alumni list exists but WMU still perceived as a 'nobody school' externally"
+    ],
+    "key_quotes": [
+      "A large part of sports jobs are offered through networking and are never actually posted to the public. If you can afford the larger school WMU's networking will pay off faster",
+      "I majored in flight at Western in the 70's, I worked in engineering customer support for Honeywell working with all airlines in the world",
+      "Of possible interest: WMU Notable alumni"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "WMU costs create real financial stress — CC transfer is a popular workaround",
+      "Students with scholarships find WMU worth it; without them, debt risk is high",
+      "In-state tuition + scholarships can make WMU a reasonable deal"
+    ],
+    "key_quotes": [
+      "I know it's late but honestly I'm really glad I went to a CC first and only incurred debt my last two years",
+      "You have great scholarships anyway so it's not like you're going to be paying 70k/year for this",
+      "Credits are quite a bit cheaper at CC. Starting at the community college makes a lot of sense financially"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "WMU has a genuine college town feel that commuter schools cannot replicate",
+      "International students, especially Indonesian and Indian, are visibly present and active",
+      "Students who engage fully report positive experiences; passive attendees struggle"
+    ],
+    "key_quotes": [
+      "Bloom where you are planted… There aren't any nobody schools, only nobody people",
+      "It's a great experience and you cut out some of the hassle of transferring",
+      "Seneng banget liat suasana lingkungannyaaa — loved seeing the campus environment"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Safety:** Gunfire reported at off-campus block party in 2015 near campus",
+      "**Reputation:** Publicly listed as a 'nobody school' example on r/college with 11 upvotes",
+      "**Retention:** Multiple Reddit posts show students actively planning to leave WMU after one semester"
+    ],
+    "key_quotes": [
+      "A shoot out broke out in Jack pines after a block party — dudes came back strapped and honestly that's how western parties go",
+      "You know, like Western Michigan University… [listed as example of a 'nobody' school]",
+      "If you can back out now then do it"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Aviation program has produced career professionals working with global airlines",
+      "Kalamazoo's Amtrak connection to Chicago is a legitimate lifestyle perk",
+      "Bell's Brewery proximity makes Kalamazoo a legitimately fun college city"
+    ],
+    "key_quotes": [
+      "Keep your horizons and dreams open!! GO BRONCOS!!!",
+      "Kzoo is also pretty close to Chicago, you can catch Amtrak over",
+      "Grab a beer at Bell's Eccentric Cafe if the spirit moves you"
+    ],
+    "score": 7
+  }
+}

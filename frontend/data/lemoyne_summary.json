@@ -1,0 +1,161 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints about housing found in data",
+      "Campus described as 'nice and serene' by prospective student",
+      "Insufficient data to assess housing quality meaningfully"
+    ],
+    "key_quotes": [
+      "such a nice and serene school environment",
+      "No housing-specific complaints surfaced in available data"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Party scene reportedly starts Wednesday, not weekends",
+      "Students historically go to nearby Syracuse University for social life",
+      "Alumni from 20 years ago suggest active but possibly dated party culture"
+    ],
+    "key_quotes": [
+      "when I was at LeMoyne 20 years ago the joke was that the weekends started on Wednesday",
+      "Do people go to SU?"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No dining hall comments found in any source",
+      "Cannot assess dining quality from available data",
+      "Absence of complaints may reflect low engagement, not satisfaction"
+    ],
+    "key_quotes": [
+      "No dining-related quotes available from student sources"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health support comments found in data",
+      "Tutoring center gaps noted — no tutors for some courses",
+      "Small campus may limit resource availability"
+    ],
+    "key_quotes": [
+      "Theres no tutors available at the tutoring center",
+      "No mental health-specific quotes available from student sources"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Listed as a safety school suggesting lower tuition barrier",
+      "No specific financial aid complaints or praise found",
+      "Appears in lists of schools still accepting apps, suggesting enrollment pressure"
+    ],
+    "key_quotes": [
+      "Le Moyne College - #4 Safety",
+      "No financial aid-specific quotes available from student sources"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Tutoring center lacks tutors for at least some upper-level courses",
+      "Switching majors described as paperwork-easy but year-dependent",
+      "No strong praise or criticism of academic rigor in data"
+    ],
+    "key_quotes": [
+      "Theres no tutors available at the tutoring center",
+      "Switching majors is as easy as filling out a form and getting some signatures",
+      "However, it also is going to depend on your current major and your year"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Major switching process involves forms and multiple signatures",
+      "No administration complaints or praise found in data",
+      "Bureaucratic process for academic changes noted but not criticized harshly"
+    ],
+    "key_quotes": [
+      "Switching majors is as easy as filling out a form and getting some signatures",
+      "No administration-specific quotes available from student sources"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus visually described as nice and serene by prospective student",
+      "Located near Syracuse University, offering social overflow options",
+      "Alumni still proudly rep the school decades later"
+    ],
+    "key_quotes": [
+      "such a nice and serene school environment",
+      "I work in CT and I met a customer who was 92 years old wearing a LeMoyne College sweatshirt"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No career outcome data available from student sources",
+      "Alumni loyalty appears strong based on 92-year-old alum anecdote",
+      "Jesuit identity may support career network but unconfirmed in data"
+    ],
+    "key_quotes": [
+      "She told me she was in LeMoynes third graduating class and one of the oldest living alumni",
+      "No career-specific quotes available from student sources"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Consistently treated as a safety school, not a top-choice destination",
+      "No complaints about tuition but no praise for aid packages either",
+      "Perception gap between Le Moyne and higher-ranked Jesuit peers is notable"
+    ],
+    "key_quotes": [
+      "Le Moyne College - #4 Safety",
+      "No value-specific quotes available from student sources"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Small, tight-knit Jesuit school with loyal long-term alumni",
+      "Frequently seen as a safety or backup school, not a first choice",
+      "Social life leans on proximity to Syracuse University"
+    ],
+    "key_quotes": [
+      "phins up",
+      "such a nice and serene school environment",
+      "when I was at LeMoyne 20 years ago the joke was that the weekends started on Wednesday"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academic Support:** tutoring center has no tutors for some upper-level courses",
+      "**Perception:** consistently ranked as a safety school, signaling low prestige ceiling",
+      "**Social Scene:** students may need to leave campus for meaningful social life"
+    ],
+    "key_quotes": [
+      "Theres no tutors available at the tutoring center",
+      "Le Moyne College - #4 Safety",
+      "Do people go to SU?"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "92-year-old alum still proudly wears school sweatshirt — rare loyalty signal",
+      "Easy major switching process is genuinely student-friendly",
+      "Midweek social scene suggests campus is lively, not dead on weekdays"
+    ],
+    "key_quotes": [
+      "one of the oldest living alumni proudly repping her school so many years later",
+      "Switching majors is as easy as filling out a form and getting some signatures",
+      "the weekends started on Wednesday"
+    ],
+    "score": 6
+  }
+}

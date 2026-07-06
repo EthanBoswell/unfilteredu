@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "No student housing data available from these sources",
+      "YouTube comments are from a different Indian institution entirely",
+      "Reddit posts do not mention Saint Francis University PA housing"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Data sources do not contain Saint Francis University PA student reviews"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "No social life data available from provided sources",
+      "Reddit posts are about college essays and app fees, not SFU",
+      "YouTube comments are from St. Francis College Hyderabad, India"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Sources do not reflect Saint Francis University PA student experiences"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No dining data available from these sources",
+      "None of the Reddit posts discuss SFU dining experiences",
+      "YouTube comments are entirely from a different institution"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Insufficient data to assess dining at Saint Francis University PA"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health data available from provided sources",
+      "Reddit posts are general college application advice threads",
+      "No student opinions on counseling or wellness services found"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Sources do not contain Saint Francis University PA mental health feedback"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "No financial aid data available from provided sources",
+      "SFU appears on a list of colleges with no application fees",
+      "No student commentary on scholarships or aid packages found"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "SFU listed among colleges with no supplements and app fee"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "PA program at SFU was briefly mentioned but not reviewed",
+      "No substantive academic feedback exists in provided data",
+      "One Reddit post asks about the PA program with zero responses"
+    ],
+    "key_quotes": [
+      "Is anyone attending st Francis university in Pennsylvania for their PA program? Any thoughts, comments, suggestions?",
+      "No responses or reviews were provided in the thread"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "No administration data available from provided sources",
+      "No student complaints or praise about SFU admin found",
+      "Data sources simply do not cover this institution adequately"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Insufficient data to assess administration at Saint Francis University PA"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "No campus or location data available from provided sources",
+      "YouTube comments are from Hyderabad India, not Pennsylvania",
+      "No student impressions of Loretto PA campus found"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Sources do not contain Saint Francis University PA location feedback"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No career outcomes data available from provided sources",
+      "PA program mention suggests health professions focus but no outcomes data",
+      "No alumni feedback or job placement data in sources"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "Insufficient data to assess career outcomes at Saint Francis University PA"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "No value or tuition data available from provided sources",
+      "No app fee is one minor positive signal found in data",
+      "Cannot assess tuition vs. outcomes from available information"
+    ],
+    "key_quotes": [
+      "No relevant quotes available from provided data",
+      "SFU appears on a list of colleges with no app fee or supplements"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Virtually no usable student opinion data exists in provided sources",
+      "The one SFU Reddit post got zero engagement or responses",
+      "YouTube data is entirely from a different Indian institution"
+    ],
+    "key_quotes": [
+      "Is anyone attending st Francis university in Pennsylvania for their PA program?",
+      "No responses were provided to the one relevant post"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Data Quality:** All YouTube comments are from a completely wrong institution",
+      "**Engagement:** The only SFU Reddit post received zero responses or reviews",
+      "**Visibility:** Near-zero online student discourse suggests very low enrollment or engagement"
+    ],
+    "key_quotes": [
+      "Is anyone attending st Francis university in Pennsylvania for their PA program? Any thoughts, comments, suggestions?",
+      "No student responded to the only relevant SFU post found"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "PA program exists and someone is actively seeking peers in it",
+      "No app fee lowers the barrier to apply and explore",
+      "Low online noise may mean a tight-knit under-the-radar community"
+    ],
+    "key_quotes": [
+      "Is anyone attending st Francis university in Pennsylvania for their PA program?",
+      "SFU listed among colleges with no supplements and app fee"
+    ],
+    "score": 4
+  }
+}

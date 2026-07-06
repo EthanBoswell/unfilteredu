@@ -1,0 +1,168 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm rooms appear spacious with walk-in closets reported",
+      "Apartment-style housing available for upperclassmen",
+      "Limited student commentary suggests housing isn't a major complaint"
+    ],
+    "key_quotes": [
+      "Your dorm is so cool... I love your closet size!!!",
+      "Hii everyone!! Thank you so much... I hope you all love my apartment/dorm room as much as I do!"
+    ],
+    "score": 7
+  },
+  "social_life": {
+    "key_points": [
+      "Described explicitly as a 'bar school' by multiple students and grads",
+      "No Greek life — bar scene is the primary social outlet",
+      "Parties exist but concern raised about non-drinkers finding their place"
+    ],
+    "key_quotes": [
+      "Loyola is a bar school. Pm me if u have any questions as I'm a recent grad",
+      "As for social life, Loyola is a bar school but there are parties during the day",
+      "I am afraid that if I don't go out I won't have an amazing experience at Loyola"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "On-campus Starbucks noted positively by students and neighbors",
+      "Minimal specific dining hall feedback in available data",
+      "At least one student specifically asked for more food detail, suggesting limited info"
+    ],
+    "key_quotes": [
+      "Your Starbucks is a lot better than ours... it's a really nice campus",
+      "Could you talk about food specifically. Like food on campus and name the restaurants"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No direct mention of counseling services in any student data",
+      "Social pressure around drinking culture could isolate non-drinkers",
+      "Bar-centric social scene may create exclusion for some students"
+    ],
+    "key_quotes": [
+      "He doesn't drink but would like to attend college where he can go to parties",
+      "I am afraid that if I don't go out I won't have an amazing experience"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Consistently flagged as one of the most expensive schools in the country",
+      "Merit scholarships exist and are meaningful for some students",
+      "Debt concern is real — students routinely advised to pick cheaper alternatives"
+    ],
+    "key_quotes": [
+      "Nice job. Of course parents may not be so happy... one of the most expensive schools in the country",
+      "Baltimore is not nice/unsafe and an a ridiculous pricetag",
+      "I received a ton of money from these schools which is super nice"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Sellinger School of Business gets specific praise from alumni",
+      "No neuroscience program — students have discovered this mid-research",
+      "Jesuit liberal arts core means significant required coursework outside your major"
+    ],
+    "key_quotes": [
+      "I was a Sellinger Scholar and thought I got a great business education",
+      "Rochester has an undergrad Neuroscience program, Loyola Maryland does not",
+      "I love that there are so many options to get involved"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "School caught using misleading rankings in marketing emails",
+      "Claimed '#4 Best Colleges' by US News without citing the actual niche subcategory",
+      "Online student community is sparse — even students can't find Reddit presence"
+    ],
+    "key_quotes": [
+      "In their latest email, Loyola U Maryland wrote 'NO. 4 — 2020 U.S. NEWS & WORLD REPORT BEST COLLEGES' with no source",
+      "Does anyone even go to this school, I'm looking for any info and can't find anything",
+      "Googling subreddit for Loyola Maryland suggests r/loyola, though not active"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is widely praised as beautiful — a consistent positive across sources",
+      "Baltimore proximity is polarizing — some love it, others cite safety concerns",
+      "Located in a residential area of Baltimore, not embedded in downtown"
+    ],
+    "key_quotes": [
+      "Loyolas campus is way more beautiful",
+      "I'm from Baltimore and hearing you talk about the city in such a positive light makes me so happy",
+      "Baltimore is not nice/unsafe and a ridiculous pricetag"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Strong regional reputation in DMV area specifically",
+      "Business school alumni report solid outcomes and connections",
+      "CS and STEM career pipelines are weak — not known for those fields"
+    ],
+    "key_quotes": [
+      "Loyola is really well known and loved in the DMV area especially",
+      "I was a Sellinger Scholar and thought I got a great business education",
+      "Loyola Maryland etc. are more known for their business schools — would going to one of these colleges hurt my chances at a job in CS?"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Routinely compared unfavorably on cost vs. outcomes by Reddit commenters",
+      "Students frequently advised to choose cheaper state schools over Loyola",
+      "$10k+ annual premium over SUNY schools questioned repeatedly"
+    ],
+    "key_quotes": [
+      "One of the most expensive schools in the country",
+      "SUNY Cortland... for sure. Baltimore is not nice/unsafe and a ridiculous pricetag",
+      "Reddit can't answer this question for you... no debt is generally better than 'some'"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong sense of community — students describe it as 'home'",
+      "Small school feel with tight-knit social bonds is the main draw",
+      "Best fit for social, business-oriented students comfortable with bar culture"
+    ],
+    "key_quotes": [
+      "Loyola is truly home with some of the best experiences, resources, and people ever",
+      "It feels just like home",
+      "You will have better connections and a better time at Loyola. It is such a blast"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Marketing: school used misleading '#4 Best Colleges' claim with no honest context",
+      "Cost: among the most expensive schools nationally with limited ROI justification",
+      "Social culture: bar school identity may alienate non-drinkers and diverse students"
+    ],
+    "key_quotes": [
+      "Loyola U Maryland wrote 'NO. 4 — 2020 U.S. NEWS BEST COLLEGES' — US News actually ranks them far lower overall",
+      "One of the most expensive schools in the country",
+      "Loyola is pretty white too"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Sellinger Business School delivers real value for finance/marketing students",
+      "Baltimore access gives motivated students internship and networking advantages",
+      "Small class sizes mean genuine professor relationships are actually achievable"
+    ],
+    "key_quotes": [
+      "I was a Sellinger Scholar and thought I got a great business education",
+      "I'm from Baltimore and hearing you talk about the city in such a positive light makes me so happy",
+      "Loyola is really well known and loved in the DMV area especially"
+    ],
+    "score": 7
+  }
+}

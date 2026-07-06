@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Dorm quality varies wildly; 'Dirty South' (Ewing, Hoover, Wray) consistently rated worst",
+      "New South dorms ranked best; renovations underway for traditional dorms over next few years",
+      "Bathroom stall doors frequently broken with no locks — reported across multiple buildings"
+    ],
+    "key_quotes": [
+      "Why do almost none of the bathroom stall doors close? The men's locker room has 4 stalls, only one locks.",
+      "Renovations for traditional dorms will take place within the next few years. Dirty South dorms will eventually be renovated.",
+      "Got a single dorm in Hoover House... I have heard things about back south being kinda crummy."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Party scene is dominant and highly visible; non-partiers worry there's nothing else to do",
+      "Making genuine friends is genuinely hard — multiple students report years of loneliness",
+      "Court Street bar scene is a cultural anchor; Athens welcomed warmly by non-students too"
+    ],
+    "key_quotes": [
+      "I've been told by some that there isn't much else to do besides party there.",
+      "It is my third year at Ohio University and despite meeting many great people I have never made a single friend.",
+      "This is my first week and I haven't made any friends... my dorm mate has tons of friends already and is partying every night."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "Nelson dining hall switched to pre-plating all meals — students and staff say it's slow and wasteful",
+      "Lots of off-campus restaurants on Court Street compensate for mediocre dining hall food",
+      "Student health insurance fee (~$1,300) auto-charged unless you actively waive it"
+    ],
+    "key_quotes": [
+      "They have been pre-plating all meals. Me and my coworkers think its dumb and needlessly slow.",
+      "There's SO many restaurants uptown... Bell Tower is the best.",
+      "They were gonna charge me 1.3k on top of my tuition as a commuter — it completely slipped my mind."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "Multiple students report depression and severe loneliness persisting for years at OU",
+      "One student medically withdrew after fall semester due to depression; described experience as 'okay at best'",
+      "Isolated Appalachian location amplifies mental health struggles for students without strong social networks"
+    ],
+    "key_quotes": [
+      "I am a senior at OU with no friends. I'm tired of staying in my room and being depressed.",
+      "I never, at any point could say 'wow, I'm really enjoying my experience here.' It was okay at best.",
+      "I try to be nice to the people in my classes even if ppl can be mean... maybe I'm just genuinely not the social person I thought I was."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Cutler Scholars and HTC programs offer competitive merit aid worth researching early",
+      "OU described as notably more affordable than Ohio State — a major draw for cost-conscious students",
+      "One student stuck paying $2,629 loan overage mid-final-semester with threat of class removal"
+    ],
+    "key_quotes": [
+      "OU was so much more affordable [than OSU]. I'm actually terrified to commit.",
+      "I received an email stating I exceeded my undergraduate federal loan limit by $2,629 and need to pay immediately or I will be dropped from my classes.",
+      "I'm interested in learning more about the Cutler Awards. From my understanding, it's an honors program with a renewable scholarship."
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Scripps School of Journalism widely recognized as a top program and key reason to choose OU over OSU",
+      "Honors Tutorial College (HTC) is a genuine hidden gem — individualized, Oxford-style tutorials",
+      "Some students waitlisted for their own required capstone class — scheduling failures affect graduation"
+    ],
+    "key_quotes": [
+      "I've been admitted into Ohio University's Scripps Journalism program but people have told me there is really nothing to do in Athens.",
+      "I'm waitlisted for my CAPSTONE!!! I should be able to schedule without worrying about a class needed to graduate!!!!",
+      "Ohio University is home to one of the oldest Music Therapy undergrad degree programs in the US. Right now it's under threat."
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "President Lori Gonzalez drew heavy criticism: canceled Black Alumni Week, removed Women's and LGBT centers",
+      "Administration spent close to $1M fighting faculty union while citing 'budget cuts' across departments",
+      "Academic programs eliminated in 2025 due to SB1 compliance; Music Therapy program facing sunset"
+    ],
+    "key_quotes": [
+      "We've experienced: cancellation of Black Alumni week, removal of Women's center and LGBT center, spent close to a million fighting the new faculty union.",
+      "Mass understaffing across the labor union because of 'budget cuts'... only the students and low-rung workers are suffering.",
+      "Ohio University announced the elimination of the following programs to comply with SB1... Music Therapy directed to sunset."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Athens is a genuine, charming college town — beautiful campus widely praised by students and visitors",
+      "Remote Appalachian location means limited job/internship access; you're isolated without a car",
+      "Historic campus with strong alumni nostalgia; outdoorsy vibe with proximity to hills, lakes, forests"
+    ],
+    "key_quotes": [
+      "When I was there it was electric — like being trapped in a golden palace of beer, natural beauty, and attractive students.",
+      "I live in Ohio, where public transit isn't really a thing.",
+      "I parked at the fairgrounds and walked through the campus... thank you Athens."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Scripps journalism grads have strong outcomes; Post student newspaper provides real-world experience",
+      "Engineering and business programs lack the employer name-recognition of OSU — matters for recruiting",
+      "Athens location makes in-person internships rare; students must be proactive about opportunities"
+    ],
+    "key_quotes": [
+      "On one hand, I've been admitted into Ohio University's Scripps Journalism program... on the other hand, OSU doesn't have as good a journalism program.",
+      "I'm committed to OU for mechanical engineering and I'm mostly scared about running out of things to do.",
+      "The Paper spinoff main character went to OU... as a Scripps alum, this was very exciting!"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Strong value vs. Ohio State — significantly cheaper with comparable or better programs in journalism/HTC",
+      "Out-of-state students report sticker shock; merit scholarships like Cutler can offset costs meaningfully",
+      "Faculty union reports faculty are underpaid relative to peer Ohio universities — may affect teaching quality"
+    ],
+    "key_quotes": [
+      "OU was so much more affordable [than OSU]... I'm committed to OU for mechanical engineering.",
+      "Ohio University union pushes for raises, saying faculty underpaid against other Ohio universities.",
+      "I transferred to this University but can't afford it. Now I have to stay in my current college studying something I care little about."
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong party culture and beautiful campus, but social isolation is a real and recurring problem",
+      "Administration actively rolling back DEI resources while faculty push back through unionization",
+      "Passionate alumni love for Athens; current students more ambivalent about day-to-day experience"
+    ],
+    "key_quotes": [
+      "Super liberal but to be expected anymore. Graduated 2019. Miss my friends and the time... Won't regret it.",
+      "How is Ohio University so bad at PR?",
+      "I can't believe how much I hate and love ohio at the same time. The summers are unmatched, but yet there's nothing here for dreamers like me."
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration**: LGBT/Women's centers removed, Black Alumni Week canceled under current president",
+      "**Academics**: Programs eliminated under SB1; Music Therapy being sunsetted; capstone waitlisting seniors",
+      "**Campus Safety**: Neo-Nazi speaker invited to campus; police department investigating social media threats"
+    ],
+    "key_quotes": [
+      "Is Lori Gonzalez our worst president ever? — cancellation of Black Alumni week, removal of Women's center and LGBT center.",
+      "Notice: neo-nazi invited to speak on campus tomorrow... this agitator's goal is to collect clips of students and profit off it.",
+      "Ohio University fired football head coach Brian Smith after he was accused of having an extramarital affair with an undergraduate student."
+    ],
+    "score": 8
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors Tutorial College (HTC) offers rare Oxford-style one-on-one tutorials — criminally underrated nationally",
+      "Scripps School of Journalism is legitimately elite; The Post student paper gives real professional experience",
+      "Glidden Hall music balconies open to all students — free, beautiful space with no major restrictions"
+    ],
+    "key_quotes": [
+      "Math HTC at OU... Williams College is approximately the same price if not a little cheaper. [Student chose HTC as comparable to Williams for math.]",
+      "The Paper spinoff main character went to OU and worked at the school paper. As a Scripps alum, this was very exciting!",
+      "A friend and I want to sing on the Glidden balconies... are those doors locked? [Answer: open to everyone.]"
+    ],
+    "score": 8
+  }
+}

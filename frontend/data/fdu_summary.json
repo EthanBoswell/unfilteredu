@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Wilshire Apartments replaced by Northpointe residence hall recently",
+      "Dorms described as functional but unremarkable by current students",
+      "Move-in day is chaotic with all freshmen arriving simultaneously"
+    ],
+    "key_quotes": [
+      "Except for Wilshire Apartments being replaced by the Northpointe residence, this place hasn't changed in more than 40 years!",
+      "I was put in a dorm super similar to this... Do you have any tips to help with move in day chaos?",
+      "It still looks like a really happy place with a lot of resources"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Small school means limited social scene compared to large universities",
+      "Athletics exist but school is not a major sports culture campus",
+      "March Madness run generated rare burst of school pride and buzz"
+    ],
+    "key_quotes": [
+      "Well done in March Madness, Knights",
+      "He was a DAWG at Heights. Hope he kills it at the next level.",
+      "It still looks like a really happy place"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining feedback found in any student source",
+      "Cost of living and inflation flagged as concern at Vancouver campus",
+      "Students focused on cost savings suggest dining may feel expensive"
+    ],
+    "key_quotes": [
+      "I heard the inflation is crazy there?",
+      "Is it possible to gather fee with the job for next semester or year"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No dedicated mental health support feedback found in sources",
+      "Students mention stress around cost and financial uncertainty",
+      "Visa rejections and deferment denials create significant anxiety for international students"
+    ],
+    "key_quotes": [
+      "My visa got rejected. Now I'm rethinking my plans. Is it really worth it?",
+      "They denied to give deferment because they changed some requirements",
+      "I genuinely have no clue what to do with my life"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarships available and can be substantial — one student got near full ride",
+      "Private school tuition is high; students actively seek ways to cut costs",
+      "AACSB accreditation mentioned as justification for cost at Metro campus"
+    ],
+    "key_quotes": [
+      "The cost of FDU would be 9500 with NJIT costing closer to 13.5k",
+      "I could get a bachelors at FDU for M.E with almost a full ride",
+      "The school also gave me the most scholarships"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Professors are approachable and know students by name — small class advantage",
+      "AACSB-accredited business school is a legitimate credential worth noting",
+      "CS and IT programs exist but peers often recommend NJIT over FDU for tech"
+    ],
+    "key_quotes": [
+      "The professors seem very knowledgeable about the courses. They are approachable, and they also know my name.",
+      "They are also AACSB accredited.",
+      "NJIT better education better connections"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Vancouver campus changed deferment policy mid-process with no workaround offered",
+      "Mandatory English placement test (EPT) surprises incoming students after offer letters",
+      "International student communication appears inconsistent and stressful"
+    ],
+    "key_quotes": [
+      "They denied to give deferment because they changed some requirements... the one time defer option not available for Sep intake students",
+      "They are asking to give a EPT test and that is mandatory please tell me brother about this",
+      "My visa got rejected. Now I'm rethinking my plans."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Teaneck campus is 15 minutes from Manhattan via George Washington Bridge",
+      "Metro campus proximity to NYC is a genuine career and lifestyle asset",
+      "Vancouver campus serves a heavily international South Asian student population"
+    ],
+    "key_quotes": [
+      "Their Teaneck campus is located around 15 minutes from Manhattan (George Washington Bridge)",
+      "The school is close to NYC, which makes it helpful for internships",
+      "I love their Teaneck campus, and the town itself too"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "NYC proximity enables internship access that peers at inland schools lack",
+      "International Vancouver students worried about PGWP eligibility and job prospects",
+      "BS-MBA accelerated path available but MBA straight from undergrad questioned by peers"
+    ],
+    "key_quotes": [
+      "The school is close to NYC, which makes it helpful for internships",
+      "Will I be eligible for PGWP after this masters degree from FDU",
+      "An MBA right out of undergrad won't do a whole lot for you"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "Private school pricing is steep; commuting sophomore year recommended to save money",
+      "Strong merit scholarships can dramatically reduce cost for qualified students",
+      "Students frequently compare FDU cost unfavorably against NJIT for same programs"
+    ],
+    "key_quotes": [
+      "The university I'll be attending is quite costly because it's a private",
+      "Commuting is SO cost efficient",
+      "The cost of FDU would be 9500 with NJIT costing closer to 13.5k"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Small, locally known school — not a brand-name outside New Jersey or South Asia",
+      "Students who stay often value small class sizes and professor relationships",
+      "Many students use FDU as a stepping stone before transferring elsewhere"
+    ],
+    "key_quotes": [
+      "It's a small university only well known locally",
+      "I'm an undergraduate at Fairleigh Dickinson University and I'm planning to transfer to Fordham",
+      "FDU actually had some nice programs... before transferring to NYU"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Administration:** Vancouver campus reversed deferment policy mid-cycle with no alternatives",
+      "**Reputation:** Peers and Reddit consistently recommend NJIT over FDU for tech majors",
+      "**Retention:** Multiple students explicitly used FDU as a temporary stop before transferring"
+    ],
+    "key_quotes": [
+      "They denied to give deferment because they changed some requirements",
+      "NJIT better education better connections",
+      "I'm an undergraduate at FDU and I'm planning to transfer to Fordham"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Near-full-ride scholarships available for strong applicants — ask specifically",
+      "Professors genuinely learn student names — rare at comparably priced schools",
+      "15-minute GWB access to Manhattan is legitimately elite for internship hunting"
+    ],
+    "key_quotes": [
+      "The professors seem very knowledgeable... They are approachable, and they also know my name",
+      "The school is close to NYC, which makes it helpful for internships",
+      "I could get a bachelors at FDU for M.E with almost a full ride"
+    ],
+    "score": 7
+  }
+}

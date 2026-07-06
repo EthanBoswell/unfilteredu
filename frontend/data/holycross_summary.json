@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Freshman dorms like Brooks are functional but visibly outdated",
+      "Hanselman rooms lack overhead lighting; bring a lamp",
+      "'Easy Street' dorms specifically called out as needing renovation"
+    ],
+    "key_quotes": [
+      "'The dorms on Easy Street are in dire need of renovations'",
+      "'Looking exactly the same 14 years later'",
+      "'It is honestly ridiculous how poor quality these dorms are here...all while charging astronomical' tuition"
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Active party scene: dorms mid-week, bars Thu, house parties weekends",
+      "Darties hosted by sports teams are reportedly the highlight",
+      "Small school means tight social circles; some find it cliquey"
+    ],
+    "key_quotes": [
+      "'Wednesday and Thursday tend to be bar nights, house parties or parties in on campus apartments Friday and Saturday'",
+      "'Darties are the most popular events'",
+      "'I graduated 14 years ago, but there wasn't a single weekend that went by that I didn't have multiple options'"
+    ],
+    "score": 7
+  },
+  "dining": {
+    "key_points": [
+      "Science Cafe mentioned positively for specific items like grilled cheese naan",
+      "No substantive complaints or praise about dining halls in data",
+      "Limited data makes a strong assessment impossible"
+    ],
+    "key_quotes": [
+      "'What is the recipe for the grilled cheese naan? I used to get it in the science cafe all the time'"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Some students report intense academic pressure and difficulty adjusting",
+      "Small campus means social struggles feel amplified and inescapable",
+      "Supportive environment mentioned by alumni but pressure is real"
+    ],
+    "key_quotes": [
+      "'My college life was really depressive and overwhelming, especially as I came from outside and struggled to adapt as an introvert'",
+      "'At Holy Cross, I also had the hardest time of my life. But I think it shaped me'",
+      "'It's not a bad college. It's just that you have to have a tough skin'"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Full rides available via QuestBridge; first-gen students report strong packages",
+      "Financial considerations reportedly influence waitlist outcomes",
+      "One student notes paying roughly $90k total out of pocket"
+    ],
+    "key_quotes": [
+      "'JUST GOT A FULL RIDE TO COLLEGE OF HOLY CROSS'",
+      "'I believe it was bc of financials (and, therefore, I wouldn't get out the waitlist anyways)'",
+      "'i paid about $90,000 plus plane flights and my car'"
+    ],
+    "score": 7
+  },
+  "academics": {
+    "key_points": [
+      "Pre-med program is consistently praised; students feel well-supported",
+      "CS degree is theory-heavy; alumni warn it won't make you a job-ready developer",
+      "Small classes and accessible professors are frequently highlighted"
+    ],
+    "key_quotes": [
+      "'Holy Cross pre-med is incredible. I went to Tufts and my sisters went to Holy Cross. They had a better pre-med experience'",
+      "'You will not become a developer if you cannot write code...CS at Holy Cross is of course full of coding courses, however there is a fundamental [gap]'",
+      "'Amazing faculty, small classes. I missed one class in four years'"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "Dining services imposed an English-only policy on multilingual staff, sparking student petition",
+      "Admissions office sends extremely detailed 45-page brochures as recruitment tactic",
+      "Waitlist management described as opaque; some feel finances drive decisions"
+    ],
+    "key_quotes": [
+      "'dining services staff have been told to follow an English-only policy while working'",
+      "'I see where the tuition money goes lol' (re: 45-page brochure)",
+      "'We let in way too many people for our current freshman class, so it dropped from a 36% admit rate last cycle to 21%'"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is universally described as beautiful; a major selling point",
+      "Worcester, MA is not glamorous; students rely on shuttles or Ubers to get around",
+      "Weekend shuttles run to Target, Walmart, and cinemas but schedule is limited"
+    ],
+    "key_quotes": [
+      "'Holy Cross is a great choice with a beautiful campus'",
+      "'A lot of kids Uber or have friends on campus with cars'",
+      "'Yes every weekend Saturdays and Sundays, there are shuttles leaving from the Hoval'"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Alumni network is a frequently cited strength, especially in business and law",
+      "Pre-med feeder reputation is strong; healthcare advisory program mentioned",
+      "CS graduates may need to supplement degree with self-taught skills for tech jobs"
+    ],
+    "key_quotes": [
+      "'Better alumni network' cited as key advantage over comparable schools",
+      "'Their Healthcare (and law) advisory programs are incredible'",
+      "'I was class of 2015 and they didn't teach any real world skills' (CS alum)"
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "Full sticker price now ~$90k/year; several students call it hard to justify",
+      "Strong ROI if you get significant aid; poor ROI at full pay",
+      "One alum bluntly states it 'was not worth' $30k/year 25 years ago"
+    ],
+    "key_quotes": [
+      "'Roughly $90,000 a year now for tuition and fees I believe? Total fucking joke. Not worth it'",
+      "'In the job market of 2026 there is borderline zero reason to spend this much money on school unless you genuinely want the name'",
+      "'i paid about $90,000 plus plane flights and my car'"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Tight-knit Jesuit LAC with strong academics and a loyal alumni base",
+      "Not religiously oppressive but Catholic identity is present and visible",
+      "Works best for students who want small classes and a traditional college feel"
+    ],
+    "key_quotes": [
+      "'Academically rigorous, close knit, high-quality education, great alumni network, excellent feeder school for graduate programs'",
+      "'Cons: Not the most diverse school'",
+      "'HC will change your life in the best possible way'"
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "Cost: Full price ~$90k/year with alumni calling ROI questionable even at $30k",
+      "Administration: English-only policy for multilingual dining staff drew student backlash",
+      "Housing: Dorms described as unchanged in 14 years; some buildings specifically flagged as substandard"
+    ],
+    "key_quotes": [
+      "'Total fucking joke. Not worth it. I went when it was roughly $30,000 a year 25 years ago and was also not worth that then'",
+      "'dining services staff have been told to follow an English-only policy'",
+      "'The dorms on Easy Street are in dire need of renovations'"
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Pre-med advising and healthcare program access is reportedly better than at larger schools",
+      "No mandatory major declaration early on; room to explore before committing",
+      "QuestBridge match makes it a genuinely free option for qualifying first-gen students"
+    ],
+    "key_quotes": [
+      "'I had some time to explore around what I liked and ultimately I was able to find the right major for me'",
+      "'You get early access to courses so registration is easier' for pre-med",
+      "'Congrats! HC will change your life in the best possible way' — QuestBridge admit"
+    ],
+    "score": 8
+  }
+}

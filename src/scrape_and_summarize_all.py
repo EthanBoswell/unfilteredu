@@ -245,6 +245,28 @@ SCHOOLS = [
     {"name": "Kent State University", "slug": "kentstate", "subreddits": ["r/KentState"], "keywords": ["Kent State University", "Golden Flashes", "Kent State", "Kent Ohio"]},
     {"name": "University of Massachusetts", "slug": "umass", "subreddits": ["r/UMass"], "keywords": ["University of Massachusetts", "UMass", "Minutemen", "Amherst Massachusetts"]},
     {"name": "Miami University", "slug": "miamioh", "subreddits": ["r/MiamiOH"], "keywords": ["Miami University", "Miami Ohio", "RedHawks", "Oxford Ohio"]},
+    {"name": "Ohio University", "slug": "ohio", "subreddits": ["r/OhioUniversity"], "keywords": ["Ohio University", "Bobcats", "OU", "Athens Ohio"]},
+    {"name": "University of Toledo", "slug": "toledo", "subreddits": ["r/UToledo"], "keywords": ["University of Toledo", "Toledo Rockets", "Rockets", "Toledo Ohio"]},
+    {"name": "Western Michigan University", "slug": "westernmichigan", "subreddits": ["r/WesternMichigan"], "keywords": ["Western Michigan University", "WMU", "Broncos", "Kalamazoo Michigan"]},
+    {"name": "Sacramento State University", "slug": "sacramentostate", "subreddits": ["r/SacState"], "keywords": ["Sacramento State", "Sac State", "Hornets", "CSUS", "Sacramento California"]},
+    # Patriot League
+    {"name": "American University", "slug": "american", "subreddits": ["r/AmericanUniversity"], "keywords": ["American University", "Eagles", "AU", "Washington DC"]},
+    {"name": "Army West Point", "slug": "army", "subreddits": ["r/WestPoint"], "keywords": ["Army West Point", "West Point", "Black Knights", "USMA", "West Point New York", "military academy"]},
+    {"name": "Boston University", "slug": "bu", "subreddits": ["r/BostonU"], "keywords": ["Boston University", "BU", "Terriers", "Boston Massachusetts"]},
+    {"name": "Bucknell University", "slug": "bucknell", "subreddits": ["r/Bucknell"], "keywords": ["Bucknell University", "Bison", "Lewisburg Pennsylvania"]},
+    {"name": "Colgate University", "slug": "colgate", "subreddits": ["r/ColgateUniversity"], "keywords": ["Colgate University", "Raiders", "Hamilton New York"]},
+    {"name": "College of the Holy Cross", "slug": "holycross", "subreddits": ["r/HolyCross"], "keywords": ["Holy Cross", "College of the Holy Cross", "Crusaders", "Worcester Massachusetts"]},
+    {"name": "Lafayette College", "slug": "lafayette", "subreddits": ["r/LafayetteCollege"], "keywords": ["Lafayette College", "Leopards", "Easton Pennsylvania"]},
+    {"name": "Lehigh University", "slug": "lehigh", "subreddits": ["r/Lehigh"], "keywords": ["Lehigh University", "Mountain Hawks", "Bethlehem Pennsylvania"]},
+    {"name": "Loyola University Maryland", "slug": "loyolamd", "subreddits": ["r/LoyolaMaryland"], "keywords": ["Loyola Maryland", "Loyola University Maryland", "Greyhounds", "Baltimore Maryland"]},
+    # Northeast Conference
+    {"name": "Central Connecticut State University", "slug": "ccsu", "subreddits": ["r/CCSU"], "keywords": ["Central Connecticut State", "CCSU", "Blue Devils", "New Britain Connecticut"]},
+    {"name": "Chicago State University", "slug": "chicagostate", "subreddits": ["r/ChicagoState"], "keywords": ["Chicago State University", "Cougars", "CSU", "Chicago Illinois"]},
+    {"name": "Fairleigh Dickinson University", "slug": "fdu", "subreddits": ["r/FairleighDickinson"], "keywords": ["Fairleigh Dickinson University", "FDU", "Knights", "Teaneck New Jersey"]},
+    {"name": "Le Moyne College", "slug": "lemoyne", "subreddits": ["r/LeMoyneCollege"], "keywords": ["Le Moyne College", "Dolphins", "Syracuse New York"]},
+    {"name": "Long Island University", "slug": "liu", "subreddits": ["r/LIU"], "keywords": ["Long Island University", "LIU", "Sharks", "Brooklyn New York"]},
+    {"name": "Mercyhurst University", "slug": "mercyhurst", "subreddits": ["r/Mercyhurst"], "keywords": ["Mercyhurst University", "Lakers", "Erie Pennsylvania"]},
+    {"name": "Saint Francis University", "slug": "saintfrancis", "subreddits": ["r/SaintFrancisPA"], "keywords": ["Saint Francis University", "Red Flash", "Loretto Pennsylvania"]},
 ]
 
 CATEGORIES = [
