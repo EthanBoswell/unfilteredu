@@ -817,7 +817,9 @@ export function SchoolProfile({
             lineHeight: 1.6,
           }}
         >
-          Based on analysis of {postsAnalyzed.toLocaleString()}+ publicly available posts and comments · Not affiliated with{" "}
+          Based on analysis of {postsAnalyzed.toLocaleString()}+ publicly available posts and comments
+          
+           · Not affiliated with{" "}
           {name} · Last updated {lastUpdated}
         </p>
       </div>

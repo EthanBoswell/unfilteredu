@@ -74,12 +74,32 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="flex items-center justify-between px-8 py-5">
         <Wordmark size={15} dark />
-        <span
-          className="text-[11px]"
-          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
-        >
-          Not affiliated with any university
-        </span>
+        <div className="flex items-center gap-4">
+          <span
+            className="text-[11px]"
+            style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
+          >
+            Not affiliated with any university
+          </span>
+          <a
+            href="/privacy"
+            className="text-[11px]"
+            style={{ fontFamily: "Inter, sans-serif", color: "#444", transition: "color 0.15s" }}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#aaa")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#444")}
+          >
+            Privacy Policy
+          </a>
+          <a
+            href="/terms"
+            className="text-[11px]"
+            style={{ fontFamily: "Inter, sans-serif", color: "#444", transition: "color 0.15s" }}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#aaa")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#444")}
+          >
+            Terms &amp; Conditions
+          </a>
+        </div>
       </div>
 
       <div className="px-8 pb-5 text-center">
