@@ -81,6 +81,18 @@ export default function Footer() {
           Not affiliated with any university
         </span>
       </div>
+
+      <div className="px-8 pb-5 text-center">
+        <span
+          className="text-[11px]"
+          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
+        >
+          Insights are generated from publicly available online discussions and
+          are intended for informational purposes. Opinions belong to their
+          original authors and do not necessarily reflect the views of
+          UnfilteredU.
+        </span>
+      </div>
     </footer>
   );
 }

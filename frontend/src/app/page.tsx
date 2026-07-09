@@ -15,18 +15,15 @@ export const metadata: Metadata = {
 const HOW_IT_WORKS = [
   {
     n: "01",
-    title: "Reddit, YouTube, X",
-    body: "We pull thousands of posts from where students actually talk freely — not official surveys or university-sponsored reviews.",
+    body: "We analyze thousands of publicly available discussions from platforms like Reddit, YouTube, and X to identify common topics and insights.",
   },
   {
     n: "02",
-    title: "AI reads every post",
-    body: "Our AI surfaces what students say about housing, dining, academics, social life, and mental health — across hundreds of posts per school.",
+    body: "AI identifies information and analyzes discussions across topics like housing, dining, academics, social life, and mental health to uncover recurring trends and representative viewpoints.",
   },
   {
     n: "03",
-    title: "You get the real picture",
-    body: "Honest summaries with real quotes, organized by topic. Read the full picture in under 5 minutes.",
+    body: "You get the insights. Get concise summaries with representative quotes, organized by topic, so you can gain insights in just a few minutes.",
   },
 ];
 
@@ -56,24 +53,11 @@ export default async function HomePage() {
                 <div className="flex gap-6 py-8">
                   <span
                     className="shrink-0 pt-0.5 text-[11px] font-bold"
-                    style={{ fontFamily: "Inter, sans-serif", color: "#ccc", width: 24 }}
+                    style={{ fontFamily: "Inter, sans-serif", color: "#111", width: 24 }}
                   >
                     {step.n}
                   </span>
-                  <div>
-                    <h3
-                      className="mb-2"
-                      style={{
-                        fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                        fontWeight: 700,
-                        fontSize: 18,
-                        color: "#111",
-                        letterSpacing: "-0.015em",
-                        lineHeight: 1.2,
-                      }}
-                    >
-                      {step.title}
-                    </h3>
+                    <div>
                     <p
                       className="text-[15px] leading-relaxed"
                       style={{ fontFamily: "Inter, sans-serif", color: "#666" }}

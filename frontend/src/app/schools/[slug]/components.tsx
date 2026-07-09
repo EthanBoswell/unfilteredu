@@ -790,6 +790,23 @@ export function SchoolProfile({
           )}
         </div>
 
+        <p
+          style={{
+            marginTop: 40,
+            paddingTop: 24,
+            textAlign: "center",
+            fontSize: 11,
+            fontStyle: "italic",
+            color: "#c4c4c0",
+            lineHeight: 1.6,
+          }}
+        >
+          Insights are generated from publicly available online discussions and
+          are intended for informational purposes. Opinions belong to their
+          original authors and do not necessarily reflect the views of
+          UnfilteredU.
+        </p>
+
         {/* Footer */}
         <p
           style={{
@@ -800,7 +817,7 @@ export function SchoolProfile({
             lineHeight: 1.6,
           }}
         >
-          Based on {postsAnalyzed.toLocaleString()}+ real student posts · Not affiliated with{" "}
+          Based on analysis of {postsAnalyzed.toLocaleString()}+ publicly available posts and comments · Not affiliated with{" "}
           {name} · Last updated {lastUpdated}
         </p>
       </div>
