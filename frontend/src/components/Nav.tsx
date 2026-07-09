@@ -63,8 +63,6 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
               >
                 {[
                   { label: "About", href: "/about" },
-                  { label: "Terms & Conditions", href: "/terms" },
-                  { label: "Privacy Policy", href: "/privacy" },
                 ].map(({ label, href }) => (
                   <a
                     key={href}
