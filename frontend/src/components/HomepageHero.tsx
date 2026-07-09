@@ -44,30 +44,6 @@ export default function HomepageHero() {
       />
 
       <div className="relative mx-auto max-w-[720px] px-6 py-[72px]">
-        {/* 1. Eyebrow */}
-        <div className="flex items-center gap-2.5 mb-10">
-          <span
-            className="shrink-0 rounded-full animate-pulse"
-            style={{
-              display: "inline-block",
-              width: 4,
-              height: 4,
-              background: "#4ade80",
-              boxShadow: "0 0 6px 2px rgba(74,222,128,0.45)",
-            }}
-          />
-          <span
-            className="text-[11px] font-bold uppercase"
-            style={{
-              fontFamily: "Inter, sans-serif",
-              color: "#555",
-              letterSpacing: "0.12em",
-            }}
-          >
-            Real students · Real posts · No marketing
-          </span>
-        </div>
-
         {/* 3. Divider */}
         <div
           style={{
@@ -91,7 +67,7 @@ export default function HomepageHero() {
             lineHeight: 1.1,
           }}
         >
-          What students actually say about your school.
+          Smarter Insights. Better Decisions.
         </h1>
 
         {/* Subtext */}
@@ -106,9 +82,8 @@ export default function HomepageHero() {
             lineHeight: 1.6,
           }}
         >
-          We read thousands of real posts from Reddit, YouTube, and X — then
-          surface what students actually think. No surveys. No ratings. No
-          filter.
+          We analyze thousands of publicly available online posts to help 
+          you understand what people are saying about schools. No filter. 
         </p>
 
         {/* Search bar */}
