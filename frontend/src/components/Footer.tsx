@@ -72,15 +72,9 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="flex items-center justify-between px-8 py-5">
+      <div className="flex flex-col items-center gap-3 px-8 py-5">
         <Wordmark size={15} dark />
         <div className="flex items-center gap-4">
-          <span
-            className="text-[11px]"
-            style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
-          >
-            Not affiliated with any university
-          </span>
           <a
             href="/privacy"
             className="text-[11px]"
@@ -100,6 +94,12 @@ export default function Footer() {
             Terms &amp; Conditions
           </a>
         </div>
+        <span
+          className="text-[11px]"
+          style={{ fontFamily: "Inter, sans-serif", color: "#444" }}
+        >
+          Not affiliated with any university
+        </span>
       </div>
     </footer>
   );
