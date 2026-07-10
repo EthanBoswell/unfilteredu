@@ -6,6 +6,19 @@ export const metadata: Metadata = {
   title: "Terms & Conditions — UnfilteredU",
 };
 
+const GENERAL_SECTIONS = [
+  {
+    number: "1.1",
+    title: "General Disclaimer",
+    items: [
+      {
+        label: "User-Generated Insights",
+        text: "Insights are generated from publicly available online discussions and are intended for informational purposes. Opinions belong to their original authors and do not necessarily reflect the views of UnfilteredU.",
+      },
+    ],
+  },
+];
+
 const TERMS_SECTIONS = [
   {
     number: "2.1",
@@ -169,6 +182,7 @@ export default function TermsPage() {
 
       <section className="px-8 pt-16 pb-[72px]">
         <div className="mx-auto max-w-[720px]">
+          <SectionGroup sections={GENERAL_SECTIONS} />
           <SectionGroup sections={TERMS_SECTIONS} />
 
           <div className="mb-10 pt-8" style={{ borderTop: "1px solid #e0ddd6" }}>
