@@ -1,0 +1,172 @@
+{
+  "housing": {
+    "key_points": [
+      "Limited direct student feedback on dorms specifically",
+      "Commuter campus option exists in Manchester with scholarship",
+      "No major dorm complaints surfaced, but also little praise"
+    ],
+    "key_quotes": [
+      "I go to their commuter school which isn't too far from where I work",
+      "My kid got a handwritten letter. It was nice."
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Known as a party school — explicitly called out by students",
+      "Traditional college social scene, described as welcoming",
+      "Smaller campus means tighter social circles"
+    ],
+    "key_quotes": [
+      "Academics are notoriously sol... and it is a party school",
+      "UNH is going to be a more traditional college setting/cross section of people",
+      "I have lots of friends that go there"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall feedback in the data",
+      "New Haven CT food scene is a major positive nearby",
+      "Pizza culture in New Haven is genuinely celebrated by locals"
+    ],
+    "key_quotes": [
+      "New Haven has the best pizza",
+      "BAR also has good pizza",
+      "We do have the best pizza here"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One student failing engineering cited ADHD struggles with no support mentioned",
+      "Pressure to switch majors without student consent noted by international applicants",
+      "No mental health resources were praised or even mentioned"
+    ],
+    "key_quotes": [
+      "I have ADHD. I workout. I work harder than most people I know. I do about 80 hours",
+      "the same thing happen to me I applied to cellular and molecular biology but they recommended me to join in Master of Health care administration",
+      "I don't know. Unfortunately, colleges do see mental illness or instability as a red flag"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarships exist but are modest — one international student received only $1,899",
+      "Out-of-state costs hit $52k/year without significant aid",
+      "Manchester campus Millyard Scholarship can drop costs to ~$800/year"
+    ],
+    "key_quotes": [
+      "I got admit from the University of New Haven and received dean scholarship of only 1899$",
+      "New Hampshire gave me a scholarship it would still be about 52000 a year",
+      "I got into the manchester campus with the Millyard Scholarship and i'll be paying 800$ a year"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Academics described as 'notoriously solid' but not rigorous",
+      "Forensic science and criminal justice are known programs",
+      "Engineering and CS seen as weaker than peers like Northeastern"
+    ],
+    "key_quotes": [
+      "Academics are notoriously solid",
+      "UNH is just much weaker, especially in CS",
+      "I am failing MATLAB, physics and statics... I need a 2.0 to continue engineering"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "UNH proactively contacted counselors about student AP research — unusual move",
+      "School switched from RD to rolling mid-cycle, confusing deferred applicants",
+      "Budget problems and program cuts flagged by at least one commenter"
+    ],
+    "key_quotes": [
+      "UNH has like a 87% acceptance and i have like really solid stats... why would UNH go OUT OF THEIR WAY to EMAIL my counselor",
+      "UNH is having terrible budget problems and making cuts that are degrading the school",
+      "they just announced today they're switching from regular decision to rolling admissions. what does that mean for my application?"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Durham campus is scenic, near coast and Portsmouth — genuinely liked",
+      "University of New Haven sits in West Haven CT, near a city with serious safety issues",
+      "New Haven CT has stark poverty surrounding Yale; crime is real and documented"
+    ],
+    "key_quotes": [
+      "Literally located on the Great Bay, right next to Portsmouth, which is arguably a much better city than Burlington",
+      "I live in New Haven, the complete disregard for the danger in this city that some of these kids display is appalling",
+      "at the hotel I was handed a map... 'don't go outside these lines. period.'"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Campus placement concerns raised directly by international MS Finance admits",
+      "Criminal justice major seen as limiting for post-grad opportunities",
+      "CS and engineering grads better served by Northeastern or stronger programs"
+    ],
+    "key_quotes": [
+      "Their ranking is quite low in terms of US universities so i am a bit concerned abt getting a job through campus placements",
+      "I heard that the criminal justice major does not open a lot of opportunities",
+      "UNH is just much weaker, especially in CS. Reconsider Northeastern."
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state or with aid, UNH Durham is a genuine bargain",
+      "Out-of-state without aid, $52k/year is hard to justify over stronger schools",
+      "Manchester campus with Millyard Scholarship may be best value play"
+    ],
+    "key_quotes": [
+      "If I went to UNH I could likely get my master's in 3-4 years from an accelerated program",
+      "New Hampshire gave me a scholarship it would still be about 52000 a year",
+      "I'll be paying 800$ a year but living at home. Is that rare/is it worth it?"
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Friendly, traditional New England college town feel at Durham",
+      "University of New Haven has a grittier urban reality than brochures suggest",
+      "Students who visit Durham tend to like the vibe; few who commit regret it"
+    ],
+    "key_quotes": [
+      "I loved it when I visited. NH is nice too",
+      "I strongly feel that I'll have a more enjoyable and traditional college experience at UNH",
+      "It is a great school with many government contracts, in a cool little town"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Budget: active program cuts and budget problems flagged by multiple sources",
+      "Safety: University of New Haven's surrounding New Haven CT has serious documented crime",
+      "Career: international students report low placement confidence, modest scholarships",
+      "Admissions: mid-cycle policy changes from RD to rolling left deferred students confused"
+    ],
+    "key_quotes": [
+      "UNH is having terrible budget problems and making cuts that are degrading the school",
+      "I've seen Yale students get forced to take money at the ATM then laugh it off as charity",
+      "i am a bit concerned abt getting a job through campus placements",
+      "they just announced today they're switching from regular decision to rolling admissions"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Handwritten letters from department chairs to admitted students — rare personal touch",
+      "Accelerated BS/MS program lets motivated students finish master's in 3-4 years total",
+      "Portsmouth NH nearby is a genuinely excellent small city, often overlooked"
+    ],
+    "key_quotes": [
+      "i got accepted to unh and i've received two handwritten letters, one from the chair of the dept",
+      "If I went to UNH I could likely get my master's in 3-4 years from an accelerated program",
+      "Literally located on the Great Bay, right next to Portsmouth, which is arguably a much better city than Burlington"
+    ],
+    "score": 7
+  }
+}

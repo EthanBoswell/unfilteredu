@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Some dorms still lack AC — confirmed issue since at least 1994",
+      "Communal bathrooms are standard; no private bathrooms in toured dorms",
+      "Dorm quality is inconsistent across campus buildings"
+    ],
+    "key_quotes": [
+      "I'm a graduate of the class of 1994 and you are telling me they STILL do NOT have Air Conditioning in every dorm?",
+      "The dormitory we visited didn't have private bathrooms—does this mean sharing communal bathrooms? That's concerning.",
+      "We got AC everywhere and it's adjustable in our rooms. And we don't pay extra for it."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life exists and frat parties are mentioned positively by alumni",
+      "Small campus size creates a 'claustrophobic' feeling for some students",
+      "Strong sense of community and school spirit around 'Go Tribe' identity"
+    ],
+    "key_quotes": [
+      "The word 'claustrophobic' ran through my mind a few times after being accepted.",
+      "I partied so hard at W&M in 2000. Frat parties were awesome. Jon Stewart came through and got shit faced with us.",
+      "Go Tribe!! I will probably see you in the fall!"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No substantive student data on dining quality found in sources",
+      "Off-campus food options exist along Richmond Road nearby",
+      "Limited firsthand complaints or praise — a data gap"
+    ],
+    "key_quotes": [
+      "Richmond road has lots of food options.",
+      "CONGRATULATIONS I recommend the cheese shop it's really good (it's a restaurant)"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Academic rigor takes a real mental toll — confirmed by alumni and family",
+      "One commenter explicitly transferred out citing improved mental health elsewhere",
+      "High-pressure environment is consistent across decades of student accounts"
+    ],
+    "key_quotes": [
+      "It also takes a huge mental toll. Certainly a high pressure environment.",
+      "I'm a transfer student, and I just can't get over how different a big southern university is compared to W&M. Everyone seems sooo much happier and more carefree. I feel my mental health has drastically improved.",
+      "My anxiety reacted when you literally said the word 'claustrophobic.'"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "W&M gives little to no merit aid — multiple students chose cheaper schools instead",
+      "One student chose VCU over W&M to save $20k/year",
+      "Monroe Scholar award ($15k) is a notable exception for top admits"
+    ],
+    "key_quotes": [
+      "William and Mary gave me nothing and it would cost more than $35,000 per year.",
+      "We declined W&M and UVA 2 years ago in favor of VCU for the same reason.",
+      "I am committed to William & Mary as a Monroe Scholar!"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Rigorous academics are the defining characteristic — universally acknowledged",
+      "Some professors have legendary GPA-crushing reputations; one made campus news",
+      "Strong alumni prep for grad school; medical school alumni praise the rigor"
+    ],
+    "key_quotes": [
+      "He was so legendary for crushing GPAs that the Flat Hat did a piece on his reputation as a GPA killer.",
+      "Because of the academic rigor, you will be very well prepared for graduate school.",
+      "At first I thought William and Mary was in the middle of nowhere until I started medical school in Kentucky. It's all about perspective."
+    ],
+    "score": 8
+  },
+  "administration": {
+    "key_points": [
+      "Admissions office praised for personable, warm communication style",
+      "Increasing class sizes flagged as a growing concern by current students",
+      "Historical tension exists: student video documents a presidential resignation"
+    ],
+    "key_quotes": [
+      "W&M's email and mail advertising is awesome.",
+      "The increasing class sizes is a big big problem for me.",
+      "This was the student experience of Nichol's resignation. I'm so glad someone was recording our story."
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is genuinely historic and beautiful — archaeology happens on-site",
+      "Williamsburg feels small/rural to some but more accessible than it looks",
+      "Busch Gardens, beaches, Richmond all within 30-45 min; Target is 10 min"
+    ],
+    "key_quotes": [
+      "Truly wild how old some of the buildings on campus are. Not often you can have archeology going on at your campus.",
+      "There's plenty to do off campus. W&M is not in the middle of nowhere. There are beaches 5 miles away.",
+      "The heat here in VA, especially Williamsburg, can be really bad. Summer of 2022 it was 102-112 degrees for nearly the entire time."
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Strongest pipeline is public service — school claims highest % of any US college",
+      "Strong alumni network consistently praised across decades of graduates",
+      "Less clear advantage for finance/consulting vs. a flagship like UVA"
+    ],
+    "key_quotes": [
+      "There is a very strong alumni network and, because of the academic rigor, you will be very well prepared for graduate school.",
+      "The school has the highest percent of students that go into public service.",
+      "Do you wanna do finance/consulting? I'm not sure W&M will give you a huge boost anyway."
+    ],
+    "score": 7
+  },
+  "value_for_money": {
+    "key_points": [
+      "OOS sticker price (~$55k/year) with minimal aid is a dealbreaker for many",
+      "In-state students get significantly better value; OOS value is questionable",
+      "Multiple students chose cheaper schools (VCU, LSU) without regret"
+    ],
+    "key_quotes": [
+      "LSU costs about 14k a year while William and Mary would cost closer to 55k.",
+      "Money. It was literally just money. VCU will cost me $15,000 per year. William and Mary gave me nothing.",
+      "Tons of my friends made the same decision and were SO happy with it."
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Academically intense, historically rich, tight-knit — but not for everyone",
+      "Strong loyalty among alumni; current students often love it despite complaints",
+      "Best fit for public service-oriented, intellectually driven, community-minded students"
+    ],
+    "key_quotes": [
+      "I picked W&M over UVA 30 years ago — never regretted it because it was right for me.",
+      "I loved your video, it reminded me of why I loved W&M so much.",
+      "This sounds like the school of my dreams, or at least as close as it could be."
+    ],
+    "score": 7
+  },
+  "red_flags": {
+    "key_points": [
+      "**Mental Health:** Transfer student reports drastic improvement after leaving W&M",
+      "**Housing:** No AC in some dorms is a decades-old unresolved infrastructure problem",
+      "**Financial Aid:** Near-zero merit aid for OOS students makes cost unsustainable for many"
+    ],
+    "key_quotes": [
+      "I feel my mental health has drastically improved [after transferring from W&M].",
+      "You are telling me they STILL do NOT have Air Conditioning in every dorm? — Class of 1994 alum",
+      "William and Mary gave me nothing and it would cost more than $35,000 per year."
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Monroe Scholar program offers $15k and research opportunities for top admits",
+      "Williamsburg's historic district is literally walkable from campus",
+      "Admissions team is unusually warm — sends personalized poems and holiday emails"
+    ],
+    "key_quotes": [
+      "Whoever wrote this [W&M poem] needs a damn raise.",
+      "Committing to William & Mary as a Monroe Scholar! Go Tribe!",
+      "Not often you can have archaeology going on at your campus."
+    ],
+    "score": 8
+  }
+}

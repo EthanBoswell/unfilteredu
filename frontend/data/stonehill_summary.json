@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints about housing in available data",
+      "Campus visit noted as 'very quiet' suggesting low residential energy",
+      "Small school size likely means tight-knit dorm communities"
+    ],
+    "key_quotes": [
+      "It was very quiet when i visited",
+      "Do you have to live on campus to make friends?"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Campus described as noticeably quiet during visits — a real concern",
+      "Small size raises genuine questions about friend-making off-campus",
+      "No evidence of vibrant social scene in any student comments"
+    ],
+    "key_quotes": [
+      "It was very quiet when i visited",
+      "Is it easy to make friends? Do you have to live on campus to make friends?",
+      "Into the Streets [community service] to fantastic faculty; Stonehill has all of the right pieces"
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "One commenter called cafeterias 'amazing' — only direct dining feedback",
+      "No student complaints about food quality or meal plans found",
+      "Limited data makes a confident assessment impossible"
+    ],
+    "key_quotes": [
+      "The cafeterias are amazing",
+      "The place was fun and the cafeterias are amazing"
+    ],
+    "score": 7
+  },
+  "mental_health": {
+    "key_points": [
+      "Zero mentions of counseling, mental health resources, or support services",
+      "Small campus community could mean less anonymity for struggling students",
+      "Insufficient data to evaluate this category meaningfully"
+    ],
+    "key_quotes": [
+      "Spiritual development through campus ministry to community service through Into the Streets",
+      "The whole person concept. It is a key piece of the Stonehill culture"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "Stonehill offered competitive scholarships beating out several peer schools",
+      "Listed at ~$20k after aid in one biochem comparison — standout value",
+      "Application fee waiver code '1948' circulated publicly, suggesting active recruitment"
+    ],
+    "key_quotes": [
+      "Stonehill College ~$20k [after scholarships, compared to BU/Northeastern at ~$80k]",
+      "With my recent acceptance to Stonehill, they offered me a pretty good deal with a scholarship award",
+      "Stonehill College - 1948 [fee waiver code]"
+    ],
+    "score": 8
+  },
+  "academics": {
+    "key_points": [
+      "Small classes and major flexibility cited as genuine advantages over large schools",
+      "Holy Cross peer — respected regional LAC academic profile",
+      "Faculty praised directly by alumni as 'fantastic' with accessible teaching style"
+    ],
+    "key_quotes": [
+      "I like the small classes and the flexibility (in large schools, like Umass, it's very hard to switch majors)",
+      "Fantastic faculty; Stonehill has all of the right pieces",
+      "Stonehill is best by far of those schools (private, D1, etc)"
+    ],
+    "score": 7
+  },
+  "administration": {
+    "key_points": [
+      "No direct complaints about administration in any student posts",
+      "Admissions office appears responsive — waitlisted students encouraged to reapply",
+      "Financial aid negotiation appears possible based on student experience"
+    ],
+    "key_quotes": [
+      "All of them replied to me and said that I should apply in the future",
+      "Yes mentioning other school's financial aid offers helps when negotiating"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Easton, MA is suburban — limited walkable amenities or city access",
+      "Campus called 'the Disneyland of colleges' for aesthetics — beautiful grounds",
+      "Quiet suburban setting is a real tradeoff for students wanting urban energy"
+    ],
+    "key_quotes": [
+      "It's the Disneyland of colleges!!",
+      "I understand that it's small and located in suburbia",
+      "It was very quiet when i visited"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data or employer connection mentions found",
+      "Holy Cross peer group suggests solid graduate school placement historically",
+      "D1 athletics status mentioned as a positive differentiator for the school"
+    ],
+    "key_quotes": [
+      "Stonehill is best by far of those schools (private, D1, etc)",
+      "Two friends have sent their kids to Stonehill... both kids have been very positive about their experiences"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "At ~$20k after merit aid, undercuts BU and Northeastern by $60k — strong deal",
+      "Competes academically with Providence College while costing significantly less",
+      "Merit scholarships appear generous and negotiable — worth pushing back on offers"
+    ],
+    "key_quotes": [
+      "Stonehill College ~$20k [vs. Northeastern ~$80k, BU ~$80k for same student]",
+      "They offered me a pretty good deal with a scholarship award",
+      "Stonehill is best by far of those schools (private, D1, etc)"
+    ],
+    "score": 8
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Beautiful campus, Catholic identity, 'whole person' mission — consistent school culture",
+      "Quiet, suburban, tight-knit — ideal for introverts, potentially isolating for others",
+      "Alumni speak warmly but data is thin — more hype than hard evidence"
+    ],
+    "key_quotes": [
+      "It's been my dream school since 6th grade!! It's the Disneyland of colleges!!",
+      "The whole person concept is a key piece of the Stonehill culture",
+      "It was very quiet when i visited"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Social Scene:** Campus visibly quiet during tours — not anecdotal, repeated concern",
+      "**Isolation Risk:** Suburban Easton location with no urban core nearby limits off-campus life",
+      "**Data Scarcity:** Almost no current enrolled students sharing candid opinions online"
+    ],
+    "key_quotes": [
+      "It was very quiet when i visited",
+      "Is it easy to make friends? Do you have to live on campus to make friends?",
+      "I understand that it's small and located in suburbia"
+    ],
+    "score": 5
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Major-switching flexibility is genuinely easier here than at large state schools",
+      "Merit aid can be stacked and negotiated — unusually transparent financial process",
+      "D1 athletics at a small LAC is rare — sports culture without stadium-school chaos"
+    ],
+    "key_quotes": [
+      "I like the small classes and the flexibility (in large schools, like Umass, it's very hard to switch majors)",
+      "Stonehill is best by far of those schools (private, D1, etc)",
+      "Both kids have been very positive about their experiences"
+    ],
+    "score": 7
+  }
+}

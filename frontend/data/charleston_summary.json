@@ -1,0 +1,169 @@
+{
+  "housing": {
+    "key_points": [
+      "Limited direct student feedback on dorms in available data",
+      "Campus integration into historic downtown is a noted perk",
+      "Dorm quality comparisons to UofSC were a decision factor"
+    ],
+    "key_quotes": [
+      "Anyone have insight as to which school is better in terms of DORMS",
+      "The campus is integrated into the city in a picturesque way"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Greek life is only ~22%, easy to exist outside it",
+      "Gender imbalance is real: only 33% male student body",
+      "Gay male community described as 'incredibly small and isolating'"
+    ],
+    "key_quotes": [
+      "College of Charleston is only about 22% Greek",
+      "Only 33% of the school is males so that makes the population so much smaller",
+      "The community is incredibly small and isolating here"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No direct student comments about dining quality or options",
+      "Downtown Charleston location means off-campus food options are plentiful",
+      "Cannot score fairly without student dining hall feedback"
+    ],
+    "key_quotes": [
+      "A good place to hang out is downtown by the pier",
+      "There is an ice cream shop right by the strip that is fire"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One parent reported child came home from freshman year with PTSD",
+      "No institutional mental health support resources mentioned by students",
+      "Stress around COVID cancellations and poor communication noted"
+    ],
+    "key_quotes": [
+      "My kid came from her freshman year with PTSD",
+      "Wtf CofC. Just tell us its all canceled",
+      "Our program is still worth the tuition you paid. The in person classes will just begin 'later'"
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships available and frequently mentioned as a draw",
+      "Honors College fellowship program can significantly increase aid",
+      "Out-of-state aid around $12-16k/year reported by admitted students"
+    ],
+    "key_quotes": [
+      "I got in! 12k/yr out of state",
+      "I GOT IN TODAY!!!! honors college, 16k, instate",
+      "COFC has better financial aid so far"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "Described as better for undergrad opportunities than UofSC by students",
+      "Weak resources for niche majors like animation and some STEM fields",
+      "Honors College widely praised; stronger academics than general admits"
+    ],
+    "key_quotes": [
+      "CofC has better opportunities for undergraduates. You will not regret it",
+      "CofC which has a small amount of resources for my degree",
+      "Since you didn't receive enough money, CofC definitely could be if I got into the fellows program"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "COVID communication was vague and frustrating to students",
+      "Portal instructions for withdrawal are confusing or nonexistent",
+      "Transfer acceptance rate is high (93%) suggesting accessible admissions"
+    ],
+    "key_quotes": [
+      "Wtf CofC. Just tell us its all canceled",
+      "There are literally no instructions on the portal",
+      "CofC has a 93% transfer acceptance rate"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is consistently called beautiful and picturesque by students and visitors",
+      "Historic downtown Charleston fully integrated into campus experience",
+      "Actual beach is farther from campus than students sometimes expect"
+    ],
+    "key_quotes": [
+      "This college is picturesque, that's the only word for it",
+      "The way the campus is integrated into the city",
+      "I am aware CofC is farther from its beach than UNC Wilmington"
+    ],
+    "score": 9
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No strong alumni network or career placement data mentioned by students",
+      "Seen mostly as a safety or target school, not a career launchpad",
+      "Pre-law program noted as a positive by one military student commenter"
+    ],
+    "key_quotes": [
+      "CofC does a great job providing opportunities for military and former military students",
+      "Their pre-law program is also strong",
+      "Clemson and Charleston are pretty similar academically"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state with merit aid or Honors scholarship makes it genuinely cheap",
+      "Out-of-state without strong aid package considered poor value by students",
+      "Multiple students chose it over debt at bigger-name schools"
+    ],
+    "key_quotes": [
+      "Only attend out of state if you can afford the debt after you graduate",
+      "Not worth taking 160k in debt for a school like UGA. Go to COC",
+      "I would go to the one with the best deal"
+    ],
+    "score": 7
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Fun, beach-adjacent social school with a strong aesthetic appeal",
+      "Frequently listed as a safety but students genuinely enjoy it",
+      "Better fit for students who want city life over traditional college town"
+    ],
+    "key_quotes": [
+      "College of Charleston probably checks off more of your priorities than any other",
+      "Just spent 2 years at a college in LA and I'm so sick of it so I applied to transfer to Charleston",
+      "do NOT go to cofc"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Mental Health: parent reported student developed PTSD after freshman year",
+      "Administration: COVID handling was evasive and dismissive of student concerns",
+      "Diversity: gay male community called isolating; school is 67% female"
+    ],
+    "key_quotes": [
+      "My kid came from her freshman year with PTSD",
+      "Wtf CofC. Just tell us its all canceled",
+      "The community is incredibly small and isolating here"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors College Fellows program can unlock major scholarship money",
+      "Military and veteran students get strong institutional support",
+      "Priority status mailers are real and can mean fee waivers plus scholarship consideration"
+    ],
+    "key_quotes": [
+      "CofC does a great job of engaging with and providing opportunities for military and former military students",
+      "It just means that based on your stats they want you to go there, so they have a meaningless title like priority status and usually a fee waiver",
+      "CofC isn't my top choice currently because I didn't receive enough money, but it definitely could be if I got into the fellows program"
+    ],
+    "score": 7
+  }
+}

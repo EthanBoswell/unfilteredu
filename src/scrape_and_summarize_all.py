@@ -165,6 +165,13 @@ SCHOOLS = [
     {"name": "Wichita State", "slug": "wichitastate", "subreddits": ["r/wichitastate"], "keywords": ["Wichita State University", "Shockers", "Wichita Kansas"]},
     # Summit League
     {"name": "University of Saint Thomas", "slug": "stthomas", "subreddits": ["r/uofstthomas", "r/StThomasMN"], "keywords": ["University of Saint Thomas", "St. Thomas Tommies", "Minneapolis Minnesota", "UST Minnesota"]},
+    {"name": "University of Missouri-Kansas City", "slug": "umkc", "subreddits": ["r/UMKC"], "keywords": ["UMKC", "University of Missouri Kansas City", "Roos", "Kansas City Missouri"]},
+    {"name": "North Dakota State University", "slug": "ndsu", "subreddits": ["r/NDSU"], "keywords": ["North Dakota State University", "NDSU", "Bison", "Fargo North Dakota"]},
+    {"name": "University of Nebraska Omaha", "slug": "omaha", "subreddits": ["r/UNOmaha"], "keywords": ["University of Nebraska Omaha", "UNO", "Mavericks", "Omaha Nebraska"]},
+    {"name": "Oral Roberts University", "slug": "oralroberts", "subreddits": ["r/OralRoberts"], "keywords": ["Oral Roberts University", "ORU", "Golden Eagles", "Tulsa Oklahoma"]},
+    {"name": "University of South Dakota", "slug": "southdakota", "subreddits": ["r/UofSD"], "keywords": ["University of South Dakota", "USD", "Coyotes", "Vermillion South Dakota"]},
+    {"name": "South Dakota State University", "slug": "southdakotastate", "subreddits": ["r/SDSU"], "keywords": ["South Dakota State University", "SDSU", "Jackrabbits", "Brookings South Dakota"]},
+
     # Atlantic 10
     {"name": "University of Dayton", "slug": "dayton", "subreddits": ["r/udayton"], "keywords": ["University of Dayton", "Flyers", "Dayton Ohio"]},
     {"name": "Duquesne University", "slug": "duquesne", "subreddits": ["r/Duquesne"], "keywords": ["Duquesne University", "Dukes", "Pittsburgh Pennsylvania"]},
@@ -217,9 +224,7 @@ SCHOOLS = [
     {"name": "Xavier University", "slug": "xavier", "subreddits": ["r/Xavier"], "keywords": ["Xavier University", "Musketeers", "Cincinnati Ohio"]},
     # MEAC
     {"name": "Coppin State University", "slug": "coppinstate", "subreddits": ["r/CoppinState"], "keywords": ["Coppin State University", "Eagles", "Baltimore Maryland"]},
-    {"name": "Delaware State University", "slug": "delawarestate", "subreddits": ["r/DelawareState"], "keywords": ["Delaware State University", "Hornets", "DSU", "Dover Delaware"]},
     {"name": "University of Maryland Eastern Shore", "slug": "umes", "subreddits": ["r/UMES"], "keywords": ["UMES", "University of Maryland Eastern Shore", "Hawks", "Princess Anne Maryland"]},
-    {"name": "Morgan State University", "slug": "morganstate", "subreddits": ["r/MorganState"], "keywords": ["Morgan State University", "Bears", "Baltimore Maryland", "HBCU"]},
     {"name": "Norfolk State University", "slug": "norfolkstate", "subreddits": ["r/NorfolkState"], "keywords": ["Norfolk State University", "Spartans", "NSU", "Norfolk Virginia", "HBCU"]},
     {"name": "North Carolina Central University", "slug": "nccu", "subreddits": ["r/NCCU"], "keywords": ["NCCU", "North Carolina Central University", "Eagles", "Durham North Carolina", "HBCU"]},
     {"name": "South Carolina State University", "slug": "scstate", "subreddits": ["r/SCState"], "keywords": ["South Carolina State University", "Bulldogs", "SC State", "Orangeburg South Carolina", "HBCU"]},
@@ -267,6 +272,22 @@ SCHOOLS = [
     {"name": "Long Island University", "slug": "liu", "subreddits": ["r/LIU"], "keywords": ["Long Island University", "LIU", "Sharks", "Brooklyn New York"]},
     {"name": "Mercyhurst University", "slug": "mercyhurst", "subreddits": ["r/Mercyhurst"], "keywords": ["Mercyhurst University", "Lakers", "Erie Pennsylvania"]},
     {"name": "Saint Francis University", "slug": "saintfrancis", "subreddits": ["r/SaintFrancisPA"], "keywords": ["Saint Francis University", "Red Flash", "Loretto Pennsylvania"]},
+    {"name": "Stonehill College", "slug": "stonehill", "subreddits": ["r/StonehillCollege"], "keywords": ["Stonehill College", "Skyhawks", "Easton Massachusetts"]},
+    {"name": "University of New Haven", "slug": "newhaven", "subreddits": ["r/UNewHaven"], "keywords": ["University of New Haven", "Chargers", "UNH", "West Haven Connecticut"]},
+    {"name": "Wagner College", "slug": "wagner", "subreddits": ["r/WagnerCollege"], "keywords": ["Wagner College", "Seahawks", "Staten Island New York"]},
+    # CAA
+    {"name": "Campbell University", "slug": "campbell", "subreddits": ["r/CampbellUniversity"], "keywords": ["Campbell University", "Camels", "Buies Creek North Carolina"]},
+    {"name": "College of Charleston", "slug": "charleston", "subreddits": ["r/collegeofcharleston"], "keywords": ["College of Charleston", "Cougars", "CofC", "Charleston South Carolina"]},
+    {"name": "Drexel University", "slug": "drexel", "subreddits": ["r/Drexel"], "keywords": ["Drexel University", "Dragons", "Philadelphia Pennsylvania"]},
+    {"name": "Elon University", "slug": "elon", "subreddits": ["r/ElonUniversity"], "keywords": ["Elon University", "Phoenix", "Elon North Carolina"]},
+    {"name": "Hampton University", "slug": "hamptonu", "subreddits": ["r/HamptonUniversity"], "keywords": ["Hampton University", "Pirates", "HU", "Hampton Virginia", "HBCU"]},
+    {"name": "Hofstra University", "slug": "hofstra", "subreddits": ["r/Hofstra"], "keywords": ["Hofstra University", "Pride", "Hempstead New York", "Long Island"]},
+    {"name": "Monmouth University", "slug": "monmouth", "subreddits": ["r/MonmouthUniversity"], "keywords": ["Monmouth University", "Hawks", "West Long Branch New Jersey"]},
+    {"name": "Northeastern University", "slug": "northeastern", "subreddits": ["r/NEU"], "keywords": ["Northeastern University", "Huskies", "NEU", "Boston Massachusetts"]},
+    {"name": "Stony Brook University", "slug": "stonybrook", "subreddits": ["r/SBU"], "keywords": ["Stony Brook University", "Seawolves", "SBU", "Stony Brook New York"]},
+    {"name": "Towson University", "slug": "towson", "subreddits": ["r/Towson"], "keywords": ["Towson University", "Tigers", "Towson Maryland"]},
+    {"name": "UNC Wilmington", "slug": "uncwilmington", "subreddits": ["r/UNCW"], "keywords": ["UNC Wilmington", "UNCW", "Seahawks", "Wilmington North Carolina"]},
+    {"name": "William & Mary", "slug": "williamandmary", "subreddits": ["r/wmco"], "keywords": ["William and Mary", "William & Mary", "Tribe", "Williamsburg Virginia"]},
 ]
 
 CATEGORIES = [

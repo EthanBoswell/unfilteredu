@@ -1,0 +1,171 @@
+{
+  "housing": {
+    "key_points": [
+      "Commuting from 30 minutes away is a real option students consider",
+      "On-campus living roughly doubles total cost for some students",
+      "Campus tour video notably skips certain halls like East Hall"
+    ],
+    "key_quotes": [
+      "lmao they just totally ignored East Hall and the social science programs. Shows you where the priorities are here lol",
+      "living on campus would double my tuition to approximately $22,000 USD",
+      "I will be moving in with my mom about 30 minutes from the college"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Dakota Days is a beloved annual tradition with intense school spirit",
+      "Bar culture is prominent; alumni recall all-night drinking during D-Days",
+      "Small-town isolation is a real concern students warn each other about"
+    ],
+    "key_quotes": [
+      "Sucks getting old, used to be out till 5 am Friday night and back at the bar at 7am Saturday",
+      "Ddays is my fav time of the year I celebrate it every year",
+      "A lot of people have been telling that South Dakota is pretty isolated"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall complaints or praise found in student data",
+      "Meal plan costs factor into already-tight student budgets",
+      "Limited data available; not a topic students are actively discussing"
+    ],
+    "key_quotes": [
+      "No direct quotes about USD dining found in available data",
+      "No direct quotes about USD dining found in available data",
+      "No direct quotes about USD dining found in available data"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Geographic isolation raises mental health concerns for out-of-state students",
+      "International students specifically warn about culture shock and loneliness",
+      "No mention of USD-specific counseling or support services in student posts"
+    ],
+    "key_quotes": [
+      "A lot of people have been telling that South Dakota is pretty isolated",
+      "amidst my already deep depression because of staying away from family, having no friends, completely different culture",
+      "I've had a lot of difficulty making close friends who I can resonate with"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "USD packages loans disguised as 'financial aid' — major student complaint",
+      "Parent PLUS loans buried in aid letters shock families expecting grants",
+      "Cost is USD's main competitive advantage over peer schools"
+    ],
+    "key_quotes": [
+      "Fed Direct Parent PLUS Loan $31,583.00 — They should really be clearer about this",
+      "Got the same f'ing email today. 20K Parent PLUS loan per year as part of the award. My mom just rolled her eyes.",
+      "I really hate that they can loans an 'award,' especially when my dad just barely paid off his student loans"
+    ],
+    "score": 4
+  },
+  "academics": {
+    "key_points": [
+      "Psychology and Computer Science programs attract student interest",
+      "Online courses cheaper than in-person — $1,411 vs $2,324 per 3 credits",
+      "Campus tour ignores social science buildings, suggesting resource inequality"
+    ],
+    "key_quotes": [
+      "Fees for one offline subject (3 credits) = 2323.95$ vs one online subject = 1411.35$",
+      "I really do wanna know the realistic view of USD — the psychology program (YES pls)",
+      "lmao they just totally ignored East Hall and the social science programs. Shows you where the priorities are here"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Scholarship emails take nearly a week to get a response — or no reply at all",
+      "Students recommend calling instead of emailing to get any real answer",
+      "Financial aid letters are deliberately misleading about loans vs. grants"
+    ],
+    "key_quotes": [
+      "It's been nearly a week now since I emailed them a simple question about scholarships and still no word. Feels bad man.",
+      "Pro tip: If you want info from a university call them. I've gotten zero information from my emails",
+      "They should really be clearer about the fact that 37K of this 'award' is loans"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "South Dakota's isolation is the number-one concern prospective students raise",
+      "Fine Arts Building called ugly even by alumni: 'brick boxes without windows'",
+      "Campus has genuine charm but small-town setting limits off-campus options"
+    ],
+    "key_quotes": [
+      "A lot of people have been telling that South Dakota is pretty isolated",
+      "The Fine Arts Building is a bunch of brick boxes without windows dumped on top of one another. Even in South Dakota.",
+      "the video brought back some fond memories — Attended and graduated from USD in the 1970s"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Virtually no career outcome data from students in available sources",
+      "Psychology and CS grads mention USD as stepping stone, not destination",
+      "One student planning to use USD as transfer launchpad to UC schools"
+    ],
+    "key_quotes": [
+      "I intend to apply to transfer into some UC schools (probably UCB, UCLA, UCI) after first year at USD",
+      "I'm considering getting a political science degree from a cheap state school (university of south dakota)",
+      "No strong career placement data mentioned by current students"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Price is USD's clearest strength — frequently cited as reason to attend",
+      "In-state and honors program costs make it genuinely competitive",
+      "Hidden loan packaging in aid letters undercuts perceived affordability"
+    ],
+    "key_quotes": [
+      "Usd would be ridiculously cheap but everyone from my class is going to bigger name schools",
+      "compared to the fees there and in USD, it's better to study at USD cuz it's cheaper",
+      "20K Parent PLUS loan per year as part of the award. My mom just rolled her eyes. I think this one is out."
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong school spirit and tight community — Dakota Days is genuinely beloved",
+      "Attracts students who prioritize affordability over prestige",
+      "Socially comfortable but academically low-pressure reputation precedes it"
+    ],
+    "key_quotes": [
+      "Ddays is my fav time of the year I celebrate it every year the best day I love my town",
+      "Usd would be ridiculously cheap but everyone from my class is going to bigger name schools",
+      "I got into the University of South Dakota for CS — Excited because I'm from the east coast"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Financial Aid: loans bundled into aid packages without clear labeling",
+      "Administration: slow or nonexistent email responses to basic scholarship questions",
+      "Campus Resources: tour video skips entire academic buildings, signaling resource gaps"
+    ],
+    "key_quotes": [
+      "Fed Direct Parent PLUS Loan $31,583.00 — listed as 'financial aid'",
+      "It's been nearly a week since I emailed them a simple question about scholarships and still no word",
+      "lmao they just totally ignored East Hall and the social science programs. Shows you where the priorities are"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Honors program offers real academic rigor at a fraction of peer school costs",
+      "Online courses significantly cheaper than in-person — good for budget-conscious students",
+      "Small cohort size means less competition for faculty attention and opportunities"
+    ],
+    "key_quotes": [
+      "I have the chance at the honors program at both USD and UNL",
+      "Fees for one online subject (3 credits) = 1411.35$ vs offline = 2323.95$",
+      "Attended and graduated from USD in the 1970s — it was a very good experience"
+    ],
+    "score": 6
+  }
+}

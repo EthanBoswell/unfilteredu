@@ -1,0 +1,156 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student feedback on dorms available from these sources",
+      "Campus recently expanded with St. John's acquisition adding 10 buildings",
+      "Commuter student experience documented, suggesting not all students live on campus"
+    ],
+    "key_quotes": [
+      "Wagner continues to make bold investments in current and future academic programs",
+      "College has completed the purchase of the Grymes Hill campus"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Virtually no student social life discussion found in available data",
+      "Commuter student population exists, which can fragment campus community",
+      "No mentions of clubs, events, or weekend life from students"
+    ],
+    "key_quotes": [
+      "came from ericksons Snapchat, that's how I found out about you",
+      "Hey your so pretty and u seem like u have a good personality"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Zero student comments about dining halls or food quality found",
+      "No mentions of meal plans, dining options, or food variety",
+      "Absence of data makes honest assessment impossible"
+    ],
+    "key_quotes": [
+      "No direct quotes available from student sources on dining"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "No student discussion of counseling, wellness, or mental health support",
+      "High acceptance rate noted, which may affect student stress culture",
+      "Absence of any mental health discourse in available data"
+    ],
+    "key_quotes": [
+      "No direct quotes available from student sources on mental health"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Scholarship competition is fierce — Trust Me Scholarship given to only one international student",
+      "High acceptance rate raises questions about merit aid competitiveness",
+      "Parents pushing Wagner suggests affordability may be a selling point for some"
+    ],
+    "key_quotes": [
+      "Wagner has a high acceptance rate and is accepting many international students. Since the Trust Me Scholarship is awarded to only one international student, competition is stiff",
+      "Perhaps your parents are pushing Wagner for a reason — edit your post to add your net cost"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Theater and musical theatre programs appear to be Wagner's flagship draw",
+      "Theater education major competitiveness is unclear even to prospective students",
+      "Double majoring in theater plus sciences like biology appears possible but uncommon"
+    ],
+    "key_quotes": [
+      "I know that the theater department is pretty competitive. Was wondering if that's just the performing or the education too",
+      "I'm currently a high school junior considering applying for a double major — either theatre or musical theatre, but also psychology or biology"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Campus video tour appears outdated — school may need updating per YouTube note",
+      "President made bold public statement about campus expansion, signaling institutional ambition",
+      "Required visit essay question creates pressure on applicants who can't travel to campus"
+    ],
+    "key_quotes": [
+      "If you are working for the school and/or think this school needs updating, please reach out to us via email",
+      "Wagner College has a required essay question asking what you gained from the college visit if you visited"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located on Staten Island — isolated compared to Manhattan-based NYC schools",
+      "Campus physically expanded with 16.5-acre St. John's acquisition in 2024",
+      "Historic campus aesthetic noted but no student opinions on daily livability"
+    ],
+    "key_quotes": [
+      "Wagner College's historic campus expansion on Staten Island",
+      "With this acquisition of 16.5 acres and 10 academic and administrative buildings, we expand our campus"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "No alumni career outcome data or internship mentions found in sources",
+      "NYC proximity theoretically offers career access but no students confirmed this",
+      "Theater focus may yield strong industry connections but data is absent"
+    ],
+    "key_quotes": [
+      "No direct quotes available from student sources on career outcomes"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Students comparing Wagner unfavorably to Fordham, Pace, and CUNY options",
+      "High acceptance rate may signal weaker brand recognition for ROI",
+      "Parents recommend it but students themselves deprioritize it over peers"
+    ],
+    "key_quotes": [
+      "My parents want me to go to Wagner College instead but it's not one of my top choices",
+      "For the purpose of law school admission, which one you choose won't matter"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Wagner reads as a fallback or parent-recommended school, not a dream school",
+      "Theater applicants are the most engaged and intentional Wagner prospects",
+      "Limited student voice online suggests low campus energy or small community"
+    ],
+    "key_quotes": [
+      "My parents want me to go to Wagner College instead but it's not one of my top choices",
+      "I'm in the running for the Trust Me Scholarship, which is a game-changer in terms of covering the costs"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Reputation: students actively deprioritize Wagner over Fordham, Pace, and CUNYs",
+      "Transparency: campus tour video flagged as outdated with no response from school",
+      "Admissions: required campus visit essay penalizes students who cannot afford to travel"
+    ],
+    "key_quotes": [
+      "My parents want me to go to Wagner College instead but it's not one of my top choices",
+      "If you are working for the school and/or think this school needs updating, please reach out to us via email",
+      "Wagner College has a required essay question asking what you gained from the college visit if you visited"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Theater program draws serious, competitive applicants — likely a genuine strength",
+      "Campus expansion may signal financial stability rare among small private colleges",
+      "Staten Island location offers NYC access with a more contained campus feel"
+    ],
+    "key_quotes": [
+      "Wagner continues to make bold investments in current and future academic programs",
+      "With this acquisition of 16.5 acres and 10 academic and administrative buildings, we expand our campus"
+    ],
+    "score": 5
+  }
+}

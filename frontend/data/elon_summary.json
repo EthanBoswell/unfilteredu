@@ -1,0 +1,166 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct complaints about housing found in available data",
+      "Small-town location means limited off-campus housing options nearby",
+      "Campus described as beautiful and well-maintained by multiple visitors"
+    ],
+    "key_quotes": [
+      "sometimes during the summer I'll go just to walk around some of the paths near the campus",
+      "It is an amazing college!!"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "Bar scene described as dry; upperclassmen drive to Greensboro for nightlife",
+      "Frat parties are main underclassman social option on campus",
+      "Greek life present but not as dominant as schools like TCU (48%)"
+    ],
+    "key_quotes": [
+      "Bars are kinda dry but upperclassmen just go to Greensboro which is ~30 minutes away",
+      "A lot of underclassmen go to frat parties. Kinda a..."
+    ],
+    "score": 5
+  },
+  "dining": {
+    "key_points": [
+      "No specific dining hall complaints or praise found in data",
+      "Students shown eating pre-made convenience meals and grocery items",
+      "Campus food options appear typical for small private university"
+    ],
+    "key_quotes": [
+      "so much plastic in america, like nespresso & this pre made chicken meal, the groceries",
+      "Omg I live for those 'healthy choice' meals, they are so good!!"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "No mental health resources or complaints mentioned in student data",
+      "Performing arts students show high-pressure scheduling (face shields, full days)",
+      "Small campus environment may limit anonymity for struggling students"
+    ],
+    "key_quotes": [
+      "That's got to be so awkward singing with a face shield on. Like dancing in a straight jacket",
+      "savor it all, girl!!"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "Merit scholarships range $3,000-$19,500 with extra $4,000 for pre-med",
+      "Accepted one student with no scholarship, raising cost concerns",
+      "Expensive private school with limited need-based aid visibility in data"
+    ],
+    "key_quotes": [
+      "admitted with a presidential scholarship to Elon",
+      "also been accepted to Elon University (no scholarship), so I have fallback options",
+      "Why have I never heard of this university before? It's quite expensive too"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Musical theatre program ranked top 25 globally — genuinely elite",
+      "Communications and journalism programs are primary draws for students",
+      "Supplemental essay asking 'Who are you?' criticized as redundant with personal statement"
+    ],
+    "key_quotes": [
+      "Elon's theatre scene and musical theatre program is incredible. It's been ranked as one of the top 25 schools for acting in the world",
+      "Is this the worst supplemental ever? 'Who are you? Describe yourself'",
+      "Yeah not like I just spent 2 months analyzing every detail of an essay to do just that called the personal statement"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "Controversial racial segregation incident generated significant negative press",
+      "DEI programming described as divisive by some students and observers",
+      "Unusual application questions (3 songs for Spotify playlist) signal quirky culture"
+    ],
+    "key_quotes": [
+      "Elon University CAUGHT Segregating White Students",
+      "I went to Elon and had a fantastic time there, but wow, I'm glad I graduated before this piss storm",
+      "I questioned it and was attacked by the activist teacher who tried to get me kicked out of school"
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus universally praised as stunning — possibly most beautiful in NC",
+      "Town of Elon has 12,000 people; Greensboro is 19 miles away",
+      "Surroundings described as not diverse or particularly open-minded"
+    ],
+    "key_quotes": [
+      "Is this the most well-manicured campus in America?",
+      "not to be a downer but elon is 80% white and the surroundings aren't exactly the most diverse or 'open' either so keep that in mind fellow poc",
+      "I'm considering Elon right now. The only thing I'm worried about is the small town environment"
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Communications and theatre alumni outcomes appear strong regionally",
+      "No notable alumni or major corporate recruiting pipelines mentioned",
+      "D1 athletics program (soccer) visible but not a major career network driver"
+    ],
+    "key_quotes": [
+      "Why have I never heard of this university before? It's quite expensive too and doesn't have much notable alumni",
+      "Elon's theatre scene...was one of the schools a lot of my theatre kid friends from HS were/are targeting"
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "Private school price tag without Ivy-level prestige or name recognition",
+      "Merit scholarships exist but some admitted students receive nothing",
+      "Strong fit for performing arts; questionable ROI for other majors"
+    ],
+    "key_quotes": [
+      "It's quite expensive too and doesn't have much notable alumni",
+      "admitted with a presidential scholarship to Elon",
+      "also been accepted to Elon University (no scholarship), so I have fallback options"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Gorgeous campus with tight-knit feel attracts students who value aesthetics",
+      "Predominantly white, preppy demographic with limited diversity",
+      "Best fit for performing arts, communications, or journalism students specifically"
+    ],
+    "key_quotes": [
+      "Elon University is a joke...never in my life have I heard anything good or anyone ever wanting to go there",
+      "I go to elon and I love it, don't listen to the other comments",
+      "I did summer study at Elon College 1977. It was a small campus but a lot of empty beer cans on lawn every morning. I ended up at Purdue"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "Diversity: campus 80% white; surrounding area described as unwelcoming to POC",
+      "Administration: racial segregation incident caused public scandal and alumni concern",
+      "Reputation: low national name recognition raises questions about ROI outside NC"
+    ],
+    "key_quotes": [
+      "not to be a downer but elon is 80% white and the surroundings aren't exactly the most diverse or 'open' either so keep that in mind fellow poc",
+      "I went to Elon and had a fantastic time there, but wow, I'm glad I graduated before this piss storm",
+      "Elon University is a joke...never in my life have I heard anything good or anyone ever wanting to go there"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Musical theatre program is legitimately world-class, top 25 globally",
+      "Campus beauty is exceptional — locals visit just to walk the grounds",
+      "Performing arts community is tight-knit and highly supportive of students"
+    ],
+    "key_quotes": [
+      "Elon's theatre scene and musical theatre program is incredible. It's been ranked as one of the top 25 schools for acting in the world",
+      "sometimes during the summer I'll go just to walk around some of the paths near the campus",
+      "I graduated last may with a degree in musical theatre and I miss it so much :( savor it all, girl!!"
+    ],
+    "score": 7
+  }
+}

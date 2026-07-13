@@ -1,0 +1,158 @@
+{
+  "housing": {
+    "key_points": [
+      "Campus housing is relatively new — UNO historically had none",
+      "Move-in videos exist but student commentary on dorms is sparse",
+      "Lack of on-campus housing was a dealbreaker for some past students"
+    ],
+    "key_quotes": [
+      "I grew up when UNO had no campus housing. One reason why I didn't go. I wanted to stay on a campus.",
+      "Went to school in Carolina so I didn't fare too bad."
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Commuter-school culture limits traditional campus social scene",
+      "Omaha city itself offers social outlets, but campus life feels thin",
+      "No strong evidence of active clubs, Greek life, or events from students"
+    ],
+    "key_quotes": [
+      "I'm missing out on the social aspect of college by being on my own.",
+      "Wanna grab a beer? Or smoke a bowl? — the Omaha social scene is informal and local-driven."
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "No student comments about campus dining in either data source",
+      "Commuter-heavy population may mean dining halls are underused",
+      "Zero specific praise or complaints — a blind spot in available data"
+    ],
+    "key_quotes": [
+      "No direct student quotes about UNO dining were available in the data.",
+      "Commuter school nature suggests many students eat off-campus regularly."
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student described a multi-year academic struggle with real emotional toll",
+      "Feeling 'too dumb' after repeated course failures reflects support gaps",
+      "No mentions of counseling services or mental health resources from students"
+    ],
+    "key_quotes": [
+      "I'm in my 5th (and hopefully final) year at UNO. I'm on my third attempt at passing College Algebra.",
+      "I study from the practice homework and tests... but I have failed 1/2 of the tests required."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "UNO is chosen primarily for affordability, not prestige or aid packages",
+      "Students transfer to or from UNO mainly based on cost comparisons",
+      "No reports of generous merit scholarships or need-based aid from students"
+    ],
+    "key_quotes": [
+      "Comparing tuition to other colleges close to me, it's cheaper.",
+      "MSSU has in-state tuition for Nebraska residents — so some leave UNO for cheaper options."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Math Lab is the primary academic support — but students find it unusable",
+      "No tutoring offered for College Algebra despite being a gateway course",
+      "CS program is mentioned as a realistic option, but academic rigor is questioned"
+    ],
+    "key_quotes": [
+      "My school doesn't offer tutoring for College Algebra students; those who need guidance should go to the Math Lab. I can't focus in the Math Lab.",
+      "I'm in my 5th (and hopefully final) year at UNO... on my third attempt at passing College Algebra."
+    ],
+    "score": 4
+  },
+  "administration": {
+    "key_points": [
+      "Admissions slow to respond to international student inquiries",
+      "No proactive communication noted — students navigate processes alone",
+      "Bureaucratic friction reported even for straightforward application questions"
+    ],
+    "key_quotes": [
+      "I sent an email to UNO admissions about the same, but have not heard anything yet.",
+      "Have you looked over their instructions for international students? — peer had to step in where admin didn't."
+    ],
+    "score": 4
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Omaha is affordable but raises diversity and inclusion concerns",
+      "City described as friendly but with pockets that are 'the worst types of humans'",
+      "UNO is urban-adjacent but lacks a true residential campus feel"
+    ],
+    "key_quotes": [
+      "Honestly, it depends on where in Omaha. There's random areas where people are just the worst types of humans for some reason.",
+      "Is Omaha diverse? How friendly are they to people of color — more specifically, black people?"
+    ],
+    "score": 5
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Finance and investment speakers visit campus — notable for business students",
+      "Mohnish Pabrai held a session at UNO, suggesting some industry engagement",
+      "No student testimonials about job placement, internships, or career services"
+    ],
+    "key_quotes": [
+      "Mohnish Pabrai's Session at The University of Nebraska, Omaha — a rare high-profile industry event.",
+      "He is a truly genuine, calm and humble guy. Lots to learn from such beings."
+    ],
+    "score": 5
+  },
+  "value_for_money": {
+    "key_points": [
+      "UNO is chosen as a budget option, not for quality or outcomes",
+      "Students spending 5+ years to finish due to course failures raises cost concerns",
+      "Cheaper than many alternatives but value depends heavily on program and support"
+    ],
+    "key_quotes": [
+      "I'm in my 5th (and hopefully final) year at the University of Nebraska Omaha.",
+      "Comparing tuition to other colleges close to me, it's cheaper — that's the primary draw."
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "UNO feels like a practical, no-frills commuter school — not a campus experience",
+      "Students end up here by default, not by choice — low enthusiasm in posts",
+      "Decent for local students watching costs; poor fit for those wanting campus life"
+    ],
+    "key_quotes": [
+      "I grew up when UNO had no campus housing. One reason why I didn't go.",
+      "I'm missing out on the social aspect of college by being on my own."
+    ],
+    "score": 4
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** No tutoring for College Algebra; Math Lab is the only option and students find it unusable",
+      "**Retention:** One student took 5 years and 3 attempts at a single required course with minimal institutional support",
+      "**Diversity & Safety:** Multiple prospective students flagged concerns about racial inclusivity in Omaha broadly"
+    ],
+    "key_quotes": [
+      "My school doesn't offer tutoring for College Algebra students... I can't focus in the Math Lab.",
+      "Is Omaha diverse? How friendly are they to people of color — more specifically, black people?"
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "High-profile finance speakers like Mohnish Pabrai visit — rare for a mid-tier school",
+      "New campus housing opens doors for students who previously had no residential option",
+      "Omaha's low cost of living reduces overall student debt burden significantly"
+    ],
+    "key_quotes": [
+      "I grew up when UNO had no campus housing — implying recent housing expansion is a genuine improvement.",
+      "Comparing tuition to other colleges close to me, it's cheaper — and Omaha living costs back that up."
+    ],
+    "score": 5
+  }
+}

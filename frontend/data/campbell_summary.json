@@ -1,0 +1,157 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student feedback on housing quality available",
+      "Campus isolation noted — limited options outside campus grounds",
+      "Insufficient data to assess dorms or residential life"
+    ],
+    "key_quotes": [
+      "You are not around much outside of campus",
+      "No specific housing complaints or praise surfaced in available data"
+    ],
+    "score": 5
+  },
+  "social_life": {
+    "key_points": [
+      "Campus feels isolated with little to do off-campus nearby",
+      "No mention of vibrant social scene or nightlife options",
+      "Small private university culture may feel limiting for some students"
+    ],
+    "key_quotes": [
+      "You are not around much outside of campus",
+      "i actually love my university!! my classes are just a little rough this semester"
+    ],
+    "score": 4
+  },
+  "dining": {
+    "key_points": [
+      "Zero student mentions of dining hall quality or options",
+      "No complaints or praise — data gap, not a signal",
+      "Cannot assess dining experience from available sources"
+    ],
+    "key_quotes": [
+      "No dining-related quotes found in available student data"
+    ],
+    "score": 5
+  },
+  "mental_health": {
+    "key_points": [
+      "One student described a 'rough time' but recovered positively",
+      "No mentions of counseling services or mental health resources",
+      "Academic stress flagged as real but not catastrophized by students"
+    ],
+    "key_quotes": [
+      "i was over dramatic in the title. i actually love my university!! my classes are just a little rough this semester",
+      "tears, rough time, but its okay"
+    ],
+    "score": 6
+  },
+  "financial_aid": {
+    "key_points": [
+      "No student feedback on financial aid packages or affordability",
+      "Campbell appears as a fallback option for students with weaker profiles",
+      "Private school cost concern raised indirectly in transfer discussion"
+    ],
+    "key_quotes": [
+      "I want to know if my chances of going into dental school is affected by going into Campbell since its a private school"
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "Engineering program NOT ABET accredited — a concrete, serious warning",
+      "Academic difficulty acknowledged but students still feel positively overall",
+      "Trust and estate planning program notable enough to self-study from"
+    ],
+    "key_quotes": [
+      "Don't go for engineering until they are abet accredited",
+      "my classes are just a little rough this semester",
+      "I've looked at some of the course catalogs online for Campbell University and other notable schools"
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "No direct feedback on admin responsiveness or bureaucracy",
+      "Course catalogs lack textbook information, frustrating self-learners",
+      "No complaints or praise about admin surfaced from students"
+    ],
+    "key_quotes": [
+      "I've looked at some of the course catalogs online for Campbell University... the courses don't say which textbooks are required"
+    ],
+    "score": 5
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Location is isolated — students explicitly warned about being stuck on campus",
+      "Rural North Carolina setting with limited surrounding amenities",
+      "Not a college town experience — plan accordingly"
+    ],
+    "key_quotes": [
+      "You are not around much outside of campus",
+      "Does that university have a subreddit? Slim chance anyone here knows the answers"
+    ],
+    "score": 4
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Engineering graduates at risk without ABET accreditation for job market",
+      "Pre-dental path raised but no outcomes data shared by students",
+      "No alumni success stories or employer recruitment data surfaced"
+    ],
+    "key_quotes": [
+      "Don't go for engineering until they are abet accredited",
+      "I am planning to transfer and study business... and then to go into dental school"
+    ],
+    "score": 4
+  },
+  "value_for_money": {
+    "key_points": [
+      "Private school tuition without ABET engineering raises cost-benefit concerns",
+      "Appears as a safety school, not a destination choice for most",
+      "No scholarship or aid mentions to offset private university pricing"
+    ],
+    "key_quotes": [
+      "Don't go for engineering until they are abet accredited",
+      "I want to know if my chances of going into dental school is affected by going into Campbell since its a private school"
+    ],
+    "score": 4
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Students who attend tend to warm up to it despite rough patches",
+      "Small, quiet, religious-affiliated campus with limited buzz online",
+      "Functional safety school — not a dream school, but survivable"
+    ],
+    "key_quotes": [
+      "i was over dramatic in the title. i actually love my university!!",
+      "You are not around much outside of campus"
+    ],
+    "score": 5
+  },
+  "red_flags": {
+    "key_points": [
+      "**Academics:** Engineering program lacks ABET accreditation — affects job eligibility",
+      "**Location:** Campus isolation is real — students explicitly flag limited off-campus life",
+      "**Visibility:** Almost no student discourse online suggests small, insular community"
+    ],
+    "key_quotes": [
+      "Don't go for engineering until they are abet accredited",
+      "You are not around much outside of campus",
+      "Does that university have a subreddit? Slim chance anyone here knows the answers"
+    ],
+    "score": 6
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Trust and estate planning program respected enough for self-directed study",
+      "Students who give it a chance report genuine affection for the school",
+      "Pre-dental and business transfer paths exist with some structure"
+    ],
+    "key_quotes": [
+      "i actually love my university!!",
+      "I've looked at some of the course catalogs online for Campbell University and other notable schools"
+    ],
+    "score": 5
+  }
+}

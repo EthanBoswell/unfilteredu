@@ -1,0 +1,170 @@
+{
+  "housing": {
+    "key_points": [
+      "Nearby off-campus apartments are dirty, mismanaged, and overpriced",
+      "5025 and 6nineteen apartments have serious maintenance and billing issues",
+      "SDSU takes no responsibility for conditions in affiliated housing"
+    ],
+    "key_quotes": [
+      "My AC and heat has been broken since early December. 5025 even resolved my maintenance request without entering my apartment.",
+      "Don't be lured in by the 'low' cost. Parking: scam. Wifi: slow. Cleanliness when we moved in: garbage.",
+      "The community electric charge was really frustrating because it wasn't clearly explained."
+    ],
+    "score": 4
+  },
+  "social_life": {
+    "key_points": [
+      "Party school reputation is real — bikini daygers happen regularly on Fridays",
+      "Transfers and older students consistently report feeling isolated and friendless",
+      "Greek life is divisive; sorority rush described as 'humiliating' and 'phony'"
+    ],
+    "key_quotes": [
+      "Frat parties/daygers combined with summer weather in February.",
+      "I've been going to SDSU since 2024 as a transfer student and I just have not been able to make any friends whatsoever.",
+      "The whole process was humiliating, phony filled with lots of insincere girls."
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Campus food described positively in passing, Panda Express mentioned",
+      "No sustained complaints about on-campus dining quality",
+      "Food trucks and nearby options seem popular with students"
+    ],
+    "key_quotes": [
+      "Get ready for beautiful campus, great weather, hikes by the beach and surprisingly good food on campus.",
+      "I hope you like being fat because we got California burritos and carne asada fries."
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "Loneliness and isolation are recurring, serious issues especially for transfers",
+      "Strict no-absence policies force sick students to attend class, worsening health",
+      "Suicidal ideation mentioned by multiple students; moderators explicitly warn about it"
+    ],
+    "key_quotes": [
+      "Suicide was definitely something that crossed my mind more than once due to the feeling of loneliness.",
+      "I showed up to class with what I thought was a bad cold, but it ended up being Whooping Cough. The professor has a really strict attendance policy.",
+      "I am failing majority of my classes. I struggle a lot with mental health and it spiraled severely this semester."
+    ],
+    "score": 4
+  },
+  "financial_aid": {
+    "key_points": [
+      "Disbursement timing causes major anxiety; students fear being dropped from classes",
+      "Financial aid process is confusing and stressful for many students",
+      "In-state tuition is a genuine selling point compared to UCs"
+    ],
+    "key_quotes": [
+      "My aid got disbursed it says but my balance is still there and I have to pay by the 20th what do I do?",
+      "If I just pay off my tuition now will I just get reimbursed? I want to make sure I'm not dropped from my classes.",
+      "I graduated from SDSU in 1989. Back then the CSU system's mission was to make quality education possible for any California resident."
+    ],
+    "score": 5
+  },
+  "academics": {
+    "key_points": [
+      "CS program widely criticized as weak; students regret not transferring elsewhere",
+      "Impacted majors like business require pre-major status before full admission",
+      "CC-to-SDSU transfer jump is real — students report going from 3.9 GPA to failing"
+    ],
+    "key_quotes": [
+      "SDSU has a really bad CS department.",
+      "I was a 3.9 in CC, now at SDSU I'm getting mostly C's and a couple of F's on midterms. Are CCs really this much easier?",
+      "Cancellation of undergrad courses with fewer than 30 enrolled is literally next — this will inevitably make graduating harder."
+    ],
+    "score": 5
+  },
+  "administration": {
+    "key_points": [
+      "Admin approved $10M student fee hike without a student vote",
+      "President received near-$500K salary with a 10% raise while fees increased",
+      "Library hours cut, course minimums raised — students feel nickel-and-dimed"
+    ],
+    "key_quotes": [
+      "Don't forget the president of SDSU just got a raise — almost $500k base salary, over 10% raise for doing nothing useful.",
+      "SDSU approved $10,000,000 student fee hike without student vote. We ain't getting that money back.",
+      "SDSU loves to take everyone's money in any way they can."
+    ],
+    "score": 3
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Campus is widely praised as beautiful with great weather year-round",
+      "Parking is a genuine nightmare — P12 has weekly hit-and-runs and road rage",
+      "Trolley commute has safety concerns; MTS security number shared by students"
+    ],
+    "key_quotes": [
+      "Get ready for amazing beaches, coffee shops, farmers markets, shopping, restaurants.",
+      "P12 is full of trash 24/7 all over the floor and smells. Hit and runs happen about once a week.",
+      "Half my Reddit notifications are from P12. Mad Max up in that place."
+    ],
+    "score": 6
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Business and nursing programs have strong alumni and employer networks",
+      "CS degree viewed skeptically; students advised to go elsewhere for tech careers",
+      "Alumni report good outcomes, especially those who networked and did internships"
+    ],
+    "key_quotes": [
+      "I have a BA and an MA from SDSU and am a 26-year employee at UCLA.",
+      "Be proactive. Engage with professors about research and internships — these will set you apart.",
+      "SDSU for CS and it's not even close [that SJSU is better]."
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "In-state tuition is genuinely affordable versus UCs — a real advantage",
+      "Fees alone approaching $2,000/semester on top of tuition; students are frustrated",
+      "Off-campus housing costs and surprise utility charges erode the savings"
+    ],
+    "key_quotes": [
+      "Fees alone are almost $2000 for this semester. Is there any way I can opt out?",
+      "It amazes me that you have to pay a fee to graduate.",
+      "SDSU free vs USC $30k — if I attend SDSU I will not pay a cent for tuition and could stay living at home."
+    ],
+    "score": 6
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong school spirit, especially around basketball and football",
+      "Campus culture leans social and party-forward; academics secondary for many",
+      "Warm, supportive community online but real loneliness reported on campus"
+    ],
+    "key_quotes": [
+      "I walk past so many beautiful people going to class I just feel like giving y'all high fives.",
+      "SDSU: I peaked in HS and want to party but am not smart enough for UCSB.",
+      "I love this school — good morning and I wish everyone a nice fall semester."
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "Administration: $10M fee hike imposed without student vote, president paid $500K",
+      "Housing: off-campus apartments have broken AC, hidden utility fees, ignored maintenance requests",
+      "Safety: weekly hit-and-runs in P12, road rage incidents, trolley safety concerns reported"
+    ],
+    "key_quotes": [
+      "They denied my appeal despite my dad having cancer and me wanting to stay close to home. They're heartless money suckers.",
+      "My ceiling fan [broken] — management hasn't answered any of my countless emails.",
+      "Someone get hit on College and Canyon? A Blue Honda Civic cut across turning lanes into picketers."
+    ],
+    "score": 7
+  },
+  "hidden_gems": {
+    "key_points": [
+      "Appeals actually work — one student got in after being told 'appeals never work'",
+      "Student-built Chrome extension puts RateMyProfessor ratings directly in class search",
+      "Campus has beloved stray cats (named Genie) cared for by students and staff"
+    ],
+    "key_quotes": [
+      "Everyone kept telling me 'appeals never work.' I still sent one in. And today — I GOT IN.",
+      "I built a Chrome extension that automatically puts RMP ratings next to each professor's name on the class search page.",
+      "That's Genie. They get fed every day by students and staff. There's a website someone made about the cats on campus."
+    ],
+    "score": 7
+  }
+}
