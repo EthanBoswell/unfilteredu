@@ -2964,6 +2964,18 @@ export const SCHOOLS: SchoolMeta[] = [
       { icon: "⚖️", label: "Historic Law School Legacy" },
     ],
   },
+  {
+    slug: "austinpeay",
+    name: "Austin Peay State University",
+    location: "Clarksville, TN",
+    colors: { primary: "#CC0000", secondary: "#000000" },
+    radioStation: "WAPX 91.9 FM",
+    stats: [
+      { icon: "📋", label: "4K+ Applicants" },
+      { icon: "⚔️", label: "Home of the Governors" },
+      { icon: "🎖️", label: "Near Fort Campbell" },
+    ],
+  },
 ];
 
 export function getSchoolBySlug(slug: string): SchoolMeta | undefined {

@@ -171,7 +171,6 @@ SCHOOLS = [
     {"name": "Oral Roberts University", "slug": "oralroberts", "subreddits": ["r/OralRoberts"], "keywords": ["Oral Roberts University", "ORU", "Golden Eagles", "Tulsa Oklahoma"]},
     {"name": "University of South Dakota", "slug": "southdakota", "subreddits": ["r/UofSD"], "keywords": ["University of South Dakota", "USD", "Coyotes", "Vermillion South Dakota"]},
     {"name": "South Dakota State University", "slug": "southdakotastate", "subreddits": ["r/SDSU"], "keywords": ["South Dakota State University", "SDSU", "Jackrabbits", "Brookings South Dakota"]},
-
     # Atlantic 10
     {"name": "University of Dayton", "slug": "dayton", "subreddits": ["r/udayton"], "keywords": ["University of Dayton", "Flyers", "Dayton Ohio"]},
     {"name": "Duquesne University", "slug": "duquesne", "subreddits": ["r/Duquesne"], "keywords": ["Duquesne University", "Dukes", "Pittsburgh Pennsylvania"]},
@@ -288,6 +287,8 @@ SCHOOLS = [
     {"name": "Towson University", "slug": "towson", "subreddits": ["r/Towson"], "keywords": ["Towson University", "Tigers", "Towson Maryland"]},
     {"name": "UNC Wilmington", "slug": "uncwilmington", "subreddits": ["r/UNCW"], "keywords": ["UNC Wilmington", "UNCW", "Seahawks", "Wilmington North Carolina"]},
     {"name": "William & Mary", "slug": "williamandmary", "subreddits": ["r/wmco"], "keywords": ["William and Mary", "William & Mary", "Tribe", "Williamsburg Virginia"]},
+    # ASUN
+    {"name": "Austin Peay State University", "slug": "austinpeay", "subreddits": ["r/AustinPeay"], "keywords": ["Austin Peay State University", "APSU", "Governors", "Clarksville Tennessee"]},
 ]
 
 CATEGORIES = [

@@ -1,0 +1,157 @@
+{
+  "housing": {
+    "key_points": [
+      "No direct student complaints about housing appear in the data",
+      "Insufficient data to assess dorm quality or availability",
+      "Campus life comments are sparse and non-specific"
+    ],
+    "key_quotes": [
+      "Love the school and its in a great town/state/country in a great place",
+      "People are definitely living in different worlds in the United States"
+    ],
+    "score": 6
+  },
+  "social_life": {
+    "key_points": [
+      "One vlogger portrayed ambitious, career-focused student life",
+      "Campus appears to have a Black student community with visible presence",
+      "No complaints or praise about clubs, events, or nightlife"
+    ],
+    "key_quotes": [
+      "U so ambitious an motivated in Life, way 2 go",
+      "Stay career minded. U full of talents"
+    ],
+    "score": 6
+  },
+  "dining": {
+    "key_points": [
+      "Zero dining hall mentions across all Reddit and YouTube data",
+      "No complaints or praise — complete data gap on food quality",
+      "Cannot assess meal plans, dining options, or food costs"
+    ],
+    "key_quotes": [
+      "No relevant quotes found in the dataset"
+    ],
+    "score": 6
+  },
+  "mental_health": {
+    "key_points": [
+      "One student described depression and struggling while enrolled at APSU",
+      "Student faced compounding trauma — orphaned, relocating, adjusting to college",
+      "No mention of campus counseling resources helping or being available"
+    ],
+    "key_quotes": [
+      "My mom passed away when I was 9 and my dad was killed in a car accident when I was 17... I began attending Austin Peay State University and things went well for the first year",
+      "I'm a 20 year old male... currently attending Austin Peay State University here in Clarksville and am not doing well"
+    ],
+    "score": 5
+  },
+  "financial_aid": {
+    "key_points": [
+      "APSU accepted 30-40 military JST credits — notably generous for veterans",
+      "No direct complaints about financial aid office delays or errors",
+      "Insufficient data to evaluate aid packages for traditional students"
+    ],
+    "key_quotes": [
+      "APSU has accepted like 30 or 40 of my JSTs",
+      "I know Columbia won't be as accepting of military credits"
+    ],
+    "score": 6
+  },
+  "academics": {
+    "key_points": [
+      "ACT scores can exempt students from English 1010 and 1020",
+      "Psychology major mentioned as available and personally enjoyed by one student",
+      "No complaints or praise about professor quality or course rigor"
+    ],
+    "key_quotes": [
+      "Since I got a 36 on the English section of the ACT my choice college says I don't have to take English 1010 or 1020",
+      "I was first enrolled as a psychology major, which I really enjoy"
+    ],
+    "score": 6
+  },
+  "administration": {
+    "key_points": [
+      "No direct complaints about bureaucracy, registration, or advising",
+      "Degree audit outlines appear publicly available and detailed",
+      "Insufficient data — APSU admin largely absent from student discussion"
+    ],
+    "key_quotes": [
+      "This isn't specific to this college, I'm assuming this could apply anywhere",
+      "No relevant administrative complaints found in the dataset"
+    ],
+    "score": 6
+  },
+  "location_and_campus": {
+    "key_points": [
+      "Located in Clarksville, TN — an Army town near Fort Campbell",
+      "Students describe it as a 'great town' with positive regional sentiment",
+      "Heavy military presence shapes local culture and student demographics"
+    ],
+    "key_quotes": [
+      "Love the school and its in a great town/state/country in a great place",
+      "I began attending Austin Peay State University here in Clarksville"
+    ],
+    "score": 7
+  },
+  "career_outcomes": {
+    "key_points": [
+      "Veterans use APSU as a transfer springboard toward elite schools like Columbia",
+      "Military credit acceptance suggests strong veteran career pipeline",
+      "No data on internship support, recruiting, or post-grad employment rates"
+    ],
+    "key_quotes": [
+      "I'm taking college courses at Austin Peay State University and have Joint Service Transcript credits",
+      "If I get accepted I'll be transferring to Columbia"
+    ],
+    "score": 6
+  },
+  "value_for_money": {
+    "key_points": [
+      "One struggling student considered leaving APSU to cut costs significantly",
+      "No tuition figures or cost comparisons mentioned by current students",
+      "Military JST credit acceptance could significantly reduce time and cost for vets"
+    ],
+    "key_quotes": [
+      "I feel as though I'm wasting my parent's money going to my current school",
+      "Thinking about moving back home to MA and attending community college for a while"
+    ],
+    "score": 5
+  },
+  "overall_vibe": {
+    "key_points": [
+      "Strong military and veteran presence defines much of the student culture",
+      "Limited organic student discussion — APSU rarely comes up unprompted online",
+      "Students who do comment seem content but not enthusiastic advocates"
+    ],
+    "key_quotes": [
+      "Love the school and its in a great town",
+      "Things went well for the first year"
+    ],
+    "score": 6
+  },
+  "red_flags": {
+    "key_points": [
+      "**Mental Health:** Student with severe trauma reported declining performance with no support mentioned",
+      "**Data Void:** Almost no organic student discussion of APSU online — low engagement is itself a warning sign",
+      "**Retention Risk:** At least one student seriously considered dropping out mid-degree due to cost and depression"
+    ],
+    "key_quotes": [
+      "I'm a 20 year old male currently attending Austin Peay State University and am not doing well",
+      "I feel as though I'm wasting my parent's money going to my current school when I could get pretty much the same degree at an online school"
+    ],
+    "score": 4
+  },
+  "hidden_gems": {
+    "key_points": [
+      "One of the most veteran-friendly schools in Tennessee for JST credit transfers",
+      "Strong potential transfer launchpad for military students targeting elite universities",
+      "Clarksville location offers affordable cost of living compared to major college towns"
+    ],
+    "key_quotes": [
+      "APSU has accepted like 30 or 40 of my JSTs",
+      "I began attending Austin Peay State University here in Clarksville and things went well for the first year"
+    ],
+    "score": 7
+  }
+}
