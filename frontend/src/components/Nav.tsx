@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
+import { SignInButton, SignUpButton, Show, UserButton } from "@clerk/nextjs";
 import Wordmark from "./Wordmark";
 import SchoolSearchOverlay from "./SchoolSearchOverlay";
 
@@ -37,6 +38,32 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
       </a>
 
       <div className="flex items-center gap-5">
+        <Show when="signed-out">
+          <div className="flex items-center gap-3">
+            <SignInButton mode="modal">
+              <button
+                type="button"
+                className="text-[12px] leading-none font-semibold"
+                style={{ fontFamily: "Inter, sans-serif", color: "#fff", background: "none", border: "none", cursor: "pointer" }}
+              >
+                Sign in
+              </button>
+            </SignInButton>
+            <SignUpButton mode="modal">
+              <button
+                type="button"
+                className="rounded-md px-3 py-1.5 text-[12px] leading-none font-bold"
+                style={{ fontFamily: "var(--font-syne), 'Syne', sans-serif", background: "#fff", color: "#0F0F0F", border: "none", cursor: "pointer" }}
+              >
+                Sign up
+              </button>
+            </SignUpButton>
+          </div>
+        </Show>
+        <Show when="signed-in">
+          <UserButton />
+        </Show>
+
         {!schoolName && (
           <div ref={dropdownRef} className="relative">
             <button

@@ -37,8 +37,27 @@ async function seed() {
   let schoolsSeeded = 0;
   let summariesSeeded = 0;
   let skipped = 0;
+  let existingSkipped = 0;
+
+  const { data: existingRows, error: existingErr } = await db
+    .from("schools")
+    .select("slug");
+
+  if (existingErr) {
+    console.error(`  [error] Failed to fetch existing schools: ${existingErr.message}`);
+    process.exit(1);
+  }
+
+  const existingSlugs = new Set<string>(
+    (existingRows ?? []).map((row: { slug: string }) => row.slug)
+  );
 
   for (const school of SCHOOLS) {
+    if (existingSlugs.has(school.slug)) {
+      existingSkipped++;
+      continue;
+    }
+
     const summaryPath = path.join(DATA_DIR, `${school.slug}_summary.json`);
 
     if (!fs.existsSync(summaryPath)) {
@@ -93,8 +112,13 @@ async function seed() {
     summariesSeeded += categories.length;
   }
 
+  if (existingSkipped > 0) {
+    console.log(`Skipped ${existingSkipped} existing schools`);
+  }
+
   console.log(
-    `\nSeeded ${schoolsSeeded} schools, ${summariesSeeded} summaries` +
+    `\nSeeded ${schoolsSeeded} new schools, ${summariesSeeded} new summaries.` +
+      (existingSkipped > 0 ? ` Skipped ${existingSkipped} existing schools.` : "") +
       (skipped > 0 ? ` (${skipped} schools skipped — no summary file)` : "")
   );
 }
