@@ -9,7 +9,6 @@
     "seed": "npx tsx --env-file=.env.local scripts/seed.ts"
   },
   "dependencies": {
-    "@clerk/nextjs": "^7.5.18",
     "@supabase/supabase-js": "^2.110.0",
     "lucide-react": "^1.23.0",
     "next": "16.2.6",

@@ -1,4 +1,3 @@
-import {ClerkProvider} from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans, Syne, Inter } from "next/font/google";
 import "./globals.css";
@@ -43,9 +42,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${dmSans.variable} ${syne.variable} ${inter.variable} h-full scroll-smooth`}>
 
       <body className="min-h-full bg-[#f5f1eb] font-[family-name:var(--font-dm)] antialiased text-[#1c1917]">
-        <ClerkProvider>
-          {children}
-        </ClerkProvider>
+        {children}
       </body>
     </html>
   );
