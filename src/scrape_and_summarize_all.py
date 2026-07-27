@@ -99,7 +99,6 @@ SCHOOLS = [
     # Top HBCUs
     {"name": "Spelman College", "slug": "spelman", "subreddits": ["r/SpelmanCollege", "r/HBCU"], "keywords": ["Spelman College", "Atlanta HBCU", "Spelman women"]},
     {"name": "Morehouse College", "slug": "morehouse", "subreddits": ["r/Morehouse", "r/HBCU"], "keywords": ["Morehouse College", "Atlanta HBCU", "Morehouse men"]},
-    {"name": "Hampton University", "slug": "hampton", "subreddits": ["r/HamptonUniversity", "r/HBCU"], "keywords": ["Hampton University", "Hampton Pirates", "Virginia HBCU"]},
     {"name": "North Carolina A&T", "slug": "ncat", "subreddits": ["r/NCAT", "r/HBCU"], "keywords": ["NC A&T", "North Carolina A&T", "Aggies", "Greensboro HBCU"]},
     {"name": "Tennessee State", "slug": "tsu", "subreddits": ["r/TennesseeState", "r/HBCU"], "keywords": ["Tennessee State University", "TSU Tigers", "Nashville HBCU"]},
     {"name": "Morgan State", "slug": "morganstate", "subreddits": ["r/MorganState", "r/HBCU"], "keywords": ["Morgan State University", "Bears", "Baltimore HBCU"]},
@@ -237,7 +236,6 @@ SCHOOLS = [
     {"name": "University of Wyoming", "slug": "wyoming", "subreddits": ["r/uwyoming"], "keywords": ["University of Wyoming", "Cowboys", "Cowgirls", "UW", "Laramie Wyoming"]},
     {"name": "Grand Canyon University", "slug": "grandcanyon", "subreddits": ["r/GrandCanyonUniversity"], "keywords": ["Grand Canyon University", "GCU", "Antelopes", "Phoenix Arizona"]},
     {"name": "UC Davis", "slug": "ucdavis", "subreddits": ["r/UCDavis"], "keywords": ["UC Davis", "University of California Davis", "Aggies", "Davis California"]},
-    {"name": "North Dakota State University", "slug": "ndsu", "subreddits": ["r/NDSU"], "keywords": ["North Dakota State University", "NDSU", "Bison", "Fargo North Dakota"]},
     {"name": "Northern Illinois University", "slug": "northernillinois", "subreddits": ["r/NIU"], "keywords": ["Northern Illinois University", "NIU", "Huskies", "DeKalb Illinois"]},
     # MAC
     {"name": "University of Akron", "slug": "akron", "subreddits": ["r/uakron"], "keywords": ["University of Akron", "Akron Zips", "Zips", "Akron Ohio"]},
@@ -543,10 +541,13 @@ def main():
         for slug, stage, err in failed:
             print(f"  {slug} ({stage}): {err}")
 
-    # Local import avoids a circular import (sync_school_meta imports SCHOOLS from this module).
+    # Local imports avoid a circular import (both modules import SCHOOLS from this one).
     from sync_school_meta import sync_school_meta
+    from fetch_school_images import fetch_school_images
     print()
     sync_school_meta()
+    print()
+    fetch_school_images()
 
 
 if __name__ == "__main__":

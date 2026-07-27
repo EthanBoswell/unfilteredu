@@ -170,6 +170,7 @@ export default async function SchoolPage({
       <SchoolProfile
         name={school.name}
         location={school.location}
+        image={school.image}
         accent={accent}
         accentLight={accentLight}
         accentText={accentText}

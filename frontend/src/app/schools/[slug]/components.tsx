@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export type Sentiment = "positive" | "mixed" | "concern";
 
@@ -18,6 +19,7 @@ export interface TopicData {
 export interface SchoolProfileProps {
   name: string;
   location: string;
+  image?: string;
   accent: string;
   accentLight: string;
   accentText: string;
@@ -514,6 +516,7 @@ function TopicCard({
 export function SchoolProfile({
   name,
   location,
+  image,
   accent,
   accentLight,
   postsAnalyzed,
@@ -551,59 +554,103 @@ export function SchoolProfile({
   return (
     <div style={{ background: "#F7F6F2", minHeight: "100vh" }}>
 
-      {/* ── School header (light bg) ─────────────────────────────── */}
-      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px" }}>
-        <div style={{ paddingTop: 36, paddingBottom: 28, borderBottom: "1px solid #e5e7eb" }}>
+      {/* ── Hero photo with overlaid title ───────────────────────── */}
+      {image ? (
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "clamp(280px, 40vw, 460px)",
+          }}
+        >
+          <Image
+            src={image}
+            alt={`${name} campus`}
+            fill
+            sizes="100vw"
+            style={{ objectFit: "cover" }}
+            priority
+          />
           <div
             style={{
-              display: "flex",
-              alignItems: "flex-start",
-              justifyContent: "space-between",
-              gap: 16,
-              marginBottom: 6,
+              position: "absolute",
+              inset: 0,
+              background:
+                "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.38) 40%, rgba(0,0,0,0) 68%)",
             }}
-          >
-            <div>
-              <p
-                style={{
-                  margin: "0 0 4px",
-                  fontSize: 11,
-                  fontWeight: 700,
-                  color: "#9ca3af",
-                  letterSpacing: "0.1em",
-                  textTransform: "uppercase",
-                  fontFamily: "var(--font-inter), 'Inter', sans-serif",
-                }}
-              >
-                {location}
-              </p>
-              <h1
-                style={{
-                  margin: 0,
-                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  fontWeight: 800,
-                  fontSize: "clamp(28px, 6vw, 40px)",
-                  color: "#111",
-                  letterSpacing: "-0.02em",
-                  lineHeight: 1.1,
-                }}
-              >
-                {name}
-              </h1>
-            </div>
-          </div>
-          <p
+          />
+          <div
             style={{
-              margin: "8px 0 0",
-              fontSize: 11,
-              color: "#c4c4c0",
-              fontFamily: "var(--font-inter), 'Inter', sans-serif",
+              position: "absolute",
+              left: 0,
+              right: 0,
+              bottom: 0,
+              maxWidth: 720,
+              margin: "0 auto",
+              padding: "0 20px 28px",
             }}
           >
-            Updated {lastUpdated} · Student posts from Reddit and Youtube
-          </p>
+            <p
+              style={{
+                margin: "0 0 4px",
+                fontSize: 11,
+                fontWeight: 700,
+                color: "rgba(255,255,255,0.8)",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                fontFamily: "var(--font-inter), 'Inter', sans-serif",
+              }}
+            >
+              {location}
+            </p>
+            <h1
+              style={{
+                margin: 0,
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontWeight: 800,
+                fontSize: "clamp(28px, 6vw, 44px)",
+                color: "#fff",
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+                textShadow: "0 2px 16px rgba(0,0,0,0.4)",
+              }}
+            >
+              {name}
+            </h1>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px" }}>
+          <div style={{ paddingTop: 36, paddingBottom: 28 }}>
+            <p
+              style={{
+                margin: "0 0 4px",
+                fontSize: 11,
+                fontWeight: 700,
+                color: "#9ca3af",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                fontFamily: "var(--font-inter), 'Inter', sans-serif",
+              }}
+            >
+              {location}
+            </p>
+            <h1
+              style={{
+                margin: 0,
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontWeight: 800,
+                fontSize: "clamp(28px, 6vw, 40px)",
+                color: "#111",
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              {name}
+            </h1>
+          </div>
+        </div>
+      )}
 
       {/* ── Vibe Check (full-width dark) ─────────────────────────── */}
       <VibeCheckSection topics={topics} accent={accent} />

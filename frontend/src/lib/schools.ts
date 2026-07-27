@@ -24,6 +24,7 @@ export type SchoolMeta = {
   slug: string;
   name: string;
   location: string;
+  image?: string;
   stats: Array<{ icon: string; label: string }>;
   colors: { primary: string; secondary: string };
   radioStation: string;
@@ -71,6 +72,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "unc",
     name: "UNC Chapel Hill",
     location: "Chapel Hill, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Louis_Round_Wilson_Library.JPG",
     colors: { primary: "#4B9CD3", secondary: "#13294B" },
     radioStation: "WXYC 89.3 FM",
     stats: [
@@ -83,6 +85,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "duke",
     name: "Duke University",
     location: "Durham, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Allen_Building%2C_West_Campus%2C_Duke_University%2C_Durham%2C_NC_%2848960801602%29.jpg",
     colors: { primary: "#00539B", secondary: "#012169" },
     radioStation: "WXDU 88.7 FM",
     stats: [
@@ -95,6 +98,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ncstate",
     name: "NC State",
     location: "Raleigh, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/RBC_Center.jpg",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "WKNC 88.1 FM",
     stats: [
@@ -107,6 +111,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "georgiatech",
     name: "Georgia Tech",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/26/Tech_Tower-6.jpg",
     colors: { primary: "#B3A369", secondary: "#003057" },
     radioStation: "WREK 91.1 FM",
     stats: [
@@ -119,6 +124,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uva",
     name: "University of Virginia",
     location: "Charlottesville, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/University_of_Virginia_Amphitheater.jpg",
     colors: { primary: "#232D4B", secondary: "#E57200" },
     radioStation: "WTJU 91.1 FM",
     stats: [
@@ -131,6 +137,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "virginiatech",
     name: "Virginia Tech",
     location: "Blacksburg, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Drill_Field_Virginia_Tech.jpg",
     colors: { primary: "#861F41", secondary: "#E5751F" },
     radioStation: "WUVT 90.7 FM",
     stats: [
@@ -143,6 +150,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fsu",
     name: "Florida State",
     location: "Tallahassee, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Florida_State_University_College_of_Medicine.jpg",
     colors: { primary: "#782F40", secondary: "#CEB888" },
     radioStation: "WVFS 89.7 FM",
     stats: [
@@ -155,6 +163,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "miami",
     name: "University of Miami",
     location: "Coral Gables, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/University_of_Miami_Otto_G._Richter_Library.jpg",
     colors: { primary: "#005030", secondary: "#F47321" },
     radioStation: "WVUM 90.5 FM",
     stats: [
@@ -167,6 +176,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "clemson",
     name: "Clemson University",
     location: "Clemson, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Riggs_Field_At_Clemson_university.JPG",
     colors: { primary: "#F56600", secondary: "#522D80" },
     radioStation: "WSBF 88.1 FM",
     stats: [
@@ -179,6 +189,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wakeforest",
     name: "Wake Forest",
     location: "Winston-Salem, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/59/Worrell%2C_Wake_Forest_University_%28cropped%29.jpg",
     colors: { primary: "#9E7E38", secondary: "#000000" },
     radioStation: "WAKE Radio — online",
     stats: [
@@ -191,6 +202,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bc",
     name: "Boston College",
     location: "Chestnut Hill, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Clough_School_Boston_College_2026.jpg",
     colors: { primary: "#8C2232", secondary: "#B98F33" },
     radioStation: "WZBC 90.3 FM",
     stats: [
@@ -203,6 +215,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "syracuse",
     name: "Syracuse University",
     location: "Syracuse, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Syracuse-university_1908_winter.jpg",
     colors: { primary: "#D44500", secondary: "#002D72" },
     radioStation: "WERW — online radio",
     stats: [
@@ -215,6 +228,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "pitt",
     name: "University of Pittsburgh",
     location: "Pittsburgh, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/01/Front_lawn%2C_William_Pitt_Union_%28University_of_Pittsburgh%29.jpg",
     colors: { primary: "#003594", secondary: "#FFB81C" },
     radioStation: "WPTS 92.1 FM",
     stats: [
@@ -227,6 +241,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "louisville",
     name: "University of Louisville",
     location: "Louisville, KY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Louisville_Skyline_2021_%284%29.jpg",
     colors: { primary: "#AD0000", secondary: "#000000" },
     radioStation: "WLCV — online radio",
     stats: [
@@ -239,6 +254,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "notredame",
     name: "Notre Dame",
     location: "South Bend, IN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Notre-dame-stadium.jpg",
     colors: { primary: "#0C2340", secondary: "#C99700" },
     radioStation: "WVFI — online radio",
     stats: [
@@ -251,6 +267,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ucberkeley",
     name: "UC Berkeley",
     location: "Berkeley, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/70/South_Hall--UC_Berkeley--Panoramic.jpg",
     colors: { primary: "#003262", secondary: "#FDB515" },
     radioStation: "KALX 90.7 FM",
     stats: [
@@ -263,6 +280,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "smu",
     name: "Southern Methodist University",
     location: "Dallas, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Southern_Methodist_University_July_2016_014_%28Loyd_Commons%29.jpg",
     colors: { primary: "#C8102E", secondary: "#354CA1" },
     radioStation: "Mustang Radio — online",
     stats: [
@@ -275,6 +293,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stanford",
     name: "Stanford University",
     location: "Palo Alto, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/83/Stanford_University_Aerial_View.jpg",
     colors: { primary: "#8C1515", secondary: "#4D4F53" },
     radioStation: "KZSU 90.1 FM",
     stats: [
@@ -287,6 +306,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "howard",
     name: "Howard University",
     location: "Washington, DC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Howard_University_%2855256026737%29.jpg",
     colors: { primary: "#003a63", secondary: "#8B0000" },
     radioStation: "WHUR 96.3 FM — Howard's own station",
     stats: [
@@ -299,6 +319,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "alabama",
     name: "University of Alabama",
     location: "Tuscaloosa, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/University_of_Alabama_1859.jpg",
     colors: { primary: "#9E1B32", secondary: "#828A8F" },
     radioStation: "WVUA-FM 90.7",
     stats: [
@@ -311,6 +332,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "auburn",
     name: "Auburn University",
     location: "Auburn, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/74/Cater_Hall_Auburn_University.JPG",
     colors: { primary: "#DD550C", secondary: "#03244D" },
     radioStation: "WEGL 91.1 FM",
     stats: [
@@ -323,6 +345,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "florida",
     name: "University of Florida",
     location: "Gainesville, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Historic_University_of_Florida_Campus.jpg",
     colors: { primary: "#0021A5", secondary: "#FA4616" },
     radioStation: "WRUF 95.3 FM",
     stats: [
@@ -335,6 +358,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uga",
     name: "University of Georgia",
     location: "Athens, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Mary_Lyndon_Dormitory_for_Girls%2C_University_of_Georgia%2C_Athens%2C_Ga._%288342840185%29.jpg",
     colors: { primary: "#BA0C2F", secondary: "#000000" },
     radioStation: "WUOG 90.5 FM",
     stats: [
@@ -347,6 +371,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tennessee",
     name: "University of Tennessee",
     location: "Knoxville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Neyland_Stadium_2010.JPG",
     colors: { primary: "#FF8200", secondary: "#58595B" },
     radioStation: "WUTK 90.3 FM \"The Rock\"",
     stats: [
@@ -359,6 +384,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "kentucky",
     name: "University of Kentucky",
     location: "Lexington, KY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/ce/University_of_Kentucky_Arboretum_-_DSC09377.JPG",
     colors: { primary: "#0033A0", secondary: "#FFFFFF" },
     radioStation: "WRFL 88.1 FM",
     stats: [
@@ -371,6 +397,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southcarolina",
     name: "University of South Carolina",
     location: "Columbia, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/88/South_Carolina_College_Horseshoe_1850.jpg",
     colors: { primary: "#73000A", secondary: "#000000" },
     radioStation: "WUSC 90.5 FM",
     stats: [
@@ -383,6 +410,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "lsu",
     name: "Louisiana State University",
     location: "Baton Rouge, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/23/Louisiana_State_University_%281909%29.jpg",
     colors: { primary: "#461D7C", secondary: "#FDD023" },
     radioStation: "KLSU 91.1 FM",
     stats: [
@@ -395,6 +423,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "usc",
     name: "University of Southern California",
     location: "Los Angeles, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bovard_Auditorium_at_dusk%2C_University_of_Southern_California.jpg",
     colors: { primary: "#990000", secondary: "#FFCC00" },
     radioStation: "KXSC",
     stats: [
@@ -408,6 +437,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "olemiss",
     name: "Ole Miss",
     location: "Oxford, MS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Picture_of_Ole_Miss_Basketball_Court.jpg",
     colors: { primary: "#002147", secondary: "#CE1126" },
     radioStation: "Rebel Radio — online",
     stats: [
@@ -420,6 +450,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "msstate",
     name: "Mississippi State",
     location: "Starkville, MS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/DrillFieldPanorama.jpg",
     colors: { primary: "#660000", secondary: "#FFFFFF" },
     radioStation: "WMSV 91.1 FM",
     stats: [
@@ -432,6 +463,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "arkansas",
     name: "University of Arkansas",
     location: "Fayetteville, AR",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Arkansas_Union.jpg",
     colors: { primary: "#9D2235", secondary: "#000000" },
     radioStation: "KXUA 88.3 FM",
     stats: [
@@ -444,6 +476,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tamu",
     name: "Texas A&M",
     location: "College Station, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Secretary_of_Defense_Robert_Gates_and_members_of_Texas_A%26M_University%27s_Corps_of_Cadets.jpg",
     colors: { primary: "#500000", secondary: "#FFFFFF" },
     radioStation: "KANM — online",
     stats: [
@@ -456,6 +489,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "texas",
     name: "University of Texas",
     location: "Austin, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Texas_Union.JPG",
     colors: { primary: "#BF5700", secondary: "#FFFFFF" },
     radioStation: "KVRX 91.7 FM",
     stats: [
@@ -468,6 +502,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "vanderbilt",
     name: "Vanderbilt University",
     location: "Nashville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Memorial_Gymnasium%2C_Vanderbilt_University%2C_August_2023.jpg",
     colors: { primary: "#000000", secondary: "#866D4B" },
     radioStation: "WRVU — online",
     stats: [
@@ -480,6 +515,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "missouri",
     name: "Missouri University",
     location: "Columbia, MO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Center_for_Missouri_Studies_from_Peace_Park_%28June_2020%29.jpg",
     colors: { primary: "#F1B82D", secondary: "#000000" },
     radioStation: "KCOU 88.1 FM",
     stats: [
@@ -492,6 +528,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "oklahoma",
     name: "Oklahoma University",
     location: "Norman, OK",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Oklahoma_July_2019_69_%28Bizzell_Memorial_Library%29.jpg",
     colors: { primary: "#841617", secondary: "#FDF9D8" },
     radioStation: "KGOU 106.3 FM",
     stats: [
@@ -505,6 +542,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "kansas",
     name: "Kansas",
     location: "Lawrence, KS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Snow_Hall_University_of_Kansas_7_24_1915.jpg",
     colors: { primary: "#0051BA", secondary: "#E8000D" },
     radioStation: "KJHK 90.7 FM",
     stats: [
@@ -517,6 +555,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "kstate",
     name: "Kansas State",
     location: "Manhattan, KS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/KSU_Hale_library.jpg",
     colors: { primary: "#512888", secondary: "#FFFFFF" },
     radioStation: "KSDB 91.9 FM \"Wildcat 91.9\"",
     stats: [
@@ -529,6 +568,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "iowastate",
     name: "Iowa State",
     location: "Ames, IA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Campus_of_Iowa_State_University_83.jpg",
     colors: { primary: "#C8102E", secondary: "#F1BE48" },
     radioStation: "KURE 88.5 FM",
     stats: [
@@ -541,6 +581,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "baylor",
     name: "Baylor University",
     location: "Waco, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Old_Main%2C_Baylor_University.jpg",
     colors: { primary: "#154734", secondary: "#FFB81C" },
     radioStation: "Baylor Line Radio — online",
     stats: [
@@ -553,6 +594,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tcu",
     name: "TCU",
     location: "Fort Worth, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/TCU_Campus.jpg",
     colors: { primary: "#4D1979", secondary: "#FFFFFF" },
     radioStation: "KTCU 88.7 FM \"The Choice\"",
     stats: [
@@ -565,6 +607,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wvu",
     name: "West Virginia University",
     location: "Morgantown, WV",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/17/Woodburn_Hall_WVU_%289300119056%29.jpg",
     colors: { primary: "#002855", secondary: "#EAAA00" },
     radioStation: "U92 (WWVU) 91.7 FM",
     stats: [
@@ -577,6 +620,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "cincinnati",
     name: "University of Cincinnati",
     location: "Cincinnati, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/University_of_Cincinnati%2C_Ohio_c._1904.jpg",
     colors: { primary: "#E00122", secondary: "#000000" },
     radioStation: "Bearcat Radio — online",
     stats: [
@@ -589,6 +633,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "houston",
     name: "University of Houston",
     location: "Houston, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/University_of_Houston_Science_Center.JPG",
     colors: { primary: "#C8102E", secondary: "#FFFFFF" },
     radioStation: "Coog Radio — online",
     stats: [
@@ -601,6 +646,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ucf",
     name: "UCF",
     location: "Orlando, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/eb/UCF_Tower.jpg",
     colors: { primary: "#000000", secondary: "#FFC904" },
     radioStation: "Knight Radio — online",
     stats: [
@@ -613,6 +659,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "byu",
     name: "BYU",
     location: "Provo, UT",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/BYU_Campus_North.jpg",
     colors: { primary: "#002E5D", secondary: "#FFFFFF" },
     radioStation: "BYU Radio — SiriusXM & online",
     stats: [
@@ -625,6 +672,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "utah",
     name: "University of Utah",
     location: "Salt Lake City, UT",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a6/University_Hall_%28University_of_Utah%29.jpg",
     colors: { primary: "#CC0000", secondary: "#FFFFFF" },
     radioStation: "Radio U — online",
     stats: [
@@ -637,6 +685,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "colorado",
     name: "University of Colorado",
     location: "Boulder, CO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Seal_of_the_University_of_Colorado.svg/250px-Seal_of_the_University_of_Colorado.svg.png",
     colors: { primary: "#000000", secondary: "#CFB87C" },
     radioStation: "KVCU \"Radio 1190\" AM",
     stats: [
@@ -649,6 +698,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "arizona",
     name: "University of Arizona",
     location: "Tucson, AZ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/61/Arizona_Stadium_East_Side.jpg",
     colors: { primary: "#AB0520", secondary: "#0C234B" },
     radioStation: "KAMP Student Radio — online",
     stats: [
@@ -661,6 +711,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "asu",
     name: "Arizona State",
     location: "Tempe, AZ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Arizona_State_University_Bridge_Tempe_Campus.jpg",
     colors: { primary: "#8C1D40", secondary: "#FFC627" },
     radioStation: "Blaze Radio — online",
     stats: [
@@ -673,6 +724,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "okstate",
     name: "Oklahoma State",
     location: "Stillwater, OK",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gallagher-Iba_Arena%2C_Stillwater%2C_Oklahoma.jpg",
     colors: { primary: "#FF7300", secondary: "#000000" },
     radioStation: "Pistol Pete Radio — online",
     stats: [
@@ -685,6 +737,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "texastech",
     name: "Texas Tech University",
     location: "Lubbock, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Texas_Tech_Adminstration_Building_1923.jpg",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "KTXT 88.1 FM \"The Raider\"",
     stats: [
@@ -698,6 +751,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "michigan",
     name: "University of Michigan",
     location: "Ann Arbor, MI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/31/1886_University_of_Michigan_baseball_team.jpg",
     colors: { primary: "#00274C", secondary: "#FFCB05" },
     radioStation: "WCBN 88.3 FM",
     stats: [
@@ -710,6 +764,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "michiganstate",
     name: "Michigan State",
     location: "East Lansing, MI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/MSU_Union_Michigan_State_University_2016-1431.jpg",
     colors: { primary: "#18453B", secondary: "#FFFFFF" },
     radioStation: "Impact 89FM (WDBM) 88.9",
     stats: [
@@ -722,6 +777,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ohiostate",
     name: "Ohio State",
     location: "Columbus, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Geology_classroom_%28Ohio_State_University_at_Newark%29_3_%2851330634435%29.jpg",
     colors: { primary: "#BB0000", secondary: "#666666" },
     radioStation: "88.7 The Beat — online",
     stats: [
@@ -734,6 +790,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "pennstate",
     name: "Penn State",
     location: "State College, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Penn_State_University_HUB_10.jpg",
     colors: { primary: "#041E42", secondary: "#FFFFFF" },
     radioStation: "LION 90.7 FM (WKPS)",
     stats: [
@@ -746,6 +803,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wisconsin",
     name: "University of Wisconsin",
     location: "Madison, WI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Wisconsin_Law_Building.jpg",
     colors: { primary: "#C5050C", secondary: "#FFFFFF" },
     radioStation: "WSUM 91.7 FM",
     stats: [
@@ -758,6 +816,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "minnesota",
     name: "University of Minnesota",
     location: "Minneapolis, MN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/68/University_of_Minnesota.jpg",
     colors: { primary: "#7A0019", secondary: "#FFCC33" },
     radioStation: "Radio K (KUOM) 100.7 FM",
     stats: [
@@ -770,6 +829,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "indiana",
     name: "Indiana University",
     location: "Bloomington, IN",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Indiana_University_seal.svg/250px-Indiana_University_seal.svg.png",
     colors: { primary: "#990000", secondary: "#EEEDEB" },
     radioStation: "WIUX 99.1 FM",
     stats: [
@@ -782,6 +842,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "purdue",
     name: "Purdue University",
     location: "West Lafayette, IN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/27/Purdue_Student_Union.JPG",
     colors: { primary: "#CFB991", secondary: "#000000" },
     radioStation: "WBAA — public radio",
     stats: [
@@ -794,6 +855,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "illinois",
     name: "University of Illinois",
     location: "Champaign-Urbana, IL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fd/%222010%22_University_of_Illinois.jpg",
     colors: { primary: "#13294B", secondary: "#E84A27" },
     radioStation: "WPGU 107.1 FM",
     stats: [
@@ -806,6 +868,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "iowa",
     name: "University of Iowa",
     location: "Iowa City, IA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Seamans_Center_Iowa_City_Iowa_2002-12-08.jpeg",
     colors: { primary: "#000000", secondary: "#FFCD00" },
     radioStation: "KRUI 89.7 FM",
     stats: [
@@ -818,6 +881,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "nebraska",
     name: "University of Nebraska",
     location: "Lincoln, NE",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Nebraska_Union.jpg",
     colors: { primary: "#D00000", secondary: "#F5F1E7" },
     radioStation: "KRNU 90.3 FM",
     stats: [
@@ -830,6 +894,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "northwestern",
     name: "Northwestern University",
     location: "Evanston, IL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/49/University_Hall_Northwestern.jpg",
     colors: { primary: "#4E2A84", secondary: "#FFFFFF" },
     radioStation: "WNUR 89.3 FM",
     stats: [
@@ -842,6 +907,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "maryland",
     name: "University of Maryland",
     location: "College Park, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/22/McKeldin_Library_-_Maryland_Day.jpg",
     colors: { primary: "#E21833", secondary: "#FFD200" },
     radioStation: "WMUC 88.1 FM",
     stats: [
@@ -854,6 +920,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "rutgers",
     name: "Rutgers University",
     location: "New Brunswick, NJ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/43/Rutgers_Alumni_House.jpg",
     colors: { primary: "#CC0033", secondary: "#000000" },
     radioStation: "WRSU 88.7 FM",
     stats: [
@@ -867,6 +934,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "spelman",
     name: "Spelman College",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Spelman_College_seal.svg/250px-Spelman_College_seal.svg.png",
     colors: { primary: "#00308F", secondary: "#FFFFFF" },
     radioStation: "Spelman Radio — online",
     stats: [
@@ -879,6 +947,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "morehouse",
     name: "Morehouse College",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Graves_Hall%2C_Morehouse_College_2016.jpg",
     colors: { primary: "#862633", secondary: "#FFFFFF" },
     radioStation: "Morehouse Radio — online",
     stats: [
@@ -888,21 +957,10 @@ export const SCHOOLS: SchoolMeta[] = [
     ],
   },
   {
-    slug: "hampton",
-    name: "Hampton University",
-    location: "Hampton, VA",
-    colors: { primary: "#0033A0", secondary: "#87CEEB" },
-    radioStation: "WHOV 88.1 FM \"The Roar\"",
-    stats: [
-      { icon: "📋", label: "12K+ Applicants" },
-      { icon: "🌊", label: "Coastal Virginia Campus" },
-      { icon: "🏥", label: "Strong Nursing & Pharmacy" },
-    ],
-  },
-  {
     slug: "ncat",
     name: "North Carolina A&T",
     location: "Greensboro, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Scott_Hall_during_1969_Greensboro_Uprising.jpg",
     colors: { primary: "#003B6F", secondary: "#FFB81C" },
     radioStation: "WNAA 90.1 FM",
     stats: [
@@ -915,6 +973,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tsu",
     name: "Tennessee State",
     location: "Nashville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Tennessee_State_University_seal.svg/250px-Tennessee_State_University_seal.svg.png",
     colors: { primary: "#0047AB", secondary: "#FFFFFF" },
     radioStation: "Tiger Radio — online",
     stats: [
@@ -927,6 +986,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "morganstate",
     name: "Morgan State",
     location: "Baltimore, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Morgan_State_University_Choir.jpg",
     colors: { primary: "#002868", secondary: "#F2A900" },
     radioStation: "WEAA 88.9 FM",
     stats: [
@@ -939,6 +999,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tuskegee",
     name: "Tuskegee University",
     location: "Tuskegee, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Tuskegee_University_%28c._1916%29.jpg",
     colors: { primary: "#9D2235", secondary: "#C5A05F" },
     radioStation: "Golden Tiger Radio — online",
     stats: [
@@ -951,6 +1012,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "clarkatl",
     name: "Clark Atlanta University",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Atlanta_University_%28Stone_Hall%29.jpg",
     colors: { primary: "#CE1126", secondary: "#000000" },
     radioStation: "WCLK 91.9 FM",
     stats: [
@@ -963,6 +1025,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bcu",
     name: "Bethune-Cookman University",
     location: "Daytona Beach, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Bethune-Cookman_University_Performing_Arts_Center.jpg",
     colors: { primary: "#862633", secondary: "#C5A05F" },
     radioStation: "Wildcat Radio — online",
     stats: [
@@ -975,6 +1038,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fisk",
     name: "Fisk University",
     location: "Nashville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Cravath_Hall_%28Fisk_University%29.jpg",
     colors: { primary: "#002868", secondary: "#FFC72C" },
     radioStation: "Fisk Radio — online",
     stats: [
@@ -987,6 +1051,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "xula",
     name: "Xavier University Louisiana",
     location: "New Orleans, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Xavier_University_of_Louisiana_Library.jpg",
     colors: { primary: "#00205B", secondary: "#FFB81C" },
     radioStation: "Gold Rush Radio — online",
     stats: [
@@ -999,6 +1064,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "delawarestate",
     name: "Delaware State",
     location: "Dover, DE",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Delaware_State_University_Wellness_Center.jpg",
     colors: { primary: "#C8102E", secondary: "#002D72" },
     radioStation: "WDSC 90.7 FM",
     stats: [
@@ -1012,6 +1078,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "harvard",
     name: "Harvard University",
     location: "Cambridge, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Massachusetts_Hall%2C_Harvard_University.JPG",
     colors: { primary: "#A51C30", secondary: "#FFFFFF" },
     radioStation: "WHRB 95.3 FM",
     stats: [
@@ -1024,6 +1091,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "yale",
     name: "Yale University",
     location: "New Haven, CT",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/66/Pauli_Murray_College_Yale.jpg",
     colors: { primary: "#00356B", secondary: "#FFFFFF" },
     radioStation: "WYBC — online",
     stats: [
@@ -1036,6 +1104,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "princeton",
     name: "Princeton University",
     location: "Princeton, NJ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/11/Princeton_Battle_Field_10.jpg",
     colors: { primary: "#E77500", secondary: "#000000" },
     radioStation: "WPRB 103.3 FM",
     stats: [
@@ -1048,6 +1117,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "columbia",
     name: "Columbia University",
     location: "New York, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Columbia_College_Walk.jpg",
     colors: { primary: "#75B2DD", secondary: "#FFFFFF" },
     radioStation: "WKCR 89.9 FM",
     stats: [
@@ -1060,6 +1130,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "cornell",
     name: "Cornell University",
     location: "Ithaca, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Cornell_footbridge.jpg",
     colors: { primary: "#B31B1B", secondary: "#FFFFFF" },
     radioStation: "WVBR 93.5 FM",
     stats: [
@@ -1072,6 +1143,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "upenn",
     name: "University of Pennsylvania",
     location: "Philadelphia, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/df/College_Hall%2C_University_of_Pennsylvania.jpg",
     colors: { primary: "#011F5B", secondary: "#990000" },
     radioStation: "WQHS — online",
     stats: [
@@ -1084,6 +1156,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "georgetown",
     name: "Georgetown University",
     location: "Washington, DC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Georgetown_University_%2853821005319%29.jpg",
     colors: { primary: "#041E42", secondary: "#8D817A" },
     radioStation: "WGTB — online",
     stats: [
@@ -1096,6 +1169,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "emory",
     name: "Emory University",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Emory_Quad.jpg",
     colors: { primary: "#012169", secondary: "#F2A900" },
     radioStation: "WMRE — online",
     stats: [
@@ -1108,6 +1182,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tulane",
     name: "Tulane University",
     location: "New Orleans, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tulane1904GibsonHall.jpg",
     colors: { primary: "#006747", secondary: "#418FDE" },
     radioStation: "WTUL 91.5 FM",
     stats: [
@@ -1120,6 +1195,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "jmu",
     name: "James Madison University",
     location: "Harrisonburg, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/James_Madison_University_2.jpeg",
     colors: { primary: "#450084", secondary: "#CBB677" },
     radioStation: "WXJM 88.7 FM",
     stats: [
@@ -1132,6 +1208,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "pvamu",
     name: "Prairie View A&M",
     location: "Prairie View, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Prairie_View_A%26M_University-_Panther_Stadium.jpg",
     colors: { primary: "#4F2D7F", secondary: "#FFB81C" },
     radioStation: "KPVU 91.3 FM",
     stats: [
@@ -1144,6 +1221,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "grambling",
     name: "Grambling State",
     location: "Grambling, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Eddie_G._Robinson_Memorial_Stadium_Grambling%2C_Louisiana.jpg",
     colors: { primary: "#F0A500", secondary: "#000000" },
     radioStation: "KGRM 91.5 FM",
     stats: [
@@ -1156,6 +1234,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southern",
     name: "Southern University",
     location: "Baton Rouge, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/McKinleyReception2May1901SouthernUniversityNOLA.jpeg",
     colors: { primary: "#00539F", secondary: "#F0A500" },
     radioStation: "WBSB 91.1 FM",
     stats: [
@@ -1168,6 +1247,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "jacksonstate",
     name: "Jackson State",
     location: "Jackson, MS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Entrance_of_the_Gibbs-Green_Memorial_Plaza_%40_Jackson_State_University.jpg",
     colors: { primary: "#00539F", secondary: "#F0A500" },
     radioStation: "WJSU 88.5 FM",
     stats: [
@@ -1180,6 +1260,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "alcornstate",
     name: "Alcorn State",
     location: "Lorman, MS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Alcorn_State_University_Entrance_Sign.jpg",
     colors: { primary: "#5C2D82", secondary: "#C8A84B" },
     radioStation: "WPRL 91.7 FM",
     stats: [
@@ -1192,6 +1273,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "mvsu",
     name: "Mississippi Valley State",
     location: "Itta Bena, MS",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Mississippi_Valley_State_University_seal.svg/250px-Mississippi_Valley_State_University_seal.svg.png",
     colors: { primary: "#006338", secondary: "#FFD700" },
     radioStation: "WVVS 90.7 FM",
     stats: [
@@ -1204,6 +1286,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "aamu",
     name: "Alabama A&M",
     location: "Normal, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/AAMU_Carnegie_Library.jpg",
     colors: { primary: "#660000", secondary: "#FFFFFF" },
     radioStation: "WJAB 90.9 FM",
     stats: [
@@ -1216,6 +1299,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "alabamastate",
     name: "Alabama State",
     location: "Montgomery, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/SWAC_Outdoor_Track_Field_5-6-23_%28167%29.jpg",
     colors: { primary: "#C99700", secondary: "#000000" },
     radioStation: "WHBB — online",
     stats: [
@@ -1228,6 +1312,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "famu",
     name: "Florida A&M",
     location: "Tallahassee, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Marching_100%2C_Florida_A%26M_University.jpg",
     colors: { primary: "#FF6600", secondary: "#006600" },
     radioStation: "WANM 90.5 FM",
     stats: [
@@ -1240,6 +1325,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "texassouthern",
     name: "Texas Southern",
     location: "Houston, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/99/New_library_35.jpg",
     colors: { primary: "#5C1736", secondary: "#808080" },
     radioStation: "KTSU 90.9 FM",
     stats: [
@@ -1252,6 +1338,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uapb",
     name: "Arkansas Pine Bluff",
     location: "Pine Bluff, AR",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Caldwell_Hall.jpg",
     colors: { primary: "#F5C300", secondary: "#000000" },
     radioStation: "KPBJ — online",
     stats: [
@@ -1264,6 +1351,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "appstate",
     name: "Appalachian State",
     location: "Boone, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Appalachian_State_University.jpg",
     colors: { primary: "#FFD100", secondary: "#000000" },
     radioStation: "WASU 90.5 FM",
     stats: [
@@ -1276,6 +1364,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "coastalcarolina",
     name: "Coastal Carolina",
     location: "Conway, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/CCUHTCCenter.jpg",
     colors: { primary: "#006F51", secondary: "#A27752" },
     radioStation: "Chanticleer Radio — online",
     stats: [
@@ -1288,6 +1377,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "georgiasouthern",
     name: "Georgia Southern",
     location: "Statesboro, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Georgia_southern_across_lake_see_union.jpg",
     colors: { primary: "#011E41", secondary: "#C8A456" },
     radioStation: "WVGS 91.9 FM",
     stats: [
@@ -1300,6 +1390,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "georgiastate",
     name: "Georgia State",
     location: "Atlanta, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Georgia_State_Stadium_field.jpg",
     colors: { primary: "#0039A6", secondary: "#CC0000" },
     radioStation: "WRAS 88.5 FM",
     stats: [
@@ -1312,6 +1403,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "marshall",
     name: "Marshall University",
     location: "Huntington, WV",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Marshall_University_Memorial_Fountain_2020.jpg",
     colors: { primary: "#00B140", secondary: "#000000" },
     radioStation: "WMUL 88.1 FM",
     stats: [
@@ -1324,6 +1416,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "odu",
     name: "Old Dominion",
     location: "Norfolk, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Dragas_Hall_at_Old_Dominion_University.jpg",
     colors: { primary: "#003057", secondary: "#7AA0C4" },
     radioStation: "WODU 89.1 FM",
     stats: [
@@ -1336,6 +1429,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southalabama",
     name: "South Alabama",
     location: "Mobile, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/JaguarandMitchellCenter.JPG",
     colors: { primary: "#003087", secondary: "#BF0D3E" },
     radioStation: "WHIL 91.3 FM",
     stats: [
@@ -1348,6 +1442,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southernmiss",
     name: "Southern Miss",
     location: "Hattiesburg, MS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/USM_College_Hall_2016.jpg",
     colors: { primary: "#FFD100", secondary: "#000000" },
     radioStation: "WUSM 88.5 FM",
     stats: [
@@ -1360,6 +1455,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "texasstate",
     name: "Texas State",
     location: "San Marcos, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bobcat_Stadium_West_Side.jpg",
     colors: { primary: "#501214", secondary: "#8B8B00" },
     radioStation: "KTSW 90.5 FM",
     stats: [
@@ -1372,6 +1468,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "troy",
     name: "Troy University",
     location: "Troy, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Troy-Montgomery_buildings.jpg",
     colors: { primary: "#8B0000", secondary: "#A8906A" },
     radioStation: "WTBF 94.7 FM",
     stats: [
@@ -1384,6 +1481,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ulm",
     name: "ULM",
     location: "Monroe, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/ULM_Warhawks%2C_Malone_Stadium%2C_Monroe%2C_Louisiana_%E2%80%93_2011.jpg",
     colors: { primary: "#800000", secondary: "#C4A962" },
     radioStation: "Warhawk Radio — online",
     stats: [
@@ -1396,6 +1494,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "louisiana",
     name: "Louisiana",
     location: "Lafayette, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Stephens_Hall_at_UL_Lafayette_2022.jpg",
     colors: { primary: "#CE181E", secondary: "#FFFFFF" },
     radioStation: "KRVS 88.7 FM",
     stats: [
@@ -1408,6 +1507,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "arkansasstate",
     name: "Arkansas State",
     location: "Jonesboro, AR",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dean_B._Ellis_Library%2C_Arkansas_State_University_%283_September_2005%29.jpg",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "KASU 91.9 FM",
     stats: [
@@ -1420,6 +1520,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ucla",
     name: "UCLA",
     location: "Los Angeles, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/85/UCLA-vermontcampus-1922.jpg",
     colors: { primary: "#2D68C4", secondary: "#F2A900" },
     radioStation: "KXLU 88.9 FM",
     stats: [
@@ -1432,6 +1533,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uncc",
     name: "UNC Charlotte",
     location: "Charlotte, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/UNC_Charlotte%E2%80%93Main_station_platform.jpg",
     colors: { primary: "#005035", secondary: "#A49665" },
     radioStation: "Niner Radio — online",
     stats: [
@@ -1444,6 +1546,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ecu",
     name: "East Carolina University",
     location: "Greenville, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/80/2011_Dowdy-Ficklen_Stadium_%28VT_at_ECU%29.jpg",
     colors: { primary: "#4B1869", secondary: "#FDC82F" },
     radioStation: "WZMB 91.3 FM",
     stats: [
@@ -1456,6 +1559,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fau",
     name: "Florida Atlantic University",
     location: "Boca Raton, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/FAUStadium_night.jpg",
     colors: { primary: "#003366", secondary: "#CC0000" },
     radioStation: "WRGP — online",
     stats: [
@@ -1468,6 +1572,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "memphis",
     name: "University of Memphis",
     location: "Memphis, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Memphis_Customs_House_2022.jpg",
     colors: { primary: "#003087", secondary: "#898D8D" },
     radioStation: "WUMR 91.7 FM",
     stats: [
@@ -1480,6 +1585,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "navy",
     name: "United States Naval Academy",
     location: "Annapolis, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Annapolis%2C_United_States_Naval_Academy%2C_Nimitz_Library.jpg",
     colors: { primary: "#00205B", secondary: "#C5B358" },
     radioStation: "WRNV 94.5 FM",
     stats: [
@@ -1492,6 +1598,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "unt",
     name: "University of North Texas",
     location: "Denton, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/39/University_of_North_Texas_September_2015_06_%28Business_Leadership_Building%29.jpg",
     colors: { primary: "#00853E", secondary: "#FFFFFF" },
     radioStation: "KUNT 88.7 FM",
     stats: [
@@ -1504,6 +1611,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "rice",
     name: "Rice University",
     location: "Houston, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Rice_University_-_Arboretum.JPG",
     colors: { primary: "#00205B", secondary: "#C1A875" },
     radioStation: "KTRU — online",
     stats: [
@@ -1516,6 +1624,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "usf",
     name: "University of South Florida",
     location: "Tampa, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Interdisciplinary_Sciences_Building_North_University_of_South_Florida_2024.jpg",
     colors: { primary: "#006747", secondary: "#CFC493" },
     radioStation: "WBUL 88.5 FM",
     stats: [
@@ -1528,6 +1637,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "temple",
     name: "Temple University",
     location: "Philadelphia, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rock_Hall_Temple_University.jpg",
     colors: { primary: "#9D2235", secondary: "#FFFFFF" },
     radioStation: "WHIP 98.9 FM",
     stats: [
@@ -1540,6 +1650,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tulsa",
     name: "University of Tulsa",
     location: "Tulsa, OK",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/HA-Chapman-Stadium-Tulsa.JPG",
     colors: { primary: "#002D62", secondary: "#C8A44A" },
     radioStation: "KWGS 89.5 FM",
     stats: [
@@ -1552,6 +1663,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uab",
     name: "UAB",
     location: "Birmingham, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/UAB_Hill_Student_Center.jpg",
     colors: { primary: "#1E6B52", secondary: "#FFD100" },
     radioStation: "Blazer Radio — online",
     stats: [
@@ -1564,6 +1676,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "utsa",
     name: "UTSA",
     location: "San Antonio, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/UTSA_downtown_campus.jpg",
     colors: { primary: "#F15A22", secondary: "#002A5C" },
     radioStation: "KSYM 90.1 FM",
     stats: [
@@ -1576,6 +1689,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wichitastate",
     name: "Wichita State",
     location: "Wichita, KS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/60/Wichita_State_University_Chapel_in_the_Afternoon_2011.jpg",
     colors: { primary: "#000000", secondary: "#FFCD00" },
     radioStation: "KMUW 89.1 FM",
     stats: [
@@ -1588,6 +1702,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "brown",
     name: "Brown University",
     location: "Providence, RI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Granoff_Center_%28Brown%29.jpg",
     colors: { primary: "#4E3629", secondary: "#C00404" },
     radioStation: "WBRU 95.5 FM",
     stats: [
@@ -1600,6 +1715,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "dartmouth",
     name: "Dartmouth College",
     location: "Hanover, NH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Dartmouth_Hall.jpg",
     colors: { primary: "#00693E", secondary: "#FFFFFF" },
     radioStation: "WDCR 1340 AM",
     stats: [
@@ -1612,6 +1728,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stthomas",
     name: "University of Saint Thomas",
     location: "St. Paul, MN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morrison_Hall_%28Minnesota%29.JPG",
     colors: { primary: "#4F2D7F", secondary: "#9D9795" },
     radioStation: "KTOM — online",
     stats: [
@@ -1624,6 +1741,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "dayton",
     name: "University of Dayton",
     location: "Dayton, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Youngstown_State_vs._Dayton%2C_UD_Arena%2C_11-24-23.jpg",
     colors: { primary: "#CE1141", secondary: "#004B8D" },
     radioStation: "WUDR 99.5 FM",
     stats: [
@@ -1636,6 +1754,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "duquesne",
     name: "Duquesne University",
     location: "Pittsburgh, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/55/DuquesneChapel.JPG",
     colors: { primary: "#002F6C", secondary: "#C41230" },
     radioStation: "WDUO — online",
     stats: [
@@ -1648,6 +1767,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fordham",
     name: "Fordham University",
     location: "New York, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Fordham_University_02.JPG",
     colors: { primary: "#7B0D21", secondary: "#222222" },
     radioStation: "WFUV 90.7 FM",
     stats: [
@@ -1660,6 +1780,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "georgemason",
     name: "George Mason University",
     location: "Fairfax, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/George_Mason_University_-_Arlington_%2814286906476%29.jpg",
     colors: { primary: "#006633", secondary: "#FFD700" },
     radioStation: "WGMU — online",
     stats: [
@@ -1672,6 +1793,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "gwu",
     name: "George Washington University",
     location: "Washington, DC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/de/George_Washington_University_Hospital_%28GWUH%29_-_2026_%2855266724621%29.jpg",
     colors: { primary: "#033C5A", secondary: "#AA9868" },
     radioStation: "WRGW — online",
     stats: [
@@ -1684,6 +1806,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "lasalle",
     name: "La Salle University",
     location: "Philadelphia, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/56/North_Halls_La_Salle.JPG",
     colors: { primary: "#00338D", secondary: "#EFAA00" },
     radioStation: "WEXP 1540 AM",
     stats: [
@@ -1696,6 +1819,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "loyolachicago",
     name: "Loyola University Chicago",
     location: "Chicago, IL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Rome_campus.jpg",
     colors: { primary: "#8B1A1A", secondary: "#D4AF37" },
     radioStation: "WLUW 88.7 FM",
     stats: [
@@ -1708,6 +1832,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uri",
     name: "University of Rhode Island",
     location: "Kingston, RI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/10/University_of_Rhode_Island_campus_aerial_view.jpg",
     colors: { primary: "#002147", secondary: "#75B2DD" },
     radioStation: "WRIU 90.3 FM",
     stats: [
@@ -1720,6 +1845,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "richmond",
     name: "University of Richmond",
     location: "Richmond, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Robins_Center%2C_University_of_Richmond.jpg",
     colors: { primary: "#990000", secondary: "#4F4F4F" },
     radioStation: "WDCE 90.1 FM",
     stats: [
@@ -1732,6 +1858,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "slu",
     name: "Saint Louis University",
     location: "St. Louis, MO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Old_Saint_Louis_University_Location.jpg",
     colors: { primary: "#003DA5", secondary: "#9E9E9E" },
     radioStation: "KSLU — online",
     stats: [
@@ -1744,6 +1871,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "sju",
     name: "Saint Joseph's University",
     location: "Philadelphia, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Saint_Joseph%27s_University_sign.jpg",
     colors: { primary: "#9E1B32", secondary: "#8B8B8B" },
     radioStation: "WSJU — online",
     stats: [
@@ -1756,6 +1884,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stbonaventure",
     name: "St. Bonaventure University",
     location: "St. Bonaventure, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Barclays_Center_3.jpg",
     colors: { primary: "#6B3A2A", secondary: "#FFFFFF" },
     radioStation: "WSBU 88.3 FM",
     stats: [
@@ -1768,6 +1897,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "vcu",
     name: "Virginia Commonwealth University",
     location: "Richmond, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a8/VCU_Snead_Hall_by_Jeff_Auth.JPG",
     colors: { primary: "#000000", secondary: "#D4AC53" },
     radioStation: "WVCW — online",
     stats: [
@@ -1780,6 +1910,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "citadel",
     name: "The Citadel",
     location: "Charleston, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Summerall_Chapel.JPG",
     colors: { primary: "#004F9F", secondary: "#8D9093" },
     radioStation: "WKTM 91.3 FM",
     stats: [
@@ -1792,6 +1923,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "etsu",
     name: "East Tennessee State University",
     location: "Johnson City, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/00/ETSU-Mountain_States_Health_Alliance_Athletic_Center%2C_East_Tennessee_State_University.jpg",
     colors: { primary: "#041E42", secondary: "#FFC72C" },
     radioStation: "WETS 89.5 FM",
     stats: [
@@ -1804,6 +1936,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "furman",
     name: "Furman University",
     location: "Greenville, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Furman_Hall.jpg",
     colors: { primary: "#582C83", secondary: "#FFFFFF" },
     radioStation: "WPLS 89.7 FM",
     stats: [
@@ -1816,6 +1949,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "mercer",
     name: "Mercer University",
     location: "Macon, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/70/Mercer_University_Mercer_Lofts.jpg",
     colors: { primary: "#F36F21", secondary: "#000000" },
     radioStation: "WMCX 91.1 FM",
     stats: [
@@ -1828,6 +1962,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "samford",
     name: "Samford University",
     location: "Birmingham, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Samford_University2.jpg",
     colors: { primary: "#003F87", secondary: "#C8102E" },
     radioStation: "WVSU 90.9 FM",
     stats: [
@@ -1840,6 +1975,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tennesseetech",
     name: "Tennessee Tech University",
     location: "Cookeville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tennessee-technological-university-hh.jpg",
     colors: { primary: "#4B2683", secondary: "#F9A01B" },
     radioStation: "WPTNLP 99.3 FM",
     stats: [
@@ -1852,6 +1988,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "utchattanooga",
     name: "University of Tennessee Chattanooga",
     location: "Chattanooga, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c8/The_University_of_Tennessee_at_Chattanooga.jpg",
     colors: { primary: "#00386B", secondary: "#E0A024" },
     radioStation: "WUTC 88.1 FM",
     stats: [
@@ -1864,6 +2001,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uncg",
     name: "UNC Greensboro",
     location: "Greensboro, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/UNCG%27s_first_building_1892_-_panoramio.jpg",
     colors: { primary: "#003865", secondary: "#FFD100" },
     radioStation: "WUAG 103.1 FM",
     stats: [
@@ -1876,6 +2014,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "vmi",
     name: "Virginia Military Institute",
     location: "Lexington, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/73/George_Washington_by_Hubard_after_Houdon%2C_VMI%2C_Lexingon%2C_VA.jpg",
     colors: { primary: "#CC0000", secondary: "#FFD700" },
     radioStation: "Keydets Radio — online",
     stats: [
@@ -1888,6 +2027,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wcu",
     name: "Western Carolina University",
     location: "Cullowhee, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/82/Joyner_Building.jpg",
     colors: { primary: "#592C88", secondary: "#CFC493" },
     radioStation: "WWCU 90.5 FM",
     stats: [
@@ -1900,6 +2040,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wofford",
     name: "Wofford College",
     location: "Spartanburg, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Wofford_College_%281905%29.jpg",
     colors: { primary: "#000000", secondary: "#CFB87C" },
     radioStation: "WOFR — online",
     stats: [
@@ -1912,6 +2053,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "delaware",
     name: "University of Delaware",
     location: "Newark, DE",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/University_of_Delaware_shuttle_bus_323_along_Delaware_Avenue.jpg",
     colors: { primary: "#00539F", secondary: "#FFD200" },
     radioStation: "WVUD 91.3 FM",
     stats: [
@@ -1924,6 +2066,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fiu",
     name: "Florida International University",
     location: "Miami, FL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Florida_International_University_Parkview_Housing.jpg",
     colors: { primary: "#081E3F", secondary: "#B6862C" },
     radioStation: "WRGP 88.1 FM",
     stats: [
@@ -1936,6 +2079,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "jacksonville-state",
     name: "Jacksonville State University",
     location: "Jacksonville, AL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jacksonville_State_University_College_of_Nursing.JPG",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "WLJS 91.9 FM",
     stats: [
@@ -1948,6 +2092,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "kennesaw-state",
     name: "Kennesaw State University",
     location: "Kennesaw, GA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Kennesaw_State_University_CDP_%282020%29.jpg",
     colors: { primary: "#FDBB30", secondary: "#000000" },
     radioStation: "Owl Radio — online",
     stats: [
@@ -1960,6 +2105,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "liberty",
     name: "Liberty University",
     location: "Lynchburg, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Liberty_University_C-172.jpg",
     colors: { primary: "#002868", secondary: "#BF0000" },
     radioStation: "WRVL 88.3 FM",
     stats: [
@@ -1972,6 +2118,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "louisiana-tech",
     name: "Louisiana Tech University",
     location: "Ruston, LA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/23/Louisiana_Tech_University_campus.jpg",
     colors: { primary: "#002F6C", secondary: "#E31B23" },
     radioStation: "KXKZ 107.5 FM",
     stats: [
@@ -1984,6 +2131,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "middle-tennessee",
     name: "Middle Tennessee State University",
     location: "Murfreesboro, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Middle_Tennessee_State_University_Observatory.jpg",
     colors: { primary: "#0066CC", secondary: "#004E9A" },
     radioStation: "WMOT 89.5 FM",
     stats: [
@@ -1996,6 +2144,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "missouri-state",
     name: "Missouri State University",
     location: "Springfield, MO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Missouri_State_University_Arial_View.jpg",
     colors: { primary: "#4E1749", secondary: "#FFFFFF" },
     radioStation: "KSMU 91.1 FM",
     stats: [
@@ -2008,6 +2157,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "new-mexico-state",
     name: "New Mexico State University",
     location: "Las Cruces, NM",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/45/New_Mexico_State_University_Goddard_Hall.jpg",
     colors: { primary: "#861F2A", secondary: "#000000" },
     radioStation: "KRWG 90.7 FM",
     stats: [
@@ -2020,6 +2170,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "sam-houston",
     name: "Sam Houston State University",
     location: "Huntsville, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Austin_hall_huntsville_tx_2014.jpg",
     colors: { primary: "#F76900", secondary: "#FFFFFF" },
     radioStation: "KSHU 90.5 FM",
     stats: [
@@ -2032,6 +2183,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "utep",
     name: "University of Texas at El Paso",
     location: "El Paso, TX",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Centennial_Plaza_at_UTEP.jpg",
     colors: { primary: "#FF8200", secondary: "#041E42" },
     radioStation: "KTEP 88.5 FM",
     stats: [
@@ -2044,6 +2196,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wku",
     name: "Western Kentucky University",
     location: "Bowling Green, KY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Fountain_Square_Park%2C_Bowling_Green%2C_Kentucky.JPG",
     colors: { primary: "#C60C30", secondary: "#FFFFFF" },
     radioStation: "WWHR 91.7 FM",
     stats: [
@@ -2056,6 +2209,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "jcsu",
     name: "Johnson C. Smith University",
     location: "Charlotte, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Johnson_C._Smith_University%2C_Charlotte%2C_N.C.jpg",
     colors: { primary: "#004F9F", secondary: "#F4A900" },
     radioStation: "Golden Bulls Radio — online",
     stats: [
@@ -2068,6 +2222,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "butler",
     name: "Butler University",
     location: "Indianapolis, IN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/00/Aerial_view_of_the_Butler_University_campus_in_Indianapolis%2C_Indiana.jpg",
     colors: { primary: "#13294B", secondary: "#C0A052" },
     radioStation: "WAJC 104.5 FM",
     stats: [
@@ -2080,6 +2235,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uconn",
     name: "University of Connecticut",
     location: "Storrs, CT",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Campus_view_-_University_of_Connecticut_-_DSC09948.JPG",
     colors: { primary: "#000E2F", secondary: "#E4D5B7" },
     radioStation: "WHUS 91.7 FM",
     stats: [
@@ -2092,6 +2248,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "creighton",
     name: "Creighton University",
     location: "Omaha, NE",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Creighton_University_seal.svg/250px-Creighton_University_seal.svg.png",
     colors: { primary: "#002966", secondary: "#A8996E" },
     radioStation: "KCGI 1490 AM",
     stats: [
@@ -2104,6 +2261,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "depaul",
     name: "DePaul University",
     location: "Chicago, IL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/06/DePaul_University_1908.jpg",
     colors: { primary: "#005B99", secondary: "#D41B2C" },
     radioStation: "WRDP 1620 AM",
     stats: [
@@ -2116,6 +2274,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "marquette",
     name: "Marquette University",
     location: "Milwaukee, WI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/83/Marquette_hall.jpg",
     colors: { primary: "#003366", secondary: "#F5D000" },
     radioStation: "WMUR 95.7 FM",
     stats: [
@@ -2128,6 +2287,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "providence",
     name: "Providence College",
     location: "Providence, RI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Martin_Hall_Providence_College.jpg",
     colors: { primary: "#000000", secondary: "#FFFFFF" },
     radioStation: "WDOM 91.3 FM",
     stats: [
@@ -2140,6 +2300,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "seton-hall",
     name: "Seton Hall University",
     location: "South Orange, NJ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jubilee_Hall_-_Seton_Hall.jpg",
     colors: { primary: "#003A70", secondary: "#A7A8AA" },
     radioStation: "WSOU 89.5 FM",
     stats: [
@@ -2152,6 +2313,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stjohns",
     name: "St. John's University",
     location: "Queens, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Jack_Kaiser_Stadium.jpg",
     colors: { primary: "#CC0000", secondary: "#FFFFFF" },
     radioStation: "WSJU — online",
     stats: [
@@ -2164,6 +2326,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "villanova",
     name: "Villanova University",
     location: "Villanova, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Villanova_alumni_hall.JPG",
     colors: { primary: "#003366", secondary: "#13B5EA" },
     radioStation: "WXVU 89.1 FM",
     stats: [
@@ -2176,6 +2339,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "xavier",
     name: "Xavier University",
     location: "Cincinnati, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Justice_Hall%2C_Xavier_University.jpg",
     colors: { primary: "#0E1F46", secondary: "#A0784A" },
     radioStation: "WVXU 91.7 FM",
     stats: [
@@ -2188,6 +2352,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "coppinstate",
     name: "Coppin State University",
     location: "Baltimore, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Coppin_State_Teachers_College%2C_2500_West_North_Street%2C_Baltimore%2C_Maryland_%2890403%29.jpg",
     colors: { primary: "#002D62", secondary: "#C8A951" },
     radioStation: "Eagles Radio — online",
     stats: [
@@ -2200,6 +2365,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "umes",
     name: "University of Maryland Eastern Shore",
     location: "Princess Anne, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Post0061_-_Flickr_-_NOAA_Photo_Library.jpg",
     colors: { primary: "#007F3F", secondary: "#E8AA14" },
     radioStation: "WESM 91.3 FM",
     stats: [
@@ -2212,6 +2378,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "norfolkstate",
     name: "Norfolk State University",
     location: "Norfolk, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Norfolk_State_University_Lyman_Beecher_Brooks_Library.jpg",
     colors: { primary: "#007A33", secondary: "#FFD700" },
     radioStation: "WNSB 91.1 FM",
     stats: [
@@ -2224,6 +2391,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "nccu",
     name: "North Carolina Central University",
     location: "Durham, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/NCCU%27s_O%27Kelly-Riddick_Stadium.JPG",
     colors: { primary: "#990000", secondary: "#8B7136" },
     radioStation: "WNCU 90.7 FM",
     stats: [
@@ -2236,6 +2404,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "scstate",
     name: "South Carolina State University",
     location: "Orangeburg, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Truth_Hall_at_SCSU.jpg",
     colors: { primary: "#00205B", secondary: "#F47920" },
     radioStation: "WSSB 90.3 FM",
     stats: [
@@ -2248,6 +2417,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "airforce",
     name: "U.S. Air Force Academy",
     location: "Colorado Springs, CO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Aerial_view_of_the_United_States_Air_Force_Academy%2C_El_Paso_County%2C_Colorado.jpg",
     colors: { primary: "#003087", secondary: "#8A8D8F" },
     radioStation: "KAFA 97.7 FM",
     stats: [
@@ -2260,6 +2430,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "hawaii",
     name: "University of Hawai'i at Mānoa",
     location: "Honolulu, HI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/13/Hawai%27i_Hall.jpg",
     colors: { primary: "#024731", secondary: "#FFFFFF" },
     radioStation: "KTUH 90.3 FM",
     stats: [
@@ -2272,6 +2443,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "nevada",
     name: "University of Nevada Reno",
     location: "Reno, NV",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/86/UNR_KnowledgeCenter120520.jpg",
     colors: { primary: "#003366", secondary: "#807F84" },
     radioStation: "KUNR 88.7 FM",
     stats: [
@@ -2284,6 +2456,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "newmexico",
     name: "University of New Mexico",
     location: "Albuquerque, NM",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/31/University_Stadium%2C_Home_of_the_Lobos.jpg",
     colors: { primary: "#BA0C2F", secondary: "#63666A" },
     radioStation: "KUNM 89.9 FM",
     stats: [
@@ -2296,6 +2469,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "sanjosestate",
     name: "San José State University",
     location: "San José, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Boccardo_Gate_%28San_Jos%C3%A9_State_University%29_-_DSC03952.JPG",
     colors: { primary: "#0055A2", secondary: "#E5A823" },
     radioStation: "KSJS 90.5 FM",
     stats: [
@@ -2308,6 +2482,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "unlv",
     name: "University of Nevada Las Vegas",
     location: "Las Vegas, NV",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/University_of_Nevada%2C_Las_Vegas_seal.svg/250px-University_of_Nevada%2C_Las_Vegas_seal.svg.png",
     colors: { primary: "#CF0A2C", secondary: "#63666A" },
     radioStation: "KUNV 91.5 FM",
     stats: [
@@ -2320,6 +2495,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wyoming",
     name: "University of Wyoming",
     location: "Laramie, WY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/81/University_of_wyoming_1908_crop.jpg",
     colors: { primary: "#492F24", secondary: "#FFC425" },
     radioStation: "KUWR 91.9 FM",
     stats: [
@@ -2332,6 +2508,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "grandcanyon",
     name: "Grand Canyon University",
     location: "Phoenix, AZ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/62/Grand_Canyon_University_Arena.jpg",
     colors: { primary: "#522398", secondary: "#000000" },
     radioStation: "Lope Radio — online",
     stats: [
@@ -2344,6 +2521,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ucdavis",
     name: "UC Davis",
     location: "Davis, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Aggie_Stadium_%28UC_Davis%29.jpg",
     colors: { primary: "#022851", secondary: "#FFBF00" },
     radioStation: "KDVS 90.3 FM",
     stats: [
@@ -2356,6 +2534,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ndsu",
     name: "North Dakota State University",
     location: "Fargo, ND",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Front_of_Putnam_Hall.jpg",
     colors: { primary: "#0A5640", secondary: "#FFC72C" },
     radioStation: "KNDS 960 AM",
     stats: [
@@ -2368,6 +2547,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "northernillinois",
     name: "Northern Illinois University",
     location: "DeKalb, IL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/ba/College_of_Engineering_and_Engineering_Technology_%28CEET%29_05.jpg",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "WNIU 90.5 FM",
     stats: [
@@ -2380,6 +2560,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "akron",
     name: "University of Akron",
     location: "Akron, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f8/University_of_Akron_Arts_and_Sciences.JPG",
     colors: { primary: "#002147", secondary: "#E8A723" },
     radioStation: "WZIP 88.1 FM",
     stats: [
@@ -2392,6 +2573,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ballstate",
     name: "Ball State University",
     location: "Muncie, IN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Ball_State_University_CAP_INDY.jpg",
     colors: { primary: "#BA0C2F", secondary: "#6F727B" },
     radioStation: "WCRD 91.3 FM",
     stats: [
@@ -2404,6 +2586,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bowlinggreen",
     name: "Bowling Green State University",
     location: "Bowling Green, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/68/BGSU_View_from_Admin_Building.jpg",
     colors: { primary: "#FD5000", secondary: "#4F2C1D" },
     radioStation: "WBGU 88.1 FM",
     stats: [
@@ -2416,6 +2599,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "buffalo",
     name: "University at Buffalo",
     location: "Buffalo, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Khalil_Mack_University_at_Buffalo_Football.jpg",
     colors: { primary: "#005BBB", secondary: "#FFB81C" },
     radioStation: "WBNY 91.3 FM",
     stats: [
@@ -2428,6 +2612,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "centralmichigan",
     name: "Central Michigan University",
     location: "Mount Pleasant, MI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/23/CMU_Park_Library.JPG",
     colors: { primary: "#6A0032", secondary: "#FFC82E" },
     radioStation: "WCMU 89.5 FM",
     stats: [
@@ -2440,6 +2625,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "easternmichigan",
     name: "Eastern Michigan University",
     location: "Ypsilanti, MI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Eastern_Michigan_University-6_%282803838017%29.jpg",
     colors: { primary: "#006633", secondary: "#FFFFFF" },
     radioStation: "WEMU 89.1 FM",
     stats: [
@@ -2452,6 +2638,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "kentstate",
     name: "Kent State University",
     location: "Kent, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Kent_stark_aerial.JPG",
     colors: { primary: "#002664", secondary: "#EAAB00" },
     radioStation: "WKSU 89.7 FM",
     stats: [
@@ -2464,6 +2651,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "umass",
     name: "University of Massachusetts",
     location: "Amherst, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Cumnock_Hall_-_University_of_Massachusetts_Lowell_-_DSC00148.JPG",
     colors: { primary: "#881C1C", secondary: "#FFFFFF" },
     radioStation: "WMUA 91.1 FM",
     stats: [
@@ -2476,6 +2664,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "miamioh",
     name: "Miami University",
     location: "Oxford, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/King_Library%2C_Miami_University.jpg",
     colors: { primary: "#C3142D", secondary: "#FFFFFF" },
     radioStation: "WMSR 88.1 FM",
     stats: [
@@ -2488,6 +2677,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ohio",
     name: "Ohio University",
     location: "Athens, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/42/Ohio_University_Ecohouse.jpg",
     colors: { primary: "#00694E", secondary: "#FFFFFF" },
     radioStation: "ACRN 90.5 FM",
     stats: [
@@ -2500,6 +2690,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "toledo",
     name: "University of Toledo",
     location: "Toledo, OH",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/U-of_toledo_ihouse.jpg",
     colors: { primary: "#003B5C", secondary: "#FFC72C" },
     radioStation: "WXUT 88.3 FM",
     stats: [
@@ -2512,6 +2703,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "westernmichigan",
     name: "Western Michigan University",
     location: "Kalamazoo, MI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Western_Michigan_University_East_Hall.JPG",
     colors: { primary: "#6C4023", secondary: "#C5922B" },
     radioStation: "WIDR 89.1 FM",
     stats: [
@@ -2524,6 +2716,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "sacramentostate",
     name: "Sacramento State University",
     location: "Sacramento, CA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Sacramento_State_Aquatic_Center.jpg",
     colors: { primary: "#043927", secondary: "#C4B000" },
     radioStation: "KSSU 1580 AM",
     stats: [
@@ -2536,6 +2729,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "american",
     name: "American University",
     location: "Washington, DC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/American_University_Glover_Gate.jpg",
     colors: { primary: "#003F87", secondary: "#C4112F" },
     radioStation: "WAMU 88.5 FM",
     stats: [
@@ -2548,6 +2742,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "army",
     name: "Army West Point",
     location: "West Point, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Malek_Visitors_Center_-_USMA_West_Point_%2855195711508%29.jpg",
     colors: { primary: "#000000", secondary: "#8A7B4E" },
     radioStation: "WKDT 1071 AM",
     stats: [
@@ -2560,6 +2755,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bu",
     name: "Boston University",
     location: "Boston, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Aerial_Boston_University.jpg",
     colors: { primary: "#CC0000", secondary: "#FFFFFF" },
     radioStation: "WTBU 640 AM",
     stats: [
@@ -2572,6 +2768,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "bucknell",
     name: "Bucknell University",
     location: "Lewisburg, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bucknell_University_2012_1.JPG",
     colors: { primary: "#E87722", secondary: "#003865" },
     radioStation: "WVBU 90.5 FM",
     stats: [
@@ -2584,6 +2781,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "colgate",
     name: "Colgate University",
     location: "Hamilton, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Colgate_Hill_Panorama.JPG",
     colors: { primary: "#821019", secondary: "#FFFFFF" },
     radioStation: "WRCU 90.1 FM",
     stats: [
@@ -2596,6 +2794,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "holycross",
     name: "College of the Holy Cross",
     location: "Worcester, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Smith_Hall%2C_College_of_the_Holy_Cross.jpg",
     colors: { primary: "#602D89", secondary: "#FFFFFF" },
     radioStation: "WCHC 88.1 FM",
     stats: [
@@ -2608,6 +2807,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "lafayette",
     name: "Lafayette College",
     location: "Easton, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lafayette_College_Easton_PA_43_building.jpg",
     colors: { primary: "#B3122D", secondary: "#FFFFFF" },
     radioStation: "WLafayette — online",
     stats: [
@@ -2620,6 +2820,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "lehigh",
     name: "Lehigh University",
     location: "Bethlehem, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lehigh_University_Williams_Hall.jpg",
     colors: { primary: "#653B1D", secondary: "#FFFFFF" },
     radioStation: "WLVR 91.3 FM",
     stats: [
@@ -2632,6 +2833,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "loyolamd",
     name: "Loyola University Maryland",
     location: "Baltimore, MD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Reitz_Arena_Loyola_Maryland.jpg",
     colors: { primary: "#006F51", secondary: "#8B8B8B" },
     radioStation: "WLOY 1650 AM",
     stats: [
@@ -2644,6 +2846,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "ccsu",
     name: "Central Connecticut State University",
     location: "New Britain, CT",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Central_Connecticut_State_University_Student_Center%2C_2009-09-15.jpg",
     colors: { primary: "#00539B", secondary: "#FFFFFF" },
     radioStation: "WFCS 107.7 FM",
     stats: [
@@ -2656,6 +2859,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "chicagostate",
     name: "Chicago State University",
     location: "Chicago, IL",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Chicago_State_University_newest_logo.svg/330px-Chicago_State_University_newest_logo.svg.png",
     colors: { primary: "#007A53", secondary: "#FFFFFF" },
     radioStation: "Cougar Radio — online",
     stats: [
@@ -2668,6 +2872,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "fdu",
     name: "Fairleigh Dickinson University",
     location: "Teaneck, NJ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b1/FD_Florham_dorms_jeh.jpg",
     colors: { primary: "#28334A", secondary: "#72293C" },
     radioStation: "WFDU 89.1 FM",
     stats: [
@@ -2680,6 +2885,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "lemoyne",
     name: "Le Moyne College",
     location: "Syracuse, NY",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f4/Lemoyne_Seal.png",
     colors: { primary: "#006838", secondary: "#B09247" },
     radioStation: "WLMR — online",
     stats: [
@@ -2692,6 +2898,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "liu",
     name: "Long Island University",
     location: "Brookville, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/fa/C.W._Post_College%2C_Brookville%2C_Long_Island._LOC_gsc.5a29903.jpg",
     colors: { primary: "#00539B", secondary: "#FFB81C" },
     radioStation: "WCWP 88.1 FM",
     stats: [
@@ -2704,6 +2911,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "mercyhurst",
     name: "Mercyhurst University",
     location: "Erie, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mercyhurst_University_entry_gate_in_September_2024.jpg",
     colors: { primary: "#07594D", secondary: "#182752" },
     radioStation: "WMCE 88.5 FM",
     stats: [
@@ -2716,6 +2924,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "saintfrancis",
     name: "Saint Francis University",
     location: "Loretto, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Saint_Francis_University_2025_10_part1.jpg",
     colors: { primary: "#BD1F25", secondary: "#FFFFFF" },
     radioStation: "WSFQ 88.1 FM",
     stats: [
@@ -2728,6 +2937,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "umkc",
     name: "University of Missouri-Kansas City",
     location: "Kansas City, MO",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/University_of_Missouri%E2%80%93Kansas_City_School_of_Medicine_St._Joseph_Campus.jpg",
     colors: { primary: "#002855", secondary: "#F0C400" },
     radioStation: "KKFI 90.1 FM",
     stats: [
@@ -2740,6 +2950,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "omaha",
     name: "University of Nebraska Omaha",
     location: "Omaha, NE",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Seal_of_the_University_of_Nebraska.svg/330px-Seal_of_the_University_of_Nebraska.svg.png",
     colors: { primary: "#D00000", secondary: "#000000" },
     radioStation: "KVNO 90.7 FM",
     stats: [
@@ -2752,6 +2963,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "oralroberts",
     name: "Oral Roberts University",
     location: "Tulsa, OK",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Oral_Roberts_University_large_hands_entrance_from_the_air_summer_2017.jpg",
     colors: { primary: "#002868", secondary: "#C8A84B" },
     radioStation: "Titan Radio — online",
     stats: [
@@ -2764,6 +2976,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southdakota",
     name: "University of South Dakota",
     location: "Vermillion, SD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Old_Main%2C_University_of_South_Dakota.jpg",
     colors: { primary: "#862633", secondary: "#F2A900" },
     radioStation: "KAOR 91.1 FM",
     stats: [
@@ -2776,6 +2989,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "southdakotastate",
     name: "South Dakota State University",
     location: "Brookings, SD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dana_J._Dykhouse_Stadium_2016.jpg",
     colors: { primary: "#003087", secondary: "#FFD100" },
     radioStation: "KESD 88.3 FM",
     stats: [
@@ -2788,6 +3002,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stonehill",
     name: "Stonehill College",
     location: "Easton, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/MacPhaidin_Library%2C_Stonehill_College_campus.jpg",
     colors: { primary: "#1C3F7A", secondary: "#C8A84B" },
     radioStation: "WSHL 91.3 FM",
     stats: [
@@ -2800,6 +3015,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "newhaven",
     name: "University of New Haven",
     location: "West Haven, CT",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/55/University_of_New_Haven_seal.png",
     colors: { primary: "#002F6C", secondary: "#D4A900" },
     radioStation: "WNHU 88.7 FM",
     stats: [
@@ -2812,6 +3028,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "wagner",
     name: "Wagner College",
     location: "Staten Island, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Winter_Dormitory_Views_at_Wagner_College.jpg",
     colors: { primary: "#006747", secondary: "#FFFFFF" },
     radioStation: "WSWS — online",
     stats: [
@@ -2824,6 +3041,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "campbell",
     name: "Campbell University",
     location: "Buies Creek, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/86/Campbell_University_Sound_of_the_Sandhills.jpg",
     colors: { primary: "#F26522", secondary: "#000000" },
     radioStation: "Camel Radio — online",
     stats: [
@@ -2836,6 +3054,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "charleston",
     name: "College of Charleston",
     location: "Charleston, SC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/83/Randolph_hall_college_of_charleston.JPG",
     colors: { primary: "#532D1C", secondary: "#C4A44A" },
     radioStation: "WSOE 89.3 FM",
     stats: [
@@ -2848,6 +3067,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "drexel",
     name: "Drexel University",
     location: "Philadelphia, PA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/SR2015_Drexel_Campus_162.jpg",
     colors: { primary: "#07294D", secondary: "#FFC600" },
     radioStation: "WKDU 91.7 FM",
     stats: [
@@ -2860,6 +3080,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "elon",
     name: "Elon University",
     location: "Elon, NC",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Elon_University_seal.svg/250px-Elon_University_seal.svg.png",
     colors: { primary: "#8B0000", secondary: "#C8A84B" },
     radioStation: "WSOE 89.3 FM",
     stats: [
@@ -2872,6 +3093,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "hamptonu",
     name: "Hampton University",
     location: "Hampton, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hampton_University_Cheerleading_Team.jpg",
     colors: { primary: "#00539F", secondary: "#FFFFFF" },
     radioStation: "WHOV 88.1 FM",
     stats: [
@@ -2884,6 +3106,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "hofstra",
     name: "Hofstra University",
     location: "Hempstead, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Hofstra_Hall_2021.jpg",
     colors: { primary: "#003591", secondary: "#F6D51F" },
     radioStation: "WRHU 88.7 FM",
     stats: [
@@ -2896,6 +3119,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "monmouth",
     name: "Monmouth University",
     location: "West Long Branch, NJ",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d2/Pozycki_Hall%2C_Monmouth_University%2C_NJ.jpg",
     colors: { primary: "#041E42", secondary: "#FFFFFF" },
     radioStation: "WMCX 88.9 FM",
     stats: [
@@ -2908,6 +3132,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "northeastern",
     name: "Northeastern University",
     location: "Boston, MA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Northeastern_University.jpg",
     colors: { primary: "#C8102E", secondary: "#000000" },
     radioStation: "WRBB 104.9 FM",
     stats: [
@@ -2920,6 +3145,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "stonybrook",
     name: "Stony Brook University",
     location: "Stony Brook, NY",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/77/Stony_Brook_University_Union.jpg",
     colors: { primary: "#CC0000", secondary: "#582C83" },
     radioStation: "WUSB 90.1 FM",
     stats: [
@@ -2932,6 +3158,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "towson",
     name: "Towson University",
     location: "Towson, MD",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f5/TUAthenaneumBuilding.jpg",
     colors: { primary: "#E2A900", secondary: "#000000" },
     radioStation: "WTMD 89.7 FM",
     stats: [
@@ -2944,6 +3171,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "uncwilmington",
     name: "UNC Wilmington",
     location: "Wilmington, NC",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/ee/University_of_North_Carolina_Wilmington_Main_Campus_%2815_August_2023%29_157.jpg",
     colors: { primary: "#003F87", secondary: "#FFCD00" },
     radioStation: "WLOZ — online",
     stats: [
@@ -2956,6 +3184,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "williamandmary",
     name: "William & Mary",
     location: "Williamsburg, VA",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/66/President%27s_House_at_William_%26_Mary%2C_2021.jpg",
     colors: { primary: "#115740", secondary: "#B9A36A" },
     radioStation: "WCWM 90.9 FM",
     stats: [
@@ -2968,6 +3197,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "austinpeay",
     name: "Austin Peay State University",
     location: "Clarksville, TN",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Austin_Peay_Browning_Building.jpg",
     colors: { primary: "#CC0000", secondary: "#000000" },
     radioStation: "WAPX 91.9 FM",
     stats: [
