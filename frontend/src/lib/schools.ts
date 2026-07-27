@@ -476,7 +476,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "tamu",
     name: "Texas A&M",
     location: "College Station, TX",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Secretary_of_Defense_Robert_Gates_and_members_of_Texas_A%26M_University%27s_Corps_of_Cadets.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/28/Texas_A%26M_Academic_Building.jpg",
     colors: { primary: "#500000", secondary: "#FFFFFF" },
     radioStation: "KANM — online",
     stats: [
