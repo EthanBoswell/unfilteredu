@@ -21,12 +21,9 @@ export interface SchoolProfileProps {
   location: string;
   image?: string;
   accent: string;
-  accentLight: string;
   accentText: string;
   postsAnalyzed: number;
   lastUpdated: string;
-  heroQuote: string;
-  heroAuthor: string;
   verdict: {
     bestFor: string;
     watchOut: string;
@@ -442,11 +439,8 @@ export function SchoolProfile({
   location,
   image,
   accent,
-  accentLight,
   postsAnalyzed,
   lastUpdated,
-  heroQuote,
-  heroAuthor,
   verdict,
   topics,
 }: SchoolProfileProps) {
@@ -589,57 +583,13 @@ export function SchoolProfile({
         }}
       >
 
-        {/* Hero quote */}
-        <div style={{ margin: "28px 0" }}>
-          <p
-            style={{
-              margin: "0 0 10px",
-              fontSize: 11,
-              fontWeight: 700,
-              color: "#9ca3af",
-              letterSpacing: "0.1em",
-              textTransform: "uppercase",
-            }}
-          >
-            Most upvoted take
-          </p>
-          <div style={{ position: "relative" }}>
-            <div
-              style={{
-                position: "absolute",
-                top: 0,
-                left: -4,
-                right: -4,
-                bottom: 0,
-                background: accentLight,
-                transform: "rotate(-0.4deg)",
-                borderRadius: 2,
-              }}
-            />
-            <p
-              style={{
-                position: "relative",
-                margin: 0,
-                fontSize: 20,
-                fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                fontWeight: 700,
-                color: "#111",
-                lineHeight: 1.35,
-                padding: "2px 4px",
-              }}
-            >
-              &ldquo;{heroQuote}&rdquo;
-            </p>
-          </div>
-          <p style={{ margin: "10px 0 0", fontSize: 12, color: "#9ca3af" }}>— {heroAuthor}</p>
-        </div>
-
         {/* Quick verdict */}
         <div
           style={{
             background: "#111",
             borderRadius: 14,
             padding: "22px 24px",
+            marginTop: 32,
             marginBottom: 32,
           }}
         >

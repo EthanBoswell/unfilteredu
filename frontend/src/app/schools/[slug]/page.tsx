@@ -58,16 +58,6 @@ function hexToRgb(hex: string): [number, number, number] {
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 }
 
-function computeAccentLight(hex: string): string {
-  const [r, g, b] = hexToRgb(hex);
-  const bg = [247, 246, 242] as const;
-  const alpha = 0.15;
-  const blend = ([r, g, b] as number[]).map((c, i) =>
-    Math.round(c * alpha + bg[i] * (1 - alpha))
-  );
-  return `#${blend.map((v) => v.toString(16).padStart(2, "0")).join("")}`;
-}
-
 function computeAccentText(hex: string): string {
   const [r, g, b] = hexToRgb(hex);
   const toLinear = (c: number) => {
@@ -160,7 +150,6 @@ export default async function SchoolPage({
 
   const colors = schoolColors[slug] ?? school.colors;
   const accent = colors.primary;
-  const accentLight = computeAccentLight(accent);
   const accentText = computeAccentText(accent);
   const subreddit = SUBREDDITS[slug] ?? slug;
 
@@ -172,12 +161,9 @@ export default async function SchoolPage({
         location={school.location}
         image={school.image}
         accent={accent}
-        accentLight={accentLight}
         accentText={accentText}
         postsAnalyzed={10000}
         lastUpdated={lastUpdated}
-        heroQuote={summary.overall_vibe.key_quotes[0] ?? ""}
-        heroAuthor={`r/${subreddit}`}
         verdict={{
           bestFor: summary.hidden_gems.key_points[0] ?? "",
           watchOut: summary.red_flags.key_points[0] ?? "",
