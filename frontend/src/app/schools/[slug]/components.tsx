@@ -43,13 +43,6 @@ const SENTIMENT_CONFIG: Record<Sentiment, { color: string; bg: string; icon: str
   concern:  { color: "#dc2626", bg: "#fef2f2", icon: "↓" },
 };
 
-function barColor(scoreOutOf10: number): string {
-  const half = scoreOutOf10 / 2;
-  if (half < 2.5) return "#ef4444";
-  if (half <= 3.5) return "#f59e0b";
-  return "#22c55e";
-}
-
 // ── Vibe Check ────────────────────────────────────────────────────────────────
 
 function ProgressRing({
@@ -241,74 +234,6 @@ function CampusVibeCard({ topic, accent }: { topic: TopicData; accent: string })
   );
 }
 
-function AdminRatingCard({ topics }: { topics: TopicData[] }) {
-  const rows: Array<{ label: string; id: string }> = [
-    { label: "Financial Aid", id: "financial_aid" },
-    { label: "Academics",     id: "academics" },
-    { label: "Administration", id: "administration" },
-    { label: "Housing",       id: "housing" },
-  ];
-
-  return (
-    <VibeCard>
-      <VibeLabel icon="🏛️" text="Admin Rating" />
-      <div style={{ display: "flex", flexDirection: "column", gap: 14, flex: 1, justifyContent: "center" }}>
-        {rows.map(({ label, id }) => {
-          const topic = topics.find((t) => t.id === id);
-          const score = topic?.score ?? 0;
-          const half = score / 2;
-          const color = barColor(score);
-          return (
-            <div key={id} style={{ display: "flex", flexDirection: "column", gap: 5 }}>
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <span
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    color: "#e7e5e4",
-                    fontFamily: "ui-monospace, monospace",
-                    letterSpacing: "0.02em",
-                  }}
-                >
-                  {label}
-                </span>
-                <span
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 900,
-                    color,
-                    fontFamily: "ui-monospace, monospace",
-                  }}
-                >
-                  {half.toFixed(1)}/5
-                </span>
-              </div>
-              <div
-                style={{
-                  width: "100%",
-                  height: 5,
-                  background: "rgba(255,255,255,0.07)",
-                  borderRadius: 3,
-                  overflow: "hidden",
-                }}
-              >
-                <div
-                  style={{
-                    width: `${Math.max(0, Math.min(10, score)) * 10}%`,
-                    height: "100%",
-                    background: color,
-                    borderRadius: 3,
-                  }}
-                />
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </VibeCard>
-  );
-}
-
 function VibeCheckSection({ topics, accent }: { topics: TopicData[]; accent: string }) {
   const socialTopic = topics.find((t) => t.id === "social_life");
   const academicsTopic = topics.find((t) => t.id === "academics");
@@ -331,10 +256,9 @@ function VibeCheckSection({ topics, accent }: { topics: TopicData[]; accent: str
         >
           Vibe Check
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <SocialSceneCard topic={socialTopic} accent={accent} />
           <CampusVibeCard topic={academicsTopic} accent={accent} />
-          <AdminRatingCard topics={topics} />
         </div>
       </div>
     </div>
