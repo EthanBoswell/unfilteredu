@@ -137,7 +137,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "virginiatech",
     name: "Virginia Tech",
     location: "Blacksburg, VA",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Drill_Field_Virginia_Tech.jpg",
+    image: "https://commons.wikimedia.org/wiki/File:Harper_Hall_Virginia_Tech.JPG",
     colors: { primary: "#861F41", secondary: "#E5751F" },
     radioStation: "WUVT 90.7 FM",
     stats: [
@@ -1715,7 +1715,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "dartmouth",
     name: "Dartmouth College",
     location: "Hanover, NH",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Dartmouth_Hall.jpg",
+    image: "https://en.wikipedia.org/wiki/Campus_of_Dartmouth_College#/media/File:Dartmouth_College_campus_2007-10-20_09.JPG",
     colors: { primary: "#00693E", secondary: "#FFFFFF" },
     radioStation: "WDCR 1340 AM",
     stats: [
@@ -3093,7 +3093,7 @@ export const SCHOOLS: SchoolMeta[] = [
     slug: "hamptonu",
     name: "Hampton University",
     location: "Hampton, VA",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hampton_University_Cheerleading_Team.jpg",
+    image: "https://commons.wikimedia.org/wiki/File:HAMPTON_UNIVERSITY_Monroe_Memorial_Church.jpg",
     colors: { primary: "#00539F", secondary: "#FFFFFF" },
     radioStation: "WHOV 88.1 FM",
     stats: [
