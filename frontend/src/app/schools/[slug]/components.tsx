@@ -424,7 +424,7 @@ export function SchoolProfile({
       : topics.filter((t) => t.sentiment === activeFilter);
 
   return (
-    <div style={{ background: "#F7F6F2", minHeight: "100vh" }}>
+    <div style={{ background: "#F5F2EA", minHeight: "100vh" }}>
 
       {/* ── Hero photo with overlaid title ───────────────────────── */}
       {image ? (
