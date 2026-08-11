@@ -13,7 +13,6 @@ export interface TopicData {
   sentimentLabel: string;
   tagline: string;
   summary: string;
-  quotes: Array<{ text: string; author: string }>;
 }
 
 export interface SchoolProfileProps {
@@ -268,12 +267,10 @@ function TopicCard({
   topic,
   isOpen,
   onToggle,
-  accent,
 }: {
   topic: TopicData;
   isOpen: boolean;
   onToggle: () => void;
-  accent: string;
 }) {
   const s = SENTIMENT_CONFIG[topic.sentiment];
 
@@ -380,52 +377,9 @@ function TopicCard({
 
       {isOpen && (
         <div style={{ borderTop: "1px solid #f3f4f6", padding: "20px 20px 24px" }}>
-          <p style={{ margin: "0 0 20px", fontSize: 14, lineHeight: 1.7, color: "#374151" }}>
+          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.7, color: "#374151" }}>
             {topic.summary}
           </p>
-
-          {topic.quotes.length > 0 && (
-            <div>
-              <p
-                style={{
-                  margin: "0 0 12px",
-                  fontSize: 11,
-                  fontWeight: 700,
-                  color: "#9ca3af",
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                }}
-              >
-                What students say
-              </p>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {topic.quotes.map((q, i) => (
-                  <div
-                    key={i}
-                    style={{
-                      background: "#f9f9f7",
-                      borderLeft: `3px solid ${accent}`,
-                      padding: "12px 14px",
-                      borderRadius: "0 8px 8px 0",
-                    }}
-                  >
-                    <p
-                      style={{
-                        margin: "0 0 6px",
-                        fontSize: 13,
-                        color: "#111",
-                        lineHeight: 1.5,
-                        fontStyle: "italic",
-                      }}
-                    >
-                      &ldquo;{q.text}&rdquo;
-                    </p>
-                    <span style={{ fontSize: 11, color: "#9ca3af" }}>{q.author}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       )}
     </div>
@@ -694,7 +648,6 @@ export function SchoolProfile({
               topic={topic}
               isOpen={openTopics.has(topic.id)}
               onToggle={() => toggleTopic(topic.id)}
-              accent={accent}
             />
           ))}
           {filteredTopics.length === 0 && (

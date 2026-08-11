@@ -8,47 +8,6 @@ import { SchoolProfile } from "./components";
 import type { TopicData } from "./components";
 import type { Summary } from "@/lib/schools";
 
-// ── Subreddit mapping ────────────────────────────────────────────────────────
-
-const SUBREDDITS: Record<string, string> = {
-  unc: "UNC",
-  duke: "duke",
-  ncstate: "NCState",
-  georgiatech: "gatech",
-  uva: "uva",
-  virginiatech: "VirginiaTech",
-  fsu: "FloridaState",
-  miami: "umiami",
-  clemson: "Clemson",
-  wakeforest: "wakeforest",
-  bc: "bostoncollege",
-  syracuse: "Syracuse",
-  pitt: "Pitt",
-  louisville: "uofl",
-  notredame: "notredame",
-  ucberkeley: "berkeley",
-  smu: "SMU",
-  stanford: "Stanford",
-  howard: "HowardUniversity",
-  alabama: "uAlabama",
-  auburn: "auburn",
-  florida: "ufl",
-  uga: "UGA",
-  tennessee: "UTK",
-  kentucky: "uky",
-  southcarolina: "uofsc",
-  usc: "USC",
-  lsu: "LSU",
-  olemiss: "OleMiss",
-  msstate: "msstate",
-  arkansas: "uofarkansas",
-  tamu: "aggies",
-  texas: "UTAustin",
-  vanderbilt: "vanderbilt",
-  missouri: "mizzou",
-  oklahoma: "uoklahoma",
-};
-
 // ── Color utilities ───────────────────────────────────────────────────────────
 
 function hexToRgb(hex: string): [number, number, number] {
@@ -96,7 +55,7 @@ function getSentimentLabel(score: number): string {
   return "Some concerns";
 }
 
-function mapTopics(summary: Summary, subreddit: string): TopicData[] {
+function mapTopics(summary: Summary): TopicData[] {
   return TOPIC_CATEGORIES.map(({ key, label }) => {
     const data = summary[key];
     return {
@@ -107,7 +66,6 @@ function mapTopics(summary: Summary, subreddit: string): TopicData[] {
       sentimentLabel: getSentimentLabel(data.score),
       tagline: data.key_points[0] ?? "",
       summary: data.key_points.join(" "),
-      quotes: data.key_quotes.map((text) => ({ text, author: `r/${subreddit}` })),
     };
   });
 }
@@ -151,7 +109,6 @@ export default async function SchoolPage({
   const colors = schoolColors[slug] ?? school.colors;
   const accent = colors.primary;
   const accentText = computeAccentText(accent);
-  const subreddit = SUBREDDITS[slug] ?? slug;
 
   return (
     <>
@@ -169,7 +126,7 @@ export default async function SchoolPage({
           watchOut: summary.red_flags.key_points[0] ?? "",
           bottomLine: summary.overall_vibe.key_points[0] ?? "",
         }}
-        topics={mapTopics(summary, subreddit)}
+        topics={mapTopics(summary)}
       />
     </>
   );

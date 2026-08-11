@@ -304,24 +304,24 @@ SYSTEM_PROMPT = (
 OUTPUT_SCHEMA = """\
 Return ONLY a valid JSON object (no markdown, no explanation) with this exact structure:
 {
-  "housing": {"key_points": ["point1", "point2", "point3"], "key_quotes": ["quote1", "quote2", "quote3"], "score": 7},
-  "social_life": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "dining": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "mental_health": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "financial_aid": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "academics": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "administration": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "location_and_campus": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "career_outcomes": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "value_for_money": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "overall_vibe": {"key_points": [...], "key_quotes": [...], "score": 7},
-  "red_flags": {"key_points": [...], "key_quotes": [...], "score": 3},
-  "hidden_gems": {"key_points": [...], "key_quotes": [...], "score": 7}
+  "housing": {"key_points": ["point1", "point2", "point3"], "score": 7},
+  "social_life": {"key_points": [...], "score": 7},
+  "dining": {"key_points": [...], "score": 7},
+  "mental_health": {"key_points": [...], "score": 7},
+  "financial_aid": {"key_points": [...], "score": 7},
+  "academics": {"key_points": [...], "score": 7},
+  "administration": {"key_points": [...], "score": 7},
+  "location_and_campus": {"key_points": [...], "score": 7},
+  "career_outcomes": {"key_points": [...], "score": 7},
+  "value_for_money": {"key_points": [...], "score": 7},
+  "overall_vibe": {"key_points": [...], "score": 7},
+  "red_flags": {"key_points": [...], "score": 3},
+  "hidden_gems": {"key_points": [...], "score": 7}
 }
 Each category must have:
 - "key_points": exactly 3 short, punchy bullet points (max 12 words each), most important insight \
-first, written so someone can scan the whole page in 60 seconds
-- "key_quotes": 2-3 short direct quotes from the data
+first, written so someone can scan the whole page in 60 seconds. Paraphrase — do not use direct \
+quotes or verbatim phrasing from a single post/comment.
 - "score": an integer from 1-10:
   - 1-3 = poor, consistent complaints
   - 4-5 = mixed, notable issues

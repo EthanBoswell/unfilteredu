@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import HomepageHero from "@/components/HomepageHero";
 import HomepageContrast from "@/components/HomepageContrast";
-import QuoteCarousel from "@/components/QuoteCarousel";
 import Footer from "@/components/Footer";
-import { getHeroQuotes } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "UnfilteredU — Real College Reviews",
@@ -23,13 +21,11 @@ const HOW_IT_WORKS = [
   },
   {
     n: "03",
-    body: "You get the insights. Get concise summaries with representative quotes, organized by topic, so you can gain insights in just a few minutes.",
+    body: "You get the insights. Get concise summaries organized by topic, so you can gain insights in just a few minutes.",
   },
 ];
 
 export default async function HomePage() {
-  const quotes = await getHeroQuotes();
-
   return (
     <div style={{ background: "#F5F4EF" }}>
       <Nav />
@@ -69,12 +65,6 @@ export default async function HomePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section style={{ background: "#F5F4EF", marginTop: -85 }}>
-        <div className="mx-auto max-w-[720px] px-8 pb-[72px]">
-          <QuoteCarousel quotes={quotes} />
         </div>
       </section>
 

@@ -1,10 +1,5 @@
 {
   "housing": {
-    "key_quotes": [
-      "The athletic dorms are very nice, each person gets their own room, has a living room, showers, etc.",
-      "I live on-campus in Atlanta so there are checkouts and security measures to guests in dorm.",
-      "Crime is not really an issue on the GT campus. Just don't be stupid or go off campus during the night"
-    ],
     "score": 6,
     "key_points": [
       "Athlete dorms offer private rooms and strong amenities.",
@@ -13,11 +8,6 @@
     ]
   },
   "social_life": {
-    "key_quotes": [
-      "we dont neeed that sasuage fest of gatech anyways!!!",
-      "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork and no social life",
-      "As the GT girls like to say, the odds are good, but the goods are odd."
-    ],
     "score": 5,
     "key_points": [
       "Heavy workload leaves many students with little social life.",
@@ -26,11 +16,6 @@
     ]
   },
   "dining": {
-    "key_quotes": [
-      "If I get into Georgia Tech I will literally eat 10 peaches and stream it live",
-      "If I get into Georgia Tech I will drink 2 gallons of banana flavored milk in one sitting",
-      "Ranking t20s based on the distance to the closest Chick Fil A"
-    ],
     "score": 6,
     "key_points": [
       "No meaningful student feedback exists on dining quality.",
@@ -39,11 +24,6 @@
     ]
   },
   "mental_health": {
-    "key_quotes": [
-      "I ended up going where there was most prestige, and I often wish I had picked a different school. All of my high school friends are loving their schools and I'm downing in schoolwork and no social life",
-      "People dont get how shitty untreated ADHD actually is to deal with academically and emotionally",
-      "I became suicidal again and my grades took a hit"
-    ],
     "score": 5,
     "key_points": [
       "Intense workload causes students to feel overwhelmed and isolated.",
@@ -52,11 +32,6 @@
     ]
   },
   "financial_aid": {
-    "key_quotes": [
-      "I was blown away when Georgia Tech released decisions and I got chosen as a Stamps President's Scholar/Gold Scholar semifinalist. This would mean I could potentially go to a school of this caliber for almost free",
-      "ED is a scam to enhance a school's yield and rankings while controlling financial aid costs",
-      "After I sort out my ADHD treatment... I'll transfer to Georgia Tech... which will qualify me for the HOPE scholarship which pays full tuition"
-    ],
     "score": 8,
     "key_points": [
       "Stamps and Gold Scholar programs offer potentially full-ride merit aid.",
@@ -65,11 +40,6 @@
     ]
   },
   "academics": {
-    "key_quotes": [
-      "It's an amazing and world-renowned school and one of the best for Aerospace",
-      "USNews 2021 CS Rankings: MIT, CMU, Stanford, Berkeley, Caltech, UIUC, UW, Princeton, Cornell, Georgia Tech",
-      "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork"
-    ],
     "score": 9,
     "key_points": [
       "GT ranks top 5-10 nationally in CS and engineering.",
@@ -78,11 +48,6 @@
     ]
   },
   "administration": {
-    "key_quotes": [
-      "It's ridiculous how many phishing emails I receive from random other students",
-      "We're aware that sending phishing simulations to students is a gap we have today and we're working on that",
-      "Colleges don't really care where your parents went to college unless you are applying to the same school (legacy). So no one except Ga Tech should care. And Ga Tech doesn't do legacy anyway."
-    ],
     "score": 6,
     "key_points": [
       "Cybersecurity: weekly phishing emails reach students with inadequate institutional response.",
@@ -91,11 +56,6 @@
     ]
   },
   "location_and_campus": {
-    "key_quotes": [
-      "Crime is not really an issue on the GT campus. Just don't be stupid or go off campus during the night",
-      "Atlanta seeming a bit more fun, except I worry about crime a little bit",
-      "I live in Atlanta where rent is extremely high so for 8 months I just worked my ass off"
-    ],
     "score": 7,
     "key_points": [
       "Atlanta is seen as dynamic but has real crime concerns.",
@@ -104,11 +64,6 @@
     ]
   },
   "career_outcomes": {
-    "key_quotes": [
-      "Georgia Tech IS WHERE FRIEND'S DAUGHTER WANTS TO GO",
-      "I have an offer for a Product and Technologies co-op at Landis+Gyr, a $1.7 billion smart metering and grid modernization company",
-      "state school or a top public university is better than attending an elite ivy league university if you wish to study computer science"
-    ],
     "score": 9,
     "key_points": [
       "GT consistently cited alongside MIT and CMU for top tech careers.",
@@ -117,11 +72,6 @@
     ]
   },
   "value_for_money": {
-    "key_quotes": [
-      "This would mean I could potentially go to a school of this caliber for almost free",
-      "Georgia Tech IS underrated",
-      "After I sort out my ADHD treatment... I'll transfer to Georgia Tech... which will qualify me for the HOPE scholarship which pays full tuition"
-    ],
     "score": 9,
     "key_points": [
       "Georgia residents get top-5 engineering at exceptional cost with HOPE scholarship.",
@@ -130,11 +80,6 @@
     ]
   },
   "overall_vibe": {
-    "key_quotes": [
-      "THIS HAS BEEN MY DREAM SCHOOL SINCE I WAS 5 YALL",
-      "As the GT girls like to say, the odds are good, but the goods are odd.",
-      "He went to Georgia Tech himself (and so did his dad and my dad) and it's one of the few things he remembers these days"
-    ],
     "score": 7,
     "key_points": [
       "Students are passionate and proud with multi-generational GT loyalty.",
@@ -143,11 +88,6 @@
     ]
   },
   "red_flags": {
-    "key_quotes": [
-      "I ended up going where there was most prestige, and I often wish I had picked a different school... I'm downing in schoolwork and no social life",
-      "we dont neeed that sasuage fest of gatech anyways!!!",
-      "It's ridiculous how many phishing emails I receive from random other students... at least one blatantly malicious email every week"
-    ],
     "score": 5,
     "key_points": [
       "Workload: one student described drowning in schoolwork with no social life.",
@@ -156,11 +96,6 @@
     ]
   },
   "hidden_gems": {
-    "key_quotes": [
-      "I was blown away when Georgia Tech released decisions and I got chosen as a Stamps President's Scholar/Gold Scholar semifinalist. This would mean I could potentially go to a school of this caliber for almost free",
-      "Check out the Regents Engineering Transfer Pathway Program",
-      "I'm a founder going through CREATE-X Startup Launch this summer"
-    ],
     "score": 8,
     "key_points": [
       "Stamps President's Scholar offers a potential full ride few know about.",

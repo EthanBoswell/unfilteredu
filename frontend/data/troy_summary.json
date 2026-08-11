@@ -5,10 +5,6 @@
       "One prospective student asked about apartment costs and living fees",
       "Alumni mention campus fondly but no dorm details given"
     ],
-    "key_quotes": [
-      "Can you make a video about apartment fee and cost of living at Troy",
-      "She wants to get her dorm room decorated already"
-    ],
     "score": 6
   },
   "social_life": {
@@ -16,10 +12,6 @@
       "Subreddit post explicitly asks about party life with no responses",
       "Football games mentioned as a highlight of campus experience",
       "Small town limits off-campus social options significantly"
-    ],
-    "key_quotes": [
-      "LETS TALK PARTY LIFE WHAT DO YOU THINK ABOUT IT?!",
-      "It's that 'big college experience in a friendly small town' that makes it unique"
     ],
     "score": 5
   },
@@ -29,10 +21,6 @@
       "Local businesses like Sikes and Kohn mentioned by alumni",
       "No data to assess dining quality or variety"
     ],
-    "key_quotes": [
-      "Sikes and Kohn is where I bought my cowboy boots",
-      "I've been through the U.S. university system... a campus that's affordable and supportive is rare"
-    ],
     "score": 6
   },
   "mental_health": {
@@ -40,10 +28,6 @@
       "No mention of counseling services or mental health resources in data",
       "Small supportive campus community implied but not specific to mental health",
       "Isolation risk in small town environment not directly addressed"
-    ],
-    "key_quotes": [
-      "A campus that's affordable, supportive, and not overcrowded is rare",
-      "38 years and never transferred out. That says more about the community than any statistic"
     ],
     "score": 5
   },
@@ -53,11 +37,6 @@
       "International scholarship specifically highlighted as a major draw",
       "Out-of-state students can qualify; worth comparing to in-state options"
     ],
-    "key_quotes": [
-      "My GPA and ACT qualifies me for a full ride at Troy University in Alabama",
-      "The international scholarship alone would've changed my entire journey",
-      "Yes. For the love of god, yes [on taking the full ride]"
-    ],
     "score": 8
   },
   "academics": {
@@ -65,11 +44,6 @@
       "Nursing program praised as best in Alabama by a 2018 graduate",
       "IT and business programs attract international students specifically",
       "Academic reputation seen as average; not exceptional by multiple sources"
-    ],
-    "key_quotes": [
-      "I graduated from Troy's nursing program in 2018! THE best in the state. I'm now a travel NICU nurse",
-      "Troy seems to be a fine school, but not exceptional",
-      "Is this an American college? To be honest, Troy University doesn't sound like an accredited college"
     ],
     "score": 6
   },
@@ -79,10 +53,6 @@
       "Online admissions policies appear outdated and inflexible",
       "No praise for administration in any source"
     ],
-    "key_quotes": [
-      "Troy University does not currently accept the TASC high school equivalency exam",
-      "I was informed that a TASC HSED would be accepted anywhere that a GED was accepted"
-    ],
     "score": 4
   },
   "location_and_campus": {
@@ -90,11 +60,6 @@
       "Small town Troy, Alabama has serious job scarcity for students",
       "Surprisingly diverse campus with strong international student presence",
       "Population under 20k makes part-time work very hard to find"
-    ],
-    "key_quotes": [
-      "I go to school in small town Troy Alabama. I've had the hardest time finding a job",
-      "Your town has a population of less than 20k so you will have problems finding employment",
-      "I visited once and the mix of cultures on campus was unreal"
     ],
     "score": 5
   },
@@ -104,10 +69,6 @@
       "MBA and graduate program job placement data largely absent from student discussion",
       "Small town location limits internship and networking opportunities nearby"
     ],
-    "key_quotes": [
-      "I graduated from Troy's nursing program in 2018! I'm now a travel NICU nurse. Best decision I've ever made",
-      "I haven't come across many detailed reviews on Troy University [for MBA job placement]"
-    ],
     "score": 6
   },
   "value_for_money": {
@@ -115,11 +76,6 @@
       "Full-ride scholarship makes Troy an outstanding financial deal for qualifiers",
       "Without scholarship, out-of-state cost vs. mediocre reputation is questionable",
       "Affordable tuition and low cost of living consistently cited as advantages"
-    ],
-    "key_quotes": [
-      "Yes. For the love of god, yes [move across country for the full ride]",
-      "A campus that's affordable, supportive, and not overcrowded is rare",
-      "Troy seems to be a fine school, but not exceptional"
     ],
     "score": 7
   },
@@ -129,11 +85,6 @@
       "Strong international student community gives campus unexpected diversity",
       "Campus spirit and loyalty run deep among those who attend"
     ],
-    "key_quotes": [
-      "38 years and never transferred out. That says more about the community and the people than any statistic",
-      "It's that 'big college experience in a friendly small town' that makes it unique",
-      "I am an Alumni of Troy University. It's a very good school!"
-    ],
     "score": 7
   },
   "red_flags": {
@@ -142,11 +93,6 @@
       "**Administration rigidity:** Rejected valid TASC diploma, forcing student to retake equivalency exam",
       "**Employment:** Tiny town under 20k people; students report inability to find any part-time work"
     ],
-    "key_quotes": [
-      "To be honest, Troy University doesn't sound like an accredited college",
-      "Troy University does not currently accept the TASC high school equivalency exam",
-      "I've applied to countless jobs online and also gone into many places and just can't seem to get a call"
-    ],
     "score": 6
   },
   "hidden_gems": {
@@ -154,11 +100,6 @@
       "Nursing program quietly ranks among Alabama's best with real career results",
       "International scholarship packages rarely advertised but highly competitive",
       "Campus diversity far exceeds what small-town Alabama location would suggest"
-    ],
-    "key_quotes": [
-      "I graduated from Troy's nursing program in 2018! THE best in the state",
-      "The international scholarship alone would've changed my entire journey",
-      "I visited once and the mix of cultures on campus was unreal"
     ],
     "score": 7
   }

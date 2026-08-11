@@ -1,14 +1,5 @@
 import { createServerClient } from "./supabase";
-import { getContrastTextColor, getSchoolBySlug } from "./schools";
 import type { Summary } from "./schools";
-
-export type HeroQuote = {
-  text: string;
-  school: string;
-  slug: string;
-  color: string;
-  textColor: string;
-};
 
 export async function loadSummary(slug: string): Promise<Summary> {
   const db = createServerClient();
@@ -23,18 +14,17 @@ export async function loadSummary(slug: string): Promise<Summary> {
 
   const { data: rows, error: summaryErr } = await db
     .from("summaries")
-    .select("category, key_points, key_quotes, score")
+    .select("category, key_points, score")
     .eq("school_id", (school as { id: string }).id);
 
   if (summaryErr || !rows?.length) {
     throw new Error(`No summary data found for: ${slug}`);
   }
 
-  const result: Record<string, { key_points: string[]; key_quotes: string[]; score: number }> = {};
-  for (const row of rows as { category: string; key_points: string[]; key_quotes: string[]; score: number }[]) {
+  const result: Record<string, { key_points: string[]; score: number }> = {};
+  for (const row of rows as { category: string; key_points: string[]; score: number }[]) {
     result[row.category] = {
       key_points: row.key_points,
-      key_quotes: row.key_quotes,
       score: row.score,
     };
   }
@@ -79,35 +69,4 @@ export async function getSummaryLastUpdated(slug: string): Promise<string> {
     month: "long",
     year: "numeric",
   });
-}
-
-export async function getHeroQuotes(): Promise<HeroQuote[]> {
-  const db = createServerClient();
-
-  const { data, error } = await db
-    .from("summaries")
-    .select("key_quotes, schools!inner(slug, name)")
-    .eq("category", "overall_vibe");
-
-  if (error || !data) return [];
-
-  return (data as { key_quotes: string[]; schools: { slug: string; name: string } }[]).flatMap(
-    (row) => {
-      const school = getSchoolBySlug(row.schools.slug);
-      if (!school) return [];
-
-      const text = row.key_quotes.find((q) => q && q.trim().length > 0);
-      if (!text) return [];
-
-      return [
-        {
-          text,
-          school: row.schools.name,
-          slug: row.schools.slug,
-          color: school.colors.primary,
-          textColor: getContrastTextColor(school.colors.primary),
-        },
-      ];
-    }
-  );
 }

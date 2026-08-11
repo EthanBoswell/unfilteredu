@@ -23,7 +23,6 @@ type Category = (typeof VALID_CATEGORIES)[number];
 
 interface CategoryData {
   key_points: string[];
-  key_quotes: string[];
   score: number;
 }
 
@@ -75,7 +74,6 @@ async function seed() {
       school_id: schoolRow.id,
       category,
       key_points: summary[category].key_points ?? [],
-      key_quotes: summary[category].key_quotes ?? [],
       score: summary[category].score ?? null,
     }));
 

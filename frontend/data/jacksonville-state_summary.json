@@ -5,10 +5,6 @@
       "Roommate culture flagged as a serious concern by former residents",
       "Limited firsthand data beyond one dorm review available"
     ],
-    "key_quotes": [
-      "Lived there for two years, the rooms weren't bad but the worst part is the Troglodytes subhumans that live there",
-      "What is communal living like?"
-    ],
     "score": 5
   },
   "social_life": {
@@ -16,11 +12,6 @@
       "Prospective students specifically ask about party culture before committing",
       "Basketball games generate intense atmosphere and fan energy",
       "Vloggers portray campus life as fun enough to attract applicants"
-    ],
-    "key_quotes": [
-      "Are there good parties?",
-      "Mannnn y'all gotta drop another video man on the real lol. Y'all funny I wanna come to JSU too lol",
-      "Ion know if yall still in collage but yeaah im filling out my application next week"
     ],
     "score": 6
   },
@@ -30,9 +21,6 @@
       "Cannot assess dining quality, variety, or value from sources",
       "Treat dining as an unknown — visit and test it yourself"
     ],
-    "key_quotes": [
-      "No dining-specific quotes available from either source"
-    ],
     "score": 5
   },
   "mental_health": {
@@ -40,10 +28,6 @@
       "No mention of counseling, wellness, or support services in any post",
       "First-gen and low-guidance students actively seeking help navigating JSU",
       "Absence of mental health discussion itself may signal limited culture around it"
-    ],
-    "key_quotes": [
-      "I need to find a college but I have no adult guidance",
-      "I want to come here for college, but obviously I have to know what I'm getting myself into"
     ],
     "score": 4
   },
@@ -53,10 +37,6 @@
       "JSU aggressively recruits via email after ACT scores are reported",
       "No current students reported positive financial aid experiences in data"
     ],
-    "key_quotes": [
-      "What kind of grants are available for students, how are student loans?",
-      "I took the ACT as an upcoming sophomore this summer and I got pretty good scores, so I've gotten a few emails — most of them have been from Jacksonville State University"
-    ],
     "score": 4
   },
   "academics": {
@@ -64,10 +44,6 @@
       "Course offerings flagged as limited compared to larger universities",
       "Prospective student noted JSU doesn't offer enough courses in desired majors",
       "No current students praised professors, programs, or academic rigor"
-    ],
-    "key_quotes": [
-      "I want to go to Alcorn or JSU for band, but those schools don't offer as many of the courses",
-      "How is the staff?"
     ],
     "score": 4
   },
@@ -77,11 +53,6 @@
       "Recruitment emails flagged as suspicious — using .org instead of .edu",
       "Prospective students feel under-informed and unsupported in the process"
     ],
-    "key_quotes": [
-      "Most of them have been from Jacksonville State University... the one emailing me is .org",
-      "I need to find a college but I have no adult guidance",
-      "What is JSU like? I have to know what I'm getting myself into"
-    ],
     "score": 4
   },
   "location_and_campus": {
@@ -89,10 +60,6 @@
       "JSU is in Jacksonville, Alabama — a small town with limited urban amenities",
       "Alumni express strong regional pride, especially from surrounding Southeast states",
       "Campus visually appealing enough to generate positive vlog reactions"
-    ],
-    "key_quotes": [
-      "My JSU flag is flown at my estate in north Georgia near the University of North Georgia. We are the best.",
-      "The looks of it... I'm liking ittttt"
     ],
     "score": 6
   },
@@ -102,10 +69,6 @@
       "Limited program breadth may restrict career pathways for some majors",
       "No employer recruitment or alumni network data surfaced in sources"
     ],
-    "key_quotes": [
-      "Those schools don't offer as many of the courses",
-      "No career-outcome quotes available from either source"
-    ],
     "score": 4
   },
   "value_for_money": {
@@ -113,10 +76,6 @@
       "Students considering JSU appear cost-conscious and scholarship-driven",
       "No students confirmed scholarships or aid packages actually delivered value",
       "Aggressive recruitment suggests JSU needs to attract students — may offer deals"
-    ],
-    "key_quotes": [
-      "What kind of grants are available for students, how are student loans?",
-      "I've gotten a few emails — most of them have been from Jacksonville State University"
     ],
     "score": 5
   },
@@ -126,11 +85,6 @@
       "Online presence is thin — very few current students sharing real experiences",
       "Excitement from prospective students not yet matched by current student endorsements"
     ],
-    "key_quotes": [
-      "This is my dream college though",
-      "Y'all funny I wanna come to JSU too lol",
-      "Jsu the best and the southerners. My jsu flag is flown."
-    ],
     "score": 5
   },
   "red_flags": {
@@ -139,11 +93,6 @@
       "**Recruitment Integrity:** JSU recruits via .org email domains raising scam concerns among students",
       "**Data Vacuum:** almost no current students publicly discussing academics, aid, or campus life"
     ],
-    "key_quotes": [
-      "The rooms weren't bad but the worst part is the Troglodytes subhumans that live there",
-      "The one emailing me is .org — I just want to be extra sure that it's not a scam",
-      "I need to find a college but I have no adult guidance"
-    ],
     "score": 7
   },
   "hidden_gems": {
@@ -151,11 +100,6 @@
       "JSU has a strong band culture that actively draws serious marching band recruits",
       "Passionate alumni loyalty suggests a tight-knit community that sticks together",
       "Small school size may mean easier access to professors and campus resources"
-    ],
-    "key_quotes": [
-      "I want to go to Alcorn or JSU for band",
-      "Jsu the best and the southerners. My JSU flag is flown at my estate in north Georgia.",
-      "This is my dream college though"
     ],
     "score": 6
   }

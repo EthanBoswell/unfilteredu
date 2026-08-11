@@ -5,10 +5,6 @@
       "Campus has underground tunnels rumored among applicants",
       "No major housing complaints surfaced in available student data"
     ],
-    "key_quotes": [
-      "beautiful campus, less pretentious, residential system is good",
-      "Colgate has some sweet underground tunnels, I hear. Can anyone verify?"
-    ],
     "score": 7
   },
   "social_life": {
@@ -16,11 +12,6 @@
       "Greek life is a dominant social force; students ask about it immediately",
       "Isolation is a real concern — winter activities fill the social void",
       "Multiple students asked about weekend parties, suggesting limited alternatives"
-    ],
-    "key_quotes": [
-      "How big is greek life on campus??",
-      "It's very cold and isolated. I'm afraid I'll get bored since I don't like outdoor winter activities, which I believe the students do to pass the time.",
-      "Can you please make a video on a typical weekend at Colgate?! The parties and stuff to enjoy around."
     ],
     "score": 6
   },
@@ -30,10 +21,6 @@
       "No substantive student complaints or praise about dining hall food found",
       "Pizza mailing generated buzz but zero info on day-to-day food quality"
     ],
-    "key_quotes": [
-      "Idc how gross it looks, if i get mailed a pizza there's no way I'm not tasting it",
-      "what if they're gone for the weekend? then the pizza's just... sitting there..."
-    ],
     "score": 6
   },
   "mental_health": {
@@ -41,11 +28,6 @@
       "Isolation and harsh winters flagged as mood and wellbeing risks",
       "No mention of counseling services or mental health support in any post",
       "Students from warmer states openly worried about fitting in and loneliness"
-    ],
-    "key_quotes": [
-      "I live in North Carolina which is one thing keeping me from fully considering it",
-      "I am from california. And it's a big decision to move to the other coast.",
-      "Is Colgate fun as an asian, I'm a south Asian and I'm so scared of facing racism and loneliness there"
     ],
     "score": 5
   },
@@ -55,11 +37,6 @@
       "Strong financial aid for lower-income students; some report near-full grants",
       "International students should not expect need-blind treatment here"
     ],
-    "key_quotes": [
-      "Colgate University- accepted with 0k in merit and grants (they only give financial grants)",
-      "and they couldn't accept me because i needed aid???????",
-      "I have a 51k Grant for Colgate, which will (probably) make it cheaper than Mich."
-    ],
     "score": 6
   },
   "academics": {
@@ -67,11 +44,6 @@
       "Small class sizes and close professor relationships praised repeatedly for pre-med",
       "Grade inflation acknowledged as a real advantage over larger research universities",
       "CS program is weak for a school of this caliber; LAC format limits STEM depth"
-    ],
-    "key_quotes": [
-      "Small class sizes, close relationships with professors will help you get many meaningful research experiences and awesome letters of recs.",
-      "Colgate easy. You don't want to deal with grade deflation and risk having to go to the Caribbean.",
-      "These are all liberal arts schools so they may not be the best for that specific field."
     ],
     "score": 7
   },
@@ -81,11 +53,6 @@
       "Fee waiver promotions suggest they actively chase application volume",
       "No student complaints about admin responsiveness surfaced in the data"
     ],
-    "key_quotes": [
-      "First Colgate sent a whole video in the mail, then they sent puzzle pieces, and now they're sending pizza??",
-      "They're playing 4D chess. They know exactly what's going to happen here: This is so weird, people are of course going to share it and talk about it.",
-      "Got this email too... gotta say, it actually worked. I don't think I was going to apply but hey!"
-    ],
     "score": 7
   },
   "location_and_campus": {
@@ -93,11 +60,6 @@
       "Hamilton, NY is genuinely isolated — this is the single biggest recurring concern",
       "Beautiful campus consistently praised; described as less pretentious than peer schools",
       "Outdoor activities (hiking, lakes) are the main local draw; useless if you hate winter"
-    ],
-    "key_quotes": [
-      "It's very cold and isolated. I'm afraid I'll get bored since I don't like outdoor winter activities.",
-      "Is there anything to do in Hamilton? Either there is nothing to do or lots to do. Hiking, bicycling, lakes, rivers. It's not NYC however.",
-      "beautiful campus, less pretentious, residential system is good, giant robot arm in library"
     ],
     "score": 6
   },
@@ -107,11 +69,6 @@
       "No specific data on finance, consulting, or tech recruiting pipelines",
       "3-2 engineering program exists but sends students elsewhere for the technical degree"
     ],
-    "key_quotes": [
-      "Colgate, it gives you a less stressful track into med school. The classes are smaller, there's grade inflation.",
-      "I wanted to know about the internship/study abroad/research opportunities and if they'd compare to Mich.",
-      "Id say Colgate. Small more intimate classes and greater interaction with professors will help you get many meaningful research experiences."
-    ],
     "score": 7
   },
   "value_for_money": {
@@ -119,11 +76,6 @@
       "Zero merit aid means full sticker price for middle-class families — brutal math",
       "Low-income students with demonstrated need can find it genuinely affordable",
       "Upper-middle-class families explicitly warned not to bother unless it's a dream school"
-    ],
-    "key_quotes": [
-      "Colgate University- accepted with 0k in merit and grants (they only give financial grants, so take a look at it if you fall into the income range)",
-      "Schools to not waste your time applying to if you are upper middle class: Colgate University",
-      "I have a 51k Grant for Colgate, which will (probably) make it cheaper than Mich."
     ],
     "score": 5
   },
@@ -133,11 +85,6 @@
       "Heavy name-recognition problem ironically filters out students who'd love it",
       "Current students express genuine satisfaction; outsiders carry unfair toothpaste bias"
     ],
-    "key_quotes": [
-      "I'm a freshman and I love it! No regrets and such an amazing place to be.",
-      "Imo easy Colgate. Beautiful campus, less pretentious, residential system is good, giant robot arm in library.",
-      "it sounds so unserious when telling someone you went to colgate university. i wouldn't even apply there"
-    ],
     "score": 7
   },
   "red_flags": {
@@ -146,11 +93,6 @@
       "**Isolation:** Hamilton, NY offers almost nothing outside campus — brutal for non-outdoorsy students",
       "**Financial Aid Structure:** No merit aid at all; middle-class families pay full sticker with no relief"
     ],
-    "key_quotes": [
-      "Is Colgate fun as an asian, I'm a south Asian and I'm so scared of facing racism and loneliness there",
-      "It's very cold and isolated. I'm afraid I'll get bored since I don't like outdoor winter activities.",
-      "accepted with 0k in merit and grants"
-    ],
     "score": 6
   },
   "hidden_gems": {
@@ -158,11 +100,6 @@
       "Giant robot arm in the library — unique campus feature nobody talks about",
       "Underground tunnel system rumored to connect buildings — unverified but intriguing",
       "Creative admissions team signals a school that actually wants to engage students"
-    ],
-    "key_quotes": [
-      "beautiful campus, less pretentious, residential system is good, giant robot arm in library",
-      "Colgate has some sweet underground tunnels, I hear. Can anyone verify?",
-      "First Colgate sent a whole video in the mail, then they sent puzzle pieces, and now they're sending pizza??"
     ],
     "score": 7
   }
