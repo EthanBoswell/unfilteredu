@@ -57,100 +57,98 @@ export default function NavClient({
       </a>
 
       <div className="flex items-center gap-5">
-        {!schoolName && (
-          <div ref={dropdownRef} className="relative">
-            <button
-              type="button"
-              onClick={() => setDropdownOpen((o) => !o)}
-              className="flex items-center"
-              style={{ color: "#fff", background: "none", border: "none", cursor: "pointer", padding: 0 }}
-            >
-              {dropdownOpen ? (
-                <X size={20} strokeWidth={2} />
-              ) : userEmail ? (
-                <span
-                  style={{
-                    width: 22,
-                    height: 22,
-                    borderRadius: "50%",
-                    background: "#F5F4EF",
-                    color: "#0F0F0F",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: 11,
-                    fontWeight: 700,
-                    fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                  }}
-                >
-                  {avatarInitial}
-                </span>
-              ) : (
-                <Menu size={20} strokeWidth={2} />
-              )}
-            </button>
-
-            {dropdownOpen && (
-              <div
-                className="absolute right-0 top-full flex flex-col"
+        <div ref={dropdownRef} className="relative">
+          <button
+            type="button"
+            onClick={() => setDropdownOpen((o) => !o)}
+            className="flex items-center"
+            style={{ color: "#fff", background: "none", border: "none", cursor: "pointer", padding: 0 }}
+          >
+            {dropdownOpen ? (
+              <X size={20} strokeWidth={2} />
+            ) : userEmail ? (
+              <span
                 style={{
-                  marginTop: 8,
-                  background: "#0F0F0F",
-                  border: "1px solid rgba(255,255,255,0.1)",
-                  borderRadius: 6,
-                  minWidth: 180,
-                  padding: "6px 0",
-                  boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
+                  width: 22,
+                  height: 22,
+                  borderRadius: "50%",
+                  background: "#F5F4EF",
+                  color: "#0F0F0F",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: 11,
+                  fontWeight: 700,
+                  fontFamily: "var(--font-syne), 'Syne', sans-serif",
                 }}
               >
-                {menuLinks.map(({ label, href, cta }) => (
-                  <Link
-                    key={href}
-                    href={href}
+                {avatarInitial}
+              </span>
+            ) : (
+              <Menu size={20} strokeWidth={2} />
+            )}
+          </button>
+
+          {dropdownOpen && (
+            <div
+              className="absolute right-0 top-full flex flex-col"
+              style={{
+                marginTop: 8,
+                background: "#0F0F0F",
+                border: "1px solid rgba(255,255,255,0.1)",
+                borderRadius: 6,
+                minWidth: 180,
+                padding: "6px 0",
+                boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
+              }}
+            >
+              {menuLinks.map(({ label, href, cta }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="text-[13px] leading-none px-4 py-2.5 hover:bg-white/10 transition-colors"
+                  style={{
+                    fontFamily: cta ? "var(--font-syne), 'Syne', sans-serif" : "Inter, sans-serif",
+                    fontWeight: cta ? 700 : 400,
+                    color: "#fff",
+                    display: "block",
+                    borderTop: cta ? "1px solid rgba(255,255,255,0.1)" : undefined,
+                    marginTop: cta ? 4 : undefined,
+                    paddingTop: cta ? 12 : undefined,
+                  }}
+                >
+                  {label}
+                </Link>
+              ))}
+
+              {userEmail && (
+                <form
+                  action="/auth/signout"
+                  method="post"
+                  style={{ marginTop: 4, borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 4 }}
+                >
+                  <button
+                    type="submit"
                     className="text-[13px] leading-none px-4 py-2.5 hover:bg-white/10 transition-colors"
                     style={{
-                      fontFamily: cta ? "var(--font-syne), 'Syne', sans-serif" : "Inter, sans-serif",
-                      fontWeight: cta ? 700 : 400,
+                      fontFamily: "Inter, sans-serif",
+                      fontWeight: 400,
                       color: "#fff",
                       display: "block",
-                      borderTop: cta ? "1px solid rgba(255,255,255,0.1)" : undefined,
-                      marginTop: cta ? 4 : undefined,
-                      paddingTop: cta ? 12 : undefined,
+                      width: "100%",
+                      textAlign: "left",
+                      background: "none",
+                      border: "none",
+                      cursor: "pointer",
                     }}
                   >
-                    {label}
-                  </Link>
-                ))}
-
-                {userEmail && (
-                  <form
-                    action="/auth/signout"
-                    method="post"
-                    style={{ marginTop: 4, borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 4 }}
-                  >
-                    <button
-                      type="submit"
-                      className="text-[13px] leading-none px-4 py-2.5 hover:bg-white/10 transition-colors"
-                      style={{
-                        fontFamily: "Inter, sans-serif",
-                        fontWeight: 400,
-                        color: "#fff",
-                        display: "block",
-                        width: "100%",
-                        textAlign: "left",
-                        background: "none",
-                        border: "none",
-                        cursor: "pointer",
-                      }}
-                    >
-                      Sign out
-                    </button>
-                  </form>
-                )}
-              </div>
-            )}
-          </div>
-        )}
+                    Sign out
+                  </button>
+                </form>
+              )}
+            </div>
+          )}
+        </div>
 
         {schoolName && schoolColor ? (
           <button
