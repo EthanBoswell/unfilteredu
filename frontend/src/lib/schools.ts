@@ -58,8 +58,18 @@ export function getRoomPalette(school: SchoolMeta): RoomPalette {
 
 const INITIALS_STOPWORDS = new Set(["of", "at", "the", "and", "in"]);
 
+// Real-world abbreviations that can't be derived from the stored name alone
+// (e.g. "University" isn't in the short name, or the derived letters read oddly).
+const INITIALS_OVERRIDES: Record<string, string> = {
+  "Florida A&M": "FAM",
+  "Prairie View A&M": "PVU",
+};
+
 /** Short label for decorative use (laptop screen, flag). Not a canonical abbreviation. */
 export function getSchoolInitials(name: string): string {
+  const override = INITIALS_OVERRIDES[name];
+  if (override) return override;
+
   const words = name.split(/\s+/).filter(Boolean);
   const existingAcronym = words.find((w) => /^[A-Z]{2,5}$/.test(w));
   if (existingAcronym) return existingAcronym;

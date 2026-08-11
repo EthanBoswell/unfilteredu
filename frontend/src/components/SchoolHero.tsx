@@ -96,8 +96,8 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
       ref={heroRef}
       className="relative overflow-hidden"
       style={{
-        height: "100vh",
-        minHeight: 640,
+        height: "min(100vh, 700px)",
+        minHeight: 560,
         background: `linear-gradient(to bottom, ${palette.accentLight} 0%, ${PAPER} 100%)`,
       }}
     >
@@ -125,7 +125,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
         />
 
         {/* desk — parallax layer 2 */}
-        <div ref={deskRef} className="absolute left-0 right-0 bottom-0" style={{ height: "42%", willChange: reducedMotion ? undefined : "transform" }}>
+        <div ref={deskRef} className="absolute left-0 right-0 bottom-0" style={{ height: "56%", willChange: reducedMotion ? undefined : "transform" }}>
           <div style={{ position: "absolute", top: 0, left: "-5%", right: "-5%", height: 22, background: DESK_DARK, transform: "perspective(600px) rotateX(3deg)" }} />
           <div style={{ position: "absolute", top: 20, left: "-5%", right: "-5%", bottom: 0, background: `linear-gradient(to bottom, ${DESK}, ${DESK_DARK})` }}>
             <div
@@ -140,7 +140,8 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
         </div>
 
         {/* items — parallax layer 3 (fastest / closest) */}
-        <div ref={itemsRef} className="absolute left-0 right-0" style={{ bottom: "32%", height: 300, willChange: reducedMotion ? undefined : "transform" }}>
+        <div className="absolute left-0 right-0 desk-items-scale" style={{ bottom: "14%", height: 300 }}>
+        <div ref={itemsRef} className="relative w-full h-full" style={{ willChange: reducedMotion ? undefined : "transform" }}>
           {/* flag */}
           <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: 130, bottom: 8, ...entranceStyle("0s") }}>
             <div style={{ width: 4, height: 150, background: INK, borderRadius: 2, margin: "0 auto", position: "relative" }}>
@@ -204,11 +205,12 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
             </div>
           </div>
         </div>
+        </div>
       </div>
 
       <div
         className={reducedMotion ? "" : "desk-hero-fade-up"}
-        style={{ position: "absolute", top: "14%", left: 0, right: 0, zIndex: 10, textAlign: "center", ...(reducedMotion ? { opacity: 1 } : {}) }}
+        style={{ position: "absolute", top: "8%", left: 0, right: 0, zIndex: 10, textAlign: "center", ...(reducedMotion ? { opacity: 1 } : {}) }}
       >
         <p
           style={{
@@ -218,7 +220,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
             letterSpacing: "0.08em",
             textTransform: "uppercase",
             color: palette.accentDark,
-            marginBottom: 10,
+            marginBottom: 8,
           }}
         >
           {eyebrow}
@@ -227,16 +229,17 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
           style={{
             fontFamily: "var(--font-syne), 'Syne', sans-serif",
             fontWeight: 800,
-            fontSize: "clamp(2.2rem, 6vw, 3.4rem)",
-            lineHeight: 1.02,
+            fontSize: "clamp(1.6rem, 6vw, 3.4rem)",
+            lineHeight: 1.05,
             letterSpacing: "-0.01em",
-            marginBottom: 12,
+            marginBottom: 10,
             color: INK,
+            padding: "0 12px",
           }}
         >
           {schoolName}
         </h1>
-        <p style={{ fontFamily: "Inter, sans-serif", fontSize: "0.98rem", color: MUTED, maxWidth: 420, margin: "0 auto" }}>{description}</p>
+        <p style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(0.85rem, 2.6vw, 0.98rem)", color: MUTED, maxWidth: 420, margin: "0 auto", padding: "0 16px" }}>{description}</p>
       </div>
 
       <div
