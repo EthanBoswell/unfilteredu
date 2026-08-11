@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import Image from "next/image";
 import { toggleSavedSchool } from "./actions";
+import SchoolHero from "@/components/SchoolHero";
+import Reveal from "@/components/Reveal";
 
 export type Sentiment = "positive" | "mixed" | "concern";
 
@@ -20,7 +21,7 @@ export interface SchoolProfileProps {
   name: string;
   slug: string;
   location: string;
-  image?: string;
+  initials: string;
   accent: string;
   accentText: string;
   postsAnalyzed: number;
@@ -435,7 +436,7 @@ export function SchoolProfile({
   name,
   slug,
   location,
-  image,
+  initials,
   accent,
   postsAnalyzed,
   lastUpdated,
@@ -472,106 +473,19 @@ export function SchoolProfile({
   return (
     <div style={{ background: "#F5F2EA", minHeight: "100vh" }}>
 
-      {/* ── Hero photo with overlaid title ───────────────────────── */}
-      {image ? (
-        <div
-          style={{
-            position: "relative",
-            width: "100%",
-            height: "clamp(280px, 40vw, 460px)",
-          }}
-        >
-          <Image
-            src={image}
-            alt={`${name} campus`}
-            fill
-            sizes="100vw"
-            style={{ objectFit: "cover" }}
-            priority
-          />
-          <div
-            style={{
-              position: "absolute",
-              inset: 0,
-              background:
-                "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.38) 40%, rgba(0,0,0,0) 68%)",
-            }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              left: 0,
-              right: 0,
-              bottom: 0,
-              maxWidth: 720,
-              margin: "0 auto",
-              padding: "0 20px 28px",
-            }}
-          >
-            <p
-              style={{
-                margin: "0 0 4px",
-                fontSize: 11,
-                fontWeight: 700,
-                color: "rgba(255,255,255,0.8)",
-                letterSpacing: "0.1em",
-                textTransform: "uppercase",
-                fontFamily: "var(--font-inter), 'Inter', sans-serif",
-              }}
-            >
-              {location}
-            </p>
-            <h1
-              style={{
-                margin: 0,
-                fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                fontWeight: 800,
-                fontSize: "clamp(28px, 6vw, 44px)",
-                color: "#fff",
-                letterSpacing: "-0.02em",
-                lineHeight: 1.1,
-                textShadow: "0 2px 16px rgba(0,0,0,0.4)",
-              }}
-            >
-              {name}
-            </h1>
-          </div>
-        </div>
-      ) : (
-        <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 20px" }}>
-          <div style={{ paddingTop: 36, paddingBottom: 28 }}>
-            <p
-              style={{
-                margin: "0 0 4px",
-                fontSize: 11,
-                fontWeight: 700,
-                color: "#9ca3af",
-                letterSpacing: "0.1em",
-                textTransform: "uppercase",
-                fontFamily: "var(--font-inter), 'Inter', sans-serif",
-              }}
-            >
-              {location}
-            </p>
-            <h1
-              style={{
-                margin: 0,
-                fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                fontWeight: 800,
-                fontSize: "clamp(28px, 6vw, 40px)",
-                color: "#111",
-                letterSpacing: "-0.02em",
-                lineHeight: 1.1,
-              }}
-            >
-              {name}
-            </h1>
-          </div>
-        </div>
-      )}
+      {/* ── Desk-scene hero ───────────────────────────────────────── */}
+      <SchoolHero
+        accentHex={accent}
+        schoolName={name}
+        initials={initials}
+        eyebrow={location}
+        description={verdict.bottomLine}
+      />
 
       {/* ── Vibe Check (full-width dark) ─────────────────────────── */}
-      <VibeCheckSection topics={topics} accent={accent} />
+      <Reveal>
+        <VibeCheckSection topics={topics} accent={accent} />
+      </Reveal>
 
       {/* ── Rest of content (light bg) ───────────────────────────── */}
       <div
@@ -590,58 +504,60 @@ export function SchoolProfile({
         )}
 
         {/* Quick verdict */}
-        <div
-          style={{
-            background: "#111",
-            borderRadius: 14,
-            padding: "22px 24px",
-            marginTop: 32,
-            marginBottom: 32,
-          }}
-        >
-          <p
+        <Reveal>
+          <div
             style={{
-              margin: "0 0 16px",
-              fontSize: 11,
-              fontWeight: 700,
-              color: accent,
-              letterSpacing: "0.1em",
-              textTransform: "uppercase",
+              background: "#111",
+              borderRadius: 14,
+              padding: "22px 24px",
+              marginTop: 32,
+              marginBottom: 32,
             }}
           >
-            Quick verdict
-          </p>
-          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            {[
-              { icon: "✓", label: "Best for",      text: verdict.bestFor,    color: "#4ade80" },
-              { icon: "⚠", label: "Watch out for", text: verdict.watchOut,   color: "#fb923c" },
-              { icon: "→", label: "Bottom line",   text: verdict.bottomLine, color: "#e5e7eb" },
-            ].map((item) => (
-              <div key={item.label} style={{ display: "flex", gap: 12 }}>
-                <span style={{ fontSize: 14, color: item.color, flexShrink: 0, marginTop: 1 }}>
-                  {item.icon}
-                </span>
-                <div>
-                  <span
-                    style={{
-                      fontSize: 11,
-                      fontWeight: 700,
-                      color: "#6b7280",
-                      textTransform: "uppercase",
-                      letterSpacing: "0.06em",
-                      marginRight: 8,
-                    }}
-                  >
-                    {item.label}
+            <p
+              style={{
+                margin: "0 0 16px",
+                fontSize: 11,
+                fontWeight: 700,
+                color: accent,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+              }}
+            >
+              Quick verdict
+            </p>
+            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+              {[
+                { icon: "✓", label: "Best for",      text: verdict.bestFor,    color: "#4ade80" },
+                { icon: "⚠", label: "Watch out for", text: verdict.watchOut,   color: "#fb923c" },
+                { icon: "→", label: "Bottom line",   text: verdict.bottomLine, color: "#e5e7eb" },
+              ].map((item) => (
+                <div key={item.label} style={{ display: "flex", gap: 12 }}>
+                  <span style={{ fontSize: 14, color: item.color, flexShrink: 0, marginTop: 1 }}>
+                    {item.icon}
                   </span>
-                  <span style={{ fontSize: 13, color: "#e5e7eb", lineHeight: 1.5 }}>
-                    {item.text}
-                  </span>
+                  <div>
+                    <span
+                      style={{
+                        fontSize: 11,
+                        fontWeight: 700,
+                        color: "#6b7280",
+                        textTransform: "uppercase",
+                        letterSpacing: "0.06em",
+                        marginRight: 8,
+                      }}
+                    >
+                      {item.label}
+                    </span>
+                    <span style={{ fontSize: 13, color: "#e5e7eb", lineHeight: 1.5 }}>
+                      {item.text}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        </Reveal>
 
         {/* Filter bar */}
         <div
@@ -695,12 +611,13 @@ export function SchoolProfile({
         {/* Topic cards */}
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           {filteredTopics.map((topic) => (
-            <TopicCard
-              key={topic.id}
-              topic={topic}
-              isOpen={openTopics.has(topic.id)}
-              onToggle={() => toggleTopic(topic.id)}
-            />
+            <Reveal key={topic.id}>
+              <TopicCard
+                topic={topic}
+                isOpen={openTopics.has(topic.id)}
+                onToggle={() => toggleTopic(topic.id)}
+              />
+            </Reveal>
           ))}
           {filteredTopics.length === 0 && (
             <p

@@ -5,7 +5,7 @@ import HowItWorksSteps from "@/components/HowItWorksSteps";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "UnfilteredU — Real College Reviews",
+  title: "UnfilteredU — College Review Platform",
   description:
     "Real student opinions — not official school content. Housing, dining, academics, and more.",
 };

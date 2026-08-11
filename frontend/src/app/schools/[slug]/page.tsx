@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
-import { getSchoolBySlug } from "@/lib/schools";
+import { getSchoolBySlug, getSchoolInitials } from "@/lib/schools";
 import { loadSummary, getAvailableSlugs, getSummaryLastUpdated, getSchoolId } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
 import { schoolColors } from "@/data/schoolColors";
@@ -87,7 +87,7 @@ export async function generateMetadata({
   const name = school?.name ?? slug;
   return {
     title: `${name} — UnfilteredU`,
-    description: `Real student opinions about ${name} from Reddit. Housing, dining, academics, and more.`,
+    description: "College Review Platform",
   };
 }
 
@@ -138,7 +138,7 @@ export default async function SchoolPage({
         name={school.name}
         slug={slug}
         location={school.location}
-        image={school.image}
+        initials={getSchoolInitials(school.name)}
         accent={accent}
         accentText={accentText}
         postsAnalyzed={10000}
