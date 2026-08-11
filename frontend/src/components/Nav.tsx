@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Wordmark from "./Wordmark";
 import SchoolSearchOverlay from "./SchoolSearchOverlay";
@@ -63,15 +64,25 @@ export default function Nav({ schoolName, schoolColor, schoolTextColor = "#fffff
               >
                 {[
                   { label: "About", href: "/about" },
-                ].map(({ label, href }) => (
-                  <a
+                  { label: "Sign in", href: "/login" },
+                  { label: "Create account", href: "/signup", cta: true },
+                ].map(({ label, href, cta }) => (
+                  <Link
                     key={href}
                     href={href}
                     className="text-[13px] leading-none px-4 py-2.5 hover:bg-white/10 transition-colors"
-                    style={{ fontFamily: "Inter, sans-serif", color: "#fff", display: "block" }}
+                    style={{
+                      fontFamily: cta ? "var(--font-syne), 'Syne', sans-serif" : "Inter, sans-serif",
+                      fontWeight: cta ? 700 : 400,
+                      color: "#fff",
+                      display: "block",
+                      borderTop: cta ? "1px solid rgba(255,255,255,0.1)" : undefined,
+                      marginTop: cta ? 4 : undefined,
+                      paddingTop: cta ? 12 : undefined,
+                    }}
                   >
                     {label}
-                  </a>
+                  </Link>
                 ))}
               </div>
             )}
