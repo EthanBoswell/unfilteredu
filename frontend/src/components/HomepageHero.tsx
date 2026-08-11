@@ -44,18 +44,26 @@ export default function HomepageHero() {
       />
 
       <div className="relative mx-auto max-w-[720px] px-6 py-[72px]">
-        {/* 3. Divider */}
-        <div
+        {/* Eyebrow */}
+        <p
+          className="mb-[18px] flex items-center gap-2 uppercase"
           style={{
-            width: 40,
-            height: 1,
-            background: "#333",
-            marginTop: 32,
-            marginBottom: 32,
+            fontFamily: "var(--font-dm), 'DM Sans', sans-serif",
+            fontWeight: 600,
+            fontSize: 12,
+            letterSpacing: "0.06em",
+            color: "var(--color-rust)",
           }}
-        />
+        >
+          <span
+            aria-hidden="true"
+            className="inline-block rounded-full"
+            style={{ width: 6, height: 6, background: "var(--color-rust)" }}
+          />
+          {SCHOOLS.length} schools · updated weekly
+        </p>
 
-        {/* 4. Headline */}
+        {/* Headline */}
         <h1
           className="mb-4"
           style={{
@@ -67,14 +75,14 @@ export default function HomepageHero() {
             lineHeight: 1.1,
           }}
         >
-          Smarter Insights. Better Decisions.
+          Smarter insights. Better decisions.
         </h1>
 
         {/* Subtext */}
         <p
           className="mb-8"
           style={{
-            fontFamily: "Inter, sans-serif",
+            fontFamily: "var(--font-dm), 'DM Sans', sans-serif",
             fontWeight: 400,
             fontSize: 16,
             color: "#666",
@@ -113,7 +121,7 @@ export default function HomepageHero() {
               }}
               placeholder="Search your school..."
               className="flex-1 px-4 py-3 bg-white text-[15px] text-[#0F0F0F] outline-none placeholder:text-[#aaa]"
-              style={{ fontFamily: "Inter, sans-serif" }}
+              style={{ fontFamily: "var(--font-dm), 'DM Sans', sans-serif" }}
             />
             <button
               onClick={() => {
@@ -138,7 +146,7 @@ export default function HomepageHero() {
 
         <p
           className="mt-3 text-[12px]"
-          style={{ fontFamily: "Inter, sans-serif", color: "#555" }}
+          style={{ fontFamily: "var(--font-dm), 'DM Sans', sans-serif", color: "#555" }}
         >
           {SCHOOLS.length} schools available · more added weekly
         </p>

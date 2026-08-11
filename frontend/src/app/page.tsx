@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import HomepageHero from "@/components/HomepageHero";
-import HomepageContrast from "@/components/HomepageContrast";
+import HowItWorksSteps from "@/components/HowItWorksSteps";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -10,63 +10,12 @@ export const metadata: Metadata = {
     "Real student opinions — not official school content. Housing, dining, academics, and more.",
 };
 
-const HOW_IT_WORKS = [
-  {
-    n: "01",
-    body: "We analyze thousands of publicly available discussions from platforms like Reddit, YouTube, and X to identify common topics and insights.",
-  },
-  {
-    n: "02",
-    body: "AI identifies information and analyzes discussions across topics like housing, dining, academics, social life, and mental health to uncover recurring trends and representative viewpoints.",
-  },
-  {
-    n: "03",
-    body: "You get the insights. Get concise summaries organized by topic, so you can gain insights in just a few minutes.",
-  },
-];
-
 export default async function HomePage() {
   return (
     <div style={{ background: "#F5F4EF" }}>
       <Nav />
       <HomepageHero />
-      <HomepageContrast />
-
-      {/* How it works */}
-      <section style={{ background: "#F5F4EF" }}>
-        <div className="mx-auto max-w-[720px] px-8 py-[72px]">
-          <p
-            className="text-[11px] font-bold uppercase tracking-[0.12em] mb-10"
-            style={{ fontFamily: "Inter, sans-serif", color: "#aaa" }}
-          >
-            How it works
-          </p>
-
-          <div>
-            {HOW_IT_WORKS.map((step, i) => (
-              <div key={step.n}>
-                {i > 0 && <div style={{ height: 1, background: "#e0ddd6" }} />}
-                <div className="flex gap-6 py-8">
-                  <span
-                    className="shrink-0 pt-0.5 text-[11px] font-bold"
-                    style={{ fontFamily: "Inter, sans-serif", color: "#111", width: 24 }}
-                  >
-                    {step.n}
-                  </span>
-                    <div>
-                    <p
-                      className="text-[15px] leading-relaxed"
-                      style={{ fontFamily: "Inter, sans-serif", color: "#666" }}
-                    >
-                      {step.body}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <HowItWorksSteps />
 
       {/* CTA */}
       <section style={{ background: "#0F0F0F" }}>
