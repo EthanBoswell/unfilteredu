@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useTransition } from "react";
 import Image from "next/image";
+import { toggleSavedSchool } from "./actions";
 
 export type Sentiment = "positive" | "mixed" | "concern";
 
@@ -17,6 +18,7 @@ export interface TopicData {
 
 export interface SchoolProfileProps {
   name: string;
+  slug: string;
   location: string;
   image?: string;
   accent: string;
@@ -29,6 +31,8 @@ export interface SchoolProfileProps {
     bottomLine: string;
   };
   topics: TopicData[];
+  schoolId?: string | null;
+  initiallySaved?: boolean;
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -386,10 +390,50 @@ function TopicCard({
   );
 }
 
+// ── Save school ────────────────────────────────────────────────────────────────
+
+function SaveSchoolButton({ schoolId, slug, initiallySaved }: { schoolId: string; slug: string; initiallySaved: boolean }) {
+  const [saved, setSaved] = useState(initiallySaved);
+  const [pending, startTransition] = useTransition();
+
+  function handleClick() {
+    const next = !saved;
+    setSaved(next);
+    startTransition(async () => {
+      try {
+        await toggleSavedSchool(schoolId, slug);
+      } catch {
+        setSaved(!next);
+      }
+    });
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      disabled={pending}
+      className="flex items-center gap-1.5 rounded-md px-4 py-1.5 text-[12px] leading-none font-bold"
+      style={{
+        fontFamily: "var(--font-syne), 'Syne', sans-serif",
+        fontWeight: 700,
+        background: saved ? "#111" : "#fff",
+        color: saved ? "#fff" : "#111",
+        border: "1.5px solid #111",
+        cursor: pending ? "default" : "pointer",
+        opacity: pending ? 0.7 : 1,
+      }}
+    >
+      {saved ? "★ Saved" : "☆ Save school"}
+    </button>
+  );
+}
+
 // ── Main page component ───────────────────────────────────────────────────────
 
 export function SchoolProfile({
   name,
+  slug,
   location,
   image,
   accent,
@@ -397,6 +441,8 @@ export function SchoolProfile({
   lastUpdated,
   verdict,
   topics,
+  schoolId,
+  initiallySaved = false,
 }: SchoolProfileProps) {
   const [openTopics, setOpenTopics] = useState<Set<string>>(
     new Set([topics[0]?.id ?? ""])
@@ -536,6 +582,12 @@ export function SchoolProfile({
           fontFamily: "var(--font-inter), 'Inter', sans-serif",
         }}
       >
+
+        {schoolId && (
+          <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24 }}>
+            <SaveSchoolButton schoolId={schoolId} slug={slug} initiallySaved={initiallySaved} />
+          </div>
+        )}
 
         {/* Quick verdict */}
         <div

@@ -32,6 +32,20 @@ export async function loadSummary(slug: string): Promise<Summary> {
   return result as unknown as Summary;
 }
 
+export async function getSchoolId(slug: string): Promise<string | null> {
+  const db = createServerClient();
+
+  const { data, error } = await db
+    .from("schools")
+    .select("id")
+    .eq("slug", slug)
+    .maybeSingle();
+
+  if (error || !data) return null;
+
+  return (data as { id: string }).id;
+}
+
 export async function getAvailableSlugs(): Promise<string[]> {
   const db = createServerClient();
 

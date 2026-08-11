@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 
 // Paths that require a signed-in user. Edit this to match whatever should
 // actually be gated (e.g. the full topic breakdown behind a free account).
-const PROTECTED_PATHS = ["/account", "/dashboard"];
+const PROTECTED_PATHS = ["/account", "/dashboard", "/onboarding", "/profile"];
 
 export async function proxy(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request });

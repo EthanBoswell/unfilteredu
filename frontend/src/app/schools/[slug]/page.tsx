@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import { getSchoolBySlug } from "@/lib/schools";
-import { loadSummary, getAvailableSlugs, getSummaryLastUpdated } from "@/lib/data";
+import { loadSummary, getAvailableSlugs, getSummaryLastUpdated, getSchoolId } from "@/lib/data";
+import { createClient } from "@/lib/supabase/server";
 import { schoolColors } from "@/data/schoolColors";
 import { SchoolProfile } from "./components";
 import type { TopicData } from "./components";
@@ -110,11 +111,32 @@ export default async function SchoolPage({
   const accent = colors.primary;
   const accentText = computeAccentText(accent);
 
+  const schoolId = await getSchoolId(slug);
+
+  let initiallySaved = false;
+  if (schoolId) {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+
+    if (user) {
+      const { data: savedRow } = await supabase
+        .from("saved_schools")
+        .select("id")
+        .eq("user_id", user.id)
+        .eq("school_id", schoolId)
+        .maybeSingle();
+      initiallySaved = !!savedRow;
+    }
+  }
+
   return (
     <>
       <Nav schoolName={school.name} schoolColor={accent} schoolTextColor={accentText} />
       <SchoolProfile
         name={school.name}
+        slug={slug}
         location={school.location}
         image={school.image}
         accent={accent}
@@ -127,6 +149,8 @@ export default async function SchoolPage({
           bottomLine: summary.overall_vibe.key_points[0] ?? "",
         }}
         topics={mapTopics(summary)}
+        schoolId={schoolId}
+        initiallySaved={initiallySaved}
       />
     </>
   );
