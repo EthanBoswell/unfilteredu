@@ -15,7 +15,7 @@ UnfilteredU gives prospective students unfiltered insight into college life — 
 
 - **Backend / Scraping:** Python (custom scraper), Apify
 - **Summarization / NLP:** Claude API
-- **Frontend:** TypeScript
+- **Frontend:** TypeScript, Javascript
 - **Deployment:** [unfilteredu.co](https://unfilteredu.co)
 
 ## Why I built this
@@ -28,6 +28,4 @@ Actively in development — currently expanding to add user accounts and filing 
 
 ## Roadmap
 
-- [ ] User accounts and saved school lists
-- [ ] Expand source coverage beyond Reddit/YouTube
-- [ ] Sentiment trend tracking over time per school
+- [x] User accounts and saved school lists
