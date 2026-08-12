@@ -63,6 +63,7 @@ const INITIALS_STOPWORDS = new Set(["of", "at", "the", "and", "in"]);
 const INITIALS_OVERRIDES: Record<string, string> = {
   "Florida A&M": "FAM",
   "Prairie View A&M": "PVU",
+  "Jackson State": "JSU",
 };
 
 /** Short label for decorative use (laptop screen, flag). Not a canonical abbreviation. */
