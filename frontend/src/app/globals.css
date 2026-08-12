@@ -72,17 +72,3 @@
 .desk-scroll-bob {
   animation: desk-scroll-bob 1.6s ease-in-out infinite;
 }
-
-/* Item offsets (laptop/notebook/flag/mug) were tuned for a wide desktop hero
-   and overflow narrow viewports — scale the whole composition down instead of
-   recomputing every offset. Lives on a separate wrapper from the parallax
-   ref so it doesn't fight the scroll-driven inline transform. */
-.desk-items-scale {
-  transform-origin: bottom center;
-}
-@media (max-width: 640px) {
-  .desk-items-scale { transform: scale(0.72); }
-}
-@media (max-width: 460px) {
-  .desk-items-scale { transform: scale(0.58); }
-}

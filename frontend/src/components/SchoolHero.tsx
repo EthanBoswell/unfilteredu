@@ -27,23 +27,32 @@ interface SchoolHeroProps {
   description: string;
 }
 
-function useReducedMotion(): boolean {
-  const [reduced, setReduced] = useState(false);
+function useMediaQuery(query: string): boolean {
+  const [matches, setMatches] = useState(false);
 
   useLayoutEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setReduced(e.matches);
+    const mq = window.matchMedia(query);
+    setMatches(mq.matches);
+    const handler = (e: MediaQueryListEvent) => setMatches(e.matches);
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
-  }, []);
+  }, [query]);
 
-  return reduced;
+  return matches;
+}
+
+function useReducedMotion(): boolean {
+  return useMediaQuery("(prefers-reduced-motion: reduce)");
 }
 
 export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, description }: SchoolHeroProps) {
   const reducedMotion = useReducedMotion();
+  const isNarrow = useMediaQuery("(max-width: 640px)");
+  const isTiny = useMediaQuery("(max-width: 460px)");
   const palette = deriveSchoolPalette(accentHex);
+
+  const deskHeight = isNarrow ? "42%" : "56%";
+  const itemsScale = isTiny ? 0.58 : isNarrow ? 0.72 : 1;
 
   const heroRef = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLDivElement>(null);
@@ -125,7 +134,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
         />
 
         {/* desk — parallax layer 2 */}
-        <div ref={deskRef} className="absolute left-0 right-0 bottom-0" style={{ height: "56%", willChange: reducedMotion ? undefined : "transform" }}>
+        <div ref={deskRef} className="absolute left-0 right-0 bottom-0" style={{ height: deskHeight, willChange: reducedMotion ? undefined : "transform" }}>
           <div style={{ position: "absolute", top: 0, left: "-5%", right: "-5%", height: 22, background: DESK_DARK, transform: "perspective(600px) rotateX(3deg)" }} />
           <div style={{ position: "absolute", top: 20, left: "-5%", right: "-5%", bottom: 0, background: `linear-gradient(to bottom, ${DESK}, ${DESK_DARK})` }}>
             <div
@@ -140,7 +149,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
         </div>
 
         {/* items — parallax layer 3 (fastest / closest) */}
-        <div className="absolute left-0 right-0 desk-items-scale" style={{ bottom: "14%", height: 300 }}>
+        <div className="absolute left-0 right-0" style={{ bottom: "14%", height: 300, transform: `scale(${itemsScale})`, transformOrigin: "bottom center" }}>
         <div ref={itemsRef} className="relative w-full h-full" style={{ willChange: reducedMotion ? undefined : "transform" }}>
           {/* flag */}
           <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: 130, bottom: 8, ...entranceStyle("0s") }}>
@@ -157,7 +166,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
           </div>
 
           {/* notebook */}
-          <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: -290, width: 70, bottom: 0, ...entranceStyle("0.42s") }}>
+          <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: -210, width: 70, bottom: 0, ...entranceStyle("0.42s") }}>
             <div style={{ width: 70, height: 50, background: PAPER, border: `2px solid ${INK}`, borderRadius: 2, transform: "rotate(-6deg)", position: "relative" }}>
               {[14, 22, 30].map((top) => (
                 <div key={top} style={{ position: "absolute", left: 8, right: 8, top, height: 2, background: "rgba(15,15,15,0.15)" }} />
@@ -166,7 +175,7 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
           </div>
 
           {/* laptop */}
-          <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: -230, width: 190, bottom: 0, ...entranceStyle("0.15s") }}>
+          <div className={itemClass} style={{ position: "absolute", left: "50%", marginLeft: -150, width: 190, bottom: 0, ...entranceStyle("0.15s") }}>
             <div style={{ width: 168, height: 112, margin: "0 auto -4px", background: "#1a1a1a", borderRadius: "8px 8px 2px 2px", padding: 8 }}>
               <div
                 style={{
