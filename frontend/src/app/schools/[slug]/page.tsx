@@ -2,11 +2,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import { getSchoolBySlug, getSchoolInitials } from "@/lib/schools";
-import { loadSummary, getAvailableSlugs, getSummaryLastUpdated, getSchoolId } from "@/lib/data";
+import { loadSummary, loadPublicSummary, getAvailableSlugs, getSummaryLastUpdated, getSchoolId } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
 import { schoolColors } from "@/data/schoolColors";
 import { SchoolProfile } from "./components";
-import type { TopicData } from "./components";
+import type { TopicData, GatedData } from "./components";
 import type { Summary } from "@/lib/schools";
 
 // ── Color utilities ───────────────────────────────────────────────────────────
@@ -56,19 +56,27 @@ function getSentimentLabel(score: number): string {
   return "Some concerns";
 }
 
+function toTopicData(key: string, label: string, data: { score: number; key_points: string[] }): TopicData {
+  return {
+    id: key,
+    label,
+    score: data.score,
+    sentiment: getSentiment(data.score),
+    sentimentLabel: getSentimentLabel(data.score),
+    tagline: data.key_points[0] ?? "",
+    summary: data.key_points.join(" "),
+  };
+}
+
 function mapTopics(summary: Summary): TopicData[] {
-  return TOPIC_CATEGORIES.map(({ key, label }) => {
-    const data = summary[key];
-    return {
-      id: key,
-      label,
-      score: data.score,
-      sentiment: getSentiment(data.score),
-      sentimentLabel: getSentimentLabel(data.score),
-      tagline: data.key_points[0] ?? "",
-      summary: data.key_points.join(" "),
-    };
-  });
+  return TOPIC_CATEGORIES.map(({ key, label }) => toTopicData(key, label, summary[key]));
+}
+
+function mapPublicTopics(social_life: Summary["social_life"], academics: Summary["academics"]): TopicData[] {
+  return [
+    toTopicData("social_life", "Social Life", social_life),
+    toTopicData("academics", "Academics", academics),
+  ];
 }
 
 // ── Route handlers ────────────────────────────────────────────────────────────
@@ -104,23 +112,30 @@ export default async function SchoolPage({
   const school = getSchoolBySlug(slug);
   if (!school) notFound();
 
-  const summary = await loadSummary(slug);
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   const lastUpdated = await getSummaryLastUpdated(slug);
 
   const colors = schoolColors[slug] ?? school.colors;
   const accent = colors.primary;
   const accentText = computeAccentText(accent);
 
-  const schoolId = await getSchoolId(slug);
+  let heroDescription: string;
+  let publicTopics: TopicData[];
+  let gated: GatedData | null = null;
 
-  let initiallySaved = false;
-  if (schoolId) {
-    const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
+  if (user) {
+    // Signed in: fetch everything, including the gated verdict/topic breakdown.
+    const summary = await loadSummary(slug);
+    heroDescription = summary.overall_vibe.key_points[0] ?? "";
+    publicTopics = mapPublicTopics(summary.social_life, summary.academics);
 
-    if (user) {
+    const schoolId = await getSchoolId(slug);
+    let initiallySaved = false;
+    if (schoolId) {
       const { data: savedRow } = await supabase
         .from("saved_schools")
         .select("id")
@@ -129,6 +144,24 @@ export default async function SchoolPage({
         .maybeSingle();
       initiallySaved = !!savedRow;
     }
+
+    gated = {
+      verdict: {
+        bestFor: summary.hidden_gems.key_points[0] ?? "",
+        watchOut: summary.red_flags.key_points[0] ?? "",
+        bottomLine: summary.overall_vibe.key_points[0] ?? "",
+      },
+      topics: mapTopics(summary),
+      schoolId,
+      initiallySaved,
+    };
+  } else {
+    // Logged out: only ever query the categories that power the public hero and
+    // Vibe Check. The verdict/topic-breakdown rows are never fetched — gating
+    // happens here, not by hiding already-fetched data on the client.
+    const pub = await loadPublicSummary(slug);
+    heroDescription = pub.overallVibeTagline;
+    publicTopics = mapPublicTopics(pub.social_life, pub.academics);
   }
 
   return (
@@ -143,14 +176,9 @@ export default async function SchoolPage({
         accentText={accentText}
         postsAnalyzed={10000}
         lastUpdated={lastUpdated}
-        verdict={{
-          bestFor: summary.hidden_gems.key_points[0] ?? "",
-          watchOut: summary.red_flags.key_points[0] ?? "",
-          bottomLine: summary.overall_vibe.key_points[0] ?? "",
-        }}
-        topics={mapTopics(summary)}
-        schoolId={schoolId}
-        initiallySaved={initiallySaved}
+        heroDescription={heroDescription}
+        publicTopics={publicTopics}
+        gated={gated}
       />
     </>
   );

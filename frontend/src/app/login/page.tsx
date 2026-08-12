@@ -114,6 +114,7 @@ export default async function LoginPage({
             </div>
 
             <form action={signInWithGoogle}>
+              {next && <input type="hidden" name="next" value={next} />}
               <button
                 type="submit"
                 className="flex items-center justify-center gap-2.5 rounded-md py-2.5 w-full"

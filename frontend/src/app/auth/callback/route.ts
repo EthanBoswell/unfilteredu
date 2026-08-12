@@ -17,7 +17,7 @@ export async function GET(request: Request) {
         .maybeSingle();
 
       if (!profile) {
-        return NextResponse.redirect(`${origin}/onboarding`);
+        return NextResponse.redirect(`${origin}/onboarding?next=${encodeURIComponent(next)}`);
       }
       return NextResponse.redirect(`${origin}${next}`);
     }

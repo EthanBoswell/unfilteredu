@@ -1507,7 +1507,7 @@ export const SCHOOLS: SchoolMeta[] = [
   },
   {
     slug: "louisiana",
-    name: "Louisiana",
+    name: "University of Louisiana Lafayette",
     location: "Lafayette, LA",
     image: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Stephens_Hall_at_UL_Lafayette_2022.jpg",
     colors: { primary: "#CE181E", secondary: "#FFFFFF" },

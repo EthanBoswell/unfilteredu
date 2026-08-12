@@ -7,6 +7,7 @@ export type OnboardingInput = {
   role: "parent" | "student";
   stage: "high_school" | "college";
   gradYear: number;
+  next?: string;
 };
 
 export async function completeOnboarding(input: OnboardingInput) {
@@ -30,5 +31,5 @@ export async function completeOnboarding(input: OnboardingInput) {
     return { error: error.message };
   }
 
-  redirect("/profile");
+  redirect(input.next || "/profile");
 }

@@ -33,7 +33,7 @@ const stepLabelStyle: React.CSSProperties = {
   marginBottom: 14,
 };
 
-export default function OnboardingForm() {
+export default function OnboardingForm({ next }: { next?: string }) {
   const [step, setStep] = useState(0);
   const [role, setRole] = useState<Role | null>(null);
   const [stage, setStage] = useState<Stage | null>(null);
@@ -54,7 +54,7 @@ export default function OnboardingForm() {
     if (!role || !stage) return;
     setError(null);
     startTransition(async () => {
-      const result = await completeOnboarding({ role, stage, gradYear });
+      const result = await completeOnboarding({ role, stage, gradYear, next });
       if (result?.error) setError(result.error);
     });
   }

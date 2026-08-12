@@ -32,9 +32,9 @@ const labelStyle: CSSProperties = {
 export default async function SignupPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; checkEmail?: string }>;
+  searchParams: Promise<{ error?: string; checkEmail?: string; next?: string }>;
 }) {
-  const { error, checkEmail } = await searchParams;
+  const { error, checkEmail, next } = await searchParams;
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: "#F5F4EF" }}>
@@ -89,6 +89,7 @@ export default async function SignupPage({
                 )}
 
                 <form action={signup} className="flex flex-col gap-4">
+                  {next && <input type="hidden" name="next" value={next} />}
                   <div>
                     <label htmlFor="email" style={labelStyle}>Email</label>
                     <input id="email" name="email" type="email" required autoComplete="email" style={inputStyle} />
@@ -121,6 +122,7 @@ export default async function SignupPage({
                 </div>
 
                 <form action={signInWithGoogle}>
+                  {next && <input type="hidden" name="next" value={next} />}
                   <button
                     type="submit"
                     className="flex items-center justify-center gap-2.5 rounded-md py-2.5 w-full"

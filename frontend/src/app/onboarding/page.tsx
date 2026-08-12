@@ -9,7 +9,13 @@ export const metadata: Metadata = {
   title: "Welcome — UnfilteredU",
 };
 
-export default async function OnboardingPage() {
+export default async function OnboardingPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ next?: string }>;
+}) {
+  const { next } = await searchParams;
+
   const supabase = await createClient();
   const {
     data: { user },
@@ -58,7 +64,7 @@ export default async function OnboardingPage() {
             className="rounded-xl p-8"
             style={{ background: "#fff", border: "1px solid #e8e8e2", borderRadius: 12 }}
           >
-            <OnboardingForm />
+            <OnboardingForm next={next} />
           </div>
         </div>
       </section>

@@ -30,7 +30,7 @@ export async function login(formData: FormData) {
     .maybeSingle();
 
   if (!profile) {
-    redirect("/onboarding");
+    redirect(`/onboarding?next=${encodeURIComponent(next)}`);
   }
 
   redirect(next);
@@ -40,13 +40,14 @@ export async function signup(formData: FormData) {
   const supabase = await createClient();
   const email = formData.get("email") as string;
   const password = formData.get("password") as string;
+  const next = (formData.get("next") as string) || "/";
   const origin = await getOrigin();
 
   const { error } = await supabase.auth.signUp({
     email,
     password,
     options: {
-      emailRedirectTo: `${origin}/auth/callback`,
+      emailRedirectTo: `${origin}/auth/callback?next=${encodeURIComponent(next)}`,
     },
   });
 
@@ -57,14 +58,15 @@ export async function signup(formData: FormData) {
   redirect("/signup?checkEmail=1");
 }
 
-export async function signInWithGoogle() {
+export async function signInWithGoogle(formData: FormData) {
   const supabase = await createClient();
+  const next = (formData.get("next") as string) || "/";
   const origin = await getOrigin();
 
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo: `${origin}/auth/callback`,
+      redirectTo: `${origin}/auth/callback?next=${encodeURIComponent(next)}`,
     },
   });
 

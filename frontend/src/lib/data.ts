@@ -1,6 +1,48 @@
 import { createServerClient } from "./supabase";
 import type { Summary } from "./schools";
 
+// Categories needed for the always-public hero + Vibe Check section. Everything
+// else (verdict + the other 8 topics) is gated behind login — and gating means
+// never querying those rows for a logged-out request, not fetching-then-hiding.
+const PUBLIC_CATEGORIES = ["social_life", "academics", "overall_vibe"] as const;
+
+export type PublicSummary = Pick<Summary, "social_life" | "academics"> & {
+  overallVibeTagline: string;
+};
+
+export async function loadPublicSummary(slug: string): Promise<PublicSummary> {
+  const db = createServerClient();
+
+  const { data: school, error: schoolErr } = await db
+    .from("schools")
+    .select("id")
+    .eq("slug", slug)
+    .single();
+
+  if (schoolErr || !school) throw new Error(`School not found: ${slug}`);
+
+  const { data: rows, error: summaryErr } = await db
+    .from("summaries")
+    .select("category, key_points, score")
+    .eq("school_id", (school as { id: string }).id)
+    .in("category", PUBLIC_CATEGORIES);
+
+  if (summaryErr || !rows?.length) {
+    throw new Error(`No summary data found for: ${slug}`);
+  }
+
+  const result: Record<string, { key_points: string[]; score: number }> = {};
+  for (const row of rows as { category: string; key_points: string[]; score: number }[]) {
+    result[row.category] = { key_points: row.key_points, score: row.score };
+  }
+
+  return {
+    social_life: result.social_life,
+    academics: result.academics,
+    overallVibeTagline: result.overall_vibe?.key_points[0] ?? "",
+  };
+}
+
 export async function loadSummary(slug: string): Promise<Summary> {
   const db = createServerClient();
 

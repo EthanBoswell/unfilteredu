@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import Link from "next/link";
 import { toggleSavedSchool } from "./actions";
 import SchoolHero from "@/components/SchoolHero";
 import Reveal from "@/components/Reveal";
@@ -17,6 +18,20 @@ export interface TopicData {
   summary: string;
 }
 
+// Everything gated behind login — the verdict and full topic breakdown. Absent
+// (not just unrendered) for logged-out visitors, since the page never fetches
+// this data for them in the first place.
+export interface GatedData {
+  verdict: {
+    bestFor: string;
+    watchOut: string;
+    bottomLine: string;
+  };
+  topics: TopicData[];
+  schoolId: string | null;
+  initiallySaved: boolean;
+}
+
 export interface SchoolProfileProps {
   name: string;
   slug: string;
@@ -26,14 +41,9 @@ export interface SchoolProfileProps {
   accentText: string;
   postsAnalyzed: number;
   lastUpdated: string;
-  verdict: {
-    bestFor: string;
-    watchOut: string;
-    bottomLine: string;
-  };
-  topics: TopicData[];
-  schoolId?: string | null;
-  initiallySaved?: boolean;
+  heroDescription: string;
+  publicTopics: TopicData[];
+  gated: GatedData | null;
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -430,21 +440,23 @@ function SaveSchoolButton({ schoolId, slug, initiallySaved }: { schoolId: string
   );
 }
 
-// ── Main page component ───────────────────────────────────────────────────────
+// ── Gated content (verdict + topic breakdown) ────────────────────────────────
 
-export function SchoolProfile({
-  name,
+function GatedSchoolContent({
   slug,
-  location,
-  initials,
   accent,
-  postsAnalyzed,
-  lastUpdated,
   verdict,
   topics,
   schoolId,
-  initiallySaved = false,
-}: SchoolProfileProps) {
+  initiallySaved,
+}: {
+  slug: string;
+  accent: string;
+  verdict: GatedData["verdict"];
+  topics: TopicData[];
+  schoolId: string | null;
+  initiallySaved: boolean;
+}) {
   const [openTopics, setOpenTopics] = useState<Set<string>>(
     new Set([topics[0]?.id ?? ""])
   );
@@ -471,6 +483,327 @@ export function SchoolProfile({
       : topics.filter((t) => t.sentiment === activeFilter);
 
   return (
+    <>
+      {schoolId && (
+        <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24 }}>
+          <SaveSchoolButton schoolId={schoolId} slug={slug} initiallySaved={initiallySaved} />
+        </div>
+      )}
+
+      {/* Quick verdict */}
+      <Reveal>
+        <div
+          style={{
+            background: "#111",
+            borderRadius: 14,
+            padding: "22px 24px",
+            marginTop: 32,
+            marginBottom: 32,
+          }}
+        >
+          <p
+            style={{
+              margin: "0 0 16px",
+              fontSize: 11,
+              fontWeight: 700,
+              color: accent,
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+            }}
+          >
+            Quick verdict
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            {[
+              { icon: "✓", label: "Best for",      text: verdict.bestFor,    color: "#4ade80" },
+              { icon: "⚠", label: "Watch out for", text: verdict.watchOut,   color: "#fb923c" },
+              { icon: "→", label: "Bottom line",   text: verdict.bottomLine, color: "#e5e7eb" },
+            ].map((item) => (
+              <div key={item.label} style={{ display: "flex", gap: 12 }}>
+                <span style={{ fontSize: 14, color: item.color, flexShrink: 0, marginTop: 1 }}>
+                  {item.icon}
+                </span>
+                <div>
+                  <span
+                    style={{
+                      fontSize: 11,
+                      fontWeight: 700,
+                      color: "#6b7280",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      marginRight: 8,
+                    }}
+                  >
+                    {item.label}
+                  </span>
+                  <span style={{ fontSize: 13, color: "#e5e7eb", lineHeight: 1.5 }}>
+                    {item.text}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Reveal>
+
+      {/* Filter bar */}
+      <div
+        style={{
+          marginBottom: 16,
+          display: "flex",
+          gap: 8,
+          flexWrap: "wrap",
+          alignItems: "center",
+        }}
+      >
+        {filters.map((f) => (
+          <button
+            key={f.id}
+            onClick={() => setActiveFilter(f.id)}
+            style={{
+              padding: "7px 14px",
+              borderRadius: 20,
+              border: "1.5px solid",
+              borderColor: activeFilter === f.id ? "#111" : "#e5e7eb",
+              background: activeFilter === f.id ? "#111" : "#fff",
+              color: activeFilter === f.id ? "#fff" : "#6b7280",
+              fontSize: 12,
+              fontWeight: 600,
+              cursor: "pointer",
+              fontFamily: "var(--font-inter), 'Inter', sans-serif",
+            }}
+          >
+            {f.label}
+          </button>
+        ))}
+        <button
+          onClick={() => setOpenTopics(new Set(filteredTopics.map((t) => t.id)))}
+          style={{
+            padding: "7px 14px",
+            borderRadius: 20,
+            border: "1.5px solid #e5e7eb",
+            background: "#fff",
+            color: "#6b7280",
+            fontSize: 12,
+            fontWeight: 600,
+            cursor: "pointer",
+            marginLeft: "auto",
+            fontFamily: "var(--font-inter), 'Inter', sans-serif",
+          }}
+        >
+          Expand all
+        </button>
+      </div>
+
+      {/* Topic cards */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        {filteredTopics.map((topic) => (
+          <Reveal key={topic.id}>
+            <TopicCard
+              topic={topic}
+              isOpen={openTopics.has(topic.id)}
+              onToggle={() => toggleTopic(topic.id)}
+            />
+          </Reveal>
+        ))}
+        {filteredTopics.length === 0 && (
+          <p
+            style={{
+              textAlign: "center",
+              fontSize: 13,
+              color: "#9ca3af",
+              padding: "32px 0",
+            }}
+          >
+            No topics match this filter.
+          </p>
+        )}
+      </div>
+    </>
+  );
+}
+
+// ── Logged-out gate ────────────────────────────────────────────────────────────
+// Static placeholder shapes only — never the real verdict/topic content with a
+// filter applied. There's nothing real to leak here since the page never
+// fetched it for a logged-out visitor in the first place.
+
+function PlaceholderBar({ width, height = 10, color = "#d8d4cb" }: { width: string | number; height?: number; color?: string }) {
+  return <div style={{ width, height, borderRadius: 4, background: color }} />;
+}
+
+function GatePlaceholder({ slug }: { slug: string }) {
+  const next = encodeURIComponent(`/schools/${slug}`);
+
+  return (
+    <div style={{ position: "relative" }}>
+      <div style={{ filter: "blur(5px)", opacity: 0.55, pointerEvents: "none", userSelect: "none" }}>
+        <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, marginBottom: 32 }}>
+          <div
+            style={{
+              padding: "7px 16px",
+              borderRadius: 20,
+              border: "1.5px solid #111",
+              fontSize: 12,
+              fontWeight: 700,
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+            }}
+          >
+            ☆ Save school
+          </div>
+        </div>
+
+        <div style={{ background: "#111", borderRadius: 14, padding: "22px 24px", marginBottom: 32 }}>
+          <PlaceholderBar width={90} color="#c9a052" />
+          <div style={{ display: "flex", flexDirection: "column", gap: 14, marginTop: 16 }}>
+            <PlaceholderBar width="80%" color="#3a3a3a" />
+            <PlaceholderBar width="95%" color="#3a3a3a" />
+            <PlaceholderBar width="65%" color="#3a3a3a" />
+          </div>
+        </div>
+
+        <div style={{ display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" }}>
+          {["All topics", "↑ Highs", "~ Mixed", "↓ Concerns"].map((label) => (
+            <div
+              key={label}
+              style={{
+                padding: "7px 14px",
+                borderRadius: 20,
+                border: "1.5px solid #e5e7eb",
+                background: "#fff",
+                fontSize: 12,
+                fontWeight: 600,
+                color: "#6b7280",
+              }}
+            >
+              {label}
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {[60, 50, 55].map((w, i) => (
+            <div key={i} style={{ border: "1.5px solid #e5e7eb", borderRadius: 12, background: "#fff", padding: "18px 20px" }}>
+              <PlaceholderBar width={`${w}%`} height={12} />
+              <div style={{ marginTop: 8 }}>
+                <PlaceholderBar width="90%" height={9} color="#eceae4" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          bottom: 0,
+          height: 200,
+          background: "linear-gradient(to bottom, rgba(245,242,234,0) 0%, #F5F2EA 75%)",
+          zIndex: 5,
+          pointerEvents: "none",
+        }}
+      />
+
+      <div
+        style={{
+          position: "relative",
+          zIndex: 10,
+          maxWidth: 440,
+          margin: "-40px auto 48px",
+          background: "#fff",
+          border: "1px solid #e8e8e2",
+          borderRadius: 16,
+          padding: "34px 32px",
+          textAlign: "center",
+          boxShadow: "0 12px 40px rgba(0,0,0,0.10)",
+        }}
+      >
+        <div
+          style={{
+            width: 46,
+            height: 46,
+            borderRadius: "50%",
+            background: "#111",
+            color: "#fff",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "0 auto 16px",
+          }}
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+          </svg>
+        </div>
+        <h3
+          style={{
+            fontFamily: "var(--font-syne), 'Syne', sans-serif",
+            fontWeight: 700,
+            fontSize: 20,
+            margin: "0 0 8px",
+            color: "#111",
+          }}
+        >
+          See the full vibe check
+        </h3>
+        <p style={{ fontSize: 14, color: "#6b7280", lineHeight: 1.55, margin: "0 0 22px" }}>
+          Create a free account to unlock the quick verdict, topic-by-topic breakdown, and the ability to save schools you&rsquo;re considering.
+        </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <Link
+            href={`/signup?next=${next}`}
+            style={{
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+              fontWeight: 700,
+              fontSize: 14,
+              background: "#111",
+              color: "#fff",
+              padding: "13px",
+              borderRadius: 24,
+            }}
+          >
+            Create free account
+          </Link>
+          <Link
+            href={`/login?next=${next}`}
+            style={{
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+              fontWeight: 700,
+              fontSize: 14,
+              background: "transparent",
+              color: "#111",
+              border: "1px solid #e5e7eb",
+              padding: "12px",
+              borderRadius: 24,
+            }}
+          >
+            Log in
+          </Link>
+        </div>
+        <p style={{ fontSize: 11, color: "#9ca3af", marginTop: 14 }}>Takes about 20 seconds. No credit card.</p>
+      </div>
+    </div>
+  );
+}
+
+// ── Main page component ───────────────────────────────────────────────────────
+
+export function SchoolProfile({
+  name,
+  slug,
+  location,
+  initials,
+  accent,
+  postsAnalyzed,
+  lastUpdated,
+  heroDescription,
+  publicTopics,
+  gated,
+}: SchoolProfileProps) {
+  return (
     <div style={{ background: "#F5F2EA", minHeight: "100vh" }}>
 
       {/* ── Desk-scene hero ───────────────────────────────────────── */}
@@ -479,12 +812,12 @@ export function SchoolProfile({
         schoolName={name}
         initials={initials}
         eyebrow={location}
-        description={verdict.bottomLine}
+        description={heroDescription}
       />
 
-      {/* ── Vibe Check (full-width dark) ─────────────────────────── */}
+      {/* ── Vibe Check (full-width dark) — always public ─────────── */}
       <Reveal>
-        <VibeCheckSection topics={topics} accent={accent} />
+        <VibeCheckSection topics={publicTopics} accent={accent} />
       </Reveal>
 
       {/* ── Rest of content (light bg) ───────────────────────────── */}
@@ -497,141 +830,18 @@ export function SchoolProfile({
         }}
       >
 
-        {schoolId && (
-          <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24 }}>
-            <SaveSchoolButton schoolId={schoolId} slug={slug} initiallySaved={initiallySaved} />
-          </div>
+        {gated ? (
+          <GatedSchoolContent
+            slug={slug}
+            accent={accent}
+            verdict={gated.verdict}
+            topics={gated.topics}
+            schoolId={gated.schoolId}
+            initiallySaved={gated.initiallySaved}
+          />
+        ) : (
+          <GatePlaceholder slug={slug} />
         )}
-
-        {/* Quick verdict */}
-        <Reveal>
-          <div
-            style={{
-              background: "#111",
-              borderRadius: 14,
-              padding: "22px 24px",
-              marginTop: 32,
-              marginBottom: 32,
-            }}
-          >
-            <p
-              style={{
-                margin: "0 0 16px",
-                fontSize: 11,
-                fontWeight: 700,
-                color: accent,
-                letterSpacing: "0.1em",
-                textTransform: "uppercase",
-              }}
-            >
-              Quick verdict
-            </p>
-            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              {[
-                { icon: "✓", label: "Best for",      text: verdict.bestFor,    color: "#4ade80" },
-                { icon: "⚠", label: "Watch out for", text: verdict.watchOut,   color: "#fb923c" },
-                { icon: "→", label: "Bottom line",   text: verdict.bottomLine, color: "#e5e7eb" },
-              ].map((item) => (
-                <div key={item.label} style={{ display: "flex", gap: 12 }}>
-                  <span style={{ fontSize: 14, color: item.color, flexShrink: 0, marginTop: 1 }}>
-                    {item.icon}
-                  </span>
-                  <div>
-                    <span
-                      style={{
-                        fontSize: 11,
-                        fontWeight: 700,
-                        color: "#6b7280",
-                        textTransform: "uppercase",
-                        letterSpacing: "0.06em",
-                        marginRight: 8,
-                      }}
-                    >
-                      {item.label}
-                    </span>
-                    <span style={{ fontSize: 13, color: "#e5e7eb", lineHeight: 1.5 }}>
-                      {item.text}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </Reveal>
-
-        {/* Filter bar */}
-        <div
-          style={{
-            marginBottom: 16,
-            display: "flex",
-            gap: 8,
-            flexWrap: "wrap",
-            alignItems: "center",
-          }}
-        >
-          {filters.map((f) => (
-            <button
-              key={f.id}
-              onClick={() => setActiveFilter(f.id)}
-              style={{
-                padding: "7px 14px",
-                borderRadius: 20,
-                border: "1.5px solid",
-                borderColor: activeFilter === f.id ? "#111" : "#e5e7eb",
-                background: activeFilter === f.id ? "#111" : "#fff",
-                color: activeFilter === f.id ? "#fff" : "#6b7280",
-                fontSize: 12,
-                fontWeight: 600,
-                cursor: "pointer",
-                fontFamily: "var(--font-inter), 'Inter', sans-serif",
-              }}
-            >
-              {f.label}
-            </button>
-          ))}
-          <button
-            onClick={() => setOpenTopics(new Set(filteredTopics.map((t) => t.id)))}
-            style={{
-              padding: "7px 14px",
-              borderRadius: 20,
-              border: "1.5px solid #e5e7eb",
-              background: "#fff",
-              color: "#6b7280",
-              fontSize: 12,
-              fontWeight: 600,
-              cursor: "pointer",
-              marginLeft: "auto",
-              fontFamily: "var(--font-inter), 'Inter', sans-serif",
-            }}
-          >
-            Expand all
-          </button>
-        </div>
-
-        {/* Topic cards */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-          {filteredTopics.map((topic) => (
-            <Reveal key={topic.id}>
-              <TopicCard
-                topic={topic}
-                isOpen={openTopics.has(topic.id)}
-                onToggle={() => toggleTopic(topic.id)}
-              />
-            </Reveal>
-          ))}
-          {filteredTopics.length === 0 && (
-            <p
-              style={{
-                textAlign: "center",
-                fontSize: 13,
-                color: "#9ca3af",
-                padding: "32px 0",
-              }}
-            >
-              No topics match this filter.
-            </p>
-          )}
-        </div>
 
         <p
           style={{
@@ -661,7 +871,7 @@ export function SchoolProfile({
           }}
         >
           Based on analysis of {postsAnalyzed.toLocaleString()}+ publicly available posts and comments
-          
+
            · Not affiliated with{" "}
           {name} · Last updated {lastUpdated}
         </p>
