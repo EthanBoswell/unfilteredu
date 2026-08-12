@@ -32,9 +32,9 @@ const labelStyle: CSSProperties = {
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; next?: string }>;
+  searchParams: Promise<{ error?: string; next?: string; email?: string }>;
 }) {
-  const { error, next } = await searchParams;
+  const { error, next, email } = await searchParams;
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: "#F5F4EF" }}>
@@ -84,7 +84,7 @@ export default async function LoginPage({
               {next && <input type="hidden" name="next" value={next} />}
               <div>
                 <label htmlFor="email" style={labelStyle}>Email</label>
-                <input id="email" name="email" type="email" required autoComplete="email" style={inputStyle} />
+                <input id="email" name="email" type="email" required autoComplete="email" defaultValue={email} style={inputStyle} />
               </div>
               <div>
                 <label htmlFor="password" style={labelStyle}>Password</label>

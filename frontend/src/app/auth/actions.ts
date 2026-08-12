@@ -40,6 +40,13 @@ export async function login(formData: FormData) {
   redirect(next);
 }
 
+function redirectToLoginForExistingAccount(email: string, next: string): never {
+  const message = "An account with that email already exists. Log in instead.";
+  redirect(
+    `/login?error=${encodeURIComponent(message)}&email=${encodeURIComponent(email)}&next=${encodeURIComponent(next)}`,
+  );
+}
+
 export async function signup(formData: FormData) {
   const supabase = await createClient();
   const email = formData.get("email") as string;
@@ -47,7 +54,7 @@ export async function signup(formData: FormData) {
   const next = (formData.get("next") as string) || "/";
   const origin = await getOrigin();
 
-  const { error } = await supabase.auth.signUp({
+  const { data, error } = await supabase.auth.signUp({
     email,
     password,
     options: {
@@ -55,8 +62,20 @@ export async function signup(formData: FormData) {
     },
   });
 
+  // Signing up with an email/phone-confirmation project already returns no
+  // error for an existing confirmed user — instead it hands back a fake user
+  // with an empty identities array. When confirmation is off, Supabase just
+  // errors with code "user_already_exists" instead.
+  if (error?.code === "user_already_exists") {
+    redirectToLoginForExistingAccount(email, next);
+  }
+
   if (error) {
     redirect(`/signup?error=${encodeURIComponent(error.message)}`);
+  }
+
+  if (data.user?.identities?.length === 0) {
+    redirectToLoginForExistingAccount(email, next);
   }
 
   redirect("/signup?checkEmail=1");
