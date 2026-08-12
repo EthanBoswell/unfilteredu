@@ -92,7 +92,7 @@ export default function NavClient({
 
           {dropdownOpen && (
             <div
-              className="absolute right-0 top-full flex flex-col"
+              className={`absolute top-full flex flex-col ${hasSearchButton ? "left-0" : "right-0"}`}
               style={{
                 marginTop: 8,
                 background: "#0F0F0F",
