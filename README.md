@@ -15,7 +15,7 @@ UnfilteredU gives prospective students unfiltered insight into college life — 
 
 - **Backend / Scraping:** Python (custom scraper), Apify
 - **Summarization / NLP:** Claude API
-- **Frontend:** TypeScript
+- **Frontend:** TypeScript, Javascript
 - **Deployment:** [unfilteredu.co](https://unfilteredu.co)
 
 ## Why I built this
