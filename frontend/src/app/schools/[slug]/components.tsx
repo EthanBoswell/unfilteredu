@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { Star } from "lucide-react";
 import Link from "next/link";
 import { toggleSavedSchool } from "./actions";
 import SchoolHero from "@/components/SchoolHero";
@@ -403,7 +404,19 @@ function TopicCard({
 
 // ── Save school ────────────────────────────────────────────────────────────────
 
-function SaveSchoolButton({ schoolId, slug, initiallySaved }: { schoolId: string; slug: string; initiallySaved: boolean }) {
+function SaveSchoolButton({
+  schoolId,
+  slug,
+  initiallySaved,
+  accent,
+  accentText,
+}: {
+  schoolId: string;
+  slug: string;
+  initiallySaved: boolean;
+  accent: string;
+  accentText: string;
+}) {
   const [saved, setSaved] = useState(initiallySaved);
   const [pending, startTransition] = useTransition();
 
@@ -424,18 +437,20 @@ function SaveSchoolButton({ schoolId, slug, initiallySaved }: { schoolId: string
       type="button"
       onClick={handleClick}
       disabled={pending}
-      className="flex items-center gap-1.5 rounded-md px-4 py-1.5 text-[12px] leading-none font-bold"
+      className="flex items-center gap-2 rounded-full px-5 py-2.5 text-[13px] leading-none font-bold transition-transform hover:scale-105"
       style={{
         fontFamily: "var(--font-syne), 'Syne', sans-serif",
         fontWeight: 700,
-        background: saved ? "#111" : "#fff",
-        color: saved ? "#fff" : "#111",
-        border: "1.5px solid #111",
+        background: saved ? accent : "#fff",
+        color: saved ? accentText : "#111",
+        border: `2px solid ${accent}`,
+        boxShadow: saved ? "0 4px 14px rgba(0,0,0,0.18)" : "0 2px 8px rgba(0,0,0,0.08)",
         cursor: pending ? "default" : "pointer",
         opacity: pending ? 0.7 : 1,
       }}
     >
-      {saved ? "★ Saved" : "☆ Save school"}
+      <Star size={16} strokeWidth={2.25} fill={saved ? "currentColor" : "none"} />
+      {saved ? "Saved" : "Save school"}
     </button>
   );
 }
@@ -445,6 +460,7 @@ function SaveSchoolButton({ schoolId, slug, initiallySaved }: { schoolId: string
 function GatedSchoolContent({
   slug,
   accent,
+  accentText,
   verdict,
   topics,
   schoolId,
@@ -452,6 +468,7 @@ function GatedSchoolContent({
 }: {
   slug: string;
   accent: string;
+  accentText: string;
   verdict: GatedData["verdict"];
   topics: TopicData[];
   schoolId: string | null;
@@ -486,7 +503,13 @@ function GatedSchoolContent({
     <>
       {schoolId && (
         <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24 }}>
-          <SaveSchoolButton schoolId={schoolId} slug={slug} initiallySaved={initiallySaved} />
+          <SaveSchoolButton
+            schoolId={schoolId}
+            slug={slug}
+            initiallySaved={initiallySaved}
+            accent={accent}
+            accentText={accentText}
+          />
         </div>
       )}
 
@@ -640,16 +663,18 @@ function GatePlaceholder({ slug }: { slug: string }) {
       <div style={{ filter: "blur(5px)", opacity: 0.55, pointerEvents: "none", userSelect: "none" }}>
         <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, marginBottom: 32 }}>
           <div
+            className="flex items-center gap-2"
             style={{
-              padding: "7px 16px",
-              borderRadius: 20,
-              border: "1.5px solid #111",
-              fontSize: 12,
+              padding: "10px 20px",
+              borderRadius: 999,
+              border: "2px solid #111",
+              fontSize: 13,
               fontWeight: 700,
               fontFamily: "var(--font-syne), 'Syne', sans-serif",
             }}
           >
-            ☆ Save school
+            <Star size={16} strokeWidth={2.25} />
+            Save school
           </div>
         </div>
 
@@ -797,6 +822,7 @@ export function SchoolProfile({
   location,
   initials,
   accent,
+  accentText,
   postsAnalyzed,
   lastUpdated,
   heroDescription,
@@ -834,6 +860,7 @@ export function SchoolProfile({
           <GatedSchoolContent
             slug={slug}
             accent={accent}
+            accentText={accentText}
             verdict={gated.verdict}
             topics={gated.topics}
             schoolId={gated.schoolId}
