@@ -46,17 +46,18 @@ export default function NavClient({
       ];
 
   const avatarInitial = userEmail?.[0]?.toUpperCase() ?? "";
+  const hasSearchButton = Boolean(schoolName && schoolColor);
 
   return (
     <nav
-      className="sticky top-0 z-[100] flex items-center justify-between px-6"
-      style={{ background: "#0F0F0F", height: 52 }}
+      className="sticky top-0 z-[100] items-center px-6"
+      style={
+        hasSearchButton
+          ? { background: "#0F0F0F", height: 52, display: "grid", gridTemplateColumns: "auto 1fr auto", alignItems: "center" }
+          : { background: "#0F0F0F", height: 52, display: "flex", alignItems: "center", justifyContent: "space-between" }
+      }
     >
-      <a href="/">
-        <Wordmark size={18} dark />
-      </a>
-
-      <div className="flex items-center gap-5">
+      <div className="flex items-center" style={{ order: hasSearchButton ? 1 : 2 }}>
         <div ref={dropdownRef} className="relative">
           <button
             type="button"
@@ -149,27 +150,34 @@ export default function NavClient({
             </div>
           )}
         </div>
-
-        {schoolName && schoolColor ? (
-          <button
-            type="button"
-            onClick={() => setSearchOpen(true)}
-            className="flex items-center gap-1.5 rounded-md px-4 py-1.5 text-[12px] leading-none font-bold"
-            style={{
-              fontFamily: "var(--font-syne), 'Syne', sans-serif",
-              fontWeight: 700,
-              background: schoolColor,
-              color: schoolTextColor,
-            }}
-          >
-            <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="8" />
-              <path d="M21 21l-4.35-4.35" strokeLinecap="round" />
-            </svg>
-            Search schools
-          </button>
-        ) : null}
       </div>
+
+      <div className="flex items-center justify-center" style={{ order: hasSearchButton ? 2 : 1 }}>
+        <a href="/">
+          <Wordmark size={18} dark />
+        </a>
+      </div>
+
+      {hasSearchButton ? (
+        <button
+          type="button"
+          onClick={() => setSearchOpen(true)}
+          className="flex items-center gap-1.5 rounded-md px-4 py-1.5 text-[12px] leading-none font-bold"
+          style={{
+            order: 3,
+            fontFamily: "var(--font-syne), 'Syne', sans-serif",
+            fontWeight: 700,
+            background: schoolColor,
+            color: schoolTextColor,
+          }}
+        >
+          <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8" />
+            <path d="M21 21l-4.35-4.35" strokeLinecap="round" />
+          </svg>
+          Search schools
+        </button>
+      ) : null}
 
       <SchoolSearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
     </nav>

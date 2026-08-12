@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from "react";
-import Link from "next/link";
 import { deriveSchoolPalette } from "@/lib/palette";
 
 // Cycled to fake cloth movement on the flag — ported from the reference prototype.
@@ -110,12 +109,6 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
         background: `linear-gradient(to bottom, ${palette.accentLight} 0%, ${PAPER} 100%)`,
       }}
     >
-      <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-end" style={{ padding: "22px 26px" }}>
-        <Link href="/" style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "0.78rem", color: INK, opacity: 0.7 }}>
-          ← All Schools
-        </Link>
-      </div>
-
       <div className="absolute inset-0 flex items-end justify-center">
         {/* background blob — parallax layer 1 (slowest) */}
         <div
@@ -219,7 +212,20 @@ export default function SchoolHero({ accentHex, schoolName, initials, eyebrow, d
 
       <div
         className={reducedMotion ? "" : "desk-hero-fade-up"}
-        style={{ position: "absolute", top: "8%", left: 0, right: 0, zIndex: 10, textAlign: "center", ...(reducedMotion ? { opacity: 1 } : {}) }}
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: deskHeight,
+          zIndex: 10,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
+          ...(reducedMotion ? { opacity: 1 } : {}),
+        }}
       >
         <p
           style={{
