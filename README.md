@@ -28,6 +28,4 @@ Actively in development — currently expanding to add user accounts and filing 
 
 ## Roadmap
 
-- [ ] User accounts and saved school lists
-- [ ] Expand source coverage beyond Reddit/YouTube
-- [ ] Sentiment trend tracking over time per school
+- [x] User accounts and saved school lists
