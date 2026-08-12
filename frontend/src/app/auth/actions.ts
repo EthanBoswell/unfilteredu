@@ -1,6 +1,7 @@
 "use server";
 
 import { headers } from "next/headers";
+import { after } from "next/server";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { logEvent } from "@/lib/events";
@@ -30,7 +31,7 @@ export async function login(formData: FormData) {
     .eq("user_id", data.user.id)
     .maybeSingle();
 
-  await logEvent(supabase, data.user.id, "login", { method: "password" });
+  after(() => logEvent(supabase, data.user.id, "login", { method: "password" }));
 
   if (!profile) {
     redirect(`/onboarding?next=${encodeURIComponent(next)}`);
