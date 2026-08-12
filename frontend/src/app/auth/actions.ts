@@ -3,6 +3,7 @@
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { logEvent } from "@/lib/events";
 
 async function getOrigin() {
   const headersList = await headers();
@@ -28,6 +29,8 @@ export async function login(formData: FormData) {
     .select("user_id")
     .eq("user_id", data.user.id)
     .maybeSingle();
+
+  await logEvent(supabase, data.user.id, "login", { method: "password" });
 
   if (!profile) {
     redirect(`/onboarding?next=${encodeURIComponent(next)}`);

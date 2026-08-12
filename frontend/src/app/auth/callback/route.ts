@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { logEvent } from "@/lib/events";
 
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
@@ -16,9 +17,13 @@ export async function GET(request: Request) {
         .eq("user_id", data.user.id)
         .maybeSingle();
 
+      const method = data.user.app_metadata?.provider ?? "unknown";
+
       if (!profile) {
+        await logEvent(supabase, data.user.id, "signup", { method });
         return NextResponse.redirect(`${origin}/onboarding?next=${encodeURIComponent(next)}`);
       }
+      await logEvent(supabase, data.user.id, "login", { method });
       return NextResponse.redirect(`${origin}${next}`);
     }
   }
