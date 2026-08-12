@@ -145,8 +145,8 @@ export default function HomepageHero() {
         </div>
 
         <p
-          className="mt-3 text-[12px]"
-          style={{ fontFamily: "var(--font-dm), 'DM Sans', sans-serif", color: "#555" }}
+          className="mt-3 text-[16px]"
+          style={{ fontFamily: "var(--font-dm), 'DM Sans', sans-serif", color: "#F5F4EF" }}
         >
           {SCHOOLS.length} schools available · more added weekly
         </p>

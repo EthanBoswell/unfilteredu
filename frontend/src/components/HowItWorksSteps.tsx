@@ -146,8 +146,8 @@ function VibeCheckMiniWidget({ inView }: { inView: boolean }) {
             style={{
               fontFamily: FONT_DM,
               fontWeight: 600,
-              fontSize: 9,
-              color: "#78716c",
+              fontSize: 10,
+              color: "#F5F4EF",
               letterSpacing: "0.03em",
             }}
           >
