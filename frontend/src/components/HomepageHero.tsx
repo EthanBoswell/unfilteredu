@@ -60,7 +60,7 @@ export default function HomepageHero() {
             className="inline-block rounded-full"
             style={{ width: 6, height: 6, background: "var(--color-rust)" }}
           />
-          {SCHOOLS.length} schools · updated weekly
+          {SCHOOLS.length} schools
         </p>
 
         {/* Headline */}
